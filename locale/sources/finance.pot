@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-04 12:47+0000\n"
+"POT-Creation-Date: 2022-10-14 18:54+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4352,14 +4352,14 @@ msgstr ""
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/france.rst:182
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/india.rst:16
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/luxembourg.rst:14
-#: ../../content/applications/finance/accounting/receivables/customer_invoices/electronic_invoicing.rst:93
+#: ../../content/applications/finance/accounting/receivables/customer_invoices/electronic_invoicing.rst:94
 msgid "Name"
 msgstr ""
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/egypt.rst:17
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/india.rst:17
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/luxembourg.rst:15
-#: ../../content/applications/finance/accounting/receivables/customer_invoices/electronic_invoicing.rst:94
+#: ../../content/applications/finance/accounting/receivables/customer_invoices/electronic_invoicing.rst:95
 msgid "Technical name"
 msgstr ""
 
@@ -14550,11 +14550,11 @@ msgid "Applicability"
 msgstr ""
 
 #: ../../content/applications/finance/accounting/receivables/customer_invoices/electronic_invoicing.rst:23
-msgid "Factur-X (CII)"
+msgid "Factur-X (PDF/A-3)"
 msgstr ""
 
 #: ../../content/applications/finance/accounting/receivables/customer_invoices/electronic_invoicing.rst:24
-msgid "Default format on Odoo (enabled by default)"
+msgid "For French and German companies"
 msgstr ""
 
 #: ../../content/applications/finance/accounting/receivables/customer_invoices/electronic_invoicing.rst:25
@@ -14670,46 +14670,46 @@ msgid "For E-FFF, the xml file only appears after having generated the PDF (:gui
 msgstr ""
 
 #: ../../content/applications/finance/accounting/receivables/customer_invoices/electronic_invoicing.rst:71
-msgid "By default, the :guilabel:`Factur-X` option is enabled. It means that an XML file is automatically included in the PDF document that is sent."
+msgid "Every PDF generated from Odoo contains a :guilabel:`Factur-X` XML file (for interoperability purpose). For German and French companies, the option :guilabel:`Factur-X (PDF/A-3)` in addition enables validation checks on the invoice and generates a PDF/A-3 compliant file, required by plaftorms like Chorus Pro."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/receivables/customer_invoices/electronic_invoicing.rst:73
+#: ../../content/applications/finance/accounting/receivables/customer_invoices/electronic_invoicing.rst:74
 msgid "The formats available depend on the country registered in your company's :guilabel:`General Information`."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/receivables/customer_invoices/electronic_invoicing.rst:75
+#: ../../content/applications/finance/accounting/receivables/customer_invoices/electronic_invoicing.rst:76
 msgid "Odoo supports the **Peppol BIS Billing 3.0** format that can be used via existing access points."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/receivables/customer_invoices/electronic_invoicing.rst:79
+#: ../../content/applications/finance/accounting/receivables/customer_invoices/electronic_invoicing.rst:80
 msgid "Add new formats to a database created before July 2022"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/receivables/customer_invoices/electronic_invoicing.rst:81
+#: ../../content/applications/finance/accounting/receivables/customer_invoices/electronic_invoicing.rst:82
 msgid "If your database was created before July 2022 and you wish to use one of the formats available from July 2022, you have to :ref:`install <general/install>` the module :guilabel:`Import/Export electronic invoices with UBL/CII` (module’s technical name: `account_edi_ubl_cii`) and your country-specific module."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/receivables/customer_invoices/electronic_invoicing.rst:87
+#: ../../content/applications/finance/accounting/receivables/customer_invoices/electronic_invoicing.rst:88
 msgid "If you want to use the Belgian format E-FFF in a database created prior to July 2022, you need to :ref:`install <general/install>`:"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/receivables/customer_invoices/electronic_invoicing.rst:95
+#: ../../content/applications/finance/accounting/receivables/customer_invoices/electronic_invoicing.rst:96
 msgid "Belgium - E-Invoicing (UBL 2.0, e-fff)"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/receivables/customer_invoices/electronic_invoicing.rst:96
+#: ../../content/applications/finance/accounting/receivables/customer_invoices/electronic_invoicing.rst:97
 msgid "`l10n_be_edi`"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/receivables/customer_invoices/electronic_invoicing.rst:97
+#: ../../content/applications/finance/accounting/receivables/customer_invoices/electronic_invoicing.rst:98
 msgid "Import/Export electronic invoices with UBL/CII"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/receivables/customer_invoices/electronic_invoicing.rst:98
+#: ../../content/applications/finance/accounting/receivables/customer_invoices/electronic_invoicing.rst:99
 msgid "`account_edi_ubl_cii`"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/receivables/customer_invoices/electronic_invoicing.rst:101
+#: ../../content/applications/finance/accounting/receivables/customer_invoices/electronic_invoicing.rst:102
 msgid "Once the new module is installed, UBL 2.0 and UBL 2.1 formats no longer appear in the journal since UBL BIS Billing 3.0 is available and more widely supported."
 msgstr ""
 

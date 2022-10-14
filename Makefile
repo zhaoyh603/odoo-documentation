@@ -10,7 +10,11 @@ ifndef BUILD_DIR
 endif
 
 ifndef CURRENT_LANG
-  CURRENT_LANG = en
+  CURRENT_LANG = zh_CN#en
+endif
+
+ifndef IS_REMOTE_BUILD
+  IS_REMOTE_BUILD = True
 endif
 
 SPHINX_BUILD   = sphinx-build
@@ -42,6 +46,7 @@ help:
 	@echo "  html         to build the documentation to HTML"
 	@echo "  fast         to build the documentation to HTML with shallow menu (faster)"
 	@echo "  clean        to delete the build files"
+	@echo "  update       to update po files from pot files"
 
 clean:
 	@echo "Cleaning build files..."
@@ -67,7 +72,9 @@ gettext:
 	@echo "Generating translatable files..."
 	$(SPHINX_BUILD) -c $(CONFIG_DIR) -b gettext $(SOURCE_DIR) locale/sources
 	@echo "Generation finished."
-
+update:
+	@echo "update  po from pot files..."
+	sphinx-intl update -p locale/sources -d locale/ -l $(CURRENT_LANG)
 $(HTML_BUILD_DIR)/_static/style.css: extensions/odoo_theme/static/style.scss extensions/odoo_theme/static/scss/*.scss
 	@echo "Compiling stylesheets..."
 	mkdir -p $(HTML_BUILD_DIR)/_static

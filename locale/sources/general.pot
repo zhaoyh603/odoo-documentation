@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-04 12:47+0000\n"
+"POT-Creation-Date: 2022-10-14 18:54+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgid "By default, an *Apps* filter is applied. If you want to search for module
 msgstr ""
 
 #: ../../content/applications/general/apps_modules.rst:None
-msgid "Add \"Extra\" filter in Odoo Apps"
+msgid "在过滤器中添加 \"额外\" 查询"
 msgstr ""
 
 #: ../../content/applications/general/apps_modules.rst:16
@@ -774,31 +774,31 @@ msgstr ""
 msgid "Additional modes are available for developers: `?debug=assets` enables the :ref:`assets mode <frontend/framework/assets_debug_mode>`, and `?debug=tests` enables the :ref:`tests mode <frontend/framework/tests_debug_mode>`."
 msgstr ""
 
-#: ../../content/applications/general/developer_mode.rst:63
+#: ../../content/applications/general/developer_mode.rst:65
 msgid "Locate the mode tools"
 msgstr ""
 
-#: ../../content/applications/general/developer_mode.rst:65
+#: ../../content/applications/general/developer_mode.rst:67
 msgid "The Developer mode tools can be accessed from the *Open Developer Tools* button, located on the header of your pages. This menu contains additional tools that are useful to understand or edit technical data, such as the views or the actions. It contains some useful menu items such as:"
 msgstr ""
 
-#: ../../content/applications/general/developer_mode.rst:70
+#: ../../content/applications/general/developer_mode.rst:72
 msgid "edit action"
 msgstr ""
 
-#: ../../content/applications/general/developer_mode.rst:71
+#: ../../content/applications/general/developer_mode.rst:73
 msgid "manage filters"
 msgstr ""
 
-#: ../../content/applications/general/developer_mode.rst:72
+#: ../../content/applications/general/developer_mode.rst:74
 msgid "edit the current view"
 msgstr ""
 
-#: ../../content/applications/general/developer_mode.rst:73
+#: ../../content/applications/general/developer_mode.rst:75
 msgid "see the `fields view get`"
 msgstr ""
 
-#: ../../content/applications/general/developer_mode.rst:74
+#: ../../content/applications/general/developer_mode.rst:76
 msgid "and much more."
 msgstr ""
 
@@ -2725,7 +2725,7 @@ msgid "Go to :menuselection:`Settings --> Manage Users` and click on *Create*."
 msgstr ""
 
 #: ../../content/applications/general/users/manage_users.rst:None
-msgid "View of the settings page emphasizing the manage users field in Odoo"
+msgid "在设置页面中找到管理用户字段。"
 msgstr ""
 
 #: ../../content/applications/general/users/manage_users.rst:27
@@ -2737,7 +2737,7 @@ msgid "The list of applications shown is based on the applications installed on 
 msgstr ""
 
 #: ../../content/applications/general/users/manage_users.rst:None
-msgid "View of a user’s form emphasizing the access rights tab in Odoo"
+msgid "用户表单中访问权限设置视图"
 msgstr ""
 
 #: ../../content/applications/general/users/manage_users.rst:34
@@ -2745,7 +2745,7 @@ msgid "When you are done editing the page and have *Saved* it, an invitation ema
 msgstr ""
 
 #: ../../content/applications/general/users/manage_users.rst:None
-msgid "View of a user’s form with a notification that the invitation email has been sent in Odoo"
+msgid "用户表单中发生邮件提示界面"
 msgstr ""
 
 #: ../../content/applications/general/users/manage_users.rst:42
@@ -2757,7 +2757,7 @@ msgid "With the :ref:`developer mode <developer-mode>` activated, *User Types* c
 msgstr ""
 
 #: ../../content/applications/general/users/manage_users.rst:None
-msgid "View of a user’s form in developer mode emphasizing the user type field in Odoo"
+msgid "在开发者模式下用户表单中用户类型字段选择界面"
 msgstr ""
 
 #: ../../content/applications/general/users/manage_users.rst:53
@@ -2797,7 +2797,7 @@ msgid "To do so, go to :menuselection:`Settings --> Permissions`, activate **Pas
 msgstr ""
 
 #: ../../content/applications/general/users/manage_users.rst:None
-msgid "Enabling Password Reset in Odoo Settings"
+msgid "在设置中启用密码重置界面"
 msgstr ""
 
 #: ../../content/applications/general/users/manage_users.rst:94
@@ -2817,7 +2817,7 @@ msgid "This email contains all the instructions needed to reset the password, al
 msgstr ""
 
 #: ../../content/applications/general/users/manage_users.rst:None
-msgid "Example of an email with a password reset link for an Odoo account"
+msgid "带有Odoo帐户密码重置链接的电子邮件示例"
 msgstr ""
 
 #: ../../content/applications/general/users/manage_users.rst:114
@@ -2829,7 +2829,7 @@ msgid "Go to :menuselection:`Settings --> Users  & Companies --> Users` and sele
 msgstr ""
 
 #: ../../content/applications/general/users/manage_users.rst:None
-msgid "Change another user's password on Odoo"
+msgid "修改用户密码界面"
 msgstr ""
 
 #: ../../content/applications/general/users/manage_users.rst:123
@@ -2857,7 +2857,7 @@ msgid "Note that if not handled correctly, it may be the source of a lot of inco
 msgstr ""
 
 #: ../../content/applications/general/users/manage_users.rst:None
-msgid "View of a user’s form emphasizing the multi companies field in Odoo"
+msgid "在用户表单中的多公司字段设置页面"
 msgstr ""
 
 #: ../../content/applications/general/users/manage_users.rst:152
