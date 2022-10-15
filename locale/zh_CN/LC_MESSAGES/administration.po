@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0 docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-14 18:54+0800\n"
-"PO-Revision-Date: 2022-10-15 12:11+0800\n"
+"PO-Revision-Date: 2022-10-15 17:05+0800\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -42,7 +42,7 @@ msgstr "设置CDN"
 
 #: ../../content/administration/install/cdn.rst:8
 msgid "Deploying with KeyCDN_"
-msgstr ""
+msgstr "KeyCDN_ 部署"
 
 #: ../../content/administration/install/cdn.rst:12
 msgid ""
@@ -1285,6 +1285,9 @@ msgid ""
 "downloaded from our download_ page (you must to be logged in as a paying "
 "customer or partner to download the Enterprise packages)."
 msgstr ""
+"具有所有相关依赖项的官方社区版软件包可每日构建服务器nightly_ 上获取。社区和企业"
+"软件包都可以从我们的下载页面下载 download_（您必须以付费客户或合作伙伴身份登录才"
+"能下载企业软件包）。"
 
 #: ../../content/administration/install/install.rst:90
 #: ../../content/administration/install/install.rst:296
@@ -1293,39 +1296,43 @@ msgstr ""
 #: ../../content/administration/install/install.rst:505
 #: ../../content/administration/install/install.rst:672
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: ../../content/administration/install/install.rst:92
 msgid ""
 "Download the installer from our nightly_ server (Community only) or the Windows "
 "installer from the download_ page (any edition)."
 msgstr ""
+"从每日构建服务器 nightly_（仅限社区）下载安装程序，或从下载页面（任何版本）下载 "
+"download_ Windows 安装程序。"
 
 #: ../../content/administration/install/install.rst:94
 msgid "Execute the downloaded file."
-msgstr ""
+msgstr "执行下载的文件。"
 
 #: ../../content/administration/install/install.rst
 msgid ""
 "On Windows 8 and later you may see a warning titled \"Windows protected your PC"
 "\"."
 msgstr ""
+"在Windows 8 及以后的版本，可能会看到标题为\"Windows已经保护您的电脑\"的警告信"
+"息。"
 
 #: ../../content/administration/install/install.rst
 msgid "Click on **More Info** and then on **Run anyway**."
-msgstr ""
+msgstr "点击 **更多信息** 然后点击 **仍然运行** 。"
 
 #: ../../content/administration/install/install.rst:100
 msgid "Accept the UAC_ prompt."
-msgstr ""
+msgstr "接受 UAC_ 提示。"
 
 #: ../../content/administration/install/install.rst:101
 msgid "Go through the various installation steps."
-msgstr ""
+msgstr "按照步骤完成安装。"
 
 #: ../../content/administration/install/install.rst:103
 msgid "Odoo will automatically be started at the end of the installation."
-msgstr ""
+msgstr "Odoo将在安装结束后自动启动。"
 
 #: ../../content/administration/install/install.rst:106
 #: ../../content/administration/install/install.rst:314
@@ -1334,19 +1341,19 @@ msgstr ""
 #: ../../content/administration/install/install.rst:540
 #: ../../content/administration/install/install.rst:683
 msgid "Linux"
-msgstr ""
+msgstr "Linux"
 
 #: ../../content/administration/install/install.rst:109
 #: ../../content/administration/install/install.rst:360
 msgid "Prepare"
-msgstr ""
+msgstr "准备"
 
 #: ../../content/administration/install/install.rst:113
 #: ../../content/administration/install/install.rst:146
 #: ../../content/administration/install/install.rst:179
 #: ../../content/administration/install/install.rst:547
 msgid "Debian/Ubuntu"
-msgstr ""
+msgstr "Debian/Ubuntu"
 
 #: ../../content/administration/install/install.rst:115
 msgid ""
@@ -1355,12 +1362,14 @@ msgid ""
 "your Odoo instance. Execute the following command in order to install the "
 "PostgreSQL server:"
 msgstr ""
+"Odoo需要 `PostgreSQL`_ 数据库服务才能正常运行。'deb' 软件包的默认配置是使用与 "
+"Odoo 实例相同的主机上的 PostgreSQL 服务。执行以下命令安装PostgreSQL："
 
 #: ../../content/administration/install/install.rst:123
 #: ../../content/administration/install/install.rst:159
 #: ../../content/administration/install/install.rst:220
 msgid "Fedora"
-msgstr ""
+msgstr "Fedora"
 
 #: ../../content/administration/install/install.rst:125
 msgid ""
@@ -1368,6 +1377,8 @@ msgid ""
 "command is available and well configured and, only then, execute the following "
 "command in order to install the PostgreSQL server:"
 msgstr ""
+"Odoo需要 `PostgreSQL`_ 数据库服务才能正常运行。确保 `sudo` 命令可用且配置良好，"
+"然后执行以下命令以安装PostgreSQL："
 
 #: ../../content/administration/install/install.rst:137
 #: ../../content/administration/install/install.rst:645
@@ -1377,10 +1388,13 @@ msgid ""
 "and footers. See our `wiki <https://github.com/odoo/odoo/wiki/Wkhtmltopdf>`_ "
 "for more details on the various versions."
 msgstr ""
+"`wkhtmltopdf` 不是通过 **pip** 安装的。必须手工安装 `0.12.5 <the wkhtmltopdf "
+"download page_>`_ 版本才能支持页眉页脚。有关各种版本的更多详细信息，请参阅 "
+"`wiki <https://github.com/odoo/odoo/wiki/Wkhtmltopdf>`_ 。"
 
 #: ../../content/administration/install/install.rst:142
 msgid "Repository"
-msgstr ""
+msgstr "存储库"
 
 #: ../../content/administration/install/install.rst:148
 msgid ""
@@ -1388,12 +1402,14 @@ msgid ""
 "distributions. It can be used to install *Odoo Community Edition* by executing "
 "the following commands **as root**:"
 msgstr ""
+"Odoo S.A.提供了一个可以与 Debian 和 Ubuntu 发行版一起使用的存储库。以 `root` 身"
+"份执行以下命令来安装 *Odoo 社区版* ："
 
 #: ../../content/administration/install/install.rst:157
 msgid ""
 "You can then use the usual `apt-get upgrade` command to keep your installation "
 "up-to-date."
-msgstr ""
+msgstr "可以使用 `apt-get upgrade` 命令来安装最新版。"
 
 #: ../../content/administration/install/install.rst:161
 msgid ""
@@ -1401,14 +1417,16 @@ msgid ""
 "It can be used to install *Odoo Community Edition* by executing the following "
 "commands:"
 msgstr ""
+"Odoo S.A.提供了一个可以与 Fedora 发行版一起使用的存储库。可以执行以下命令来安装 "
+"*Odoo 社区版* ："
 
 #: ../../content/administration/install/install.rst:172
 msgid "At this moment, there is no nightly repository for the Enterprise Edition."
-msgstr ""
+msgstr "目前，企业版还没有每日构建存储库。"
 
 #: ../../content/administration/install/install.rst:175
 msgid "Distribution package"
-msgstr ""
+msgstr "分发包"
 
 #: ../../content/administration/install/install.rst:181
 msgid ""
@@ -1416,6 +1434,8 @@ msgid ""
 "the *Community* and *Enterprise* editions can be downloaded from the `official "
 "download page <download_>`_."
 msgstr ""
+"无需使用上述存储库， *社区版* 和 *企业版* 的“deb”包都可以从 `官方下载页面 "
+"<download>_` 下载。"
 
 #: ../../content/administration/install/install.rst:186
 msgid ""
