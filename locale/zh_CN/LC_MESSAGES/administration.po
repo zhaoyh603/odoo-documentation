@@ -52,7 +52,7 @@ msgstr ""
 
 #: ../../content/administration/install/cdn.rst:16
 msgid "Step 1: Create a pull zone in the KeyCDN dashboard"
-msgstr ""
+msgstr "Step 1: Create a pull zone in the KeyCDN dashboard"
 
 #: ../../content/administration/install/cdn.rst:21
 msgid ""
