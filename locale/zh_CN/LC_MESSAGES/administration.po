@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0 docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-14 18:54+0800\n"
-"PO-Revision-Date: 2022-10-15 20:38+0800\n"
+"PO-Revision-Date: 2022-10-15 21:46+0800\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -1814,7 +1814,7 @@ msgstr ""
 msgid ""
 "Odoo dependencies are listed in the `requirements.txt` file located at the root "
 "of the Odoo community directory."
-msgstr ""
+msgstr "Odoo的依赖项列在社区版根目录 `requirements.txt` 文件中。"
 
 #: ../../content/administration/install/install.rst:515
 #: ../../content/administration/install/install.rst:582
@@ -1824,6 +1824,8 @@ msgid ""
 "instances of Odoo or with your system. You can use virtualenv_ to create "
 "isolated Python environments."
 msgstr ""
+"最好不要在 Odoo 的不同实例之间或与系统混合使用python模块包。您可以使用 "
+"virtualenv_ 创建独立的Python虚拟环境。"
 
 #: ../../content/administration/install/install.rst:518
 msgid ""
