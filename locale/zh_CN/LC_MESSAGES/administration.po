@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0 docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-14 18:54+0800\n"
-"PO-Revision-Date: 2022-10-15 19:49+0800\n"
+"PO-Revision-Date: 2022-10-15 20:38+0800\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -1605,9 +1605,9 @@ msgid ""
 "`setup/install/editions` to get access to the Enterprise repository."
 msgstr ""
 "**企业版Git存储库不包含完整的 Odoo 源代码** 。它只是一个附加组件的集合。主代码在"
-"社区版本中。运行企业版本实际上意味着从社区版服务并将插件路径选项设置为企业版本的"
-"文件夹。您需要同时克隆社区版和企业版存储库，才能正常安装企业版。参见 :"
-"ref:'setup/install/editions' 以访问企业存储库。"
+"社区版本中。运行企业版本实际上意味着是运行社区版服务并将插件路径选项设置为企业版"
+"本的文件夹。您需要同时克隆社区版和企业版存储库，才能正常安装企业版。参见 :ref:"
+"`setup/install/editions` 以访问企业存储库。"
 
 #: ../../content/administration/install/install.rst:300
 #: ../../content/administration/install/install.rst:318
@@ -1720,7 +1720,7 @@ msgid ""
 "\\PostgreSQL\\\\<version>\\\\bin`) to your `PATH`."
 msgstr ""
 "添加 PostgreSQL的 `bin` 目录 (默认 : :file:`C:\\\\Program Files\\\\PostgreSQL\\"
-"\\<version>\\\\bin`) to your `PATH`."
+"\\<version>\\\\bin`) 到环境变量 `PATH` 中。"
 
 #: ../../content/administration/install/install.rst:442
 msgid "Create a postgres user with a password using the pg admin gui:"
@@ -1753,8 +1753,8 @@ msgid ""
 "Open the **Privileges** tab and switch **Can login?** to `Yes` and **Create "
 "database?** to `Yes`."
 msgstr ""
-"打开 **Privileges** 标签并切换 **Can login?** 转到 `Yes` 并 **Create database?"
-"** 然后 `Yes` 。"
+"打开 **Privileges** 标签并切换 **Can login?** 点击 `Yes` 然后 **Create database?"
+"** 点击 `Yes` 。"
 
 #: ../../content/administration/install/install.rst:454
 msgid ""
@@ -1805,6 +1805,9 @@ msgid ""
 "tools-for-visual-studio-2019>`_. When prompted, select **C++ build tools** in "
 "the **Workloads** tab and install them."
 msgstr ""
+"在安装依赖项之前，您必须下载并安装 `Build Tools for Visual Studio <https://"
+"visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019>`_ 。出"
+"现提示时，在 ** workload ** 选项卡中选择 ** C++ build tools** 并安装它们。"
 
 #: ../../content/administration/install/install.rst:511
 #: ../../content/administration/install/install.rst:606
