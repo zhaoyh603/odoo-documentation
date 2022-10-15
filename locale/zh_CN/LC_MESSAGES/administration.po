@@ -1807,7 +1807,7 @@ msgid ""
 msgstr ""
 "在安装依赖项之前，您必须下载并安装 `Build Tools for Visual Studio <https://"
 "visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019>`_ 。出"
-"现提示时，在 ** workload ** 选项卡中选择 ** C++ build tools** 并安装它们。"
+"现提示时，在 **workload** 选项卡中选择 **C++ build tools** 并安装它们。"
 
 #: ../../content/administration/install/install.rst:511
 #: ../../content/administration/install/install.rst:606
