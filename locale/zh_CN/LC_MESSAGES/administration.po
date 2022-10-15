@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0 docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-14 18:54+0800\n"
-"PO-Revision-Date: 2022-10-15 21:46+0800\n"
+"PO-Revision-Date: 2022-10-15 23:26+0800\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -1498,7 +1498,7 @@ msgstr "Odoo 16.0 的“rpm” 包支持 Fedora 34。"
 #: ../../content/administration/install/install.rst:229
 msgid ""
 "Once downloaded, the package can be installed using the 'dnf' package manager:"
-msgstr "Odoo 15.0 “rpm” 软件包支持 Fedora 34。"
+msgstr ""
 
 #: ../../content/administration/install/install.rst:240
 msgid "Source install"
@@ -1833,6 +1833,8 @@ msgid ""
 "run **pip** on the requirements file in a terminal **with Administrator "
 "privileges**:"
 msgstr ""
+"切换到 Odoo 社区版安装路径( `CommunityPath` )，然后 **以管理员权限** 运行 "
+"**pip** 安装依赖文件："
 
 #: ../../content/administration/install/install.rst:527
 #: ../../content/administration/install/install.rst:594
@@ -1840,17 +1842,17 @@ msgstr ""
 msgid ""
 "For languages with right-to-left interface (such as Arabic or Hebrew), the "
 "package `rtlcss` is needed:"
-msgstr ""
+msgstr "对于从右到左阅读的语言(例如阿拉伯语或希伯来语)，还需要 `rtlcss` 包："
 
 #: ../../content/administration/install/install.rst:530
 msgid "Download and install `nodejs <https://nodejs.org/en/download/>`_."
-msgstr ""
+msgstr "下载并安装 `nodejs <https://nodejs.org/en/download/>`_ 。"
 
 #: ../../content/administration/install/install.rst:531
 #: ../../content/administration/install/install.rst:598
 #: ../../content/administration/install/install.rst:638
 msgid "Install `rtlcss`:"
-msgstr ""
+msgstr "安装 `rtlcss` ："
 
 #: ../../content/administration/install/install.rst:537
 msgid ""
