@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0 docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-14 18:54+0800\n"
-"PO-Revision-Date: 2022-10-16 13:11+0800\n"
+"PO-Revision-Date: 2022-10-16 13:18+0800\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -1930,7 +1930,7 @@ msgid ""
 "requirements for the current user."
 msgstr ""
 "切换到Odoo社区版安装路径 ( :file:`CommunityPath`)，运行 **pip** 命令为当前用户安"
-"装requirements文件中的依赖包："
+"装requirements文件中的依赖包。"
 
 #: ../../content/administration/install/install.rst:597
 msgid "Download and install **nodejs** and **npm** with your package manager."
@@ -2004,7 +2004,7 @@ msgstr "常见的必要配置有:"
 
 #: ../../content/administration/install/install.rst:665
 msgid "PostgreSQL user and password."
-msgstr ""
+msgstr "PostgreSQL 用户和密码。"
 
 #: ../../content/administration/install/install.rst:666
 msgid "Custom addon paths beyond the defaults, to load your own modules."
@@ -2020,7 +2020,7 @@ msgid ""
 "is the PostgreSQL login, `dbpassword` is the PostgreSQL password, and `mydb` is "
 "the name of the PostgreSQL database."
 msgstr ""
-"其中 `CommunityPath` 是Odoo社区版的安装路径，`dbuser` 是 PostgreSQ L的登录名， "
+"其中 `CommunityPath` 是Odoo社区版的安装路径，`dbuser` 是 PostgreSQL的登录名， "
 "`dbpassword` 是PostgreSQL的密码， `mydb` 是 PostgreSQL 数据库的名称。"
 
 #: ../../content/administration/install/install.rst:690
@@ -2041,8 +2041,8 @@ msgid ""
 "your own Odoo database!"
 msgstr ""
 "服务启动后( INFO日志中看到 `odoo.modules.loading: Modules loaded.` )，在浏览器中"
-"打开地址 http://localhost:8069 ，用基本管理员账号登录，使用 `admin` 作为 :"
-"guilabel:`Email`  使用 `admin`，使用 `admin` 作为 :guilabel:`Password` 。"
+"打开地址 http://localhost:8069 ，用基本管理员账号登录， :guilabel:`Email` 填写 "
+"`admin` ， :guilabel:`Password` 填写 `admin` 。"
 
 #: ../../content/administration/install/install.rst:709
 msgid ""
