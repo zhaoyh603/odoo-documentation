@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0 docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-14 18:54+0800\n"
-"PO-Revision-Date: 2022-10-16 13:23+0800\n"
+"PO-Revision-Date: 2022-10-16 13:26+0800\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -1210,8 +1210,8 @@ msgid ""
 "please refer to :ref:`setup/enterprise` (except for :ref:`setup/install/"
 "source`)."
 msgstr ""
-"如果您已经使用社区版本并希望升级到企业版，请参阅 :ref:`setup/enterprise` （除"
-"了 :ref:`setup/install/source` ）。"
+"如果已经使用社区版本并希望升级到企业版，请参阅 :ref:`setup/enterprise` （除了 :"
+"ref:`setup/install/source` ）。"
 
 #: ../../content/administration/install/install.rst:47
 msgid "Online"
@@ -1286,8 +1286,8 @@ msgid ""
 "customer or partner to download the Enterprise packages)."
 msgstr ""
 "具有所有相关依赖项的官方社区版软件包可每日构建服务器 nightly_ 上获取。社区和企业"
-"软件包都可以从我们的下载页面下载 download_（您必须以付费客户或合作伙伴身份登录才"
-"能下载企业软件包）。"
+"软件包都可以从我们的下载页面下载 download_（必须以付费客户或合作伙伴身份登录才能"
+"下载企业软件包）。"
 
 #: ../../content/administration/install/install.rst:90
 #: ../../content/administration/install/install.rst:296
@@ -1591,7 +1591,7 @@ msgid ""
 msgstr ""
 "以下内容要求安装 `Git <git_>`_ ，并且需要具有 Git 命令的基本知识。要 Clone Git "
 "仓库，可使用 HTTPS 或 SSH 方式Clone 。如果不知道两者之间的区别，最好的选择很可能"
-"是HTTPS。如果您正在学习入门开发人员教程 :doc:`Getting started </developer/"
+"是HTTPS。如果你正在学习入门开发人员教程 :doc:`Getting started </developer/"
 "howtos/rdtraining>` ，或者计划为 Odoo 源代码做出贡献，请选择SSH 。"
 
 #: ../../content/administration/install/install.rst:287
@@ -1606,7 +1606,7 @@ msgid ""
 msgstr ""
 "**企业版Git存储库不包含完整的 Odoo 源代码** 。它只是一个附加组件的集合。主代码在"
 "社区版本中。运行企业版本实际上意味着是运行社区版服务并将插件路径选项设置为企业版"
-"本的文件夹。您需要同时克隆社区版和企业版存储库，才能正常安装企业版。参见 :ref:"
+"本的文件夹。需要同时克隆社区版和企业版存储库，才能正常安装企业版。参见 :ref:"
 "`setup/install/editions` 以访问企业存储库。"
 
 #: ../../content/administration/install/install.rst:300
@@ -1805,7 +1805,7 @@ msgid ""
 "tools-for-visual-studio-2019>`_. When prompted, select **C++ build tools** in "
 "the **Workloads** tab and install them."
 msgstr ""
-"在安装依赖项之前，您必须下载并安装 `Build Tools for Visual Studio <https://"
+"在安装依赖项之前，必须下载并安装 `Build Tools for Visual Studio <https://"
 "visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019>`_ 。出"
 "现提示时，在 **workload** 选项卡中选择 **C++ build tools** 并安装它们。"
 
@@ -1824,8 +1824,8 @@ msgid ""
 "instances of Odoo or with your system. You can use virtualenv_ to create "
 "isolated Python environments."
 msgstr ""
-"最好不要在 Odoo 的不同实例之间或与系统混合使用python模块包。您可以使用 "
-"virtualenv_ 创建独立的Python虚拟环境。"
+"最好不要在 Odoo 的不同实例之间或与系统混合使用python模块包。可使用 virtualenv_ "
+"创建独立的Python虚拟环境。"
 
 #: ../../content/administration/install/install.rst:518
 msgid ""
@@ -2097,7 +2097,7 @@ msgstr ""
 #: ../../content/administration/maintain/domain_names.rst:9
 msgid ""
 "You can use a custom domain name to access your Odoo database and websites:"
-msgstr "您可以使用自定义域名访问您的 Odoo 数据库和网站:"
+msgstr "可以使用自定义域名访问 Odoo 数据库和网站:"
 
 #: ../../content/administration/maintain/domain_names.rst:11
 msgid ""
