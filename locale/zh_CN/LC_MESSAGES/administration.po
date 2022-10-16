@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0 docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-14 18:54+0800\n"
-"PO-Revision-Date: 2022-10-16 00:04+0800\n"
+"PO-Revision-Date: 2022-10-16 11:52+0800\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -1961,7 +1961,7 @@ msgstr ""
 
 #: ../../content/administration/install/install.rst:650
 msgid "Running Odoo"
-msgstr ""
+msgstr "运行 Odoo"
 
 #: ../../content/administration/install/install.rst:652
 msgid ""
