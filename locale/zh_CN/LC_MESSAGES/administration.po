@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0 docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-14 18:54+0800\n"
-"PO-Revision-Date: 2022-10-16 11:52+0800\n"
+"PO-Revision-Date: 2022-10-16 13:11+0800\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -1882,35 +1882,37 @@ msgstr ""
 #: ../../content/administration/install/install.rst:552
 msgid ""
 "On Debian/Ubuntu, the following commands should install the required packages:"
-msgstr ""
+msgstr "在Debian/Ubuntu中，可以使用以下命令安装所需的软件包："
 
 #: ../../content/administration/install/install.rst:559
 msgid "Install with pip"
-msgstr ""
+msgstr "使用 pip 安装"
 
 #: ../../content/administration/install/install.rst:561
 msgid ""
 "As some of the python packages need a compilation step, they require system "
 "libraries to be installed."
-msgstr ""
+msgstr "因为有些python包需要编译，所以需要安装必要的系统库。"
 
 #: ../../content/administration/install/install.rst:564
 msgid ""
 "On Debian/Ubuntu-based systems, the following command should install these "
 "required libraries:"
-msgstr ""
+msgstr "在基于Debian/ ubuntu的系统上，使用以下命令安装:"
 
 #: ../../content/administration/install/install.rst:571
 msgid ""
 "Odoo dependencies are listed in the :file:`requirements.txt` file located at "
 "the root of the Odoo community directory."
-msgstr ""
+msgstr "依赖在社区版根目录下的 :file: ' requirements.txt ' 文件中。"
 
 #: ../../content/administration/install/install.rst
 msgid ""
 "The python packages in :file:`requirements.txt` are based on their stable/LTS "
 "Debian/Ubuntu corresponding version at the moment of the Odoo release."
 msgstr ""
+":file: ' requirements.txt ' 中的python包基于 Odoo 发布时对应的Debian/Ubuntu 的 "
+"stable/LTS 版本。"
 
 #: ../../content/administration/install/install.rst
 msgid ""
@@ -1918,6 +1920,8 @@ msgid ""
 "Bullseye and 2.6.0 in Ubuntu Focal. The lowest version is then chosen in the :"
 "file:`requirements.txt`."
 msgstr ""
+"例如，对于Odoo 15.0， `python3-babel` 包版本在 Debian Bullseye 中是 2.8.0，在 "
+"Ubuntu Focal 中是 2.6.0 。然后在 :file:`requirements.txt` 选择了最低版本。"
 
 #: ../../content/administration/install/install.rst:586
 msgid ""
@@ -1925,39 +1929,43 @@ msgid ""
 "`CommunityPath`) and run **pip** on the requirements file to install the "
 "requirements for the current user."
 msgstr ""
+"切换到Odoo社区版安装路径 ( :file:`CommunityPath`)，运行 **pip** 命令为当前用户安"
+"装requirements文件中的依赖包："
 
 #: ../../content/administration/install/install.rst:597
 msgid "Download and install **nodejs** and **npm** with your package manager."
-msgstr ""
+msgstr "使用包管理器下载并安装 **nodejs** 和 **npm** 。"
 
 #: ../../content/administration/install/install.rst:613
 msgid ""
 "Navigate to the path of your Odoo Community installation (`CommunityPath`) and "
 "run **pip** on the requirements file:"
 msgstr ""
+"切换到Odoo社区版安装路径 ( :file:`CommunityPath`)，运行 **pip** 命令为当前用户安"
+"装requirements文件中的依赖包："
 
 #: ../../content/administration/install/install.rst:623
 msgid "Non-Python dependencies need to be installed with a package manager:"
-msgstr ""
+msgstr "非python依赖需要使用包管理器来安装："
 
 #: ../../content/administration/install/install.rst:625
 msgid "Download and install the **Command Line Tools**:"
-msgstr ""
+msgstr "下载并安装 **命令行工具（Command Line Tools）** :"
 
 #: ../../content/administration/install/install.rst:631
 msgid ""
 "Download and install the package manager of your choice (homebrew_, macports_)."
-msgstr ""
+msgstr "下载并安装你喜欢的包管理器( homebrew_ ， macports_ )。"
 
 #: ../../content/administration/install/install.rst:632
 msgid "Install non-python dependencies."
-msgstr ""
+msgstr "安装非python依赖性。"
 
 #: ../../content/administration/install/install.rst:637
 msgid ""
 "Download and install **nodejs** with your preferred package manager (homebrew_, "
 "macports_)."
-msgstr ""
+msgstr "使用你首选的包管理器( homebrew_， macports_ )下载并安装 **nodejs** 。"
 
 #: ../../content/administration/install/install.rst:650
 msgid "Running Odoo"
@@ -1969,6 +1977,8 @@ msgid ""
 "the command-line interface of the server. It is located at the root of the Odoo "
 "Community directory."
 msgstr ""
+"所有依赖项都设置好后，可通过运行 `odoo-bin` 来启动Odoo，这是服务的命令行界面。位"
+"于Odoo社区版根目录。"
 
 #: ../../content/administration/install/install.rst:655
 msgid ""
@@ -1976,6 +1986,8 @@ msgid ""
 "<reference/cmdline/server>` or a :ref:`configuration file <reference/cmdline/"
 "config>`."
 msgstr ""
+"要配置服务，你可以指定 :ref:`命令行参数<reference/cmdline/server>` 或 :ref:`配置"
+"文件<reference/cmdline/config>` 。"
 
 #: ../../content/administration/install/install.rst:659
 msgid ""
@@ -1983,10 +1995,12 @@ msgid ""
 "the `addons-path` argument. Note that it must come before the other paths in "
 "`addons-path` for addons to be loaded correctly."
 msgstr ""
+"对于企业版，必须在 `addons-path` 参数中添加 `企业版` 插件的路径。注意，该路径必"
+"须位于 `addons-path` 中的其他路径之前，这样插件才能正确加载。"
 
 #: ../../content/administration/install/install.rst:663
 msgid "Common necessary configurations are:"
-msgstr ""
+msgstr "常见的必要配置有:"
 
 #: ../../content/administration/install/install.rst:665
 msgid "PostgreSQL user and password."
@@ -1994,11 +2008,11 @@ msgstr ""
 
 #: ../../content/administration/install/install.rst:666
 msgid "Custom addon paths beyond the defaults, to load your own modules."
-msgstr ""
+msgstr "自定义插件路径，以加载你自定义的模块。"
 
 #: ../../content/administration/install/install.rst:668
 msgid "A typical way to run the server would be:"
-msgstr ""
+msgstr "运行服务器典型方式是："
 
 #: ../../content/administration/install/install.rst:679
 msgid ""
@@ -2006,6 +2020,8 @@ msgid ""
 "is the PostgreSQL login, `dbpassword` is the PostgreSQL password, and `mydb` is "
 "the name of the PostgreSQL database."
 msgstr ""
+"其中 `CommunityPath` 是Odoo社区版的安装路径，`dbuser` 是 PostgreSQ L的登录名， "
+"`dbpassword` 是PostgreSQL的密码， `mydb` 是 PostgreSQL 数据库的名称。"
 
 #: ../../content/administration/install/install.rst:690
 #: ../../content/administration/install/install.rst:700
@@ -2013,6 +2029,8 @@ msgid ""
 "Where `CommunityPath` is the path of the Odoo Community installation, and "
 "`mydb` is the name of the PostgreSQL database."
 msgstr ""
+"其中 `CommunityPath` 是Odoo社区版的安装路径， `mydb` 是 PostgreSQL 数据库的名"
+"称。"
 
 #: ../../content/administration/install/install.rst:703
 msgid ""
@@ -2022,33 +2040,41 @@ msgid ""
 "again, `admin` for the :guilabel:`Password`. That's it, you just logged into "
 "your own Odoo database!"
 msgstr ""
+"服务启动后( INFO日志中看到 `odoo.modules.loading: Modules loaded.` )，在浏览器中"
+"打开地址 http://localhost:8069 ，用基本管理员账号登录，使用 `admin` 作为 :"
+"guilabel:`Email`  使用 `admin`，使用 `admin` 作为 :guilabel:`Password` 。"
 
 #: ../../content/administration/install/install.rst:709
 msgid ""
 "From there, you can create and manage new :doc:`users </applications/general/"
 "users/manage_users>`."
 msgstr ""
+"从这里创建和管理新用户 :doc:`users </applications/general/users/"
+"manage_users>` 。"
 
 #: ../../content/administration/install/install.rst:711
 msgid ""
 "The user account you use to log into Odoo's web interface differs from the :"
 "option:`--db_user <odoo-bin -r>` CLI argument."
 msgstr ""
+"用于登录Odoo web界面的用户帐户与 :option:`--db_user <odoo-bin -r>` CLI参数不同。"
 
 #: ../../content/administration/install/install.rst:715
 msgid ":doc:`The exhaustive list of CLI arguments for odoo-bin </developer/cli>`."
-msgstr ""
+msgstr ":doc:`odoo-bin CLI参数的详细列表 </developer/cli>`."
 
 #: ../../content/administration/install/install.rst:720
 #: ../../content/administration/maintain/update.rst:147
 msgid "Docker"
-msgstr ""
+msgstr "Docker"
 
 #: ../../content/administration/install/install.rst:722
 msgid ""
 "The full documentation on how to use Odoo with Docker can be found on the "
 "official Odoo `docker image <https://hub.docker.com/_/odoo/>`_ page."
 msgstr ""
+"关于如何在 Docker 中使用 Odoo 的完整文档可以在 Odoo 的官方 `<https://hub.docker."
+"com/_/odoo/>`_ 页面上找到。"
 
 #: ../../content/administration/maintain.rst:5
 msgid "Maintain"
@@ -2056,7 +2082,7 @@ msgstr "维护"
 
 #: ../../content/administration/maintain/domain_names.rst:3
 msgid "Domain names"
-msgstr ""
+msgstr "域名"
 
 #: ../../content/administration/maintain/domain_names.rst:5
 msgid ""
@@ -2065,23 +2091,25 @@ msgid ""
 "as ``www.odoo.com``, rather than its server's IP address with a series of "
 "numbers."
 msgstr ""
+"**域名**就是你网站的地址。它使互联网更容易访问，因为它允许用户键入一个有意义的网"
+"址，如``www.odoo.com``，而不是它的服务器IP地址与一系列数字。"
 
 #: ../../content/administration/maintain/domain_names.rst:9
 msgid ""
 "You can use a custom domain name to access your Odoo database and websites:"
-msgstr ""
+msgstr "您可以使用自定义域名访问您的 Odoo 数据库和网站:"
 
 #: ../../content/administration/maintain/domain_names.rst:11
 msgid ""
 "By :ref:`registering a free domain name with Odoo <domain-name/odoo-register>` "
 "(for Odoo Online databases)"
-msgstr ""
+msgstr "参考 :ref:`注册免费域名 <domain-name/Odoo-register>` (用于Odoo在线数据库)"
 
 #: ../../content/administration/maintain/domain_names.rst:13
 msgid ""
 "By :ref:`configuring a custom domain that you already own <domain-name/"
 "existing>`."
-msgstr ""
+msgstr ":ref:`配置自定义域名 <domain-name/existing>` 。"
 
 #: ../../content/administration/maintain/domain_names.rst:16
 msgid ""
