@@ -9,8 +9,8 @@ ifndef BUILD_DIR
   BUILD_DIR    = _build
 endif
 
-ifndef LANGUAGES
-  LANGUAGES = en,zh_CN
+ifndef CURRENT_LANG
+  CURRENT_LANG = en
 endif
 
 ifndef IS_REMOTE_BUILD
@@ -86,7 +86,8 @@ $(HTML_BUILD_DIR)/_static/style.css: extensions/odoo_theme/static/style.scss ext
 fast: SPHINXOPTS += -A collapse_menu=True
 fast: html
 
-zh: SPHINXOPTS += -D language=zh_CN
+zh:CURRENT_LANG=zh_CN
+zh: HTML_BUILD_DIR := $(HTML_BUILD_DIR)zh_CN
 zh: html
 
 static: $(HTML_BUILD_DIR)/_static/style.css
