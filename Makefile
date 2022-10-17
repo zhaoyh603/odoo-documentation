@@ -76,8 +76,9 @@ update:
 	@echo "update  po from pot files..."
 	sphinx-intl update -p locale/sources -d locale/ -l $(CURRENT_LANG)
 
-zh:CURRENT_LANG=zh_CN
+zh: CURRENT_LANG=zh_CN
 zh: HTML_BUILD_DIR := $(HTML_BUILD_DIR)/zh_CN
+zh: $(HTML_BUILD_DIR)/_static/style.css
 zh: html
 
 $(HTML_BUILD_DIR)/_static/style.css: extensions/odoo_theme/static/style.scss extensions/odoo_theme/static/scss/*.scss
@@ -90,7 +91,6 @@ $(HTML_BUILD_DIR)/_static/style.css: extensions/odoo_theme/static/style.scss ext
 
 fast: SPHINXOPTS += -A collapse_menu=True
 fast: html
-
 
 
 static: $(HTML_BUILD_DIR)/_static/style.css
