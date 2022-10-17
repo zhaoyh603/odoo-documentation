@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0 docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-14 18:54+0800\n"
-"PO-Revision-Date: 2022-10-16 22:06+0800\n"
+"PO-Revision-Date: 2022-10-16 23:59+0800\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -219,7 +219,6 @@ msgid "in ``/etc/odoo.conf`` set:"
 msgstr "``/etc/odoo.conf`` 中:"
 
 #: ../../content/administration/install/deploy.rst:53
-#, fuzzy
 msgid ""
 "Show only databases matching the first subdomain after ``www``: for example the "
 "database \"mycompany\" will be shown if the incoming request was sent to ``www."
