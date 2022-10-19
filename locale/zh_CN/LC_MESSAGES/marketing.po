@@ -4,6 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
+<<<<<<< HEAD
 # Martin Trigaux, 2021
 # Jeffery CHEN Fan <jeffery9@gmail.com>, 2021
 # 稀饭~~ <wangwhai@qq.com>, 2021
@@ -11,16 +12,34 @@
 # Mandy Choy <mnc@odoo.com>, 2021
 # Datasource International <Hennessy@datasourcegroup.com>, 2021
 #
+=======
+# Benson <Benson.Dr@Gmail.com>, 2022
+# Datasource International <Hennessy@datasourcegroup.com>, 2022
+# Mandy Choy <mnc@odoo.com>, 2022
+# diaojiaolou <124412206@qq.com>, 2022
+# Martin Trigaux, 2022
+# Felix Yuen <fyu@odoo.com>, 2022
+# Jeffery CHEN <jeffery9@gmail.com>, 2022
+# 稀饭~~ <wangwhai@qq.com>, 2022
+# 
+#, fuzzy
+>>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 14.0\n"
+"Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-04 12:47+0000\n"
+<<<<<<< HEAD
 "PO-Revision-Date: 2022-10-14 20:12+0800\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/"
 "zh_CN/)\n"
 "Language: zh_CN\n"
+=======
+"PO-Revision-Date: 2022-10-04 12:54+0000\n"
+"Last-Translator: 稀饭~~ <wangwhai@qq.com>, 2022\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+>>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -29,16 +48,22 @@ msgstr ""
 
 #: ../../content/applications/marketing.rst:5
 msgid "Marketing"
-msgstr "市场营销"
+msgstr "市场"
 
 #: ../../content/applications/marketing/marketing_automation.rst:8
 msgid "Marketing Automation"
-msgstr "市场营销自动化"
+msgstr "营销自动化"
 
 #: ../../content/applications/marketing/marketing_automation.rst:11
 #: ../../content/applications/marketing/sms_marketing.rst:11
+<<<<<<< HEAD
 msgid "`Odoo Tutorials: Marketing <https://www.odoo.com/slides/marketing-27>`_"
 msgstr ""
+=======
+msgid ""
+"`Odoo Tutorials: Marketing <https://www.odoo.com/slides/marketing-27>`_"
+msgstr "`Odoo教程：营销 <https://www.odoo.com/slides/marketing-27>`_"
+>>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/marketing/marketing_automation/advanced.rst:5
 msgid "Advanced"
@@ -65,12 +90,22 @@ msgstr ""
 msgid "Let’s consider the example below:"
 msgstr "我们一起看下面的示例："
 
+<<<<<<< HEAD
 #: ../../content/applications/marketing/marketing_automation/advanced/understanding_metrics.rst:None
 #: ../../content/applications/marketing/marketing_automation/advanced/understanding_metrics.rst:0
 #, fuzzy
 #| msgid "Marketing Automation"
 msgid "Metrics in Odoo Marketing Automation"
 msgstr "市场营销自动化"
+=======
+#: ../../content/applications/marketing/marketing_automation/advanced/understanding_metrics.rstNone
+#: ../../content/applications/marketing/marketing_automation/advanced/understanding_metrics.rstNone
+#: ../../content/applications/marketing/marketing_automation/advanced/understanding_metrics.rstNone
+#: ../../content/applications/marketing/marketing_automation/advanced/understanding_metrics.rst:0
+#: ../../content/applications/marketing/marketing_automation/advanced/understanding_metrics.rstNone
+msgid "Metrics in Odoo Marketing Automation"
+msgstr ""
+>>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/marketing/marketing_automation/advanced/understanding_metrics.rst:19
 msgid ""
@@ -204,11 +239,17 @@ msgid ""
 "that includes the following characters:"
 msgstr "**GSM7** 是标准格式，每条信息不超过160个字符，包括以下字符："
 
+<<<<<<< HEAD
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:None
 #, fuzzy
 #| msgid "SMS Marketing"
 msgid "GSM7 in Odoo SMS Marketing"
 msgstr "短信营销"
+=======
+#: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rstNone
+msgid "GSM7 in Odoo SMS Marketing"
+msgstr ""
+>>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:25
 msgid ""
@@ -242,10 +283,15 @@ msgstr "短信价格取决于信息的目的地和长度（字符数）。"
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:39
 msgid ""
+<<<<<<< HEAD
 "To see the **price per country, please consult**: `Odoo SMS - FAQ <https://"
 "iap-services.odoo.com/iap/sms/pricing#sms_faq_01>`_."
+=======
+"To see the **price per country, please consult**: `Odoo SMS - FAQ "
+"<https://iap-services.odoo.com/iap/sms/pricing#sms_faq_01>`_."
+>>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgstr ""
-"如要查看 **每个国家的价格，请访问** ：`Odoo短信 - \n"
+"如要查看  **个国家的价格，请访**  ：`Odoo短信 - \n"
 "常见问题 <https://iap-services.odoo.com/iap/sms/pricing#sms_faq_01>`_。"
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:41
@@ -254,11 +300,19 @@ msgid ""
 "your database."
 msgstr "短信包含的字数总是显示在数据库中。"
 
+<<<<<<< HEAD
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:None
 #, fuzzy
 #| msgid "SMS Pricing and FAQ"
 msgid "SMS pricing and FAQ Odoo SMS Marketing"
 msgstr "短信定价和常见问题"
+=======
+#: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rstNone
+#: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rstNone
+#: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rstNone
+msgid "SMS pricing and FAQ Odoo SMS Marketing"
+msgstr ""
+>>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:51
 msgid "How do I buy credits?"
@@ -276,8 +330,12 @@ msgstr "或前往 :menuselection:`设置 --> 查看我的服务`。"
 msgid ""
 "If you are on Odoo Online (SAAS) and have the Enterprise version, you "
 "benefit from free trial credits to test the feature."
+<<<<<<< HEAD
 msgstr ""
 "如果你是Odoo Online (SAAS)企业版用户，你可用免费试用积点来测试这项功能。"
+=======
+msgstr "如果你是Odoo Online (SAAS)企业版用户，你可用免费试用积点来测试这项功能."
+>>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:72
 msgid "More common questions"
@@ -285,7 +343,7 @@ msgstr "更多常见问题"
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:74
 msgid "**Is there an expiration time for my credits?**"
-msgstr "**我的积分会过期吗？**"
+msgstr " **的积分会过期吗？**"
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:76
 msgid "No, credits do not expire."
@@ -295,9 +353,13 @@ msgstr "不会，积分不会过期。"
 msgid ""
 "**Can I send an SMS to a phone number (which is not a mobile phone) because "
 "I see the icon in front of the field “phone”?**"
+<<<<<<< HEAD
 msgstr ""
 "**我可以向座机号码（而不是手机号码）发送短信吗？因为我看到“电话”字段前有图"
 "标。**"
+=======
+msgstr " **可以向座机号码（而不是手机号码）发送短信吗？因为我看到“电话”字段前有图标。**"
+>>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:82
 msgid "Only if that phone number supports SMS (e.g. SIP phones)."
@@ -305,7 +367,7 @@ msgstr "该电话号码必须支持短信（例如，SIP电话）才行。"
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:85
 msgid "**Do I receive an invoice to buy my credits?**"
-msgstr "**我购买积分后能收到发票吗？**"
+msgstr " **购买积分后能收到发票吗？**"
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:87
 msgid "Yes."
@@ -313,7 +375,7 @@ msgstr "是。"
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:90
 msgid "**Can the recipient answer to me?**"
-msgstr "**收件人可以回复我吗？**"
+msgstr " **件人可以回复我吗？**"
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:92
 msgid "No, it is not possible to reply to the SMS."
@@ -323,7 +385,7 @@ msgstr "不能，他们无法回复短信。"
 msgid ""
 "**What happens if I send multiple SMS but I do not have enough credits to "
 "send them all?**"
-msgstr "**如果我发送多条短信，但积分不够全部发送怎么办？**"
+msgstr " **果我发送多条短信，但积分不够全部发送怎么办？**"
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:97
 msgid ""
@@ -334,18 +396,26 @@ msgstr ""
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:101
 msgid "**Do I have a history of the sent SMSs?**"
-msgstr "**我有已发送短信的历史记录吗？**"
+msgstr " **有已发送短信的历史记录吗？**"
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:103
 msgid ""
 "Yes, the SMS is logged as a note under the chatter of the corresponding "
+<<<<<<< HEAD
 "record, and a complete history of the SMSs sent is available on :ref:"
 "`developer mode <developer-mode>` under :menuselection:`Technical --> SMS`."
+=======
+"record, and a complete history of the SMSs sent is available on "
+":ref:`developer mode <developer-mode>` under :menuselection:`Technical --> "
+"SMS`."
+>>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgstr ""
+"是的，SMS作为注释记录在相应记录的流水账下，发送的SMS的完整历史记录可在：ref:`开发模式<developer "
+"mode>`下的：菜单选择:`技术-->SMS`。"
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:108
 msgid "**Can I send as many SMSs I want at once?**"
-msgstr "**我可以一次性发送大量的短信吗？**"
+msgstr " **可以一次性发送大量的短信吗？**"
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:110
 msgid "Yes, if you have enough credits."
@@ -355,7 +425,7 @@ msgstr "可以，但你必须有足够的积分。"
 msgid ""
 "**If I have a number that does not exist in the list of recipients, will I "
 "lose credits?**"
-msgstr "**如果我添加的号码不在现有的收件人名单中，我会被扣除积分吗？**"
+msgstr " **果我添加的号码不在现有的收件人名单中，我会被扣除积分吗？**"
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:115
 msgid ""
@@ -368,9 +438,15 @@ msgstr ""
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:119
 msgid ""
+<<<<<<< HEAD
 "**What happens if I send my SMS to a paying number (e.g.: a contest to win a "
 "ticket for a festival)?**"
 msgstr "**如果我将短信发送给了付费号码（例如，赢取节日门票的比赛）怎么办？**"
+=======
+"**What happens if I send my SMS to a paying number (e.g.: a contest to win a"
+" ticket for a festival)?**"
+msgstr " **果我将短信发送给了付费号码（例如，赢取节日门票的比赛）怎么办？**"
+>>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:121
 msgid ""
@@ -381,7 +457,7 @@ msgstr "短信不会被发送给这类号码，你也不会被扣费。"
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:124
 msgid ""
 "**Can I identify the numbers that do not exist when I send several SMSs?**"
-msgstr "**我在发送多条短信时，能识别不存在的号码吗？**"
+msgstr " **在发送多条短信时，能识别不存在的号码吗？**"
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:126
 msgid "Only the ones that have an invalid format."
@@ -398,7 +474,7 @@ msgstr "请`在此查看我们的`隐私政策 <https://iap.odoo.com/privacy#sms
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:133
 msgid "**Can I use my own SMS provider?**"
-msgstr ""
+msgstr " **可以使用自己的短信提供商吗?**"
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:135
 msgid ""
@@ -406,16 +482,25 @@ msgid ""
 "customize your database to make it happen. Please, check our success packs "
 "`here <https://www.odoo.com/pricing-packs>`_."
 msgstr ""
+"是的，但不可能开箱即用。 我们的专家可以帮助您定制您的数据库以实现它。 请检查我们的成功包`这里 "
+"<https://www.odoo.com/pricing-packs>`_。"
 
 #: ../../content/applications/marketing/surveys.rst:8
+<<<<<<< HEAD
 #, fuzzy
 #| msgid "Survey"
+=======
+>>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgid "Surveys"
 msgstr "调查"
 
 #: ../../content/applications/marketing/surveys.rst:11
 msgid "`Odoo Tutorials: Surveys <https://www.odoo.com/slides/surveys-62>`_"
+<<<<<<< HEAD
 msgstr ""
+=======
+msgstr "`Odoo 教程：调查<https://www.odoo.com/slides/surveys-62>_"
+>>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/marketing/surveys/overview.rst:5
 msgid "Overview"
@@ -438,7 +523,7 @@ msgstr ""
 
 #: ../../content/applications/marketing/surveys/overview/create.rst:11
 msgid "Get started"
-msgstr "开始使用"
+msgstr "开始"
 
 #: ../../content/applications/marketing/surveys/overview/create.rst:13
 msgid ""
@@ -450,7 +535,11 @@ msgstr ""
 "创建调查时，请选择 *Title* 和 *Category*。 *Category* 字段用于了解调查的上下"
 "文，因为不同的应用程序可能会将调查用于不同的目的，如招聘、认证或员工评估。"
 
+<<<<<<< HEAD
 #: ../../content/applications/marketing/surveys/overview/create.rst:None
+=======
+#: ../../content/applications/marketing/surveys/overview/create.rstNone
+>>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgid ""
 "Form view of a survey with a title and category being chosen in Odoo Surveys"
 msgstr ""
@@ -506,7 +595,11 @@ msgid ""
 "row."
 msgstr "*Matrix Type*：选择是否希望每行有一个或多个选项。"
 
+<<<<<<< HEAD
 #: ../../content/applications/marketing/surveys/overview/create.rst:None
+=======
+#: ../../content/applications/marketing/surveys/overview/create.rstNone
+>>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgid "Sections and questions view of a survey in Odoo Surveys"
 msgstr ""
 
@@ -520,7 +613,11 @@ msgid ""
 "homepage."
 msgstr "写一个*Description*显示在调查主页的标题下。"
 
+<<<<<<< HEAD
 #: ../../content/applications/marketing/surveys/overview/create.rst:None
+=======
+#: ../../content/applications/marketing/surveys/overview/create.rstNone
+>>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgid ""
 "Frontend of a survey showing the title and description of a survey for Odoo "
 "Surveys"
@@ -543,7 +640,11 @@ msgstr ""
 "在*Options*选项卡下，选择问题 *Layout*。如果选择 *One page per section* 或 "
 "*One page per question*，则选项 *Back Button* 将变为可用，允许用户返回页面。"
 
+<<<<<<< HEAD
 #: ../../content/applications/marketing/surveys/overview/create.rst:None
+=======
+#: ../../content/applications/marketing/surveys/overview/create.rstNone
+>>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgid ""
 "Form view of a survey emphasizing the layout feature under options in Odoo "
 "Surveys"
@@ -570,7 +671,11 @@ msgstr ""
 "默认情况下，将应用筛选器*Except Test Entries* 以保持条目列表的干净，只有实际"
 "参与者。"
 
+<<<<<<< HEAD
 #: ../../content/applications/marketing/surveys/overview/create.rst:None
+=======
+#: ../../content/applications/marketing/surveys/overview/create.rstNone
+>>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgid "View list of the participations of a survey in Odoo Surveys"
 msgstr ""
 
@@ -585,7 +690,11 @@ msgstr ""
 msgid "Click on *See results* to be redirected to an analytical page."
 msgstr "单击 *See results*可重定向到分析页面。"
 
+<<<<<<< HEAD
 #: ../../content/applications/marketing/surveys/overview/create.rst:None
+=======
+#: ../../content/applications/marketing/surveys/overview/create.rstNone
+>>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgid "View of an analytical page for Odoo Surveys"
 msgstr ""
 
@@ -623,7 +732,11 @@ msgstr ""
 "with answers at the end* 或*Scoring without answers at the end*之间进行选择。"
 "现在，在问题的形式上，设置正确的答案并评分。"
 
+<<<<<<< HEAD
 #: ../../content/applications/marketing/surveys/overview/scoring.rst:None
+=======
+#: ../../content/applications/marketing/surveys/overview/scoring.rstNone
+>>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgid "Form view of a survey showing a list of answers in Odoo Surveys"
 msgstr ""
 
@@ -637,10 +750,17 @@ msgstr ""
 "设置用户成功参加调查所需的百分比分数。如果启用 *Certificate*，请选择其模板。"
 "认证将自动通过电子邮件发送给成功完成认证的用户。"
 
+<<<<<<< HEAD
 #: ../../content/applications/marketing/surveys/overview/scoring.rst:None
 msgid ""
 "Form view of a survey emphasizing the scoring and candidates section in Odoo "
 "Surveys"
+=======
+#: ../../content/applications/marketing/surveys/overview/scoring.rstNone
+msgid ""
+"Form view of a survey emphasizing the scoring and candidates section in Odoo"
+" Surveys"
+>>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgstr ""
 
 #: ../../content/applications/marketing/surveys/overview/scoring.rst:25
@@ -653,10 +773,16 @@ msgstr ""
 "启用 *Login required*能够*Give Badges*。徽章与网站的电子学习部分相关。除了登"
 "录用户，访问页面 *Courses* 的网站访问者还可以查看已授予的徽章。"
 
+<<<<<<< HEAD
 #: ../../content/applications/marketing/surveys/overview/scoring.rst:None
 msgid ""
 "View of the courses tab emphasizing the latest achievements section on the "
 "website for\n"
+=======
+#: ../../content/applications/marketing/surveys/overview/scoring.rstNone
+msgid ""
+"View of the courses tab emphasizing the latest achievements section on the website for\n"
+>>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 "Odoo Surveys"
 msgstr ""
 
@@ -682,7 +808,11 @@ msgstr ""
 msgid "Set the *Time limit* under the tab *Options*."
 msgstr "在选项卡 *Options*下设置 *Time limit*。"
 
+<<<<<<< HEAD
 #: ../../content/applications/marketing/surveys/overview/time_random.rst:None
+=======
+#: ../../content/applications/marketing/surveys/overview/time_random.rstNone
+>>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgid ""
 "View of a survey form emphasizing the time limit feature in Odoo Surveys"
 msgstr ""
@@ -715,10 +845,17 @@ msgid ""
 "under the tab *Questions*, set how many of the questions in that section "
 "should be taken into account during the shuffling."
 msgstr ""
+<<<<<<< HEAD
 "为此，在选项卡 *Options*下，启用 *Randomized per section* 。现在，在"
 "*Questions*选项卡下，设置在洗牌过程中应考虑该部分中的问题中有多少问题。"
 
 #: ../../content/applications/marketing/surveys/overview/time_random.rst:None
+=======
+"为此，在选项卡 *Options*下，启用 *Randomized per section* "
+"。现在，在*Questions*选项卡下，设置在洗牌过程中应考虑该部分中的问题中有多少问题。"
+
+#: ../../content/applications/marketing/surveys/overview/time_random.rstNone
+>>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgid ""
 "View of a survey form emphasizing the random questions count column in Odoo "
 "Surveys"
