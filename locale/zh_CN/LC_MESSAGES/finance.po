@@ -65,7 +65,7 @@ msgstr "会计和发票"
 msgid ""
 "**Odoo Invoicing** is a standalone invoicing app to create invoices, send"
 " them to your customers, and manage payments."
-msgstr "**Odoo发票 **一个独立的发票应用程序，用于创建发票、发送给您的客户并管理付款。"
+msgstr "** Odoo发票 **一个独立的发票应用程序，用于创建发票、发送给您的客户并管理付款。"
 
 #: ../../content/applications/finance/accounting.rst:13
 msgid ""
@@ -73,7 +73,7 @@ msgid ""
 "productivity is at the core of its development with features such as AI-"
 "powered invoice recognition, synchronization with your bank accounts, "
 "smart matching suggestions, etc."
-msgstr "**Odoo会计 **一款功能齐全的会计应用程序。会计生产力是其开发的核心，具有人工智能发票识别、与银行账户同步、智能匹配建议等功能。"
+msgstr "** Odoo会计 **一款功能齐全的会计应用程序。会计生产力是其开发的核心，具有人工智能发票识别、与银行账户同步、智能匹配建议等功能。"
 
 #: ../../content/applications/finance/accounting.rst:18
 msgid "`Odoo Tutorials: Accounting <https://www.odoo.com/slides/accounting-19>`_"
@@ -14664,7 +14664,7 @@ msgstr ":d：'fiscal_localization_packages'"
 
 #: ../../content/applications/finance/accounting/getting_started.rst:5
 msgid "Getting started"
-msgstr "POS 入门"
+msgstr "入门"
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration.rst:5
 msgid "Initial configuration"
