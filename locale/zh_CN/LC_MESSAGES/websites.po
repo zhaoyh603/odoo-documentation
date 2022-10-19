@@ -4,28 +4,6 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-<<<<<<< HEAD
-# e2f <projects@e2f.com>, 2021
-# Jonathon Li <jonathonli@gmail.com>, 2021
-# 思昀 邹 <1025772003@qq.com>, 2021
-# george liu <george@taotaome.com>, 2021
-# 苏州远鼎 <tiexinliu@126.com>, 2021
-# Xia Fajin <xia.fajin@elico-corp.com>, 2021
-# 稀饭~~ <wangwhai@qq.com>, 2021
-# Miao Zhou <zhoumiao_nuaa@outlook.com>, 2021
-# Martin Trigaux, 2021
-# mrshelly <mrshelly@hotmail.com>, 2021
-# Jeffery CHEN Fan <jeffery9@gmail.com>, 2021
-# liAnGjiA <liangjia@qq.com>, 2021
-# Connie Xiao <connie.xiao@elico-corp.com>, 2021
-# fausthuang, 2021
-# bf2549c5415a9287249cba2b8a5823c7, 2021
-# diaojiaolou <124412206@qq.com>, 2021
-# 黎伟杰 <674416404@qq.com>, 2021
-# Datasource International <Hennessy@datasourcegroup.com>, 2021
-# Mandy Choy <mnc@odoo.com>, 2021
-#
-=======
 # 黎伟杰 <674416404@qq.com>, 2022
 # fausthuang, 2022
 # Jonathon Li <jonathonli@gmail.com>, 2022
@@ -42,23 +20,14 @@
 # Jeffery CHEN <jeffery9@gmail.com>, 2022
 # 
 #, fuzzy
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-04 12:47+0000\n"
-<<<<<<< HEAD
-"PO-Revision-Date: 2022-10-14 20:09+0800\n"
-"Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/"
-"zh_CN/)\n"
-"Language: zh_CN\n"
-=======
 "PO-Revision-Date: 2022-10-04 12:54+0000\n"
 "Last-Translator: Jeffery CHEN <jeffery9@gmail.com>, 2022\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -75,15 +44,9 @@ msgstr "电子商务"
 
 #: ../../content/applications/websites/ecommerce.rst:10
 msgid ""
-<<<<<<< HEAD
-"Run a modern open-source online store with Odoo eCommerce. Learn how to sell "
-"online, promote products and increase your average cart sizes."
-msgstr ""
-=======
 "Run a modern open-source online store with Odoo eCommerce. Learn how to sell"
 " online, promote products and increase your average cart sizes."
 msgstr "使用Odoo电子商务运营一家现代开源在线商店。了解如何在线销售、推广产品和增加购物车的平均尺寸。"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/websites/ecommerce.rst:14
 #: ../../content/applications/websites/website.rst:14
@@ -93,11 +56,8 @@ msgid ""
 "website with an address such as ``www.example.com`` rather than the default "
 "``example.odoo.com``."
 msgstr ""
-<<<<<<< HEAD
-=======
 "Odoo为所有Odoo Online数据库提供一个：ref：`免费的自定义域名<域名/odoo-"
 "register>`。然后，访问者可以使用“www.example.com”等地址而不是默认的“example.odoo.com”来访问您的网站。"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/websites/ecommerce.rst:19
 msgid ":doc:`Website Documentation <website>`"
@@ -106,14 +66,6 @@ msgstr ""
 #: ../../content/applications/websites/ecommerce.rst:20
 #: ../../content/applications/websites/website.rst:20
 msgid "`Odoo Tutorials: Website <https://www.odoo.com/slides/website-25>`_"
-<<<<<<< HEAD
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce.rst:21
-#: ../../content/applications/websites/website.rst:21
-msgid "`Odoo Tutorials: eCommerce <https://www.odoo.com/slides/ecommerce-26>`_"
-msgstr ""
-=======
 msgstr "`Odoo 教程: 网站 <https://www.odoo.com/slides/website-25>`_"
 
 #: ../../content/applications/websites/ecommerce.rst:21
@@ -121,7 +73,6 @@ msgstr "`Odoo 教程: 网站 <https://www.odoo.com/slides/website-25>`_"
 msgid ""
 "`Odoo Tutorials: eCommerce <https://www.odoo.com/slides/ecommerce-26>`_"
 msgstr "`Odoo 教程：电子商务 <https://www.odoo.com/slides/ecommerce-26>`_"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/websites/ecommerce/getting_started.rst:5
 msgid "Get started"
@@ -136,14 +87,9 @@ msgid "Product Catalog"
 msgstr "产品目录"
 
 #: ../../content/applications/websites/ecommerce/getting_started/catalog.rst:8
-<<<<<<< HEAD
-msgid "All your published items show up in your catalog page (or *Shop* page)."
-msgstr "所有印刷的项目都会显示在你的目录（或 *商店* ）页面中"
-=======
 msgid ""
 "All your published items show up in your catalog page (or *Shop* page)."
 msgstr "所有印刷的项目都会显示在你的目录（或 *商店* ）页面中。"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/websites/ecommerce/getting_started/catalog.rst:13
 msgid ""
@@ -274,30 +220,18 @@ msgid "Such extra image are common to all the product variants (if any)."
 msgstr "这种额外的图片对于所有产品变量（如有）而言是很普遍的。"
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:3
-<<<<<<< HEAD
-#, fuzzy
-#| msgid "How to manage product variants"
-msgid "Manage product variants"
-msgstr "如何管理产品变量"
-=======
 msgid "Manage product variants"
 msgstr "管理产品变体"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:5
 msgid ""
 "Product variants are used to offer variations of the same product to your "
 "customers on the product's page."
-<<<<<<< HEAD
-msgstr ""
-=======
 msgstr "产品变体用于在产品页面上向客户提供相同产品的变体。"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:8
 msgid ""
 "Let's say one of your customers selects a T-shirt from your product catalog."
-<<<<<<< HEAD
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:10
@@ -311,7 +245,6 @@ msgstr ""
 #| msgid "How to create attributes & variants"
 msgid "Create attributes & variants"
 msgstr "如何创建属性与变量"
-=======
 msgstr "假设您的一位客户从您的产品目录中选择了一件T恤。"
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:10
@@ -323,18 +256,14 @@ msgstr "然后，他们选择他们想要的尺寸和颜色。各种尺寸和颜
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:14
 msgid "Create attributes & variants"
 msgstr "创建属性和变体"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:16
 msgid ""
 "In order to create various attributes and variants for your products, you "
 "first need to turn on *Variants* in :menuselection:`Sales --> Configuration "
 "--> Settings`."
-<<<<<<< HEAD
 msgstr ""
-=======
 msgstr "为了为产品创建各种属性和变体，首先需要在：菜单选择：`销售-->配置-->设置`中启用*变体*。"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:19
 msgid ""
@@ -342,34 +271,12 @@ msgid ""
 "Website --> Products --> Products`). When the product detail form opens, "
 "click on *Edit*, and go to the *Variants* tab."
 msgstr ""
-<<<<<<< HEAD
-=======
 "然后，从产品列表中选择一个产品（：菜单选择：`销售/网站-->产品-->产品`）。打开产品详细信息表单后，单击*编辑*，然后转到*变体*选项卡。"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:22
 msgid ""
 "Here, you can add as many different attributes as you'd like by clicking on "
 "*Add a line*."
-<<<<<<< HEAD
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:24
-msgid "These attributes appear as three different types:"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:26
-msgid "Radio buttons"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:27
-msgid "Color buttons"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:28
-msgid "Drop-down menu"
-msgstr ""
-=======
 msgstr "在这里，您可以通过单击*添加一行*来添加任意多个不同的属性。"
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:24
@@ -387,102 +294,10 @@ msgstr "颜色按钮"
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:28
 msgid "Drop-down menu"
 msgstr "下拉菜单"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:30
 msgid ""
 "Several variants appear as soon as there are two values for one attribute."
-<<<<<<< HEAD
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:32
-msgid "Don't forget to hit *Save* once all variants have been entered."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:None
-#, fuzzy
-#| msgid "How to manage product variants"
-msgid "ecommerce product variants values"
-msgstr "如何管理产品变量"
-
-#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:39
-#, fuzzy
-#| msgid "How to edit variants"
-msgid "Edit variants"
-msgstr "如何编辑变量"
-
-#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:41
-#, fuzzy
-#| msgid "See all the variants from the product template detail form."
-msgid ""
-"After you hit *Save*, you are able to see all the variants from the product "
-"template detail form via the *Variants* smart button."
-msgstr "从产品模板详情表中查看多个变量"
-
-#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:None
-msgid "ecommerce product variants smart button"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:48
-msgid ""
-"Clicking the *Variants* smart button takes you to the Product Variants page, "
-"where you can edit the following data for each specific variant:"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:51
-msgid "Picture(s)"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:52
-#, fuzzy
-#| msgid "Internal Reference (SKU #),"
-msgid "Internal Reference (SKU #)"
-msgstr "内部货号（SKU#）,"
-
-#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:53
-#, fuzzy
-#| msgid "Barcode,"
-msgid "Barcode"
-msgstr "条形码，"
-
-#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:54
-#, fuzzy
-#| msgid "Volume,"
-msgid "Volume"
-msgstr "数量，"
-
-#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:55
-#, fuzzy
-#| msgid "Weight,"
-msgid "Weight"
-msgstr "重量，"
-
-#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:56
-msgid "Cost"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:59
-#, fuzzy
-#| msgid ""
-#| "Both the Barcode and the Internal Reference are variant-specific. You "
-#| "need to populate them once the variants generated."
-msgid ""
-"Both the Barcode and the Internal Reference are variant-specific. You need "
-"to populate them once the variants are generated."
-msgstr "条形码和内部货号都是特定的变量。一旦生成了变量，即需要确定它们。"
-
-#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:63
-#, fuzzy
-#| msgid "How to set specific prices per variant"
-msgid "Set specific prices per variant"
-msgstr "如何为每个变量设置特定的价格"
-
-#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:65
-#, fuzzy
-#| msgid ""
-#| "You can also set a specific public price per variant by clicking *Variant "
-#| "Prices* in the product detail form (action in top-left corner)."
-=======
 msgstr "一个属性有两个值时，就会出现几个变体。"
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:32
@@ -548,56 +363,18 @@ msgid "Set specific prices per variant"
 msgstr "设定每个变体的具体价格"
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:65
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgid ""
 "You can set a specific public price per variant by clicking on *Configure "
 "Variants* in the product detail form (top-left corner). That takes you to "
 "the *Product Variant Values* page for that product."
-<<<<<<< HEAD
-msgstr ""
-"你还可以点击产品详情表（左上角）的 *变量价格* ，为每一种变量设置特定的公开价"
-"格。"
-
-#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:None
-=======
-msgstr "您可以通过单击产品详细信息表单（左上角）中的*配置变体*来设置每个变体的特定公共价格。这将带您进入该产品的*产品变量值*页面。"
+msgstr "您可以通过单击产品详细信息表单（左上角）中的 *配置变体* 来设置每个变体的特定公共价格。这将带您进入该产品的 *产品变量值* 页面。"
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rstNone
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgid "ecommerce product variants configure variants"
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:72
 msgid ""
-<<<<<<< HEAD
-"To set a specific public price for a particular variant, simply click on the "
-"variant you want to modify, then click on *Edit*."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:75
-#, fuzzy
-#| msgid ""
-#| "The Price Extra is added to the product price whenever the corresponding "
-#| "attribute value is selected."
-msgid ""
-"The *Value Price Extra* field represents the monetary value that is added to "
-"the original product price whenever the corresponding attribute value is "
-"selected."
-msgstr "每当选择了对应的属性值，都可以为产品价格添加额外价格。"
-
-#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:None
-msgid "ecommerce value price extra"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:82
-msgid "This is how the *Value Price Extra* looks on your website:"
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:None
-msgid "ecommerce value price extra on the frontend"
-msgstr ""
-
-=======
 "To set a specific public price for a particular variant, simply click on the"
 " variant you want to modify, then click on *Edit*."
 msgstr "要为特定变体设置特定的公共价格，只需单击要修改的变体，然后单击*编辑*。"
@@ -621,7 +398,6 @@ msgstr "以下是“超值价格”在您的网站上的外观："
 msgid "ecommerce value price extra on the frontend"
 msgstr ""
 
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:89
 msgid ""
 "Pricelist formulas let you set advanced price computation methods for "
@@ -631,47 +407,6 @@ msgstr ""
 "maximizing_revenue/pricing`。"
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:93
-<<<<<<< HEAD
-#, fuzzy
-#| msgid "How to disable/archive variants"
-msgid "Disable/archive variants"
-msgstr "如何禁用或归档变量"
-
-#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:95
-#, fuzzy
-#| msgid ""
-#| "You can disable/archive specific variants so that they are no longer "
-#| "available in quotes & website (not existing in your stock, deprecated, "
-#| "etc.). Simply uncheck *Active* in their detail form."
-msgid ""
-"You can disable/archive specific variants so they are no longer available in "
-"quotes or on your website (not existing in your stock, deprecated, etc.). "
-"Simply select *Archive* in their detail form. You can reactivate them the "
-"same way."
-msgstr ""
-"可以禁用或归档特定的变量，使它们不再出现在报价及网站中（从库存中丢弃），只需"
-"取消详情表中 *归档* 的勾号。"
-
-#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:None
-#, fuzzy
-#| msgid "How to manage product variants"
-msgid "ecommerce product variants archive"
-msgstr "如何管理产品变量"
-
-#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:103
-#, fuzzy
-#| msgid ""
-#| "To retrieve such archived items, hit *Archived* on searching the variants "
-#| "list. You can reactivate them the same way."
-msgid ""
-"To retrieve such items, hit *Archived* in the *Filters* category while "
-"searching the variants list."
-msgstr ""
-"如需找回此类归档的项目，在搜索变量列表中点击 *已归档* 。可以用同样的方式再次"
-"激活这些项目。"
-
-#: ../../content/applications/websites/ecommerce/managing_products/variants.rst:None
-=======
 msgid "Disable/archive variants"
 msgstr "禁用/存档变体"
 
@@ -695,35 +430,20 @@ msgid ""
 msgstr "要检索这些项目，请在搜索变体列表的同时点击*过滤器*类别中的*存档*。"
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rstNone
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgid "ecommerce product variants archive search"
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:110
-<<<<<<< HEAD
-#, fuzzy
-#| msgid ":doc:`/applications/sales/sales/products_prices/prices/pricing`"
-msgid ":doc:`../../../sales/sales/products_prices/products/variants`"
-msgstr ":doc:`/applications/sales/sales/products_prices/prices/pricing`"
-=======
 msgid ":doc:`../../../sales/sales/products_prices/products/variants`"
 msgstr ""
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/websites/ecommerce/maximizing_revenue.rst:5
 msgid "Maximize my revenue"
 msgstr "最大限度地提升收入"
 
 #: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:3
-<<<<<<< HEAD
-#, fuzzy
-#| msgid "How to sell accessories and optional products (cross-selling)"
-msgid "Cross-selling: Accessory and Optional Products"
-msgstr "如何销售附件和可选产品（交叉销售）"
-=======
 msgid "Cross-selling: Accessory and Optional Products"
 msgstr ""
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:5
 msgid ""
@@ -734,15 +454,9 @@ msgstr ""
 #: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:8
 msgid ""
 "To do so, you can use **Cross-selling**, a sales technique consisting in "
-<<<<<<< HEAD
-"selling a customer something in addition to the product or service they were "
-"originally shopping for. It is a great way to maximize the value of each one "
-"of your customers."
-=======
 "selling a customer something in addition to the product or service they were"
 " originally shopping for. It is a great way to maximize the value of each "
 "one of your customers."
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:12
@@ -758,37 +472,6 @@ msgstr "结账页上的配套产品，"
 
 #: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:15
 msgid ""
-<<<<<<< HEAD
-":ref:`Optional products <cross_selling/optional>` on a new :guilabel:`Add to "
-"Cart` screen."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:20
-#, fuzzy
-#| msgid "Accessory products on checkout page,"
-msgid "Accessory Products"
-msgstr "结账页上的配套产品，"
-
-#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:22
-msgid ""
-"**Accessory Products** are products that are displayed when customers review "
-"their cart before paying. As an example, you could suggest a mouse or a "
-"keyboard when someone buys a computer."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:25
-msgid ""
-"To add *Accessory Products*, go to :menuselection:`Website --> Products --> "
-"Products` and, under the :guilabel:`Sales Tab`, add your products to the :"
-"guilabel:`Accessory Products` field."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:None
-#, fuzzy
-#| msgid "Accessory products on checkout page,"
-msgid "Add an accessory product to product form."
-msgstr "结账页上的配套产品，"
-=======
 ":ref:`Accessory products <cross_selling/accessory>` on the checkout page."
 msgstr ""
 
@@ -819,54 +502,11 @@ msgstr ""
 #: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rstNone
 msgid "Add an accessory product to product form."
 msgstr ""
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:32
 msgid ""
 "Now, go to your website and add the product to your cart. On the payment "
 "step, you can see your accessory products suggested to the customer."
-<<<<<<< HEAD
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:None
-msgid "See of payment view and accessory product suggestion."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:40
-msgid ""
-"`Odoo Tutorials: Alternative, Accessory, and Optional Products <https://www."
-"odoo.com/slides/slide/alternative-accessory-and-optional-products-637>`_."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:46
-#, fuzzy
-#| msgid "To publish optional products:"
-msgid "Optional Products"
-msgstr "发布可选产品："
-
-#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:48
-msgid ""
-"**Optional products** are products directly related to an item. Each time "
-"the product is added to a cart, a pop-up appears, suggesting other products "
-"to buy."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:51
-msgid ""
-"To enable optional products, go to :menuselection:`Website --> Configuration "
-"--> Settings` and tick :guilabel:`Optional Products`. Then, go to :"
-"menuselection:`Website --> Products --> Products` and open the item you want "
-"to add an optional product to. In the :guilabel:`Sales tab` of that product, "
-"add as many optional products as you want."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:None
-msgid "Add an optional product to product form."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:60
-msgid ""
-=======
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rstNone
@@ -906,24 +546,10 @@ msgstr ""
 
 #: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:60
 msgid ""
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 "From now, when a customer adds this product to their cart, a pop-up appears "
 "and suggests also adding the optional product(s)."
 msgstr ""
 
-<<<<<<< HEAD
-#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:None
-#, fuzzy
-#| msgid "To publish optional products:"
-msgid "Pop-up with optional products appears."
-msgstr "发布可选产品："
-
-#: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:68
-#, fuzzy
-#| msgid ":doc:`pricing`"
-msgid ":doc:`upselling`"
-msgstr ":doc:`pricing`"
-=======
 #: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rstNone
 msgid "Pop-up with optional products appears."
 msgstr ""
@@ -931,7 +557,6 @@ msgstr ""
 #: ../../content/applications/websites/ecommerce/maximizing_revenue/cross_selling.rst:68
 msgid ":doc:`upselling`"
 msgstr ""
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/websites/ecommerce/maximizing_revenue/pricing.rst:3
 msgid "Adapt prices to website visitors"
@@ -1175,25 +800,15 @@ msgstr ""
 #: ../../content/applications/websites/ecommerce/shopper_experience/payment_providers.rst:5
 msgid ""
 "The moment a payment is officially authorized by a Payment Provider, Odoo "
-<<<<<<< HEAD
-"*automatically* confirms the order, which triggers the delivery. And, if you "
-"invoice based on ordered quantities, you are requested to invoice the order, "
-"as well."
-=======
 "*automatically* confirms the order, which triggers the delivery. And, if you"
 " invoice based on ordered quantities, you are requested to invoice the "
 "order, as well."
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/shopper_experience/payment_providers.rst:9
 msgid ""
-<<<<<<< HEAD
-"Let’s take a closer look at how to manage orders paid with Payment Providers."
-=======
 "Let’s take a closer look at how to manage orders paid with Payment "
 "Providers."
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/shopper_experience/payment_providers.rst:12
@@ -1202,22 +817,6 @@ msgstr "检查付款状态"
 
 #: ../../content/applications/websites/ecommerce/shopper_experience/payment_providers.rst:14
 msgid ""
-<<<<<<< HEAD
-"To check the status of a payment, go to :menuselection:`Website --> Orders --"
-"> Orders`. Then, simply click on the order you wish to check on."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/shopper_experience/payment_providers.rst:17
-msgid ""
-"Once you are on the Sales Order page, you will find the payment is confirmed "
-"with an automatic note in the *Chatter*."
-msgstr ""
-
-#: ../../content/applications/websites/ecommerce/shopper_experience/payment_providers.rst:None
-msgid "payment is confirmed in the chatter of sales order"
-msgstr ""
-
-=======
 "To check the status of a payment, go to :menuselection:`Website --> Orders "
 "--> Orders`. Then, simply click on the order you wish to check on."
 msgstr "要检查付款状态，请转至：菜单选择：`网站-->订单-->订单`。然后，只需点击您想要查看的订单。"
@@ -1232,7 +831,6 @@ msgstr "一旦您进入销售订单页面，您将发现付款已通过*聊天*�
 msgid "payment is confirmed in the chatter of sales order"
 msgstr ""
 
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 #: ../../content/applications/websites/ecommerce/shopper_experience/payment_providers.rst:24
 msgid ""
 "If the user decides to create an invoice, the payment is directly "
@@ -1245,13 +843,6 @@ msgstr "如果用户决定创建发票，则直接对账付款。“聊天”中
 msgid "page with details surrounding the specific transaction"
 msgstr ""
 
-<<<<<<< HEAD
-#: ../../content/applications/websites/ecommerce/shopper_experience/payment_providers.rst:None
-msgid "page with details surrounding the specific transaction"
-msgstr ""
-
-=======
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 #: ../../content/applications/websites/ecommerce/shopper_experience/payment_providers.rst:32
 msgid ""
 "Specific messages are provided to your customers for every payment status "
@@ -1293,13 +884,6 @@ msgstr "然后激活*自动发票*和*保存*。"
 msgid "example of automatic invoice"
 msgstr ""
 
-<<<<<<< HEAD
-#: ../../content/applications/websites/ecommerce/shopper_experience/payment_providers.rst:None
-msgid "example of automatic invoice"
-msgstr ""
-
-=======
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 #: ../../content/applications/websites/ecommerce/shopper_experience/payment_providers.rst:54
 msgid "Capture payment after the delivery"
 msgstr "交付后捕获付款"
@@ -1313,17 +897,6 @@ msgid ""
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/shopper_experience/payment_providers.rst:61
-<<<<<<< HEAD
-#, fuzzy
-#| msgid ":doc:`../../../general/payment_acquirers/payment_acquirers`"
-msgid ":doc:`../../../finance/payment_providers`"
-msgstr ":doc:`../../../general/payment_acquirers/payment_acquirers`"
-
-#: ../../content/applications/websites/ecommerce/shopper_experience/payment_providers.rst:62
-msgid ""
-":ref:`Payment Providers: Place a hold on a card <payment_providers/features/"
-"manual_capture>`"
-=======
 msgid ":doc:`../../../finance/payment_providers`"
 msgstr ""
 
@@ -1331,7 +904,6 @@ msgstr ""
 msgid ""
 ":ref:`Payment Providers: Place a hold on a card "
 "<payment_providers/features/manual_capture>`"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgstr ""
 
 #: ../../content/applications/websites/ecommerce/shopper_experience/portal.rst:3
@@ -1393,11 +965,7 @@ msgstr "在线聊天"
 
 #: ../../content/applications/websites/livechat.rst:11
 msgid "`Live Chat: product page <https://www.odoo.com/app/live-chat>`_"
-<<<<<<< HEAD
-msgstr ""
-=======
 msgstr "`实时聊天：产品页面<https://www.odoo.com/app/live-chat>`_"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/websites/livechat/overview.rst:5
 #: ../../content/applications/websites/website/publish/translate.rst:6
@@ -1446,11 +1014,7 @@ msgid ""
 "Select the channel to be linked to your website or create one on the fly."
 msgstr "选择要链接到您的网站的频道，或即时创建一个频道。"
 
-<<<<<<< HEAD
-#: ../../content/applications/websites/livechat/overview/get_started.rst:None
-=======
 #: ../../content/applications/websites/livechat/overview/get_started.rstNone
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgid "View of a live chat channel form for Odoo Live Chat"
 msgstr ""
 
@@ -1464,25 +1028,14 @@ msgid ""
 "you like, and keep in mind that operators that do not show any activity in "
 "Odoo for more than 30min are considered disconnected."
 msgstr ""
-<<<<<<< HEAD
-"- **操作员** ：添加代理以回应聊天请求。 可根据需要添加数量，并且请记住，在"
-"Odoo中未进行任何活动超过30分钟的操作员将被视为断开连接。"
-=======
 "-  **作**  ：添加代理以回应聊天请求。 可根据需要添加数量，并且请记住，在Odoo中未进行任何活动超过30分钟的操作员将被视为断开连接。"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/websites/livechat/overview/get_started.rst:33
 msgid ""
 "- **Options**: set the default text to be shown on the live chat button; an "
 "automated welcome message to be seen by visitors when a conversation is "
 "initiated, and the text that prompts the user to initiate a chat."
-<<<<<<< HEAD
-msgstr ""
-"- **选项** ：设置要在在线客服按钮上显示的默认文本； 发起对话时访问者可以看到"
-"自动的欢迎信息，以及提示用户发起聊天的文本。"
-=======
 msgstr "-  ****  ：设置要在在线客服按钮上显示的默认文本； 发起对话时访问者可以看到自动的欢迎信息，以及提示用户发起聊天的文本。"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/websites/livechat/overview/get_started.rst:36
 msgid ""
@@ -1490,18 +1043,8 @@ msgid ""
 "In the example below, the chat window automatically pops-up 3 seconds after "
 "users (from any country) land on the contact us page."
 msgstr ""
-<<<<<<< HEAD
-"- **频道规则** ：为指定的网址和/或每个国家/地区选择一个操作。 在下面的示例"
-"中，用户（来自任何国家/地区）当登陆 *联系我们* 页面3秒后，聊天窗口会自动弹"
-"出。"
-
-#: ../../content/applications/websites/livechat/overview/get_started.rst:None
-msgid "View of a channel’s rules form for Odoo Live Chat"
-msgstr ""
-=======
 "-  **道规**  ：为指定的网址和/或每个国家/地区选择一个操作。 在下面的示例中，用户（来自任何国家/地区）当登陆 *联系我们* "
 "页面3秒后，聊天窗口会自动弹出。"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/websites/livechat/overview/get_started.rstNone
 msgid "View of a channel’s rules form for Odoo Live Chat"
@@ -1534,11 +1077,7 @@ msgid ""
 "single live chat page."
 msgstr "Odoo还提供了可以发送给用户的URL，以便他们可以访问单个在线客服页面。"
 
-<<<<<<< HEAD
-#: ../../content/applications/websites/livechat/overview/get_started.rst:None
-=======
 #: ../../content/applications/websites/livechat/overview/get_started.rstNone
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgid "View of the widget tab for Odoo Live Chat"
 msgstr ""
 
@@ -1636,11 +1175,7 @@ msgstr "如果用户 *不满意* 或 *非常不满意* ，则会出现输入解�
 msgid "A copy of the conversation can also be sent by email."
 msgstr "对话副本也可以通过电子邮件发送。"
 
-<<<<<<< HEAD
-#: ../../content/applications/websites/livechat/overview/ratings.rst:None
-=======
 #: ../../content/applications/websites/livechat/overview/ratings.rstNone
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgid "View of the chat window from a user’s side for Odoo Live Chat"
 msgstr ""
 
@@ -1648,28 +1183,17 @@ msgstr ""
 msgid "The rating is shown on the chat window itself for the operator."
 msgstr "该评级显示在操作员的聊天窗口上。"
 
-<<<<<<< HEAD
-#: ../../content/applications/websites/livechat/overview/ratings.rst:None
-msgid ""
-"View of a chat window from an operator’s side highlighting a rating for Odoo "
-"Live Chat"
-=======
 #: ../../content/applications/websites/livechat/overview/ratings.rstNone
 msgid ""
 "View of a chat window from an operator’s side highlighting a rating for Odoo"
 " Live Chat"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgstr ""
 
 #: ../../content/applications/websites/livechat/overview/ratings.rst:28
 msgid "And under :menuselection:`Report --> Customer Ratings`."
 msgstr "并在 :menuselection:`报告 --> 客户评级`下。"
 
-<<<<<<< HEAD
-#: ../../content/applications/websites/livechat/overview/ratings.rst:None
-=======
 #: ../../content/applications/websites/livechat/overview/ratings.rstNone
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgid "View of the customer ratings page in Odoo Live Chat"
 msgstr ""
 
@@ -1758,11 +1282,7 @@ msgid ""
 "link."
 msgstr "要访问通过聊天创建的支持请求或销售线索，请单击快捷链接。"
 
-<<<<<<< HEAD
-#: ../../content/applications/websites/livechat/overview/responses.rst:None
-=======
 #: ../../content/applications/websites/livechat/overview/responses.rstNone
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgid ""
 "View of the chat window with a helpdesk ticket created in Odoo Live Chat"
 msgstr ""
@@ -1793,11 +1313,7 @@ msgid ""
 "shortcut word you created."
 msgstr "要在对话中使用它们，只需键入 **:** ，然后输入您创建的快捷方式单词。"
 
-<<<<<<< HEAD
-#: ../../content/applications/websites/livechat/overview/responses.rst:None
-=======
 #: ../../content/applications/websites/livechat/overview/responses.rstNone
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgid ""
 "View of a chat window and the use of a canned response in Odoo Live Chat"
 msgstr ""
@@ -1810,11 +1326,7 @@ msgstr "网站"
 msgid ""
 "Discover the best **Open-Source Website Builder** and learn how to build "
 "beautiful websites that convert visitors into leads or revenues."
-<<<<<<< HEAD
-msgstr ""
-=======
 msgstr "探索最好的 **源网站建设** ，学习如何创建美丽的网站，将访问者转化为潜在客户或收入。"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/websites/website/optimize.rst:5
 msgid "Optimize"
@@ -1850,19 +1362,6 @@ msgstr "将这个跟踪ID插入到Odoo。"
 msgid ""
 "Go to the *Configuration* menu of your Odoo's Website app. In the settings, "
 "turn on Google Analytics and paste the tracking ID. Then save the page."
-<<<<<<< HEAD
-msgstr ""
-"进Odoo网址App的 *配置* 模式，在设置中打开Google Analytics并粘贴此跟踪ID号，保"
-"存页面。"
-
-#: ../../content/applications/websites/website/optimize/google_analytics.rst:27
-msgid ""
-"To make your first steps in Google Analytics, refer to `Google Documentation "
-"<https://support.google.com/analytics/answer/1008015?hl=en/>`_."
-msgstr ""
-"在Google Analytics中的首次操作请参阅 `Google文档 <https://support.google.com/"
-"analytics/answer/1008015?hl=en/>`_。"
-=======
 msgstr "进Odoo网址App的 *配置* 模式，在设置中打开Google Analytics并粘贴此跟踪ID号，保存页面。"
 
 #: ../../content/applications/websites/website/optimize/google_analytics.rst:27
@@ -1872,7 +1371,6 @@ msgid ""
 msgstr ""
 "在Google Analytics中的首次操作请参阅 `Google文档 "
 "<https://support.google.com/analytics/answer/1008015?hl=en/>`_。"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/websites/website/optimize/link_tracker.rst:3
 msgid "Track clicks and visitors using Link Trackers"
@@ -1898,11 +1396,7 @@ msgid ""
 "*Link Trackers*."
 msgstr "前往  :menuselection:`网站  --> 配置 --> 设定` 并激活 *链接跟踪器* 。"
 
-<<<<<<< HEAD
-#: ../../content/applications/websites/website/optimize/link_tracker.rst:None
-=======
 #: ../../content/applications/websites/website/optimize/link_tracker.rstNone
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgid ""
 "View of Website settings page emphasizing the link trackers field in Odoo "
 "Website"
@@ -1943,12 +1437,7 @@ msgstr " ****  : 链接的撮要（例如特殊促销）。"
 msgid ""
 "**Medium**: channel used to share (deliver) your link (e.g. an email or a "
 "Facebook ad)."
-<<<<<<< HEAD
-msgstr ""
-"**媒介** : 用于共享（提供）您的链接的渠道（例如电子邮件或Facebook广告）。"
-=======
 msgstr " ****  : 用于共享（提供）您的链接的渠道（例如电子邮件或Facebook广告）。"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/websites/website/optimize/link_tracker.rst:31
 msgid ""
@@ -2259,14 +1748,6 @@ msgstr "**Odoo博** ：撰写优质内容。"
 #: ../../content/applications/websites/website/optimize/seo.rst:62
 msgid ""
 "**Odoo Slides**: publish all your Powerpoint or PDF presentations. Their "
-<<<<<<< HEAD
-"content is automatically indexed on the web page. Example: `odoo.com/slides/"
-"public-channel-1 <https://www.odoo.com/slides/public-channel-1>`_"
-msgstr ""
-"**Odoo幻灯片** ：发表所有的PowerPoint或者PDF演示文稿。内容将自动在网页上进行"
-"索引。例如: `odoo.com/slides/public-channel-1 <https://www.odoo.com/slides/"
-"public-channel-1>`_"
-=======
 "content is automatically indexed on the web page. Example: "
 "`odoo.com/slides/public-channel-1 <https://www.odoo.com/slides/public-"
 "channel-1>`_"
@@ -2274,7 +1755,6 @@ msgstr ""
 "**Odoo幻灯**  ：发表所有的PowerPoint或者PDF演示文稿。内容将自动在网页上进行索引。例如: "
 "`odoo.com/slides/public-channel-1 <https://www.odoo.com/slides/public-"
 "channel-1>`_"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/websites/website/optimize/seo.rst:66
 msgid ""
@@ -2282,13 +1762,8 @@ msgid ""
 "com/forum/1 <https://odoo.com/forum/1>`_ (accounts for 30% of Odoo.com "
 "landing pages)"
 msgstr ""
-<<<<<<< HEAD
-"**Odoo论坛**：让社区为你创建内容。例如:`odoo.com/forum/1 <https://odoo.com/"
-"forum/1>`_（占Odoo.com登录页面的30%）"
-=======
 "**Odoo论** ：让社区为你创建内容。例如:`odoo.com/forum/1 "
 "<https://odoo.com/forum/1>`_（占Odoo.com登录页面的30%）"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/websites/website/optimize/seo.rst:70
 msgid ""
@@ -2296,13 +1771,8 @@ msgid ""
 "website. Example: `odoo.com/groups/community-59 <https://www.odoo.com/groups/"
 "community-59>`_ (1000 pages created per month)"
 msgstr ""
-<<<<<<< HEAD
-"**Odoo邮件列表存档**：在网站上发布邮件列表存档。例如: `odoo.com/groups/"
-"community-59 <https://www.odoo.com/groups/community-59>`_（每月创建1000页）"
-=======
 "**Odoo邮件列表存** ：在网站上发布邮件列表存档。例如: `odoo.com/groups/community-59 "
 "<https://www.odoo.com/groups/community-59>`_（每月创建1000页）"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/websites/website/optimize/seo.rst:76
 msgid ""
@@ -2437,14 +1907,9 @@ msgid ""
 "browses the main language of the website Thus, the main version of this page "
 "is: https://www.mysite.com/shop/product/my-great-product-31"
 msgstr ""
-<<<<<<< HEAD
-"**/fr\\_FR** = 网页的语言。如果访问者浏览网站主语言，URL的这一部分将删除。因"
-"此，本页面的主版本是：https://www.mysite.com/shop/product/my-great-product-31"
-=======
 "**/fr\\_FR** = "
 "网页的语言。如果访问者浏览网站主语言，URL的这一部分将删除。因此，本页面的主版本是：https://www.mysite.com/shop/product/my-"
 "great-product-31"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/websites/website/optimize/seo.rst:158
 msgid ""
@@ -2760,19 +2225,6 @@ msgstr "介绍"
 msgid ""
 "The time to load a page is an important criteria for search engines. A "
 "faster website not only improves your visitor's experience, but gives you a "
-<<<<<<< HEAD
-"better page ranking. Some studies have shown that, if you divide the time to "
-"load your pages by two (e.g. 2 seconds instead of 4 seconds), the visitor "
-"abandonment rate is also divided by two. (25% to 12.5%). One extra second to "
-"load a page could `cost $1.6b to Amazon in sales <http://www.fastcompany."
-"com/1825005/how-one-second-could-cost-amazon-16-billion-sales>`__."
-msgstr ""
-"加载页面的时间是搜索引擎的一个重要标准。更快的网页加载速度不仅可提高访问体"
-"验，也能提高你的网页排名。一些研究表明，如果加载网页时减少一半（例如，2秒而不"
-"是4秒），访问者放弃率也会降低一半（25％到12.5％）。加载网页的时间增加一秒会导"
-"致`Amazon的销售减少16亿美元 <http://www.fastcompany.com/1825005/how-one-"
-"second-could-cost-amazon-16-billion-sales>`__。"
-=======
 "better page ranking. Some studies have shown that, if you divide the time to"
 " load your pages by two (e.g. 2 seconds instead of 4 seconds), the visitor "
 "abandonment rate is also divided by two. (25% to 12.5%). One extra second to"
@@ -2783,7 +2235,6 @@ msgstr ""
 "加载页面的时间是搜索引擎的一个重要标准。更快的网页加载速度不仅可提高访问体验，也能提高你的网页排名。一些研究表明，如果加载网页时减少一半（例如，2秒而不是4秒），访问者放弃率也会降低一半（25％到12.5％）。加载网页的时间增加一秒会导致`Amazon的销售减少16亿美元"
 " <http://www.fastcompany.com/1825005/how-one-second-could-cost-"
 "amazon-16-billion-sales>`__。"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/websites/website/optimize/seo.rst:325
 msgid ""
@@ -2895,16 +2346,9 @@ msgid ""
 "supports Less and Sass, you can modify CSS rules instead of overwriting them "
 "through extra CSS lines, resulting in a smaller file."
 msgstr ""
-<<<<<<< HEAD
-" **预处理 :** Odoo使用的CSS框架是Bootstrap。虽然某个主题可能会使用其他框架，"
-"大部分`Odoo 主题 <https://www.odoo.com/apps/themes>`__延长并直接定制"
-"Bootstrap。由于Odoo支持Less和Sass，你可以修改CSS 规则，而不是通过额外的CSS线"
-"覆盖它们，导致文件变得更小。"
-=======
 "  **处理 :** Odoo使用的CSS框架是Bootstrap。虽然某个主题可能会使用其他框架，大部分`Odoo 主题 "
 "<https://www.odoo.com/apps/themes>`__延长并直接定制Bootstrap。由于Odoo支持Less和Sass，你可以修改CSS"
 " 规则，而不是通过额外的CSS线覆盖它们，导致文件变得更小。"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/websites/website/optimize/seo.rst:395
 msgid ""
@@ -2917,16 +2361,8 @@ msgid ""
 "files like .JS and .CSS. Thus, the time to load CSS resources depends more "
 "on the number of requests to be done than the actual file size."
 msgstr ""
-<<<<<<< HEAD
-" **级联：** 你在Odoo中可能使用的每个模块或库都有自己的一套的CSS、Less或Sass文"
-"件（电子商务、博客、主题等）。多个CSS文件对于模块化非常有用，但是对性能不太"
-"好，因为大多数浏览器只能执行并行6个请求载入的文件。对于像.JS和.CSS等小文件，"
-"等待传送文件的时间通常比实际的数据传输时间更长。因此，加载CSS资源的时间更多地"
-"取决于请求的数目而不是实际的文件大小。"
-=======
 "  **联：** "
 "你在Odoo中可能使用的每个模块或库都有自己的一套的CSS、Less或Sass文件（电子商务、博客、主题等）。多个CSS文件对于模块化非常有用，但是对性能不太好，因为大多数浏览器只能执行并行6个请求载入的文件。对于像.JS和.CSS等小文件，等待传送文件的时间通常比实际的数据传输时间更长。因此，加载CSS资源的时间更多地取决于请求的数目而不是实际的文件大小。"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/websites/website/optimize/seo.rst:405
 msgid ""
@@ -2936,14 +2372,8 @@ msgid ""
 "shared amongst all pages, when the visitor clicks on another page, the "
 "browser does not even have to load a new CSS file!"
 msgstr ""
-<<<<<<< HEAD
-"为了解决这个问题，所有的CSS / Less / Sass文件合并为一个.CSS文件发送至浏览器。"
-"因此一位访客每页 **只需要加载一个.css文件** ，这是特别有效的。由于CSS是在所有"
-"页面共享的，当访问者点击另一页上，浏览器甚至无需加载新的CSS文件！"
-=======
 "为了解决这个问题，所有的CSS / Less / Sass文件合并为一个.CSS文件发送至浏览器。因此一位访客每页  **需要加载一个.css文**  "
 "，这是特别有效的。由于CSS是在所有页面共享的，当访问者点击另一页上，浏览器甚至无需加载新的CSS文件！"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/websites/website/optimize/seo.rst:412
 msgid "**Both files in the <head>**"
@@ -3142,15 +2572,9 @@ msgstr ""
 
 #: ../../content/applications/websites/website/optimize/seo.rst:504
 msgid ""
-<<<<<<< HEAD
-"You can configure your CDN options from the **Website Admin** app, using the "
-"Configuration menu. Here is an example of configuration you can use:"
-msgstr "你可从 **网站管理员** 程序中使用配置菜单配置CDN选项。这是配置示例："
-=======
 "You can configure your CDN options from the **Website Admin** app, using the"
 " Configuration menu. Here is an example of configuration you can use:"
 msgstr "你可从  **站管理**  程序中使用配置菜单配置CDN选项。这是配置示例："
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/websites/website/optimize/seo.rst:511
 msgid "HTML Pages"
@@ -3366,107 +2790,13 @@ msgid ""
 "It means that all robots are allowed to index your website and there is no "
 "other indexing rule than specified in the sitemap to be found at following "
 "address."
-<<<<<<< HEAD
-msgstr ""
-"这意味着所有的机器人都可对你的网站进行索引，除以下地址的网站地图中规定的索引"
-"规则外，没有其他索引规则。"
-=======
 msgstr "这意味着所有的机器人都可对你的网站进行索引，除以下地址的网站地图中规定的索引规则外，没有其他索引规则。"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/websites/website/optimize/seo.rst:634
 msgid ""
 "You can customize the file *robots* in :ref:`developer mode <developer-"
 "mode>` from *Settings --> Technical --> User Interface --> Views* (exclude "
 "robots, exclude some pages, redirect to a custom Sitemap). Make the Model "
-<<<<<<< HEAD
-"Data of the view *Non Updatable* to not reset the file after system upgrades."
-msgstr ""
-
-#: ../../content/applications/websites/website/optimize/unsplash.rst:3
-msgid "Unsplash (free images)"
-msgstr ""
-
-#: ../../content/applications/websites/website/optimize/unsplash.rst:6
-msgid "Generate an Unsplash access key"
-msgstr ""
-
-#: ../../content/applications/websites/website/optimize/unsplash.rst:9
-msgid ""
-"**As a SaaS user**, you are ready to use Unsplash. You won't need to follow "
-"this guide to set up Unsplash information since you will use our own Odoo "
-"Unsplash key in a transparent way."
-msgstr ""
-
-#: ../../content/applications/websites/website/optimize/unsplash.rst:13
-msgid "Generate an Unsplash access key for non-Saas users"
-msgstr ""
-
-#: ../../content/applications/websites/website/optimize/unsplash.rst:15
-msgid "Create an account on `Unsplash.com <https://unsplash.com/join>`_."
-msgstr ""
-
-#: ../../content/applications/websites/website/optimize/unsplash.rst:17
-msgid ""
-"Go to your `applications dashboard <https://unsplash.com/oauth/"
-"applications>`_ and click on **New Application**."
-msgstr ""
-
-#: ../../content/applications/websites/website/optimize/unsplash.rst:23
-msgid "Accept the conditions and click on **Accept terms**."
-msgstr ""
-
-#: ../../content/applications/websites/website/optimize/unsplash.rst:28
-msgid ""
-"You will be prompted to insert an **Application name** and a "
-"**Description**. Please prefix your application name by \"**Odoo:** \" so "
-"that Unsplash can recognize it as an Odoo instance. Once done, click on "
-"**Create application**."
-msgstr ""
-
-#: ../../content/applications/websites/website/optimize/unsplash.rst:35
-msgid ""
-"You should be redirected to your application details page. Scroll down a bit "
-"to find your **access key**."
-msgstr ""
-
-#: ../../content/applications/websites/website/optimize/unsplash.rst:42
-msgid ""
-"**As a non-SaaS user**, you won't be able to register for a production "
-"Unsplash key and will be limited to your test key that has a restriction of "
-"50 Unsplash requests per hour."
-msgstr ""
-
-#: ../../content/applications/websites/website/optimize/unsplash.rst:46
-msgid "Generate an Unsplash application ID"
-msgstr ""
-
-#: ../../content/applications/websites/website/optimize/unsplash.rst:49
-msgid "You should first create and set up your Unsplash application."
-msgstr ""
-
-#: ../../content/applications/websites/website/optimize/unsplash.rst:51
-msgid ""
-"Go to your `applications dashboard <https://unsplash.com/oauth/"
-"applications>`_ and click on your newly created Unsplash application under "
-"**Your applications**."
-msgstr ""
-
-#: ../../content/applications/websites/website/optimize/unsplash.rst:57
-msgid ""
-"You will be redirected to your application details page. The **application "
-"ID** will be visible in your browser's URL. The URL should be something like "
-"``https://unsplash.com/oauth/applications/<application_id>``"
-msgstr ""
-
-#: ../../content/applications/websites/website/optimize/unsplash.rst:65
-msgid ""
-"**As a non-SaaS user**, you won't be able to register for a production "
-"Unsplash key and will be limited to your test key that has a 50 Unsplash "
-"requests per hour restriction."
-msgstr ""
-
-=======
 "Data of the view *Non Updatable* to not reset the file after system "
 "upgrades."
 msgstr ""
@@ -3564,7 +2894,6 @@ msgid ""
 "requests per hour restriction."
 msgstr "**作为非SaaS用户**，你将无法注册生产Unsplash密钥，仅限于使用测试密钥，它每小时只能发送50个Unsplash请求。"
 
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 #: ../../content/applications/websites/website/publish.rst:5
 msgid "Publish"
 msgstr "发布"
@@ -3633,21 +2962,12 @@ msgstr ""
 #| "your Odoo database (``CNAME``) and to authorize it Odoo-side. See :doc:"
 #| "`domain_name`."
 msgid ""
-<<<<<<< HEAD
-"If you run Odoo Online, don’t forget to redirect any new domain name to your "
-"Odoo database (``CNAME``) and to authorize it Odoo-side. See :ref:`domain-"
-"name/existing`."
-msgstr ""
-"如果你运行Odoo Online，请勿忘记将所有新域名重定向到你的Odoo数据库(``CNAME``)"
-"并从Odoo方面进行授权。查看:doc:`domain_name`。"
-=======
 "If you run Odoo Online, don’t forget to redirect any new domain name to your"
 " Odoo database (``CNAME``) and to authorize it Odoo-side. See :ref:`domain-"
 "name/existing`."
 msgstr ""
 "如果你在线运行Odoo，不要忘记将任何新域名重定向到你的Odoo数据库（`CNAME`），并在Odoo端对其进行授权。请参阅：ref:`domain-"
 "name/existing`。"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/websites/website/publish/multi_website.rst:52
 msgid "Create the menu"
@@ -3787,20 +3107,12 @@ msgid ""
 "Create an extra Nginx ``server`` block in which you set the ``server_name`` "
 "that you've set in the :guilabel:`Website domain` field."
 msgstr ""
-<<<<<<< HEAD
-
-#: ../../content/applications/websites/website/publish/multi_website.rst:136
-msgid "Reload and restart your Nginx instance to use the new ``server`` block."
-msgstr ""
-
-=======
 
 #: ../../content/applications/websites/website/publish/multi_website.rst:136
 msgid ""
 "Reload and restart your Nginx instance to use the new ``server`` block."
 msgstr ""
 
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 #: ../../content/applications/websites/website/publish/multi_website.rst:139
 msgid "Customize the visitor experience"
 msgstr "自定义访问者体验"
@@ -4025,29 +3337,6 @@ msgstr ""
 "和POS应用程序的后端操作。"
 
 #: ../../content/applications/websites/website/publish/multi_website.rst:280
-<<<<<<< HEAD
-#, fuzzy
-#| msgid "Payment Acquirers and Delivery Methods"
-msgid "Payment Providers and Delivery Methods"
-msgstr "付款收单机构和交货方式"
-
-#: ../../content/applications/websites/website/publish/multi_website.rst:282
-#, fuzzy
-#| msgid ""
-#| "By default, published payment acquirers and delivery methods are deployed "
-#| "in all websites. You could already use specific payment acquirers per "
-#| "country using Geo IP by defining countries in their configuration. Now "
-#| "you can also do it per website by filling in the *Website* field."
-msgid ""
-"By default, published payment providers and delivery methods are deployed in "
-"all websites. You could already use specific payment providers per country "
-"using Geo IP by defining countries in their configuration. Now you can also "
-"do it per website by filling in the *Website* field."
-msgstr ""
-"默认情况下，所有网站都部署了已发布的付款收单机构和交货方式。你在网站配置中定"
-"义国家，即可通过Geo IP确定每个国家使用的具体支付收单机构。你也可填写 *网站* "
-"字段，对每个网站进行设置。"
-=======
 msgid "Payment Providers and Delivery Methods"
 msgstr ""
 
@@ -4058,7 +3347,6 @@ msgid ""
 "using Geo IP by defining countries in their configuration. Now you can also "
 "do it per website by filling in the *Website* field."
 msgstr ""
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/websites/website/publish/multi_website.rst:288
 msgid "Customer accounts"
@@ -4207,15 +3495,9 @@ msgstr "浏览IP地址为本地主机(``127.0.0.1``)或一个局域网(``192.168
 
 #: ../../content/applications/websites/website/publish/on-premise_geo-ip-installation.rst:62
 msgid ""
-<<<<<<< HEAD
-"If a reversed proxy is used, make sure to configure it correctly. See :"
-"option:`proxy mode <odoo-bin --proxy-mode>`"
-msgstr ""
-=======
 "If a reversed proxy is used, make sure to configure it correctly. See "
 ":option:`proxy mode <odoo-bin --proxy-mode>`"
 msgstr "如果使用反向代理，请确保正确配置。请参阅：选项:`代理模式 <odoo-bin --proxy-mode>`"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/websites/website/publish/on-premise_geo-ip-installation.rst:63
 msgid "``geoip2`` is not installed or the GeoIP database file wasn't found"
@@ -4247,11 +3529,7 @@ msgstr "创建网站后，您将有机会根据需要翻译成多种语言。"
 
 #: ../../content/applications/websites/website/publish/translate.rst:17
 msgid "You can only translate your website manually, follow the next step."
-<<<<<<< HEAD
-msgstr ""
-=======
 msgstr "您只能手动翻译您的网站，请执行下一步。"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/websites/website/publish/translate.rst:19
 msgid ""
@@ -4278,479 +3556,4 @@ msgstr ""
 msgid ""
 "To translate the content of the website, click on **Translate** (here "
 "**Traduire** since we want to translate the website in French)."
-<<<<<<< HEAD
-msgstr ""
-"翻译网站的内容，点击 **翻译** (这里 **Traduire** , 是因为我们想把网站翻译成法"
-"文)。"
-
-#~ msgid ""
-#~ "Product variants are used to offer variations of the same product to your "
-#~ "customers on the products page. For example, the customer chooses a T-"
-#~ "shirt and then selects its size and color.  In the example below, the "
-#~ "customer chooses a phone, and then selects the memory; color and Wi-Fi "
-#~ "band from the available options."
-#~ msgstr ""
-#~ "产品变体用于在产品页面上向您的客户提供同一产品的变体。 例如，客户选择一件T"
-#~ "恤，然后选择其尺寸和颜色。 在下面的示例中，客户选择一个电话，然后选择内"
-#~ "存； 可用选项中的颜色和Wi-Fi带宽。"
-
-#~ msgid ""
-#~ "Turn on *Products can have several attributes, defining variants "
-#~ "(Example: size, color,...)* in :menuselection:`Sales --> Settings`."
-#~ msgstr ""
-#~ "在  :menuselection:`销售 --> 设置，中选择启用 *产品可以有多个属性，定义这"
-#~ "些变量（如尺码、颜色等）* 。"
-
-#~ msgid "Select a product from the Products list, go to the *Variants* tab."
-#~ msgstr "从产品列表中选择一款产品，再选择 *变量* 选项卡。"
-
-#~ msgid ""
-#~ "Add as many attributes as you need from 3 different types: radio buttons, "
-#~ "drop-down menu or color buttons. You get several variants as soon as "
-#~ "there are 2 values for 1 attribute."
-#~ msgstr ""
-#~ "添加三种类型的多个属性：单选按钮、下拉菜单或颜色按钮。因为每种属性有多个变"
-#~ "量，故你得到多个变量。"
-
-#~ msgid "You can edit following data:"
-#~ msgstr "你可以编辑以下数据："
-
-#~ msgid "Picture (will update in real time on the website),"
-#~ msgstr "图片（在网站中实时更新），"
-
-#~ msgid "Active (available in quotes & website)."
-#~ msgstr "活跃（是否在网站中、是否可以报价）。"
-
-#~ msgid ""
-#~ "See and edit all the variants from :menuselection:`Sales --> Sales --> "
-#~ "Product Variants` as well. This might be quicker if you manage lots of "
-#~ "variants."
-#~ msgstr ""
-#~ "从  :menuselection:`销售 --> 促销 --> 产品变量，中选择然后编辑所有的变量。"
-#~ "如果你管理着多个变量，这将节省您的时间。"
-
-#~ msgid ""
-#~ "You sell computers. Why not stimulating your customers to buy a top-notch "
-#~ "screen or an extra-warranty? That's the goal of cross-selling "
-#~ "functionalities:"
-#~ msgstr ""
-#~ "当你出售计电脑时， 为什么不鼓励您的客户购买一流的屏幕或额外保修？ 这就是交"
-#~ "叉销售功能的目标："
-
-#~ msgid ""
-#~ "Optional products on a new *Add to Cart* screen (not installed by "
-#~ "default)."
-#~ msgstr "新的 *添加到购物车* 屏幕上的可选产品（默认情况下未安装）。"
-
-#~ msgid "Accessory products when checking out"
-#~ msgstr "结帐时配套产品"
-
-#~ msgid ""
-#~ "Accessories (e.g. for computers: mouse, keyboard) show up when the "
-#~ "customer reviews the cart before paying."
-#~ msgstr ""
-#~ "当客户在付款前查看购物车时，会显示配件（例如，电脑的配件：鼠标，键盘）。"
-
-#~ msgid "Select accessories in the *Sales* tab of the product detail page."
-#~ msgstr "在产品详细信息页面的 *销售* 标签中选择配件。"
-
-#~ msgid ""
-#~ "There is an algorithm to figure out the best accessories to display in "
-#~ "case several items are added to cart. If any item is the accessory of "
-#~ "several products added to cart, it is most likely that it will be atop "
-#~ "the list of suggested accessories."
-#~ msgstr ""
-#~ "当多个产品被添加到购物车时，这是一种预测附件产品的最佳算法。如果某一附件对"
-#~ "应多个加入购物车的产品，那么它很可能会出现在推荐附件的最顶端。"
-
-#~ msgid "Optional products when adding to cart"
-#~ msgstr "添加到购物车时的可选产品"
-
-#~ msgid ""
-#~ "Optional products are directly related to the item added to cart (e.g. "
-#~ "for computers: warranty, OS software, extra components). Whenever the "
-#~ "main product is added to cart, such a new screen pops up as an extra step."
-#~ msgstr ""
-#~ "可选产品直接与加入购物车的产品相关（如对于电脑而言，质保期、操作系统软件、"
-#~ "备件等）。如果主产品被放入购物车，则弹出新的窗口，提示下一个步骤。"
-
-#~ msgid ""
-#~ "Install *eCommerce Optional Products* addon in *Apps* menu. Remove the "
-#~ "default filter to search on addons as well, otherwise only main apps show "
-#~ "up."
-#~ msgstr ""
-#~ "在 *应用程式* 菜单中安装 *电子商务可选产品* 插件，移除默认过滤器并在插件上"
-#~ "搜索，否则只会显示主要的应用程式。"
-
-#~ msgid ""
-#~ "Select optional items from the *Sales* tab of the product detail form."
-#~ msgstr "从产品详细信息表格的 *销售* 选项卡中选择可选项目。"
-
-#~ msgid ""
-#~ "The quantity of optional items added to cart is the same than the main "
-#~ "item."
-#~ msgstr "添加到购物车的可选项目数量与主要项目相同。"
-
-#~ msgid "Launch my website"
-#~ msgstr "启动我的网站"
-
-#~ msgid ":doc:`google_analytics_dashboard`"
-#~ msgstr ":doc:`google_analytics_dashboard`"
-
-#~ msgid "How to track your website traffic from your Odoo Dashboard"
-#~ msgstr "如何从Odoo仪表中跟踪你的网站流量"
-
-#~ msgid ""
-#~ "You can follow your traffic statistics straight from your Odoo Website "
-#~ "Dashboard thanks to Google Analytics."
-#~ msgstr "有了Google Analytics，你可以直接从Odoo网站跟踪你的流量统计。"
-
-#~ msgid ""
-#~ "A preliminary step is creating a Google Analytics account and entering "
-#~ "the tracking ID in your Website's settings (see :doc:`google_analytics`)."
-#~ msgstr ""
-#~ "准备步骤包括创建一个Google Analytics账号并在网址设置中输入跟踪ID（参见doc:"
-#~ "`google_analytics`）"
-
-#~ msgid ""
-#~ "Go to `Google APIs platform <https://console.developers.google.com>`__ to "
-#~ "generate Analytics API credentials. Log in with your Google account."
-#~ msgstr ""
-#~ "在 `Google API平台 <https://console.developers.google.com>`__中生成"
-#~ "Analytics API 凭证，再用Google账户登录。"
-
-#~ msgid "Select Analytics API."
-#~ msgstr "选择Analytics API。"
-
-#~ msgid ""
-#~ "Create a new project and give it a name (e.g. Odoo). This project is "
-#~ "needed to store your API credentials."
-#~ msgstr "创建一个新项目并命名（如Odoo），此项目用于存放你的API凭证。"
-
-#~ msgid "Enable the API."
-#~ msgstr "启用API接口。"
-
-#~ msgid "Create credentials to use in Odoo."
-#~ msgstr "创建一个用于Odoo的凭证。"
-
-#~ msgid ""
-#~ "Select *Web browser (Javascript)* as calling source and *User data* as "
-#~ "kind of data."
-#~ msgstr ""
-#~ "选择 *网页浏览器（Javascript）* 作为调用源，选择 *用户数据* 作为数据类型。"
-
-#~ msgid ""
-#~ "Then you can create a Client ID. Enter the name of the application (e.g. "
-#~ "Odoo) and the allowed pages on which you will be redirected. The "
-#~ "*Authorized JavaScript origin* is your Odoo's instance URL. The "
-#~ "*Authorized redirect URI* is your Odoo's instance URL followed by '/"
-#~ "google_account/authentication'."
-#~ msgstr ""
-#~ "接着创建一个客户端ID。输入应用的名称（如Odoo）及允许转向的页面。*授权"
-#~ "JavaScript源文件* 是你的实例URL地址，*授权转向URI* 是你Odoo实例的URL地址'/"
-#~ "google_account/authentication'。"
-
-#~ msgid ""
-#~ "Go through the Consent Screen step by entering a product name (e.g. "
-#~ "Google Analytics in Odoo). Feel free to check the customizations options "
-#~ "but this is not mandatory. The Consent Screen will only show up when you "
-#~ "enter the Client ID in Odoo for the first time."
-#~ msgstr ""
-#~ "输入产品名称（如在Odoo中输入Google Analytics），完成用户许可步骤，可任意选"
-#~ "择自定义选项（非强制）。只有第一次在Odoo中输入客户端ID时显示用户许可画面。"
-
-#~ msgid ""
-#~ "Finally you are provided with your Client ID. Copy and paste it in Odoo."
-#~ msgstr "最后，你会获得一个客户端ID。将此ID复制粘贴到Odoo。"
-
-#~ msgid "As a last step, authorize Odoo to access Google API."
-#~ msgstr "最后，授权Odoo访问Google API接口。"
-
-#~ msgid ""
-#~ "In addition to being fast, Odoo is also more scalable than traditional "
-#~ "CMS and eCommerce (Drupal, Wordpress, Magento, Prestashop). The following "
-#~ "link provides an analysis of the major open source CMS and eCommerce "
-#~ "compared to Odoo when it comes to high query volumes: `https://www.odoo."
-#~ "com/slides/slide/197 <https://www.odoo.com/slides/slide/odoo-cms-"
-#~ "performance-comparison-and-optimisation-197>`_"
-#~ msgstr ""
-#~ "除了速度快，Odoo也比传统的CMS和电子商务（Drupal、Wordpress、Magento、"
-#~ "Prestashop）更具可扩展性。以下链接提供了在高查询量时主要的开源CMS和电子商"
-#~ "务与Odoo的分析比较：`https://www.odoo.com/slides/slide/197 <https://www."
-#~ "odoo.com/slides/slide/odoo-cms-performance-comparison-and-"
-#~ "optimisation-197>`_"
-
-#~ msgid "Todo"
-#~ msgstr "待办"
-
-#~ msgid "How to use my own domain name"
-#~ msgstr "如何使用你自己的域名"
-
-#~ msgid ""
-#~ "By default, your Odoo Online instance and website have a *.odoo.com* "
-#~ "domain name, for both the URL and the emails. But you can change to a "
-#~ "custom one (e.g. www.yourcompany.com)."
-#~ msgstr ""
-#~ "你的Odoo在线实例的网址默认为*.odoo.com*域名（包括URL地址和电邮），但可以更"
-#~ "改为定制域名（即www.yourcompany.com）"
-
-#~ msgid "What is a good domain name"
-#~ msgstr "哪些是好的域名"
-
-#~ msgid ""
-#~ "Your website address is as important to your branding as the name of your "
-#~ "business or organization, so put some thought into changing it for a "
-#~ "proper domain. Here are some tips:"
-#~ msgstr ""
-#~ "你的网址与你公司或组织的品牌同样重要，因此要更改成一个合适的域名需要花些心"
-#~ "思。见以下提示："
-
-#~ msgid "Simple and obvious"
-#~ msgstr "简单和显而易见的"
-
-#~ msgid "Easy to remember and spell"
-#~ msgstr "便于记忆和拼写"
-
-#~ msgid "The shorter the better"
-#~ msgstr "越短越好"
-
-#~ msgid "Avoid special characters"
-#~ msgstr "避免使用特殊字符"
-
-#~ msgid "Aim for a .com and/or your country extension"
-#~ msgstr "目标是一个.com和/或你所在的国家扩展名"
-
-#~ msgid ""
-#~ "Read more: `How to Choose a Domain Name for Maximum SEO <https://www."
-#~ "searchenginejournal.com/choose-a-domain-name-maximum-seo/158951/>`__"
-#~ msgstr ""
-#~ "更多信息请参阅: `如何选择一个域名，使您的优化搜索引擎和提高你的网站排名"
-#~ "<https://www.searchenginejournal.com/choose-a-domain-name-maximum-"
-#~ "seo/158951/>`__"
-
-#~ msgid "How to buy a domain name"
-#~ msgstr "如何收购一个域名"
-
-#~ msgid "Buy your domain name at a popular registrar:"
-#~ msgstr "向主流注册机构购买域名"
-
-#~ msgid "`GoDaddy <https://www.godaddy.com>`__"
-#~ msgstr "`GoDaddy <https://www.godaddy.com>`__"
-
-#~ msgid "`Namecheap <https://www.namecheap.com>`__"
-#~ msgstr "`Namecheap <https://www.namecheap.com>`__"
-
-#~ msgid "`OVH <https://www.ovh.com>`__"
-#~ msgstr "`OVH <https://www.ovh.com>`__"
-
-#~ msgid ""
-#~ "Steps to buy a domain name are pretty much straight forward. In case of "
-#~ "issue, check out those easy tutorials:"
-#~ msgstr "购买域名的步骤非常直接。建议先查阅以下简明指引："
-
-#~ msgid ""
-#~ "`GoDaddy <https://roadtoblogging.com/buy-domain-name-from-godaddy>`__"
-#~ msgstr ""
-#~ "`GoDaddy <https://roadtoblogging.com/buy-domain-name-from-godaddy>`__"
-
-#~ msgid ""
-#~ "`Namecheap <https://www.loudtips.com/buy-domain-name-hosting-namecheap//"
-#~ ">`__"
-#~ msgstr ""
-#~ "`Namecheap <https://www.loudtips.com/buy-domain-name-hosting-namecheap//"
-#~ ">`__"
-
-#~ msgid ""
-#~ "Feel free to buy an email server to have email addresses using your "
-#~ "domain name. However don't buy any extra service to create or host your "
-#~ "website. This is Odoo's job!"
-#~ msgstr ""
-#~ "随意购买一个邮件服务器，从而拥有带自己域名的邮件地址。但不要购买任何额外服"
-#~ "务以创建或托管你的网址，因为这是Odoo的工作！"
-
-#~ msgid "How to apply my domain name to my Odoo instance"
-#~ msgstr "如何将我的域名应用到Odoo实例中"
-
-#~ msgid ""
-#~ "First let's authorize the redirection (yourcompany.com -> yourcompany."
-#~ "odoo.com):"
-#~ msgstr "首先，让我们授权重定向（yourcompany.com -> yourcompany.odoo.com）："
-
-#~ msgid "Open your Odoo.com account from your homepage."
-#~ msgstr "从你自己的主页中打开你的Odoo.com账户。"
-
-#~ msgid "Go to the *Manage Databases* page."
-#~ msgstr "进入 *管理数据库* 页面。"
-
-#~ msgid ""
-#~ "Click on *Domains* to the right of the database you would like to "
-#~ "redirect."
-#~ msgstr "点击数据库右边的*域名*即可重定向。"
-
-#~ msgid ""
-#~ "A database domain prompt will appear. Enter your custom domain (e.g. www."
-#~ "yourcompany.com)."
-#~ msgstr ""
-#~ "出现数据库域名提示符。输入你自定义的域名（例如www.yourcompany.com）。"
-
-#~ msgid ""
-#~ "We can now apply the redirection from your domain name's manager account:"
-#~ msgstr "现在，我们可以从您域名的管理员帐户中应用重定向："
-
-#~ msgid "Log in to your account and search for the DNS Zones management page."
-#~ msgstr "登录你的帐户，搜索DNS区管理页面。"
-
-#~ msgid ""
-#~ "Create a CNAME record *www.yourdomain.com* pointing to *mywebsite.odoo."
-#~ "com*. If you want to use the naked domain (e.g. yourdomain.com), you need "
-#~ "to redirect *yourdomain.com* to *www.yourdomain.com*."
-#~ msgstr ""
-#~ "创建一个指向*mywebsite.odoo.com*的CNAME记录*www.yourdomain.com*。如你要使"
-#~ "用裸域名（如yourdomain.com），你需要将*yourdomain.com*重定向到*www."
-#~ "yourdomain.com*。"
-
-#~ msgid "Here are some specific guidelines to create a CNAME record:"
-#~ msgstr "以下是一些创建CNAME记录的特定指引："
-
-#~ msgid ""
-#~ "`GoDaddy <https://be.godaddy.com/fr/help/add-a-cname-record-19236>`__"
-#~ msgstr ""
-#~ "`GoDaddy官方网站 <https://be.godaddy.com/fr/help/add-a-cname-"
-#~ "record-19236>`__"
-
-#~ msgid ""
-#~ "`Namecheap <https://www.namecheap.com/support/knowledgebase/article."
-#~ "aspx/9646/10/how-can-i-set-up-a-cname-record-for-my-domain>`__"
-#~ msgstr ""
-#~ "`Namecheap 官方网站<https://www.namecheap.com/support/knowledgebase/"
-#~ "article.aspx/9646/10/how-can-i-set-up-a-cname-record-for-my-domain>`__"
-
-#~ msgid ""
-#~ "`OVH <https://www.ovh.co.uk/g1519."
-#~ "exchange_20132016_how_to_add_a_cname_record>`__"
-#~ msgstr ""
-#~ "`OVH官方网站 <https://www.ovh.co.uk/g1519."
-#~ "exchange_20132016_how_to_add_a_cname_record>`__"
-
-#~ msgid "How to enable SSL (HTTPS) for my Odoo instance"
-#~ msgstr "如何从我的Odoo实例中启用SSL (HTTPS)。"
-
-#~ msgid ""
-#~ "Until recently, Odoo users needed to use a third-party CDN service "
-#~ "provider such as CloudFlare to enable SSL."
-#~ msgstr ""
-#~ "直到最近，Odoo用户还需要使用第三方CDN服务提供商，如Cloud Flare来启用SSL。"
-
-#~ msgid ""
-#~ "It is not required anymore: Odoo generates the certificate for you "
-#~ "automatically, using integration with `Let's Encrypt Certificate "
-#~ "Authority and ACME protocol <https://letsencrypt.org/how-it-works/>`__. "
-#~ "In order to get this, simply add your domain name in your customer portal "
-#~ "(a separate certificate is generated for each domain name specified)."
-#~ msgstr ""
-#~ "但现在已经不需要了：Odoo通过集成`Let's Encrypt认证机构和ACME协议 <https://"
-#~ "letsencrypt.org/how-it-works/>`__，为你自动生成证书。如要获取该证书，只需"
-#~ "在你的客户门户添加域名（为指定的每个域名生成单独的证书）。"
-
-#~ msgid "**Please note that the certificate generation may take up to 24h.**"
-#~ msgstr "**请注意，生成凭证可能需要24小时。**"
-
-#~ msgid ""
-#~ "If you already use CloudFlare or a similar service, you can keep using it "
-#~ "or simply change for Odoo. The choice is yours."
-#~ msgstr ""
-#~ "如果你已经使用CloudFlare或类似服务，你可继续使用或更换到Odoo。一切由你决"
-#~ "定。"
-
-#~ msgid "How to make sure that all my URLs use my custom domain?"
-#~ msgstr "如何确保我的所有URL使用自定义的域？"
-
-#~ msgid ""
-#~ "To set up the root URL of your website and of all the links sent in "
-#~ "emails, you can ask an administrator of your database (any user in the "
-#~ "*Settings* group) to perform a login from the login screen. It's as "
-#~ "simple as that!"
-#~ msgstr ""
-#~ "如要设置网站和电子邮件发送的所有链接中的根URL，你可要求数据库的管理员（ *"
-#~ "设置* 组中的任何用户）从登录屏幕执行登录。就这么简单！"
-
-#~ msgid ""
-#~ "If you want to do it manually, you can go to :menuselection:`Settings --> "
-#~ "Technical --> System Parameters` . Find the entry called ``web.base.url`` "
-#~ "(you can create it if it does not exist) and enter the full URL of your "
-#~ "website, like ``https://www.myodoowebsite.com``."
-#~ msgstr ""
-#~ "如果你要手动完成此项操作，进入 :menuselection:`设置 --> 技术 --> 系统参数"
-#~ "`。找到名为``web.base.url`` 的条目（如不存在，可以创建该条目）并输入网站的"
-#~ "完整URL，如``https://www.myodoowebsite.com``。"
-
-#~ msgid ""
-#~ "The URL must include the protocol (``https://`` or ``http://``) and must "
-#~ "not end by a slash (``/``)."
-#~ msgstr ""
-#~ "URL必须包含协议（``https://``或``http://``）且必须以斜杠（``/``）结尾。"
-
-#~ msgid ""
-#~ "If you want to block the root URL update when an administrator logs in, "
-#~ "you can add a System Parameter called  ``web.base.url.freeze`` with its "
-#~ "value set to  ``True``."
-#~ msgstr ""
-#~ "如果要在管理员登录时阻止根URL更新，可以添加名为``web.base.url.freeze``的系"
-#~ "统参数，其值设置为``True``。"
-
-#~ msgid "My website is indexed twice by Google"
-#~ msgstr "我的网站被谷歌索引了两次"
-
-#~ msgid ""
-#~ "If you set up a custom domain *mydomain.com* name for *mydatabase.odoo."
-#~ "com*, Google indexes your website under both names. This is a limitation "
-#~ "of the Odoo cloud platforms/"
-#~ msgstr ""
-#~ "如果你为 *mydatabase.odoo.com* 设置了自定义域 *mydomain.com* ，谷歌将在两"
-#~ "个名称下编制网站索引。这是Odoo云平台的一个局限性/"
-
-#~ msgid ":doc:`/applications/productivity/discuss/advanced/email_servers`"
-#~ msgstr ":doc:`/applications/productivity/discuss/advanced/email_servers`"
-
-#~ msgid ":doc:`domain_name`"
-#~ msgstr ":doc:`domain_name`"
-
-#~ msgid ""
-#~ "There are two ways to translate your website, you can do it manually or "
-#~ "automatically with the Gengo App. If you want to do it automatically, go "
-#~ "to the **App** module and Install **Automated translations through Gengo "
-#~ "Api** and **Website Gengo Translator**. If you want to do it manually, "
-#~ "don't install anything, and follow the next step."
-#~ msgstr ""
-#~ "有两种方法可翻译你的网站，可以手动或用Gengo App自动翻译。如果你想自动翻"
-#~ "译，去 **应用** 模块, 安装 **通过 Gengo Api自动翻译** 和 **网站Gengo翻译器"
-#~ "** 。如果你想手动做，不要安装任何东西，并按照下一步。"
-
-#~ msgid ""
-#~ "There, if you have installed the Gengo Translator, You will see that next "
-#~ "to the **Translate** button you also have a button **Translate "
-#~ "automatically**. Once you click on that button, you will be asked some "
-#~ "information on your account. If you don't have an account yet, follow "
-#~ "`this link <https://gengo.com/auth/form/login/>`_ in order to create one. "
-#~ "You need to ask for a public key and a private key."
-#~ msgstr ""
-#~ "如果你安装了Gengo翻译器，在 **翻译** 按钮旁边，还会看到 **自动翻译** 按"
-#~ "钮。如果点击该按钮，你需要提供一些关于你的账户的信息。如果你还没有帐户，通"
-#~ "过`此链接 <https://gengo.com/auth/form/login/>`_ 创建一个账户。你需要提供"
-#~ "一个公钥和一个私钥。"
-
-#~ msgid ""
-#~ "The content you wish to translate will then be translated automatically."
-#~ msgstr "你希望翻译的内容将会被自动翻译。"
-
-#~ msgid ""
-#~ "Now you can see that most of the content is highlighted in yellow or in "
-#~ "green. The yellow represents the content that you have to translate by "
-#~ "yourself. The green represents the content that has already been "
-#~ "translated automatically."
-#~ msgstr ""
-#~ "现在你可以看到，大部分的内容在黄色或绿色高亮显示。 黄色代表您必须自己翻译"
-#~ "的内容。 绿色表示已经自动翻译的内容。"
-=======
 msgstr "翻译网站的内容，点击  ****  (这里 **Traduire** , 是因为我们想把网站翻译成法文)。"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9

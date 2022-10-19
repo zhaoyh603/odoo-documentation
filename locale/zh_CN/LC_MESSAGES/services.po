@@ -2,20 +2,8 @@
 # Copyright (C) Odoo S.A.
 # This file is distributed under the same license as the Odoo package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 # Translators:
-<<<<<<< HEAD
-# Jeffery CHEN Fan <jeffery9@gmail.com>, 2021
-# Felix Yuen <fyu@odoo.com>, 2021
-# snow wang <147156565@qq.com>, 2021
-# as co02 <asco02@163.com>, 2021
-# Martin Trigaux, 2021
-# liAnGjiA <liangjia@qq.com>, 2021
-# 稀饭~~ <wangwhai@qq.com>, 2021
-# Datasource International <Hennessy@datasourcegroup.com>, 2021
-# Mandy Choy <mnc@odoo.com>, 2021
-#
-=======
 # as co02 <asco02@163.com>, 2022
 # Martin Trigaux, 2022
 # diaojiaolou <124412206@qq.com>, 2022
@@ -25,28 +13,19 @@
 # Mandy Choy <mnc@odoo.com>, 2022
 # 
 #, fuzzy
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-04 12:47+0000\n"
-<<<<<<< HEAD
-"PO-Revision-Date: 2022-10-14 20:14+0800\n"
-"Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/"
-"zh_CN/)\n"
-"Language: zh_CN\n"
-=======
 "PO-Revision-Date: 2022-10-04 12:54+0000\n"
 "Last-Translator: Mandy Choy <mnc@odoo.com>, 2022\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.1.1\n"
 
 #: ../../content/applications/services.rst:5
 msgid "Services"
@@ -60,11 +39,7 @@ msgstr "现场服务"
 msgid ""
 "`Odoo Tutorials: Field Service <https://www.odoo.com/slides/field-"
 "service-49>`_"
-<<<<<<< HEAD
-msgstr ""
-=======
 msgstr "`Odoo教程：现场服务 <https://www.odoo.com/slides/field-service-49>`_"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/services/fsm/helpdesk.rst:5
 #: ../../content/applications/services/helpdesk.rst:8
@@ -88,36 +63,16 @@ msgstr "配置帮助台团队"
 
 #: ../../content/applications/services/fsm/helpdesk/plan_onsite.rst:9
 msgid ""
-<<<<<<< HEAD
-"Go to :menuselection:`Helpdesk --> Configuration --> Helpdesk Teams`. Select "
-"a team and enable *Onsite Interventions*."
-msgstr ""
-
-#: ../../content/applications/services/fsm/helpdesk/plan_onsite.rst:None
-=======
 "Go to :menuselection:`Helpdesk --> Configuration --> Helpdesk Teams`. Select"
 " a team and enable *Onsite Interventions*."
 msgstr "转到：菜单选择：`帮助台-->配置-->帮助台团队`。选择一个团队并启用*现场干预*。"
 
 #: ../../content/applications/services/fsm/helpdesk/plan_onsite.rstNone
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgid "Onsite interventions setting in Odoo Helpdesk"
 msgstr ""
 
 #: ../../content/applications/services/fsm/helpdesk/plan_onsite.rst:16
 msgid ""
-<<<<<<< HEAD
-"The helpdesk tickets of the team now display the *Plan Intervention* button. "
-"Click on it to create a new task under your field service project."
-msgstr ""
-
-#: ../../content/applications/services/fsm/helpdesk/plan_onsite.rst:None
-#, fuzzy
-#| msgid "Plan onsite interventions from tickets"
-msgid "Plan intervention from helpdesk ticket in Odoo Helpdesk"
-msgstr "从服务单计划现场干预"
-
-=======
 "The helpdesk tickets of the team now display the *Plan Intervention* button."
 " Click on it to create a new task under your field service project."
 msgstr "团队的帮助台票据现在显示*计划干预*按钮。单击它在现场服务项目下创建一个新任务。"
@@ -126,7 +81,6 @@ msgstr "团队的帮助台票据现在显示*计划干预*按钮。单击它在�
 msgid "Plan intervention from helpdesk ticket in Odoo Helpdesk"
 msgstr ""
 
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 #: ../../content/applications/services/fsm/sales.rst:5
 msgid "Sales"
 msgstr "销售"
@@ -182,11 +136,6 @@ msgid ""
 "Service"
 msgstr ""
 
-#: ../../content/applications/services/fsm/sales/onsite_tasks_from_sales_orders.rst:None
-msgid ""
-"Product configuration to create tasks from sales orders in Odoo Field Service"
-msgstr ""
-
 #: ../../content/applications/services/fsm/sales/onsite_tasks_from_sales_orders.rst:25
 msgid ""
 "From the *Sales* app, create a quotation with the product and confirm it. A "
@@ -198,21 +147,9 @@ msgstr "从*销售*应用程序中，创建产品报价并确认。将在现场�
 msgid "Field Service task on a sales order in Odoo Sales"
 msgstr ""
 
-<<<<<<< HEAD
-#: ../../content/applications/services/fsm/sales/onsite_tasks_from_sales_orders.rst:None
-msgid "Field Service task on a sales order in Odoo Sales"
-msgstr ""
-
-#: ../../content/applications/services/helpdesk.rst:11
-#, fuzzy
-#| msgid "Our `documentation pages <https://www.odoo.com/page/docs>`_."
-msgid "`Odoo Tutorials: Helpdesk <https://www.odoo.com/slides/helpdesk-51>`_"
-msgstr "我们的 `文档页面 <https://www.odoo.com/page/docs>`。"
-=======
 #: ../../content/applications/services/helpdesk.rst:11
 msgid "`Odoo Tutorials: Helpdesk <https://www.odoo.com/slides/helpdesk-51>`_"
 msgstr "`Odoo教程：帮助台<https://www.odoo.com/slides/helpdesk-51>`_"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/services/helpdesk/advanced.rst:5
 msgid "Advanced"
@@ -226,13 +163,12 @@ msgstr "售后功能"
 msgid ""
 "As your business grows, having the right tool to support your helpdesk team "
 "on recording, tracking and managing issues raised easy and efficiently, is "
-"key. Odoo’s Helpdesk application allows you to generate credit notes, manage "
-"returns, products, repairs, grant coupons, and even plan onsite "
+"key. Odoo’s Helpdesk application allows you to generate credit notes, manage"
+" returns, products, repairs, grant coupons, and even plan onsite "
 "interventions from a ticket’s page."
 msgstr ""
-"随着业务的增长，拥有合适的工具来支持您的服务团队更轻松，更有效地记录，跟踪和"
-"管理所引发的问题是关键。 Odoo的服务台应用程序使您可以从票证页面生成贷方通知"
-"单，管理退货，产品，维修，赠券，甚至计划现场服务。"
+"随着业务的增长，拥有合适的工具来支持您的服务团队更轻松，更有效地记录，跟踪和管理所引发的问题是关键。 "
+"Odoo的服务台应用程序使您可以从票证页面生成贷方通知单，管理退货，产品，维修，赠券，甚至计划现场服务。"
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:11
 msgid "Set up the after sales services"
@@ -244,8 +180,7 @@ msgid ""
 "enable the after sales options: *Refunds, Returns, Coupons, Repairs and "
 "Onsite Interventions*."
 msgstr ""
-"转至菜单 :menuselection:`服务台 --> 设置 --> 服务台团队` 并启用售后选项:  *退"
-"款，退货，优惠券，维修和现场服务* 。"
+"转至菜单 :menuselection:`服务台 --> 设置 --> 服务台团队` 并启用售后选项:  *退款，退货，优惠券，维修和现场服务* 。"
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:20
 msgid "Generate credit notes from tickets"
@@ -253,14 +188,13 @@ msgstr "从工单生成退款通知"
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:22
 msgid ""
-"You can use a credit note to refund a customer or adjust the amount due. For "
-"that, simply go to your ticket page, click on *Refund* and select the "
+"You can use a credit note to refund a customer or adjust the amount due. For"
+" that, simply go to your ticket page, click on *Refund* and select the "
 "corresponding *Invoice*. Clicking on *Reverse* generates a credit note, and "
 "you can *Post* it while still being in the *Helpdesk* app."
 msgstr ""
-"您可以使用贷方通知单来退还客户或调整应付金额。 为此，只需转到票证页面，单击 *"
-"退款*并选择相应的 *发票* 。 单击 *撤销* 会生成一个贷方通知单，您可以在仍处于 "
-"*服务台* 应用程序中的情况下 *发布* 该贷方通知单。"
+"您可以使用贷方通知单来退还客户或调整应付金额。 为此，只需转到票证页面，单击 *退款*并选择相应的 *发票* 。 单击 *撤销* "
+"会生成一个贷方通知单，您可以在仍处于 *服务台* 应用程序中的情况下 *发布* 该贷方通知单。"
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:30
 msgid "Allow product returns from tickets"
@@ -268,8 +202,8 @@ msgstr "允许通过工单进行退货"
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:32
 msgid ""
-"The process of a product return from your customer back to your warehouse is "
-"taken into action when, at the ticket page, you choose the option *Return*."
+"The process of a product return from your customer back to your warehouse is"
+" taken into action when, at the ticket page, you choose the option *Return*."
 msgstr "当您在票证页面上选择 *退货* 选项时，将执行客户到仓库的产品退货过程。"
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:39
@@ -282,8 +216,8 @@ msgid ""
 "*Website* application. Then, in *Helpdesk*, open your ticket, click on "
 "*Coupon*, and choose the respective one."
 msgstr ""
-"首先，请确保在 *销售* 或 *网站* 应用程序中计划了 *优惠券计划* 。 然后，在 *服"
-"务台* 中，打开您的票证，单击 *优惠券* ，然后选择相应的票证。"
+"首先，请确保在 *销售* 或 *网站* 应用程序中计划了 *优惠券计划* 。 然后，在 *服务台* 中，打开您的票证，单击 *优惠券* "
+"，然后选择相应的票证。"
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:48
 msgid "Repairs from tickets"
@@ -291,11 +225,9 @@ msgstr "从服务单处理维修事宜"
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:50
 msgid ""
-"Clicking on *Repair* option, on your ticket page, a new repair order form is "
-"shown. Fill in the information as needed and choose the next step."
-msgstr ""
-"单击故障单上的 *维修* 选项，将显示一个新的维修订单表格。 根据需要填写信息，然"
-"后选择下一步。"
+"Clicking on *Repair* option, on your ticket page, a new repair order form is"
+" shown. Fill in the information as needed and choose the next step."
+msgstr "单击故障单上的 *维修* 选项，将显示一个新的维修订单表格。 根据需要填写信息，然后选择下一步。"
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:57
 msgid "Plan onsite interventions from tickets"
@@ -306,17 +238,14 @@ msgid ""
 "At the ticket's page click on *Plan Intervention*, and set up your onsite "
 "intervention exactly the same way as if you were on the *Field Service* "
 "application."
-msgstr ""
-"在票务页面上，单击 *计划干预* ，然后与使用 *现场服务* 应用程序相同的方式设置"
-"现场服务。"
+msgstr "在票务页面上，单击 *计划干预* ，然后与使用 *现场服务* 应用程序相同的方式设置现场服务。"
 
 #: ../../content/applications/services/helpdesk/advanced/after_sales.rst:67
 msgid ""
-"`Coupons <https://www.odoo.com/slides/slide/coupon-programs-640?"
-"fullscreen=1>`_"
+"`Coupons <https://www.odoo.com/slides/slide/coupon-"
+"programs-640?fullscreen=1>`_"
 msgstr ""
-"`优惠券 <https://www.odoo.com/slides/slide/coupon-programs-640?"
-"fullscreen=1>`_"
+"`优惠券 <https://www.odoo.com/slides/slide/coupon-programs-640?fullscreen=1>`_"
 
 #: ../../content/applications/services/helpdesk/advanced/close_tickets.rst:3
 msgid "Allow Customers to Close their Tickets"
@@ -325,11 +254,9 @@ msgstr "允许客户关闭工单"
 #: ../../content/applications/services/helpdesk/advanced/close_tickets.rst:5
 msgid ""
 "Allowing customers to close their tickets gives them autonomy and minimize "
-"misunderstandings about when an issue is considered solved, or not. It makes "
-"communication and actions more efficient."
-msgstr ""
-"允许客户关闭服务单让客户有了自主性，尽可能避免对是否已解决问题的误解。让交流"
-"和行动更有效率。"
+"misunderstandings about when an issue is considered solved, or not. It makes"
+" communication and actions more efficient."
+msgstr "允许客户关闭服务单让客户有了自主性，尽可能避免对是否已解决问题的误解。让交流和行动更有效率。"
 
 #: ../../content/applications/services/helpdesk/advanced/close_tickets.rst:9
 msgid "Configure the feature"
@@ -339,13 +266,7 @@ msgstr "配置功能"
 msgid ""
 "To configure the feature go to :menuselection:`Helpdesk --> Settings --> "
 "Helpdesk Teams --> Edit` and enable *Ticket closing*."
-msgstr ""
-"如要配置此项功能，前往 :menuselection:`服务台 --> 设置 --> 服务台团队 --> 编"
-"辑`并启用 *关闭服务单* 。"
-
-#: ../../content/applications/services/helpdesk/advanced/close_tickets.rst:None
-msgid "Ticket closing in Odoo Helpdesk"
-msgstr ""
+msgstr "如要配置此项功能，前往 :menuselection:`服务台 --> 设置 --> 服务台团队 --> 编辑`并启用 *关闭服务单* 。"
 
 #: ../../content/applications/services/helpdesk/advanced/close_tickets.rstNone
 #: ../../content/applications/services/helpdesk/advanced/close_tickets.rstNone
@@ -358,9 +279,7 @@ msgstr ""
 msgid ""
 "In order to designate to which stage the ticket migrates to once it is "
 "closed, go to :menuselection:`Helpdesk --> Overview --> Tickets`."
-msgstr ""
-"为了指定票证在关闭后迁移到哪个阶段，请转到 :menuselection:`服务台 --> 概述 --"
-"> 工单`。"
+msgstr "为了指定票证在关闭后迁移到哪个阶段，请转到 :menuselection:`服务台 --> 概述 --> 工单`。"
 
 #: ../../content/applications/services/helpdesk/advanced/close_tickets.rst:25
 msgid ""
@@ -368,17 +287,15 @@ msgid ""
 "both scenarios, go to :menuselection:`Helpdesk --> Settings --> Edit Stage` "
 "and enable *Closing Stage*."
 msgstr ""
-"您可以创建新的看板阶段，也可以使用现有的看板阶段。 对于这两种情况，请转到：:"
-"menuselection:`服务台 --> 设定 --> 编辑阶段` 并启用 *结束阶段* 。"
+"您可以创建新的看板阶段，也可以使用现有的看板阶段。 对于这两种情况，请转到：:menuselection:`服务台 --> 设定 --> 编辑阶段` "
+"并启用 *结束阶段* 。"
 
 #: ../../content/applications/services/helpdesk/advanced/close_tickets.rst:32
 msgid ""
 "If a closing stage is not specified, by default, the ticket is moved to the "
 "last stage; contrarily, if you have more than one stage set as closing, the "
 "ticket is put in the first one."
-msgstr ""
-"如果未指定关闭阶段，则在默认情况下，工单将移至最后一个阶段； 相反，如果您将多"
-"个阶段设置为关闭阶段，则该票证将放入第一个阶段。"
+msgstr "如果未指定关闭阶段，则在默认情况下，工单将移至最后一个阶段； 相反，如果您将多个阶段设置为关闭阶段，则该票证将放入第一个阶段。"
 
 #: ../../content/applications/services/helpdesk/advanced/close_tickets.rst:36
 msgid "The Costumer Portal"
@@ -396,24 +313,17 @@ msgstr "获取关于客户所关闭服务单的报告"
 
 #: ../../content/applications/services/helpdesk/advanced/close_tickets.rst:47
 msgid ""
-"To do an analysis of the tickets that have been closed by costumers go to :"
-"menuselection:`Helpdesk --> Reporting --> Tickets --> Filters --> Add Custom "
-"filter --> Closed by partner --> Applied`."
+"To do an analysis of the tickets that have been closed by costumers go to "
+":menuselection:`Helpdesk --> Reporting --> Tickets --> Filters --> Add "
+"Custom filter --> Closed by partner --> Applied`."
 msgstr ""
-"要分析客户已关闭的工单，请转到 :menuselection:`服务台 --> 报告 --> 工单 --> "
-"过滤器 --> 添加自定义过滤器 -->被合作伙伴关闭 --> 已应用`。"
+"要分析客户已关闭的工单，请转到 :menuselection:`服务台 --> 报告 --> 工单 --> 过滤器 --> 添加自定义过滤器 "
+"-->被合作伙伴关闭 --> 已应用`。"
 
-#: ../../content/applications/services/helpdesk/advanced/close_tickets.rst:None
-msgid "Reports on Ticket closing in Odoo Helpdesk"
-msgstr ""
-
-<<<<<<< HEAD
-=======
 #: ../../content/applications/services/helpdesk/advanced/close_tickets.rstNone
 msgid "Reports on Ticket closing in Odoo Helpdesk"
 msgstr ""
 
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 #: ../../content/applications/services/helpdesk/overview.rst:5
 #: ../../content/applications/services/timesheets/overview.rst:5
 msgid "Overview"
@@ -431,14 +341,13 @@ msgstr "论坛"
 msgid ""
 "To go above and beyond email, live chat, web forms, and phone lines, offer "
 "your customers a support forum. This way, customers might become more "
-"attached to your company as they would be investing time to get into details "
-"of your business. You also encourage the exchange of experiences and "
+"attached to your company as they would be investing time to get into details"
+" of your business. You also encourage the exchange of experiences and "
 "knowledge, supporting the feeling of belonging to a community (your "
 "community!)."
 msgstr ""
-"要超越电子邮件，实时聊天，网络表单和电话，请为您的客户提供一个支持论坛。 这"
-"样，客户可能会花更多的时间来了解您的业务细节，从而对您的公司更加依赖。 还鼓励"
-"交流经验和知识，支持社区（对您的社区！）产生归属感。"
+"要超越电子邮件，实时聊天，网络表单和电话，请为您的客户提供一个支持论坛。 这样，客户可能会花更多的时间来了解您的业务细节，从而对您的公司更加依赖。 "
+"还鼓励交流经验和知识，支持社区（对您的社区！）产生归属感。"
 
 #: ../../content/applications/services/helpdesk/overview/forum_and_elearning.rst:14
 #: ../../content/applications/services/helpdesk/overview/forum_and_elearning.rst:52
@@ -451,15 +360,7 @@ msgstr "设置"
 msgid ""
 "Go to :menuselection:`Helpdesk --> Configuration --> Helpdesk Team` and "
 "enable *Help Center*."
-msgstr ""
-"转到 :menuselection:服务台 --> 设置 --> 服务台团队` 并启用 *帮助中心* 。"
-
-#: ../../content/applications/services/helpdesk/overview/forum_and_elearning.rst:None
-msgid ""
-"Overview of the settings page of a helpdesk team emphasizing the help center "
-"feature in\n"
-"Odoo Helpdesk"
-msgstr ""
+msgstr "转到 :menuselection:服务台 --> 设置 --> 服务台团队` 并启用 *帮助中心* 。"
 
 #: ../../content/applications/services/helpdesk/overview/forum_and_elearning.rstNone
 msgid ""
@@ -474,12 +375,8 @@ msgid ""
 "one answer is allowed per question or *Discussions*: multiple answers are "
 "allowed per question."
 msgstr ""
-"通过单击外部链接来创建或编辑论坛。 在编辑选项中，选择是否要将 *论坛模式* 设置"
-"为 *问题* ：每个问题仅允许一个答案，或者 *讨论* ：每个问题允许多个答案。"
-
-#: ../../content/applications/services/helpdesk/overview/forum_and_elearning.rst:None
-msgid "Overview of a forum’s settings page in Odoo Helpdesk"
-msgstr ""
+"通过单击外部链接来创建或编辑论坛。 在编辑选项中，选择是否要将 *论坛模式* 设置为 *问题* ：每个问题仅允许一个答案，或者 *讨论* "
+"：每个问题允许多个答案。"
 
 #: ../../content/applications/services/helpdesk/overview/forum_and_elearning.rstNone
 msgid "Overview of a forum’s settings page in Odoo Helpdesk"
@@ -489,15 +386,7 @@ msgstr ""
 msgid ""
 "From now on, logged in users can start their discussions. To keep track of "
 "posts, go to :menuselection:`Website --> Forum --> Posts`."
-msgstr ""
-"从现在开始，已登录的用户可以开始他们的讨论。 如要跟踪帖子，请访问：:"
-"menuselection:`网站 --> 论坛 --> 帖子`。"
-
-#: ../../content/applications/services/helpdesk/overview/forum_and_elearning.rst:None
-msgid ""
-"Overview of the Forums page of a website to show the available ones in Odoo "
-"Helpdesk"
-msgstr ""
+msgstr "从现在开始，已登录的用户可以开始他们的讨论。 如要跟踪帖子，请访问：:menuselection:`网站 --> 论坛 --> 帖子`。"
 
 #: ../../content/applications/services/helpdesk/overview/forum_and_elearning.rstNone
 #: ../../content/applications/services/helpdesk/overview/forum_and_elearning.rstNone
@@ -519,25 +408,15 @@ msgstr "在线学习"
 #: ../../content/applications/services/helpdesk/overview/forum_and_elearning.rst:47
 msgid ""
 "In addition to a forum, offer online courses. When doing so, you link your "
-"customers and users’ needs and questions to useful content, helping to boost "
-"efficiency as they can also find their answers there."
-msgstr ""
-"除论坛外，还提供在线课程。 这样做时，您可以将客户和用户的需求和问题链接到相应"
-"的内容，从而帮助他们提高效率，因为他们也可以在那里找到答案。"
+"customers and users’ needs and questions to useful content, helping to boost"
+" efficiency as they can also find their answers there."
+msgstr "除论坛外，还提供在线课程。 这样做时，您可以将客户和用户的需求和问题链接到相应的内容，从而帮助他们提高效率，因为他们也可以在那里找到答案。"
 
 #: ../../content/applications/services/helpdesk/overview/forum_and_elearning.rst:54
 msgid ""
 "Go to :menuselection:`Helpdesk --> Configuration --> Helpdesk Teams` and "
 "enable *eLearning*."
-msgstr ""
-"转到 :menuselection:`服务台 --> 设置--> 服务台 团队，并启用 *线上学习* 。"
-
-#: ../../content/applications/services/helpdesk/overview/forum_and_elearning.rst:None
-msgid ""
-"Overview of the settings page of a customer care team emphasizing the "
-"feature elearning in\n"
-"Odoo Helpdesk"
-msgstr ""
+msgstr "转到 :menuselection:`服务台 --> 设置--> 服务台 团队，并启用 *线上学习* 。"
 
 #: ../../content/applications/services/helpdesk/overview/forum_and_elearning.rstNone
 msgid ""
@@ -551,24 +430,17 @@ msgid ""
 "clicking on *Unpublished*."
 msgstr "课程的结构和内容准备就绪后，通过单击 *未发布* *发布* 它。"
 
-<<<<<<< HEAD
-#: ../../content/applications/services/helpdesk/overview/forum_and_elearning.rst:None
-=======
 #: ../../content/applications/services/helpdesk/overview/forum_and_elearning.rstNone
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgid "View of a course being published for Odoo Helpdesk"
 msgstr ""
 
 #: ../../content/applications/services/helpdesk/overview/forum_and_elearning.rst:67
 msgid ""
-"To keep track of your course statistics, go to *eLearning* and *View Course*."
+"To keep track of your course statistics, go to *eLearning* and *View "
+"Course*."
 msgstr "要跟踪您的课程统计信息，请转至 *线上学习* 和 *查看课程* 。"
 
-<<<<<<< HEAD
-#: ../../content/applications/services/helpdesk/overview/forum_and_elearning.rst:None
-=======
 #: ../../content/applications/services/helpdesk/overview/forum_and_elearning.rstNone
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgid "View of the elearning applications dashboard for Odoo Helpdesk"
 msgstr ""
 
@@ -588,14 +460,13 @@ msgstr "入门"
 
 #: ../../content/applications/services/helpdesk/overview/getting_started.rst:5
 msgid ""
-"Helpdesk teams provide your customers with support to queries or errors they "
-"might encounter while using your product/service. Therefore, a successful "
-"scheme where you can organize multiple teams with their customized pipeline, "
-"visibilities settings, and ticket traceability is essential."
+"Helpdesk teams provide your customers with support to queries or errors they"
+" might encounter while using your product/service. Therefore, a successful "
+"scheme where you can organize multiple teams with their customized pipeline,"
+" visibilities settings, and ticket traceability is essential."
 msgstr ""
-"服务台团队为您的客户提供在使用产品/服务时可能遇到的查询或错误的支持。 因此，"
-"成功的体制至关重要，在此计划中，您可以组织多个团队使用其自定义管道，可视性设"
-"定和票证可追溯性。"
+"服务台团队为您的客户提供在使用产品/服务时可能遇到的查询或错误的支持。 "
+"因此，成功的体制至关重要，在此计划中，您可以组织多个团队使用其自定义管道，可视性设定和票证可追溯性。"
 
 #: ../../content/applications/services/helpdesk/overview/getting_started.rst:10
 msgid "Set up teams"
@@ -605,21 +476,14 @@ msgstr "建立团队"
 msgid ""
 "To modify or create teams, go to :menuselection:`Helpdesk --> Configuration "
 "--> Helpdesk Teams`."
-msgstr ""
-"要修改或创建团队，请转到： :menuselection:`服务台 --> 设置 --> 服务台团队`。"
+msgstr "要修改或创建团队，请转到： :menuselection:`服务台 --> 设置 --> 服务台团队`。"
 
 #: ../../content/applications/services/helpdesk/overview/getting_started.rst:14
 msgid ""
 "Setting up multiple teams allows you to group tickets by your channels "
 "(example: BE/US), or by your support services' types (example: IT, "
 "accounting, admin, etc.)."
-msgstr ""
-"设置多个团队可以使您按频道（例如：BE / US）或支持服务的类型（例如：IT，会计，"
-"管理员等）对支持请求工单进行分类。"
-
-#: ../../content/applications/services/helpdesk/overview/getting_started.rst:None
-msgid "View of the helpdesk teams page in Odoo Helpdesk"
-msgstr ""
+msgstr "设置多个团队可以使您按频道（例如：BE / US）或支持服务的类型（例如：IT，会计，管理员等）对支持请求工单进行分类。"
 
 #: ../../content/applications/services/helpdesk/overview/getting_started.rstNone
 msgid "View of the helpdesk teams page in Odoo Helpdesk"
@@ -639,33 +503,21 @@ msgstr "团队可以使用单独的 *分配方法* 以确保将工单重定向�
 msgid ""
 "*Manually*: tickets are manually assigned, allowing employees to manage "
 "their own workload and target tickets they are experts at;"
-msgstr ""
-"*手动*：工单是手动分配的，使员工可以管理自己的工作量并处理他们擅长的工单；"
+msgstr "*手动*：工单是手动分配的，使员工可以管理自己的工作量并处理他们擅长的工单；"
 
 #: ../../content/applications/services/helpdesk/overview/getting_started.rst:28
 msgid ""
 "*Random*: tickets are randomly assigned and everyone gets the same amount. "
 "This method ensures that all tickets are handled as the assignment happens "
 "automatically;"
-msgstr ""
-"*随机*：工单是随机分配的，每个人都得到相同的数量。 此方法可确保在分配自动进行"
-"时处理所有工单；"
+msgstr "*随机*：工单是随机分配的，每个人都得到相同的数量。 此方法可确保在分配自动进行时处理所有工单；"
 
 #: ../../content/applications/services/helpdesk/overview/getting_started.rst:30
 msgid ""
 "*Balanced*: tickets are assigned to the person with the least amount of "
 "tickets so that everyone fairly gets the same amount. Thereby, you ensure "
 "that all tickets get to be taken care of."
-msgstr ""
-"*平衡* ：工单分配给工作量最少的人，以便每个人都公平地获得相同的工作。 因此，"
-"您可以确保所有工单都得到妥善处理。"
-
-#: ../../content/applications/services/helpdesk/overview/getting_started.rst:None
-msgid ""
-"View of a helpdesk team settings page emphasizing the productivity and "
-"visibility features\n"
-"in Odoo Helpdesk"
-msgstr ""
+msgstr "*平衡* ：工单分配给工作量最少的人，以便每个人都公平地获得相同的工作。 因此，您可以确保所有工单都得到妥善处理。"
 
 #: ../../content/applications/services/helpdesk/overview/getting_started.rstNone
 msgid ""
@@ -678,9 +530,7 @@ msgid ""
 "For the *Random* and *Balanced* assignment methods, you can set the *Team "
 "Members* among whom tickets are assigned. Leave the field empty to include "
 "all employees (with the proper access rights)."
-msgstr ""
-"对于 *随机* 和 *平衡* 分配方法，可以设置分配工单的 *团队成员* 。 将字段保留为"
-"空以包括所有员工（具有适当的访问权限）。"
+msgstr "对于 *随机* 和 *平衡* 分配方法，可以设置分配工单的 *团队成员* 。 将字段保留为空以包括所有员工（具有适当的访问权限）。"
 
 #: ../../content/applications/services/helpdesk/overview/getting_started.rst:43
 msgid ""
@@ -689,9 +539,8 @@ msgid ""
 "seen by the right people. Leave the field empty to include all employees "
 "(with the proper access rights)."
 msgstr ""
-"通过 *团队可见性* 功能，让您可以指定哪些人可以查看和访问团队的工单。 因此，只"
-"有被挑选的人才能看到被挑选工单的信息。 将字段保留为空以包括所有员工（具有适当"
-"的访问权限）。"
+"通过 *团队可见性* 功能，让您可以指定哪些人可以查看和访问团队的工单。 因此，只有被挑选的人才能看到被挑选工单的信息。 "
+"将字段保留为空以包括所有员工（具有适当的访问权限）。"
 
 #: ../../content/applications/services/helpdesk/overview/getting_started.rst:46
 msgid "Set up stages and share it among teams"
@@ -703,14 +552,8 @@ msgid ""
 "Stages`. Then, create and/or edit stages as you need and set specific teams "
 "to use certain stages under *Team*."
 msgstr ""
-"要设置阶段，请转到 :menuselection:`服务台 --> 设置 --> 阶段`。根据需要创建和/"
-"或编辑阶段，并设置特定的团队以使用 *团队* 下的某些阶段。"
-
-#: ../../content/applications/services/helpdesk/overview/getting_started.rst:None
-msgid ""
-"View of a stage’s setting page emphasizing the option to add teams in Odoo "
-"Helpdesk"
-msgstr ""
+"要设置阶段，请转到 :menuselection:`服务台 --> 设置 --> 阶段`。根据需要创建和/或编辑阶段，并设置特定的团队以使用 *团队* "
+"下的某些阶段。"
 
 #: ../../content/applications/services/helpdesk/overview/getting_started.rstNone
 msgid ""
@@ -723,13 +566,7 @@ msgid ""
 "Stages can be shared between one or multiple teams, allowing you to adapt "
 "the pipeline to your individual needs. They also apply a visibility and "
 "access rule, as other teams are not able to see or use the stage."
-msgstr ""
-"阶段可以在一个或多个团队之间共享，从而使管道可以适应您的个人需求。 他们还应用"
-"了可见性和访问规则，因为其他团队无法看到或使用阶段。"
-
-#: ../../content/applications/services/helpdesk/overview/getting_started.rst:None
-msgid "View of a team’s kanban view in Odoo Helpdesk"
-msgstr ""
+msgstr "阶段可以在一个或多个团队之间共享，从而使管道可以适应您的个人需求。 他们还应用了可见性和访问规则，因为其他团队无法看到或使用阶段。"
 
 #: ../../content/applications/services/helpdesk/overview/getting_started.rstNone
 msgid "View of a team’s kanban view in Odoo Helpdesk"
@@ -746,12 +583,10 @@ msgstr "点评"
 #: ../../content/applications/services/helpdesk/overview/ratings.rst:5
 msgid ""
 "Allow customers to rate their experience with your helpdesk teams to "
-"strengthen your credibility and gain their trust. Reviews can also influence "
-"a customer’s decision and open space for feedback that can help you improve "
-"the quality of your services."
-msgstr ""
-"让客户对您在服务台团队的服务经验进行评分，以增强您的信誉并赢得他们的信任。 评"
-"论还会影响客户的决定和反馈，以帮助您提高服务的质量。"
+"strengthen your credibility and gain their trust. Reviews can also influence"
+" a customer’s decision and open space for feedback that can help you improve"
+" the quality of your services."
+msgstr "让客户对您在服务台团队的服务经验进行评分，以增强您的信誉并赢得他们的信任。 评论还会影响客户的决定和反馈，以帮助您提高服务的质量。"
 
 #: ../../content/applications/services/helpdesk/overview/ratings.rst:12
 msgid ""
@@ -759,15 +594,8 @@ msgid ""
 "enable *Ratings on tickets*. The feature automatically adds a default email "
 "template on the non-folded *closing stage(s)* of that team."
 msgstr ""
-"转到 :menuselection:`服务台 --> 设置 --> 服务台团队` 并启用 *工单评级*。 该功"
-"能会自动在该团队的非折叠 *结束阶段* 添加默认电子邮件模板。"
-
-#: ../../content/applications/services/helpdesk/overview/ratings.rst:None
-msgid ""
-"Overview of the settings page of a helpdesk team emphasizing the rating on "
-"ticket feature\n"
-"in Odoo Helpdesk"
-msgstr ""
+"转到 :menuselection:`服务台 --> 设置 --> 服务台团队` 并启用 *工单评级*。 该功能会自动在该团队的非折叠 *结束阶段* "
+"添加默认电子邮件模板。"
 
 #: ../../content/applications/services/helpdesk/overview/ratings.rstNone
 msgid ""
@@ -778,17 +606,9 @@ msgstr ""
 #: ../../content/applications/services/helpdesk/overview/ratings.rst:21
 msgid ""
 "To edit the email template and the stage(s) set as the closing ones, go to "
-"the Kanban view of your helpdesk team and click on *Settings*, then on *Edit "
-"Stage*."
-msgstr ""
-"要编辑电子邮件模板并将阶段设置为结束阶段，请转到服务台团队的看板视图，然后单"
-"击 *设置* ，然后单击 *编辑阶段* 。"
-
-#: ../../content/applications/services/helpdesk/overview/ratings.rst:None
-msgid ""
-"Overview of a helpdesk team kanban view emphasizing the menu edit stage in "
-"Odoo Helpdesk"
-msgstr ""
+"the Kanban view of your helpdesk team and click on *Settings*, then on *Edit"
+" Stage*."
+msgstr "要编辑电子邮件模板并将阶段设置为结束阶段，请转到服务台团队的看板视图，然后单击 *设置* ，然后单击 *编辑阶段* 。"
 
 #: ../../content/applications/services/helpdesk/overview/ratings.rstNone
 msgid ""
@@ -802,11 +622,7 @@ msgid ""
 "an email is sent to the customer."
 msgstr "现在，一旦工单到达指定为 *关闭阶段* 的阶段，就会向客户发送电子邮件。"
 
-<<<<<<< HEAD
-#: ../../content/applications/services/helpdesk/overview/ratings.rst:None
-=======
 #: ../../content/applications/services/helpdesk/overview/ratings.rstNone
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgid ""
 "View of a standard helpdesk customer review email template for Odoo Helpdesk"
 msgstr ""
@@ -824,18 +640,11 @@ msgstr "评级在客户门户上可见"
 #: ../../content/applications/services/helpdesk/overview/ratings.rst:41
 msgid ""
 "Go to :menuselection:`Helpdesk --> Configuration --> Helpdesk Teams` and "
-"enable *Display Rating on Customer Portal*. Now, by clicking on the helpdesk "
-"team’s name on their ticket, customers can see its ratings."
+"enable *Display Rating on Customer Portal*. Now, by clicking on the helpdesk"
+" team’s name on their ticket, customers can see its ratings."
 msgstr ""
-"转到 :menuselection:`服务台 --> 设置 --> 服务台团队` 然后启用 *在客户门户网站"
-"上显示评级* 。 现在，通过在工单上单击服务台团队的名称，客户可以看到其评级。"
-
-#: ../../content/applications/services/helpdesk/overview/ratings.rst:None
-msgid ""
-"View of the helpdesk ticket from a user’s portal emphasizing the link to the "
-"helpdesk team\n"
-"in Odoo Helpdesk"
-msgstr ""
+"转到 :menuselection:`服务台 --> 设置 --> 服务台团队` 然后启用 *在客户门户网站上显示评级* 。 "
+"现在，通过在工单上单击服务台团队的名称，客户可以看到其评级。"
 
 #: ../../content/applications/services/helpdesk/overview/ratings.rstNone
 msgid ""
@@ -856,13 +665,12 @@ msgstr "开始接受工单"
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:5
 msgid ""
 "Offering a variety of channels from where your customers can contact you "
-"grants them flexibility and the right to choose the best one for themselves. "
-"And, in order to make sure inquiries across all channels get addressed, it "
+"grants them flexibility and the right to choose the best one for themselves."
+" And, in order to make sure inquiries across all channels get addressed, it "
 "is essential to have a solution where all interactions come in one place."
 msgstr ""
 "客户可以通过多种渠道与您联系，这赋予了他们灵活性，并有权为自己选择最佳渠道。 "
-"而且，为了确保能够解决所有渠道的查询，必须提供一种解决方案，使所有查询都集中"
-"在一个地方。"
+"而且，为了确保能够解决所有渠道的查询，必须提供一种解决方案，使所有查询都集中在一个地方。"
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:11
 msgid "Channels options to submit tickets"
@@ -871,16 +679,9 @@ msgstr "提交工单的渠道选项"
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:13
 msgid ""
 "Go to :menuselection:`Helpdesk --> Configuration --> Helpdesk Teams`, and "
-"enable the following features as you want them to be available to your users."
-msgstr ""
-"转到 :menuselection:`服务台 --> 设置 --> 服务台团队` ，然后启用以下功能，以使"
-"用户可以使用它们。"
-
-#: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:None
-msgid ""
-"View of a helpdesk teams setting page emphasizing the channels options in "
-"Odoo Helpdesk"
-msgstr ""
+"enable the following features as you want them to be available to your "
+"users."
+msgstr "转到 :menuselection:`服务台 --> 设置 --> 服务台团队` ，然后启用以下功能，以使用户可以使用它们。"
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rstNone
 msgid ""
@@ -897,25 +698,14 @@ msgid ""
 "Let your customers submit tickets by sending an email to your support email "
 "address. The subject line of the email becomes the title of the ticket and "
 "the content is shown in the Chatter."
-msgstr ""
-"让您的客户发送支持请求到您的客户支持电邮地址。 电子邮件的主题行成为支持请求的"
-"标题，其内容显示在沟通栏中。"
+msgstr "让您的客户发送支持请求到您的客户支持电邮地址。 电子邮件的主题行成为支持请求的标题，其内容显示在沟通栏中。"
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:26
 msgid ""
 "Select *Configure domain name* to be redirected to *Settings* and, from "
 "there, enable *External Email Servers* to determine or change your *Alias "
 "Domain*."
-msgstr ""
-"选择 *配置域名* 以重定向到 *设定* ，然后从此处启用 *外部电邮服务器* ，以确定"
-"或更改您的 *别名域* 。"
-
-#: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:None
-msgid ""
-"View of the settings page of a helpdesk team emphasizing the email alias "
-"feature\n"
-"in Odoo Helpdesk"
-msgstr ""
+msgstr "选择 *配置域名* 以重定向到 *设定* ，然后从此处启用 *外部电邮服务器* ，以确定或更改您的 *别名域* 。"
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rstNone
 msgid ""
@@ -928,9 +718,7 @@ msgid ""
 "Using your own email server is required to send and receive emails in Odoo "
 "Community and Enterprise. Online users benefit from a ready-to-use email "
 "server."
-msgstr ""
-"需要使用您自己的电子邮件服务器在Odoo 社区版和企业版中发送和接收电子邮件。 在"
-"线用户受益于现成的电子邮件服务器。"
+msgstr "需要使用您自己的电子邮件服务器在Odoo 社区版和企业版中发送和接收电子邮件。 在线用户受益于现成的电子邮件服务器。"
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:39
 msgid "Website Form"
@@ -944,20 +732,13 @@ msgstr "通过您的网站填写表格，允许您的客户提交工单。"
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:42
 msgid ""
-"Once the feature is activated, get redirected to your website by clicking on "
-"*Go to Website*."
+"Once the feature is activated, get redirected to your website by clicking on"
+" *Go to Website*."
 msgstr "激活该功能后，通过单击 *转到网站* 将其重定向到您的网站。"
 
-<<<<<<< HEAD
-#: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:None
-msgid ""
-"View of the settings page of a helpdesk team emphasizing the Go to Website "
-"button in\n"
-=======
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rstNone
 msgid ""
 "View of the settings page of a helpdesk team emphasizing the Go to Website button in\n"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 "Odoo Helpdesk"
 msgstr ""
 
@@ -967,11 +748,7 @@ msgid ""
 "clicking on *Unpublished*."
 msgstr "在网站页面上根据需要自定义表单。 然后，通过单击 *未发布* 进行发布。"
 
-<<<<<<< HEAD
-#: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:None
-=======
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rstNone
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgid "View of the website form to submit a ticket for Odoo Helpdesk"
 msgstr ""
 
@@ -983,22 +760,13 @@ msgstr "在线聊天"
 msgid ""
 "Through live interactions with your website visitors, helpdesk tickets can "
 "be instantly created and redirected to the right person."
-msgstr ""
-"通过与您的网站访问者的实时互动，可以立即创建服务台工单并将其重定向到合适的"
-"人。"
+msgstr "通过与您的网站访问者的实时互动，可以立即创建服务台工单并将其重定向到合适的人。"
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:61
 msgid ""
 "Click on your helpdesk team's name - for the example below: *Customer Care* "
-"- and :doc:`set up your channel </applications/websites/livechat/overview/"
-"get_started>`."
-msgstr ""
-
-#: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:None
-msgid ""
-"View of the settings page of a helpdesk team emphasizing the live chat "
-"features and links\n"
-"in Odoo Helpdesk"
+"- and :doc:`set up your channel "
+"</applications/websites/livechat/overview/get_started>`."
 msgstr ""
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rstNone
@@ -1009,8 +777,8 @@ msgstr ""
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:68
 msgid ""
-"Now, your operators can create tickets by using the :doc:`command </"
-"applications/websites/livechat/overview/responses>` */helpdesk "
+"Now, your operators can create tickets by using the :doc:`command "
+"</applications/websites/livechat/overview/responses>` */helpdesk "
 "(subject_of_ticket)*."
 msgstr ""
 "现在，您的操作员可以使用 :doc:`命令 </applications/websites/livechat/overview/responses>` "
@@ -1022,10 +790,9 @@ msgstr "确定优先级工单"
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:74
 msgid ""
-"Use the stars to prioritize your tickets. The most urgent ones appear at the "
-"top of your list on the Kanban view."
-msgstr ""
-"使用星星图标安排工单的优先级别。 最紧急的工单将出现在看板视图中列表的顶部。"
+"Use the stars to prioritize your tickets. The most urgent ones appear at the"
+" top of your list on the Kanban view."
+msgstr "使用星星图标安排工单的优先级别。 最紧急的工单将出现在看板视图中列表的顶部。"
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:77
 msgid "1 star = *Low priority*"
@@ -1039,14 +806,9 @@ msgstr "2星= *高优先级*"
 msgid "3 stars = *Urgent*"
 msgstr "3星= *紧急*"
 
-<<<<<<< HEAD
-#: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:None
-msgid "View of a team’s kanban view and the prioritized tasks in Odoo Helpdesk"
-=======
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rstNone
 msgid ""
 "View of a team’s kanban view and the prioritized tasks in Odoo Helpdesk"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgstr ""
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:87
@@ -1055,15 +817,8 @@ msgid ":doc:`sla`"
 msgstr ":doc:`sla`"
 
 #: ../../content/applications/services/helpdesk/overview/receiving_tickets.rst:89
-<<<<<<< HEAD
-#, fuzzy
-#| msgid ":doc:`/applications/productivity/discuss/advanced/email_servers`"
-msgid ":doc:`/applications/general/email_communication/email_servers`"
-msgstr ":doc:`/applications/productivity/discuss/advanced/email_servers`"
-=======
 msgid ":doc:`/applications/general/email_communication/email_servers`"
 msgstr ":doc:`/applications/general/email_communication/email_servers`"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/services/helpdesk/overview/reports.rst:3
 msgid "Reports for a Better Support"
@@ -1076,8 +831,7 @@ msgid ""
 "manage employees’ workloads and, most importantly, meet your customer’s "
 "expectations."
 msgstr ""
-"高效的客户服务解决方案应具有内置的报告选项。 通过报告，您可以跟踪趋势，确定需"
-"要改进的地方，管理员工的工作量，最重要的是可以满足客户的期望。"
+"高效的客户服务解决方案应具有内置的报告选项。 通过报告，您可以跟踪趋势，确定需要改进的地方，管理员工的工作量，最重要的是可以满足客户的期望。"
 
 #: ../../content/applications/services/helpdesk/overview/reports.rst:10
 msgid "Cases"
@@ -1095,9 +849,7 @@ msgstr "工单数量 *按* 团队和工单类型分组。"
 msgid ""
 "In this manner, you are able to evaluate which ticket types have been the "
 "most frequent ones, plus the workload of your teams."
-msgstr ""
-"通过这种方式，您可以评估哪些支持请求类型是最常见的工单类型，以及团队的工作"
-"量。"
+msgstr "通过这种方式，您可以评估哪些支持请求类型是最常见的工单类型，以及团队的工作量。"
 
 #: ../../content/applications/services/helpdesk/overview/reports.rst:19
 msgid ""
@@ -1105,11 +857,7 @@ msgid ""
 "Period* or a *Previous Year*."
 msgstr "如果您想与 *上一时期* 或 *上一年* 进行比较，则应用 *时间范围* 。"
 
-<<<<<<< HEAD
-#: ../../content/applications/services/helpdesk/overview/reports.rst:None
-=======
 #: ../../content/applications/services/helpdesk/overview/reports.rstNone
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgid ""
 "View of a helpdesk ticket analysis by team and ticket type in Odoo Helpdesk"
 msgstr ""
@@ -1121,16 +869,9 @@ msgstr "每个团队每天关闭的票数。"
 #: ../../content/applications/services/helpdesk/overview/reports.rst:27
 msgid ""
 "Get an overview of how many requests each team is closing per day in order "
-"to measure their performance. Identify productivity levels to understand how "
-"many requests they are able to handle."
-msgstr ""
-"概述每个团队每天要处理多少请求以衡量其绩效。 确定生产效率级别，以了解他们能够"
-"处理多少个请求。"
-
-#: ../../content/applications/services/helpdesk/overview/reports.rst:None
-msgid ""
-"View of a helpdesk ticket analysis by team and close date in Odoo Helpdesk"
-msgstr ""
+"to measure their performance. Identify productivity levels to understand how"
+" many requests they are able to handle."
+msgstr "概述每个团队每天要处理多少请求以衡量其绩效。 确定生产效率级别，以了解他们能够处理多少个请求。"
 
 #: ../../content/applications/services/helpdesk/overview/reports.rstNone
 msgid ""
@@ -1153,16 +894,7 @@ msgid ""
 "Check if your expectations are met by *measuring* the *Time to close "
 "(hours)*. Your customers not only expect fast responses but they also want "
 "their issues to be handled quickly."
-msgstr ""
-"通过 *测量*  *关闭工单时间（小时）* 检查您的期望是否得到满足。 您的客户不仅期"
-"望快速响应，而且希望快速处理他们的问题。"
-
-#: ../../content/applications/services/helpdesk/overview/reports.rst:None
-msgid ""
-"View of helpdesk ticket analysis of the hours to close by ticket type and "
-"team in\n"
-"Odoo Helpdesk"
-msgstr ""
+msgstr "通过 *测量*  *关闭工单时间（小时）* 检查您的期望是否得到满足。 您的客户不仅期望快速响应，而且希望快速处理他们的问题。"
 
 #: ../../content/applications/services/helpdesk/overview/reports.rstNone
 msgid ""
@@ -1176,19 +908,10 @@ msgstr "保存过滤器"
 
 #: ../../content/applications/services/helpdesk/overview/reports.rst:50
 msgid ""
-"Save the filters you use the most and avoid having to reconstruct them every "
-"time they are needed. To do so, set the groups, filters, and measures "
+"Save the filters you use the most and avoid having to reconstruct them every"
+" time they are needed. To do so, set the groups, filters, and measures "
 "needed. Then, go to *Favorites*."
-msgstr ""
-"保存最常用的过滤器，避免每次需要时都对其进行重构。 为此，设置所需的组，过滤器"
-"和度量。 然后，转到 *收藏夹* 。"
-
-#: ../../content/applications/services/helpdesk/overview/reports.rst:None
-msgid ""
-"View of helpdesk ticket analysis emphasizing the option to add a filter as a "
-"favorite one\n"
-"in Odoo Helpdesk"
-msgstr ""
+msgstr "保存最常用的过滤器，避免每次需要时都对其进行重构。 为此，设置所需的组，过滤器和度量。 然后，转到 *收藏夹* 。"
 
 #: ../../content/applications/services/helpdesk/overview/reports.rstNone
 msgid ""
@@ -1210,9 +933,7 @@ msgid ""
 "to outline how a service is delivered. It bolsters trust between you and "
 "your customers as it makes clear what needs to be done, to what standard, "
 "and when."
-msgstr ""
-"服务级别协议（SLA）是您对客户做出的概述服务交付方式的承诺。 它说明了需要完成"
-"的工作，达到的标准和时间，从而增强了您与客户之间的信任。"
+msgstr "服务级别协议（SLA）是您对客户做出的概述服务交付方式的承诺。 它说明了需要完成的工作，达到的标准和时间，从而增强了您与客户之间的信任。"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:10
 msgid "Create your policies"
@@ -1223,21 +944,13 @@ msgid ""
 "First, enable the feature on the settings of the team you would like "
 "policies to be applied, going to :menuselection:`Helpdesk --> Configuration "
 "--> Helpdesk Teams`."
-msgstr ""
-"首先，在您希望应用政策的团队的设置上启用该功能，进入 :menuselection:`服务台 "
-"--> 设置 --> 服务台团队`。"
+msgstr "首先，在您希望应用政策的团队的设置上启用该功能，进入 :menuselection:`服务台 --> 设置 --> 服务台团队`。"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:15
 msgid ""
-"Create your policies through the team’s settings page or go to :"
-"menuselection:`Helpdesk --> Configuration --> SLA Policies`."
-msgstr ""
-"通过小组的设置页面创建政策，或转到 :menuselection:`服务台 --> 设置 --> 服务级"
-"别协议政策`。"
-
-#: ../../content/applications/services/helpdesk/overview/sla.rst:None
-msgid "View of an SLA form in Odoo Helpdesk"
-msgstr ""
+"Create your policies through the team’s settings page or go to "
+":menuselection:`Helpdesk --> Configuration --> SLA Policies`."
+msgstr "通过小组的设置页面创建政策，或转到 :menuselection:`服务台 --> 设置 --> 服务级别协议政策`。"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rstNone
 msgid "View of an SLA form in Odoo Helpdesk"
@@ -1245,45 +958,27 @@ msgstr ""
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:23
 msgid ""
-<<<<<<< HEAD
-"Choose to which **Team** the policy is relevant and the **Minimum Priority** "
-"a ticket needs to have for the policy to be applied."
-msgstr "选择与该政策相关的 **团队**，以及要应用该政策所需的 **最低优先级** 。"
-=======
 "Choose to which **Team** the policy is relevant and the **Minimum Priority**"
 " a ticket needs to have for the policy to be applied."
 msgstr "选择与该政策相关的  **** ，以及要应用该政策所需的  **低优先**  。"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:27
 msgid ""
-"**Target** is the stage a ticket needs to reach within the period defined to "
-"satisfy the SLA. The period is based on the ticket’s creation date, and a "
+"**Target** is the stage a ticket needs to reach within the period defined to"
+" satisfy the SLA. The period is based on the ticket’s creation date, and a "
 "deadline is set on the ticket’s form once it matches an SLA policy rule. If "
-"a ticket has more than one policy applied to it, the closest deadline of all "
-"SLAs is the one considered."
+"a ticket has more than one policy applied to it, the closest deadline of all"
+" SLAs is the one considered."
 msgstr ""
-<<<<<<< HEAD
-"**目标** 是工单在定义的满足服务级别协议的期限内需要达到的阶段。 该期限基于工"
-"单的创建日期，并且一旦工单符合服务级别协议政策规则，便会在工单表单上设置截止"
-"日期。 如果工单应用了一项以上的政策，则所有服务级别协议接近的最后期限为所考虑"
-"的期限。"
-=======
 " ****  是工单在定义的满足服务级别协议的期限内需要达到的阶段。 "
 "该期限基于工单的创建日期，并且一旦工单符合服务级别协议政策规则，便会在工单表单上设置截止日期。 "
 "如果工单应用了一项以上的政策，则所有服务级别协议接近的最后期限为所考虑的期限。"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:29
 msgid ""
 "When a ticket has satisfied an SLA policy, the SLA tag appears in green and "
 "the deadline field is not shown anymore."
-msgstr ""
-"当工单满足服务级别协议策略时，SLA标签将显示为绿色，并且截止日期字段不再显示。"
-
-#: ../../content/applications/services/helpdesk/overview/sla.rst:None
-msgid "View of a ticket’s form emphasizing a satisfied SLA in Odoo Helpdesk"
-msgstr ""
+msgstr "当工单满足服务级别协议策略时，SLA标签将显示为绿色，并且截止日期字段不再显示。"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rstNone
 msgid "View of a ticket’s form emphasizing a satisfied SLA in Odoo Helpdesk"
@@ -1295,28 +990,19 @@ msgstr "分析服务级别协议"
 
 #: ../../content/applications/services/helpdesk/overview/sla.rst:39
 msgid ""
-"Go to :menuselection:`Helpdesk --> Reporting --> SLA Status Analysis`. Apply "
-"*Filters* and *Group by* to identify tickets that should be prioritized and "
-"keep track of upcoming deadlines."
+"Go to :menuselection:`Helpdesk --> Reporting --> SLA Status Analysis`. Apply"
+" *Filters* and *Group by* to identify tickets that should be prioritized and"
+" keep track of upcoming deadlines."
 msgstr ""
-"转到 :menuselection:`服务台 --> 报告 --> 服务级别协议状态分析` 。 应用 *过滤"
-"器* 和 *分组依据* 来确定应优先处理的票证，并跟踪即将到来的截止日期。"
+"转到 :menuselection:`服务台 --> 报告 --> 服务级别协议状态分析` 。 应用 *过滤器* 和 *分组依据* "
+"来确定应优先处理的票证，并跟踪即将到来的截止日期。"
 
-#: ../../content/applications/services/helpdesk/overview/sla.rst:None
-msgid ""
-"View of the SLA status analysis page emphasizing the group by option in Odoo "
-"Helpdesk"
-msgstr ""
-
-<<<<<<< HEAD
-=======
 #: ../../content/applications/services/helpdesk/overview/sla.rstNone
 msgid ""
 "View of the SLA status analysis page emphasizing the group by option in Odoo"
 " Helpdesk"
 msgstr ""
 
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice.rst:5
 msgid "Timesheet and Invoice"
 msgstr "工时单和发票"
@@ -1333,9 +1019,8 @@ msgid ""
 "applications are fully integrated, resulting in faster responses to your "
 "customer needs."
 msgstr ""
-"可以选择使用预付费支持服务，这意味着将发出销售订单和相应的发票，一旦完成服"
-"务，您就可以扣除所花费的时间。 Odoo允许发生这种情况，因为应用程序已完全集成，"
-"从而可以更快地响应客户需求。"
+"可以选择使用预付费支持服务，这意味着将发出销售订单和相应的发票，一旦完成服务，您就可以扣除所花费的时间。 "
+"Odoo允许发生这种情况，因为应用程序已完全集成，从而可以更快地响应客户需求。"
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rst:14
 msgid "Step 1: Set up a helpdesk team"
@@ -1343,28 +1028,18 @@ msgstr "步骤1：建立服务台团队"
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rst:17
 msgid ""
-"Go to :menuselection:`Helpdesk --> Configuration --> Helpdesk Teams`, create "
-"or edit an existing team, and enable *Timesheet on Ticket* and *Time "
+"Go to :menuselection:`Helpdesk --> Configuration --> Helpdesk Teams`, create"
+" or edit an existing team, and enable *Timesheet on Ticket* and *Time "
 "Reinvoicing*."
 msgstr ""
-"转到 :menuselection:`服务台 --> 设置 --> 服务台团队` ，创建或编辑现有团队，并"
-"启用 *工时单上的工单* 和 *重新开票”。"
+"转到 :menuselection:`服务台 --> 设置 --> 服务台团队` ，创建或编辑现有团队，并启用 *工时单上的工单* 和 *重新开票”。"
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rst:20
 msgid ""
-"Select or create a project under *Timesheet on Ticket*. The selected/created "
-"is the one at which employees timesheet on by default. However, it can be "
+"Select or create a project under *Timesheet on Ticket*. The selected/created"
+" is the one at which employees timesheet on by default. However, it can be "
 "ultimately modified on each ticket."
-msgstr ""
-"在 *工单时间表* 下选择或创建一个项目。 选定/创建的是默认情况下员工时间表所在"
-"的那个。 但是，最终可以在每个票证上对其进行修改。"
-
-#: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rst:None
-msgid ""
-"View of a helpdesk team settings page emphasizing the timesheet on ticket "
-"and time\n"
-"reinvoicing features in Odoo Helpdesk"
-msgstr ""
+msgstr "在 *工单时间表* 下选择或创建一个项目。 选定/创建的是默认情况下员工时间表所在的那个。 但是，最终可以在每个票证上对其进行修改。"
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rstNone
 msgid ""
@@ -1382,23 +1057,14 @@ msgid ""
 "*Units of Measure* to optionally be able to choose *hours* (for example) as "
 "the unit of measure of your service."
 msgstr ""
-"转到 :menuselection:`销售 --> 设置 --> 设定` 并启用 *计量单位* 能够选择 *小时"
-"* （例如）作为服务的计量单位。"
+"转到 :menuselection:`销售 --> 设置 --> 设定` 并启用 *计量单位* 能够选择 *小时* （例如）作为服务的计量单位。"
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rst:33
 msgid ""
-"Then, go to :menuselection:`Sales --> Products --> Products`, create or edit "
-"an existing one, and set its *Product Type* as *Service*."
+"Then, go to :menuselection:`Sales --> Products --> Products`, create or edit"
+" an existing one, and set its *Product Type* as *Service*."
 msgstr ""
-"然后，转到 :menuselection:` 销售 --> 产品 --> 产品`，创建或编辑现有产品，并将"
-"其 *产品类型* 设置为 *服务*。"
-
-#: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rst:None
-msgid ""
-"View of a product's form emphasizing the product type and unit of measure "
-"fields in Odoo\n"
-"Sales"
-msgstr ""
+"然后，转到 :menuselection:` 销售 --> 产品 --> 产品`，创建或编辑现有产品，并将其 *产品类型* 设置为 *服务*。"
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rstNone
 msgid ""
@@ -1412,30 +1078,22 @@ msgid ""
 "*Sales* tab. We recommend the following configuration:"
 msgstr "现在， 可在 *销售* 标签下选择您想要的发票管理。 我们建议以下配置："
 
-<<<<<<< HEAD
-#: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rst:None
-msgid ""
-"View of a product form and the invoicing options under the tab sales in Odoo "
-"Sales"
-=======
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rstNone
 msgid ""
 "View of a product form and the invoicing options under the tab sales in Odoo"
 " Sales"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgstr ""
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rst:47
 msgid ""
 "This configuration ensures that the customer is invoiced by the number of "
 "hours predicted in the sales order, meaning that less or extra hours "
-"recorded are not taken into account. It also ensures that every time a sales "
-"order is confirmed, a new task is created under the right project, "
+"recorded are not taken into account. It also ensures that every time a sales"
+" order is confirmed, a new task is created under the right project, "
 "automating the process."
 msgstr ""
-"此配置可确保根据销售订单中预测的小时数向客户开具发票，这意味着不会考虑较少或"
-"额外的小时数。 它还确保每次确认销售订单时，都会在正确的项目下创建新任务，从而"
-"使流程自动化。"
+"此配置可确保根据销售订单中预测的小时数向客户开具发票，这意味着不会考虑较少或额外的小时数。 "
+"它还确保每次确认销售订单时，都会在正确的项目下创建新任务，从而使流程自动化。"
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rst:53
 msgid ""
@@ -1444,8 +1102,7 @@ msgid ""
 "to be set on the corresponding project or task, in order to reinvoice the "
 "time spent on a ticket."
 msgstr ""
-"我们建议设置一个特定的项目，就像在此流程示例中所做的那样。 要记住的是，为了重"
-"新开票所花费的时间，需要在相应的项目或任务上设置销售订单项目。"
+"我们建议设置一个特定的项目，就像在此流程示例中所做的那样。 要记住的是，为了重新开票所花费的时间，需要在相应的项目或任务上设置销售订单项目。"
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rst:58
 msgid "Prevision an invoice and record time"
@@ -1462,13 +1119,8 @@ msgid ""
 "needs the ticket to be opened. Set the number of hours needed to assist the "
 "customer and *Confirm* the order."
 msgstr ""
-"转到 :menuselection:`销售 --> 订单 --> 订单` 并为您之前设置的服务台创建一个服"
-"务产品，并与需要打开故障单的客户一起使用。 设置帮助客户并 *确认* 订单所需的小"
-"时数。"
-
-#: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rst:None
-msgid "View of a sales order emphasizing the order lines in Odoo Sales"
-msgstr ""
+"转到 :menuselection:`销售 --> 订单 --> 订单` 并为您之前设置的服务台创建一个服务产品，并与需要打开故障单的客户一起使用。 "
+"设置帮助客户并 *确认* 订单所需的小时数。"
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rstNone
 msgid "View of a sales order emphasizing the order lines in Odoo Sales"
@@ -1482,11 +1134,7 @@ msgstr "步骤2：为客户开具发票"
 msgid "In *Sales*, select the respective sales order to *Create Invoice*."
 msgstr "在 *销售* 中，选择相应的销售订单以 *创建发票* 。"
 
-<<<<<<< HEAD
-#: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rst:None
-=======
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rstNone
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgid ""
 "View of a sales order emphasizing the create invoice button in Odoo Sales"
 msgstr ""
@@ -1499,13 +1147,7 @@ msgstr "步骤3：将任务链接到支持请求工单"
 msgid ""
 "Now, in *Helpdesk*, create or edit the respective ticket and link it to the "
 "task created by the confirmation of the sales order."
-msgstr ""
-"现在，在 *服务台* 中，创建或编辑相应的票证，并将其链接到通过确认销售订单创建"
-"的任务。"
-
-#: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rst:None
-msgid "View of a helpdesk ticket emphasizing the field task in Odoo Helpdesk"
-msgstr ""
+msgstr "现在，在 *服务台* 中，创建或编辑相应的票证，并将其链接到通过确认销售订单创建的任务。"
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rstNone
 msgid "View of a helpdesk ticket emphasizing the field task in Odoo Helpdesk"
@@ -1521,26 +1163,18 @@ msgid ""
 "the *Timesheets* tab."
 msgstr "仍在相应的服务台工单上，记录 *工时单* 选项卡下执行的小时数。"
 
-<<<<<<< HEAD
-#: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rst:None
-=======
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rstNone
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgid ""
 "View of a helpdesk ticket emphasizing the timesheets tab in Odoo Helpdesk"
 msgstr ""
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rst:100
 msgid ""
-"Note that the hours recorded on the ticket form are shown on the *Delivered* "
-"column in the sales order."
+"Note that the hours recorded on the ticket form are shown on the *Delivered*"
+" column in the sales order."
 msgstr "请注意，工单上记录的小时数显示在销售订单的 *已交付* 列中。"
 
-<<<<<<< HEAD
-#: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rst:None
-=======
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/invoice_time.rstNone
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgid "View of a sales order emphasizing the delivered column in Odoo Sales"
 msgstr ""
 
@@ -1574,13 +1208,8 @@ msgstr ""
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:8
 msgid ""
 "In Odoo, the Helpdesk agent can use the ticket to record timesheets. Once a "
-<<<<<<< HEAD
-"ticket is solved, the client can be billed for the time spent on the ticket. "
-"Odoo will pull from the ticket's timesheet to accurately bill the client."
-=======
 "ticket is solved, the client can be billed for the time spent on the ticket."
 " Odoo will pull from the ticket's timesheet to accurately bill the client."
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgstr ""
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:13
@@ -1589,55 +1218,6 @@ msgstr "配置"
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:15
 msgid ""
-<<<<<<< HEAD
-"To turn on the :guilabel:`Timesheets` feature, go to :menuselection:"
-"`Helpdesk --> Configuration --> Helpdesk Teams`, select a Helpdesk team, and "
-"then, click :guilabel:`Edit`. Next, enable the options :guilabel:"
-"`Timesheets` and :guilabel:`Time Billing`. Then, click :guilabel:`Save` to "
-"apply these changes to the Helpdesk team settings."
-msgstr ""
-
-#: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:20
-msgid ""
-"Once the :guilabel:`Timesheets` feature is enabled, a :guilabel:`Project` "
-"drop-down option will appear below :guilabel:`Timesheets`. The :guilabel:"
-"`Project` drop-down option will automatically be set to a project that Odoo "
-"created for the Helpdesk team. The tickets' timesheets will be stored in the "
-"selected project."
-msgstr ""
-
-#: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:26
-#, fuzzy
-#| msgid "Create a sales order and an invoice"
-msgid "Create a sales order"
-msgstr "创建销售订单和发票"
-
-#: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:28
-msgid ""
-"After a ticket comes into the pipeline, go to :menuselection:`Sales --> "
-"Create`. Then, add the customer from the ticket to the :guilabel:`Customer` "
-"field in the new quotation. In the :guilabel:`Order Lines` tab, create or "
-"select a product to charge the customer for the time spent on their Helpdesk "
-"ticket."
-msgstr ""
-
-#: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:33
-msgid ""
-"If creating a new product from the sales order form, first give the product "
-"a name by typing it in the :guilabel:`Product` column. Then, click :guilabel:"
-"`Create and edit`."
-msgstr ""
-
-#: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:36
-msgid ""
-"First, in the :guilabel:`General Information` tab, set the :guilabel:"
-"`Product Type` to :guilabel:`Service` and the :guilabel:`Sales Price` to the "
-"Helpdesk agent's service rate. Then, set the :guilabel:`Invoicing Policy` "
-"to :guilabel:`Based on Timesheets`. Finally, click :guilabel:`Save` to "
-"create the new product and add it to the quotation."
-msgstr ""
-
-=======
 "To turn on the :guilabel:`Timesheets` feature, go to "
 ":menuselection:`Helpdesk --> Configuration --> Helpdesk Teams`, select a "
 "Helpdesk team, and then, click :guilabel:`Edit`. Next, enable the options "
@@ -1684,45 +1264,11 @@ msgid ""
 "quotation."
 msgstr ""
 
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:41
 msgid ""
 "Once the product is added, click :guilabel:`Confirm` to turn the quotation "
 "into a sales order."
 msgstr ""
-<<<<<<< HEAD
-
-#: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:None
-#, fuzzy
-#| msgid "Create a sales order and an invoice"
-msgid "Create a sales order and add a product."
-msgstr "创建销售订单和发票"
-
-#: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:48
-#, fuzzy
-#| msgid "Step 4: Record the time spent"
-msgid "Record a timesheet"
-msgstr "步骤4：记录所花费的时间"
-
-#: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:50
-msgid ""
-"To record a timesheet, jump back to the Helpdesk ticket by going to the :"
-"guilabel:`Helpdesk` dashboard, clicking :guilabel:`Tickets` on the team's "
-"card, and locating the correct ticket. Then, click :guilabel:`Edit` and use "
-"the :guilabel:`Timesheets` tab to record the time spent on the ticket."
-msgstr ""
-
-#: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:None
-msgid "Record time spent on a ticket."
-msgstr ""
-
-#: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:60
-msgid ""
-"The ticket's timesheets can be recorded before or after the sales order is "
-"made, the order doesn't matter."
-msgstr ""
-
-=======
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rstNone
 msgid "Create a sales order and add a product."
@@ -1750,7 +1296,6 @@ msgid ""
 "made, the order doesn't matter."
 msgstr ""
 
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:64
 msgid "Link the Helpdesk ticket to the SO"
 msgstr ""
@@ -1765,17 +1310,9 @@ msgid ""
 "connect the ticket and the :guilabel:`Sales Order Item`."
 msgstr ""
 
-<<<<<<< HEAD
-#: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:None
-#, fuzzy
-#| msgid "Step 3: Link the task to the ticket"
-msgid "Link the SO item to the ticket."
-msgstr "步骤3：将任务链接到支持请求工单"
-=======
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rstNone
 msgid "Link the SO item to the ticket."
 msgstr ""
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:77
 msgid ""
@@ -1790,15 +1327,9 @@ msgstr ""
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:83
 msgid ""
 "If a timesheet entry is recorded, but the agent does not want to bill the "
-<<<<<<< HEAD
-"client for that time, go to the :guilabel:`Timesheets` tab and toggle on the "
-"visibility of the :guilabel:`Sales Order Item` column. When filling out the "
-"information for the timesheet entry, make sure to leave the non-billable "
-=======
 "client for that time, go to the :guilabel:`Timesheets` tab and toggle on the"
 " visibility of the :guilabel:`Sales Order Item` column. When filling out the"
 " information for the timesheet entry, make sure to leave the non-billable "
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 "timesheet entry's :guilabel:`Sales Order Item` field blank."
 msgstr ""
 
@@ -1806,17 +1337,6 @@ msgstr ""
 msgid ""
 "If the agent wants to charge a different rate for a timesheet entry, first, "
 "add a new product to the connected :abbr:`SO (Sales Order)` priced at the "
-<<<<<<< HEAD
-"new rate. Then, select the new product in the timesheet entry's :guilabel:"
-"`Sales Order Item` field."
-msgstr ""
-
-#: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:93
-#, fuzzy
-#| msgid "Create your policies"
-msgid "Create the invoice"
-msgstr "建立您的政策"
-=======
 "new rate. Then, select the new product in the timesheet entry's "
 ":guilabel:`Sales Order Item` field."
 msgstr ""
@@ -1824,19 +1344,13 @@ msgstr ""
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:93
 msgid "Create the invoice"
 msgstr ""
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:95
 msgid ""
 "When the Helpdesk ticket is completed and the client is ready to be billed "
 "for time, begin by clicking the :guilabel:`Sales Order` smart button on the "
-<<<<<<< HEAD
-"ticket form to navigate to the sales order. The :guilabel:`Delivered` column "
-"should match the number of hours recorded on the ticket's timesheet. After "
-=======
 "ticket form to navigate to the sales order. The :guilabel:`Delivered` column"
 " should match the number of hours recorded on the ticket's timesheet. After "
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 "checking and filling out the relevant information, click :guilabel:`Create "
 "Invoice` to bill the client for the time spent on the ticket. Odoo will "
 "automatically generate an invoice to send to the client and the Helpdesk "
@@ -1844,15 +1358,8 @@ msgid ""
 msgstr ""
 
 #: ../../content/applications/services/helpdesk/timesheet_and_invoice/reinvoice_from_project.rst:103
-<<<<<<< HEAD
-#, fuzzy
-#| msgid ":doc:`reinvoice_from_project`"
-msgid ":doc:`invoice_time`"
-msgstr ":doc:`reinvoice_from_project`"
-=======
 msgid ":doc:`invoice_time`"
 msgstr ""
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/services/project.rst:8
 msgid "Project"
@@ -1861,16 +1368,10 @@ msgstr "项目"
 #: ../../content/applications/services/project.rst:11
 #: ../../content/applications/services/timesheets.rst:11
 msgid ""
-<<<<<<< HEAD
-"`Odoo Tutorials: Project and Timesheets <https://www.odoo.com/slides/project-"
-"and-timesheets-21>`_"
-msgstr ""
-=======
 "`Odoo Tutorials: Project and Timesheets "
 "<https://www.odoo.com/slides/project-and-timesheets-21>`_"
 msgstr ""
 "`Odoo 教程：项目和时间表 <https://www.odoo.com/slides/project-and-timesheets-21>`_"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/applications/services/project/tasks.rst:5
 msgid "Tasks"
@@ -1888,9 +1389,8 @@ msgid ""
 "structured work. It automatically creates a task in the first stage of a "
 "project."
 msgstr ""
-"如果您已经有了客户从头开始知道的电邮地址，那么更改它是您要做的最后一件事。 而"
-"是将地址链接到您的项目，然后将这些对话转换为结构化的工作。 它会在项目的第一阶"
-"段自动创建任务。"
+"如果您已经有了客户从头开始知道的电邮地址，那么更改它是您要做的最后一件事。 而是将地址链接到您的项目，然后将这些对话转换为结构化的工作。 "
+"它会在项目的第一阶段自动创建任务。"
 
 #: ../../content/applications/services/project/tasks/email_alias.rst:11
 msgid "Set up an incoming email server"
@@ -1900,19 +1400,12 @@ msgstr "设置传入电子邮件服务器"
 msgid ""
 "On the *Settings* application, enable *External Email Servers* and define "
 "the incoming email alias you would like to use."
-msgstr ""
-"在 *设置* 应用程序上，启用 *外部电子邮件服务器* 并定义您要使用的传入电子邮件"
-"别名。"
+msgstr "在 *设置* 应用程序上，启用 *外部电子邮件服务器* 并定义您要使用的传入电子邮件别名。"
 
 #: ../../content/applications/services/project/tasks/email_alias.rst:15
 msgid ""
-<<<<<<< HEAD
-"**For more information**: :doc:`/applications/general/email_communication/"
-"email_servers`"
-=======
 "**For more information**: "
 ":doc:`/applications/general/email_communication/email_servers`"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgstr ""
 " **关更多信** : :doc:`/applications/general/email_communication/email_servers`"
 
@@ -1922,29 +1415,22 @@ msgstr "在项目中配置电子邮件别名"
 
 #: ../../content/applications/services/project/tasks/email_alias.rst:22
 msgid ""
-"Now that you have the incoming email server set up, go to :menuselection:"
-"`Project --> Configuration --> Projects --> Edit`. Under the *Emails* tab, "
-"define the wanted email alias and choose the policy to receive a message."
+"Now that you have the incoming email server set up, go to "
+":menuselection:`Project --> Configuration --> Projects --> Edit`. Under the "
+"*Emails* tab, define the wanted email alias and choose the policy to receive"
+" a message."
 msgstr ""
-"现在您已经设置了传入电子邮件服务器，请转到 :menuselection:` 项目 --> 设置 --"
-">  项目 -->编辑` 。 在 *电子邮件* 选项卡下，定义所需的电子邮件别名，然后选择"
-"接收消息的策略。"
+"现在您已经设置了传入电子邮件服务器，请转到 :menuselection:` 项目 --> 设置 -->  项目 -->编辑` 。 在 *电子邮件* "
+"选项卡下，定义所需的电子邮件别名，然后选择接收消息的策略。"
 
 #: ../../content/applications/services/project/tasks/email_alias.rst:23
 msgid "In addition, you can now directly set it when creating a new project."
 msgstr "此外，您现在可以在创建新项目时直接进行设置。"
 
-<<<<<<< HEAD
-#: ../../content/applications/services/project/tasks/email_alias.rst:None
-msgid ""
-"In the settings of your project, define the emails alias under the tab email "
-"in Odoo Project"
-=======
 #: ../../content/applications/services/project/tasks/email_alias.rstNone
 msgid ""
 "In the settings of your project, define the emails alias under the tab email"
 " in Odoo Project"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgstr ""
 
 #: ../../content/applications/services/project/tasks/email_alias.rst:30
@@ -1957,11 +1443,7 @@ msgstr "电子邮件的所有收件人（收件人/抄送/密件抄送）将自�
 msgid "The email can be seen under the name of your project on the dashboard."
 msgstr "可以在仪表板上的项目名称下看到该电子邮件。"
 
-<<<<<<< HEAD
-#: ../../content/applications/services/project/tasks/email_alias.rst:None
-=======
 #: ../../content/applications/services/project/tasks/email_alias.rstNone
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgid "View of the email alias chosen on the dashboard view in Odoo Project"
 msgstr ""
 
@@ -1983,19 +1465,11 @@ msgstr "根据休假请求，Odoo会自动生成项目/任务的时间表。这�
 
 #: ../../content/applications/services/timesheets/overview/time_off.rst:9
 msgid ""
-<<<<<<< HEAD
-"Activate the :ref:`developer mode <developer-mode>`, go to *Timesheets*, and "
-"change the *Project* and *Task* set by default, if you like."
-msgstr ""
-
-#: ../../content/applications/services/timesheets/overview/time_off.rst:None
-=======
 "Activate the :ref:`developer mode <developer-mode>`, go to *Timesheets*, and"
 " change the *Project* and *Task* set by default, if you like."
 msgstr "激活：ref:`开发者模式 <developer-mode>`，转到*时间表*，如果愿意，更改默认设置的*项目*和*任务*。"
 
 #: ../../content/applications/services/timesheets/overview/time_off.rstNone
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgid ""
 "View of Timesheets setting enabling the feature record time off in Odoo "
 "Timesheets"
@@ -2003,8 +1477,8 @@ msgstr ""
 
 #: ../../content/applications/services/timesheets/overview/time_off.rst:16
 msgid ""
-"Go to :menuselection:`Time Off --> Configuration --> Time Off Types`. Select "
-"or create the needed type, and decide if you would like the requests to be "
+"Go to :menuselection:`Time Off --> Configuration --> Time Off Types`. Select"
+" or create the needed type, and decide if you would like the requests to be "
 "validated or not."
 msgstr ""
 "转到：菜单选择：`Time Off-->Configuration-->Time Off Types`。选择或创建所需的类型，并决定是否要验证请求。"
@@ -2012,13 +1486,6 @@ msgstr ""
 #: ../../content/applications/services/timesheets/overview/time_off.rstNone
 msgid ""
 "View of a time off types form emphasizing the time off requests and timesheets section in\n"
-"Odoo Time Off"
-msgstr ""
-
-#: ../../content/applications/services/timesheets/overview/time_off.rst:None
-msgid ""
-"View of a time off types form emphasizing the time off requests and "
-"timesheets section in\n"
 "Odoo Time Off"
 msgstr ""
 
@@ -2040,10 +1507,6 @@ msgstr "在下面的例子中，用户请求*带薪休假*从7月13日到15日�
 msgid "View of the time off request form in Odoo Time Off"
 msgstr ""
 
-#: ../../content/applications/services/timesheets/overview/time_off.rst:None
-msgid "View of the time off request form in Odoo Time Off"
-msgstr ""
-
 #: ../../content/applications/services/timesheets/overview/time_off.rst:33
 msgid ""
 "Considering that validation is not required, the requested time off is "
@@ -2058,26 +1521,14 @@ msgid ""
 "Odoo Timesheets"
 msgstr ""
 
-#: ../../content/applications/services/timesheets/overview/time_off.rst:None
-msgid ""
-"Video of timesheets emphasizing the requested time off from the employee in "
-"Odoo Timesheets"
-msgstr ""
-
 #: ../../content/applications/services/timesheets/overview/time_off.rst:41
 msgid ""
 "Click on the magnifying glass, hovering over the concerned cell, to access "
 "all the aggregated data on that cell (day), and see details regarding the "
 "project/task."
-<<<<<<< HEAD
-msgstr ""
-
-#: ../../content/applications/services/timesheets/overview/time_off.rst:None
-=======
 msgstr "单击放大镜，将光标悬停在相关单元格上，以访问该单元格（天）上的所有聚合数据，并查看有关项目/任务的详细信息。"
 
 #: ../../content/applications/services/timesheets/overview/time_off.rstNone
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 msgid "View of the details of a project/task in Odoo Timeheets"
 msgstr ""
 
@@ -2093,24 +1544,17 @@ msgstr "每周5天"
 msgid ""
 "Your Odoo Online subscription includes **unlimited 24hr support at no extra "
 "cost, Monday to Friday**. Our teams are located around the world to ensure "
-"you have support, no matter your location. Your support representative could "
-"be communicating to you from San Francisco, Belgium, or India!"
+"you have support, no matter your location. Your support representative could"
+" be communicating to you from San Francisco, Belgium, or India!"
 msgstr ""
-<<<<<<< HEAD
-"您的 Odoo 在线订阅包括 **周一至周五免费的 24 小时无限制支持** 。我们的团队遍"
-"布世界各地，无论您身在何处，您都为您提供支持。您的支持代表可能从旧金山、比利"
-"时或印度与您沟通！"
-=======
 "您的 Odoo 在线订阅包括  **一至周五免费的 24 小时无限制支**  "
 "。我们的团队遍布世界各地，无论您身在何处，您都为您提供支持。您的支持代表可能从旧金山、比利时或印度与您沟通！"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
 
 #: ../../content/services/support/what_can_i_expect.rst:18
 msgid ""
-"Our support team can be contacted through our `online support form <https://"
-"www.odoo.com/help>`__."
-msgstr ""
-"我们的支持团队可以通过` 在线支持表单联系<https://www.odoo.com/help>`__."
+"Our support team can be contacted through our `online support form "
+"<https://www.odoo.com/help>`__."
+msgstr "我们的支持团队可以通过` 在线支持表单联系<https://www.odoo.com/help>`__."
 
 #: ../../content/services/support/what_can_i_expect.rst:22
 msgid "What kind of support is included?"
@@ -2124,11 +1568,9 @@ msgstr "为您提供相关资料（指南、产品文档等）"
 
 #: ../../content/services/support/what_can_i_expect.rst:26
 msgid ""
-"Answers to issues that you may encounter in your standard Odoo database (eg. "
-"“I cannot close my Point of Sale” or “I cannot find my sales KPIs?”)"
-msgstr ""
-"对标准 Odoo 数据库中可能遇到的问题的解答（例如\"无法关闭POS\"或\"找不到销售的"
-"关键绩效指标？\")"
+"Answers to issues that you may encounter in your standard Odoo database (eg."
+" “I cannot close my Point of Sale” or “I cannot find my sales KPIs?”)"
+msgstr "对标准 Odoo 数据库中可能遇到的问题的解答（例如\"无法关闭POS\"或\"找不到销售的关键绩效指标？\")"
 
 #: ../../content/services/support/what_can_i_expect.rst:28
 msgid "Questions related to your account, subscription, or billing"
@@ -2142,16 +1584,15 @@ msgstr "解决错误（阻止问题或意外行为，不是由于配置错误或
 
 #: ../../content/services/support/what_can_i_expect.rst:31
 msgid ""
-"Issues that might occur in a test database after upgrading to a newer version"
+"Issues that might occur in a test database after upgrading to a newer "
+"version"
 msgstr "升级到较新版本后测试数据库中可能出现的问题"
 
 #: ../../content/services/support/what_can_i_expect.rst:33
 msgid ""
-"*Odoo Support does not make changes to your production database without your "
-"agreement and gives you the material and knowledge to do it yourself!*"
-msgstr ""
-"*未经您的同意，Odoo支持人员不会对您的数据库进行更改，而是为您提供所需的材料和"
-"知识！*"
+"*Odoo Support does not make changes to your production database without your"
+" agreement and gives you the material and knowledge to do it yourself!*"
+msgstr "*未经您的同意，Odoo支持人员不会对您的数据库进行更改，而是为您提供所需的材料和知识！*"
 
 #: ../../content/services/support/what_can_i_expect.rst:38
 msgid "What kind of support is not included?"
@@ -2200,257 +1641,10 @@ msgid ""
 "Questions or issues related to specific developments or customizations done "
 "either by Odoo or a third party (this is specific only to your database or "
 "involving code)"
-msgstr ""
-"与 Odoo 或第三方进行的特定开发或自定义相关的问题（这仅特定于您的数据库或涉及"
-"代码）"
+msgstr "与 Odoo 或第三方进行的特定开发或自定义相关的问题（这仅特定于您的数据库或涉及代码）"
 
 #: ../../content/services/support/what_can_i_expect.rst:53
 msgid ""
-<<<<<<< HEAD
-"You can get this type of support with a `Success Pack <https://www.odoo.com/"
-"pricing-packs>`__. With a pack, one of our consultants will analyze the way "
-"your business runs and tell you how you can get the most out of your Odoo "
-"Database. We will handle all configurations and coach you on how to use Odoo."
-msgstr ""
-"您可以使用成功包获得此类支持。通过 `成功包<https://www.odoo.com/pricing-"
-"packs>`__，我们的顾问将分析您的业务运营方式，并告诉您如何充分利用 Odoo 数据"
-"库。我们将处理所有配置，并指导您如何使用 Odoo。"
-
-#~ msgid ""
-#~ "Directly pull the billable time you have tracked on your helpdesk tickets "
-#~ "into sales orders and invoices through a project task. It gives you more "
-#~ "control over what you charge your client, and it is more efficient."
-#~ msgstr ""
-#~ "直接将服务台的服务单记录的应计费时间拉入销售订单，并通过项目任务开具发票。"
-#~ "它有助于控制向客户收取的费用并提高效率。"
-
-#~ msgid ""
-#~ "Go to :menuselection:`Helpdesk --> Configuration --> Helpdesk team --> "
-#~ "Edit` and enable the options *Timesheet on Ticket* and *Time Reinvoicing*."
-#~ msgstr ""
-#~ "转到 :menuselection:`服务台 --> 设置 --> 服务台团队 --> 并启用选项 *工单上"
-#~ "的时间表* 和 *时间重新开票* 。"
-
-#~ msgid ""
-#~ "Now, once you have recorded the time you spent on the helpdesk ticket, "
-#~ "under the *Timesheets* tab, access the task clicking on its name."
-#~ msgstr ""
-#~ "现在，一旦您记录了在服务台的服务时间，就可以在 *工时单* 选项卡下单击其名称"
-#~ "来访问该任务。"
-
-#~ msgid "*Create Sales Order* and proceed to create the invoice."
-#~ msgstr "*创建销售订单 *并继续创建发票。"
-
-#~ msgid "Support"
-#~ msgstr "支持"
-
-#~ msgid "Supported versions"
-#~ msgstr "支持的版本"
-
-#~ msgid ""
-#~ "Odoo provides support and bug fixing **for the 3 last major versions** of "
-#~ "Odoo."
-#~ msgstr "Odoo为 **最近的3个主要版本** 提供支持和漏洞修复服务。"
-
-#~ msgid ""
-#~ "Users hosted on **Odoo Online** may use intermediary versions (sometimes "
-#~ "called *SaaS versions*) that are supported as well. These versions are "
-#~ "not published for Odoo.sh or On-Premise installations."
-#~ msgstr ""
-#~ "托管在 **Odoo Online** 的用户也可使用中间版本（有时称为 *SaaS版本* ），"
-#~ "Odoo同样为其提供支持。这些版本未在Odoo.sh或本地部署安装中发布。"
-
-#~ msgid "What's the support status of my Odoo?"
-#~ msgstr "我的Odoo可享受哪些支持服务？"
-
-#~ msgid "This matrix shows the support status of every version."
-#~ msgstr "下表是每个版本的支持状态。"
-
-#~ msgid "**Major releases are in bold type.**"
-#~ msgstr "**主要版本以粗体显示。**"
-
-#~ msgid "Odoo Online"
-#~ msgstr "Odoo Online"
-
-#~ msgid "Odoo.sh"
-#~ msgstr "Odoo.sh"
-
-#~ msgid "On-Premise"
-#~ msgstr "本地部署"
-
-#~ msgid "Release date"
-#~ msgstr "发布日期"
-
-#~ msgid "**Odoo 14.0**"
-#~ msgstr "**Odoo 14.0**"
-
-#~ msgid "|green|"
-#~ msgstr "|green|"
-
-#~ msgid "October 2020"
-#~ msgstr "2020年10月"
-
-#~ msgid "N/A"
-#~ msgstr "无"
-
-#~ msgid "August 2019"
-#~ msgstr "2019年8月"
-
-#~ msgid "**Odoo 13.0**"
-#~ msgstr "**Odoo 13.0**"
-
-#~ msgid "October 2019"
-#~ msgstr "2019年10月"
-
-#~ msgid "Odoo 12.saas~3"
-#~ msgstr "Odoo 12.saas~3"
-
-#~ msgid "**Odoo 12.0**"
-#~ msgstr "**Odoo 12.0**"
-
-#~ msgid "October 2018"
-#~ msgstr "2018年10月"
-
-#~ msgid "Odoo 11.saas~3"
-#~ msgstr "Odoo 11.saas~3"
-
-#~ msgid "|orange|"
-#~ msgstr "|orange|"
-
-#~ msgid "April 2018"
-#~ msgstr "2018年4月"
-
-#~ msgid "**Odoo 11.0**"
-#~ msgstr "**Odoo 11.0**"
-
-#~ msgid "|red|"
-#~ msgstr "|red|"
-
-#~ msgid "October 2017"
-#~ msgstr "2017年10月"
-
-#~ msgid "Odoo 10.saas~15"
-#~ msgstr "Odoo 10.saas~15"
-
-#~ msgid "March 2017"
-#~ msgstr "2017年3月"
-
-#~ msgid "Odoo 10.saas~14"
-#~ msgstr "Odoo 10.saas~14"
-
-#~ msgid "January 2017"
-#~ msgstr "2017年1月"
-
-#~ msgid "**Odoo 10.0**"
-#~ msgstr "**Odoo 10.0**"
-
-#~ msgid "October 2016"
-#~ msgstr "2016年10月"
-
-#~ msgid "Odoo 9.saas~11"
-#~ msgstr "Odoo 9.saas~11"
-
-#~ msgid "May 2016"
-#~ msgstr "2016年5月"
-
-#~ msgid "**Odoo 9.0**"
-#~ msgstr "**Odoo 9.0**"
-
-#~ msgid "October 2015"
-#~ msgstr "2015年10月"
-
-#~ msgid "Odoo 8.saas~6"
-#~ msgstr "Odoo 8.saas~6"
-
-#~ msgid "February 2015"
-#~ msgstr "2015年2月"
-
-#~ msgid "**Odoo 8.0**"
-#~ msgstr "**Odoo 8.0**"
-
-#~ msgid "September 2014"
-#~ msgstr "2014年9月"
-
-#~ msgid "|green| Supported version"
-#~ msgstr "|green| 支持的版本"
-
-#~ msgid "|red| End-of-support"
-#~ msgstr "|red| 结束支持"
-
-#~ msgid "N/A Never released for this platform"
-#~ msgstr "不适用  从未在此平台发布"
-
-#~ msgid ""
-#~ "|orange| Some of our older customers may still run this version on our "
-#~ "Odoo Online servers, we provide help only on blocking issues and advise "
-#~ "you to upgrade."
-#~ msgstr ""
-#~ "|orange| 某些老客户可能仍在我们的Odoo Online服务器上运行这个版本，我们仅针"
-#~ "对阻止问题提供帮助，建议你升级版本。"
-
-#~ msgid "🏁 Future version, not released yet"
-#~ msgstr "🏁 未来版本，尚未发布"
-
-#~ msgid "I run an older version of Odoo/OpenERP/TinyERP"
-#~ msgstr "我仍在使用老版本的 Odoo/OpenERP/TinyERP"
-
-#~ msgid ""
-#~ "OpenERP 7.0, 6.1, 6.0 and 5.0 is not supported anymore, on any platform."
-#~ msgstr "OpenERP 7.0、6.1、6.0和5.0在任何平台上均不再提供支持。"
-
-#~ msgid ""
-#~ "TinyERP 4.0, 3.0, 2.0 and 1.0 is not supported anymore, on any platform."
-#~ msgstr "TinyERP 4.0、3.0、2.0和1.0在任何平台上均不再提供支持。"
-
-#~ msgid ""
-#~ "You should consider `upgrading <https://upgrade.odoo.com/>`_ your "
-#~ "database."
-#~ msgstr "你应考虑`升级 <https://upgrade.odoo.com/>`_数据库。"
-
-#~ msgid "Where to find help?"
-#~ msgstr "在哪里获取支持？"
-
-#~ msgid "Odoo Enterprise"
-#~ msgstr "Odoo 企业版"
-
-#~ msgid ""
-#~ "Users who have a valid Odoo Enterprise subscription may always contact "
-#~ "our support teams through our `support form <https://www.odoo.com/"
-#~ "help>`_, no matter the hosting type you chose (Odoo Online, Odoo.sh or on "
-#~ "your own server)."
-#~ msgstr ""
-#~ "拥有有效Odoo企业版订阅的用户可随时通过我们的`支持表单 <https://www.odoo."
-#~ "com/help>`_联系我们的支持团队，无论你选择哪种托管类型（Odoo Online、Odoo."
-#~ "sh或在你自己的服务器上）。"
-
-#~ msgid "Please include in your request:"
-#~ msgstr "请在支持请求中提供："
-
-#~ msgid "your subscription number"
-#~ msgstr "你的订阅编号"
-
-#~ msgid ""
-#~ "the URL of your database if your database is hosted by Odoo (Odoo Online "
-#~ "or Odoo.sh)"
-#~ msgstr "你的数据库URL，如你的数据库由Odoo托管（Odoo Online或Odoo.sh）"
-
-#~ msgid "Our agents will get back to you as soon as possible."
-#~ msgstr "我们的代理将尽快回复你。"
-
-#~ msgid "Odoo Community"
-#~ msgstr "Odoo社区版"
-
-#~ msgid "*Odoo Community users don't get access to the support service.*"
-#~ msgstr "*Odoo社区用户没有支持服务权限。*"
-
-#~ msgid "Here are some resources that might help you:"
-#~ msgstr "以下是可能有用的一些资源："
-
-#~ msgid ""
-#~ "Ask your question on the `community forum <https://www.odoo.com/forum/"
-#~ "help-1>`_."
-#~ msgstr "在`社区论坛 <https://www.odoo.com/forum/help-1>`_提问。"
-=======
 "You can get this type of support with a `Success Pack "
 "<https://www.odoo.com/pricing-packs>`__. With a pack, one of our consultants"
 " will analyze the way your business runs and tell you how you can get the "
@@ -2459,4 +1653,3 @@ msgstr ""
 msgstr ""
 "您可以使用成功包获得此类支持。通过 `成功包<https://www.odoo.com/pricing-"
 "packs>`__，我们的顾问将分析您的业务运营方式，并告诉您如何充分利用 Odoo 数据库。我们将处理所有配置，并指导您如何使用 Odoo。"
->>>>>>> 90513b30dce2204a7cb20106bd7620c1634bf8d9
