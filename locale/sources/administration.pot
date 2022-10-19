@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-14 18:54+0800\n"
+"POT-Creation-Date: 2022-10-19 21:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -196,11 +196,11 @@ msgid "Allow tcp connection from 192.168.1.x network"
 msgstr ""
 
 #: ../../content/administration/install/deploy.rst:100
-msgid "in ``/etc/postgresql/9.5/main/pg_hba.conf`` set:"
+msgid "in ``/etc/postgresql/<YOUR POSTGRESQL VERSION>/main/pg_hba.conf`` set:"
 msgstr ""
 
 #: ../../content/administration/install/deploy.rst:108
-msgid "in ``/etc/postgresql/9.5/main/postgresql.conf`` set:"
+msgid "in ``/etc/postgresql/<YOUR POSTGRESQL VERSION>/main/postgresql.conf`` set:"
 msgstr ""
 
 #: ../../content/administration/install/deploy.rst:119
@@ -260,7 +260,7 @@ msgid "Since Odoo 11.0, you can enforce ssl connection between Odoo and PostgreS
 msgstr ""
 
 #: ../../content/administration/install/deploy.rst:175
-msgid "`PostgreSQL Doc <https://www.postgresql.org/docs/current/static/libpq-ssl.html>`_"
+msgid "`PostgreSQL Doc <https://www.postgresql.org/docs/12/static/libpq-ssl.html>`_"
 msgstr ""
 
 #: ../../content/administration/install/deploy.rst:180
@@ -1164,7 +1164,7 @@ msgid "Odoo requires Python 3.7 or later to run. Use your preferred package mana
 msgstr ""
 
 #: ../../content/administration/install/install.rst:434
-msgid "Odoo uses PostgreSQL as database management system. `Download and install PostgreSQL <https://www.postgresql.org/download/windows/>`_ (supported version: 10.0 and later)."
+msgid "Odoo uses PostgreSQL as database management system. `Download and install PostgreSQL <https://www.postgresql.org/download/windows/>`_ (supported version: 12.0 and later)."
 msgstr ""
 
 #: ../../content/administration/install/install.rst:437
@@ -1206,7 +1206,7 @@ msgid "Open the **Privileges** tab and switch **Can login?** to `Yes` and **Crea
 msgstr ""
 
 #: ../../content/administration/install/install.rst:454
-msgid "Odoo uses PostgreSQL as database management system. Use your package manager to download and install PostgreSQL (supported version: 10.0 and later)."
+msgid "Odoo uses PostgreSQL as database management system. Use your package manager to download and install PostgreSQL (supported version: 12.0 and later)."
 msgstr ""
 
 #: ../../content/administration/install/install.rst:457
@@ -1219,7 +1219,7 @@ msgid "Because your PostgreSQL user has the same name as your Unix login, you wi
 msgstr ""
 
 #: ../../content/administration/install/install.rst:477
-msgid "Odoo uses PostgreSQL as database management system. Use `postgres.app <https://postgresapp.com>`_ to download and install PostgreSQL (supported version: 10.0 and later)."
+msgid "Odoo uses PostgreSQL as database management system. Use `postgres.app <https://postgresapp.com>`_ to download and install PostgreSQL (supported version: 12.0 and later)."
 msgstr ""
 
 #: ../../content/administration/install/install.rst:482

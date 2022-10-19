@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-14 18:54+0800\n"
+"POT-Creation-Date: 2022-10-19 21:16+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: ../../content/developer.rst:9
 msgid "Developer"
@@ -4935,7 +4935,7 @@ msgstr ""
 
 #: ../../content/developer/howtos/backend.rst:472
 msgid ""
-"`foreign keys <http://www.postgresql.org/docs/9.3/static/tutorial-"
+"`foreign keys <http://www.postgresql.org/docs/12/static/tutorial-"
 "fk.html>`_"
 msgstr ""
 
@@ -8112,7 +8112,7 @@ msgid ""
 "users can access the data. It is even notified in the log:"
 msgstr ""
 
-#: ../../content/developer/howtos/rdtraining/05_securityintro.rst:89
+#: ../../content/developer/howtos/rdtraining/05_securityintro.rst:90
 msgid ""
 "Access rights are defined as records of the model ``ir.model.access``. "
 "Each access right is associated with a model, a group (or no group for "
@@ -8121,19 +8121,19 @@ msgid ""
 "``ir.model.access.csv``."
 msgstr ""
 
-#: ../../content/developer/howtos/rdtraining/05_securityintro.rst:95
+#: ../../content/developer/howtos/rdtraining/05_securityintro.rst:96
 msgid "Here is an example for our previous ``test.model``:"
 msgstr ""
 
-#: ../../content/developer/howtos/rdtraining/05_securityintro.rst:102
+#: ../../content/developer/howtos/rdtraining/05_securityintro.rst:103
 msgid "``id`` is an :term:`external identifier`."
 msgstr ""
 
-#: ../../content/developer/howtos/rdtraining/05_securityintro.rst:103
+#: ../../content/developer/howtos/rdtraining/05_securityintro.rst:104
 msgid "``name`` is the name of the ``ir.model.access``."
 msgstr ""
 
-#: ../../content/developer/howtos/rdtraining/05_securityintro.rst:104
+#: ../../content/developer/howtos/rdtraining/05_securityintro.rst:105
 msgid ""
 "``model_id/id`` refers to the model which the access right applies to. "
 "The standard way to refer to the model is ``model_<model_name>``, where "
@@ -8141,54 +8141,54 @@ msgid ""
 " ``_``. Seems cumbersome? Indeed it is..."
 msgstr ""
 
-#: ../../content/developer/howtos/rdtraining/05_securityintro.rst:107
+#: ../../content/developer/howtos/rdtraining/05_securityintro.rst:108
 msgid ""
 "``group_id/id`` refers to the group which the access right applies to. We"
 " will cover the concept of groups in the :ref:`advanced topic "
 "<howto/rdtraining/N_security>` dedicated to the security."
 msgstr ""
 
-#: ../../content/developer/howtos/rdtraining/05_securityintro.rst:109
+#: ../../content/developer/howtos/rdtraining/05_securityintro.rst:110
 msgid ""
 "``perm_read,perm_write,perm_create,perm_unlink``: read, write, create and"
 " unlink permissions"
 msgstr ""
 
-#: ../../content/developer/howtos/rdtraining/05_securityintro.rst:111
+#: ../../content/developer/howtos/rdtraining/05_securityintro.rst:112
 msgid "Add access rights."
 msgstr ""
 
-#: ../../content/developer/howtos/rdtraining/05_securityintro.rst:113
+#: ../../content/developer/howtos/rdtraining/05_securityintro.rst:114
 msgid ""
 "Create the ``ir.model.access.csv`` file in the appropriate folder and "
 "define it in the ``__manifest__.py`` file."
 msgstr ""
 
-#: ../../content/developer/howtos/rdtraining/05_securityintro.rst:116
+#: ../../content/developer/howtos/rdtraining/05_securityintro.rst:117
 msgid ""
 "Give the read, write, create and unlink permissions to the group "
 "``base.group_user``."
 msgstr ""
 
-#: ../../content/developer/howtos/rdtraining/05_securityintro.rst:118
+#: ../../content/developer/howtos/rdtraining/05_securityintro.rst:119
 msgid "Tip: the warning message in the log gives you most of the solution ;-)"
 msgstr ""
 
-#: ../../content/developer/howtos/rdtraining/05_securityintro.rst:120
+#: ../../content/developer/howtos/rdtraining/05_securityintro.rst:121
 msgid "Restart the server and the warning message should have disappeared!"
 msgstr ""
 
-#: ../../content/developer/howtos/rdtraining/05_securityintro.rst:122
+#: ../../content/developer/howtos/rdtraining/05_securityintro.rst:123
 msgid ""
 "It's now time to finally :ref:`interact with the UI "
 "<howto/rdtraining/06_firstui>`!"
 msgstr ""
 
-#: ../../content/developer/howtos/rdtraining/05_securityintro.rst:124
+#: ../../content/developer/howtos/rdtraining/05_securityintro.rst:125
 msgid "meaning which Odoo user (or group of users)"
 msgstr ""
 
-#: ../../content/developer/howtos/rdtraining/05_securityintro.rst:126
+#: ../../content/developer/howtos/rdtraining/05_securityintro.rst:127
 msgid "'unlink' is the equivalent of 'delete'"
 msgstr ""
 
@@ -9123,7 +9123,7 @@ msgid ""
 msgstr ""
 
 #: ../../content/developer/howtos/rdtraining/08_relations.rst:62
-msgid "`foreign keys <https://www.postgresql.org/docs/current/tutorial-fk.html>`_"
+msgid "`foreign keys <https://www.postgresql.org/docs/12/tutorial-fk.html>`_"
 msgstr ""
 
 #: ../../content/developer/howtos/rdtraining/08_relations.rst:64
@@ -28104,7 +28104,7 @@ msgstr ""
 #: ../../content/developer/reference/backend/views.rst:689
 msgid ""
 "A valid postgreSQL aggregate function identifier to use when aggregating "
-"values (see https://www.postgresql.org/docs/9.5/static/functions-"
+"values (see https://www.postgresql.org/docs/12/static/functions-"
 "aggregate.html). If not provided, By default, the group_operator from the"
 " field definition is used. Note that no aggregation of field values is "
 "achieved if the group_operator value is \"\"."
@@ -40877,4 +40877,26 @@ msgstr ""
 #: ../../content/developer/reference/standard_modules/payment/payment_transaction.rst:5
 msgid "Payment Transaction"
 msgstr ""
+
+#~ msgid ""
+#~ "`foreign keys <http://www.postgresql.org/docs/9.3/static"
+#~ "/tutorial-fk.html>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`foreign keys <https://www.postgresql.org/docs/current"
+#~ "/tutorial-fk.html>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A valid postgreSQL aggregate function "
+#~ "identifier to use when aggregating "
+#~ "values (see https://www.postgresql.org/docs/9.5/static"
+#~ "/functions-aggregate.html). If not provided, "
+#~ "By default, the group_operator from the"
+#~ " field definition is used. Note that"
+#~ " no aggregation of field values is"
+#~ " achieved if the group_operator value "
+#~ "is \"\"."
+#~ msgstr ""
 
