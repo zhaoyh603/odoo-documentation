@@ -46,7 +46,9 @@ help:
 	@echo "  html         to build the documentation to HTML"
 	@echo "  fast         to build the documentation to HTML with shallow menu (faster)"
 	@echo "  clean        to delete the build files"
+	@echo "  gettext      Generating translatable files"
 	@echo "  update       to update po files from pot files"
+	@echo "  latexpdf     to build the documentation to pdf"
 
 clean:
 	@echo "Cleaning build files..."
