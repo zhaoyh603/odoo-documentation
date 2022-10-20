@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0 docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-19 21:16+0800\n"
-"PO-Revision-Date: 2022-10-20 23:24+0800\n"
+"PO-Revision-Date: 2022-10-20 23:36+0800\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -296,23 +296,23 @@ msgstr "Odoo中配置的PostgreSQL 用户 *不能* 是超级用户"
 
 #: ../../content/administration/install/deploy.rst:147
 msgid "connect to a PostgreSQL server on 192.168.1.2"
-msgstr "PostgreSQL 的 ip 地址为 `192.168.1.2`"
+msgstr "PostgreSQL 的 ip 地址: `192.168.1.2`"
 
 #: ../../content/administration/install/deploy.rst:148
 msgid "port 5432"
-msgstr "端口 `5432`"
+msgstr "端口: `5432`"
 
 #: ../../content/administration/install/deploy.rst:149
 msgid "using an 'odoo' user account,"
-msgstr "数据库用户为 `odoo`"
+msgstr "数据库用户: `odoo`"
 
 #: ../../content/administration/install/deploy.rst:150
 msgid "with 'pwd' as a password"
-msgstr "密码为  ‘pwd’ "
+msgstr "密码: `pwd`"
 
 #: ../../content/administration/install/deploy.rst:151
 msgid "filtering only db with a name beginning with 'mycompany'"
-msgstr "数据库过滤器配置为仅筛选名称以 `mycompany` 开头的 db"
+msgstr "数据库过滤器配置:仅筛选名称以 `mycompany` 开头的 db"
 
 #: ../../content/administration/install/deploy.rst:168
 msgid "SSL Between Odoo and PostgreSQL"
