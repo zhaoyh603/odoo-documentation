@@ -79,7 +79,7 @@ update:
 	sphinx-intl update -p locale/sources -d locale/ -l $(CURRENT_LANG)
 
 zh: CURRENT_LANG=zh_CN
-zh: HTML_BUILD_DIR := $(HTML_BUILD_DIR)/zh_CN
+zh: HTML_BUILD_DIR := $(BUILD_DIR)/html/zh_CN
 zh: $(HTML_BUILD_DIR)/_static/style.css
 zh: html
 
