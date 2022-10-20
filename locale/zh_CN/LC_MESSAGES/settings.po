@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-18 07:12+0200\n"
-"PO-Revision-Date: 2022-10-14 20:23+0800\n"
+"PO-Revision-Date: 2022-10-19 23:59+0800\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/"
 "zh_CN/)\n"
@@ -70,8 +70,8 @@ msgid ""
 "You can find guides on how to duplicate your databases both for :ref:`online "
 "<duplicate_online>` and :ref:`on premise <duplicate_premise>` installations."
 msgstr ""
-"查看如何复制数据用于:ref:`线上 <duplicate_online>` 和:ref:`本地部署 "
-"<duplicate_premise>`安装。"
+"查看文档 :ref:`线上 <duplicate_online>` 和 :ref:`本地部署 "
+"<duplicate_premise>` 了解如何复制数据库。"
 
 #: ../../content/applications/settings/users_and_features.rst:27
 msgid ""
@@ -79,8 +79,8 @@ msgid ""
 "issue while carrying out these procedures, please contact us through our "
 "`support form <https://www.odoo.com/help>`__."
 msgstr ""
-"如果你对这篇文章有任何问题或者当你执行程序时碰到问题，可以提交`支持请求 "
-"<https://www.odoo.com/help>`__来联系我们。"
+"如果你对这篇文章有任何问题或者当你执行程序时碰到问题，可以提交 `支持请求 "
+"<https://www.odoo.com/help>`__ 来联系我们。"
 
 #: ../../content/applications/settings/users_and_features.rst:33
 msgid "Deactivating Users"
@@ -138,11 +138,11 @@ msgstr "该用户账号目前处于停用状态."
 
 #: ../../content/applications/settings/users_and_features.rst:65
 msgid "**Never** deactivate the main user (*admin*)"
-msgstr "**千万不要** 取消激活主用户 (*admin*)"
+msgstr "**千万不要** 取消激活主用户 ( *admin* )"
 
 #: ../../content/applications/settings/users_and_features.rst:68
 msgid "Uninstalling Apps"
-msgstr "卸载应用程式"
+msgstr "卸载应用"
 
 #: ../../content/applications/settings/users_and_features.rst:70
 msgid ""
