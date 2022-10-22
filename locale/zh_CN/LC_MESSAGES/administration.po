@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0 docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-19 21:16+0800\n"
-"PO-Revision-Date: 2022-10-22 14:36+0000\n"
-"Last-Translator: Weblate Admin <weblate.admin@example.com>\n"
+"PO-Revision-Date: 2022-10-22 16:43+0000\n"
+"Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: Chinese (Simplified) <http://h.oeerp.com/projects/odoo-doc/"
-"zh_cn/zh_Hans/>\n"
+"administration/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -54,7 +54,8 @@ msgstr "Step 1: Create a pull zone in the KeyCDN dashboard"
 
 #: ../../content/administration/install/cdn.rst:21
 msgid "When creating the zone, enable the CORS option in the :guilabel:`advanced features` submenu. (more on that later)"
-msgstr ""
+msgstr "创建区域时，请在 :guilabel:`advanced features` 子菜单中启用 CORS "
+"选项。（稍后会详细介绍）"
 
 #: ../../content/administration/install/cdn.rst:27
 msgid "Once done, you'll have to wait a bit while KeyCDN_ is crawling your website."
