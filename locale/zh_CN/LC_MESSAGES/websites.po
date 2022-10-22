@@ -245,7 +245,6 @@ msgstr ""
 #| msgid "How to create attributes & variants"
 msgid "Create attributes & variants"
 msgstr "如何创建属性与变量"
-msgstr "假设您的一位客户从您的产品目录中选择了一件T恤。"
 
 #: ../../content/applications/websites/ecommerce/managing_products/variants.rst:10
 msgid ""
