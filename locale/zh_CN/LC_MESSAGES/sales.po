@@ -25,21 +25,21 @@
 # Martin Trigaux, 2022
 # Jeffery CHEN <jeffery9@gmail.com>, 2022
 # diaojiaolou <124412206@qq.com>, 2022
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-19 21:16+0800\n"
-"PO-Revision-Date: 2022-10-04 12:54+0000\n"
-"Last-Translator: diaojiaolou <124412206@qq.com>, 2022\n"
+"PO-Revision-Date: 2022-10-24 16:15+0000\n"
+"Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
+"Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/"
+"odoo-doc/sales/zh_Hans/>\n"
 "Language: zh_CN\n"
-"Language-Team: Chinese (China) "
-"(https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.14.1\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: ../../content/applications/sales.rst:5
@@ -2050,7 +2050,7 @@ msgstr "在Android设备上，打开设置并搜索*证书*。然后，单击 **
 
 #: ../../content/applications/sales/point_of_sale/overview/getting_started.rst:3
 msgid "Getting started"
-msgstr "POS 入门"
+msgstr "入门"
 
 #: ../../content/applications/sales/point_of_sale/overview/getting_started.rst:5
 msgid ""
@@ -8399,4 +8399,3 @@ msgstr "您的两个销售订单之间的唯一区别是*订阅管理*类别下�
 #~ " this be considered as a bug "
 #~ "when contacting Odoo Support."
 #~ msgstr "由于Odoo并未正式支持手动添加的市场，因此无法保证可以如上所述添加一个市场，也无法保证在与Odoo支持人员联系时将其视为错误。"
-
