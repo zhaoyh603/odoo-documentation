@@ -41,7 +41,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-19 21:16+0800\n"
-"PO-Revision-Date: 2022-10-24 16:15+0000\n"
+"PO-Revision-Date: 2022-10-24 16:42+0000\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/"
 "odoo-doc/finance/zh_Hans/>\n"
@@ -543,7 +543,7 @@ msgstr "默认情况下，*account_online_synchronization* 随记帐自动安装
 #: ../../content/applications/finance/accounting/bank/feeds/ponto.rst:95
 #: ../../content/applications/finance/accounting/bank/feeds/saltedge.rst:78
 msgid "FAQ"
-msgstr "常问问题"
+msgstr "FAQ"
 
 #: ../../content/applications/finance/accounting/bank/feeds/bank_synchronization.rst:147
 msgid "The synchronization is not working in real-time. Is that normal?"
@@ -12635,8 +12635,10 @@ msgid ""
 "list of possible values, another option can be that you forgot to follow "
 "the considerations about fiscal positions."
 msgstr ""
-" **解决方案** "
-"：您忘记在公司的合作伙伴上设置适当的“财务状况”。转到客户，删除客户筛选器并查找称为您公司的合作伙伴，并设置适当的财务状况，这是您的公司所做的与SAT可能值列表相关的业务类型，另一种选择可能是您忘记遵循有关财务状况的注意事项。"
+"**解决方案** ：您忘记在公司的合作伙伴上设置适当的“财务状况”。转到客户，删除客"
+"户筛选器并查找称为您公司的合作伙伴，并设置适当的财务状况，这是您的公司所做的"
+"与SAT可能值列表相关的业务类型，另一种选择可能是您忘记遵循有关财务状况的注意事"
+"项。"
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/mexico.rst:1406
 msgid ""
@@ -12722,15 +12724,15 @@ msgid ""
 "complete all the mandatory fields for your address by following the steps"
 " in this section: :ref:`mx-legal-info`."
 msgstr ""
-" **解决方案** "
-"：您必须正确配置公司地址，这是一组必填字段，您可以在：menuselection中转到您的公司配置：`设置-->用户和公司-->公司`，然后按照本节中的步骤填写地址的所有必填字段：：ref"
-"：`mx-legal-info`。"
+"**解决方案** ：您必须正确配置公司地址，这是一组必填字段，您可以在：menuselect"
+"ion中转到您的公司配置：`设置-->用户和公司-->公司`，然后按照本节中的步骤填写地"
+"址的所有必填字段： :ref:`mx-legal-info` 。"
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/mexico.rst:1456
 msgid ""
 "**Solution**: The postal code of your company address is not valid for "
 "Mexico, please correct it."
-msgstr " **解决方案** ：您的公司地址的邮政编码对墨西哥无效，请更正。"
+msgstr "**解决方案** ：您的公司地址的邮政编码对墨西哥无效，请更正。"
 
 msgid "ZIP code error"
 msgstr ""
