@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-14 18:54+0800\n"
-"PO-Revision-Date: 2022-10-24 16:15+0000\n"
+"PO-Revision-Date: 2022-10-24 16:42+0000\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/"
 "odoo-doc/contributing/zh_Hans/>\n"
@@ -410,7 +410,7 @@ msgstr ""
 #: ../../content/contributing/documentation/rst_cheat_sheet.rst:863
 #: ../../content/contributing/documentation/rst_cheat_sheet.rst:879
 msgid "Python"
-msgstr ""
+msgstr "Python"
 
 #: ../../content/contributing/development/coding_guidelines.rst:399
 msgid ""
@@ -1269,7 +1269,7 @@ msgstr ""
 
 #: ../../content/contributing/documentation.rst:5
 msgid "Documentation"
-msgstr ""
+msgstr "文档"
 
 #: ../../content/contributing/documentation.rst:14
 msgid ""
@@ -1799,7 +1799,7 @@ msgstr ""
 
 #: ../../content/contributing/documentation/content_guidelines.rst:3
 msgid "Content guidelines"
-msgstr ""
+msgstr "指南内容"
 
 #: ../../content/contributing/documentation/content_guidelines.rst:5
 msgid ""
@@ -1975,7 +1975,7 @@ msgstr ""
 
 #: ../../content/contributing/documentation/content_guidelines.rst:95
 msgid "Lead mining"
-msgstr ""
+msgstr "线索挖掘"
 
 #: ../../content/contributing/documentation/content_guidelines.rst:96
 msgid "Resupply from another warehouse"
@@ -1983,7 +1983,7 @@ msgstr ""
 
 #: ../../content/contributing/documentation/content_guidelines.rst:97
 msgid "Synchronize Google Calendar with Odoo"
-msgstr ""
+msgstr "同步谷歌日历"
 
 #: ../../content/contributing/documentation/content_guidelines.rst:98
 msgid "Batch payments: SEPA Direct Debit (SDD)"
@@ -2007,7 +2007,7 @@ msgstr ""
 
 #: ../../content/contributing/documentation/content_guidelines.rst:105
 msgid "Confirm the quotation"
-msgstr ""
+msgstr "确认报价单"
 
 #: ../../content/contributing/documentation/content_guidelines.rst:106
 msgid "Generate SEPA Direct Debit XML files to submit payments"
@@ -2875,7 +2875,7 @@ msgstr ""
 
 #: ../../content/contributing/documentation/rst_cheat_sheet.rst:642
 msgid "France"
-msgstr ""
+msgstr "法国"
 
 #: ../../content/contributing/documentation/rst_cheat_sheet.rst:643
 msgid "Red"
@@ -2981,7 +2981,7 @@ msgstr ""
 
 #: ../../content/contributing/documentation/rst_cheat_sheet.rst:743
 msgid "Odoo Online"
-msgstr ""
+msgstr "Odoo Online"
 
 #: ../../content/contributing/documentation/rst_cheat_sheet.rst:745
 msgid "Content dedicated to Odoo Online users."
