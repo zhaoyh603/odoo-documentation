@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-19 21:16+0800\n"
-"PO-Revision-Date: 2022-10-24 16:15+0000\n"
+"PO-Revision-Date: 2022-10-24 16:42+0000\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/"
 "odoo-doc/developer/zh_Hans/>\n"
@@ -52,7 +52,7 @@ msgstr ""
 
 #: ../../content/developer/api/external_api.rst:3
 msgid "External API"
-msgstr ""
+msgstr "External API"
 
 #: ../../content/developer/api/external_api.rst:5
 msgid ""
@@ -77,11 +77,11 @@ msgstr ""
 
 #: ../../content/developer/api/external_api.rst:19
 msgid "Connection"
-msgstr ""
+msgstr "连接"
 
 #: ../../content/developer/api/external_api.rst:22
 msgid "Configuration"
-msgstr ""
+msgstr "配置"
 
 #: ../../content/developer/api/external_api.rst:24
 msgid ""
@@ -1095,7 +1095,7 @@ msgstr ""
 #: ../../content/developer/api/extract_api.rst:120
 #: ../../content/developer/api/extract_api.rst:200
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: ../../content/developer/api/extract_api.rst:120
 #: ../../content/developer/api/extract_api.rst:200
@@ -1104,7 +1104,7 @@ msgstr ""
 
 #: ../../content/developer/api/extract_api.rst:121
 msgid "3"
-msgstr ""
+msgstr "3"
 
 #: ../../content/developer/api/extract_api.rst:121
 msgid "You don't have enough credit"
@@ -1122,7 +1122,7 @@ msgstr ""
 #: ../../content/developer/api/extract_api.rst:123
 #: ../../content/developer/api/extract_api.rst:201
 msgid "9"
-msgstr ""
+msgstr "9"
 
 #: ../../content/developer/api/extract_api.rst:123
 #: ../../content/developer/api/extract_api.rst:201
@@ -1188,7 +1188,7 @@ msgstr ""
 #: ../../content/developer/api/extract_api.rst:199
 #: ../../content/developer/howtos/rdtraining/C_data.rst:185
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: ../../content/developer/api/extract_api.rst:199
 msgid "Not ready"
@@ -1539,7 +1539,7 @@ msgstr ""
 
 #: ../../content/developer/api/extract_api.rst:481
 msgid "12"
-msgstr ""
+msgstr "12"
 
 #: ../../content/developer/api/extract_api.rst:481
 msgid "Validation format is incorrect"
@@ -1624,7 +1624,7 @@ msgstr ""
 #: ../../content/developer/reference/frontend/services.rst:760
 #: ../../content/developer/reference/frontend/services.rst:835
 msgid "Overview"
-msgstr ""
+msgstr "概述"
 
 #: ../../content/developer/api/iap.rst:31
 msgid "The Players"
@@ -1837,7 +1837,7 @@ msgstr ""
 #: ../../content/developer/reference/frontend/qweb.rst:476
 #: ../../content/developer/reference/frontend/qweb.rst:793
 msgid "Todo"
-msgstr ""
+msgstr "待办"
 
 #: ../../content/developer/api/iap.rst:121
 msgid "complete this part with screenshots"
@@ -3712,7 +3712,7 @@ msgstr ""
 
 #: ../../content/developer/glossary.rst:5
 msgid "Glossary"
-msgstr ""
+msgstr "词汇表"
 
 #: ../../content/developer/glossary.rst:8
 msgid "external id"
@@ -3861,7 +3861,7 @@ msgstr ""
 
 #: ../../content/developer/howtos/accounting_localization.rst:85
 msgid "Chart of Accounts"
-msgstr ""
+msgstr "会计科目表"
 
 #: ../../content/developer/howtos/accounting_localization.rst:88
 msgid "Account tags"
@@ -3994,7 +3994,7 @@ msgstr ""
 #: ../../content/developer/howtos/accounting_localization.rst:188
 #: ../../content/developer/reference/standard_modules/account/account_tax.rst:5
 msgid "Taxes"
-msgstr ""
+msgstr "税"
 
 #: ../../content/developer/howtos/accounting_localization.rst:191
 msgid ":ref:`Tax References <reference/account_tax>`"
@@ -5307,7 +5307,7 @@ msgstr ""
 #: ../../content/developer/howtos/backend.rst:699
 #: ../../content/developer/howtos/rdtraining/09_compute_onchange.rst:59
 msgid "Dependencies"
-msgstr ""
+msgstr "依赖"
 
 #: ../../content/developer/howtos/backend.rst:701
 msgid ""
@@ -5608,7 +5608,7 @@ msgstr ""
 
 #: ../../content/developer/howtos/backend.rst:899
 msgid "Calendars"
-msgstr ""
+msgstr "日历"
 
 #: ../../content/developer/howtos/backend.rst:901
 msgid ""
@@ -5920,7 +5920,7 @@ msgstr ""
 
 #: ../../content/developer/howtos/backend.rst:1072
 msgid "Security"
-msgstr ""
+msgstr "安全"
 
 #: ../../content/developer/howtos/backend.rst:1074
 msgid ""
@@ -6535,7 +6535,7 @@ msgstr ""
 #: ../../content/developer/howtos/rdtraining.rst:39
 #: ../../content/developer/howtos/rdtraining.rst:69
 msgid "Advanced Topics"
-msgstr ""
+msgstr "高级话题"
 
 #: ../../content/developer/howtos/rdtraining.rst:7
 msgid "Getting started"
@@ -8095,7 +8095,7 @@ msgstr ""
 #: ../../content/developer/howtos/rdtraining/B_acl_irrules.rst:140
 #: ../../content/developer/reference/backend/security.rst:45
 msgid "Access Rights"
-msgstr ""
+msgstr "访问权限"
 
 #: ../../content/developer/howtos/rdtraining/05_securityintro.rst:71
 msgid ""
@@ -8724,7 +8724,7 @@ msgstr ""
 #: ../../content/developer/howtos/rdtraining/12_sprinkles.rst:317
 #: ../../content/developer/reference/backend/views.rst:1707
 msgid "List"
-msgstr ""
+msgstr "列表"
 
 #: ../../content/developer/howtos/rdtraining/07_basicviews.rst:25
 msgid ""
@@ -8799,7 +8799,7 @@ msgstr ""
 #: ../../content/developer/howtos/rdtraining/12_sprinkles.rst:234
 #: ../../content/developer/reference/backend/views.rst:789
 msgid "Form"
-msgstr ""
+msgstr "表单"
 
 #: ../../content/developer/howtos/rdtraining/07_basicviews.rst:74
 msgid ""
@@ -8870,7 +8870,7 @@ msgstr ""
 #: ../../content/developer/howtos/rdtraining/12_sprinkles.rst:385
 #: ../../content/developer/reference/backend/views.rst:2190
 msgid "Search"
-msgstr ""
+msgstr "搜索"
 
 #: ../../content/developer/howtos/rdtraining/07_basicviews.rst:136
 msgid ""
@@ -10198,7 +10198,7 @@ msgstr ""
 #: ../../content/developer/reference/frontend/qweb.rst:354
 #: ../../content/developer/reference/frontend/qweb.rst:468
 msgid "Python"
-msgstr ""
+msgstr "Python"
 
 #: ../../content/developer/howtos/rdtraining/11_constraints.rst:71
 msgid ""
@@ -12433,7 +12433,7 @@ msgstr ""
 #: ../../content/developer/howtos/rdtraining/B_acl_irrules.rst:169
 #: ../../content/developer/howtos/rdtraining/B_acl_irrules.rst:170
 msgid "X"
-msgstr ""
+msgstr "X"
 
 #: ../../content/developer/howtos/rdtraining/B_acl_irrules.rst:169
 msgid "B"
@@ -15519,7 +15519,7 @@ msgstr ""
 #: ../../content/developer/reference/frontend/framework_overview.rst:6
 #: ../../content/developer/reference/frontend/mobile.rst:9
 msgid "Introduction"
-msgstr ""
+msgstr "介绍"
 
 #: ../../content/developer/howtos/themes.rst:308
 msgid ""
