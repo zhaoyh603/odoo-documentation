@@ -19,20 +19,21 @@
 # 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2022
 # zhao yonghui, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-04 12:47+0000\n"
-"PO-Revision-Date: 2022-10-04 12:53+0000\n"
-"Last-Translator: zhao yonghui, 2022\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"PO-Revision-Date: 2022-10-24 16:05+0000\n"
+"Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
+"Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/"
+"odoo-doc/general/zh_Hans/>\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: ../../content/applications/general.rst:3
 msgid "Miscellaneous"
@@ -398,7 +399,7 @@ msgstr "确保打开了正确的项目。如果您还没有项目，请单击“
 
 #: ../../content/applications/general/auth/google.rst:0
 msgid "Filling out the details of a new project"
-msgstr ""
+msgstr "填写新项目的细节"
 
 #: ../../content/applications/general/auth/google.rst:32
 msgid "Choose the name of your own company from the drop-down menu."
@@ -414,7 +415,7 @@ msgstr "在左侧菜单中，单击：menuselection：`OAuth同意屏幕`。"
 
 #: ../../content/applications/general/auth/google.rst:0
 msgid "Google oauth consent selection menu"
-msgstr ""
+msgstr "谷歌 oauth 同意选择菜单"
 
 #: ../../content/applications/general/auth/google.rst:45
 msgid ""
@@ -424,7 +425,7 @@ msgstr "按照说明选择其中一个选** （内部/外部）**，然后单击
 
 #: ../../content/applications/general/auth/google.rst:0
 msgid "Choice of a user type in oauth consent"
-msgstr ""
+msgstr "oauth 同意屏幕中选择用户类型"
 
 #: ../../content/applications/general/auth/google.rst:51
 msgid ""
@@ -447,7 +448,7 @@ msgstr "在左侧菜单中，单击：menuselection：`凭据`。"
 
 #: ../../content/applications/general/auth/google.rst:0
 msgid "Credentials button menu"
-msgstr ""
+msgstr "凭据按钮菜单"
 
 #: ../../content/applications/general/auth/google.rst:65
 msgid "Click on *Create Credentials* and select **OAuth client ID**."
@@ -455,7 +456,7 @@ msgstr "单击“*创建凭据*”，然后选择“OAuth 客户端 ID”。。"
 
 #: ../../content/applications/general/auth/google.rst:0
 msgid "Oauth client id selection"
-msgstr ""
+msgstr "Oauth 客户端id选择"
 
 #: ../../content/applications/general/auth/google.rst:71
 msgid ""
@@ -475,7 +476,7 @@ msgstr ""
 
 #: ../../content/applications/general/auth/google.rst:0
 msgid "Creating oauth client id"
-msgstr ""
+msgstr "正在创建 oauth 客户端 id"
 
 #: ../../content/applications/general/auth/google.rst:85
 msgid "Google Authentication on Odoo"
@@ -493,7 +494,7 @@ msgstr "完成上述步骤后，系统会在 Google API 信息中心上生成两
 
 #: ../../content/applications/general/auth/google.rstNone
 msgid "Google OAuth Client ID generated"
-msgstr ""
+msgstr "谷歌 OAut h客户端 ID 已生成"
 
 #: ../../content/applications/general/auth/google.rst:102
 msgid "Odoo activation"
@@ -520,7 +521,7 @@ msgstr ""
 
 #: ../../content/applications/general/auth/google.rst:0
 msgid "Filling out the client id in Odoo settings"
-msgstr ""
+msgstr "在 Odoo 设置中填写客户端 id"
 
 #: ../../content/applications/general/auth/google.rst:121
 msgid "Log in to Odoo with Google"
@@ -534,7 +535,7 @@ msgstr "要将您的Google帐户链接到您的Odoo个人资料，请在要求�
 
 #: ../../content/applications/general/auth/google.rst:0
 msgid "Reset password screen with \"Log in with Google\" button"
-msgstr ""
+msgstr "重置密码屏幕 \"Log in with Google\" 按钮"
 
 #: ../../content/applications/general/auth/google.rst:130
 msgid ""
