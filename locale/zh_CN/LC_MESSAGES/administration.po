@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0 docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-19 21:16+0800\n"
-"PO-Revision-Date: 2022-10-24 15:18+0000\n"
+"PO-Revision-Date: 2022-10-24 16:42+0000\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/"
 "odoo-doc/administration/zh_Hans/>\n"
@@ -644,7 +644,7 @@ msgstr ""
 
 #: ../../content/administration/install/deploy.rst:507
 msgid "Security"
-msgstr ""
+msgstr "安全"
 
 #: ../../content/administration/install/deploy.rst:509
 msgid ""
@@ -945,7 +945,7 @@ msgstr ""
 
 #: ../../content/administration/install/email_gateway.rst:13
 msgid "Prerequisites"
-msgstr ""
+msgstr "先决条件"
 
 #: ../../content/administration/install/email_gateway.rst:14
 msgid "Administrator access to the Odoo database."
@@ -1896,7 +1896,7 @@ msgstr ""
 #: ../../content/administration/maintain/domain_names.rst:136 ../../content/administration/maintain/domain_names.rst:206
 #: ../../content/administration/maintain/supported_versions.rst:26
 msgid "Odoo Online"
-msgstr ""
+msgstr "Odoo Online"
 
 #: ../../content/administration/maintain/domain_names.rst:138
 msgid "The target address is the current address of your database, as defined at its creation (e.g., ``example.odoo.com``)"
@@ -1962,7 +1962,7 @@ msgstr ""
 
 #: ../../content/administration/maintain/domain_names.rst:175
 msgid "`GoDaddy <https://www.godaddy.com/help/add-a-cname-record-19236>`_"
-msgstr ""
+msgstr "`GoDaddy DKIM <https://www.godaddy.com/help/add-a-cname-record-19236>`_"
 
 #: ../../content/administration/maintain/domain_names.rst:176
 msgid "`Namecheap <https://www.namecheap.com/support/knowledgebase/article.aspx/9646/2237/how-to-create-a-cname-record-for-your-domain>`_"
@@ -1975,10 +1975,12 @@ msgstr ""
 #: ../../content/administration/maintain/domain_names.rst:178
 msgid "`CloudFlare <https://support.cloudflare.com/hc/en-us/articles/360019093151>`_"
 msgstr ""
+"`CloudFlare DNS <https://support.cloudflare.com/hc/en-us/articles/"
+"360019093151>`_"
 
 #: ../../content/administration/maintain/domain_names.rst:179
 msgid "`Google Domains <https://support.google.com/domains/answer/3290350?hl=en>`_"
-msgstr ""
+msgstr "“谷歌域名<https://support.google.com/domains/answer/3290350?hl=en>”_"
 
 #: ../../content/administration/maintain/domain_names.rst:184
 msgid "Naked domain"
@@ -2192,7 +2194,7 @@ msgstr ""
 
 #: ../../content/administration/maintain/domain_names.rst:336
 msgid ":doc:`/applications/general/email_communication/email_servers`"
-msgstr ""
+msgstr ":doc:`/applications/general/email_communication/email_servers`"
 
 #: ../../content/administration/maintain/enterprise.rst:6
 msgid "Upgrade Community to Enterprise"
@@ -2315,7 +2317,7 @@ msgstr ""
 
 #: ../../content/administration/maintain/google_oauth.rst:15
 msgid "Setup in Google"
-msgstr ""
+msgstr "在Google中设定"
 
 #: ../../content/administration/maintain/google_oauth.rst:18
 msgid "Create a new project"
@@ -2389,7 +2391,7 @@ msgstr ""
 
 #: ../../content/administration/maintain/google_oauth.rst:61
 msgid "Create Credentials"
-msgstr ""
+msgstr "创建凭据"
 
 #: ../../content/administration/maintain/google_oauth.rst:63
 msgid ""
@@ -2426,7 +2428,7 @@ msgstr ""
 
 #: ../../content/administration/maintain/google_oauth.rst:84
 msgid "Setup in Odoo"
-msgstr ""
+msgstr "设置Odoo"
 
 #: ../../content/administration/maintain/google_oauth.rst:87
 msgid "Enter Google Credentials"
@@ -2781,7 +2783,7 @@ msgstr ""
 #: ../../content/administration/maintain/on_premise.rst:27 ../../content/administration/maintain/on_premise.rst:106
 #: ../../content/administration/maintain/on_premise.rst:134
 msgid "Solutions"
-msgstr ""
+msgstr "解决方案"
 
 #: ../../content/administration/maintain/on_premise.rst:29
 msgid "Do you have a valid Enterprise subscription?"
@@ -3106,7 +3108,7 @@ msgstr ""
 
 #: ../../content/administration/maintain/online.rst:103
 msgid "Tags"
-msgstr ""
+msgstr "标签"
 
 #: ../../content/administration/maintain/online.rst:105
 msgid "Add tags to sort your databases out. You can search the tags in the search bar."
@@ -3153,7 +3155,7 @@ msgstr ""
 
 #: ../../content/administration/maintain/online.rst:135
 msgid "Contact Support"
-msgstr ""
+msgstr "联系支持"
 
 #: ../../content/administration/maintain/online.rst:137
 msgid "Access the Odoo `support page <https://www.odoo.com/help>`_ with your database's details already pre-filled."
@@ -3389,7 +3391,7 @@ msgstr ""
 
 #: ../../content/administration/maintain/supported_versions.rst:58
 msgid "February 2015"
-msgstr ""
+msgstr "2月21日"
 
 #: ../../content/administration/maintain/supported_versions.rst:60
 msgid "**Odoo 8.0**"
@@ -3433,11 +3435,11 @@ msgstr ""
 
 #: ../../content/administration/maintain/update.rst:6
 msgid "Bugfix updates"
-msgstr ""
+msgstr "更新"
 
 #: ../../content/administration/maintain/update.rst:9
 msgid "Introduction"
-msgstr ""
+msgstr "介绍"
 
 #: ../../content/administration/maintain/update.rst:11
 msgid ""
@@ -3553,7 +3555,7 @@ msgstr ""
 
 #: ../../content/administration/maintain/update.rst:95
 msgid "Packaged Installers"
-msgstr ""
+msgstr "安装包安装"
 
 #: ../../content/administration/maintain/update.rst:97
 msgid ""
@@ -3632,7 +3634,7 @@ msgstr ""
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:7 ../../content/administration/odoo_sh/getting_started/status.rst:7
 #: ../../content/administration/odoo_sh/overview.rst:5 ../../content/administration/upgrade/odoo_sh.rst:8
 msgid "Overview"
-msgstr ""
+msgstr "概述"
 
 #: ../../content/administration/odoo_sh/advanced/containers.rst:9
 msgid "Each build is isolated within its own container (Linux namespaced container)."
@@ -4027,11 +4029,11 @@ msgstr ""
 
 #: ../../content/administration/odoo_sh/getting_started.rst:5
 msgid "Get started"
-msgstr ""
+msgstr "开始"
 
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:4
 msgid "Branches"
-msgstr ""
+msgstr "分支"
 
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:9
 msgid "The branches view gives you an overview of the different branches your repository has."
@@ -4441,7 +4443,7 @@ msgstr ""
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:62 ../../content/administration/odoo_sh/getting_started/settings.rst:78
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:82
 msgid "Settings"
-msgstr ""
+msgstr "设置"
 
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:297
 msgid "Here you can find a couple of settings that only apply to the currently selected branch."
@@ -4462,7 +4464,7 @@ msgstr ""
 
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:312
 msgid "**Modules installation**"
-msgstr ""
+msgstr "**模块安装**"
 
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:314
 msgid "Choose the modules to install automatically for your development builds."
@@ -4704,7 +4706,7 @@ msgstr ""
 
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:469
 msgid "Setup"
-msgstr ""
+msgstr "设置"
 
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:470
 msgid "In order to use SSH, you have to set up your profile SSH public key (if it is not already done). To do so, follow these steps:"
@@ -4732,7 +4734,7 @@ msgstr ""
 
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:489
 msgid "Connection"
-msgstr ""
+msgstr "连接"
 
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:491
 msgid "To connect to your builds using ssh use the following command in a terminal:"
@@ -5371,7 +5373,7 @@ msgstr ""
 
 #: ../../content/administration/odoo_sh/getting_started/first_module.rst:149
 msgid "Manually"
-msgstr ""
+msgstr "手工"
 
 #: ../../content/administration/odoo_sh/getting_started/first_module.rst:151
 msgid ""
@@ -5463,7 +5465,7 @@ msgstr ""
 
 #: ../../content/administration/odoo_sh/getting_started/first_module.rst:233
 msgid "You can either:"
-msgstr ""
+msgstr "你可以选择:"
 
 #: ../../content/administration/odoo_sh/getting_started/first_module.rst:235
 msgid "Make your development branch a staging branch, by drag and dropping it onto the *staging* section title."
@@ -5507,7 +5509,7 @@ msgstr ""
 
 #: ../../content/administration/odoo_sh/getting_started/first_module.rst:266
 msgid "Activate the :ref:`developer mode <developer-mode>`"
-msgstr ""
+msgstr "启用 :ref:`开发者模式<developer-mode>`"
 
 #: ../../content/administration/odoo_sh/getting_started/first_module.rst:267
 msgid "in the apps menu, click the *Update Apps List* button,"
@@ -5976,7 +5978,7 @@ msgstr ""
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:50
 msgid "User"
-msgstr ""
+msgstr "用户"
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:50
 msgid "Admin"
@@ -5991,7 +5993,7 @@ msgstr ""
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:76 ../../content/administration/odoo_sh/getting_started/settings.rst:78
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:80 ../../content/administration/odoo_sh/getting_started/settings.rst:82
 msgid "X"
-msgstr ""
+msgstr "X"
 
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:54 ../../content/administration/odoo_sh/getting_started/settings.rst:66
 msgid "1-click connect"
@@ -6349,7 +6351,7 @@ msgstr ""
 
 #: ../../content/administration/upgrade.rst:122
 msgid "Todo"
-msgstr ""
+msgstr "待办"
 
 #: ../../content/administration/upgrade.rst:122
 msgid "change link \"test scenario\" once the related doc is published"
@@ -6533,7 +6535,7 @@ msgstr ""
 
 #: ../../content/administration/upgrade/faq.rst:8
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: ../../content/administration/upgrade/faq.rst:13
 msgid "Why upgrade"
