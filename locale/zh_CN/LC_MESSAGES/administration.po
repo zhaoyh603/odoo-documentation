@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0 docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-19 21:16+0800\n"
-"PO-Revision-Date: 2022-10-24 15:07+0000\n"
+"PO-Revision-Date: 2022-10-24 15:18+0000\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/"
 "odoo-doc/administration/zh_Hans/>\n"
@@ -477,7 +477,7 @@ msgstr "启用选项 :option:`proxy mode <odoo-bin --proxy-mode>` "
 
 #: ../../content/administration/install/deploy.rst:265
 msgid "Set up the SSL termination proxy (`Nginx termination example`_)"
-msgstr "设置 SSL termination 代理( ' Nginx termination example' _ )"
+msgstr "设置 SSL termination 代理( ` Nginx termination example`_ )"
 
 #: ../../content/administration/install/deploy.rst:266
 msgid "Set up the proxying itself (`Nginx proxying example`_)"
@@ -509,8 +509,8 @@ msgid ""
 "That script should be customized (possibly after copying it from the setup directory) to correctly set the configuration directly in :mod:`odoo."
 "tools.config` rather than through the command-line or a configuration file."
 msgstr ""
-"可以将 Odoo 作为标准 WSGI_ 应用挂载。Odoo 为提供了 WSGI 基础启动脚本 `` doo- "
-"WSGI .example.py `` 。该脚本需要根据需要自定义(从安装目录复制)，直接在 "
+"可以将 Odoo 作为标准 WSGI_ 应用挂载。Odoo 为提供了 WSGI 基础启动脚本 ``doo- "
+"WSGI .example.py`` 。该脚本需要根据需要自定义(从安装目录复制)，直接在 "
 ":mod:`odoo.tools.config` 中设置。不是通过命令行或配置文件。"
 
 #: ../../content/administration/install/deploy.rst:357
