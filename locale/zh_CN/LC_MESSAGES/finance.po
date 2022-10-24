@@ -36,21 +36,21 @@
 # Benson <Benson.Dr@Gmail.com>, 2022
 # Raymond Yu <cl_yu@hotmail.com>, 2022
 # Emily Jia <eji@odoo.com>, 2022
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-19 21:16+0800\n"
-"PO-Revision-Date: 2022-10-04 12:53+0000\n"
-"Last-Translator: Emily Jia <eji@odoo.com>, 2022\n"
+"PO-Revision-Date: 2022-10-24 16:15+0000\n"
+"Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
+"Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/"
+"odoo-doc/finance/zh_Hans/>\n"
 "Language: zh_CN\n"
-"Language-Team: Chinese (China) "
-"(https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.14.1\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: ../../content/applications/finance.rst:5
@@ -65,7 +65,7 @@ msgstr "会计和发票"
 msgid ""
 "**Odoo Invoicing** is a standalone invoicing app to create invoices, send"
 " them to your customers, and manage payments."
-msgstr "** Odoo发票 **一个独立的发票应用程序，用于创建发票、发送给您的客户并管理付款。"
+msgstr "**Odoo发票** 一个独立的发票应用程序，用于创建发票、发送给您的客户并管理付款。"
 
 #: ../../content/applications/finance/accounting.rst:13
 msgid ""
@@ -73,7 +73,8 @@ msgid ""
 "productivity is at the core of its development with features such as AI-"
 "powered invoice recognition, synchronization with your bank accounts, "
 "smart matching suggestions, etc."
-msgstr "** Odoo会计 **一款功能齐全的会计应用程序。会计生产力是其开发的核心，具有人工智能发票识别、与银行账户同步、智能匹配建议等功能。"
+msgstr "**Odoo会计** 一款功能齐全的会计应用程序。会计生产力是其开发的核心，具有人工智"
+"能发票识别、与银行账户同步、智能匹配建议等功能。"
 
 #: ../../content/applications/finance/accounting.rst:18
 msgid "`Odoo Tutorials: Accounting <https://www.odoo.com/slides/accounting-19>`_"
@@ -23036,7 +23037,7 @@ msgstr ""
 
 #: ../../content/applications/finance/accounting/reporting/declarations/tax_returns.rst:124
 msgid ":doc:`../../getting_started/initial_configuration/setup`"
-msgstr ":d oc：'../../getting_started/initial_configuration/设置'"
+msgstr ":doc:`../../getting_started/initial_configuration/setup`"
 
 #: ../../content/applications/finance/accounting/reporting/overview/customize.rst:3
 msgid "Create a customized reports with your own formulas"
@@ -28676,4 +28677,3 @@ msgstr ""
 #~ "XML file is automatically included in"
 #~ " the PDF document that is sent."
 #~ msgstr ""
-
