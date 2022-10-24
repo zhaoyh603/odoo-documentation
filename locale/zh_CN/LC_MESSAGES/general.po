@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-04 12:47+0000\n"
-"PO-Revision-Date: 2022-10-24 16:05+0000\n"
+"PO-Revision-Date: 2022-10-24 16:42+0000\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/"
 "odoo-doc/general/zh_Hans/>\n"
@@ -613,7 +613,7 @@ msgstr "日历"
 
 #: ../../content/applications/general/calendars/google/google_calendar_credentials.rst:3
 msgid "Synchronize Google Calendar with Odoo"
-msgstr "将谷歌日历与Odoo同步"
+msgstr "同步谷歌日历"
 
 #: ../../content/applications/general/calendars/google/google_calendar_credentials.rst:5
 msgid ""
@@ -2399,7 +2399,7 @@ msgstr ""
 
 #: ../../content/applications/general/email_communication/faq.rst:3
 msgid "FAQ"
-msgstr "常问问题"
+msgstr "FAQ"
 
 #: ../../content/applications/general/email_communication/faq.rst:5
 msgid ""
