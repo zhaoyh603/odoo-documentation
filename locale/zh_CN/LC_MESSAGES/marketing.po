@@ -13,20 +13,21 @@
 # Jeffery CHEN <jeffery9@gmail.com>, 2022
 # 稀饭~~ <wangwhai@qq.com>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-04 12:47+0000\n"
-"PO-Revision-Date: 2022-10-04 12:54+0000\n"
-"Last-Translator: 稀饭~~ <wangwhai@qq.com>, 2022\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"PO-Revision-Date: 2022-10-24 16:05+0000\n"
+"Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
+"Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/"
+"odoo-doc/marketing/zh_Hans/>\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: ../../content/applications/marketing.rst:5
 msgid "Marketing"
@@ -72,7 +73,7 @@ msgstr "我们一起看下面的示例："
 #: ../../content/applications/marketing/marketing_automation/advanced/understanding_metrics.rst:0
 #: ../../content/applications/marketing/marketing_automation/advanced/understanding_metrics.rstNone
 msgid "Metrics in Odoo Marketing Automation"
-msgstr ""
+msgstr "Odoo营销自动化中的指标"
 
 #: ../../content/applications/marketing/marketing_automation/advanced/understanding_metrics.rst:19
 msgid ""
@@ -194,7 +195,7 @@ msgstr "**GSM7** 是标准格式，每条信息不超过160个字符，包括以
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rstNone
 msgid "GSM7 in Odoo SMS Marketing"
-msgstr ""
+msgstr "GSM7在Odoo的短信营销"
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:25
 msgid ""
@@ -241,7 +242,7 @@ msgstr "短信包含的字数总是显示在数据库中。"
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rstNone
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rstNone
 msgid "SMS pricing and FAQ Odoo SMS Marketing"
-msgstr ""
+msgstr "Odoo 短信营销的定价和常见问题"
 
 #: ../../content/applications/marketing/sms_marketing/pricing/pricing_and_faq.rst:51
 msgid "How do I buy credits?"
