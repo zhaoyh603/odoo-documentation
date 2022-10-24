@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0 docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-19 21:16+0800\n"
-"PO-Revision-Date: 2022-10-22 16:43+0000\n"
+"PO-Revision-Date: 2022-10-24 15:07+0000\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
-"Language-Team: Chinese (Simplified) <http://h.oeerp.com/projects/odoo-doc/"
-"administration/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/"
+"odoo-doc/administration/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -59,15 +59,16 @@ msgstr "创建区域时，请在 :guilabel:`advanced features` 子菜单中启�
 
 #: ../../content/administration/install/cdn.rst:27
 msgid "Once done, you'll have to wait a bit while KeyCDN_ is crawling your website."
-msgstr ""
+msgstr "设置完成后，需要等待一段时间，因为 KeyCDN_ 需要抓取你的网站。"
 
 #: ../../content/administration/install/cdn.rst:32
 msgid "a new URL has been generated for your Zone, in this case it is ``http://pulltest-b49.kxcdn.com``"
-msgstr ""
+msgstr "已经为您的区域生成了一个新的URL，在本例中它是``http://pulltest-b49.kxcdn."
+"com``"
 
 #: ../../content/administration/install/cdn.rst:36
 msgid "Step 2: Configure the odoo instance with your zone"
-msgstr ""
+msgstr "步骤2:在区域中配置odoo实例"
 
 #: ../../content/administration/install/cdn.rst:38
 msgid ""
@@ -457,7 +458,7 @@ msgstr "``/etc/odoo.conf`` 配置如下："
 
 #: ../../content/administration/install/deploy.rst:257
 msgid "HTTPS"
-msgstr ""
+msgstr "HTTPS"
 
 #: ../../content/administration/install/deploy.rst:259
 msgid ""
@@ -465,38 +466,42 @@ msgid ""
 "deployment of Odoo must use HTTPS\\ [#switching]_. SSL termination can be implemented via just about any SSL termination proxy, but requires the "
 "following setup:"
 msgstr ""
+"无论通过网站/web客户端还是web服务访问，Odoo都以明文传输身份验证信息。"
+"这意味着Odoo的安全部署必须使用 HTTPS\\ [#switching]_ 。SSL termination "
+"可以通过几乎任何SSL termination 代理实现，但需要以下设置:"
 
 #: ../../content/administration/install/deploy.rst:264
 msgid "Enable Odoo's :option:`proxy mode <odoo-bin --proxy-mode>`. This should only be enabled when Odoo is behind a reverse proxy"
-msgstr ""
+msgstr "启用选项 :option:`proxy mode <odoo-bin --proxy-mode>` "
+"。该选项只能在启用反向代理时启用"
 
 #: ../../content/administration/install/deploy.rst:265
 msgid "Set up the SSL termination proxy (`Nginx termination example`_)"
-msgstr ""
+msgstr "设置 SSL termination 代理( ' Nginx termination example' _ )"
 
 #: ../../content/administration/install/deploy.rst:266
 msgid "Set up the proxying itself (`Nginx proxying example`_)"
-msgstr ""
+msgstr "设置代理( `Nginx proxying example`_ )"
 
 #: ../../content/administration/install/deploy.rst:267
 msgid "Your SSL termination proxy should also automatically redirect non-secure connections to the secure port"
-msgstr ""
+msgstr "SSL termination 还应该自动将非安全连接重定向到安全端口"
 
 #: ../../content/administration/install/deploy.rst:273
 msgid "Redirect http requests to https"
-msgstr ""
+msgstr "将http请求重定向到https"
 
 #: ../../content/administration/install/deploy.rst:274
 msgid "Proxy requests to odoo"
-msgstr ""
+msgstr "odoo 代理请求"
 
 #: ../../content/administration/install/deploy.rst:282
 msgid "in ``/etc/nginx/sites-enabled/odoo.conf`` set:"
-msgstr ""
+msgstr "``/etc/nginx/sites-enabled/odoo.conf`` 中的设置:"
 
 #: ../../content/administration/install/deploy.rst:349
 msgid "Odoo as a WSGI Application"
-msgstr ""
+msgstr "Odoo 是一个 WSGI 应用"
 
 #: ../../content/administration/install/deploy.rst:351
 msgid ""
@@ -504,6 +509,9 @@ msgid ""
 "That script should be customized (possibly after copying it from the setup directory) to correctly set the configuration directly in :mod:`odoo."
 "tools.config` rather than through the command-line or a configuration file."
 msgstr ""
+"可以将 Odoo 作为标准 WSGI_ 应用挂载。Odoo 为提供了 WSGI 基础启动脚本 `` doo- "
+"WSGI .example.py `` 。该脚本需要根据需要自定义(从安装目录复制)，直接在 "
+":mod:`odoo.tools.config` 中设置。不是通过命令行或配置文件。"
 
 #: ../../content/administration/install/deploy.rst:357
 msgid ""
