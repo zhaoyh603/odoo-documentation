@@ -41,7 +41,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-19 21:16+0800\n"
-"PO-Revision-Date: 2022-10-24 16:42+0000\n"
+"PO-Revision-Date: 2022-10-25 17:10+0000\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/"
 "odoo-doc/finance/zh_Hans/>\n"
@@ -1445,7 +1445,7 @@ msgstr "银行对帐流程 - 用例"
 #: ../../content/applications/finance/accounting/reporting/overview.rst:5
 #: ../../content/applications/finance/accounting/reporting/overview/customize.rst:6
 msgid "Overview"
-msgstr "概述"
+msgstr "概览"
 
 #: ../../content/applications/finance/accounting/bank/reconciliation/use_cases.rst:8
 msgid ""
@@ -3778,7 +3778,7 @@ msgstr ""
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/chile.rst:145
 #: ../../content/applications/finance/accounting/others/multi_currency.rst:87
 msgid "Chart of accounts"
-msgstr "会计科目表"
+msgstr "科目表"
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/chile.rst:147
 msgid ""
@@ -4709,7 +4709,7 @@ msgstr ""
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/chile.rst:686
 msgid "Claim"
-msgstr "申诉"
+msgstr "投诉"
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/chile.rst:688
 msgid ""
@@ -11129,7 +11129,7 @@ msgstr ""
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/mexico.rst:497
 msgid "Payments"
-msgstr "支付"
+msgstr "付款"
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/mexico.rst:499
 msgid ""
@@ -14677,7 +14677,7 @@ msgstr "初始配置"
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:100
 #: ../../content/applications/finance/accounting/getting_started/memento.rst:69
 msgid "Chart of Accounts"
-msgstr "会计科目表"
+msgstr "科目表"
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:5
 msgid ""
@@ -14819,7 +14819,7 @@ msgstr "流动资产"
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:73
 msgid "Non-current Assets"
-msgstr "非流动资产"
+msgstr ""
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:75
 msgid "Prepayments"
@@ -14827,11 +14827,11 @@ msgstr "预付账"
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:77
 msgid "Fixed Assets"
-msgstr "固定资产"
+msgstr ""
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:79
 msgid "Payable"
-msgstr "应付"
+msgstr ""
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:81
 msgid "Credit Card"
@@ -15909,7 +15909,7 @@ msgstr "科目"
 #: ../../content/applications/finance/accounting/receivables/customer_payments/check.rst:70
 #: ../../content/applications/finance/accounting/receivables/customer_payments/check.rst:133
 msgid "Account Receivable"
-msgstr "应收账款"
+msgstr "应收科目"
 
 #: ../../content/applications/finance/accounting/getting_started/memento.rst:220
 #: ../../content/applications/finance/accounting/getting_started/memento.rst:246
@@ -16735,7 +16735,7 @@ msgstr "理论金额表示您在理论上可以花费/应该在日期函数中�
 
 #: ../../content/applications/finance/accounting/others/analytic.rst:5
 msgid "Analytic"
-msgstr "分析会计"
+msgstr "分析"
 
 #: ../../content/applications/finance/accounting/others/analytic/purchases_expenses.rst:3
 msgid "Track costs of purchases, expenses, subcontracting"
@@ -23463,7 +23463,7 @@ msgstr "**流动比率** , 就是流动资产的(资产可以在一年内转化�
 
 #: ../../content/applications/finance/accounting/reporting/overview/main_reports.rst:94
 msgid "General Ledger"
-msgstr "总分类账"
+msgstr "总账"
 
 #: ../../content/applications/finance/accounting/reporting/overview/main_reports.rst:96
 msgid ""
@@ -25044,7 +25044,7 @@ msgstr "税"
 #: ../../content/applications/finance/accounting/taxation/taxes/taxes.rst:115
 #: ../../content/applications/finance/accounting/taxation/taxes/taxes.rst:231
 msgid "Total"
-msgstr "合计"
+msgstr ""
 
 #: ../../content/applications/finance/accounting/taxation/taxes/taxes.rst:89
 #: ../../content/applications/finance/accounting/taxation/taxes/taxes.rst:104
