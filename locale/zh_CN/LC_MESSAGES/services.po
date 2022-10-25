@@ -12,20 +12,21 @@
 # 稀饭~~ <wangwhai@qq.com>, 2022
 # Mandy Choy <mnc@odoo.com>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-04 12:47+0000\n"
-"PO-Revision-Date: 2022-10-04 12:54+0000\n"
-"Last-Translator: Mandy Choy <mnc@odoo.com>, 2022\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"PO-Revision-Date: 2022-10-25 17:10+0000\n"
+"Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
+"Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/"
+"odoo-doc/services/zh_Hans/>\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: ../../content/applications/services.rst:5
 msgid "Services"
@@ -327,7 +328,7 @@ msgstr ""
 #: ../../content/applications/services/helpdesk/overview.rst:5
 #: ../../content/applications/services/timesheets/overview.rst:5
 msgid "Overview"
-msgstr "概述"
+msgstr "概览"
 
 #: ../../content/applications/services/helpdesk/overview/forum_and_elearning.rst:3
 msgid "Forum and eLearning"
