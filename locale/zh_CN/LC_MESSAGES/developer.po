@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-19 21:16+0800\n"
-"PO-Revision-Date: 2022-10-24 16:42+0000\n"
+"PO-Revision-Date: 2022-10-25 17:10+0000\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/"
 "odoo-doc/developer/zh_Hans/>\n"
@@ -764,7 +764,7 @@ msgstr ""
 
 #: ../../content/developer/api/extract_api.rst:17
 msgid "Invoices"
-msgstr ""
+msgstr "结算单"
 
 #: ../../content/developer/api/extract_api.rst:18
 msgid ""
@@ -1624,7 +1624,7 @@ msgstr ""
 #: ../../content/developer/reference/frontend/services.rst:760
 #: ../../content/developer/reference/frontend/services.rst:835
 msgid "Overview"
-msgstr "概述"
+msgstr "概览"
 
 #: ../../content/developer/api/iap.rst:31
 msgid "The Players"
@@ -2350,7 +2350,7 @@ msgstr ""
 #: ../../content/developer/api/iap.rst:613
 #: ../../content/developer/api/iap.rst:820
 msgid "Cancel"
-msgstr ""
+msgstr "取消"
 
 #: ../../content/developer/api/iap.rst:617
 msgid ""
@@ -3107,7 +3107,7 @@ msgstr ""
 
 #: ../../content/developer/cli.rst:445
 msgid "Logging"
-msgstr ""
+msgstr "日志记录"
 
 #: ../../content/developer/cli.rst:447
 msgid ""
@@ -3861,7 +3861,7 @@ msgstr ""
 
 #: ../../content/developer/howtos/accounting_localization.rst:85
 msgid "Chart of Accounts"
-msgstr "会计科目表"
+msgstr "科目表"
 
 #: ../../content/developer/howtos/accounting_localization.rst:88
 msgid "Account tags"
@@ -5756,7 +5756,7 @@ msgstr ""
 #: ../../content/developer/howtos/backend.rst:977
 #: ../../content/developer/reference/backend/views.rst:1020
 msgid "Gantt"
-msgstr ""
+msgstr "甘特"
 
 #: ../../content/developer/howtos/backend.rst:981
 msgid ""
@@ -6300,7 +6300,7 @@ msgstr ""
 
 #: ../../content/developer/howtos/backend.rst:1362
 msgid "Dashboards"
-msgstr ""
+msgstr "仪表板"
 
 #: ../../content/developer/howtos/backend.rst:1364
 msgid "Define a Dashboard"
@@ -7753,7 +7753,7 @@ msgstr ""
 #: ../../content/developer/reference/frontend/services.rst:737
 #: ../../content/developer/reference/frontend/services.rst:852
 msgid "Type"
-msgstr ""
+msgstr "类型"
 
 #: ../../content/developer/howtos/rdtraining/04_basicmodel.rst:182
 #: ../../content/developer/howtos/rdtraining/04_basicmodel.rst:255
@@ -9402,7 +9402,7 @@ msgstr ""
 
 #: ../../content/developer/howtos/rdtraining/08_relations.rst:244
 msgid "status"
-msgstr ""
+msgstr "状态"
 
 #: ../../content/developer/howtos/rdtraining/08_relations.rst:244
 msgid "no copy"
@@ -9698,7 +9698,7 @@ msgstr ""
 
 #: ../../content/developer/howtos/rdtraining/09_compute_onchange.rst:173
 msgid "Default"
-msgstr ""
+msgstr "默认"
 
 #: ../../content/developer/howtos/rdtraining/09_compute_onchange.rst:175
 msgid "validity"
@@ -10562,7 +10562,7 @@ msgstr ""
 #: ../../content/developer/reference/frontend/services.rst:736
 #: ../../content/developer/reference/frontend/services.rst:851
 msgid "Name"
-msgstr ""
+msgstr "名称"
 
 #: ../../content/developer/howtos/rdtraining/12_sprinkles.rst:187
 #: ../../content/developer/howtos/rdtraining/12_sprinkles.rst:217
@@ -10617,7 +10617,7 @@ msgstr ""
 
 #: ../../content/developer/howtos/rdtraining/12_sprinkles.rst:217
 msgid "Sequence"
-msgstr ""
+msgstr "序号"
 
 #: ../../content/developer/howtos/rdtraining/12_sprinkles.rst:220
 msgid ""
@@ -12411,7 +12411,7 @@ msgstr ""
 
 #: ../../content/developer/howtos/rdtraining/B_acl_irrules.rst:166
 msgid "create"
-msgstr ""
+msgstr "创建"
 
 #: ../../content/developer/howtos/rdtraining/B_acl_irrules.rst:166
 msgid "read"
@@ -12419,11 +12419,11 @@ msgstr ""
 
 #: ../../content/developer/howtos/rdtraining/B_acl_irrules.rst:166
 msgid "update"
-msgstr ""
+msgstr "更新"
 
 #: ../../content/developer/howtos/rdtraining/B_acl_irrules.rst:166
 msgid "delete"
-msgstr ""
+msgstr "删除"
 
 #: ../../content/developer/howtos/rdtraining/B_acl_irrules.rst:168
 msgid "A"
@@ -14876,7 +14876,7 @@ msgstr ""
 
 #: ../../content/developer/howtos/rdtraining/K_dashboard.rst:301
 msgid "Note"
-msgstr ""
+msgstr "笔记"
 
 #: ../../content/developer/howtos/rdtraining/K_dashboard.rst:303
 #: ../../content/developer/reference/backend/data/res.country.state.csv:1
@@ -15950,7 +15950,7 @@ msgstr ""
 #: ../../content/developer/howtos/themes.rst:797
 #: ../../content/developer/reference/frontend/registries.rst:108
 msgid "Content"
-msgstr ""
+msgstr "内容"
 
 #: ../../content/developer/howtos/themes.rst:797
 msgid "``//div[@id='snippet_content']``"
@@ -21434,7 +21434,7 @@ msgstr ""
 
 #: ../../content/developer/reference/backend/http.rst:57
 msgid "Routing"
-msgstr ""
+msgstr "路线"
 
 #: ../../content/developer/reference/backend/http.rst:64
 msgid "Request"
@@ -24083,7 +24083,7 @@ msgstr ""
 
 #: ../../content/developer/reference/backend/orm.rst
 msgid "type"
-msgstr ""
+msgstr "类型"
 
 #: ../../content/developer/reference/backend/orm.rst:978
 msgid ":class:`~odoo.api.Environment`"
@@ -27474,7 +27474,7 @@ msgstr ""
 
 #: ../../content/developer/reference/backend/views.rst:362
 msgid "Activity"
-msgstr ""
+msgstr "活动"
 
 #: ../../content/developer/reference/backend/views.rst:364
 msgid ""
@@ -27788,7 +27788,7 @@ msgstr ""
 
 #: ../../content/developer/reference/backend/views.rst:503
 msgid "Cohort"
-msgstr ""
+msgstr "群组"
 
 #: ../../content/developer/reference/backend/views.rst:509
 msgid ""
@@ -30613,7 +30613,7 @@ msgstr ""
 
 #: ../../content/developer/reference/backend/views.rst:2061
 msgid "Pivot"
-msgstr ""
+msgstr "数据透视"
 
 #: ../../content/developer/reference/backend/views.rst:2063
 msgid ""
@@ -31254,7 +31254,7 @@ msgstr ""
 
 #: ../../content/developer/reference/frontend/assets.rst:6
 msgid "Assets"
-msgstr ""
+msgstr "资产"
 
 #: ../../content/developer/reference/frontend/assets.rst:8
 msgid ""
@@ -31309,7 +31309,7 @@ msgstr ""
 
 #: ../../content/developer/reference/frontend/assets.rst:42
 msgid "Template"
-msgstr ""
+msgstr "模板"
 
 #: ../../content/developer/reference/frontend/assets.rst:38
 msgid ""
@@ -32356,7 +32356,7 @@ msgstr ""
 #: ../../content/developer/reference/frontend/framework_overview.rst:479
 #: ../../content/developer/reference/frontend/framework_overview.rst:490
 msgid "Domain"
-msgstr ""
+msgstr "域"
 
 #: ../../content/developer/reference/frontend/framework_overview.rst:465
 msgid "Returns a domain representing the intersection of all domains."
@@ -32404,7 +32404,7 @@ msgstr ""
 
 #: ../../content/developer/reference/frontend/framework_overview.rst:517
 msgid "Message"
-msgstr ""
+msgstr "消息"
 
 #: ../../content/developer/reference/frontend/framework_overview.rst:518
 msgid "Payload"
@@ -32412,7 +32412,7 @@ msgstr ""
 
 #: ../../content/developer/reference/frontend/framework_overview.rst:519
 msgid "Trigger"
-msgstr ""
+msgstr "触发器"
 
 #: ../../content/developer/reference/frontend/framework_overview.rst:520
 msgid "``ACTION_MANAGER:UI-UPDATED``"
@@ -32778,7 +32778,7 @@ msgstr ""
 #: ../../content/developer/reference/frontend/owl_components.rst:331
 #: ../../content/developer/reference/frontend/owl_components.rst:607
 msgid "Location"
-msgstr ""
+msgstr "位置"
 
 #: ../../content/developer/reference/frontend/hooks.rst:42
 msgid "`@web/core/assets`"
@@ -37029,7 +37029,7 @@ msgstr ""
 
 #: ../../content/developer/reference/frontend/odoo_editor.rst:207
 msgid "Options"
-msgstr ""
+msgstr "选项"
 
 #: ../../content/developer/reference/frontend/odoo_editor.rst:209
 msgid ""
@@ -39099,7 +39099,7 @@ msgstr ""
 
 #: ../../content/developer/reference/frontend/qweb.rst:918
 msgid "debugging"
-msgstr ""
+msgstr "调试"
 
 #: ../../content/developer/reference/frontend/qweb.rst:920
 msgid "The javascript QWeb implementation provides a few debugging hooks:"
@@ -40831,7 +40831,7 @@ msgstr ""
 
 #: ../../content/developer/reference/standard_modules/account.rst:5
 msgid "Accounting"
-msgstr ""
+msgstr "会计"
 
 #: ../../content/developer/reference/standard_modules/account/account_account.rst:5
 msgid "Account"
@@ -40847,7 +40847,7 @@ msgstr ""
 
 #: ../../content/developer/reference/standard_modules/account/account_fiscal_position.rst:5
 msgid "Fiscal Position"
-msgstr ""
+msgstr "财政状况"
 
 #: ../../content/developer/reference/standard_modules/account/account_group.rst:5
 msgid "Account Group"
@@ -40867,7 +40867,7 @@ msgstr ""
 
 #: ../../content/developer/reference/standard_modules/payment.rst:5
 msgid "Payment"
-msgstr ""
+msgstr "支付"
 
 #: ../../content/developer/reference/standard_modules/payment/payment_provider.rst:5
 msgid "Payment Provider"
