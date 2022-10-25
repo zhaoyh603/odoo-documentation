@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-14 18:54+0800\n"
-"PO-Revision-Date: 2022-10-24 16:42+0000\n"
+"PO-Revision-Date: 2022-10-25 17:10+0000\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/"
 "odoo-doc/contributing/zh_Hans/>\n"
@@ -2139,7 +2139,7 @@ msgstr ""
 #: ../../content/contributing/documentation/content_guidelines.rst:178
 #: ../../content/contributing/documentation/rst_cheat_sheet.rst:440
 msgid "Images"
-msgstr ""
+msgstr "图像"
 
 #: ../../content/contributing/documentation/content_guidelines.rst:180
 msgid ""
@@ -2317,7 +2317,7 @@ msgstr ""
 
 #: ../../content/contributing/documentation/rst_cheat_sheet.rst:20
 msgid "Formatting"
-msgstr ""
+msgstr "格式化"
 
 #: ../../content/contributing/documentation/rst_cheat_sheet.rst:22
 msgid "H1"
@@ -2756,7 +2756,7 @@ msgstr ""
 
 #: ../../content/contributing/documentation/rst_cheat_sheet.rst:488
 msgid "Note"
-msgstr ""
+msgstr "笔记"
 
 #: ../../content/contributing/documentation/rst_cheat_sheet.rst:494
 msgid ""
@@ -2823,7 +2823,7 @@ msgstr ""
 
 #: ../../content/contributing/documentation/rst_cheat_sheet.rst:607
 msgid "Title"
-msgstr ""
+msgstr "标题"
 
 #: ../../content/contributing/documentation/rst_cheat_sheet.rst:609
 msgid "Customize this alert block with a **Title** of your choice."
@@ -2846,11 +2846,11 @@ msgstr ""
 
 #: ../../content/contributing/documentation/rst_cheat_sheet.rst:635
 msgid "Name"
-msgstr ""
+msgstr "名称"
 
 #: ../../content/contributing/documentation/rst_cheat_sheet.rst:636
 msgid "Country"
-msgstr ""
+msgstr "国家"
 
 #: ../../content/contributing/documentation/rst_cheat_sheet.rst:637
 msgid "Favorite color"
