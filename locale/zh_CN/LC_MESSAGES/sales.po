@@ -30,7 +30,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-19 21:16+0800\n"
-"PO-Revision-Date: 2022-10-24 16:42+0000\n"
+"PO-Revision-Date: 2022-10-25 17:10+0000\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/"
 "odoo-doc/sales/zh_Hans/>\n"
@@ -1324,7 +1324,7 @@ msgstr "您的客户将不再能够对您保密！"
 
 #: ../../content/applications/sales/point_of_sale.rst:8
 msgid "Point of Sale"
-msgstr "销售点"
+msgstr "POS"
 
 #: ../../content/applications/sales/point_of_sale.rst:10
 msgid ""
@@ -1848,7 +1848,7 @@ msgstr "列入黑名单的模块 :POS_打折, POS_重新打印, POS_忠诚度"
 
 #: ../../content/applications/sales/point_of_sale/overview.rst:5
 msgid "Overview"
-msgstr "概述"
+msgstr "概览"
 
 #: ../../content/applications/sales/point_of_sale/overview/epos_ssc.rst:3
 msgid "Self-signed certificate for ePOS printers"
@@ -7420,7 +7420,7 @@ msgstr ":文档:`../../subscriptions/configuration/subscription_products`"
 
 #: ../../content/applications/sales/subscriptions/follow_up.rst:5
 msgid "Follow-up"
-msgstr "催款"
+msgstr "跟进"
 
 #: ../../content/applications/sales/subscriptions/follow_up/automatic_alerts.rst:3
 msgid "Set up automatic alerts"
