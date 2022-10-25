@@ -16,20 +16,21 @@
 # Jeffery CHEN <jeffery9@gmail.com>, 2022
 # Martin Trigaux, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-04 12:47+0000\n"
-"PO-Revision-Date: 2022-10-04 12:54+0000\n"
-"Last-Translator: Martin Trigaux, 2022\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"PO-Revision-Date: 2022-10-25 17:10+0000\n"
+"Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
+"Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/"
+"odoo-doc/productivity/zh_Hans/>\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: ../../content/applications/productivity.rst:5
 msgid "Productivity"
@@ -189,7 +190,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/discuss/overview.rst:5
 msgid "Overview"
-msgstr "概述"
+msgstr "概览"
 
 #: ../../content/applications/productivity/discuss/overview/get_started.rst:3
 msgid "Get Started with Discuss"
@@ -3341,7 +3342,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/models_modules_apps.rst:186
 msgid "Chatter"
-msgstr "图表"
+msgstr ""
 
 #: ../../content/applications/productivity/studio/models_modules_apps.rst:188
 msgid ""
@@ -3743,7 +3744,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:242
 msgid "Cohort"
-msgstr "群组视图"
+msgstr "群组"
 
 #: ../../content/applications/productivity/studio/views.rst:244
 msgid ""
@@ -3870,7 +3871,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:317
 msgid "Pivot"
-msgstr "透视表"
+msgstr "数据透视"
 
 #: ../../content/applications/productivity/studio/views.rst:319
 msgid ""
