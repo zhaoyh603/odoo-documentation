@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-04 12:47+0000\n"
-"PO-Revision-Date: 2022-10-24 16:05+0000\n"
+"PO-Revision-Date: 2022-10-25 17:10+0000\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/"
 "odoo-doc/marketing/zh_Hans/>\n"
@@ -400,7 +400,7 @@ msgstr "`Odoo 教程：调查<https://www.odoo.com/slides/surveys-62>_"
 
 #: ../../content/applications/marketing/surveys/overview.rst:5
 msgid "Overview"
-msgstr "概述"
+msgstr "概览"
 
 #: ../../content/applications/marketing/surveys/overview/create.rst:3
 msgid "Get Started with Surveys"
