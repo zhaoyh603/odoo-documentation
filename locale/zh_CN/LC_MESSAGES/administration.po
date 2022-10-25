@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0 docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-19 21:16+0800\n"
-"PO-Revision-Date: 2022-10-24 16:42+0000\n"
+"PO-Revision-Date: 2022-10-25 17:10+0000\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/"
 "odoo-doc/administration/zh_Hans/>\n"
@@ -3634,7 +3634,7 @@ msgstr ""
 #: ../../content/administration/odoo_sh/getting_started/settings.rst:7 ../../content/administration/odoo_sh/getting_started/status.rst:7
 #: ../../content/administration/odoo_sh/overview.rst:5 ../../content/administration/upgrade/odoo_sh.rst:8
 msgid "Overview"
-msgstr "概述"
+msgstr "概览"
 
 #: ../../content/administration/odoo_sh/advanced/containers.rst:9
 msgid "Each build is isolated within its own container (Linux namespaced container)."
@@ -4053,7 +4053,7 @@ msgstr ""
 
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:29 ../../content/administration/odoo_sh/getting_started/builds.rst:43
 msgid "Production"
-msgstr ""
+msgstr "生产"
 
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:30
 msgid "This is the branch holding the code on which your production database runs. There can be only one production branch."
@@ -4686,7 +4686,7 @@ msgstr ""
 
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:451
 msgid "Merge"
-msgstr ""
+msgstr "合并"
 
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:452
 msgid "Merge the current branch in another branch."
@@ -6445,7 +6445,7 @@ msgstr ""
 
 #: ../../content/administration/upgrade.rst:195
 msgid "Help"
-msgstr ""
+msgstr "帮助"
 
 #: ../../content/administration/upgrade.rst:200
 msgid "Contact our Upgrade service support"
