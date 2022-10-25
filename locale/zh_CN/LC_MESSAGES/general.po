@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-04 12:47+0000\n"
-"PO-Revision-Date: 2022-10-24 16:42+0000\n"
+"PO-Revision-Date: 2022-10-25 17:10+0000\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/"
 "odoo-doc/general/zh_Hans/>\n"
@@ -174,7 +174,7 @@ msgstr "卸载应用还会卸载其所有依赖项并永久清除其数据。"
 
 #: ../../content/applications/general/auth.rst:5
 msgid "Authentication"
-msgstr "认证"
+msgstr "身份验证"
 
 #: ../../content/applications/general/auth/2fa.rst:3
 msgid "Two-factor Authentication"
@@ -203,7 +203,7 @@ msgstr "这意味着攻击者需要*两者*来猜测（或找到）您的密码�
 
 #: ../../content/applications/general/auth/2fa.rst:18
 msgid "Requirements"
-msgstr "要求"
+msgstr "需求"
 
 #: ../../content/applications/general/auth/2fa.rst:20
 msgid ""
@@ -440,7 +440,7 @@ msgstr "在“ **** ”页上，保留所有字段不变，然后单击“*保�
 
 #: ../../content/applications/general/auth/google.rst:57
 msgid "Credentials"
-msgstr "授权认证"
+msgstr "凭据"
 
 #: ../../content/applications/general/auth/google.rst:59
 msgid "On the left side menu, click on :menuselection:`Credentials`."
