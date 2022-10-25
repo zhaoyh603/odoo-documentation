@@ -60,6 +60,20 @@ html: $(HTML_BUILD_DIR)/_static/style.css
 	$(SPHINX_BUILD) -c $(CONFIG_DIR) -b html $(SPHINXOPTS) $(SOURCE_DIR) $(HTML_BUILD_DIR)
 	@echo "Build finished."
 
+zh: CURRENT_LANG=zh_CN 
+zh: HTML_BUILD_DIR := $(BUILD_DIR)/html/zh_CN
+zh:
+	@echo "Compiling stylesheets..."
+	mkdir -p $(HTML_BUILD_DIR)/_static
+	python3 -m pysassc extensions/odoo_theme/static/style.scss $(HTML_BUILD_DIR)/_static/style.css
+	@echo "Compilation finished."
+	@echo "Starting build..."
+	$(SPHINX_BUILD) -c $(CONFIG_DIR) -b html $(SPHINXOPTS) $(SOURCE_DIR) $(HTML_BUILD_DIR)
+	@echo "Build finished."
+
+
+#zh: html
+
 # To call *after* `make html`
 # Binary dependencies (Debian): texlive-fonts-recommended texlive-latex-extra
 # texlive-generic-recommended texlive-fonts-extra
@@ -78,10 +92,7 @@ update:
 	@echo "update  po from pot files..."
 	sphinx-intl update -p locale/sources -d locale/ -l $(CURRENT_LANG)
 
-zh: CURRENT_LANG=zh_CN
-zh: HTML_BUILD_DIR := $(BUILD_DIR)/html/zh_CN
-zh: $(HTML_BUILD_DIR)/_static/style.css
-zh: html
+
 
 $(HTML_BUILD_DIR)/_static/style.css: extensions/odoo_theme/static/style.scss extensions/odoo_theme/static/scss/*.scss
 	@echo "Compiling stylesheets..."
