@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-04 12:47+0000\n"
-"PO-Revision-Date: 2022-10-24 16:42+0000\n"
+"PO-Revision-Date: 2022-10-25 17:10+0000\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/"
 "odoo-doc/inventory_and_mrp/zh_Hans/>\n"
@@ -132,7 +132,7 @@ msgstr "当完成了该库位的所有产品的扫描后，手工确认库存或
 #: ../../content/applications/inventory_and_mrp/inventory/shipping/setup/delivery_method.rst:6
 #: ../../content/applications/inventory_and_mrp/inventory/shipping/setup/third_party_shipper.rst:6
 msgid "Overview"
-msgstr "概述"
+msgstr "概览"
 
 #: ../../content/applications/inventory_and_mrp/inventory/barcode/operations/barcode_nomenclature.rst:5
 msgid ""
@@ -3318,7 +3318,7 @@ msgstr "成本方法在产品类别中定义，有三种可选方法。下面将
 
 #: ../../content/applications/inventory_and_mrp/inventory/management/reporting/inventory_valuation_config.rst:71
 msgid "Standard Price"
-msgstr "标准价格"
+msgstr "标准价"
 
 #: ../../content/applications/inventory_and_mrp/inventory/management/reporting/inventory_valuation_config.rst:36
 #: ../../content/applications/inventory_and_mrp/inventory/management/reporting/inventory_valuation_config.rst:81
@@ -7182,7 +7182,7 @@ msgstr "如果不需要在你的分包商所在地管理原材料的补充，只
 
 #: ../../content/applications/inventory_and_mrp/manufacturing/management/subcontracting.rst:114
 msgid "Traceability"
-msgstr "追溯"
+msgstr "追踪"
 
 #: ../../content/applications/inventory_and_mrp/manufacturing/management/subcontracting.rst:116
 msgid ""
