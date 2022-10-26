@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0 docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-19 21:16+0800\n"
-"PO-Revision-Date: 2022-10-26 14:55+0000\n"
+"PO-Revision-Date: 2022-10-26 15:07+0000\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/"
 "odoo-doc/administration/zh_Hans/>\n"
@@ -3099,7 +3099,7 @@ msgstr ""
 
 #: ../../content/administration/maintain/online.rst:93
 msgid "Domains"
-msgstr ""
+msgstr "域"
 
 #: ../../content/administration/maintain/online.rst:95
 msgid "Configure custom domains to access the database via another URL."
@@ -3625,7 +3625,7 @@ msgstr ""
 
 #: ../../content/administration/odoo_sh/advanced.rst:5
 msgid "Advanced"
-msgstr ""
+msgstr "高级"
 
 #: ../../content/administration/odoo_sh/advanced/containers.rst:4
 msgid "Containers"
@@ -4281,7 +4281,7 @@ msgstr ""
 
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:180
 msgid "Shell"
-msgstr ""
+msgstr "Shell"
 
 #: ../../content/administration/odoo_sh/getting_started/branches.rst:181
 msgid ""
