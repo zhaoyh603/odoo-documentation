@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0 docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-19 21:16+0800\n"
-"PO-Revision-Date: 2022-10-26 15:26+0000\n"
+"PO-Revision-Date: 2022-10-26 15:29+0000\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/"
 "odoo-doc/administration/zh_Hans/>\n"
@@ -1305,7 +1305,7 @@ msgstr ""
 
 #: ../../content/administration/install/install.rst:189
 msgid "Next, execute the following commands **as root**:"
-msgstr "接下来，以 **root ** 用户身份执行以下命令："
+msgstr "接下来，以 **root** 用户身份执行以下命令："
 
 #: ../../content/administration/install/install.rst:197
 msgid "This will install Odoo as a service, create the necessary PostgreSQL_ user and automatically start the server."
