@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0 docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-19 21:16+0800\n"
-"PO-Revision-Date: 2022-10-25 17:10+0000\n"
+"PO-Revision-Date: 2022-10-26 14:55+0000\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/"
 "odoo-doc/administration/zh_Hans/>\n"
@@ -86,27 +86,30 @@ msgstr ""
 
 #: ../../content/administration/install/cdn.rst:57
 msgid "Why should I activate CORS?"
-msgstr ""
+msgstr "为什么要激活CORS?"
 
 #: ../../content/administration/install/cdn.rst:59
 msgid ""
 "A security restriction in some browsers (Firefox and Chrome at time of writing) prevents a remotely linked CSS file to fetch relative resources "
 "on this same external server."
-msgstr ""
+msgstr "某些浏览器(在撰写本文时是Firefox和Chrome)的安全限制阻止远程链接的CSS文件在同"
+"一外部服务器上获取相关资源。"
 
 #: ../../content/administration/install/cdn.rst:63
 msgid ""
 "If you don't activate the CORS option in the CDN zone, the more obvious resulting problem on a default Odoo website will be the lack of font-"
 "awesome icons because the font file declared in the font-awesome CSS won't be loaded on the remote server."
 msgstr ""
+"如果你不激活CDN区域的CORS选项，在默认的Odoo网站上将会看到缺少 font-awesome "
+"图标，因为在 font-awesome CSS中声明的字体文件不会加载到远程服务器上。"
 
 #: ../../content/administration/install/cdn.rst:68
 msgid "Here's what you would see on your homepage in such a case:"
-msgstr ""
+msgstr "在这种情况下，会在主页上看到以下内容:"
 
 #: ../../content/administration/install/cdn.rst:73
 msgid "A security error message will also appear in the browser's console:"
-msgstr ""
+msgstr "浏览器的控制台中还会出现一条安全错误消息:"
 
 #: ../../content/administration/install/cdn.rst:78
 msgid "Enabling the CORS option in the CDN fixes this issue."
