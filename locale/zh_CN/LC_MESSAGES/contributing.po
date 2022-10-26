@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-14 18:54+0800\n"
-"PO-Revision-Date: 2022-10-25 17:10+0000\n"
+"PO-Revision-Date: 2022-10-26 15:07+0000\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/"
 "odoo-doc/contributing/zh_Hans/>\n"
@@ -1071,7 +1071,7 @@ msgstr ""
 
 #: ../../content/contributing/development/coding_guidelines.rst:990
 msgid "Git"
-msgstr ""
+msgstr "Git"
 
 #: ../../content/contributing/development/coding_guidelines.rst:993
 msgid "Configure your git"
@@ -1504,7 +1504,7 @@ msgstr ""
 
 #: ../../content/contributing/documentation.rst:154
 msgid "Fetch the sources"
-msgstr ""
+msgstr "获取源代码"
 
 #: ../../content/contributing/documentation.rst:156
 msgid ""
