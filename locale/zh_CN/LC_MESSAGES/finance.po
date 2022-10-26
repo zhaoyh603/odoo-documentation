@@ -41,7 +41,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-19 21:16+0800\n"
-"PO-Revision-Date: 2022-10-26 14:55+0000\n"
+"PO-Revision-Date: 2022-10-26 15:07+0000\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/"
 "odoo-doc/finance/zh_Hans/>\n"
@@ -161,7 +161,6 @@ msgstr ""
 "导入步骤，进入 :menuselection:`会计 --> 概览 --> 银行`，点击 *导入银行对账单* ，或者移动到三个点号，然后点击 "
 "*导入银行对账单*。"
 
-#, fuzzy
 msgid "Import a bank statement file in Odoo Accounting"
 msgstr "在Odoo Accounting中导入银行对账单文件"
 
@@ -175,9 +174,8 @@ msgid ""
 "Options** and **map** the different columns you want to import."
 msgstr "Odoo 打开  **入工**  ，使用这个工具你可以设置  **式选**  ，同时这个工具还可以  ****  不同的列到你希望导入的数据。"
 
-#, fuzzy
 msgid "Register bank statements manually in Odoo Accounting"
-msgstr "在Odoo会计手动注册银行对账单"
+msgstr "在Odoo Accounting手动注册银行对账单"
 
 #: ../../content/applications/finance/accounting/bank/feeds/bank_statements.rst:46
 msgid ""
@@ -258,7 +256,6 @@ msgstr ""
 "要检查您的银行是否与Odoo兼容，请转到\"Odoo会计功能<https://www.odoo.com/page/accounting-"
 "features>\"_，然后单击*查看支持的机构列表*。"
 
-#, fuzzy
 msgid "Checking a bank's compatibility with Odoo"
 msgstr "检查银行与Odoo的兼容性"
 
@@ -424,7 +421,6 @@ msgid ""
 "clicking on the *Synchronize Now* button on the dashboard."
 msgstr "首次同步后，默认情况下，创建的日志每 12 小时同步一次。如果您愿意，可以通过单击仪表板上的*立即同步*按钮手动同步。"
 
-#, fuzzy
 msgid "Synchronize Now Button"
 msgstr "现在同步按钮"
 
@@ -435,9 +431,8 @@ msgid ""
 "Transactions* button."
 msgstr "或者，您可以转到：菜单选择：\"会计 - >配置 - >在线同步\"，选择您的机构，然后单击*获取交易*按钮。"
 
-#, fuzzy
 msgid "Online Synchronization Form view"
-msgstr "视图在线同步表单视图"
+msgstr "在线同步表单视图"
 
 #: ../../content/applications/finance/accounting/bank/feeds/bank_synchronization.rst:86
 msgid ""
@@ -512,9 +507,8 @@ msgstr ""
 "为此，请转到：菜单选择：\"应用程序 - "
 ">更新应用程序列表\"，删除搜索栏中的默认过滤器，然后键入：**account_online_synchronization**。然后，您可以单击\"安装\"按钮以安装新模块。"
 
-#, fuzzy
 msgid "Installation button of the account_online_synchronization module"
-msgstr "account_online_synchronization模块安装按钮"
+msgstr "account_online_synchronization 模块的安装按钮"
 
 #: ../../content/applications/finance/accounting/bank/feeds/bank_synchronization.rst:131
 msgid ""
@@ -708,7 +702,6 @@ msgstr ""
 "**Ponto** 是一项服务，可让公司和专业人士在一个地方汇总其帐户，并直接在一个应用程序中查看其所有交易。 "
 "它是一种第三方解决方案，正在不断扩大可以与Odoo同步的银行机构的数量。"
 
-#, fuzzy
 msgid "Logo of the Ponto brand"
 msgstr "Ponto品牌标志"
 
@@ -748,9 +741,8 @@ msgid "Once you are logged in, create an *organization*."
 msgstr "登录后，创建一个 *组织机构*。"
 
 #: ../../content/applications/finance/accounting/bank/feeds/ponto.rst
-#, fuzzy
 msgid "Fill out the form to add an organization in Ponto."
-msgstr "请填写此表格，在庞托添加一个组织。"
+msgstr "请填写此表单，在 Ponto 中添加一个组织。"
 
 #: ../../content/applications/finance/accounting/bank/feeds/ponto.rst
 msgid "Go to :menuselection:`Accounts --> Live`, and click on *Add account*."
@@ -768,9 +760,8 @@ msgid ""
 msgstr "选择您所在的国家/地区，您的银行机构，同意Ponto，然后按照屏幕上的步骤将您的银行帐户与您的Ponto帐户相关联。"
 
 #: ../../content/applications/finance/accounting/bank/feeds/ponto.rst
-#, fuzzy
 msgid "Add bank accounts to your Ponto account."
-msgstr "将银行账户添加到Ponto账户中。"
+msgstr "将银行账户添加到 Ponto 账户中。"
 
 #: ../../content/applications/finance/accounting/bank/feeds/ponto.rst:46
 msgid ""
@@ -807,9 +798,8 @@ msgid ""
 msgstr "在某些时候，您将必须授权要在Odoo中访问的帐户。请选择要同步的 **有帐** 。即使是来自其他银行机构的那些。"
 
 #: ../../content/applications/finance/accounting/bank/feeds/ponto.rst
-#, fuzzy
 msgid "Selection of the accounts you wish to synchronize with Odoo."
-msgstr "选择您希望与Odoo同步的帐户。"
+msgstr "选择希望 同步的帐户。"
 
 #: ../../content/applications/finance/accounting/bank/feeds/ponto.rst:64
 msgid "Finish the flow."
