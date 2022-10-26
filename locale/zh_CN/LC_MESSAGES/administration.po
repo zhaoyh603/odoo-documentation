@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0 docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-19 21:16+0800\n"
-"PO-Revision-Date: 2022-10-26 15:07+0000\n"
-"Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
+"PO-Revision-Date: 2022-10-26 15:26+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/"
 "odoo-doc/administration/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -124,8 +124,9 @@ msgid ""
 "This document describes basic steps to set up Odoo in production or on an internet-facing server. It follows :ref:`installation <setup/install>`, "
 "and is not generally necessary for a development systems that is not exposed on the internet."
 msgstr ""
-"本文档描述了在生产环境或面向互联网的服务上设置 Odoo 的基本步骤。对于未暴露在互联网上的开发系统 :ref:`installation <setup/install>` ，通常不是必需"
-"的。"
+"本文档描述了在生产环境或面向互联网的服务上设置 Odoo 的基本步骤。"
+"对于未暴露在互联网上的开发系统 :ref:`installation <setup/install>` "
+"，通常不是必需的。"
 
 #: ../../content/administration/install/deploy.rst:10
 msgid "If you are setting up a public server, be sure to check our :ref:`security` recommendations!"
@@ -139,14 +140,16 @@ msgstr "数据库过滤（dbfilter）"
 msgid ""
 "Odoo is a multi-tenant system: a single Odoo system may run and serve a number of database instances. It is also highly customizable, with "
 "customizations (starting from the modules being loaded) depending on the \"current database\"."
-msgstr "Odoo是一个多租户系统，单个 Odoo 系统可以运行多个数据库实例。它也是高度可定制的，可以根据“当前数据库”进行定制(从加载模块开始)。"
+msgstr "Odoo是一个多租户系统，单个 Odoo 系统可以运行多个数据库实例。它也是高度可定制"
+"的，可以根据“当前数据库”进行定制(从加载模块开始)。"
 
 #: ../../content/administration/install/deploy.rst:21
 msgid ""
 "This is not an issue when working with the backend (web client) as a logged-in company user: the database can be selected when logging in, and "
 "customizations loaded afterwards."
 msgstr ""
-"This is not an issue when working with the backend (web client) as a logged-in company user。这不是问题，登录时选择数据库，之后加载自定义项。"
+"This is not an issue when working with the backend (web client) as a logged-"
+"in company user。这不是问题，登录时选择数据库，之后加载自定义项。"
 
 #: ../../content/administration/install/deploy.rst:25
 msgid ""
@@ -154,8 +157,10 @@ msgid ""
 "to load the website page or perform the operation. If multi-tenancy is not used that is not an issue, there's only one database to use, but if "
 "there are multiple databases accessible Odoo needs a rule to know which one it should use."
 msgstr ""
-"对于未登录的用户(门户、网站)来说，这就是一个问题，因为它们没有绑定到数据库，Odoo 需要知道应该使用哪个数据库来加载网站页面或执行操作。如果不使用多"
-"租户，这不是问题，因为只有一个数据库可以使用，但是如果有多个数据库可以访问，Odoo 需要一个规则来知道应该使用哪个。"
+"对于未登录的用户(门户、网站)来说，这就是一个问题，因为它们没有绑定到数据库，"
+"Odoo 需要知道应该使用哪个数据库来加载网站页面或执行操作。如果不使用多租户，这"
+"不是问题，因为只有一个数据库可以使用，但是如果有多个数据库可以访问，Odoo "
+"需要一个规则来知道应该使用哪个。"
 
 #: ../../content/administration/install/deploy.rst:31
 #, python-format
@@ -164,14 +169,18 @@ msgid ""
 "hostname (domain) that is being requested. The value is a `regular expression`_, possibly including the dynamically injected hostname (``%h``) or "
 "the first subdomain (``%d``) through which the system is being accessed."
 msgstr ""
-"这就是 :option:`--db-filter <odoo-bin --db-filter>` 的目的之一，它指定如何根据请求的主机名(域)选择数据库。该值是一个正在表达式 `regular "
-"expression`_ ，可能包括动态注入的主机名 (``%h``) 或访问的第一个子域 (``%d``) 。"
+"这就是 :option:`--db-filter <odoo-bin --db-filter>` "
+"的目的之一，它指定如何根据请求的主机名(域)选择数据库。该值是一个正在表达式 `"
+"regular expression`_ ，可能包括动态注入的主机名 (``%h``) 或访问的第一个子域 "
+"(``%d``) 。"
 
 #: ../../content/administration/install/deploy.rst:37
 msgid ""
 "For servers hosting multiple databases in production, especially if ``website`` is used, dbfilter **must** be set, otherwise a number of features "
 "will not work correctly."
-msgstr "对于在生产环境中托管多个数据库的服务器，特别是如果使用了 ``website`` ，则 **必须** 设置 dbfilter ，否则许多功能将无法正常工作。"
+msgstr ""
+"对于在生产环境中托管多个数据库的服务器，特别是如果使用了 ``website`` ，则 "
+"**必须** 设置 dbfilter ，否则许多功能将无法正常工作。"
 
 #: ../../content/administration/install/deploy.rst:42
 msgid "Configuration samples"
@@ -191,8 +200,9 @@ msgid ""
 "Show only databases matching the first subdomain after ``www``: for example the database \"mycompany\" will be shown if the incoming request was "
 "sent to ``www.mycompany.com`` or ``mycompany.co.uk``, but not for ``www2.mycompany.com`` or ``helpdesk.mycompany.com``."
 msgstr ""
-"只显示 ``www`` 之后的第一个子域名匹配的数据库。例如传入的请求是 ``www.mycompany.com`` 或 ``mycompany.co.uk`` ，将使用 ``mycompany`` 作为数据库。而"
-"传入 ``www2.mycompany.com`` 或 ``helpdesk.mycompany.com`` 时则不显示。"
+"只显示 ``www`` 之后的第一个子域名匹配的数据库。例如传入的请求是 ``www."
+"mycompany.com`` 或 ``mycompany.co.uk`` ，将使用 ``mycompany`` 作为数据库。"
+"而传入 ``www2.mycompany.com`` 或 ``helpdesk.mycompany.com`` 时则不显示。"
 
 #: ../../content/administration/install/deploy.rst:67
 msgid ""
@@ -200,8 +210,10 @@ msgid ""
 "only matching a single database per hostname, it is strongly recommended to block access to the database manager screens, and to use the ``--no-"
 "database-list`` startup parameter to prevent listing your databases, and to block access to the database management screens. See also security_."
 msgstr ""
-"正确的设置 :option:`--db-filter <odoo-bin --db-filter>` 选项是保护部署安全的重要部分。设置成功并确保每个主机名只匹配一个数据库，将有效阻止访问数据"
-"库管理器页面，并使用 ``--no-database-list`` 启动参数来阻止列出数据库，同样会阻止访问数据库管理页面。参见security_。"
+"正确的设置 :option:`--db-filter <odoo-bin --db-filter>` 选项是保护部署安全的"
+"重要部分。设置成功并确保每个主机名只匹配一个数据库，将有效阻止访问数据库管理"
+"器页面，并使用 ``--no-database-list`` "
+"启动参数来阻止列出数据库，同样会阻止访问数据库管理页面。参见security_。"
 
 #: ../../content/administration/install/deploy.rst:76 ../../content/administration/install/install.rst:428
 msgid "PostgreSQL"
@@ -211,7 +223,9 @@ msgstr "PostgreSQL"
 msgid ""
 "By default, PostgreSQL only allows connection over UNIX sockets and loopback connections (from \"localhost\", the same machine the PostgreSQL "
 "server is installed on)."
-msgstr "默认情况下，PostgreSQL只允许通过UNIX套接字和环回地址(“localhost”，即安装PostgreSQL服务器的机器的地址)进行连接。"
+msgstr ""
+"默认情况下，PostgreSQL只允许通过UNIX套接字和环回地址(“localhost”，即安装Postg"
+"reSQL服务器的机器的地址)进行连接。"
 
 #: ../../content/administration/install/deploy.rst:82
 msgid ""
@@ -219,20 +233,25 @@ msgid ""
 "Odoo and PostgreSQL to execute on different machines [#different-machines]_ it will need to `listen to network interfaces`_ [#remote-socket]_, "
 "either:"
 msgstr ""
-"如果 Odoo 和 PostgreSQL部署在同一台主机上，UNIX套接字是可以的，并且在默认情况下可不提供主机名。但是如果 Odoo 和 PostgreSQL 运行在不同的主机 "
-"[#different-machines]_ 上，就需要监听网络接口 [#remote-socket]_ :"
+"如果 Odoo 和 PostgreSQL部署在同一台主机上，UNIX套接字是可以的，并且在默认情况"
+"下可不提供主机名。但是如果 Odoo 和 PostgreSQL 运行在不同的主机 [#different-"
+"machines]_ 上，就需要监听网络接口 [#remote-socket]_ :"
 
 #: ../../content/administration/install/deploy.rst:87
 msgid ""
 "Only accept loopback connections and `use an SSH tunnel`_ between the machine on which Odoo runs and the one on which PostgreSQL runs, then "
 "configure Odoo to connect to its end of the tunnel"
-msgstr "在运行 Odoo 的主机和运行 PostgreSQL 的主机之间采用环回地址并使用SSH隧道 `use an SSH tunnel`_ 连接时，需要配置 Odoo 连接到SSH隧道"
+msgstr ""
+"在运行 Odoo 的主机和运行 PostgreSQL 的主机之间采用环回地址并使用SSH隧道 `use "
+"an SSH tunnel`_ 连接时，需要配置 Odoo 连接到SSH隧道"
 
 #: ../../content/administration/install/deploy.rst:90
 msgid ""
 "Accept connections to the machine on which Odoo is installed, possibly over ssl (see `PostgreSQL connection settings`_ for details), then "
 "configure Odoo to connect over the network"
-msgstr "在安装 Odoo 的主机上通过 ssl (有关详细信息请参阅 `PostgreSQL connection settings`_ )连接时，需要 Odoo 通过网络连接"
+msgstr ""
+"在安装 Odoo 的主机上通过 ssl (有关详细信息请参阅 `PostgreSQL connection "
+"settings`_ )连接时，需要 Odoo 通过网络连接"
 
 #: ../../content/administration/install/deploy.rst:95 ../../content/administration/install/deploy.rst:145
 #: ../../content/administration/install/deploy.rst:231 ../../content/administration/install/deploy.rst:271
@@ -249,11 +268,15 @@ msgstr "在 192.168.1.x 上配置允许 tcp 连接"
 
 #: ../../content/administration/install/deploy.rst:100
 msgid "in ``/etc/postgresql/<YOUR POSTGRESQL VERSION>/main/pg_hba.conf`` set:"
-msgstr "在配置文件 ``/etc/postgresql/<YOUR POSTGRESQL VERSION>/main/pg_hba.conf`` 中设置如下:"
+msgstr ""
+"在配置文件 ``/etc/postgresql/<YOUR POSTGRESQL VERSION>/main/pg_hba.conf`` "
+"中设置如下:"
 
 #: ../../content/administration/install/deploy.rst:108
 msgid "in ``/etc/postgresql/<YOUR POSTGRESQL VERSION>/main/postgresql.conf`` set:"
-msgstr "在配置文件 ``/etc/postgresql/<YOUR POSTGRESQL VERSION>/main/postgresql.conf`` 中设置如下:"
+msgstr ""
+"在配置文件 ``/etc/postgresql/<YOUR POSTGRESQL VERSION>/main/postgresql.conf``"
+" 中设置如下:"
 
 #: ../../content/administration/install/deploy.rst:119
 msgid "Configuring Odoo"
@@ -264,12 +287,15 @@ msgid ""
 "Out of the box, Odoo connects to a local postgres over UNIX socket via port 5432. This can be overridden using :ref:`the database options "
 "<reference/cmdline/server/database>` when your Postgres deployment is not local and/or does not use the installation defaults."
 msgstr ""
-"开箱即用，Odoo通过UNIX套接字连接到本地postgres，端口为5432。当Postgres不在本地部署或不使用安装默认值时，可以使用 :ref:`数据库选项<reference/"
-"cmdline/server/database>` 重新配置。"
+"开箱即用，Odoo通过UNIX套接字连接到本地postgres，端口为5432。当Postgres不在本"
+"地部署或不使用安装默认值时，可以使用 :ref:`数据库选项<reference/cmdline/"
+"server/database>` 重新配置。"
 
 #: ../../content/administration/install/deploy.rst:126
 msgid "The :ref:`packaged installers <setup/install/packaged>` will automatically create a new user (``odoo``) and set it as the database user."
-msgstr "使用package安装时 :ref:`packaged installers <setup/install/packaged>` 将自动创建一个新用户（ ``odoo`` ），并将其设置为数据库用户。"
+msgstr ""
+"使用package安装时 :ref:`packaged installers <setup/install/packaged>` "
+"将自动创建一个新用户（ ``odoo`` ），并将其设置为数据库用户。"
 
 #: ../../content/administration/install/deploy.rst:129
 msgid ""
@@ -277,24 +303,30 @@ msgid ""
 "simply checked before performing database alterations. It should be set to a randomly generated value to ensure third parties can not use this "
 "interface."
 msgstr ""
-"数据库管理界面受 ``admin_passwd`` 设置保护。只能使用配置文件设置 ``admin_passwd`` （译注：说的应该是只能存储在配置文件中吧，数据库管理界面也能"
-"改。），只需在进行数据库更改之前检查即可。它应该设置为随机生成的值，以确保第三方不能使用此接口。"
+"数据库管理界面受 ``admin_passwd`` 设置保护。只能使用配置文件设置 "
+"``admin_passwd`` （译注：说的应该是只能存储在配置文件中吧，数据库管理界面也能"
+"改。），只需在进行数据库更改之前检查即可。它应该设置为随机生成的值，以确保第"
+"三方不能使用此接口。"
 
 #: ../../content/administration/install/deploy.rst:134
 msgid ""
 "All database operations use the :ref:`database options <reference/cmdline/server/database>`, including the database management screen. For the "
 "database management screen to work requires that the PostgreSQL user have ``createdb`` right."
 msgstr ""
-"包括数据库管理界面在内的所有数据库操作都使用 :ref:`数据库选项 <reference/cmdline/server/database>` 中的设置，使用数据库管理界面还需要PostgreSQL用"
-"户具有 ``createdb`` 权限。"
+"包括数据库管理界面在内的所有数据库操作都使用 :ref:`数据库选项 <reference/"
+"cmdline/server/database>` 中的设置，"
+"使用数据库管理界面还需要PostgreSQL用户具有 ``createdb`` 权限。"
 
 #: ../../content/administration/install/deploy.rst:138
 msgid ""
 "Users can always drop databases they own. For the database management screen to be completely non-functional, the PostgreSQL user needs to be "
 "created with ``no-createdb`` and the database must be owned by a different PostgreSQL user."
 msgstr ""
-"因为 PostgreSQL 数据库中用户始终可以删除其拥有的数据库。要想使数据库管理界面完全不起作用， 需要在创建 PostgreSQL 用户时使用 ``no-createdb`` （此角"
-"色不可以创建新数据库）参数，并且数据库的拥有者必须是 PostgreSQL 的其他用户。"
+"因为 PostgreSQL "
+"数据库中用户始终可以删除其拥有的数据库。要想使数据库管理界面完全不起作用， "
+"需要在创建 PostgreSQL 用户时使用 ``no-createdb`` "
+"（此角色不可以创建新数据库）参数，并且数据库的拥有者必须是 PostgreSQL "
+"的其他用户。"
 
 #: ../../content/administration/install/deploy.rst:142
 msgid "the PostgreSQL user *must not* be a superuser"
@@ -329,12 +361,15 @@ msgid ""
 "Since Odoo 11.0, you can enforce ssl connection between Odoo and PostgreSQL. in Odoo the db_sslmode control the ssl security of the connection "
 "with value chosen out of 'disable', 'allow', 'prefer', 'require', 'verify-ca' or 'verify-full'"
 msgstr ""
-"从 Odoo 11.0 开始，可以设置强制采用SSL方式连接 PostgreSQL。通过配置参数 db_sslmode 来实现。选项包括 ‘disable’, ‘allow’, ‘prefer’, ‘require’, "
-"‘verify-ca’ or ‘verify-full’ 。"
+"从 Odoo 11.0 开始，可以设置强制采用SSL方式连接 PostgreSQL。通过配置参数 "
+"db_sslmode 来实现。选项包括 ‘disable’, ‘allow’, ‘prefer’, ‘require’, ‘verify-"
+"ca’ or ‘verify-full’ 。"
 
 #: ../../content/administration/install/deploy.rst:175
 msgid "`PostgreSQL Doc <https://www.postgresql.org/docs/12/static/libpq-ssl.html>`_"
-msgstr "详见 `PostgreSQL Doc <https://www.postgresql.org/docs/12/static/libpq-ssl.html>`_"
+msgstr ""
+"详见 `PostgreSQL Doc <https://www.postgresql.org/docs/12/static/libpq-ssl."
+"html>`_"
 
 #: ../../content/administration/install/deploy.rst:180
 msgid "Builtin server"
@@ -342,21 +377,25 @@ msgstr "内置服务器"
 
 #: ../../content/administration/install/deploy.rst:182
 msgid "Odoo includes built-in HTTP servers, using either multithreading or multiprocessing."
-msgstr "Odoo 内建HTTP服务器，支持多线程或多进程（ multithreading or multiprocessing ）。"
+msgstr "Odoo 内建HTTP服务器，支持多线程或多进程（ multithreading or multiprocessing "
+"）。"
 
 #: ../../content/administration/install/deploy.rst:185
 msgid ""
 "For production use, it is recommended to use the multiprocessing server as it increases stability, makes somewhat better use of computing "
 "resources and can be better monitored and resource-restricted."
-msgstr "对于生产模式下，建议使用多进程（ multiprocessing ）方式，因为它可以提高稳定性，更好地利用计算资源，并且能够监控和限制资源使用。"
+msgstr ""
+"对于生产模式下，建议使用多进程（ multiprocessing ）方式，因为它可以提高稳定性"
+"，更好地利用计算资源，并且能够监控和限制资源使用。"
 
 #: ../../content/administration/install/deploy.rst:189
 msgid ""
 "Multiprocessing is enabled by configuring :option:`a non-zero number of worker processes <odoo-bin --workers>`, the number of workers should be "
 "based on the number of cores in the machine (possibly with some room for cron workers depending on how much cron work is predicted)"
 msgstr ""
-"多进程（Multiprocessing）模式通过 :option:`a non-zero number of worker processes <odoo-bin --workers>` 选项启用，worker的数量应基于机器中的CPU核"
-"数（还需要为 cron 的执行留出一些空间，具体取决于预测的cron工作量）"
+"多进程（Multiprocessing）模式通过 :option:`a non-zero number of worker "
+"processes <odoo-bin --workers>` 选项启用，worker的数量应基于机器中的CPU核数（"
+"还需要为 cron 的执行留出一些空间，具体取决于预测的cron工作量）"
 
 #: ../../content/administration/install/deploy.rst:193
 msgid "Worker limits can be configured based on the hardware configuration to avoid resources exhaustion"
@@ -393,7 +432,8 @@ msgstr "一般认为20%的请求是繁重任务的请求，而80%是轻量任务
 
 #: ../../content/administration/install/deploy.rst:209
 msgid "A heavy worker, when all computed field are well designed, SQL requests are well designed, ... is estimated to consume around 1GB of RAM"
-msgstr "一个承担繁重请求任务的 worker，在所有计算字段都设计得很好，SQL请求也设计得很好的情况下，消耗内存大约为1GB"
+msgstr "一个承担繁重请求任务的 worker，在所有计算字段都设计得很好，SQL请求也设计得很"
+"好的情况下，消耗内存大约为1GB"
 
 #: ../../content/administration/install/deploy.rst:210
 msgid "A lighter worker, in the same scenario, is estimated to consume around 150MB of RAM"
@@ -401,7 +441,9 @@ msgstr "承担轻量请求任务的 worker 消耗的内存大约150MB"
 
 #: ../../content/administration/install/deploy.rst:212
 msgid "Needed RAM = #worker * ( (light_worker_ratio * light_worker_ram_estimation) + (heavy_worker_ratio * heavy_worker_ram_estimation) )"
-msgstr "所需内存 = #worker * ( (轻量任务worker占比 * 轻量任务worker内存消耗) + (繁重任务worker占比 * 繁重任务worker内存消耗) )"
+msgstr ""
+"所需内存 = #worker * ( (轻量任务worker占比 * 轻量任务worker内存消耗) + ("
+"繁重任务worker占比 * 繁重任务worker内存消耗) )"
 
 #: ../../content/administration/install/deploy.rst:215 ../../content/administration/install/deploy.rst:375
 msgid "LiveChat"
@@ -412,24 +454,26 @@ msgid ""
 "In multiprocessing, a dedicated LiveChat worker is automatically started and listening on :option:`the gevent port <odoo-bin --gevent-port>` but "
 "the client will not connect to it."
 msgstr ""
-"在多进程（multiprocessing）模式下，LiveChat的 worker 会自动启动并监听端口 :option:`the gevent port <odoo-bin —gevent-port>` ，但客户端不会连接到"
-"它。"
+"在多进程（multiprocessing）模式下，LiveChat的 worker 会自动启动并监听端口 "
+":option:`the gevent port <odoo-bin —gevent-port>` ，但客户端不会连接到它。"
 
 #: ../../content/administration/install/deploy.rst:221
 msgid ""
 "Instead you must have a proxy redirecting requests whose URL starts with ``/websocket/`` to the gevent port. Other request should be proxied to "
 "the :option:`normal HTTP port <odoo-bin --http-port>`"
 msgstr ""
-"必须具有一个接受重定向请求的端口，该请求的URL以 ``/websocket/`` 开头。其他请求则重定向到正常 HTTP 请求端口 :option:`normal HTTP port <odoo-bin —"
-"http-port>`"
+"必须具有一个接受重定向请求的端口，该请求的URL以 ``/websocket/`` 开头。"
+"其他请求则重定向到正常 HTTP 请求端口 :option:`normal HTTP port <odoo-bin "
+"—http-port>`"
 
 #: ../../content/administration/install/deploy.rst:225
 msgid ""
 "To achieve such a thing, you'll need to deploy a reverse proxy in front of Odoo, like nginx or apache. When doing so, you'll need to forward some "
 "more http Headers to Odoo, and activate the proxy_mode in Odoo configuration to have Odoo read those headers."
 msgstr ""
-"要实现这样的目标，需要在Odoo前面部署一个反向代理服务，如nginx或apache。还需要将更多的http Headers 转发到Odoo，并在Odoo配置中激活proxy_mode，让Odoo"
-"读取这些 headers。"
+"要实现这样的目标，需要在Odoo前面部署一个反向代理服务，如nginx或apache。"
+"还需要将更多的http Headers 转发到Odoo，并在Odoo配置中激活proxy_mode，"
+"让Odoo读取这些 headers。"
 
 #: ../../content/administration/install/deploy.rst:233
 msgid "Server with 4 CPU, 8 Thread"
@@ -449,7 +493,8 @@ msgstr "理论上CPU能提供的最大worker数为：(4 * 2) + 1 = 9"
 
 #: ../../content/administration/install/deploy.rst:238
 msgid "We'll use 8 workers + 1 for cron. We'll also use a monitoring system to measure cpu load, and check if it's between 7 and 7.5 ."
-msgstr "按以上推算，将设置为 8 个 worker + 1 个 cron。还需要使用监视系统来测量CPU负载，并检查它是否在7和7.5之间。"
+msgstr "按以上推算，将设置为 8 个 worker + 1 个 "
+"cron。还需要使用监视系统来测量CPU负载，并检查它是否在7和7.5之间。"
 
 #: ../../content/administration/install/deploy.rst:239
 msgid "RAM = 9 * ((0.8*150) + (0.2*1024)) ~= 3Go RAM for Odoo"
@@ -1034,7 +1079,8 @@ msgstr ":ref:`setup/install/source`"
 msgid ""
 "Provides greater flexibility:  e.g. allow multiple running Odoo versions on the same system. Good for developing modules, can be used as base for "
 "production deployment."
-msgstr "源代码安装提供更大的灵活性。例如允许在同一系统上运行多个Odoo版本。适合开发，也可用于生产部署。"
+msgstr "源代码安装提供更大的灵活性。例如允许在同一系统上运行多个Odoo版本。适合开发，"
+"也可用于生产部署。"
 
 #: ../../content/administration/install/install.rst:28
 msgid ":ref:`setup/install/docker`"
@@ -1052,13 +1098,17 @@ msgstr "版本"
 msgid ""
 "There are two different Editions_ of Odoo: the Community and Enterprise versions. Using the Enterprise version is possible on our SaaS_ and "
 "accessing the code is restricted to Enterprise customers and partners. The Community version is freely available to anyone."
-msgstr "Odoo有两种不同的版本 Editions_ ：社区版和企业版。可以在 SaaS_ 上使用企业版，访问代码仅限于企业客户和合作伙伴。社区版本可供任何人免费使用。"
+msgstr ""
+"Odoo有两种不同的版本 Editions_ ：社区版和企业版。可以在 SaaS_ "
+"上使用企业版，访问代码仅限于企业客户和合作伙伴。社区版本可供任何人免费使用。"
 
 #: ../../content/administration/install/install.rst:40
 msgid ""
 "If you already use the Community version and wish to upgrade to Enterprise, please refer to :ref:`setup/enterprise` (except for :ref:`setup/"
 "install/source`)."
-msgstr "如果已经使用社区版本并希望升级到企业版，请参阅 :ref:`setup/enterprise` （除了 :ref:`setup/install/source` ）。"
+msgstr ""
+"如果已经使用社区版本并希望升级到企业版，请参阅 :ref:`setup/enterprise` （"
+"除了 :ref:`setup/install/source` ）。"
 
 #: ../../content/administration/install/install.rst:47
 msgid "Online"
@@ -1072,7 +1122,8 @@ msgstr "Demo"
 msgid ""
 "To simply get a quick idea of Odoo, demo_ instances are available. They are shared instances which only live for a few hours, and can be used to "
 "browse around and try things out with no commitment."
-msgstr "使用 demo_ 实例是了解Odoo最简单的方法。它们是仅存活几个小时的共享实例，可用于浏览和使用，而无需付费。"
+msgstr "使用 demo_ 实例是了解Odoo最简单的方法。它们是仅存活几个小时的共享实例，可用于"
+"浏览和使用，而无需付费。"
 
 #: ../../content/administration/install/install.rst:56
 msgid "Demo_ instances require no local installation, just a web browser."
@@ -1088,8 +1139,9 @@ msgid ""
 "discover and test Odoo and do non-code customizations (i.e. incompatible with custom modules or the Odoo Apps Store) without having to install it "
 "locally."
 msgstr ""
-"Odoo的 SaaS_ 从一开始就很简单，由Odoo S.A.完全管理和迁移，提供私有实例，并且提供免费试用。它可用于发现和测试Odoo，并可进行非代码级配置（即与自定义"
-"模块或Odoo应用程序商店不兼容），而无需在本地安装。"
+"Odoo的 SaaS_ 从一开始就很简单，由Odoo S.A.完全管理和迁移，提供私有实例，并且"
+"提供免费试用。它可用于发现和测试Odoo，并可进行非代码级配置（即与自定义模块或O"
+"doo应用程序商店不兼容），而无需在本地安装。"
 
 #: ../../content/administration/install/install.rst:66
 msgid "Can be used for both testing Odoo and long-term production use."
@@ -1107,7 +1159,9 @@ msgstr "安装包安装"
 msgid ""
 "Odoo provides packaged installers for Windows, deb-based distributions (Debian, Ubuntu, …) and RPM-based distributions (Fedora, CentOS, RHEL, …) "
 "for both the Community and Enterprise versions."
-msgstr "Odoo为Windows、基于deb的发行版（Debian，Ubuntu，…）和基于RPM的发行版（Fedora，CentOS，RHEL等）提供安装程序包，同时提供社区和企业版本。"
+msgstr ""
+"Odoo为Windows、基于deb的发行版（Debian，Ubuntu，…）和基于RPM的发行版（Fedora"
+"，CentOS，RHEL等）提供安装程序包，同时提供社区和企业版本。"
 
 #: ../../content/administration/install/install.rst:81
 msgid "These packages automatically set up all dependencies (for the Community version), but may be difficult to keep up-to-date."
@@ -1118,8 +1172,9 @@ msgid ""
 "Official Community packages with all relevant dependency requirements are available on our nightly_ server. Both Community and Enterprise "
 "packages can be downloaded from our download_ page (you must to be logged in as a paying customer or partner to download the Enterprise packages)."
 msgstr ""
-"具有所有相关依赖项的官方社区版软件包可每日构建服务器 nightly_ 上获取。社区和企业软件包都可以从我们的下载页面下载 download_（必须以付费客户或合作伙"
-"伴身份登录才能下载企业软件包）。"
+"具有所有相关依赖项的官方社区版软件包可每日构建服务器 nightly_ 上获取。"
+"社区和企业软件包都可以从我们的下载页面下载 "
+"download_（必须以付费客户或合作伙伴身份登录才能下载企业软件包）。"
 
 #: ../../content/administration/install/install.rst:90 ../../content/administration/install/install.rst:296
 #: ../../content/administration/install/install.rst:367 ../../content/administration/install/install.rst:432
@@ -1129,7 +1184,8 @@ msgstr "Windows"
 
 #: ../../content/administration/install/install.rst:92
 msgid "Download the installer from our nightly_ server (Community only) or the Windows installer from the download_ page (any edition)."
-msgstr "从每日构建服务器 nightly_ （仅限社区）下载安装程序，或从下载页面（任何版本）下载 download_ Windows 安装程序。"
+msgstr "从每日构建服务器 nightly_ （仅限社区）下载安装程序，或从下载页面（任何版本）"
+"下载 download_ Windows 安装程序。"
 
 #: ../../content/administration/install/install.rst:94
 msgid "Execute the downloaded file."
@@ -1137,7 +1193,8 @@ msgstr "执行下载的文件。"
 
 #: ../../content/administration/install/install.rst
 msgid "On Windows 8 and later you may see a warning titled \"Windows protected your PC\"."
-msgstr "在Windows 8 及以后的版本，可能会看到标题为\"Windows已经保护您的电脑\"的警告信息。"
+msgstr "在Windows 8 及以后的版本，可能会看到标题为\"Windows已经保护您的电脑"
+"\"的警告信息。"
 
 #: ../../content/administration/install/install.rst
 msgid "Click on **More Info** and then on **Run anyway**."
@@ -1175,8 +1232,9 @@ msgid ""
 "Odoo needs a `PostgreSQL`_ server to run properly. The default configuration for the Odoo 'deb' package is to use the PostgreSQL server on the "
 "same host as your Odoo instance. Execute the following command in order to install the PostgreSQL server:"
 msgstr ""
-"Odoo需要 `PostgreSQL`_ 数据库服务才能正常运行。'deb' 软件包的默认配置是使用与 Odoo 实例相同的主机上的 PostgreSQL 服务。执行以下命令安装"
-"PostgreSQL："
+"Odoo需要 `PostgreSQL`_ 数据库服务才能正常运行。'deb' "
+"软件包的默认配置是使用与 Odoo 实例相同的主机上的 PostgreSQL "
+"服务。执行以下命令安装PostgreSQL："
 
 #: ../../content/administration/install/install.rst:123 ../../content/administration/install/install.rst:159
 #: ../../content/administration/install/install.rst:220
@@ -1187,15 +1245,18 @@ msgstr "Fedora"
 msgid ""
 "Odoo needs a `PostgreSQL`_ server to run properly. Make sure that the `sudo` command is available and well configured and, only then, execute the "
 "following command in order to install the PostgreSQL server:"
-msgstr "Odoo需要 `PostgreSQL`_ 数据库服务才能正常运行。确保 `sudo` 命令可用且配置良好，然后执行以下命令以安装PostgreSQL："
+msgstr ""
+"Odoo需要 `PostgreSQL`_ 数据库服务才能正常运行。确保 `sudo` "
+"命令可用且配置良好，然后执行以下命令以安装PostgreSQL："
 
 #: ../../content/administration/install/install.rst:137 ../../content/administration/install/install.rst:645
 msgid ""
 "`wkhtmltopdf` is not installed through **pip** and must be installed manually in version `0.12.5 <the wkhtmltopdf download page_>`_ for it to "
 "support headers and footers. See our `wiki <https://github.com/odoo/odoo/wiki/Wkhtmltopdf>`_ for more details on the various versions."
 msgstr ""
-"`wkhtmltopdf` 不是通过 **pip** 安装的。必须手工安装 `0.12.5 <the wkhtmltopdf download page_>`_ 版本才能支持页眉页脚。有关各种版本的更多详细信息，"
-"请参阅 `wiki <https://github.com/odoo/odoo/wiki/Wkhtmltopdf>`_ 。"
+"`wkhtmltopdf` 不是通过 **pip** 安装的。必须手工安装 `0.12.5 <the wkhtmltopdf "
+"download page_>`_ 版本才能支持页眉页脚。有关各种版本的更多详细信息，请参阅 `"
+"wiki <https://github.com/odoo/odoo/wiki/Wkhtmltopdf>`_ 。"
 
 #: ../../content/administration/install/install.rst:142
 msgid "Repository"
@@ -1205,7 +1266,9 @@ msgstr "存储库"
 msgid ""
 "Odoo S.A. provides a repository that can be used with Debian and Ubuntu distributions. It can be used to install *Odoo Community Edition* by "
 "executing the following commands **as root**:"
-msgstr "Odoo S.A.提供了一个可以与 Debian 和 Ubuntu 发行版一起使用的存储库。以 `root` 身份执行以下命令来安装 *Odoo 社区版* ："
+msgstr ""
+"Odoo S.A.提供了一个可以与 Debian 和 Ubuntu 发行版一起使用的存储库。以 `root` "
+"身份执行以下命令来安装 *Odoo 社区版* ："
 
 #: ../../content/administration/install/install.rst:157
 msgid "You can then use the usual `apt-get upgrade` command to keep your installation up-to-date."
@@ -1215,7 +1278,8 @@ msgstr "可以使用 `apt-get upgrade` 命令来安装最新版。"
 msgid ""
 "Odoo S.A. provides a repository that can be used with the Fedora distributions. It can be used to install *Odoo Community Edition* by executing "
 "the following commands:"
-msgstr "Odoo S.A.提供了一个可以与 Fedora 发行版一起使用的存储库。可以执行以下命令来安装 *Odoo 社区版* ："
+msgstr "Odoo S.A.提供了一个可以与 Fedora 发行版一起使用的存储库。"
+"可以执行以下命令来安装 *Odoo 社区版* ："
 
 #: ../../content/administration/install/install.rst:172
 msgid "At this moment, there is no nightly repository for the Enterprise Edition."
@@ -1229,11 +1293,15 @@ msgstr "分发包"
 msgid ""
 "Instead of using the repository as described above, the 'deb' packages for both the *Community* and *Enterprise* editions can be downloaded from "
 "the `official download page <download_>`_."
-msgstr "无需使用上述存储库， *社区版* 和 *企业版* 的“deb”包都可以从官方下载页面 `official download page <download_>`_ 下载。"
+msgstr ""
+"无需使用上述存储库， *社区版* 和 *企业版* 的“deb”包都可以从官方下载页面 `"
+"official download page <download_>`_ 下载。"
 
 #: ../../content/administration/install/install.rst:186
 msgid "Odoo 15.0 'deb' package currently supports `Debian 11 (Bullseye)`_, `Ubuntu 20.04 (Focal)`_ or above."
-msgstr "Odoo 16.0 ‘deb’ 软件包目前支持 `Debian 11 （Bullseye）`_ 、 `Ubuntu 20.04 （Focal）`_ 或更高版本。"
+msgstr ""
+"Odoo 16.0 ‘deb’ 软件包目前支持 `Debian 11 （Bullseye）`_ 、 `Ubuntu 20.04 "
+"（Focal）`_ 或更高版本。"
 
 #: ../../content/administration/install/install.rst:189
 msgid "Next, execute the following commands **as root**:"
@@ -1241,11 +1309,14 @@ msgstr "接下来，以 **root ** 用户身份执行以下命令："
 
 #: ../../content/administration/install/install.rst:197
 msgid "This will install Odoo as a service, create the necessary PostgreSQL_ user and automatically start the server."
-msgstr "这将作为一个服务（service）安装Odoo，创建必要的 PostgreSQL_ 用户并自动启动服务。"
+msgstr "这将作为一个服务（service）安装Odoo，创建必要的 PostgreSQL_ "
+"用户并自动启动服务。"
 
 #: ../../content/administration/install/install.rst:201
 msgid "The `python3-xlwt` Debian package does not exists in Debian Buster nor Ubuntu 18.04. This python module is needed to export into xls format."
-msgstr "`python3-xlwt` Debian 软件包在 Debian Buster 和 Ubuntu 18.04 中都不存在。Odoo 需要此python模块才能导出为xls格式。"
+msgstr ""
+"`python3-xlwt` Debian 软件包在 Debian Buster 和 Ubuntu 18.04 中都不存在。"
+"Odoo 需要此python模块才能导出为xls格式。"
 
 #: ../../content/administration/install/install.rst:204
 msgid "If you need the feature, you can install it manually with:"
@@ -1256,8 +1327,9 @@ msgid ""
 "The `num2words` python package does not exists in Debian Buster nor Ubuntu 18.04. Textual amounts will not be rendered by Odoo and this could "
 "cause problems with the `l10n_mx_edi` module."
 msgstr ""
-"`num2words` python 软件包在 Debian Buster 和 Ubuntu 18.04 中都不存在。没有这个包会导致 `l10n_mx_edi` 模块出现问题，文本金额（Textual amounts 金额"
-"的格式化？千分符等？）的显示会出现问题。"
+"`num2words` python 软件包在 Debian Buster 和 Ubuntu 18.04 中都不存在。"
+"没有这个包会导致 `l10n_mx_edi` 模块出现问题，文本金额（Textual amounts "
+"金额的格式化？千分符等？）的显示会出现问题。"
 
 #: ../../content/administration/install/install.rst:214
 msgid "If you need this feature, you can install manually with:"
@@ -1267,7 +1339,9 @@ msgstr "如果需要该功能，可以使用以下命令手动安装："
 msgid ""
 "Instead of using the repository as described above, the 'rpm' packages for both the *Community* and *Enterprise* editions can be downloaded from "
 "the `official download page <download_>`_."
-msgstr "*社区版* 和 *企业版* \"rpm\"包可以从官方下载页面下载 `official download page <download_>`_ ，而不是所述使用的存储库。"
+msgstr ""
+"*社区版* 和 *企业版* \"rpm\"包可以从官方下载页面下载 `official download page "
+"<download_>`_ ，而不是所述使用的存储库。"
 
 #: ../../content/administration/install/install.rst:227
 msgid "Odoo 15.0 'rpm' package supports Fedora 34."
@@ -1289,18 +1363,21 @@ msgstr "源代码“安装”实际上是不安装，而是直接从源代码运
 msgid ""
 "This can be more convenient for module developers as the Odoo source is more easily accessible than using packaged installation (for information "
 "or to build this documentation and have it available offline)."
-msgstr "对于模块开发人员来说，这可能更方便，因为Odoo源代码比使用打包安装更容易访问（用于信息或构建本文档并离线使用）。"
+msgstr "对于模块开发人员来说，这可能更方便，因为Odoo源代码比使用打包安装更容易访问（"
+"用于信息或构建本文档并离线使用）。"
 
 #: ../../content/administration/install/install.rst:249
 msgid ""
 "It also makes starting and stopping Odoo more flexible and explicit than the services set up by the packaged installations, and allows overriding "
 "settings using :ref:`command-line parameters <reference/cmdline>` without needing to edit a configuration file."
-msgstr "启动和停止服务比打包安装方式也更灵活和明确，并允许使用命令行参数覆盖设置，而无需编辑配置文件。"
+msgstr "启动和停止服务比打包安装方式也更灵活和明确，并允许使用命令行参数覆盖设置，而"
+"无需编辑配置文件。"
 
 #: ../../content/administration/install/install.rst:253
 msgid ""
 "Finally it provides greater control over the system's set up, and allows to more easily keep (and run) multiple versions of Odoo side-by-side."
-msgstr "最后，它提供了对系统设置的更大控制，并允许更轻松地并排保留（和运行）多个版本的Odoo。"
+msgstr "最后，它提供了对系统设置的更大控制，并允许更轻松地并排保留（和运行）多个版本"
+"的Odoo。"
 
 #: ../../content/administration/install/install.rst:257
 msgid "Fetch the sources"
@@ -1349,9 +1426,11 @@ msgid ""
 "HTTPS. If you are following the :doc:`Getting started </developer/howtos/rdtraining>` developer tutorial, or plan on contributing to Odoo source "
 "code, choose SSH."
 msgstr ""
-"以下内容要求安装 `Git <git_>`_ ，并且需要具有 Git 命令的基本知识。要 Clone Git 仓库，可使用 HTTPS 或 SSH 方式Clone 。如果不知道两者之间的区别，最"
-"好的选择很可能是HTTPS。如果你正在学习入门开发人员教程 :doc:`Getting started </developer/howtos/rdtraining>` ，或者计划为 Odoo 源代码做出贡献，请选"
-"择SSH 。"
+"以下内容要求安装 `Git <git_>`_ ，并且需要具有 Git 命令的基本知识。要 Clone "
+"Git 仓库，可使用 HTTPS 或 SSH 方式Clone "
+"。如果不知道两者之间的区别，最好的选择很可能是HTTPS。"
+"如果你正在学习入门开发人员教程 :doc:`Getting started </developer/howtos/"
+"rdtraining>` ，或者计划为 Odoo 源代码做出贡献，请选择SSH 。"
 
 #: ../../content/administration/install/install.rst:287
 msgid ""
@@ -1360,8 +1439,10 @@ msgid ""
 "set to the folder with the Enterprise version. You need to clone both the Community and Enterprise repository to have a working Odoo Enterprise "
 "installation. See :ref:`setup/install/editions` to get access to the Enterprise repository."
 msgstr ""
-"**企业版Git存储库不包含完整的 Odoo 源代码** 。它只是一个附加组件的集合。主代码在社区版本中。运行企业版本实际上意味着是运行社区版服务并将插件路径选"
-"项设置为企业版本的文件夹。需要同时克隆社区版和企业版存储库，才能正常安装企业版。参见 :ref:`setup/install/editions` 以访问企业存储库。"
+"**企业版Git存储库不包含完整的 Odoo 源代码** 。它只是一个附加组件的集合。主代"
+"码在社区版本中。运行企业版本实际上意味着是运行社区版服务并将插件路径选项设置"
+"为企业版本的文件夹。需要同时克隆社区版和企业版存储库，才能正常安装企业版。"
+"参见 :ref:`setup/install/editions` 以访问企业存储库。"
 
 #: ../../content/administration/install/install.rst:300 ../../content/administration/install/install.rst:318
 #: ../../content/administration/install/install.rst:336
@@ -1386,8 +1467,9 @@ msgid ""
 "set to the folder with the Enterprise version. You need to clone both the Community and Enterprise repository to have a working Odoo Enterprise "
 "installation."
 msgstr ""
-"**企业版git库不包含完整的Odoo源代码** 。它只是一个附加组件的集合。主代码在社区版本中。运行企业版本实际上意味着是运行社区版服务平台，并将插件路径选"
-"项设置为企业版本的文件夹。需要同时克隆社区版和企业版存储库，才能正常安装企业版。"
+"**企业版git库不包含完整的Odoo源代码** 。它只是一个附加组件的集合。主代码在社"
+"区版本中。运行企业版本实际上意味着是运行社区版服务平台，并将插件路径选项设置"
+"为企业版本的文件夹。需要同时克隆社区版和企业版存储库，才能正常安装企业版。"
 
 #: ../../content/administration/install/install.rst:363
 msgid "Python"
@@ -1397,11 +1479,15 @@ msgstr "Python"
 msgid ""
 "Odoo requires Python 3.7 or later to run. Visit `Python's download page <https://www.python.org/downloads/windows/>`_ to download and install the "
 "latest version of Python 3 on your machine."
-msgstr "Odoo 需要 Python 3.7 或更高版本。浏览 `Python's download page <https://www.python.org/downloads/windows/>`_ 下载最新版本的 Python3 并安装。"
+msgstr ""
+"Odoo 需要 Python 3.7 或更高版本。浏览 `Python's download page <https://www."
+"python.org/downloads/windows/>`_ 下载最新版本的 Python3 并安装。"
 
 #: ../../content/administration/install/install.rst:372
 msgid "During installation, check **Add Python 3 to PATH**, then click **Customize Installation** and make sure that **pip** is checked."
-msgstr "在安装过程中，要选中 **Add Python 3 to PATH** ，然后单击 **Customize Installation** ，确保选中 **pip** 。"
+msgstr ""
+"在安装过程中，要选中 **Add Python 3 to PATH** ，然后单击 **Customize "
+"Installation** ，确保选中 **pip** 。"
 
 #: ../../content/administration/install/install.rst:376 ../../content/administration/install/install.rst:395
 #: ../../content/administration/install/install.rst:414
@@ -1416,28 +1502,37 @@ msgstr "还要验证是否为这个版本安装了 pip_ 。"
 #: ../../content/administration/install/install.rst:391
 msgid ""
 "Odoo requires Python 3.7 or later to run. Use your package manager to download and install Python 3 on your machine if it is not already done."
-msgstr "Odoo 需要 Python 3.7 或更高版本才能运行。如果还没有安装Python3，请使用包管理器在机器上下载并安装。"
+msgstr "Odoo 需要 Python 3.7 "
+"或更高版本才能运行。如果还没有安装Python3，请使用包管理器在机器上下载并安装。"
 
 #: ../../content/administration/install/install.rst:410
 msgid ""
 "Odoo requires Python 3.7 or later to run. Use your preferred package manager (homebrew_, macports_) to download and install Python 3 on your "
 "machine if it is not already done."
-msgstr "Odoo需要 Python 3.7 或更高版本才能运行。使用你首选的包管理器( homebrew_， macports_ ) 在你的机器上下载并安装Python3(如果还没有安装的话)。"
+msgstr ""
+"Odoo需要 Python 3.7 或更高版本才能运行。使用你首选的包管理器( homebrew_， "
+"macports_ ) 在你的机器上下载并安装Python3(如果还没有安装的话)。"
 
 #: ../../content/administration/install/install.rst:434
 msgid ""
 "Odoo uses PostgreSQL as database management system. `Download and install PostgreSQL <https://www.postgresql.org/download/windows/>`_ (supported "
 "version: 12.0 and later)."
-msgstr "Odoo 使用 PostgreSQL 作为数据库管理系统。 `下载并安装 PostgreSQL <https://www.postgresql.org/download/windows/>`_ (支持版本:10.0及以上)。"
+msgstr ""
+"Odoo 使用 PostgreSQL 作为数据库管理系统。 `下载并安装 PostgreSQL <https://www"
+".postgresql.org/download/windows/>`_ (支持版本:10.0及以上)。"
 
 #: ../../content/administration/install/install.rst:437 ../../content/administration/install/install.rst:463
 #: ../../content/administration/install/install.rst:486
 msgid "By default, the only user is `postgres` but Odoo forbids connecting as `postgres`, so you need to create a new PostgreSQL user:"
-msgstr "默认情况下，PostgreSQL的唯一用户是 `postgres` ，但是 Odoo 禁止使用 `postgres` 连接，所以你需要创建一个新的用户:"
+msgstr ""
+"默认情况下，PostgreSQL的唯一用户是 `postgres` ，但是 Odoo 禁止使用 `postgres`"
+" 连接，所以你需要创建一个新的用户:"
 
 #: ../../content/administration/install/install.rst:440
 msgid "Add PostgreSQL's `bin` directory (by default: :file:`C:\\\\Program Files\\\\PostgreSQL\\\\<version>\\\\bin`) to your `PATH`."
-msgstr "添加 PostgreSQL的 `bin` 目录 (默认 : :file:`C:\\\\Program Files\\\\PostgreSQL\\\\<version>\\\\bin`) 到环境变量 `PATH` 中。"
+msgstr ""
+"添加 PostgreSQL的 `bin` 目录 (默认 : :file:`C:\\\\Program Files\\\\PostgreSQL"
+"\\\\<version>\\\\bin`) 到环境变量 `PATH` 中。"
 
 #: ../../content/administration/install/install.rst:442
 msgid "Create a postgres user with a password using the pg admin gui:"
@@ -1465,13 +1560,16 @@ msgstr "打开 **Definition** 标签并输入密码(例如: `odoo` )，然后点
 
 #: ../../content/administration/install/install.rst:449
 msgid "Open the **Privileges** tab and switch **Can login?** to `Yes` and **Create database?** to `Yes`."
-msgstr "打开 **Privileges** 标签并切换 **Can login?** 点击 `Yes` 然后 **Create database?** 点击 `Yes` 。"
+msgstr ""
+"打开 **Privileges** 标签并切换 **Can login?** 点击 `Yes` 然后 **Create "
+"database?** 点击 `Yes` 。"
 
 #: ../../content/administration/install/install.rst:454
 msgid ""
 "Odoo uses PostgreSQL as database management system. Use your package manager to download and install PostgreSQL (supported version: 12.0 and "
 "later)."
-msgstr "Odoo 采用 PostgreSQL 作为数据库。使用包管理器下载并安装 PostgreSQL (支持版本:10.0及更高版本)。"
+msgstr "Odoo 采用 PostgreSQL 作为数据库。使用包管理器下载并安装 PostgreSQL "
+"(支持版本:10.0及更高版本)。"
 
 #: ../../content/administration/install/install.rst:457
 msgid "It can be achieved by executing the following:"
@@ -1479,21 +1577,25 @@ msgstr "可以通过执行以下命令来实现："
 
 #: ../../content/administration/install/install.rst:472 ../../content/administration/install/install.rst:495
 msgid "Because your PostgreSQL user has the same name as your Unix login, you will be able to connect to the database without password."
-msgstr "因为你的 PostgreSQL 用户名和 Unix 登录名相同，所以不需要密码就可以连接到数据库。"
+msgstr "因为你的 PostgreSQL 用户名和 Unix "
+"登录名相同，所以不需要密码就可以连接到数据库。"
 
 #: ../../content/administration/install/install.rst:477
 msgid ""
 "Odoo uses PostgreSQL as database management system. Use `postgres.app <https://postgresapp.com>`_ to download and install PostgreSQL (supported "
 "version: 12.0 and later)."
-msgstr "Odoo 采用 PostgreSQL 作为数据库。使用 `postgres.app <https://postgresapp.com>`_ 下载并安装 PostgreSQL (支持版本:10.0及以上)。"
+msgstr ""
+"Odoo 采用 PostgreSQL 作为数据库。使用 `postgres.app <https://postgresapp."
+"com>`_ 下载并安装 PostgreSQL (支持版本:10.0及以上)。"
 
 #: ../../content/administration/install/install.rst:482
 msgid ""
 "To make the command line tools bundled with `postgres.app` available, make sure to setup your `$PATH` variable by following the `Postgres.app CLI "
 "Tools Instructions <https://postgresapp.com/documentation/cli-tools.html>`_."
 msgstr ""
-"设置postgres命令行工具。使用 `Postgres. app` 设置 `$PATH` 变量。`Postgres.app CLI工具说明<https://postgresapp.com/documentation/cli-tools.html> ` "
-"_ 。"
+"设置postgres命令行工具。使用 `Postgres. app` 设置 `$PATH` 变量。`"
+"Postgres.app CLI工具说明<https://postgresapp.com/documentation/cli-"
+"tools.html> ` _ 。"
 
 #: ../../content/administration/install/install.rst:501
 msgid "Dependencies"
@@ -1504,8 +1606,10 @@ msgid ""
 "Before installing the dependencies, you must download and install the `Build Tools for Visual Studio <https://visualstudio.microsoft.com/"
 "downloads/#build-tools-for-visual-studio-2019>`_. When prompted, select **C++ build tools** in the **Workloads** tab and install them."
 msgstr ""
-"在安装依赖项之前，必须下载并安装 `Build Tools for Visual Studio <https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-"
-"studio-2019>`_ 。出现提示时，在 **workload** 选项卡中选择 **C++ build tools** 并安装它们。"
+"在安装依赖项之前，必须下载并安装 `Build Tools for Visual Studio "
+"<https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-"
+"studio-2019>`_ 。出现提示时，在 **workload** 选项卡中选择 **C++ build tools**"
+" 并安装它们。"
 
 #: ../../content/administration/install/install.rst:511 ../../content/administration/install/install.rst:606
 msgid "Odoo dependencies are listed in the `requirements.txt` file located at the root of the Odoo community directory."
@@ -1516,13 +1620,15 @@ msgstr "Odoo的依赖项列在社区版根目录 `requirements.txt` 文件中。
 msgid ""
 "It can be preferable to not mix python modules packages between different instances of Odoo or with your system. You can use virtualenv_ to "
 "create isolated Python environments."
-msgstr "最好不要在 Odoo 的不同实例之间或与系统混合使用python模块包。可使用 virtualenv_ 创建独立的Python虚拟环境。"
+msgstr "最好不要在 Odoo 的不同实例之间或与系统混合使用python模块包。可使用 "
+"virtualenv_ 创建独立的Python虚拟环境。"
 
 #: ../../content/administration/install/install.rst:518
 msgid ""
 "Navigate to the path of your Odoo Community installation (`CommunityPath`) and run **pip** on the requirements file in a terminal **with "
 "Administrator privileges**:"
-msgstr "切换到 Odoo 社区版安装路径( `CommunityPath` )，然后 **以管理员权限** 运行 **pip** 安装依赖文件："
+msgstr "切换到 Odoo 社区版安装路径( `CommunityPath` )，然后 **以管理员权限** 运行 "
+"**pip** 安装依赖文件："
 
 #: ../../content/administration/install/install.rst:527 ../../content/administration/install/install.rst:594
 #: ../../content/administration/install/install.rst:634
@@ -1542,7 +1648,10 @@ msgstr "安装 `rtlcss` ："
 msgid ""
 "Edit the System Environment's variable `PATH` to add the folder where `rtlcss.cmd` is located (typically: :file:`C:\\\\Users\\\\<user>\\\\AppData"
 "\\\\Roaming\\\\npm\\\\`)."
-msgstr "编辑系统环境变量 `PATH` 添加 `rtlcss.cmd` 所在路径 (一般在 : :file:`C:\\\\Users\\\\<user>\\\\AppData\\\\Roaming\\\\npm\\\\`)。"
+msgstr ""
+"编辑系统环境变量 `PATH` 添加 `rtlcss.cmd` 所在路径 (一般在 : :file:`C:\\"
+"\\Users\\\\<user>\\\\AppData\\\\Roaming\\\\n"
+"pm\\\\`)。"
 
 #: ../../content/administration/install/install.rst:542
 msgid ""
@@ -1554,7 +1663,9 @@ msgstr "使用 **发行包** 是安装依赖项的首选方式。或者，用 **
 msgid ""
 "For Debian-based systems, the packages are listed in the `debian/control <https://github.com/odoo/odoo/blob/16.0/debian/control>`_ file of the "
 "Odoo sources."
-msgstr "对于基于debian的系统，软件包列在Odoo源码的 `debian/control <https://github.com/odoo/odoo/blob/16.0/debian/control>`_ 文件中。"
+msgstr ""
+"对于基于debian的系统，软件包列在Odoo源码的 `debian/control <https://github."
+"com/odoo/odoo/blob/16.0/debian/control>`_ 文件中。"
 
 #: ../../content/administration/install/install.rst:552
 msgid "On Debian/Ubuntu, the following commands should install the required packages:"
@@ -1580,21 +1691,25 @@ msgstr "依赖在社区版根目录下的 :file: ' requirements.txt ' 文件中�
 msgid ""
 "The python packages in :file:`requirements.txt` are based on their stable/LTS Debian/Ubuntu corresponding version at the moment of the Odoo "
 "release."
-msgstr ":file: ' requirements.txt ' 中的python包基于 Odoo 发布时对应的Debian/Ubuntu 的 stable/LTS 版本。"
+msgstr ""
+":file: ' requirements.txt ' 中的python包基于 Odoo 发布时对应的Debian/Ubuntu "
+"的 stable/LTS 版本。"
 
 #: ../../content/administration/install/install.rst
 msgid ""
 "E.g., for Odoo 15.0, the `python3-babel` package version is 2.8.0 in Debian Bullseye and 2.6.0 in Ubuntu Focal. The lowest version is then chosen "
 "in the :file:`requirements.txt`."
 msgstr ""
-"例如，对于Odoo 15.0， `python3-babel` 包版本在 Debian Bullseye 中是 2.8.0，在 Ubuntu Focal 中是 2.6.0 。然后在 :file:`requirements.txt` 选择了最低"
-"版本。"
+"例如，对于Odoo 15.0， `python3-babel` 包版本在 Debian Bullseye 中是 2.8.0，"
+"在 Ubuntu Focal 中是 2.6.0 。然后在 :file:`requirements.txt` 选择了最低版本。"
 
 #: ../../content/administration/install/install.rst:586
 msgid ""
 "Navigate to the path of your Odoo Community installation (:file:`CommunityPath`) and run **pip** on the requirements file to install the "
 "requirements for the current user."
-msgstr "切换到Odoo社区版安装路径 ( :file:`CommunityPath`)，运行 **pip** 命令为当前用户安装requirements文件中的依赖包。"
+msgstr ""
+"切换到Odoo社区版安装路径 ( :file:`CommunityPath`)，运行 **pip** "
+"命令为当前用户安装requirements文件中的依赖包。"
 
 #: ../../content/administration/install/install.rst:597
 msgid "Download and install **nodejs** and **npm** with your package manager."
@@ -1602,7 +1717,9 @@ msgstr "使用包管理器下载并安装 **nodejs** 和 **npm** 。"
 
 #: ../../content/administration/install/install.rst:613
 msgid "Navigate to the path of your Odoo Community installation (`CommunityPath`) and run **pip** on the requirements file:"
-msgstr "切换到Odoo社区版安装路径 ( :file:`CommunityPath`)，运行 **pip** 命令为当前用户安装requirements文件中的依赖包："
+msgstr ""
+"切换到Odoo社区版安装路径 ( :file:`CommunityPath`)，运行 **pip** "
+"命令为当前用户安装requirements文件中的依赖包："
 
 #: ../../content/administration/install/install.rst:623
 msgid "Non-Python dependencies need to be installed with a package manager:"
@@ -1632,20 +1749,24 @@ msgstr "运行 Odoo"
 msgid ""
 "Once all dependencies are set up, Odoo can be launched by running `odoo-bin`, the command-line interface of the server. It is located at the root "
 "of the Odoo Community directory."
-msgstr "所有依赖项都设置好后，可通过运行 `odoo-bin` 来启动Odoo，这是服务的命令行界面。位于Odoo社区版根目录。"
+msgstr "所有依赖项都设置好后，可通过运行 `odoo-bin` "
+"来启动Odoo，这是服务的命令行界面。位于Odoo社区版根目录。"
 
 #: ../../content/administration/install/install.rst:655
 msgid ""
 "To configure the server, you can either specify :ref:`command-line arguments <reference/cmdline/server>` or a :ref:`configuration file <reference/"
 "cmdline/config>`."
-msgstr "要配置服务，你可以指定 :ref:`命令行参数<reference/cmdline/server>` 或 :ref:`配置文件<reference/cmdline/config>` 。"
+msgstr ""
+"要配置服务，你可以指定 :ref:`命令行参数<reference/cmdline/server>` 或 "
+":ref:`配置文件<reference/cmdline/config>` 。"
 
 #: ../../content/administration/install/install.rst:659
 msgid ""
 "For the Enterprise edition, you must add the path to the `enterprise` addons to the `addons-path` argument. Note that it must come before the "
 "other paths in `addons-path` for addons to be loaded correctly."
 msgstr ""
-"对于企业版，必须在 `addons-path` 参数中添加 `企业版` 插件的路径。注意，该路径必须位于 `addons-path` 中的其他路径之前，这样插件才能正确加载。"
+"对于企业版，必须在 `addons-path` 参数中添加 `企业版` 插件的路径。注意，"
+"该路径必须位于 `addons-path` 中的其他路径之前，这样插件才能正确加载。"
 
 #: ../../content/administration/install/install.rst:663
 msgid "Common necessary configurations are:"
@@ -1668,12 +1789,13 @@ msgid ""
 "Where `CommunityPath` is the path of the Odoo Community installation, `dbuser` is the PostgreSQL login, `dbpassword` is the PostgreSQL password, "
 "and `mydb` is the name of the PostgreSQL database."
 msgstr ""
-"其中 `CommunityPath` 是Odoo社区版的安装路径，`dbuser` 是 PostgreSQL的登录名， `dbpassword` 是PostgreSQL的密码， `mydb` 是 PostgreSQL 数据库的名"
-"称。"
+"其中 `CommunityPath` 是Odoo社区版的安装路径，`dbuser` 是 PostgreSQL的登录名，"
+" `dbpassword` 是PostgreSQL的密码， `mydb` 是 PostgreSQL 数据库的名称。"
 
 #: ../../content/administration/install/install.rst:690 ../../content/administration/install/install.rst:700
 msgid "Where `CommunityPath` is the path of the Odoo Community installation, and `mydb` is the name of the PostgreSQL database."
-msgstr "其中 `CommunityPath` 是Odoo社区版的安装路径， `mydb` 是 PostgreSQL 数据库的名称。"
+msgstr "其中 `CommunityPath` 是Odoo社区版的安装路径， `mydb` 是 PostgreSQL "
+"数据库的名称。"
 
 #: ../../content/administration/install/install.rst:703
 msgid ""
@@ -1681,16 +1803,19 @@ msgid ""
 "and log in with the base administrator account: Use `admin` for the :guilabel:`Email` and, again, `admin` for the :guilabel:`Password`. That's "
 "it, you just logged into your own Odoo database!"
 msgstr ""
-"服务启动后( INFO日志中看到 `odoo.modules.loading: Modules loaded.` )，在浏览器中打开地址 http://localhost:8069 ，用基本管理员账号登录， :guilabel:"
-"`Email` 填写 `admin` ， :guilabel:`Password` 填写 `admin` ！"
+"服务启动后( INFO日志中看到 `odoo.modules.loading: Modules loaded.` )，"
+"在浏览器中打开地址 http://localhost:8069 ，用基本管理员账号登录， "
+":guilabel:`Email` 填写 `admin` ， :guilabel:`Password` 填写 `admin` ！"
 
 #: ../../content/administration/install/install.rst:709
 msgid "From there, you can create and manage new :doc:`users </applications/general/users/manage_users>`."
-msgstr "从这里创建和管理新用户 :doc:`users </applications/general/users/manage_users>` 。"
+msgstr "从这里创建和管理新用户 :doc:`users </applications/general/users/"
+"manage_users>` 。"
 
 #: ../../content/administration/install/install.rst:711
 msgid "The user account you use to log into Odoo's web interface differs from the :option:`--db_user <odoo-bin -r>` CLI argument."
-msgstr "用于登录Odoo web界面的用户帐户与 :option:`--db_user <odoo-bin -r>` CLI参数不同。"
+msgstr "用于登录Odoo web界面的用户帐户与 :option:`--db_user <odoo-bin -r>` "
+"CLI参数不同。"
 
 #: ../../content/administration/install/install.rst:715
 msgid ":doc:`The exhaustive list of CLI arguments for odoo-bin </developer/cli>`."
@@ -1703,7 +1828,9 @@ msgstr "Docker"
 #: ../../content/administration/install/install.rst:722
 msgid ""
 "The full documentation on how to use Odoo with Docker can be found on the official Odoo `docker image <https://hub.docker.com/_/odoo/>`_ page."
-msgstr "关于如何在 Docker 中使用 Odoo 的完整文档可以在 Odoo 的官方 `<https://hub.docker.com/_/odoo/>`_ 页面上找到。"
+msgstr ""
+"关于如何在 Docker 中使用 Odoo 的完整文档可以在 Odoo 的官方 `<https://hub."
+"docker.com/_/odoo/>`_ 页面上找到。"
 
 #: ../../content/administration/maintain.rst:5
 msgid "Maintain"
@@ -1717,7 +1844,10 @@ msgstr "域名"
 msgid ""
 "A **domain name** works as an address for your website. It makes the Internet much more accessible as it allows users to type a meaningful web "
 "address, such as ``www.odoo.com``, rather than its server's IP address with a series of numbers."
-msgstr "**域名** 就是网站地址，它使互联网更容易访问，因为它允许用户键入一个有意义的网址，如 ``www.odoo.com`` ，而不是服务器IP地址。"
+msgstr ""
+"**域名** "
+"就是网站地址，它使互联网更容易访问，因为它允许用户键入一个有意义的网址，如 "
+"``www.odoo.com`` ，而不是服务器IP地址。"
 
 #: ../../content/administration/maintain/domain_names.rst:9
 msgid "You can use a custom domain name to access your Odoo database and websites:"
@@ -1735,7 +1865,9 @@ msgstr ":ref:`配置自定义域名 <domain-name/existing>` 。"
 msgid ""
 "Odoo Online and Odoo.sh databases, including their websites, use by default a subdomain of ``odoo.com`` for both the URL and the emails (e.g., "
 "``https://example.odoo.com``)."
-msgstr "Odoo Online和Odoo.sh的数据库包含在其网站，默认为 ``odoo.com`` 的子域,为URL或电子邮件（例如``https://example.odoo.com``）。"
+msgstr ""
+"Odoo Online和Odoo.sh的数据库包含在其网站，默认为 ``odoo.com`` "
+"的子域,为URL或电子邮件（例如``https://example.odoo.com``）。"
 
 #: ../../content/administration/maintain/domain_names.rst:20
 msgid ""
