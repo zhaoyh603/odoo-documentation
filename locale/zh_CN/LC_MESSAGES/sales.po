@@ -30,7 +30,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-19 21:16+0800\n"
-"PO-Revision-Date: 2022-10-25 17:10+0000\n"
+"PO-Revision-Date: 2022-10-26 14:55+0000\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/"
 "odoo-doc/sales/zh_Hans/>\n"
@@ -201,6 +201,7 @@ msgid "Configure email aliases"
 msgstr "配置电子邮件别名"
 
 #: ../../content/applications/sales/crm/acquire_leads/generate_leads.rst:12
+#, fuzzy
 msgid ""
 "Each Sales Team can use its own unique email alias to generate "
 "leads/opportunities. Any email sent to a Sales Team's email alias will "
@@ -209,23 +210,31 @@ msgid ""
 "custom email aliases on the configuration page for each Sales Team by "
 "navigating to :menuselection:`CRM --> Configuration --> Sales Teams`."
 msgstr ""
+"每个销售团队可以使用自己独特的电子邮件别名来产生线索/机会。任何发送到销售团队"
+"电子邮件别名的电子邮件都将自动为该特定团队创建一个潜在客户(如果客户在您的CRM"
+"设置中被激活)或一个机会。在配置页面上为每个销售团队配置自定义电子邮件别名，导"
+"航到:menusselection: ' CRM—> configuration—> Sales Teams '。"
 
+#, fuzzy
 msgid "Configuring Sales Teams"
-msgstr ""
+msgstr "配置销售团队"
 
 #: ../../content/applications/sales/crm/acquire_leads/generate_leads.rst:23
 msgid "Use Contact Forms on your website"
 msgstr "在您的网站上使用联系表格"
 
 #: ../../content/applications/sales/crm/acquire_leads/generate_leads.rst:25
+#, fuzzy
 msgid ""
 "By default, your website's *Contact Us* page displays Odoo's ready-to-use"
 " Contact Form. Whenever someone submits this form, a lead or an "
 "opportunity is generated in your database."
-msgstr ""
+msgstr "默认情况下，您的网站的*联系我们*页面显示Odoo的随时可用的联系形式。每当有人提"
+"交此表单时，您的数据库中就会生成一条线索或一个机会。"
 
+#, fuzzy
 msgid "Default Contact Us page"
-msgstr ""
+msgstr "默认“联系我们”页面"
 
 #: ../../content/applications/sales/crm/acquire_leads/generate_leads.rst:32
 msgid ""
@@ -234,134 +243,172 @@ msgid ""
 "Form`."
 msgstr "联系人表单可以随时激活或停用，方法是转到：menuselection：`网站 --> 转到网站 --> 自定义 -->联系表单`。"
 
+#, fuzzy
 msgid "Contact Form toggle"
-msgstr ""
+msgstr "触点形式切换"
 
 #: ../../content/applications/sales/crm/acquire_leads/generate_leads.rst:39
+#, fuzzy
 msgid ""
 "When the Form is deactivated, the *Contact Us* page simply displays a "
 "button to email your company directly. Any email sent this way will "
 "generate a lead/opportunity."
-msgstr ""
+msgstr "当表单被禁用时，“联系我们”页面只会显示一个按钮，直接向您的公司发送电子邮件。"
+"任何以这种方式发送的电子邮件都会产生一个线索/机会。"
 
+#, fuzzy
 msgid "Contact Us Page using email"
-msgstr ""
+msgstr "使用电子邮件联系我们页面"
 
 #: ../../content/applications/sales/crm/acquire_leads/generate_leads.rst:46
+#, fuzzy
 msgid ""
 "Choose which Sales Team or salesperson is automatically assigned to the "
 "leads/opportunities created from the Contact Form by going to "
 ":menuselection:`Website --> Configuration --> Settings --> "
 "Communication`."
-msgstr ""
+msgstr "选择哪个销售团队或销售人员将自动分配给从联系人表单创建的客户/机会，点击:菜单"
+"选择:“网站—>配置—>设置—>沟通”。"
 
+#, fuzzy
 msgid "Contact Form settings"
-msgstr ""
+msgstr "触点形式设置"
 
 #: ../../content/applications/sales/crm/acquire_leads/generate_leads.rst:55
+#, fuzzy
 msgid "Customize Contact Forms"
-msgstr ""
+msgstr "自定义联系人表单"
 
 #: ../../content/applications/sales/crm/acquire_leads/generate_leads.rst:57
+#, fuzzy
 msgid ""
 "Contact Forms can be customized for the specific information your team "
 "needs, using the free *Form Builder* module."
-msgstr ""
+msgstr "使用免费的*Form Builder*模块，可以根据团队所需的特定信息定制联系人表单。"
 
 #: ../../content/applications/sales/crm/acquire_leads/generate_leads.rst:60
+#, fuzzy
 msgid ""
 "The *Form Builder* module is installed automatically when a Form element "
 "is added to a web page via the Website Builder. It can also be installed "
 "manually from the :guilabel:`Apps` page."
 msgstr ""
+"当通过网站构建器将表单元素添加到网页时，将自动安装*Form "
+"Builder*模块。它也可以从:guilabel: ' Apps '页面手动安装。"
 
+#, fuzzy
 msgid "Form Builder building blocks"
-msgstr ""
+msgstr "Form Builder构建块"
 
 #: ../../content/applications/sales/crm/acquire_leads/generate_leads.rst:68
+#, fuzzy
 msgid ""
 "Forms can be created from scratch to serve a wide variety of purposes. "
 "However, Odoo's default *Contact Us* page is designed to fit most users' "
 "needs. Start with the default form and modify from there."
-msgstr ""
+msgstr "可以从零开始创建表单，以满足各种各样的目的。然而，Odoo的默认“联系我们”页面是"
+"为满足大多数用户的需求而设计的。从默认表单开始修改。"
 
 #: ../../content/applications/sales/crm/acquire_leads/generate_leads.rst:73
+#, fuzzy
 msgid "Edit Contact Form fields"
-msgstr ""
+msgstr "编辑联系人表单字段"
 
 #: ../../content/applications/sales/crm/acquire_leads/generate_leads.rst:75
+#, fuzzy
 msgid ""
 "In Edit mode on your website, click on any field to start editing it. The"
 " following information can be edited for each field on the Contact Form:"
-msgstr ""
+msgstr "在网站的编辑模式中，单击任意字段开始编辑。联络表格上的每一栏可编辑下列资料:"
 
 #: ../../content/applications/sales/crm/acquire_leads/generate_leads.rst:78
+#, fuzzy
 msgid ""
 ":guilabel:`Type`: Choose a custom field option or an existing field. "
 "Examples include phone, file upload, language, etc."
-msgstr ""
+msgstr ":guilabel: ' Type "
+"':选择自定义字段选项或已有字段。例如电话、文件上传、语言等。"
 
 #: ../../content/applications/sales/crm/acquire_leads/generate_leads.rst:80
+#, fuzzy
 msgid ""
 ":guilabel:`Input Type`: Determine the type of entry customers should "
 "input. Available options are text,email, telephone, and URL."
-msgstr ""
+msgstr ":guilabel:“输入类型”:确定输入客户应该输入的类型。可用的选项有文本、电子邮件、"
+"电话和URL。"
 
 #: ../../content/applications/sales/crm/acquire_leads/generate_leads.rst:82
+#, fuzzy
 msgid ""
 ":guilabel:`Input Placeholder`: Type in an example to guide users how to "
 "input information where formatting is important, such as a phone number "
 "or email address."
-msgstr ""
+msgstr ":guilabel:“输入占位符”:输入一个示例，指导用户如何在格式很重要的地方输入信息，"
+"比如电话号码或电子邮件地址。"
 
 #: ../../content/applications/sales/crm/acquire_leads/generate_leads.rst:84
+#, fuzzy
 msgid ""
 ":guilabel:`Label Name`: Type in the display name to show users what "
 "information is needed from them."
-msgstr ""
+msgstr ":guilabel: '标签名称':输入显示名称，告诉用户需要从他们那里得到什么信息。"
 
 #: ../../content/applications/sales/crm/acquire_leads/generate_leads.rst:86
+#, fuzzy
 msgid ""
 ":guilabel:`Label Position`: Choose the way the label is aligned with the "
 "rest of the form. The label can be hidden, above the field, to the far "
 "left of the field, or right adjusted and closer to the field."
-msgstr ""
+msgstr ":guilabel: '标签位置':选择标签与表单其余部分对齐的方式。标签可以隐藏，在字段"
+"上方，字段最左边，或右调整和更接近字段。"
 
 #: ../../content/applications/sales/crm/acquire_leads/generate_leads.rst:89
+#, fuzzy
 msgid ""
 ":guilabel:`Required`: Toggle this option for information that you "
 "absolutely need entered."
-msgstr ""
+msgstr ":guilabel: ' Required ':为你绝对需要输入的信息切换这个选项。"
 
 #: ../../content/applications/sales/crm/acquire_leads/generate_leads.rst:90
+#, fuzzy
 msgid ""
 ":guilabel:`Hidden`: Toggle this option to hide the field without deleting"
 " it."
-msgstr ""
+msgstr ":guilabel: ' Hidden ':切换此选项以隐藏字段而不删除它。"
 
 #: ../../content/applications/sales/crm/acquire_leads/generate_leads.rst:91
+#, fuzzy
 msgid ""
 ":guilabel:`Shown on Mobile`: Toggle this option to show the field to "
 "users on mobile devices."
-msgstr ""
+msgstr ":guilabel:“显示在移动设备上”:切换此选项，将字段显示给移动设备上的用户。"
 
+#, fuzzy
 msgid "Editable field options"
-msgstr ""
+msgstr "可编辑字段选项"
 
 #: ../../content/applications/sales/crm/acquire_leads/generate_leads.rst:97
+#, fuzzy
 msgid ""
 "By default, when a Form is submitted, it sends you an email with the "
 "customer's inputted information. To have it automatically generate a "
 "lead/opportunity instead, edit the Form and select :guilabel:`Create an "
 "Opportunity` as the Action."
 msgstr ""
+"默认情况下，当提交表单时，它将向您发送一封电子邮件，其中包含客户输入的信息。"
+"要让它自动生成一个线索/机会，编辑表单并选择:guilabel: ' Create an "
+"opportunity '作为动作。"
 
 #: ../../content/applications/sales/crm/acquire_leads/generate_leads.rst:102
+#, fuzzy
 msgid ""
 "If leads are activated in your CRM settings, selecting :guilabel:`Create "
 "an Opportunity` generates a lead instead. To learn more about activating "
 "leads in the CRM settings, head over to :doc:`convert`."
 msgstr ""
+"如果客户关系管理设置中激活了线索，选择:guilabel: ' Create an Opportunity "
+"'会生成一条线索。要了解更多关于在CRM设置中激活线索的信息，请转到:doc: ' "
+"convert '。"
 
 #: ../../content/applications/sales/crm/acquire_leads/lead_mining.rst:3
 msgid "Lead mining"
@@ -405,6 +452,7 @@ msgid ""
 msgstr "在这里点击  **成线**  按钮，在弹出的窗口中可设置条件。"
 
 #: ../../content/applications/sales/crm/acquire_leads/lead_mining.rst:34
+#, fuzzy
 msgid ""
 "When choosing to target Companies and their contacts you can choose the "
 "contacts you are getting based on Role or Seniority. When getting contact"
@@ -412,6 +460,9 @@ msgid ""
 "information about General Data Protection Regulation on `Odoo GDPR "
 "<http://odoo.com/gdpr>`__,"
 msgstr ""
+"当选择目标公司和他们的联系人时，您可以根据角色或资历选择联系人。在获取联系信"
+"息时，请确保了解最新的欧盟法规，获取更多关于通用数据保护法规的信息' Odoo "
+"GDPR <http://odoo.com/gdpr> ' __，"
 
 #: ../../content/applications/sales/crm/acquire_leads/lead_mining.rst:39
 msgid ""
@@ -438,6 +489,7 @@ msgid "Pricing"
 msgstr "价格"
 
 #: ../../content/applications/sales/crm/acquire_leads/lead_mining.rst:51
+#, fuzzy
 msgid ""
 "This is an In-App Purchase feature, each generated lead will cost you one"
 " credit. If you choose to get contact information each contact will also "
@@ -447,6 +499,11 @@ msgid ""
 "Buy Credits`; or go to :menuselection:`Settings --> Contacts --> Odoo IAP"
 " --> View my Services`."
 msgstr ""
+"这是一个应用内购买功能，每产生一个线索将花费你一个积分。如果您选择获取联系信"
+"息，每个联系也将花费您一个额外的学分。这里是这个'功能<https://iap.odoo.com/"
+"iap/in-app-services/167?> ' __的定价，要购买信用，你可以去:menuselection: ' "
+"CRM—>配置—>设置—>购买信用';或者进入:menuselection: '设置—>联系人—> Odoo "
+"IAP—>查看我的服务'。"
 
 #: ../../content/applications/sales/crm/acquire_leads/lead_mining.rst:65
 msgid ""
@@ -533,8 +590,9 @@ msgid ""
 "*CRM/Sale*."
 msgstr "安装 *游戏化* 模块或 *CRM游戏化* 模块，添加了一些可用于 *CRM /销售* 的有用数据（如目标和挑战）。"
 
+#, fuzzy
 msgid "View of the gamification module being installed in Odoo"
-msgstr ""
+msgstr "游戏化模块被安装在Odoo的视图"
 
 #: ../../content/applications/sales/crm/optimize/gamification.rst:21
 msgid "Create a challenge"
@@ -553,8 +611,9 @@ msgid ""
 "do so, go to *Settings* and *Activate the developer mode*."
 msgstr "由于游戏化工具是一次性的技术设置，因此您需要激活技术功能才能访问配置。 为此，请转到 *设定* 和 *激活开发人员模式* 。"
 
+#, fuzzy
 msgid "View if the gamification tools menu in Odoo Settings"
-msgstr ""
+msgstr "在Odoo Settings中查看游戏化工具菜单"
 
 #: ../../content/applications/sales/crm/optimize/gamification.rst:35
 msgid ""
@@ -599,8 +658,9 @@ msgid ""
 "winner will be granted with a badge."
 msgstr "在下面的示例中，有2位员工正在挑战 *每月销售目标* 。 挑战基于两个目标：发票总额和产生的新潜在客户数量。 在月底，将为获奖者颁发徽章。"
 
+#, fuzzy
 msgid "View of the challenge form and a challenge being created for Odoo Sales"
-msgstr ""
+msgstr "挑战表单的视图和正在为Odoo Sales创建的挑战"
 
 #: ../../content/applications/sales/crm/optimize/gamification.rst:58
 msgid "Set up goals"
@@ -627,10 +687,11 @@ msgstr ""
 "你可以在 *挑战* 中创建一个新的目标，点击 *目标* 下的 *添加新项目* 。 根据公司需求选择业务对象。 "
 "示例：新销售线索的数量，资格的形成时间，根据您的管理偏好在特定星期，月份或任何其他时间范围内开具的发票总额等。"
 
+#, fuzzy
 msgid ""
 "View of the goal definition form and a goal definition being created for "
 "Odoo Sales"
-msgstr ""
+msgstr "目标定义表单的视图和为Odoo Sales创建的目标定义"
 
 #: ../../content/applications/sales/crm/optimize/gamification.rst:73
 msgid ""
@@ -653,8 +714,9 @@ msgstr ""
 "对于非数字成就，可以将 *徽章* 授予用户。 从简单的感谢到卓越的成就，徽章是向用户表示感谢的简单方法，感谢他们的出色工作。 "
 "要根据员工的绩效创建和授予徽章，请转到 :menuselection:`设定 --> 游戏化工具 --> 徽章` 。"
 
+#, fuzzy
 msgid "View of the badges page in Odoo"
-msgstr ""
+msgstr "Odoo徽章页面的视图"
 
 #: ../../content/applications/sales/crm/optimize/partner_autocomplete.rst:3
 msgid "Enrich your contacts base with Partner Autocomplete"
@@ -673,8 +735,9 @@ msgid ""
 "Autocomplete* feature."
 msgstr "前往 :menuselection:`设置 --> 联系人`并启用 *业务伙伴自动完成* 功能。"
 
+#, fuzzy
 msgid "View of settings page and the activations of the feature in Odoo"
-msgstr ""
+msgstr "查看设置页面和激活的功能在Odoo"
 
 #: ../../content/applications/sales/crm/optimize/partner_autocomplete.rst:18
 msgid "Enrich your contacts with corporate data"
@@ -691,13 +754,15 @@ msgstr "无论在任何模块中，只要你键入名称并开始创建新联系
 msgid "For example, after typing *Odoo*, you will get the following information:"
 msgstr "例如，在键入 *Odoo* 后，你将得到以下信息："
 
+#, fuzzy
 msgid "Creating a new contact in Odoo"
-msgstr ""
+msgstr "在Odoo创建一个新联系人"
 
+#, fuzzy
 msgid ""
 "View of the information being shown about odoo with the autocomplete "
 "option in Odoo"
-msgstr ""
+msgstr "在odoo中使用自动完成选项显示关于odoo的信息"
 
 #: ../../content/applications/sales/crm/optimize/partner_autocomplete.rst:33
 msgid ""
@@ -758,38 +823,46 @@ msgstr ""
 "您可以用它来创建销售佣金计划，预算，项目预测等等。公式使用Python语言开发，但不必具备编程技巧。"
 
 #: ../../content/applications/sales/crm/performance/google_spreadsheets.rst:12
+#, fuzzy
 msgid ""
 "From the *General Settings*, activate *Google Drive* and *Google "
 "Spreadsheet*. The options *Authorization Code* and *Get Authorization "
 "Code* are now available."
-msgstr ""
+msgstr "从*常规设置*中，激活*谷歌驱动器*和*谷歌电子表格*。选项*授权代码*和*获取授权代"
+"码*现在可用。"
 
+#, fuzzy
 msgid "Enable the Google Drive and Google Spreadsheet features in Odoo"
-msgstr ""
+msgstr "启用Odoo中的谷歌Drive和谷歌Spreadsheet功能"
 
 #: ../../content/applications/sales/crm/performance/google_spreadsheets.rst:19
+#, fuzzy
 msgid "Now, link your Google account with Odoo by following these steps:"
-msgstr ""
+msgstr "现在，通过以下步骤链接您的谷歌帐户与Odoo:"
 
 #: ../../content/applications/sales/crm/performance/google_spreadsheets.rst:21
 msgid "Get Authorization Code"
 msgstr "获取授权代码"
 
 #: ../../content/applications/sales/crm/performance/google_spreadsheets.rst:22
+#, fuzzy
 msgid "Select your Google account"
-msgstr ""
+msgstr "选择您的谷歌帐户"
 
 #: ../../content/applications/sales/crm/performance/google_spreadsheets.rst:23
+#, fuzzy
 msgid "Enter your password"
-msgstr ""
+msgstr "输入您的密码"
 
 #: ../../content/applications/sales/crm/performance/google_spreadsheets.rst:24
+#, fuzzy
 msgid "Copy the code"
-msgstr ""
+msgstr "复制代码"
 
 #: ../../content/applications/sales/crm/performance/google_spreadsheets.rst:25
+#, fuzzy
 msgid "Paste it into the Authorization Code field"
-msgstr ""
+msgstr "将其粘贴到授权代码字段中"
 
 #: ../../content/applications/sales/crm/performance/google_spreadsheets.rst:28
 msgid "Create a new Spreadsheet"
@@ -801,10 +874,11 @@ msgid ""
 "Google Spreadsheet*."
 msgstr "例如，在 *CRM* 应用中，转到 *收藏夹* ，然后单击 *添加到谷歌电子表格* 。"
 
+#, fuzzy
 msgid ""
 "From the CRM application, for example, click on add to Google Spreadsheet"
 " in Odoo"
-msgstr ""
+msgstr "例如，从CRM应用程序中，在Odoo中单击add to谷歌Spreadsheet"
 
 #: ../../content/applications/sales/crm/performance/google_spreadsheets.rst:36
 msgid "A new spreadsheet will be automatically created in your Google Drive."
@@ -830,18 +904,20 @@ msgid ""
 "Username --> Password`."
 msgstr "转到 :menuselection:`Odoo --> 服务器设定 --> 数据库名称 --> 用户名 --> 密码`。"
 
+#, fuzzy
 msgid "Menu called Odoo is shown on the settings bar in the Spreadsheet"
-msgstr ""
+msgstr "名为Odoo的菜单显示在电子表格的设置栏上"
 
 #: ../../content/applications/sales/crm/performance/google_spreadsheets.rst:53
 msgid "Applications"
 msgstr "应用"
 
 #: ../../content/applications/sales/crm/performance/google_spreadsheets.rst:55
+#, fuzzy
 msgid ""
 "You have two different formulas available when using Google Spreadsheet "
 "in Odoo: *retrieve data* and *retrieve grouped sums*."
-msgstr ""
+msgstr "在Odoo中使用谷歌电子表格时，可以使用两个不同的公式:*检索数据*和*检索分组和*。"
 
 #: ../../content/applications/sales/crm/performance/google_spreadsheets.rst:59
 msgid ""
@@ -872,8 +948,9 @@ msgstr ""
 msgid "Find some the arguments in the table below."
 msgstr "在下表中找到一些参数。"
 
+#, fuzzy
 msgid "Table with examples of arguments to use in Odoo"
-msgstr ""
+msgstr "在Odoo中使用的参数示例表"
 
 #: ../../content/applications/sales/crm/performance/google_spreadsheets.rst:78
 msgid "Retrieve Grouped Sums"
@@ -893,8 +970,9 @@ msgstr ""
 msgid "Find some arguments in the table below."
 msgstr "查找下表中的一些参数。"
 
+#, fuzzy
 msgid "Table with examples of grouped sum arguments to use in Odoo"
-msgstr ""
+msgstr "包含在Odoo中使用的分组和参数示例的表"
 
 #: ../../content/applications/sales/crm/performance/google_spreadsheets.rst:89
 msgid "Other uses"
@@ -1055,12 +1133,16 @@ msgid "Create a new Sales Team"
 msgstr "创建新的销售团队"
 
 #: ../../content/applications/sales/crm/pipeline/multi_sales_team.rst:12
+#, fuzzy
 msgid ""
 "To create a new Sales Team, go to :menuselection:`CRM --> Sales --> "
 "Teams` then click :guilabel:`Create`."
 msgstr ""
+"要创建一个新的销售团队，请转到:menuselection: ' CRM—> Sales—> Teams "
+"'，然后点击:guilabel: ' create '。"
 
 #: ../../content/applications/sales/crm/pipeline/multi_sales_team.rst:15
+#, fuzzy
 msgid ""
 "On the creation page, set an :guilabel:`Email Alias` to automatically "
 "generate a lead/opportunity for this Sales Team every time a message is "
@@ -1068,23 +1150,33 @@ msgid ""
 "emails from :guilabel:`Everyone`, :guilabel:`Authenticated Partners`, or "
 ":guilabel:`Followers Only`."
 msgstr ""
+"在创建页面上，设置一个:guilabel:“电子邮件别名”，以便每当有消息发送到这个唯一"
+"的电子邮件地址时，自动为这个销售团队生成一个领导/机会。你还可以选择是否接受来"
+"自:guilabel:“所有人”，:guilabel:“认证伙伴”，或:guilabel:“仅关注者”的邮件。"
 
 #: ../../content/applications/sales/crm/pipeline/multi_sales_team.rst:20
+#, fuzzy
 msgid ""
 "Set a :guilabel:`Domain` to assign leads/opportunities to this Sales Team"
 " based on specific filters, such as country, language, or campaign. Set "
 "an :guilabel:`Invoicing Target` if this team has specific monthly revenue"
 " goals."
 msgstr ""
+"设置a:guilabel: ' Domain '，根据特定的筛选条件，如国家、语言或活动，为销售团"
+"队分配潜在客户/机会。如果团队有明确的每月收入目标，就设置一个:guilabel:“发票"
+"目标”。"
 
+#, fuzzy
 msgid "Create a Sales Team in Odoo CRM."
-msgstr ""
+msgstr "在Odoo CRM中创建一个销售团队。"
 
 #: ../../content/applications/sales/crm/pipeline/multi_sales_team.rst:29
+#, fuzzy
 msgid "Add members to a Sales Team"
-msgstr ""
+msgstr "为销售团队增加成员"
 
 #: ../../content/applications/sales/crm/pipeline/multi_sales_team.rst:31
+#, fuzzy
 msgid ""
 "To add team members, click :guilabel:`Add` under the Assignment tab when "
 "editing the Sales Team's configuration page. Select a salesperson from "
@@ -1092,54 +1184,70 @@ msgid ""
 "leads that can be assigned to this salesperson in a 30-day period to "
 "ensure that they do not overwork."
 msgstr ""
+"要添加团队成员，在编辑销售团队的配置页面时，单击assign选项卡下的:guilabel: ' "
+"add '。从下拉菜单中选择销售人员或创建新的销售人员。设定一个30天内可以分配给这"
+"个销售人员的最大数量，以确保他们不会过度工作。"
 
+#, fuzzy
 msgid "Add a Salesperson inside Odoo CRM."
-msgstr ""
+msgstr "在Odoo CRM中添加一个销售人员。"
 
 #: ../../content/applications/sales/crm/pipeline/multi_sales_team.rst:40
+#, fuzzy
 msgid ""
 "One person can be added as a team member or Team Leader to multiple Sales"
 " Teams, allowing them to access all of the pipelines that they need to."
-msgstr ""
+msgstr "可以将一个人作为团队成员或团队领导添加到多个销售团队，允许他们访问他们需要的"
+"所有管道。"
 
 #: ../../content/applications/sales/crm/pipeline/multi_sales_team.rst:44
+#, fuzzy
 msgid "Sales Team dashboard"
-msgstr ""
+msgstr "销售团队仪表板"
 
 #: ../../content/applications/sales/crm/pipeline/multi_sales_team.rst:46
+#, fuzzy
 msgid ""
 "To view the Sales Team dashboard, go to :menuselection:`CRM --> Sales -->"
 " Teams`. Any teams you are a part of will appear as dashboard tiles."
-msgstr ""
+msgstr "要查看销售团队仪表板，请转到:menuselection: ' "
+"CRM—>销售—>团队'。你所在的任何团队都会显示在仪表盘上。"
 
 #: ../../content/applications/sales/crm/pipeline/multi_sales_team.rst:49
+#, fuzzy
 msgid ""
 "Each tile gives an overview of the Sales Team's open opportunities, "
 "quotations, sales orders, and expected revenue, as well as a bar graph of"
 " new opportunities per week and an invoicing progress bar."
-msgstr ""
+msgstr "每个图块给出了销售团队的开放机会、报价、销售订单和预期收入的概述，以及每周新"
+"机会的条形图和发票进度条。"
 
+#, fuzzy
 msgid "Sales Team Overview dashboard in Odoo CRM."
-msgstr ""
+msgstr "Odoo CRM中的销售团队概述仪表板。"
 
 #: ../../content/applications/sales/crm/pipeline/multi_sales_team.rst:57
+#, fuzzy
 msgid ""
 "Click on the three dots in the corner of a tile to open a navigational "
 "menu that lets you quickly view documents or reports, create new "
 "quotations or opportunities, pick a color for this team, or access its "
 "configuration page."
-msgstr ""
+msgstr "点击贴图角落的三个点，打开导航菜单，让您快速查看文档或报告，创建新的报价或机"
+"会，为这个团队选择一种颜色，或访问它的配置页面。"
 
+#, fuzzy
 msgid ""
 "Click the Three Dot Menu in Odoo CRM dashboard to view documents and "
 "create opportunities."
-msgstr ""
+msgstr "点击Odoo CRM仪表板中的三个点菜单，查看文档并创造机会。"
 
 #: ../../content/applications/sales/crm/pipeline/multi_sales_team.rst:65
+#, fuzzy
 msgid ""
 "Click on the :guilabel:`Pipeline` button to go directly to that team's "
 "CRM pipeline."
-msgstr ""
+msgstr "点击:guilabel: ' Pipeline '按钮，直接进入该团队的CRM管道。"
 
 #: ../../content/applications/sales/crm/track_leads.rst:5
 msgid "Assign and track leads"
@@ -1150,61 +1258,75 @@ msgid "Assign leads based on scoring"
 msgstr "根据评分分配销售线索"
 
 #: ../../content/applications/sales/crm/track_leads/lead_scoring.rst:5
+#, fuzzy
 msgid ""
 "*Lead Scoring* lets you rank and prioritize leads based on selected "
 "criteria. A higher score indicates that a lead is more likely to bring "
 "value to your company."
-msgstr ""
+msgstr "*领先评分*让您排名和优先顺序的基础上选择的标准的领导。得分越高，说明潜在客户"
+"更有可能为你的公司带来价值。"
 
 #: ../../content/applications/sales/crm/track_leads/lead_scoring.rst:8
+#, fuzzy
 msgid ""
 "For example, if customers from Canada tend to be more likely to purchase "
 "your products, you can assign them a higher score than customers from "
 "other countries."
-msgstr ""
+msgstr "例如，如果来自加拿大的客户更倾向于购买你的产品，你可以给他们比来自其他国家的"
+"客户更高的分数。"
 
 #: ../../content/applications/sales/crm/track_leads/lead_scoring.rst:14
+#, fuzzy
 msgid ""
 "To use scoring, go to :menuselection:`Apps`, remove the :guilabel:`Apps` "
 "filter, search for :guilabel:`Lead Scoring` and then install the module."
 msgstr ""
+"要使用评分，请转到:menuselection: ' Apps '，删除:guilabel: ' Apps "
+"'过滤器，搜索:guilabel: ' Lead scoring '，然后安装模块。"
 
+#, fuzzy
 msgid "Lead Scoring module installation"
-msgstr ""
+msgstr "铅评分模块安装"
 
 #: ../../content/applications/sales/crm/track_leads/lead_scoring.rst:22
 msgid "Create scoring rules"
 msgstr "生成评分规则"
 
 #: ../../content/applications/sales/crm/track_leads/lead_scoring.rst:24
+#, fuzzy
 msgid ""
 "To manage scoring rules, go to :menuselection:`CRM --> Leads --> Scoring "
 "Rules`."
-msgstr ""
+msgstr "要管理评分规则，请访问:menuselection:“CRM—> Leads—>评分规则”。"
 
 #: ../../content/applications/sales/crm/track_leads/lead_scoring.rst:26
+#, fuzzy
 msgid ""
 "Customize your rules to fit the needs of your business, and add as many "
 "criteria as you want."
-msgstr ""
+msgstr "定制您的规则以适应您的业务需求，并添加尽可能多的标准。"
 
+#, fuzzy
 msgid "Score Rule example"
-msgstr ""
+msgstr "评分规则的例子"
 
 #: ../../content/applications/sales/crm/track_leads/lead_scoring.rst:32
+#, fuzzy
 msgid ""
 "Every hour, Odoo automatically assigns scores to new leads according to "
 "your configured rules."
-msgstr ""
+msgstr "每小时，Odoo自动分配分数的新线索根据您配置的规则。"
 
+#, fuzzy
 msgid "Scoring section on a lead"
-msgstr ""
+msgstr "得分部分领先"
 
 #: ../../content/applications/sales/crm/track_leads/lead_scoring.rst:39
 msgid "Assign leads"
 msgstr "分配销售线索"
 
 #: ../../content/applications/sales/crm/track_leads/lead_scoring.rst:41
+#, fuzzy
 msgid ""
 "Odoo can also assign leads to specific teams based on configured rules. "
 "To configure assignment rules, go to the individual Sales Team's "
@@ -1212,48 +1334,65 @@ msgid ""
 " or :menuselection:`CRM --> Configuration --> Sales Teams`, and apply a "
 "specific Domain to each team. The Domain can include lead scores."
 msgstr ""
+"Odoo还可以根据配置的规则将领导分配给特定的团队。要配置分配规则，通过:menusele"
+"ction: ' CRM—> Leads—> Team assignment '或:menuselection: ' CRM—> "
+"configuration—> Sales Teams "
+"'进入单个销售团队的配置页面，并对每个团队应用特定的域。该域可以包括领先分数。"
 
+#, fuzzy
 msgid "Team Assignments using domains"
-msgstr ""
+msgstr "使用域的团队分配"
 
 #: ../../content/applications/sales/crm/track_leads/lead_scoring.rst:50
+#, fuzzy
 msgid ""
 "Assign leads to specific salespeople using further refined Domains at "
 ":menuselection:`CRM --> Leads --> Leads Assignment`."
-msgstr ""
+msgstr "使用进一步细化的域名:menuselection为特定的销售人员分配线索:“CRM—> leads—> "
+"leads Assignment”。"
 
+#, fuzzy
 msgid "Lead Assignments"
-msgstr ""
+msgstr "铅作业"
 
 #: ../../content/applications/sales/crm/track_leads/lead_scoring.rst:57
+#, fuzzy
 msgid "Odoo automatically assigns new leads to teams/salespeople once per day."
-msgstr ""
+msgstr "Odoo每天自动为团队/销售人员分配一次新的领导。"
 
 #: ../../content/applications/sales/crm/track_leads/lead_scoring.rst:60
+#, fuzzy
 msgid "Evaluate and use the unassigned leads"
-msgstr ""
+msgstr "评估和使用未分配的线索"
 
 #: ../../content/applications/sales/crm/track_leads/lead_scoring.rst:62
+#, fuzzy
 msgid ""
 "Not all leads will fall into your set Domains and get assigned "
 "automatically by Odoo."
-msgstr ""
+msgstr "不是所有的线索将落入你的设置域和自动分配Odoo。"
 
 #: ../../content/applications/sales/crm/track_leads/lead_scoring.rst:64
+#, fuzzy
 msgid ""
 "To view your unassigned leads, go to :menuselection:`CRM --> Leads --> "
 "Leads` and select the Unassigned filter."
-msgstr ""
+msgstr "要查看未分配的客户，请转到:menuselection: ' CRM—> leads—> leads "
+"'并选择unassigned过滤器。"
 
+#, fuzzy
 msgid "Filtering for unassigned leads"
-msgstr ""
+msgstr "筛选未分配的线索"
 
 #: ../../content/applications/sales/crm/track_leads/lead_scoring.rst:72
+#, fuzzy
 msgid ""
 "You can also find unassigned leads and create re-engagement campaigns "
 "using the :guilabel:`Email Marketing` or :guilabel:`Marketing Automation`"
 " apps."
 msgstr ""
+"你还可以使用:guilabel: ' Email Marketing '或:guilabel: ' Marketing "
+"Automation '应用程序找到未分配的客户并创建重新参与的活动。"
 
 #: ../../content/applications/sales/crm/track_leads/prospect_visits.rst:3
 msgid "Track your prospects visits"
@@ -1446,8 +1585,9 @@ msgstr "对产品应用折扣"
 msgid "From your PoS session interface, use the *Disc* button."
 msgstr "在PoS界面中，使用 *折扣* 按钮。"
 
+#, fuzzy
 msgid "View of the discount button for manual discount"
-msgstr ""
+msgstr "手动折扣按钮的视图"
 
 #: ../../content/applications/sales/point_of_sale/advanced_pricing_features/discounts.rst:30
 msgid ""
@@ -1471,22 +1611,25 @@ msgid ""
 "category."
 msgstr "进入PoS表单后，在 *价格* 类别下选择 *全球折扣* 。"
 
+#, fuzzy
 msgid "View of the feature to enable for global discount"
-msgstr ""
+msgstr "要启用全局折扣的功能的视图"
 
 #: ../../content/applications/sales/point_of_sale/advanced_pricing_features/discounts.rst:45
 msgid "Now, you have a new *Discount* button appearing on your PoS interface."
 msgstr "现在，您的PoS界面上将出现一个新的 *折扣* 按钮。"
 
+#, fuzzy
 msgid "View of the button to use for global discount via the pos interface"
-msgstr ""
+msgstr "通过pos接口用于全局折扣的按钮视图"
 
 #: ../../content/applications/sales/point_of_sale/advanced_pricing_features/discounts.rst:51
 msgid "Click on it and enter the wanted discount."
 msgstr "点击它并输入所需的折扣。"
 
+#, fuzzy
 msgid "View of the discount offered in the payment summary"
-msgstr ""
+msgstr "查看支付汇总中提供的折扣"
 
 #: ../../content/applications/sales/point_of_sale/advanced_pricing_features/discounts.rst:58
 #, python-format
@@ -1509,8 +1652,9 @@ msgstr ""
 "要激活限时折扣，您必须激活 *价目表* 功能。 为此，请转到:menuselection:` POS --> 配置 --> "
 "销售点，然后打开您的PoS并启用价目表功能。"
 
+#, fuzzy
 msgid "View of the pricelist feature"
-msgstr ""
+msgstr "价格表功能的视图"
 
 #: ../../content/applications/sales/point_of_sale/advanced_pricing_features/discounts.rst:73
 msgid ""
@@ -1538,8 +1682,9 @@ msgid ""
 "pricelist on specific products or on the whole range."
 msgstr "创建价格表时，可以使用多个条件以设置特定的价格如：时期，最小值。 数量等。您还可以决定将该价目表应用于特定产品或整个产品系列。"
 
+#, fuzzy
 msgid "View of a time-limited pricelist for two products"
-msgstr ""
+msgstr "两个产品的限时价格表视图"
 
 #: ../../content/applications/sales/point_of_sale/advanced_pricing_features/discounts.rst:92
 msgid "Using a pricelist with the PoS interface"
@@ -1549,8 +1694,9 @@ msgstr "在PoS界面上使用价目表"
 msgid "On the PoS interface, a new button appears. Use it to select a pricelist."
 msgstr "在PoS界面上，将出现一个新按钮。 使用它来选择价格表。"
 
+#, fuzzy
 msgid "View of the button to use for time-limited discounts via the pos interface"
-msgstr ""
+msgstr "通过pos接口用于限时折扣的按钮视图"
 
 #: ../../content/applications/sales/point_of_sale/advanced_pricing_features/discounts.rst:101
 msgid ""
@@ -1882,64 +2028,79 @@ msgid "TM-H6000IV-DT (Receipt printer only)"
 msgstr "TM-H6000IV-DT（仅限收据打印机）"
 
 #: ../../content/applications/sales/point_of_sale/overview/epos_ssc.rst:18
+#, fuzzy
 msgid "TM-T70II-DT"
-msgstr ""
+msgstr "TM-T70二代滴型"
 
 #: ../../content/applications/sales/point_of_sale/overview/epos_ssc.rst:19
+#, fuzzy
 msgid "TM-T88V-DT"
-msgstr ""
+msgstr "TM-T88V-滴定型"
 
 #: ../../content/applications/sales/point_of_sale/overview/epos_ssc.rst:20
+#, fuzzy
 msgid "TM-L90-i"
-msgstr ""
+msgstr "TM-L90-i"
 
 #: ../../content/applications/sales/point_of_sale/overview/epos_ssc.rst:21
+#, fuzzy
 msgid "TM-T20II-i"
-msgstr ""
+msgstr "TM-T20II-i"
 
 #: ../../content/applications/sales/point_of_sale/overview/epos_ssc.rst:22
+#, fuzzy
 msgid "TM-T70-i"
-msgstr ""
+msgstr "TM-T70-i"
 
 #: ../../content/applications/sales/point_of_sale/overview/epos_ssc.rst:23
+#, fuzzy
 msgid "TM-T82II-i"
-msgstr ""
+msgstr "TM-T82II-i"
 
 #: ../../content/applications/sales/point_of_sale/overview/epos_ssc.rst:24
+#, fuzzy
 msgid "TM-T83II-i"
-msgstr ""
+msgstr "TM-T83II-i"
 
 #: ../../content/applications/sales/point_of_sale/overview/epos_ssc.rst:25
+#, fuzzy
 msgid "TM-T88V-i"
-msgstr ""
+msgstr "TM-T88V-i"
 
 #: ../../content/applications/sales/point_of_sale/overview/epos_ssc.rst:26
+#, fuzzy
 msgid "TM-U220-i"
-msgstr ""
+msgstr "TM-U220-i"
 
 #: ../../content/applications/sales/point_of_sale/overview/epos_ssc.rst:27
+#, fuzzy
 msgid "TM-m10"
-msgstr ""
+msgstr "TM-m10"
 
 #: ../../content/applications/sales/point_of_sale/overview/epos_ssc.rst:28
+#, fuzzy
 msgid "TM-m30"
-msgstr ""
+msgstr "TM-m30"
 
 #: ../../content/applications/sales/point_of_sale/overview/epos_ssc.rst:29
+#, fuzzy
 msgid "TM-P20 (Wi-Fi® model)"
-msgstr ""
+msgstr "TM-P20 (wi - fi®模型)"
 
 #: ../../content/applications/sales/point_of_sale/overview/epos_ssc.rst:30
+#, fuzzy
 msgid "TM-P60II (Receipt: Wi-Fi® model)"
-msgstr ""
+msgstr "TM-P60II （收据： 无线局域网®型号）"
 
 #: ../../content/applications/sales/point_of_sale/overview/epos_ssc.rst:31
+#, fuzzy
 msgid "TM-P60II (Peeler: Wi-Fi® model)"
-msgstr ""
+msgstr "TM-P60II （削皮器：无线局域网®型号）"
 
 #: ../../content/applications/sales/point_of_sale/overview/epos_ssc.rst:32
+#, fuzzy
 msgid "TM-P80 (Wi-Fi® model)"
-msgstr ""
+msgstr "TM-P80 (wi - fi®模型)"
 
 #: ../../content/applications/sales/point_of_sale/overview/epos_ssc.rst:35
 msgid "Generate a Self-signed certificate"
@@ -2010,16 +2171,19 @@ msgid ""
 "valid`."
 msgstr "单击：菜单选择：“连接不安全-->证书无效”。"
 
+#, fuzzy
 msgid ""
 "The web browser indicates that the connection to the printer is not "
 "secure."
-msgstr ""
+msgstr "浏览器提示与打印机的连接不安全。"
 
 #: ../../content/applications/sales/point_of_sale/overview/epos_ssc.rst:71
+#, fuzzy
 msgid ""
 "Go to the :guilabel:`Details` tab and click on :guilabel:`Export` Select "
 "X.509 in base 64 and save it."
-msgstr ""
+msgstr "进入:guilabel: ' Details '选项卡，然后点击:guilabel: ' Export '选择64进位的X."
+"509并保存它。"
 
 #: ../../content/applications/sales/point_of_sale/overview/epos_ssc.rst:74
 msgid "Import the Self-signed certificate to Windows (Using Chrome)"
@@ -2032,10 +2196,13 @@ msgid ""
 msgstr "在Chrome浏览器中，转至：菜单选择：`设置-->隐私和安全-->安全-->管理证书`"
 
 #: ../../content/applications/sales/point_of_sale/overview/epos_ssc.rst:79
+#, fuzzy
 msgid ""
 "Go to the :guilabel:`Authorities` tab and click on :guilabel:`Import` and"
 " select your previous file. Accept all warnings and restart your browser."
 msgstr ""
+"转到:guilabel: ' authority '选项卡，点击:guilabel: ' Import "
+"'，选择之前的文件。接受所有警告并重新启动浏览器。"
 
 #: ../../content/applications/sales/point_of_sale/overview/epos_ssc.rst:83
 msgid "Import the Self-signed certificate to your Android device"
@@ -2071,14 +2238,18 @@ msgid "Make products available in the PoS"
 msgstr "使产品可在PoS中使用"
 
 #: ../../content/applications/sales/point_of_sale/overview/getting_started.rst:19
+#, fuzzy
 msgid ""
 "To make products available for sale, go to :menuselection:`Point of Sale "
 "--> Products --> Products` and open a product. In the *Point of Sale* "
 "tab, enable *Available in Point of Sale*."
 msgstr ""
+"要使产品可供销售，请转到:menusselection: ' Point of sale -> products -> "
+"products '并打开一个产品。在*销售点*选项卡中，启用*销售点可用*。"
 
+#, fuzzy
 msgid "Product form. Making the product available in PoS."
-msgstr ""
+msgstr "产品的形式。使产品在PoS中可用。"
 
 #: ../../content/applications/sales/point_of_sale/overview/getting_started.rst:28
 msgid "You can also define if the product has to be weighted or not."
@@ -2097,8 +2268,9 @@ msgstr ""
 "要添加付款方式，您首先需要创建它。 转到:menuselection:`POS --> 配置 --> 付款方式` ，然后单击创建。 "
 "接着，您可以命名您的付款方式并进行设置。"
 
+#, fuzzy
 msgid "Creating a new payment method for a Point of Sale."
-msgstr ""
+msgstr "为销售点创建一种新的支付方法。"
 
 #: ../../content/applications/sales/point_of_sale/overview/getting_started.rst:43
 msgid "Don’t forget your credentials for methods using a payment terminal."
@@ -2114,8 +2286,9 @@ msgstr ""
 "现在，您可以在PoS设置中选择付款方式。 为此，请转到:menuselection:`POS- -> 配置 --> "
 "销售点，然后打开要设置付款方式的PoS。 接着，添加付款方式。"
 
+#, fuzzy
 msgid "Making the payment method available in a point of sale."
-msgstr ""
+msgstr "使销售点可以使用该支付方法。"
 
 #: ../../content/applications/sales/point_of_sale/overview/getting_started.rst:55
 msgid ""
@@ -2135,15 +2308,17 @@ msgstr "第一个订单"
 msgid "Open a new session from the dashboard by clicking on *New Session*."
 msgstr "单击*新建会话*，从仪表板打开一个新会话。"
 
+#, fuzzy
 msgid "Launching a new session."
-msgstr ""
+msgstr "启动一个新的会话。"
 
 #: ../../content/applications/sales/point_of_sale/overview/getting_started.rst:70
 msgid "After the loading screen, you arrive on the PoS interface."
 msgstr "在加载屏幕之后，您将到达PoS界面。"
 
+#, fuzzy
 msgid "Point of sale dashboard."
-msgstr ""
+msgstr "销售点仪表板。"
 
 #: ../../content/applications/sales/point_of_sale/overview/getting_started.rst:76
 msgid ""
@@ -2175,8 +2350,9 @@ msgid ""
 "products, repeat the process individually."
 msgstr "为此，请从PoS界面中选择客户要退货的产品和数量（使用+/-按钮）。 对于多种产品的退货，请分别重复该过程。"
 
+#, fuzzy
 msgid "Refunding a product with the point of sale app."
-msgstr ""
+msgstr "用销售点应用程序退款。"
 
 #: ../../content/applications/sales/point_of_sale/overview/getting_started.rst:97
 msgid ""
@@ -2184,8 +2360,9 @@ msgid ""
 "process the payment and validate it."
 msgstr "在付款界面上，总计为负数。 要结束退款，请处理付款并进行验证。"
 
+#, fuzzy
 msgid "Giving back money to customer in Odoo Point of Sale."
-msgstr ""
+msgstr "在Odoo销售点把钱还给顾客。"
 
 #: ../../content/applications/sales/point_of_sale/overview/getting_started.rst:105
 msgid "Close the PoS session"
@@ -2198,8 +2375,9 @@ msgid ""
 "session on the dashboard view."
 msgstr "要在一天结束时关闭会话，请单击屏幕右上角的关闭按钮并进行确认。 现在，在仪表板视图上关闭会话。"
 
+#, fuzzy
 msgid "How to close a point of sale session."
-msgstr ""
+msgstr "如何关闭销售点会话。"
 
 #: ../../content/applications/sales/point_of_sale/overview/getting_started.rst:115
 msgid "It’s strongly advised to close your PoS session at the end of each day."
@@ -2213,8 +2391,9 @@ msgid ""
 "and post the closing entries."
 msgstr "会话关闭后，您可以查看每种付款方式的所有交易摘要。 然后，单击一行以查看在PoS会话中支付的所有订单。 如果一切正确，请验证会话并发布结束条目。"
 
+#, fuzzy
 msgid "Point of sale sales report before closing the session."
-msgstr ""
+msgstr "销售点在交易日结束前提交销售报告。"
 
 #: ../../content/applications/sales/point_of_sale/overview/getting_started.rst:126
 msgid ""
@@ -2241,17 +2420,19 @@ msgid ""
 "pivot form."
 msgstr "访问统计信息，请转到 :menuselection:`POS -> 报告 --> 订单。 在这里，您可以以图表或数据透视表的形式查看各种统计信息。"
 
+#, fuzzy
 msgid "Orders analysis with pivot view of the point of sale reporting feature."
-msgstr ""
+msgstr "订单分析与销售点报告功能的枢轴视图。"
 
 #: ../../content/applications/sales/point_of_sale/overview/getting_started.rst:145
 msgid "You can also access them through the dashboard."
 msgstr "您也可以通过仪表板访问数据。"
 
+#, fuzzy
 msgid ""
 "Accessing orders analysis via the point of sale dashboard. Reporting "
 "feature on the PoS form."
-msgstr ""
+msgstr "通过销售点仪表板访问订单分析。PoS表上的报告功能。"
 
 #: ../../content/applications/sales/point_of_sale/overview/https.rst:3
 msgid "Secure connection (HTTPS)"
@@ -2338,23 +2519,31 @@ msgid "Adyen"
 msgstr "Adyen"
 
 #: ../../content/applications/sales/point_of_sale/payment/adyen.rst:5
+#, fuzzy
 msgid ""
 "Connecting an **Adyen payment terminal** allows you to offer a fluid "
 "payment flow to your customers and ease the work of your cashiers."
-msgstr ""
+msgstr "连接一个**Adyen支付终端**允许您为您的客户提供一个流动的支付流程，并简化收银员"
+"的工作。"
 
 #: ../../content/applications/sales/point_of_sale/payment/adyen.rst:11
+#, fuzzy
 msgid ""
 "Start by creating your Adyen account on `Adyen's website "
 "<https://www.adyen.com/>`_. Then, board your terminal following the steps"
 " described on your terminal's screen."
 msgstr ""
+"首先在“Adyen's website <https://www.adyen.com/> ' "
+"_上创建您的Adyen帐户。”然后，按照终端屏幕上描述的步骤登上终端。"
 
 #: ../../content/applications/sales/point_of_sale/payment/adyen.rst:15
+#, fuzzy
 msgid ""
 "`Adyen Docs - Payment terminal quickstart guides <https://docs.adyen.com"
 "/point-of-sale/user-manuals>`_."
 msgstr ""
+"' Adyen Docs -支付终端快速入门指南<https://docs.adyen.com/point-of-sale/user-"
+"manuals> ' _。"
 
 #: ../../content/applications/sales/point_of_sale/payment/adyen.rst:19
 #: ../../content/applications/sales/point_of_sale/payment/ingenico.rst:36
@@ -2363,6 +2552,7 @@ msgid "Configure the payment method"
 msgstr "配置支付方式"
 
 #: ../../content/applications/sales/point_of_sale/payment/adyen.rst:21
+#, fuzzy
 msgid ""
 "First, go to :menuselection:`Point of Sale --> Configuration --> Settings"
 " --> Payment Terminals`, and enable :guilabel:`Adyen`. Then, go to "
@@ -2370,75 +2560,100 @@ msgid ""
 "payment method. Select :guilabel:`Adyen` in the :guilabel:`Use a Payment "
 "Terminal` field."
 msgstr ""
+"首先，进入:menuselection: ' Point of Sale -> Configuration -> Settings -> "
+"Payment Terminals '，并启用:guilabel: ' Adyen '。然后，进入:menuselection: ' "
+"Configuration—> Payment Methods '，创建一个新的支付方法。在:guilabel: "
+"'使用支付终端'字段中选择:guilabel: ' Adyen '。"
 
 #: ../../content/applications/sales/point_of_sale/payment/adyen.rst:27
+#, fuzzy
 msgid ""
 "The selected journal **must** be a bank journal for the :guilabel:`Use a "
 "payment terminal` field to appear."
-msgstr ""
+msgstr "选中的日志**必须是:guilabel: '使用支付终端'字段出现的银行日志。"
 
 #: ../../content/applications/sales/point_of_sale/payment/adyen.rst:30
+#, fuzzy
 msgid ""
 "Finally, fill the mandatory fields with an :guilabel:`Adyen API key`, and"
 " an :guilabel:`Adyen Terminal Identifier`."
-msgstr ""
+msgstr "最后，用:guilabel: ' Adyen API key '和:guilabel: ' "
+"Adyen终端标识符'填充必填字段。"
 
 #: ../../content/applications/sales/point_of_sale/payment/adyen.rst:34
+#, fuzzy
 msgid "Generate an Adyen API key"
-msgstr ""
+msgstr "生成一个Adyen API键"
 
 #: ../../content/applications/sales/point_of_sale/payment/adyen.rst:36
+#, fuzzy
 msgid ""
 "The **Adyen API key** is a key used to authenticate your requests. To "
 "generate an API key, go to your **Adyen account**."
-msgstr ""
+msgstr "**Adyen "
+"API密钥**是用于验证请求的密钥。要生成API密钥，请转到您的**Adyen帐户**。"
 
 #: ../../content/applications/sales/point_of_sale/payment/adyen.rst:39
+#, fuzzy
 msgid ""
 "Then, go to :menuselection:`Developers --> API credentials`. Create a new"
 " credential or click on an existing one."
-msgstr ""
+msgstr "然后，转到:menuselection: ' Developers—> API credentials "
+"'。创建新的凭据或单击现有凭据。"
 
 #: ../../content/applications/sales/point_of_sale/payment/adyen.rst:42
+#, fuzzy
 msgid ""
 "Click on :guilabel:`Generate an API key` and copy-paste that key onto the"
 " Odoo mandatory field."
-msgstr ""
+msgstr "点击:guilabel: ' Generate an API key '，复制粘贴到Odoo的必填项上。"
 
 #: ../../content/applications/sales/point_of_sale/payment/adyen.rst:45
+#, fuzzy
 msgid ""
 "`Adyen Docs - API credentials <https://docs.adyen.com/development-"
 "resources/api-credentials#generate-api-key>`_."
-msgstr ""
+msgstr "“导火线文件< https://docs.adyen.com/开发者资源/ fire credentials > ' _。"
 
 #: ../../content/applications/sales/point_of_sale/payment/adyen.rst:49
+#, fuzzy
 msgid "Locate the Adyen terminal identifier"
-msgstr ""
+msgstr "定位Adyen终端标识符"
 
 #: ../../content/applications/sales/point_of_sale/payment/adyen.rst:51
+#, fuzzy
 msgid ""
 "The **Adyen Terminal Identifier** is your terminal's serial number, which"
 " is used to identify the hardware."
-msgstr ""
+msgstr "Adyen终端标识符**是终端的序列号，用于识别硬件。"
 
 #: ../../content/applications/sales/point_of_sale/payment/adyen.rst:54
+#, fuzzy
 msgid ""
 "To find this number, go to your **Adyen account**. Then, go to "
 ":menuselection:`Point of Sale --> Terminals`, select the terminal to "
 "link, and copy-paste its serial number onto the Odoo mandatory field."
 msgstr ""
+"要找到这个号码，请访问您的**Adyen帐户**。然后，转到:menusselection: ' Point "
+"of Sale—> Terminals "
+"'，选择要链接的终端，并将其序列号复制粘贴到Odoo必选字段中。"
 
 #: ../../content/applications/sales/point_of_sale/payment/adyen.rst:59
 msgid "Add a new payment method"
 msgstr "新增一个付款方式"
 
 #: ../../content/applications/sales/point_of_sale/payment/adyen.rst:61
+#, fuzzy
 msgid ""
 "To add a new **payment method** to a point of sale, go to "
 ":menuselection:`Point of Sale --> Configuration --> Point of Sale`. Then,"
 " select the POS and go to :menuselection:`Payments --> Payment Methods`, "
 "and add your new method for Adyen."
 msgstr ""
+"要向销售点添加新的**支付方法**，请转到:menuselection: ' point of sale—> "
+"Configuration—> point of sale "
+"'。然后，选择POS并进入:menusselection:“Payments—> Payment "
+"Methods”，并为Adyen添加新方法。"
 
 #: ../../content/applications/sales/point_of_sale/payment/adyen.rst:66
 #: ../../content/applications/sales/point_of_sale/payment/ingenico.rst:53
@@ -2447,28 +2662,35 @@ msgid "Pay with a payment terminal"
 msgstr "用支付终端付款"
 
 #: ../../content/applications/sales/point_of_sale/payment/adyen.rst:68
+#, fuzzy
 msgid ""
 "When processing a payment, select :guilabel:`Adyen` as the payment "
 "method. Check the amount and click on :guilabel:`Send`. Once the payment "
 "is successful, the status changes to :guilabel:`Payment Successful`."
 msgstr ""
+"在处理支付时，选择:guilabel: ' Adyen '作为支付方式。检查金额并点击:guilabel: "
+"' Send '。一旦支付成功，状态变为:guilabel:“支付成功”。"
 
 #: ../../content/applications/sales/point_of_sale/payment/adyen.rst
+#, fuzzy
 msgid ""
 "In case of connexion issues between Odoo and the payment terminal, force "
 "the payment by clicking on :guilabel:`Force Done`, which allows you to "
 "validate the order."
-msgstr ""
+msgstr "在Odoo和支付终端之间的连接问题，通过点击:guilabel: ' force Done "
+"'强制支付，这允许你验证订单。"
 
 #: ../../content/applications/sales/point_of_sale/payment/adyen.rst
+#, fuzzy
 msgid ""
 "This option is only available after receiving an error message informing "
 "you that the connection failed."
-msgstr ""
+msgstr "此选项仅在收到连接失败的错误消息后可用。"
 
 #: ../../content/applications/sales/point_of_sale/payment/adyen.rst:77
+#, fuzzy
 msgid "To cancel the payment request, click on :guilabel:`cancel`."
-msgstr ""
+msgstr "要取消付款请求，请点击:guilabel: ' cancel '。"
 
 #: ../../content/applications/sales/point_of_sale/payment/ingenico.rst:3
 msgid "Ingenico"
@@ -2569,8 +2791,9 @@ msgid ""
 msgstr "付款处理完毕后，在支付记录上可以看到使用的卡片类型和交易ID。"
 
 #: ../../content/applications/sales/point_of_sale/payment/six.rst:3
+#, fuzzy
 msgid "SIX"
-msgstr ""
+msgstr "六个"
 
 #: ../../content/applications/sales/point_of_sale/payment/six.rst:5
 msgid ""
@@ -2579,10 +2802,11 @@ msgid ""
 msgstr "连接SIX付款终端可让您向客户提供流畅的付款流程，并简化收银员的工作。"
 
 #: ../../content/applications/sales/point_of_sale/payment/six.rst:9
+#, fuzzy
 msgid ""
 "Starting in July 2022, it will **not** be possible anymore to connect and"
 " use a Six payment terminal in PoS."
-msgstr ""
+msgstr "从2022年7月开始，将**不可能在PoS站上连接和使用Six支付终端。"
 
 #: ../../content/applications/sales/point_of_sale/payment/six.rst:11
 msgid ""
@@ -2600,25 +2824,35 @@ msgid "Configure the Payment Method"
 msgstr "配置支付方式"
 
 #: ../../content/applications/sales/point_of_sale/payment/six.rst:21
+#, fuzzy
 msgid ""
 "First, make sure that the :guilabel:`POS Six` module is installed. For "
 "this, go to :guilabel:`Apps`, remove the :guilabel:`Apps` filter, and "
 "search for *POS Six*."
 msgstr ""
+"首先，确保安装了:guilabel: ' POS Six '模块。为此，进入:guilabel: ' Apps "
+"'，删除:guilabel: ' Apps '过滤器，搜索*POS Six*。"
 
+#, fuzzy
 msgid "The POS Six module."
-msgstr ""
+msgstr "pos6模块。"
 
 #: ../../content/applications/sales/point_of_sale/payment/six.rst:28
+#, fuzzy
 msgid ""
 "Back in :menuselection:`Point of Sale --> Configuration --> Payment "
 "Methods`, click :guilabel:`Create` to create a new payment method for "
 "SIX, select the payment terminal option :guilabel:`SIX`, and enter the "
 "payment terminal IP address."
 msgstr ""
+"返回:menusselection: ' Point of Sale -> Configuration -> Payment Methods "
+"'，点击:guilabel: ' Create "
+"'为SIX创建一个新的支付方式，选择支付终端选项:guilabel: ' SIX "
+"'，并输入支付终端IP地址。"
 
+#, fuzzy
 msgid "Create a new payment method for the SIX payment terminal."
-msgstr ""
+msgstr "为SIX支付终端创建一个新的支付方法。"
 
 #: ../../content/applications/sales/point_of_sale/payment/six.rst:37
 #: ../../content/applications/sales/point_of_sale/payment/vantiv.rst:40
@@ -2626,6 +2860,7 @@ msgid "Pay with a Payment Terminal"
 msgstr "用支付终端付款"
 
 #: ../../content/applications/sales/point_of_sale/payment/six.rst:39
+#, fuzzy
 msgid ""
 "In the :abbr:`PoS (Point of Sale)` interface, at the moment of the "
 "payment, select a payment method using a payment terminal. Verify that "
@@ -2633,31 +2868,42 @@ msgid ""
 "payment terminal and click on :guilabel:`Send`. To cancel the payment "
 "request, click on :guilabel:`Cancel`."
 msgstr ""
+"在:abbr: ' PoS(销售点)'界面中，在支付的时刻，使用支付终端选择一种支付方式。确"
+"认投标栏中的金额是必须发送到支付终端的金额，然后点击:guilabel: ' Send "
+"'。要取消付款请求，请点击:guilabel: ' cancel '。"
 
+#, fuzzy
 msgid "The PoS interface."
-msgstr ""
+msgstr "PoS接口。"
 
 #: ../../content/applications/sales/point_of_sale/payment/six.rst:48
+#, fuzzy
 msgid ""
 "When the payment is done, the status will change to :guilabel:`Payment "
 "Successful`. If needed, reverse the last transaction by clicking on "
 ":guilabel:`Reverse`."
-msgstr ""
+msgstr "当付款完成后，状态将变为:guilabel:“付款成功”。如果需要，可以通过点击:guilabel"
+": ' reverse '来逆转上一个事务。"
 
+#, fuzzy
 msgid "The Reverse button on the PoS interface."
-msgstr ""
+msgstr "PoS界面上的Reverse按钮。"
 
 #: ../../content/applications/sales/point_of_sale/payment/six.rst:55
+#, fuzzy
 msgid ""
 "If there is any issue with the payment terminal, you can still force the "
 "payment using the :guilabel:`Force Done` button. This will allow you to "
 "validate the order in Odoo even if there are connection issues between "
 "the payment terminal and Odoo."
 msgstr ""
+"如果支付终端有任何问题，你仍然可以使用:guilabel: ' force Done '按钮强制支付。"
+"这将允许您在Odoo中验证订单，即使在支付终端和Odoo之间存在连接问题。"
 
 #: ../../content/applications/sales/point_of_sale/payment/vantiv.rst:3
+#, fuzzy
 msgid "Vantiv"
-msgstr ""
+msgstr "Vantiv"
 
 #: ../../content/applications/sales/point_of_sale/payment/vantiv.rst:5
 msgid ""
@@ -3052,8 +3298,9 @@ msgid ""
 "*Is a Bar/Restaurant*."
 msgstr "要激活酒吧/餐厅功能，请进入 :menuselection:`POS --> 配置 --> 销售点并打开您的PoS。 现在，选择 *酒吧/餐厅* 。"
 
+#, fuzzy
 msgid "Restaurant set up. Enabling the is a bar/Restaurant feature on a PoS"
-msgstr ""
+msgstr "餐厅设置。启用该功能是PoS机上的酒吧/餐厅功能"
 
 #: ../../content/applications/sales/point_of_sale/restaurant/restaurant.rst:24
 msgid ""
@@ -3061,8 +3308,9 @@ msgid ""
 "that they are restaurant-specific."
 msgstr "显示的新功能旁边有刀叉图标，表明它们是特定的餐厅。"
 
+#, fuzzy
 msgid "Several restaurant features. Bill printing, bill splitting and tips"
-msgstr ""
+msgstr "一些餐厅的功能。印账单，分账单和小费"
 
 #: ../../content/applications/sales/point_of_sale/restaurant/restaurant.rst:32
 msgid "Add a floor"
@@ -3077,15 +3325,17 @@ msgstr ""
 "一旦配置了 *POS* ，请在:menuselection:`销售点  --> 配置 --> 销点` 下选择 *桌子管理* 。 然后，单击 "
 "*楼面* 以创建并命名您的楼面和桌子。"
 
+#, fuzzy
 msgid ""
 "View of the table management feature. Way to manage and create floors for"
 " a pos"
-msgstr ""
+msgstr "表管理特性视图。管理和创建一个pos的楼层的方法"
 
+#, fuzzy
 msgid ""
 "Backend view of a restaurant floor. Table name and number of sits for "
 "each table"
-msgstr ""
+msgstr "餐厅地板的后视图。表名和每个表的座位数"
 
 #: ../../content/applications/sales/point_of_sale/restaurant/restaurant.rst:47
 msgid "Don’t forget to link your floor to your point of sale."
@@ -3099,8 +3349,9 @@ msgstr "添加餐台"
 msgid "To add tables, you can also open your PoS interface to see your floor(s)."
 msgstr "要添加表格，您还可以打开PoS界面查看楼层。"
 
+#, fuzzy
 msgid "View of the floors menu to manage several floors at the same time"
-msgstr ""
+msgstr "查看楼层菜单，可以同时管理多个楼层"
 
 #: ../../content/applications/sales/point_of_sale/restaurant/restaurant.rst:59
 msgid ""
@@ -3108,10 +3359,11 @@ msgid ""
 "allowed to create, move, modify tables, etc."
 msgstr "然后，单击 *编辑模式*（右上角的铅笔图标）以允许创建，移动，修改表格等。"
 
+#, fuzzy
 msgid ""
 "View of the floor management. Add tables, the number of sits, their name "
 "and their shape"
-msgstr ""
+msgstr "楼层管理视图。加上桌子，座位的数量，它们的名字和形状"
 
 #: ../../content/applications/sales/point_of_sale/restaurant/restaurant.rst:67
 msgid ""
@@ -3130,8 +3382,9 @@ msgid ""
 " taken to your main interface."
 msgstr "要登记订单，请单击相应的桌子。 这样，您将进入主界面。"
 
+#, fuzzy
 msgid "View of the pos interface to register orders"
-msgstr ""
+msgstr "pos接口的视图，用于注册订单"
 
 #: ../../content/applications/sales/point_of_sale/restaurant/restaurant.rst:82
 msgid "Transfer customer(s)"
@@ -3148,8 +3401,9 @@ msgstr "如果您的客户在登记后想移到另一张桌子，请使用转移
 msgid "To do so, select the table your customer is currently on."
 msgstr "为此，请选择客户当前所在的桌子。"
 
+#, fuzzy
 msgid "View of the restaurant tables, one having a pending order"
-msgstr ""
+msgstr "餐厅的桌子视图，一个有一个未决的订单"
 
 #: ../../content/applications/sales/point_of_sale/restaurant/restaurant.rst:94
 msgid ""
@@ -3157,11 +3411,14 @@ msgid ""
 "transferring your customer."
 msgstr "现在，单击转移按钮，然后选择要将客户转移到的桌子。"
 
+#, fuzzy
 msgid ""
 "View of the pos interface and transfer button. How to transfer customers "
 "from one table\n"
 "to another"
 msgstr ""
+"pos接口和传输按钮的视图。如何从一张桌子转移客户\n"
+"到另一个"
 
 #: ../../content/applications/sales/point_of_sale/restaurant/restaurant.rst:103
 msgid "Register an additional order"
@@ -3179,8 +3436,9 @@ msgid ""
 "needed."
 msgstr "然后，您可以在订单之间切换并在需要时处理付款。"
 
+#, fuzzy
 msgid "View of the - button, allowing employees to close/remove an order"
-msgstr ""
+msgstr "视图的-按钮，允许员工关闭/删除订单"
 
 #: ../../content/applications/sales/point_of_sale/restaurant/restaurant.rst:116
 msgid "The - button allows you to remove the order you are currently on."
@@ -3580,159 +3838,213 @@ msgid "When you use it, you can then reprint your last receipt."
 msgstr "你可以使用它来重新打印上一张收据。"
 
 #: ../../content/applications/sales/point_of_sale/shop/sales_order.rst:3
+#, fuzzy
 msgid "Sales orders in PoS"
-msgstr ""
+msgstr "PoS中的销售订单"
 
 #: ../../content/applications/sales/point_of_sale/shop/sales_order.rst:5
+#, fuzzy
 msgid ""
 "When working in retail, you might need to order products directly from "
 "your Point of sale. Fortunately, Odoo Point of Sale is fully integrated "
 "with Odoo Sales, meaning that you can create a sales order and pay for it"
 " directly from your point of sale."
 msgstr ""
+"在零售行业工作时，您可能需要直接从销售点订购产品。幸运的是，Odoo销售点与Odoo"
+"销售完全集成，这意味着您可以创建销售订单，并直接从您的销售点支付。"
 
 #: ../../content/applications/sales/point_of_sale/shop/sales_order.rst:10
+#, fuzzy
 msgid "Select a sales order"
-msgstr ""
+msgstr "选择销售订单"
 
 #: ../../content/applications/sales/point_of_sale/shop/sales_order.rst:12
+#, fuzzy
 msgid ""
 "From the **Point of Sale** application, open a new session. Then, click "
 "on :guilabel:`Quotations/Orders` to get the complete list of quotations "
 "and sales orders created on the sales application."
 msgstr ""
+"从**销售点**应用程序打开一个新会话。然后，点击:guilabel: ' Quotations/Orders "
+"'获得在销售应用程序上创建的报价和销售订单的完整列表。"
 
+#, fuzzy
 msgid "Quotations and sales order button on the Point of Sale interface"
-msgstr ""
+msgstr "销售点界面上的报价和销售订单按钮"
 
 #: ../../content/applications/sales/point_of_sale/shop/sales_order.rst:21
+#, fuzzy
 msgid ""
 "To ease finding the right sales order, you can filter that list on the "
 "**customer** or on the **order reference**. You can also set the customer"
 " before clicking on :guilabel:`Quotations/Orders` to reduce the list to "
 "one particular customer."
 msgstr ""
+"为了便于查找正确的销售订单，您可以在**客户**或**订单引用**上筛选该列表。你也"
+"可以在点击之前设置客户:guilabel: ' Quotations/Orders "
+"'，以减少列表到一个特定的客户。"
 
 #: ../../content/applications/sales/point_of_sale/shop/sales_order.rst:26
+#, fuzzy
 msgid "Apply a down payment or settle the order"
-msgstr ""
+msgstr "申请首付款或解决订单"
 
 #: ../../content/applications/sales/point_of_sale/shop/sales_order.rst:28
+#, fuzzy
 msgid "From the list of sales order, select one to make a payment."
-msgstr ""
+msgstr "从销售订单列表中选择一个进行付款。"
 
+#, fuzzy
 msgid "list view of sales orders and quotations"
-msgstr ""
+msgstr "销售订单和报价的列表视图"
 
 #: ../../content/applications/sales/point_of_sale/shop/sales_order.rst:34
 msgid "You can either:"
 msgstr "你可以选择:"
 
 #: ../../content/applications/sales/point_of_sale/shop/sales_order.rst:36
+#, fuzzy
 msgid ""
 "Settle the order **partially**: after clicking on :guilabel:`Apply a down"
 " payment`, enter the percentage of down payment you want the customer to "
 "pay. Then, click on :guilabel:`ok` and proceed with the order."
 msgstr ""
+"部分解决订单** *:点击:guilabel: "
+"'申请首付'后，输入你希望客户支付的首付比例。然后，点击:guilabel: ' ok "
+"'继续下单。"
 
 #: ../../content/applications/sales/point_of_sale/shop/sales_order.rst:39
+#, fuzzy
 msgid ""
 "Settle the order **completely**: click on :guilabel:`Settle the order` to"
 " pay for the total of the sales order."
-msgstr ""
+msgstr "**完全解决订单**:点击:guilabel:“解决订单”支付销售订单的总额。"
 
 #: ../../content/applications/sales/point_of_sale/shop/sales_order.rst:43
+#, fuzzy
 msgid ""
 "Once you settle a sales order, the applied down payment is automatically "
 "deducted from the total amount."
-msgstr ""
+msgstr "一旦您完成了销售订单，申请的首付款将自动从总额中扣除。"
 
 #: ../../content/applications/sales/point_of_sale/shop/sales_order.rst:47
+#, fuzzy
 msgid ":doc:`/applications/sales/sales/invoicing/down_payment`"
-msgstr ""
+msgstr ":医生:“/应用程序/销售/销售/发票/ down_payment '"
 
 #: ../../content/applications/sales/point_of_sale/shop/serial_numbers.rst:3
+#, fuzzy
 msgid "Serial numbers and lots"
-msgstr ""
+msgstr "序列号和地段"
 
 #: ../../content/applications/sales/point_of_sale/shop/serial_numbers.rst:5
+#, fuzzy
 msgid ""
 "Working with **serial numbers** and **lots** allows tracking your "
 "products' movements. When products are tracked, the system identifies "
 "their location based on their last movement."
-msgstr ""
+msgstr "使用**序列号**和**批次**可以跟踪产品的移动。当产品被跟踪时，系统根据其最后的"
+"移动位置识别其位置。"
 
 #: ../../content/applications/sales/point_of_sale/shop/serial_numbers.rst:8
+#, fuzzy
 msgid ""
 "To enable traceability, go to :menuselection:`Point of Sale --> Products "
 "--> Products`. Then, select a product and check the :guilabel:`Tracking "
 "By Unique Serial Number` or the :guilabel:`Tracking By Lots` box in the "
 ":guilabel:`Inventory` tab."
 msgstr ""
+"要启用可追溯性，请转到:menusselection: '销售点—>产品—>产品'。然后，选择一个产"
+"品，并检查:guilabel:“跟踪唯一序列号”或:guilabel:“跟踪批次”框中的:guilabel:“库"
+"存”选项卡。"
 
+#, fuzzy
 msgid "Enable traceability settings"
-msgstr ""
+msgstr "启用跟踪设置"
 
 #: ../../content/applications/sales/point_of_sale/shop/serial_numbers.rst:17
+#, fuzzy
 msgid "Serial numbers and lots importation"
-msgstr ""
+msgstr "序列号和批号进口"
 
 #: ../../content/applications/sales/point_of_sale/shop/serial_numbers.rst:19
+#, fuzzy
 msgid ""
 "You can import serial numbers in Point of Sale. To do so, select a "
 "**sales order** or a **quotation** containing tracked products. Then, "
 "agree to load the **Lots or Serial Numbers** linked to the :abbr:`SO "
 "(sales order)`."
 msgstr ""
+"您可以在销售点导入序列号。为此，选择包含跟踪产品的**销售订单**或**报价**。然"
+"后，同意加载链接到:缩写:“SO(销售订单)”的**批次或序列号**。"
 
+#, fuzzy
 msgid "Pop-up window for serial number import"
-msgstr ""
+msgstr "弹出窗口的序列号导入"
 
 #: ../../content/applications/sales/point_of_sale/shop/serial_numbers.rst:28
+#, fuzzy
 msgid ""
 "The imported tracking numbers appear below the tracked products. You can "
 "modify them by clicking on the list-view button next to the products."
-msgstr ""
+msgstr "导入的跟踪编号显示在跟踪的产品下面。您可以通过单击产品旁边的列表视图按钮来修"
+"改它们。"
 
 #: ../../content/applications/sales/point_of_sale/shop/serial_numbers.rst:37
+#, fuzzy
 msgid ":doc:`../shop/sales_order`"
-msgstr ""
+msgstr "医生:“. . /商店/ sales_order”"
 
 #: ../../content/applications/sales/point_of_sale/shop/serial_numbers.rst:40
+#, fuzzy
 msgid "Serial numbers and lots creation"
-msgstr ""
+msgstr "序号和批号的创建"
 
 #: ../../content/applications/sales/point_of_sale/shop/serial_numbers.rst:42
+#, fuzzy
 msgid ""
 "If a tracked product is available in your POS, adding the product to the "
 "cart opens a pop-up window where you can type or scan the product's "
 "serial or lot numbers. To add more than one of the same tracked products,"
 " click on **enter** to validate and start a new line."
 msgstr ""
+"如果您的POS中有跟踪产品，将该产品添加到购物车中会打开一个弹出窗口，您可以在其"
+"中输入或扫描产品的序列号或批号。要添加多个相同的跟踪产品，请单击**，输入**以"
+"验证并开始新行。"
 
+#, fuzzy
 msgid "adding new serial and lots numbers"
-msgstr ""
+msgstr "添加新的序列号和批号"
 
 #: ../../content/applications/sales/point_of_sale/shop/serial_numbers.rst:52
+#, fuzzy
 msgid ""
 "Changing a tracked product's quantity using the numpad turns the list-"
 "view button red. Click on it to add the missing lot and serial numbers."
-msgstr ""
+msgstr "使用numpad更改跟踪产品的数量会使列表视图按钮变为红色。点击它添加丢失的地段和"
+"序列号。"
 
 #: ../../content/applications/sales/point_of_sale/shop/serial_numbers.rst:54
+#, fuzzy
 msgid ""
 ":guilabel:`Lot & Serial Number(s)` are :guilabel:`required` on tracked "
 "products but not mandatory. Meaning that not attributing some or any does"
 " **not** prevent from completing the sale."
 msgstr ""
+":guilabel:“Lot & Serial Number(s)”是:guilabel:跟踪产品上的“要求”，但不是强制"
+"性的。这意味着不添加某些或任何属性并不妨碍完成销售。"
 
 #: ../../content/applications/sales/point_of_sale/shop/serial_numbers.rst:59
+#, fuzzy
 msgid ":doc:`/applications/inventory_and_mrp/inventory/management/lots_serial_numbers/serial_numbers`"
 msgstr ""
+":医生:“/应用程序/ inventory_and_mrp /库存/管理/ lots_serial_numbers / "
+"serial_numbers '"
 
 #: ../../content/applications/sales/point_of_sale/shop/serial_numbers.rst:60
+#, fuzzy
 msgid ":doc:`/applications/inventory_and_mrp/inventory/management/lots_serial_numbers/lots`"
-msgstr ""
+msgstr ":医生:“/应用程序/ inventory_and_mrp /库存/管理/ lots_serial_numbers /很多'"
 
 #: ../../content/applications/sales/rental.rst:3
 msgid "Rental"
@@ -3770,8 +4082,9 @@ msgid ""
 "necessary, usually to give out discounts for longer rental durations."
 msgstr "转到：菜单选择：`租赁-->产品`，选择或创建产品，然后单击产品的*租赁*选项卡。在*租赁定价*下，单击*添加价格*。然后选择时间的*单位（小时、天、周或月）、*持续时间*和*价格*。您可以根据需要添加任意多的价格行，通常是为了为更长的租期提供折扣。"
 
+#, fuzzy
 msgid "Example of rental pricing configuration in Odoo Rental"
-msgstr ""
+msgstr "Odoo租赁的租金定价配置示例"
 
 #: ../../content/applications/sales/rental.rst:32
 msgid ""
@@ -3847,8 +4160,9 @@ msgid ""
 "Settings`, activate *Digital Documents*, and *Save*."
 msgstr "您可以要求您的客户签署租赁协议，概述您和您的客户在提货之前的安排，以确保您的产品按时归还，并保持其原始状态。要执行此操作，请转至：菜单选择：`租赁-->配置-->设置`，活动*数字文件*，并且*保存*。"
 
+#, fuzzy
 msgid "Digital Documents settings in Odoo Rental"
-msgstr ""
+msgstr "Odoo租赁中的数字文档设置"
 
 #: ../../content/applications/sales/rental.rst:76
 msgid ""
@@ -3891,8 +4205,9 @@ msgid ""
 "and potential rental delay costs."
 msgstr "当客户提货和/或退货时，您可以打印并给他们收据。要执行此操作，请打开任何租赁订单，单击*打印*并选择*取货和退货收据*。然后，Odoo生成了一个PDF文件，详细介绍了有关租赁物品当前状态的所有信息：哪些物品被捡到，预计何时归还，哪些物品被归还，以及潜在的租赁延迟成本。"
 
+#, fuzzy
 msgid "Printing a Pickup and Return receipt in Odoo Rental"
-msgstr ""
+msgstr "在Odoo租赁公司打印取货和退货收据"
 
 #: ../../content/applications/sales/sales.rst:10
 msgid ""
@@ -4122,8 +4437,9 @@ msgid ""
 "marketplace is not listed in your Amazon marketplaces, you can :ref:`add "
 "a new marketplace <amazon/add-new-marketplace>`."
 msgstr ""
-"亚马逊连接器当前支持9个市场。 如果以下未列出市场，则您可以 :ref:`将其添加为受支持的市场<amazon/add-unsupported-"
-"marketplace>`。"
+"Amazon "
+"Connector支持所有当前的市场。如果一个市场没有列在你的亚马逊市场，你可以:ref: "
+"'添加一个新的市场< Amazon /add-new-marketplace> '。"
 
 #: ../../content/applications/sales/sales/amazon_connector/features.rst:63
 #: ../../content/applications/sales/sales/amazon_connector/manage.rst:114
@@ -4216,25 +4532,33 @@ msgid ""
 msgstr "亚马逊要求在每次交付时提供跟踪参考。您需要指定一个承运人。如果运营商没有自动提供跟踪参考，您需要手动设置一个。这涉及所有市场。"
 
 #: ../../content/applications/sales/sales/amazon_connector/manage.rst:45
+#, fuzzy
 msgid ""
 "If your chosen carrier isn't one supported by Odoo, you can still create "
 "a carrier bearing its name (e.g. create a carrier named `Colissimo`). "
 "This name is case insensitive, but be careful about typos, as Amazon "
 "won't recognize them."
 msgstr ""
+"如果你选择的载体不是Odoo支持的，你仍然可以创建一个带有它名字的载体(例如创建一"
+"个名为“Colissimo”的载体)。这个名称不区分大小写，但要小心错别字，因为Amazon不"
+"会识别它们。"
 
 #: ../../content/applications/sales/sales/amazon_connector/manage.rst:48
+#, fuzzy
 msgid ""
 "Create a delivery carrier named `Self Delivery` to inform Amazon that you"
 " make your own deliveries. You still have to enter a tracking reference."
-msgstr ""
+msgstr "创建一个名为“Self "
+"delivery”的快递公司，通知亚马逊你自己送货。您仍然需要输入跟踪引用。"
 
 #: ../../content/applications/sales/sales/amazon_connector/manage.rst:50
+#, fuzzy
 msgid ""
 "Keep in mind that the customer is notified by email about the delivery, "
 "and the carrier and tracking reference are displayed in the email to the "
 "customer."
-msgstr ""
+msgstr "请记住，客户是通过电子邮件收到发货通知的，承运人和跟踪参考将显示在给客户的电"
+"子邮件中。"
 
 #: ../../content/applications/sales/sales/amazon_connector/manage.rst:54
 msgid ":doc:`../../../inventory_and_mrp/inventory/shipping/setup/third_party_shipper`"
@@ -4348,39 +4672,56 @@ msgid "Register your Amazon account in Odoo"
 msgstr "在Odoo中注册你的Amazon账户"
 
 #: ../../content/applications/sales/sales/amazon_connector/setup.rst:10
+#, fuzzy
 msgid ""
 "To register your seller account in Odoo, navigate to "
 ":menuselection:`Sales --> Configuration --> Settings --> Connectors --> "
 "Amazon Sync --> Amazon Accounts` and click on :guilabel:`CREATE`."
 msgstr ""
+"要在Odoo注册你的卖家账户，导航到:menuselection: ' Sales—> Configuration—> "
+"Settings—> Connectors—> Amazon Sync—> Amazon Accounts '，然后点击:guilabel: "
+"' CREATE '。"
 
 #: ../../content/applications/sales/sales/amazon_connector/setup.rst:13
+#, fuzzy
 msgid ""
 "Choose a meaningful name for your account (e.g. `Europe`), and select "
 "your :guilabel:`Sign-up Marketplace`. This is the original sign-up "
 "marketplace of your seller account (e.g. if you created your account on "
 "Amazon Germany, your sign-up marketplace will be `amazon.de`)"
 msgstr ""
+"为你的帐户选择一个有意义的名字(例如:' Europe ')，选择你的:guilabel: ' Sign-"
+"up Marketplace "
+"'。这是您的卖家帐户的原始注册市场(例如，如果您在亚马逊德国创建了您的帐户，"
+"您的注册市场将是' Amazon .de ')"
 
 #: ../../content/applications/sales/sales/amazon_connector/setup.rst:17
+#, fuzzy
 msgid ""
 "Upon saving, a button to :guilabel:`link with Amazon` appears. Click on "
 "it to be redirected to the Amazon login page, or directly to the consent "
 "page if you are already logged in. There, confirm that you want Amazon to"
 " give Odoo access to your account and related data."
 msgstr ""
+"保存后，会出现一个按钮:guilabel:“链接到亚马逊”。单击它将被重定向到Amazon登录"
+"页面，或者如果您已经登录，则直接定向到同意页面。在那里，确认您希望Amazon允许O"
+"doo访问您的帐户和相关数据。"
 
 #: ../../content/applications/sales/sales/amazon_connector/setup.rst:21
+#, fuzzy
 msgid "Amazon redirects you to Odoo, with your account registered."
-msgstr ""
+msgstr "亚马逊将您重定向到Odoo，您的帐户注册。"
 
 #: ../../content/applications/sales/sales/amazon_connector/setup.rst:23
+#, fuzzy
 msgid ""
 "Once the account is registered, the marketplaces available to this "
 "account are synchronized and listed under the :guilabel:`Marketplaces` "
 "tab. If you wish, you can remove some items from the list of synchronized"
 " marketplaces to disable their synchronization."
 msgstr ""
+"一旦帐户注册，这个帐户可用的市场是同步的，并列出在:guilabel: ' marketplaces "
+"'选项卡下。如果您愿意，您可以从同步市场列表中删除一些项目以禁用它们的同步。"
 
 #: ../../content/applications/sales/sales/amazon_connector/setup.rst:28
 msgid "Match database products in Amazon"
@@ -4468,14 +4809,17 @@ msgstr "由于Amazon适用的税收不一定与Odoo的配置完全相同，某�
 #: ../../content/applications/sales/sales/amazon_connector/setup.rst:76
 #, fuzzy
 msgid "Add a new marketplace"
-msgstr "添加尚未受支持的市场"
+msgstr "添加一个新的市场"
 
 #: ../../content/applications/sales/sales/amazon_connector/setup.rst:78
+#, fuzzy
 msgid ""
 ":ref:`All marketplaces are supported by the Amazon Connector <amazon"
 "/supported-marketplaces>`, but recently created ones might be missing "
 "from your database. To add a new marketplace, proceed as follows:"
 msgstr ""
+":ref: '亚马逊连接器< Amazon /supported-marketplaces> '支持所有市场，但最近创"
+"建的市场可能从数据库中丢失。要添加一个新的市场，按以下步骤进行:"
 
 #: ../../content/applications/sales/sales/amazon_connector/setup.rst:82
 #: ../../content/applications/sales/sales/ebay_connector/setup.rst:118
@@ -4487,9 +4831,12 @@ msgstr "启用:ref:`开发者模式<developer-mode>`."
 msgid ""
 "Go to :menuselection:`Sales --> Configuration --> Settings --> Connectors"
 " --> Amazon Sync --> Amazon Marketplaces`."
-msgstr "完成后，转到 :menuselection:`销售 --> 设置 --> 设定 --> 连接器- -->亚马逊同步--> 亚马逊市场`。"
+msgstr ""
+"进入:menuselection: ' Sales—> Configuration—> Settings—> Connectors—> Amazon "
+"Sync—> Amazon Marketplaces '。"
 
 #: ../../content/applications/sales/sales/amazon_connector/setup.rst:85
+#, fuzzy
 msgid ""
 "Create a new marketplace record. Enter the :guilabel:`Marketplace ID` and"
 " select the :guilabel:`Amazon Region` for your marketplace as described "
@@ -4499,8 +4846,14 @@ msgid ""
 "Documentation for seller central URLs <https://developer-docs.amazon.com"
 "/amazon-shipping/docs/seller-central-urls>`_."
 msgstr ""
+"创建一个新的市场记录。输入:guilabel: '市场ID '，并为您的市场选择:guilabel: "
+"'亚马逊区域'，如'亚马逊文档中描述的市场ID和区域<https://developer-docs.amazon"
+".com/amazon-shipping/docs/marketplace-ids> ' _，和:guilabel: '卖家中心URL '，"
+"如'亚马逊文档中描述的卖家中心URL <https://developer-docs.amazon.com/"
+"amazon-shipping/docs/seller-central-urls> ' _。"
 
 #: ../../content/applications/sales/sales/amazon_connector/setup.rst:91
+#, fuzzy
 msgid ""
 "Set the name of the record to `Amazon.<country code>` to easily retrieve "
 "it (e.g.: **Amazon.se**). The :guilabel:`API Identifier`, the "
@@ -4508,8 +4861,13 @@ msgid ""
 "respectively hold the *MarketplaceId*, the selected Amazon region and the"
 " *Seller Central URL* values from the Amazon Documentation."
 msgstr ""
+"将记录的名称设置为“Amazon”。<国家代码> '来轻松检索它(例如:**Amazon."
+"se**)。:guilabel: ' API Identifier '、:guilabel: ' Region '和:guilabel: ' "
+"Seller Central URL '字段应该分别保存来自Amazon文档的*MarketplaceId*、"
+"所选Amazon Region和*Seller Central URL*值。"
 
 #: ../../content/applications/sales/sales/amazon_connector/setup.rst:95
+#, fuzzy
 msgid ""
 "Once the marketplace is saved, update the Amazon Account configuration by"
 " going to :menuselection:`Sales --> Configuration --> Settings --> "
@@ -4522,6 +4880,11 @@ msgid ""
 "list, it means that it is either incompatible or unavailable for your "
 "seller account."
 msgstr ""
+"一旦市场被保存，更新亚马逊帐户配置转到:menuselection:“销售—>配置—>设置—>连接"
+"器—>亚马逊同步—>亚马逊帐户”。打开你希望使用新市场的帐户，进入:guilabel: ' "
+"Marketplaces '选项卡，然后点击:guilabel: ' Update available Marketplaces '(一"
+"个动画应该确认操作成功)。新添加的市场会自动添加到同步市场列表中。如果新市场没"
+"有添加到列表中，则意味着它对您的卖方帐户不兼容或不可用。"
 
 #: ../../content/applications/sales/sales/ebay_connector.rst:5
 msgid "eBay Connector"
@@ -4706,8 +5069,9 @@ msgid ""
 "retrieve your **Verification Token**."
 msgstr "端点详细信息可以在以下菜单中找到：`销售-->配置-->设置-->易趣`。单击*生成令牌*以检索您的 **证令** 。"
 
+#, fuzzy
 msgid "Button to generate an eBay verification token in Odoo"
-msgstr ""
+msgstr "在Odoo中生成eBay验证令牌的按钮"
 
 #: ../../content/applications/sales/sales/ebay_connector/setup.rst:70
 msgid "Subscribe to account deletion notifications"
@@ -4719,8 +5083,9 @@ msgid ""
 "<https://go.developer.ebay.com/>`_ and go to **Alerts & Notifications**."
 msgstr "登录 `eBay 开发者门户 <https://go.developer.ebay.com/>`_ 然后去  **报和通** ."
 
+#, fuzzy
 msgid "Overview of the Alerts & Notifications dashboard of eBay"
-msgstr ""
+msgstr "eBay的提醒和通知仪表板概述"
 
 #: ../../content/applications/sales/sales/ebay_connector/setup.rst:79
 msgid "To subscribe to deletion/closure notifications, eBay needs a few details:"
@@ -4744,8 +5109,9 @@ msgstr "Odoo帐户删除通知终结点的URL"
 msgid "A verification token"
 msgstr "验证令牌"
 
+#, fuzzy
 msgid "Dedicated fields to enter the endpoint details"
-msgstr ""
+msgstr "用于输入端点详细信息的专用字段"
 
 #: ../../content/applications/sales/sales/ebay_connector/setup.rst:92
 msgid ""
@@ -4770,8 +5136,9 @@ msgid ""
 "was sent successfully!\""
 msgstr "您应该会收到以下确认消息：“测试通知已成功发送！`"
 
+#, fuzzy
 msgid "Button to send test notification"
-msgstr ""
+msgstr "发送测试通知的按钮"
 
 #: ../../content/applications/sales/sales/ebay_connector/setup.rst:107
 msgid "Using the updated synchronisation method"
@@ -4885,8 +5252,9 @@ msgstr ""
 "在预付款方面，它可以是固定金额，也可以是总额的百分比。 首次请求预付定金时，您可以设置百分比或固定金额，然后输入正确的收入帐户和税款。 "
 "这些设置将重新用于以后的预付款。"
 
+#, fuzzy
 msgid "How can you do a down payment on Odoo Sales?"
-msgstr ""
+msgstr "你怎么能给Odoo销售公司付首付?"
 
 #: ../../content/applications/sales/sales/invoicing/down_payment.rst:34
 msgid ""
@@ -4917,8 +5285,9 @@ msgstr ""
 "在请求您的第一笔预付款之前，请确保在此处查看有关发票政策的文档：:doc:`invoicing_policy` 。 "
 "在创建和查看发票时，您只能访问提及预付款的发票草稿（如下所示）。"
 
+#, fuzzy
 msgid "What is a basic sales flow using down payments on Odoo Sales (1)?"
-msgstr ""
+msgstr "Odoo sales的基本销售流程是什么(1)?"
 
 #: ../../content/applications/sales/sales/invoicing/down_payment.rst:53
 msgid ""
@@ -4934,8 +5303,9 @@ msgstr ""
 "在这里，您可以使用  **户预**  按钮将订单视为客户，也可以使用  ****  按钮轻松找到先前的发票草稿。 "
 "在任何情况下，预付款都将在销售订单和发票草稿上都提到。"
 
+#, fuzzy
 msgid "What is a basic sales flow using down payments on Odoo Sales (2)?"
-msgstr ""
+msgstr "Odoo sales的基本销售流程是什么(2)?"
 
 #: ../../content/applications/sales/sales/invoicing/down_payment.rst:63
 msgid ""
@@ -4945,8 +5315,9 @@ msgid ""
 "payments and so, paying the rest of the invoice as a regular invoice."
 msgstr "要完成该流程，客户要支付其余的销售订单，您必须创建另一张发票。 再一次，您可以选择再次支付预付款或扣除所有预付款，因此，将其余发票作为常规发票支付。"
 
+#, fuzzy
 msgid "What is a basic sales flow using down payments on Odoo Sales (3)?"
-msgstr ""
+msgstr "Odoo sales使用首付的基本销售流程是什么?"
 
 #: ../../content/applications/sales/sales/invoicing/down_payment.rst:71
 msgid ""
@@ -4977,8 +5348,9 @@ msgstr "修改收入帐户和客户税"
 msgid "From the products list, search for the **Down Payment** product."
 msgstr "在产品列表中，搜索  **付**  产品。"
 
+#, fuzzy
 msgid "Creation of a down payment product on Odoo Sales"
-msgstr ""
+msgstr "在Odoo Sales上创建了一个首付产品"
 
 #: ../../content/applications/sales/sales/invoicing/down_payment.rst:90
 msgid ""
@@ -4990,8 +5362,9 @@ msgstr ""
 "您可以对其进行编辑，然后在  **规信息选项**  下可以更改客户税收。 现在，要更改收入帐户，您将需要安装  **计应**  "
 "，以便可以在产品表格上看到  **计选项**  。"
 
+#, fuzzy
 msgid "How to modify the income account link to down payments"
-msgstr ""
+msgstr "如何修改与首付挂钩的收入账户"
 
 #: ../../content/applications/sales/sales/invoicing/down_payment.rst:99
 msgid ":doc:`invoicing_policy`"
@@ -5127,8 +5500,9 @@ msgid ""
 "**Invoicing policy** choose the rule you want to apply."
 msgstr "转到菜单 :menuselection:`销售 --> 设置 --> 设定` 然后在  **票政**  下选择要应用的规则。"
 
+#, fuzzy
 msgid "How to choose your invoicing policy on Odoo Sales?"
-msgstr ""
+msgstr "如何在Odoo Sales上选择您的发票政策?"
 
 #: ../../content/applications/sales/sales/invoicing/invoicing_policy.rst:30
 msgid ""
@@ -5147,8 +5521,9 @@ msgid ""
 "invoicing policy, which can be manually changed."
 msgstr "在任何产品页面的  **售选项**  下，您都可以找到手动更改的开票政策。"
 
+#, fuzzy
 msgid "How to change your invoicing policy on a product form on Odoo Sales?"
-msgstr ""
+msgstr "如何在Odoo销售上更改产品表单的发票政策?"
 
 #: ../../content/applications/sales/sales/invoicing/invoicing_policy.rst:46
 msgid "Impact on sales flow"
@@ -5180,10 +5555,11 @@ msgstr ""
 "  **售应**  。 确实，如果您尝试在不验证交货数量的情况下创建发票，则会收到以下错误消息。"
 
 #: ../../content/applications/sales/sales/invoicing/invoicing_policy.rst
+#, fuzzy
 msgid ""
 "How the choice of your invoicing policy impacts your sales flow on Odoo "
 "Sales?"
-msgstr ""
+msgstr "您的发票政策的选择如何影响您在Odoo sales上的销售流?"
 
 #: ../../content/applications/sales/sales/invoicing/invoicing_policy.rst:65
 msgid ""
@@ -5193,8 +5569,9 @@ msgid ""
 "rules)."
 msgstr "确认报价后，状态从  **发送报**  变为  **售订**  ，您可以直接从销售订单中查看已交付和已开票的数量（这两个规则均适用）。"
 
+#, fuzzy
 msgid "How to see your delivered and invoiced quantities on Odoo Sales?"
-msgstr ""
+msgstr "如何在Odoo销售上看到您的交付和发票数量?"
 
 #: ../../content/applications/sales/sales/invoicing/invoicing_policy.rst:74
 msgid ""
@@ -5532,6 +5909,7 @@ msgid "How to adapt your prices to your customers and apply discounts"
 msgstr "如何根据客户调整价格并应用折扣"
 
 #: ../../content/applications/sales/sales/products_prices/prices/pricing.rst:5
+#, fuzzy
 msgid ""
 "Odoo has a powerful pricelist feature to support a pricing strategy "
 "tailored to your business. A pricelist is a list of prices or price rules"
@@ -5539,6 +5917,9 @@ msgid ""
 " criteria to use a specific price: periods, min. sold quantity (meet a "
 "minimum order quantity and get a price break), etc."
 msgstr ""
+"Odoo有一个强大的价格表功能，支持为您的业务量身定制的定价策略。价目表是一列价"
+"格或价格规则，Odoo通过搜索来确定建议价格。您可以设置几个标准来使用特定的价格:"
+"期限、最小销售数量(满足最低订购数量并获得价格优惠)，等等。"
 
 #: ../../content/applications/sales/sales/products_prices/prices/pricing.rst:9
 msgid ""
@@ -5882,8 +6263,9 @@ msgid ""
 msgstr "在凭证部分，单击 **建凭** ，然后选** API密** 。"
 
 #: ../../content/applications/sales/sales/products_prices/products/product_images.rst
+#, fuzzy
 msgid "API & Services page on Google Cloud Platform"
-msgstr ""
+msgstr "谷歌云平台上的API和服务页面"
 
 #: ../../content/applications/sales/sales/products_prices/products/product_images.rst:37
 msgid "Save your **API Key**. You'll need it for the next step in Odoo!"
@@ -5894,18 +6276,20 @@ msgid "Use the search bar to look for **Google Custom Search API** and select it
 msgstr "使用搜索栏查找 **歌自定义搜索API**，然后选择它。"
 
 #: ../../content/applications/sales/sales/products_prices/products/product_images.rst
+#, fuzzy
 msgid "Search bar containing \"Custom Search API\" on Google Cloud Platform"
-msgstr ""
+msgstr "在谷歌云平台上包含“自定义搜索API”的搜索栏"
 
 #: ../../content/applications/sales/sales/products_prices/products/product_images.rst:45
 msgid "Enable the API."
 msgstr "启用API接口。"
 
 #: ../../content/applications/sales/sales/products_prices/products/product_images.rst
+#, fuzzy
 msgid ""
 "\"Custom Search API\" tile with Enable button highlighted on Google Cloud"
 " Platform"
-msgstr ""
+msgstr "“自定义搜索API”瓷砖与启用按钮突出显示在谷歌云平台"
 
 #: ../../content/applications/sales/sales/products_prices/products/product_images.rst:54
 msgid "Google Programmable Search dashboard"
@@ -5921,11 +6305,14 @@ msgstr ""
 "。用你的谷歌帐号登录。"
 
 #: ../../content/applications/sales/sales/products_prices/products/product_images.rst
+#, fuzzy
 msgid ""
 "Google Programmable Search Engine page with the **Get Started** button on"
 " the up-right\n"
 "of the page"
 msgstr ""
+"谷歌可编程搜索引擎页面，右上角有**开始**按钮\n"
+"页面的"
 
 #: ../../content/applications/sales/sales/products_prices/products/product_images.rst:64
 msgid ""
@@ -6052,28 +6439,34 @@ msgstr ""
 "billing-account>`_"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:3
+#, fuzzy
 msgid "Product variants"
-msgstr ""
+msgstr "产品变体"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:5
+#, fuzzy
 msgid ""
 "Product variants are used to give single products a variety of different "
 "characteristics, such as size and color. Products using variants can be "
 "managed at the product template level (for all attributes and variants of"
 " that product), and/or at the variant level (for individual variants)."
 msgstr ""
+"产品变体用于赋予单一产品各种不同的特性，如大小和颜色。使用变量的产品可以在产"
+"品模板级(针对该产品的所有属性和变量)和/或在变量级(针对单个变量)进行管理。"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:9
 msgid "As an example, a company selling t-shirts may have the following product:"
 msgstr "例如, 一个销售ｔ血衫的公司可能有以下产品 :"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:11
+#, fuzzy
 msgid "T-shirt"
-msgstr ""
+msgstr "t恤"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:13
+#, fuzzy
 msgid "Color: Blue, Red, White, Black"
-msgstr ""
+msgstr "颜色:蓝、红、白、黑"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:14
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:131
@@ -6081,217 +6474,287 @@ msgid "Size: S, M, L, XL, XXL"
 msgstr "尺寸 : S, M, L, XL, XXL"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:16
+#, fuzzy
 msgid ""
 "In this example, the **T-Shirt** is the product template, and **T-Shirt, "
 "S, Blue** is a product variant. **Color** and **size** are the "
 "attributes. **S** and **Blue** are values."
 msgstr ""
+"在本例中，**T-Shirt**是产品模板，**T-Shirt, S, "
+"Blue**是产品变体。**Color**和**size**是属性。**S**和**Blue**为数值。"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:19
+#, fuzzy
 msgid ""
 "The above example has a total of 20 different product variants (5 sizes x"
 " 4 colors). Each one of these has its own inventory, sales, etc."
-msgstr ""
+msgstr "上面的例子总共有20种不同的产品变体(5种尺寸x "
+"4种颜色)。其中每一个都有自己的库存、销售额等。"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:26
+#, fuzzy
 msgid "Activating product variants"
-msgstr ""
+msgstr "激活产品变体"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:28
+#, fuzzy
 msgid ""
 "To use product variants, go to :menuselection:`Sales --> Configuration "
 "--> Settings --> Product Catalog`, and enable the :guilabel:`Variants` "
 "feature. Finally, click :guilabel:`Save` to apply the setting."
 msgstr ""
+"要使用产品变体，请转到:menuselection: ' Sales—> Configuration—> Settings—> "
+"product Catalog '，并启用:guilabel: ' variables '功能。最后，点击:guilabel: "
+"' Save '应用设置。"
 
+#, fuzzy
 msgid "Activating product variants."
-msgstr ""
+msgstr "激活产品变体。"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:37
+#, fuzzy
 msgid "Creating attributes"
-msgstr ""
+msgstr "创建属性"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:39
+#, fuzzy
 msgid ""
 "Attributes need to be created before product variants can be set up. "
 "Attributes can be accessed via :menuselection:`Sales --> Configuration "
 "--> Products --> Attributes`."
 msgstr ""
+"在可以设置产品变体之前，需要创建属性。属性可以通过:menuselection: ' Sales—> "
+"Configuration—> Products—> Attributes '访问。"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:43
+#, fuzzy
 msgid ""
 "The order of attributes on the :guilabel:`Attributes` page dictates how "
 "they appear on the :guilabel:`Product Configurator`, :guilabel:`Point of "
 "Sale` dashboard, and :guilabel:`eCommerce` pages."
 msgstr ""
+"属性在:guilabel: ' attributes '页面上的顺序决定了它们在:guilabel: ' Product "
+"Configurator '、:guilabel: ' Point of Sale '仪表盘和:guilabel: ' eCommerce "
+"'页面上的出现方式。"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:47
+#, fuzzy
 msgid ""
 "To create a new attribute, click :guilabel:`Create`. First, choose an "
 "attribute name, such as \"Color\" or \"Size.\""
-msgstr ""
+msgstr "要创建一个新属性，点击:guilabel: ' create "
+"'。首先，选择一个属性名称，例如“Color”或“Size”。"
 
+#, fuzzy
 msgid "Attribute creation window."
-msgstr ""
+msgstr "创建属性窗口。"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:54
+#, fuzzy
 msgid ""
 "Then, select a :guilabel:`Display Type`, which determines how this "
 "product will be shown on the :guilabel:`eCommerce` page, :guilabel:`Point"
 " of Sale` dashboard, and :guilabel:`Product Configurator`."
 msgstr ""
+"然后，选择:guilabel:“显示类型”，这决定了该产品将如何在:guilabel:“电子商务”页"
+"面、:guilabel:“销售点”仪表盘和:guilabel:“产品配置器”上显示。"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:58
+#, fuzzy
 msgid ":guilabel:`Radio`: options appear in a bullet style list."
-msgstr ""
+msgstr ":guilabel: ' Radio ':选项出现在项目符号样式的列表中。"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:59
+#, fuzzy
 msgid ":guilabel:`Select`: options appear in a dropdown menu."
-msgstr ""
+msgstr ":guilabel:“选择”:选项出现在下拉菜单中。"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:60
+#, fuzzy
 msgid ""
 ":guilabel:`Color`: options appear as small colored squares, which reflect"
 " any HTML color codes set."
-msgstr ""
+msgstr ":guilabel: ' Color ':选项显示为小的彩色方块，反映任何HTML颜色代码设置。"
 
+#, fuzzy
 msgid "Display Types on Product Configurator."
-msgstr ""
+msgstr "在产品配置器上显示类型。"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:67
+#, fuzzy
 msgid ""
 "The :guilabel:`Variants Creation Mode` informs Odoo when to automatically"
 " create a new variant once an attribute is added to a product."
 msgstr ""
+":guilabel: ' variables Creation Mode "
+"'通知Odoo，一旦一个属性被添加到一个产品中，什么时候自动创建一个新的变量。"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:70
+#, fuzzy
 msgid ""
 ":guilabel:`Instantly`: creates all possible variants as soon as "
 "attributes and values are added to a product template."
-msgstr ""
+msgstr ":guilabel: '瞬间':一旦属性和值被添加到产品模板中，就会创建所有可能的变量。"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:72
+#, fuzzy
 msgid ""
 ":guilabel:`Dynamically`: creates variants only when corresponding "
 "attributes and values are added to a sales order."
-msgstr ""
+msgstr ":guilabel: ' dynamic ':只在相应的属性和值被添加到销售订单时创建变量。"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:74
+#, fuzzy
 msgid ":guilabel:`Never`: never automatically creates variants."
-msgstr ""
+msgstr ":guilabel: ' Never ': Never自动创建变量。"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:77
+#, fuzzy
 msgid ""
 "Once added to a product, an attribute's :guilabel:`Variants Creation "
 "Mode` cannot be edited."
-msgstr ""
+msgstr "一旦添加到产品中，属性的:guilabel:“变量创建模式”不能被编辑。"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:79
+#, fuzzy
 msgid ""
 "Values should be added to an attribute before saving, but more values can"
 " be added at any time, if needed. To add a value, click :guilabel:`Add a "
 "line`. From there, you can:"
-msgstr ""
+msgstr "应该在保存之前向属性添加值，但如果需要，可以随时添加更多值。要添加一个值，点"
+"击:guilabel:“添加一条线”。从那里，你可以:"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:82
+#, fuzzy
 msgid "Type in the value's name."
-msgstr ""
+msgstr "输入值的名称。"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:83
+#, fuzzy
 msgid ""
 "Check a box to indicate whether or not the value is custom (i.e. the "
 "customer provides unique specifications)."
-msgstr ""
+msgstr "勾选复选框以指示该值是否是自定义的(即客户提供唯一的规格)。"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:85
+#, fuzzy
 msgid ""
 "Specifically for colors, add an HTML color code to make it even easier "
 "for salespeople and customers to know what they're selecting."
-msgstr ""
+msgstr "特别是对于颜色，添加HTML颜色代码，使销售人员和客户更容易知道他们选择的是什么"
+"。"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:88
+#, fuzzy
 msgid ""
 "A color code can be selected either by dragging the slider around or by "
 "entering a specific HTML color code (e.g. #FF0077)."
-msgstr ""
+msgstr "颜色代码可以通过拖动滑块来选择，也可以通过输入特定的HTML颜色代码来选择(例如#F"
+"F0077)。"
 
+#, fuzzy
 msgid "Selecting a color."
-msgstr ""
+msgstr "选择一个颜色。"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:95
+#, fuzzy
 msgid "Finally, click :guilabel:`Save` to finish creating the attribute."
-msgstr ""
+msgstr "最后，点击:guilabel: ' Save '完成属性的创建。"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:98
+#, fuzzy
 msgid ""
 "Attributes can also be created directly from the product template by "
 "adding a new line and typing the name into the :guilabel:`Variants` tab."
-msgstr ""
+msgstr "也可以直接从产品模板中创建属性，方法是添加新行并在:guilabel: ' variables "
+"'选项卡中键入名称。"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:101
+#, fuzzy
 msgid ""
 "After an attribute is added to a product, a new tab appears on the "
 "attribute's page called :guilabel:`Related Products`. This tab lists "
 "every product in the database that is currently using the attribute."
 msgstr ""
+"在一个属性被添加到一个产品后，一个新的标签出现在属性的页面上，称为:guilabel: "
+"' Related Products '。该选项卡列出数据库中当前使用该属性的每个产品。"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:106
+#, fuzzy
 msgid "Creating product variants"
-msgstr ""
+msgstr "创建产品变体"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:108
+#, fuzzy
 msgid ""
 "After creating an attribute, use the attribute to create a product "
 "variant by going to :menuselection:`Sales --> Products --> Products`. "
 "Then, select an existing product and click :guilabel:`Edit`, or create a "
 "new product by clicking :guilabel:`Create`."
 msgstr ""
+"创建一个属性后，使用该属性创建一个产品变体，方法是:menuselection: ' Sales—> "
+"Products—> Products '。然后，选择一个现有的产品，点击:guilabel: ' Edit "
+"'，或者点击:guilabel: ' create '创建一个新产品。"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:112
+#, fuzzy
 msgid ""
 "The :guilabel:`Variants` smart button at the top of the product template "
 "indicates the number of currently configured variants on the product."
-msgstr ""
+msgstr "产品模板顶部的:guilabel: ' variables "
+"'智能按钮指示产品上当前配置的变量的数量。"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:115
+#, fuzzy
 msgid ""
 "To add a new variant, click on the :guilabel:`Variants` tab, then click "
 "on :guilabel:`Add a line` to add any attributes and values. When all the "
 "attributes and values have been added, click :guilabel:`Save`."
 msgstr ""
+"要添加一个新的变量，点击:guilabel: ' variables '选项卡，然后点击:guilabel: ' "
+"add a line '添加任何属性和值。当所有的属性和值都添加完毕后，点击:guilabel: ' "
+"Save '。"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:120
+#, fuzzy
 msgid ""
 "Similar product variant creation processes are accessible through the "
 "Purchase, Inventory, and eCommerce applications."
-msgstr ""
+msgstr "类似的产品变体创建过程可以通过购买、库存和电子商务应用程序访问。"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:124
+#, fuzzy
 msgid "Managing product exclusions"
-msgstr ""
+msgstr "管理产品除外"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:126
+#, fuzzy
 msgid ""
 "The following examples are all based on a product template that has two "
 "attributes:"
-msgstr ""
+msgstr "下面的例子都基于一个具有两个属性的产品模板:"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:128
+#, fuzzy
 msgid "T-Shirt"
-msgstr ""
+msgstr "t恤"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:130
+#, fuzzy
 msgid "Color: Blue, Red, White"
-msgstr ""
+msgstr "颜色:蓝、红、白"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:133
+#, fuzzy
 msgid ""
 "With the above product template, there are 15 different t-shirt variants "
 "in three different colors and five different sizes. If the white t-shirts"
 " are not available in the XXL size, then that variant can be deactivated."
-msgstr ""
+msgstr "根据上面的产品模板，有15种不同的t恤变体，有三种不同的颜色和五种不同的尺寸。如"
+"果没有XXL尺寸的白色t恤，那么该变体可以被停用。"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:137
+#, fuzzy
 msgid ""
 "To deactivate a particular product variant, go to :menuselection:`Sales "
 "--> Products --> Products` and select the relevant product. Next, click "
@@ -6299,8 +6762,13 @@ msgid ""
 "variant attribute value form (in this example, the :guilabel:`White "
 "Color` attribute), and then click on :guilabel:`Edit`."
 msgstr ""
+"要禁用特定的产品变体，请转到:menusselection: ' Sales -> Products -> Products "
+"'并选择相关的产品。接下来，点击:guilabel: ' Configure variables "
+"'按钮，打开相关的产品变量属性值表单(在本例中，是:guilabel: ' White Color "
+"'属性)，然后点击:guilabel: ' Edit '。"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:142
+#, fuzzy
 msgid ""
 "In the :guilabel:`Exclude for` section, click :guilabel:`Add a line` and "
 "select any product(s) and/or specific attribute values that are currently"
@@ -6308,50 +6776,67 @@ msgid ""
 "Odoo will automatically show the product variant as unavailable on the "
 "eCommerce page."
 msgstr ""
+"在:guilabel: ' Exclude for '部分，点击:guilabel: ' Add a line "
+"'并选择当前不可用的任何产品和/或特定属性值。最后，点击:guilabel: ' Save "
+"'应用设置，Odoo将自动显示该产品变体在电子商务页面不可用。"
 
+#, fuzzy
 msgid "Excluding attributes."
-msgstr ""
+msgstr "不包括属性。"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:152
 msgid "Setting a price per variant"
 msgstr "根据型号设置价格"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:154
+#, fuzzy
 msgid ""
 "Extra costs can be added to a product's standard price for specific "
 "product variants."
-msgstr ""
+msgstr "对于特定的产品变体，可以将额外的成本添加到产品的标准价格中。"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:156
+#, fuzzy
 msgid ""
 "To do this, open :menuselection:`Sales --> Products --> Products`, and "
 "click on the relevant product. Next, click on :guilabel:`Configure "
 "Variants` to access the list of product variant values."
 msgstr ""
+"为此，打开:menusselection: ' Sales—> Products—> Products "
+"'，并单击相关产品。接下来，点击:guilabel: ' Configure variables "
+"'来访问产品变量值列表。"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:160
+#, fuzzy
 msgid ""
 "Then, click on a variant value, and :guilabel:`Edit`. In the "
 ":guilabel:`Value Price Extra` field, type in the additional cost for this"
 " particular value. This amount is added to the standard price. Finally, "
 "click :guilabel:`Save` to apply the extra price to the value."
 msgstr ""
+"然后，点击一个变量值，然后:guilabel: ' Edit '。在:guilabel: ' Value Price "
+"Extra '字段中，输入这个特定值的额外成本。这个数额被加到标准价格中。最后，点击"
+":guilabel: ' Save '将额外的价格应用到价值上。"
 
+#, fuzzy
 msgid "Value Price Extra setting."
-msgstr ""
+msgstr "价值价格额外设置。"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:169
 msgid "Impact of variants"
 msgstr "变型的影响"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:171
+#, fuzzy
 msgid ""
 ":guilabel:`Barcode`: barcodes are associated with each variant instead of"
 " the product template. Each individual variant can have its own unique "
 "barcode/SKU."
-msgstr ""
+msgstr ":guilabel: ' Barcode ':条形码与每个变体而不是产品模板相关联。每个单独的变体都"
+"可以有自己独特的条形码/SKU。"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:174
+#, fuzzy
 msgid ""
 ":guilabel:`Price`: every product variant has its own public price, which "
 "is the sum of the product template price and any extra charges for "
@@ -6360,26 +6845,33 @@ msgid ""
 "variant. Pricelist rules can be configured to apply to the product "
 "template or to the variant."
 msgstr ""
+":guilabel:“价格”:每个产品变体都有自己的公共价格，它是产品模板价格和特定属性的"
+"任何额外费用的总和。例如，一件红色衬衫的成本是23美元，因为衬衫的模板价格是20"
+"美元，外加3美元的红色变体。价格列表规则可以配置为应用于产品模板或变体。"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:180
+#, fuzzy
 msgid ""
 ":guilabel:`Inventory`: inventory is counted for each individual product "
 "variant. On the product template form, the inventory reflects the sum of "
 "all variants, but the actual inventory is computed by individual "
 "variants."
-msgstr ""
+msgstr ":guilabel:“存货”:存货是为每个单独的产品变体计算的。在产品模板表单上，库存反映"
+"所有变量的总和，但实际库存是由单个变量计算的。"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:184
+#, fuzzy
 msgid ""
 ":guilabel:`Picture`: each product variant can have its own specific "
 "picture."
-msgstr ""
+msgstr ":guilabel:“图片”:每个产品变体都可以有自己的特定图片。"
 
 #: ../../content/applications/sales/sales/products_prices/products/variants.rst:187
+#, fuzzy
 msgid ""
 "Changes to the product template automatically apply to every variant of "
 "that product."
-msgstr ""
+msgstr "对产品模板的更改自动应用于该产品的每个变体。"
 
 #: ../../content/applications/sales/sales/products_prices/taxes.rst:5
 msgid "Set taxes"
@@ -6412,8 +6904,9 @@ msgid ""
 "from the quotation or the sales order."
 msgstr "通过Odoo销售应用程序，你可从报价或销售订单即刻添加 **期** 。"
 
+#, fuzzy
 msgid "How to configure deadlines on Odoo Sales?"
-msgstr ""
+msgstr "如何在Odoo销售上配置截止日期?"
 
 #: ../../content/applications/sales/sales/send_quotations/deadline.rst:22
 msgid "Use deadline in your quotation templates"
@@ -6427,8 +6920,9 @@ msgid ""
 "our documentation about :doc:`quote_template` to excel in their use."
 msgstr "你还可向已创建的每个报价模板添加截止日期。在报价中使用特定的报价模板时，模板关联的截止日期将自动应用到报价中。请阅读文档:doc:`quote_template`，进一步了解其使用方法。"
 
+#, fuzzy
 msgid "How to use deadline in a quotation template on Odoo Sales?"
-msgstr ""
+msgstr "如何使用截止日期在报价模板上Odoo销售?"
 
 #: ../../content/applications/sales/sales/send_quotations/deadline.rst:34
 msgid ""
@@ -6438,8 +6932,9 @@ msgid ""
 msgstr "点击 **户预览 **钮，你可查看优惠到期时间。有效期天数与报价模板中设置的天数相同。"
 
 #: ../../content/applications/sales/sales/send_quotations/deadline.rst
+#, fuzzy
 msgid "How customers will see deadlines on Odoo Sales?"
-msgstr ""
+msgstr "客户如何看待Odoo销售的截止日期?"
 
 #: ../../content/applications/sales/sales/send_quotations/deadline.rst:44
 #: ../../content/applications/sales/sales/send_quotations/get_paid_to_validate.rst:50
@@ -6467,8 +6962,9 @@ msgid ""
 "the **Customer Addresses** feature."
 msgstr "前往 :menuselection:`销售 --> 配置 --> 设置`并启用 **户地址 **能。"
 
+#, fuzzy
 msgid "How to enable different customer addresses on Odoo Sales?"
-msgstr ""
+msgstr "如何在Odoo Sales上启用不同的客户地址?"
 
 #: ../../content/applications/sales/sales/send_quotations/different_addresses.rst:21
 msgid "Add addresses from a quotation"
@@ -6487,8 +6983,9 @@ msgstr ""
 "在创建报价时，必须添加客户。客户可以是系统中已经定义和登记具体账单和发货地址的公司或个人，也可以是新客户。在这种情况下，你必须为新客户 "
 "**建并编辑 **系人表单，并将它与一家公司关联。在这份联系人表单中，你可添加、 删除和修改账单和发货地址。"
 
+#, fuzzy
 msgid "How to add addresses from a quotation on Odoo Sales?"
-msgstr ""
+msgstr "如何添加地址从报价Odoo销售?"
 
 #: ../../content/applications/sales/sales/send_quotations/different_addresses.rst:35
 msgid ""
@@ -6514,8 +7011,9 @@ msgstr ""
 "之前，我们谈到你可以直接从报价或销售订单填写联系人表单，以向客户添加账单和发货地址。但是，如果前往 :menuselection:`销售 --> "
 "订单 --> 客户`，你可在创建报价之前，立即在此创建或修改每个客户，并添加、删除或修改账单和发货地址。"
 
+#, fuzzy
 msgid "How to add addresses from a contact form on Odoo Sales?"
-msgstr ""
+msgstr "如何添加地址从一个联系形式的Odoo销售?"
 
 #: ../../content/applications/sales/sales/send_quotations/different_addresses.rst:54
 msgid "Deal with different addresses"
@@ -6531,8 +7029,9 @@ msgstr ""
 "与前面的例子一样，前往 :menuselection:`销售 --> 订单 --> 客户`并创建一个新客户。你可在此添加公司信息，或在 "
 "**系人和地址 **项卡下键入账单和发货地址。"
 
+#, fuzzy
 msgid "How to manage different customer addresses on Odoo Sales?"
-msgstr ""
+msgstr "如何管理Odoo Sales上不同的客户地址?"
 
 #: ../../content/applications/sales/sales/send_quotations/different_addresses.rst:65
 msgid ""
@@ -6542,8 +7041,9 @@ msgid ""
 "saved for billing and shipping addresses."
 msgstr "完成后，你可返回销售仪表板并创建新报价。现在，如你输入新客户，你会发现其他字段都已按照之前保存的账单和发货地址信息自动填写。"
 
+#, fuzzy
 msgid "Automatic quotation fields filling on Odoo Sales"
-msgstr ""
+msgstr "自动报价字段填充Odoo销售"
 
 #: ../../content/applications/sales/sales/send_quotations/different_addresses.rst:74
 msgid ""
@@ -6576,10 +7076,12 @@ msgid ""
 "the **Online Payment** feature."
 msgstr "前往 :menuselection:`销售 --> 配置 --> 设置`并启用 **上支付 **能。"
 
+#, fuzzy
 msgid "How to enable online payment on Odoo Sales?"
-msgstr ""
+msgstr "如何在Odoo销售上启用在线支付?"
 
 #: ../../content/applications/sales/sales/send_quotations/get_paid_to_validate.rst:22
+#, fuzzy
 msgid ""
 "There, you will have direct access to the **Payment Providers** page. It "
 "will allow you to select and configure your providers of choice. Before "
@@ -6589,6 +7091,11 @@ msgid ""
 ":doc:`/applications/finance/payment_providers/authorize`, and others in "
 "the :doc:`/applications/finance/payment_providers` documentation."
 msgstr ""
+"在那里，您可以直接访问**支付提供商**页面。它将允许您选择和配置所选的提供程序"
+"。在创建或修改支付提供者之前，请务必查看我们关于如何使用支付提供者进行支付的"
+"文档，例如:doc: ' /applications/finance/payment_providers/paypal '，:doc: ' /"
+"applications/finance/payment_providers/authorize '，以及:doc: ' /"
+"applications/finance/payment_providers '文档中的其他文档。"
 
 #: ../../content/applications/sales/sales/send_quotations/get_paid_to_validate.rst:30
 msgid ""
@@ -6607,8 +7114,9 @@ msgid ""
 "have different possibilities to make their online payments. For example:"
 msgstr "客户从收件箱中打开报价后，可用多种途径完成网上支付。例如："
 
+#, fuzzy
 msgid "How to register a payment on Odoo Sales?"
-msgstr ""
+msgstr "如何在Odoo销售上注册付款?"
 
 #: ../../content/applications/sales/sales/send_quotations/get_paid_to_validate.rst:46
 msgid ""
@@ -6617,16 +7125,19 @@ msgid ""
 msgstr "点击 **户预览 **钮，你可看到客户在支付时看到的选项。"
 
 #: ../../content/applications/sales/sales/send_quotations/get_paid_to_validate.rst:51
+#, fuzzy
 msgid ":doc:`/applications/finance/payment_providers`"
-msgstr ""
+msgstr ":医生:“/应用程序/金融/ payment_providers”"
 
 #: ../../content/applications/sales/sales/send_quotations/get_paid_to_validate.rst:52
+#, fuzzy
 msgid ":doc:`/applications/finance/payment_providers/paypal`"
-msgstr ""
+msgstr "医生:/应用程序/金融/ payment_providers /贝宝的"
 
 #: ../../content/applications/sales/sales/send_quotations/get_paid_to_validate.rst:53
+#, fuzzy
 msgid ":doc:`/applications/finance/payment_providers/authorize`"
-msgstr ""
+msgstr "医生:/应用程序/金融/ payment_providers /授权的"
 
 #: ../../content/applications/sales/sales/send_quotations/get_signature_to_validate.rst:3
 msgid "Get a signature to confirm an order"
@@ -6651,8 +7162,9 @@ msgid ""
 msgstr "前往 :menuselection:`销售 --> 配置 --> 设置`并启用 **线签名 **能。"
 
 #: ../../content/applications/sales/sales/send_quotations/get_signature_to_validate.rst
+#, fuzzy
 msgid "How to enable online signature on Odoo Sales?"
-msgstr ""
+msgstr "如何在Odoo Sales上启用在线签名?"
 
 #: ../../content/applications/sales/sales/send_quotations/get_signature_to_validate.rst:21
 msgid ""
@@ -6676,8 +7188,9 @@ msgstr ""
 "当你向客户发送报价时，他们可立即接受并在线签署订单。当他们点击 **名并支付 "
 "**，他们可选择立即签名、用自动签名填写该字段或从电脑中加载文件。下面是自动签名的例子："
 
+#, fuzzy
 msgid "How to confirm an order with a signature on Odoo Sales?"
-msgstr ""
+msgstr "如何在Odoo Sales上签名确认订单?"
 
 #: ../../content/applications/sales/sales/send_quotations/get_signature_to_validate.rst:43
 msgid ""
@@ -6717,8 +7230,9 @@ msgid ""
 "see below)."
 msgstr "通过Odoo销售应用程序，你可直接在报价中（如下所示，在 **选产品 **项卡下）添加或修改可选产品。"
 
+#, fuzzy
 msgid "How to add optional products to your quotations on Odoo Sales"
-msgstr ""
+msgstr "如何添加可选产品到您的报价Odoo销售"
 
 #: ../../content/applications/sales/sales/send_quotations/optional_products.rst:22
 msgid ""
@@ -6728,8 +7242,9 @@ msgid ""
 msgstr "点击 **户预览 **钮，你可查看客户从收件箱中打开报价后看到的内容。"
 
 #: ../../content/applications/sales/sales/send_quotations/optional_products.rst
+#, fuzzy
 msgid "Preview your quotations on Odoo Sales"
-msgstr ""
+msgstr "预览您的报价在Odoo销售"
 
 #: ../../content/applications/sales/sales/send_quotations/optional_products.rst:30
 msgid ""
@@ -6740,8 +7255,9 @@ msgid ""
 "quotation managed by the salesman."
 msgstr "在实际使用时，客户通过关联购物车可向订单添加不同的可选产品，其页面布局非常简单易用。此外，如客户选择所有建议的可选产品，这些额外项目将自动填入销售人员管理的报价中。"
 
+#, fuzzy
 msgid "How to select optional products on Odoo Sales"
-msgstr ""
+msgstr "如何在Odoo Sales上选择可选产品"
 
 #: ../../content/applications/sales/sales/send_quotations/optional_products.rst:40
 msgid ""
@@ -6749,8 +7265,9 @@ msgid ""
 "tracking the order will be all the better."
 msgstr "因此，销售人员可看到客户的每一步举动，更方便追踪整个订单。"
 
+#, fuzzy
 msgid "How to follow each movement made by your customers on Odoo Sales"
-msgstr ""
+msgstr "如何跟随你的客户在Odoo销售的每一个动作"
 
 #: ../../content/applications/sales/sales/send_quotations/optional_products.rst:49
 msgid "Add optional products to your quotation templates"
@@ -6769,24 +7286,28 @@ msgid ""
 " you can add related products or services."
 msgstr "在报价模板中也有 **选产品 **项卡，你可在此添加相关产品或服务。"
 
+#, fuzzy
 msgid "How to add optional products to your quotation templates on Odoo Sales"
-msgstr ""
+msgstr "如何在Odoo销售上添加可选产品的报价模板"
 
 #: ../../content/applications/sales/sales/send_quotations/optional_products.rst:62
 msgid "With Odoo Sales, it is now very easy to understand your customer's needs."
 msgstr "通过Odoo销售应用程序，你可方便地了解客户需求。"
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:3
+#, fuzzy
 msgid "Use product variants on quotations and sales orders"
-msgstr ""
+msgstr "在报价和销售订单中使用产品变体"
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:5
+#, fuzzy
 msgid ""
 "Product variants can be added to quotations and sales orders using the "
 "Product Configurator, Variant Grid Entry, or both."
-msgstr ""
+msgstr "使用产品配置器、变体网格条目或两者都可以将产品变体添加到报价和销售订单中。"
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:11
+#, fuzzy
 msgid ""
 "To enable product variants on quotations and sales orders, go to "
 ":menuselection:`Sales --> Configuration --> Settings --> Product Catalog`"
@@ -6794,11 +7315,17 @@ msgid ""
 ":guilabel:`Variant Grid Entry` settings. Finally, click :guilabel:`Save` "
 "to apply the settings."
 msgstr ""
+"要启用报价和销售订单上的产品变体，请转到:menuselection: ' sales—> "
+"Configuration—> Settings—> product Catalog '，并激活:guilabel: ' product "
+"Configurator '和:guilabel: ' Variant Grid Entry "
+"'设置中的一个或两个。最后，点击:guilabel: ' Save '应用设置。"
 
+#, fuzzy
 msgid "Activating entry type settings."
-msgstr ""
+msgstr "激活条目类型设置。"
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:20
+#, fuzzy
 msgid ""
 "After saving the settings, configure the product form. Head over to "
 ":menuselection:`Sales --> Products --> Products` and select any product "
@@ -6810,11 +7337,20 @@ msgid ""
 "quotations or sales orders. Finally, click :guilabel:`Save` to apply the "
 "setting."
 msgstr ""
+"保存设置后，配置产品表单。转到:menuselection: ' Sales -> Products -> "
+"Products '，选择任何产品(或点击:guilabel: ' Create "
+"'创建一个新产品)。在产品表单上，点击:guilabel: ' Edit '，然后点击:guilabel: "
+"' variables '选项卡。在:guilabel: ' Sales Variant Selection "
+"'下，选择:guilabel: ' Product Configurator '或:guilabel: ' Order Grid Entry "
+"'。这种选择决定使用哪种方法将产品添加到报价或销售订单中。最后，点击:guilabel:"
+" ' Save '应用设置。"
 
+#, fuzzy
 msgid "Sales variant selection."
-msgstr ""
+msgstr "选择销售变体。"
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:32
+#, fuzzy
 msgid ""
 "The product must have at least two variants (one attribute with two "
 "values) created in order for the :guilabel:`Sales Variant Selection` "
@@ -6822,19 +7358,27 @@ msgid ""
 ":guilabel:`Attribute` to add attributes and values to this product and "
 "create product variants."
 msgstr ""
+"为了使:guilabel: ' Sales Variant Selection "
+"'选项出现，产品必须至少有两个变量(一个属性有两个值)。点击:guilabel: ' Add a "
+"line '下面的:guilabel: ' Attribute '，为该产品添加属性和值并创建产品变体。"
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:37
+#, fuzzy
 msgid "Use the Product Configurator"
-msgstr ""
+msgstr "使用产品配置器"
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:39
+#, fuzzy
 msgid ""
 "The :guilabel:`Product Configurator` appears on a quotation or sales "
 "order when products are added that have both variants configured and the "
 ":guilabel:`Product Configurator` option selected."
 msgstr ""
+"当添加的产品配置了两个变量并选择了:guilabel: ' Product Configurator "
+"'选项时，:guilabel: ' Product Configurator '出现在报价或销售订单上。"
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:42
+#, fuzzy
 msgid ""
 "The :guilabel:`Product Configurator` lets salespeople choose exactly "
 "which product variant to add to the quotation or sales order using a "
@@ -6845,23 +7389,35 @@ msgid ""
 ":guilabel:`Add` to add the product variant to the quotation or sales "
 "order."
 msgstr ""
+"The:guilabel: ' Product Configurator '让销售人员使用类似于网上购物的格式，准"
+"确地选择要添加到报价或销售订单中的产品变体。颜色选项显示在:guilabel: ' Color "
+"'属性中设置的任何HTML颜色代码。附加费用的功能将在其名称旁边显示附加费用。选择"
+"所需的产品变体属性后，单击:guilabel: ' Add "
+"'将产品变体添加到报价或销售订单中。"
 
+#, fuzzy
 msgid "Product Configurator and Price Extras."
-msgstr ""
+msgstr "产品配置器和价格附加。"
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:52
+#, fuzzy
 msgid ""
 "By default, the product variant attributes are displayed on the quotation"
 " or sales order in the :guilabel:`Description` column, but the "
 ":guilabel:`Product Variant` column can be added through the additional "
 "options menu (3 vertical dots icon)."
 msgstr ""
+"默认情况下，产品变体属性显示在报价或销售订单的:guilabel: ' Description "
+"'列中，但是:guilabel: ' product variant "
+"'列可以通过附加选项菜单(3个垂直的点图标)添加。"
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:57
+#, fuzzy
 msgid "Use Variant Grid Entries"
-msgstr ""
+msgstr "使用可变网格条目"
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:59
+#, fuzzy
 msgid ""
 ":guilabel:`Variant Grid Entries` appear on a quotation or sales order "
 "when products are added that have both variants configured and the "
@@ -6869,8 +7425,12 @@ msgid ""
 "the process of creating large, varied quotations by letting salespeople "
 "enter exact quantities of each product variant all at once."
 msgstr ""
+":guilabel:“变量网格条目”出现在报价或销售订单中，当添加的产品配置了两个变量并"
+"选择了:guilabel:“订单网格条目”选项时。通过让销售人员一次性输入每种产品变体的"
+"确切数量，网格输入可以简化创建大量、不同的报价的过程。"
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:64
+#, fuzzy
 msgid ""
 ":guilabel:`Variant Grid Entry` displays a grid of every variant available"
 " for the selected product. Choose the exact quantities of each product "
@@ -6880,18 +7440,26 @@ msgid ""
 "variants and their quantities have been set, click :guilabel:`Confirm` to"
 " add them to the quotation or sales order."
 msgstr ""
+":guilabel: '变体网格条目'显示所选产品的每个变体的网格。通过输入数字或使用箭头"
+"，为报价或销售订单选择每种产品变体的确切数量。:guilabel: ' Not Available '显"
+"示当一个特定的变量已经在数据库中被停用。一旦所有的产品变体及其数量都设置好了"
+"，点击:guilabel:‘Confirm’将它们添加到报价或销售订单中。"
 
+#, fuzzy
 msgid "Variant Grid Entry pop-up."
-msgstr ""
+msgstr "弹出变体网格条目。"
 
 #: ../../content/applications/sales/sales/send_quotations/orders_and_variants.rst:74
+#, fuzzy
 msgid ""
 "Each product variant appears as an individual line item on the quotation "
 "or sales order, because each of these items has its own stock."
-msgstr ""
+msgstr "每个产品变体在报价或销售订单中作为单独的行项目出现，因为这些项目都有自己的库"
+"存。"
 
+#, fuzzy
 msgid "Line items for grid variants."
-msgstr ""
+msgstr "网格变体的行项目。"
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:3
 msgid "Use quotation templates"
@@ -6910,8 +7478,9 @@ msgid ""
 " Settings` and activate **Quotation Templates**."
 msgstr "如要启用此功能，前往 :menuselection:`销售 --> 配置 --> 设置`并启用  **价模**  。"
 
+#, fuzzy
 msgid "How to enable quotation templates on Odoo Sales?"
-msgstr ""
+msgstr "如何在Odoo Sales上启用报价模板?"
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:19
 msgid ""
@@ -6920,8 +7489,9 @@ msgid ""
 "very easily. This option will automatically install the Odoo Website App."
 msgstr "更方便的是，我们还建议你添加 **价单生成器 **能，它将帮助你轻松设计报价模板。该选项将自动安装Odoo网站应用程序。"
 
+#, fuzzy
 msgid "How to enable quotation builder on Odoo Sales?"
-msgstr ""
+msgstr "如何在Odoo销售上启用报价生成器?"
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:29
 #: ../../content/applications/sales/subscriptions/configuration/subscription_templates.rst:47
@@ -6939,8 +7509,9 @@ msgid ""
 "time of the quotation."
 msgstr "你可创建新模板或编辑现有模板。命名后，你可选择产品和数据以及报价的有效期。"
 
+#, fuzzy
 msgid "Create a new quotation template on Odoo Sales"
-msgstr ""
+msgstr "在Odoo Sales上创建一个新的报价模板"
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:42
 msgid "Design your template"
@@ -6957,8 +7528,9 @@ msgstr ""
 "你可设计模板并编辑客户界面，以管理客户在接受和支付报价之前看到的内容。例如，你可以介绍你的公司、服务和产品。为此，你可点击 **** "
 "，然后将转向报价单生成器。"
 
+#, fuzzy
 msgid "Design your quotation template on Odoo Sales"
-msgstr ""
+msgstr "在Odoo Sales上设计您的报价模板"
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:54
 msgid ""
@@ -6967,10 +7539,11 @@ msgid ""
 "can add a content block to describe your products."
 msgstr "你可拖放不同的创建块，轻松编辑模板内容，组织报价。例如，你可添加一个介绍产品的内容块。"
 
+#, fuzzy
 msgid ""
 "Drag & drop building blocks to create your quotation template on Odoo "
 "Sales"
-msgstr ""
+msgstr "拖放构建块在Odoo销售上创建您的报价模板"
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:63
 msgid "Use a quotation template"
@@ -6980,8 +7553,9 @@ msgstr "使用报价单模板"
 msgid "When creating a quotation, you can choose a specific template."
 msgstr "在创建报价时，你可选择特定模板。"
 
+#, fuzzy
 msgid "Select a specific template on Odoo Sales"
-msgstr ""
+msgstr "在Odoo Sales上选择一个特定的模板"
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:73
 msgid ""
@@ -7000,8 +7574,9 @@ msgid ""
 "directly in the quotation template itself."
 msgstr "模板可允许客户填写电子签名并在线付款，加速确认流程。你可在报价模板中直接启用这两个选项。"
 
+#, fuzzy
 msgid "Allow your customers to sign electronically or to pay online on Odoo Sales"
-msgstr ""
+msgstr "允许您的客户在Odoo Sales上进行电子签名或在线付款"
 
 #: ../../content/applications/sales/sales/send_quotations/quote_template.rst:88
 msgid ""
@@ -7048,8 +7623,9 @@ msgid ""
 "activate *Default Terms & Conditions*."
 msgstr "前往 :menuselection:`会计 --> 配置 --> 设置`并启用*默认期限和条件*。"
 
+#, fuzzy
 msgid "How to enable Default Terms & Conditions on Odoo Sales?"
-msgstr ""
+msgstr "如何启用默认条款和条件的Odoo销售?"
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:27
 msgid ""
@@ -7071,8 +7647,9 @@ msgid ""
 "insert your default terms and conditions."
 msgstr "在  **票应用程**  的设置中，您可以插入默认期限和条件。"
 
+#, fuzzy
 msgid "Default Terms & Conditions on quotation on Odoo Sales"
-msgstr ""
+msgstr "Odoo销售报价的默认条款和条件"
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:42
 msgid "They appear subsequently on every quotation, sales order, and invoice."
@@ -7089,8 +7666,9 @@ msgid ""
 "different terms and conditions within your company."
 msgstr "根据您的业务需求，您可以在报价模板上指定您的期限和条件。 如果您在公司内有不同的期限和条件，这很有意思。"
 
+#, fuzzy
 msgid "Add Default Terms & Conditions to your quotation templates on Odoo Sales"
-msgstr ""
+msgstr "添加默认条款和条件到您的报价模板上Odoo销售"
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:56
 msgid ""
@@ -7112,8 +7690,9 @@ msgid ""
 "page. For example, here is the Odoo terms and conditions page:"
 msgstr "使用  **站应**  并创建自己的一般期限和条件页面。 例如，这是Odoo期限和条件页面："
 
+#, fuzzy
 msgid "General Terms & Conditions on your website"
-msgstr ""
+msgstr "网站上的一般条款和条件"
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:73
 msgid ""
@@ -7123,8 +7702,9 @@ msgid ""
 "from Odoo."
 msgstr "您可以在所有文档的页脚中引用此页面。 该布局位于  **务文**  类别下的  **规设**  中。 例如，此页脚出现在Odoo的每个文档中。"
 
+#, fuzzy
 msgid "General Terms & Conditions in your business documents"
-msgstr ""
+msgstr "商务文件中的一般条款和条件"
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:83
 msgid "GT&C as attachment in your emails"
@@ -7136,8 +7716,9 @@ msgid ""
 "you are about to send your quotation by email to your customers."
 msgstr "当您要通过电子邮件将报价发送给客户时，请附上带有一般期限和条件的外部文档。"
 
+#, fuzzy
 msgid "General Terms & conditions as attachment in your email"
-msgstr ""
+msgstr "一般条款及细则见附件"
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:94
 msgid "GT&C as attachment in your quotation templates"
@@ -7158,8 +7739,9 @@ msgstr ""
 "--> 报价模板`，并创建新的报价模板或修改现有的报价模板。 "
 "现在，在确认选项卡下，您可以激活在线签名，在线支付并设置确认邮件，您可以在其中配置默认附件。  然后您可以在此处输入一般期限和条件。"
 
+#, fuzzy
 msgid "General Terms & conditions as attachment in your quotation templates"
-msgstr ""
+msgstr "一般条款和条件在报价模板的附件中"
 
 #: ../../content/applications/sales/sales/send_quotations/terms_and_conditions.rst:109
 msgid ""
@@ -7228,8 +7810,9 @@ msgid ""
 msgstr "转到：菜单选择：`订阅-->订阅产品`，了解如何配置自己的订阅产品。您可以创建新产品或编辑现有产品。一旦命名，请小心选择选项*可以出售*和取消选择*可以购买*。对于产品类型，建议对订阅产品使用*服务*，因为它们是您提供给客户的非物质产品。最后，您可以调整价格，还可以添加内部参考。"
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_products.rst
+#, fuzzy
 msgid "View of a subscription product form in Odoo Subscriptions"
-msgstr ""
+msgstr "Odoo Subscriptions中订阅产品表单的视图"
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_products.rst:30
 msgid ""
@@ -7264,8 +7847,9 @@ msgstr "在创建您自己的订阅产品之前，请务必查看我们关于如
 #: ../../content/applications/sales/subscriptions/sales_flow/create_a_quotation.rst:79
 #: ../../content/applications/sales/subscriptions/sales_flow/renewals.rst:80
 #: ../../content/applications/sales/subscriptions/sales_flow/upselling.rst:83
+#, fuzzy
 msgid ":doc:`../../subscriptions/configuration/subscription_templates`"
-msgstr ""
+msgstr ":医生:“. . / . . /订阅/配置/ subscription_templates”"
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_products.rst:54
 #: ../../content/applications/sales/subscriptions/follow_up/automatic_alerts.rst:85
@@ -7273,8 +7857,9 @@ msgstr ""
 #: ../../content/applications/sales/subscriptions/sales_flow/closing.rst:107
 #: ../../content/applications/sales/subscriptions/sales_flow/renewals.rst:82
 #: ../../content/applications/sales/subscriptions/sales_flow/upselling.rst:85
+#, fuzzy
 msgid ":doc:`../../subscriptions/sales_flow/create_a_quotation`"
-msgstr ""
+msgstr ":医生:“. . / . . /订阅/ sales_flow create_a_quotation”"
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_templates.rst:3
 msgid "Use subscription templates"
@@ -7337,8 +7922,9 @@ msgid ""
 "create your own ones."
 msgstr "转到：菜单选择：`订阅-->配置-->订阅模板`。默认情况下，Odoo建议您使用两种订阅类型（每月订阅*vs*每年订阅）。你也可以创建自己的。"
 
+#, fuzzy
 msgid "Default subscription templates on Odoo Subscriptions"
-msgstr ""
+msgstr "Odoo订阅上的默认订阅模板"
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_templates.rst:43
 msgid ""
@@ -7360,8 +7946,9 @@ msgid ""
 "templates."
 msgstr "您可以创建新模板或编辑现有模板。您需要做的第一件事是为模板命名。在这之后，选择一个*发票期*并指定您是想按*天*、*周*、*月*还是*年*向客户开具发票。在*持续时间*上，确定订阅是必须持续*永远*（直到手动关闭），还是必须持续*固定时间*。在付款选项中，当您选择“发送”、“发送并尝试收费”或“付款成功后发送”时，会出现一个名为“发票电子邮件”的附加字段。此字段允许您将发票电子邮件模板添加到订阅模板中。"
 
+#, fuzzy
 msgid "Create your own subscription templates on Odoo Subscriptions"
-msgstr ""
+msgstr "在Odoo订阅上创建自己的订阅模板"
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_templates.rst:61
 msgid ""
@@ -7380,8 +7967,9 @@ msgid ""
 msgstr "在每个模板上，您可以添加 **款和条** 。明确期限和条件对于确定客户和卖方之间的重要合同点（付款、退款政策、取消、投诉等）至关重要。"
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_templates.rst
+#, fuzzy
 msgid "Terms & conditions on Odoo Subscriptions"
-msgstr ""
+msgstr "Odoo订阅的条款和条件"
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_templates.rst:74
 msgid ""
@@ -7396,8 +7984,9 @@ msgstr ""
 "**特定选项卡。在那里，您可以编辑并创建自己的过滤器，以定义健康状况良好*与健康状况不良*的订阅。系统会自动汇总与这些过滤器相对应的所有记录，您可以通过单击进行管理。"
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_templates.rst
+#, fuzzy
 msgid "Health check on Odoo Subscriptions"
-msgstr ""
+msgstr "Odoo订阅的运行状况检查"
 
 #: ../../content/applications/sales/subscriptions/configuration/subscription_templates.rst:85
 msgid ""
@@ -7464,8 +8053,9 @@ msgid ""
 "Configuration --> Alerts`, and create a new alert."
 msgstr "以下示例显示了如何创建新的自动警报，以便在订阅一个月后通过电子邮件向客户发送满意度调查。为此，请转至：菜单选择：`订阅-->配置-->警报`，然后创建新警报。"
 
+#, fuzzy
 msgid "New automatic alert in Odoo Subscriptions"
-msgstr ""
+msgstr "新的自动警报在Odoo订阅"
 
 #: ../../content/applications/sales/subscriptions/follow_up/automatic_alerts.rst:30
 msgid ""
@@ -7513,8 +8103,9 @@ msgid ""
 "appear in the chatter of your respective subscription."
 msgstr "因此，此警报将在一个月后向购买该特定产品的客户发送评级调查。调查将出现在您各自订阅的聊天记录中。"
 
+#, fuzzy
 msgid "Satisfaction survey in Odoo Subscriptions"
-msgstr ""
+msgstr "Odoo订阅的满意度调查"
 
 #: ../../content/applications/sales/subscriptions/follow_up/automatic_alerts.rst:63
 msgid "Modify an existing automatic alert"
@@ -7526,8 +8117,9 @@ msgid ""
 "less satisfied clients*."
 msgstr "默认情况下，Odoo建议您发送一个名为*对不太满意的客户采取行动*的自动警报。"
 
+#, fuzzy
 msgid "Modify an existing automatic alert in Odoo Subscriptions"
-msgstr ""
+msgstr "修改Odoo订阅中现有的自动警报"
 
 #: ../../content/applications/sales/subscriptions/follow_up/automatic_alerts.rst:71
 msgid ""
@@ -7548,8 +8140,9 @@ msgid ""
 msgstr "通过编辑警报，您可以修改*应用于*、*操作*和*活动*部分，并根据自己的需要进行调整。"
 
 #: ../../content/applications/sales/subscriptions/follow_up/automatic_alerts.rst:86
+#, fuzzy
 msgid ":doc:`../../subscriptions/reporting/subscription_reports`"
-msgstr ""
+msgstr ":医生:“. . / . . /订阅/报告/ subscription_reports”"
 
 #: ../../content/applications/sales/subscriptions/reporting.rst:5
 msgid "Reporting"
@@ -7591,8 +8184,9 @@ msgid ""
 "account."
 msgstr "**年度运行率（ARR）**：ARR是MRR的年度版本，基于当前MRR，用于估计来年的性能。然而，该估计未考虑变化和增长。"
 
+#, fuzzy
 msgid "Difference between MRR and ARR in Odoo Subscriptions"
-msgstr ""
+msgstr "Odoo订阅中MRR和ARR的区别"
 
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst:23
 msgid ""
@@ -7649,8 +8243,9 @@ msgid "of 9,33%."
 msgstr "属于 9,33%."
 
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst
+#, fuzzy
 msgid "Difference between logo churn and revenue churn in Odoo Subscriptions"
-msgstr ""
+msgstr "Odoo订阅的logo变化和收入变化的区别"
 
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst:50
 msgid ""
@@ -7687,8 +8282,9 @@ msgid ""
 "more precisely, by *Week*, to get a clear view of your report."
 msgstr "转到：菜单选择：`订阅-->报告-->订阅`。从那里，您可以更改*度量值*。默认情况下，奥多使用*每月经常性收入*。除此之外，您可以选择*数量*、*经常性价格*、*年度经常性收入*和*计数*。在本例中，添加了*数量*。这样，您可以同时查看这两个度量值。你甚至可以*按开始日期*分组，更准确地说，按*周*分组，以清楚地了解你的报告。"
 
+#, fuzzy
 msgid "Subscriptions analysis report in Odoo Subscriptions"
-msgstr ""
+msgstr "Odoo订阅中的订阅分析报告"
 
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst:74
 msgid "Retention analysis report"
@@ -7703,8 +8299,9 @@ msgid ""
 "criteria, you can see the progression of the retention from its start."
 msgstr "转到：菜单选择：`订阅-->报告-->保留`。应用的默认度量值为*总数*，但您可以更改为适合自己的度量值。在下面的例子中，选择了*月经常性收入*，并且*月*周期保持不变。通过使用这些标准，您可以从一开始就看到保留的进展。"
 
+#, fuzzy
 msgid "Retention analysis report in Odoo Subscriptions"
-msgstr ""
+msgstr "Odoo订阅的用户留存分析报告"
 
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst:86
 msgid "Revenue KPIs report"
@@ -7722,8 +8319,9 @@ msgstr ""
 "转到：菜单选择：`订阅-->报告-->收入KPI`。从那里，您可以检查不同的KPI：*每月经常性收入*、*净收入*、*非经常性收入*、*每次订阅的收入*、"
 " **运行率*、*终身价值*，等等。您还可以筛选有关订阅、公司和销售团队的此信息。如果您要查找特定信息，这很有用。"
 
+#, fuzzy
 msgid "Revenue KPIs report in Odoo Subscriptions"
-msgstr ""
+msgstr "在Odoo订阅中报告收益kpi"
 
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst:98
 msgid ""
@@ -7734,8 +8332,9 @@ msgid ""
 "specific KPIs on subscriptions, companies, and sales teams."
 msgstr "下面的示例显示了*月度经常性收入*详细报告。目前，没有数据，这是新业务的典型场景。但是，随着您的公司数月来的增长，这些图表中填充了越来越多的数据。同样，您可以筛选订阅、公司和销售团队的这些特定KPI。"
 
+#, fuzzy
 msgid "Detailed MRR report in Odoo Subscriptions"
-msgstr ""
+msgstr "详细的MRR报告在Odoo订阅"
 
 #: ../../content/applications/sales/subscriptions/reporting/subscription_reports.rst:108
 msgid "Salesperson dashboard report"
@@ -7750,8 +8349,9 @@ msgid ""
 " period you want to apply and the salesperson you want to analyze."
 msgstr "转到：菜单选择：`订阅-->报告-->销售人员仪表板`。本页为您提供每个销售人员的*每月经常性收入*、*非经常性收入*、*订阅修改*和*非经常性发票*的摘要。你可以选择你想要申请的时期和你想要分析的销售人员。"
 
+#, fuzzy
 msgid "Salesperson dashboard report in Odoo Subscriptions"
-msgstr ""
+msgstr "Odoo订阅中的销售人员仪表盘报告"
 
 #: ../../content/applications/sales/subscriptions/sales_flow.rst:5
 msgid "Sales flow"
@@ -7811,8 +8411,9 @@ msgid ""
 " close their own subscriptions."
 msgstr "转到：菜单选择：`订阅-->配置-->订阅模板`。从那里，您可以创建新的*订阅模板*或修改现有模板。编辑模板时，在“开票”选项卡下，您可以激活选项“可由客户关闭”。启用此选项后，您的客户有权关闭自己的订阅。"
 
+#, fuzzy
 msgid "Configuration to close your subscription with Odoo Subscriptions"
-msgstr ""
+msgstr "使用Odoo订阅关闭订阅的配置"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/closing.rst:43
 msgid ""
@@ -7840,10 +8441,11 @@ msgid ""
 "subscription."
 msgstr "一旦确认，报价单将成为销售订单，并自动创建新的订阅。因此，此订阅的状态为*进行中*。从那里，您可以关闭订阅。"
 
+#, fuzzy
 msgid ""
 "Close your subscription from an administration point of view with Odoo "
 "Subscriptions"
-msgstr ""
+msgstr "从管理角度使用Odoo Subscriptions关闭订阅"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/closing.rst:62
 msgid ""
@@ -7855,8 +8457,9 @@ msgid ""
 "on the subscription."
 msgstr "通过使用智能按钮*关闭*，您必须输入关闭原因。例如，“订阅太贵”、“订阅不符合我的要求”、“订阅已到结束日期”等。在确认关闭原因后，您可以立即观察到订阅的状态现在为*关闭*，并且订阅中提到了关闭原因。"
 
+#, fuzzy
 msgid "What happens when you close your subscription with Odoo Subscriptions?"
-msgstr ""
+msgstr "关闭Odoo订阅后会发生什么?"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/closing.rst:72
 msgid "Customer view"
@@ -7872,10 +8475,11 @@ msgid ""
 "Subscription* button."
 msgstr "如前所述，在*管理员视图*部分中，通过*客户预览*按钮，您还可以从订阅表单中可视化客户在管理其订阅时看到的内容。在本例中，由于*关闭订阅*按钮，客户可以随时选择关闭其订阅。"
 
+#, fuzzy
 msgid ""
 "Close your subscription from a customer point of view with Odoo "
 "Subscriptions"
-msgstr ""
+msgstr "从客户角度使用Odoo Subscriptions关闭订阅"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/closing.rst:83
 msgid ""
@@ -7883,10 +8487,11 @@ msgid ""
 "his/her subscription and he/she can even leave a message."
 msgstr "通过使用此按钮，客户可以指定取消订阅的原因，甚至可以留言。"
 
+#, fuzzy
 msgid ""
 "What happens when customers close their subscription with Odoo "
 "Subscriptions?"
-msgstr ""
+msgstr "当客户通过Odoo订阅关闭订阅时会发生什么?"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/closing.rst:90
 msgid ""
@@ -7897,10 +8502,11 @@ msgid ""
 "closing text added by the customer."
 msgstr "通过确认取消，客户将被重定向到其门户。将此修改通知管理员。事实上，订阅的状态变为*关闭*，聊天记录中会出现一条注释，其中包含新阶段、结束日期、关闭原因和客户添加的关闭文本。"
 
+#, fuzzy
 msgid ""
 "What happens when customers close their subscription in Odoo "
 "Subscriptions?"
-msgstr ""
+msgstr "当客户在Odoo订阅中关闭订阅时会发生什么?"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/closing.rst:100
 msgid ""
@@ -7959,8 +8565,9 @@ msgid ""
 "configured as a *Subscription product*."
 msgstr "转** Odoo 销售 **创建新报价。然后，选择一个客户并添加一个产品。请小心选择之前配置为“订阅产品”的产品。"
 
+#, fuzzy
 msgid "View of a quotation form in Odoo Sales"
-msgstr ""
+msgstr "在Odoo销售的一个报价形式的视图"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/create_a_quotation.rst:39
 msgid ""
@@ -7974,8 +8581,9 @@ msgstr ""
 "报价单准备好后，您可以将其发送给客户或进行确认。最好先*通过电子邮件*将报价发送给客户，让他们确认，然后** Odoo 销售 "
 "***确认。通过单击“客户预览”，您可以了解客户在收到报价时会看到什么。"
 
+#, fuzzy
 msgid "Customer preview of a quotation form in Odoo Sales"
-msgstr ""
+msgstr "客户预览的报价形式在Odoo销售"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/create_a_quotation.rst:48
 msgid ""
@@ -8000,8 +8608,9 @@ msgid ""
 "created."
 msgstr "一旦确认，报价单将成为销售订单，并显示一个新按钮，*订阅*。实际上，订阅是自动创建的。"
 
+#, fuzzy
 msgid "Quotation form in Odoo Sales with a button \"Subscriptions\""
-msgstr ""
+msgstr "报价形式在Odoo销售与按钮“订阅”"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/create_a_quotation.rst:63
 msgid ""
@@ -8015,8 +8624,9 @@ msgstr ""
 " "
 "<../../subscriptions/sales_flow/closing>`或：doc：`追加销售<<../../subscriptions/sales_flow/upselling>`您的订阅。"
 
+#, fuzzy
 msgid "Use of the intelligent button \"Subscriptions\" in Odoo Sales"
-msgstr ""
+msgstr "在《Odoo Sales》中使用智能按钮“订阅”"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/create_a_quotation.rst:73
 msgid ""
@@ -8044,8 +8654,9 @@ msgstr ""
 "<../../subscriptions/sales_flow/closing>`或：doc：`追加销售<<../../subscriptions/sales_flow/upselling>`您的订阅。"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/create_a_quotation.rst:83
+#, fuzzy
 msgid ":doc:`../../subscriptions/sales_flow/upselling`"
-msgstr ""
+msgstr ":医生:“. . / . . /订阅/ sales_flow /销售的"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/renewals.rst:3
 msgid "Renew a subscription"
@@ -8094,8 +8705,9 @@ msgid ""
 " tag automatically appears in the upper right corner of the subscription."
 msgstr "续订订阅之前，请务必查看我们的文档，了解如何：doc:`创建报价<../../subscriptions/sales_flow/create_a_quotation>`使用订阅产品。事实上，一旦确认，报价单将成为销售订单，并自动创建新的订阅。因此，此订阅的状态为“进行中”。从那里，您可以续订。在“其他信息”选项卡的“续订”部分下，您可以激活“续订”选项。激活后，黄色标签会自动显示在订阅的右上角。"
 
+#, fuzzy
 msgid "Renew your subscription with Odoo Subscriptions"
-msgstr ""
+msgstr "更新您的订阅Odoo订阅"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/renewals.rst:38
 msgid ""
@@ -8106,8 +8718,9 @@ msgid ""
 msgstr "付款失败时，自动勾选*续订*标签。此指示器也显示在客户门户上。要将其可视化，只需单击“客户预览”按钮。要续订的标签*出现在右上角。"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/renewals.rst
+#, fuzzy
 msgid "Customer preview of a renewal with Odoo Subscriptions"
-msgstr ""
+msgstr "使用Odoo订阅续订的客户预览"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/renewals.rst:46
 msgid ""
@@ -8130,8 +8743,9 @@ msgid ""
 msgstr "在这个新报价的聊天中，提到“这个续订订单是从以前的订阅中创建的”。一旦您的客户确认，此报价将成为销售订单，并且在订阅的右上角会提到新的销售。"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/renewals.rst
+#, fuzzy
 msgid "Renew a quotation with Odoo Subscriptions"
-msgstr ""
+msgstr "更新报价与Odoo订阅"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/renewals.rst:61
 msgid ""
@@ -8142,8 +8756,9 @@ msgid ""
 msgstr "单击*销售*按钮，您可以在列表视图中看到销售订单的摘要。您的两个报价之间的唯一区别是“订阅管理”类别下的描述。在那里，你可以很容易地想象哪一个是你的更新。"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/renewals.rst
+#, fuzzy
 msgid "Renewal as Subscription Management form in Odoo Subscriptions"
-msgstr ""
+msgstr "更新是Odoo订阅中的订阅管理表单"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/renewals.rst:70
 msgid "Visualize your subscriptions to renew"
@@ -8156,10 +8771,11 @@ msgid ""
 "filter *To renew*."
 msgstr "最后，如果您想可视化所有订阅并轻松找到要续订的订阅，可以转到“订阅”仪表板*并使用过滤器*续订*。"
 
+#, fuzzy
 msgid ""
 "List view of all subscriptions and use of the filter to renew in Odoo "
 "Subscriptions"
-msgstr ""
+msgstr "所有订阅的列表视图，以及Odoo订阅中更新过滤器的使用"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/upselling.rst:3
 msgid "Upsell a subscription"
@@ -8203,8 +8819,9 @@ msgid ""
 "order lines."
 msgstr "如前所述，要向新客户追加订购，建议提供*折扣*。要激活此选项，请转至：菜单选择：`销售-->配置-->设置`，在*定价*类别下，您可以对销售订单行授予折扣。"
 
+#, fuzzy
 msgid "Activation of the discount option in Odoo Sales"
-msgstr ""
+msgstr "激活Odoo Sales中的折扣选项"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/upselling.rst:36
 msgid "Upsell your first subscription"
@@ -8223,8 +8840,9 @@ msgstr ""
 "在追加销售订阅之前，请务必查看我们的文档，了解如何：doc:`创建报价<../../subscriptions/sales_flow/create_a_quotation>`"
 " 使用订阅产品。事实上，一旦确认，报价单将成为销售订单，并自动创建新的订阅。因此，此订阅的状态为“进行中”。从那里，你就有可能提高订阅的销售量。"
 
+#, fuzzy
 msgid "Upsell your subscription with Odoo Subscriptions"
-msgstr ""
+msgstr "用Odoo订阅出售您的订阅"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/upselling.rst:48
 msgid ""
@@ -8233,10 +8851,11 @@ msgid ""
 "for approval."
 msgstr "通过使用智能按钮*追加销售*，您可以使用新的订阅产品创建新报价，并将其发送给客户供其批准。"
 
+#, fuzzy
 msgid ""
 "Add products to your subscription via the upsell option in Odoo "
 "Subscriptions"
-msgstr ""
+msgstr "通过Odoo订阅中的upsell选项添加产品到您的订阅"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/upselling.rst:56
 msgid ""
@@ -8258,8 +8877,9 @@ msgid ""
 "the new extra service the customer wanted to purchase."
 msgstr "当然，在将此新报价发送给客户之前，您可以更改单价、税费，甚至希望提供的折扣。智能按钮*客户预览*用于模拟客户的反应。在这种情况下，我们可以自信地说，客户将*签署并支付*这一新报价。完成后，您必须返回编辑模式，确认报价，然后单击智能按钮*订阅*以可视化所有更新。从那里，您可以看到，客户想要购买的新额外服务已添加到订阅中。"
 
+#, fuzzy
 msgid "Visualize all your subscriptions updates with Odoo Subscriptions"
-msgstr ""
+msgstr "用Odoo订阅可视化所有订阅更新"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/upselling.rst:72
 msgid ""
@@ -8267,8 +8887,9 @@ msgid ""
 "your sales orders in a list view."
 msgstr "此外，单击*销售*按钮，您可以在列表视图中获得销售订单的摘要。"
 
+#, fuzzy
 msgid "List view of all sales orders created for a subscription"
-msgstr ""
+msgstr "为订阅创建的所有销售订单的列表视图"
 
 #: ../../content/applications/sales/subscriptions/sales_flow/upselling.rst:79
 msgid ""
