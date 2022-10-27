@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0 docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-27 21:52+0800\n"
-"PO-Revision-Date: 2022-10-26 23:39+0800\n"
+"PO-Revision-Date: 2022-10-27 14:36+0000\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
+"Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/"
+"odoo-doc/administration/zh_Hans/>\n"
 "Language: zh_CN\n"
-"Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects"
-"/odoo-doc/administration/zh_Hans/>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.14.1\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: ../../content/administration.rst:8
@@ -1289,7 +1290,6 @@ msgid "Editions"
 msgstr "版本"
 
 #: ../../content/administration/install/install.rst:35
-#, fuzzy
 msgid ""
 "There are two different Editions_ of Odoo: the Community and Enterprise "
 "versions. Using the Enterprise version is possible on `Odoo Online`_ and "
@@ -1336,7 +1336,6 @@ msgid "Odoo Online"
 msgstr "Odoo Online"
 
 #: ../../content/administration/install/install.rst:61
-#, fuzzy
 msgid ""
 "Trivial to start with, fully managed and migrated by Odoo S.A., `Odoo "
 "Online`_ provides private instances and starts out free. It can be used "
@@ -1344,15 +1343,15 @@ msgid ""
 "incompatible with custom modules or the Odoo Apps Store) without having "
 "to install it locally."
 msgstr ""
-"Odoo的 SaaS_ 从一开始就很简单，由Odoo "
-"S.A.完全管理和迁移，提供私有实例，并且提供免费试用。它可用于发现和测试Odoo，并可进行非代码级配置（即与自定义模块或Odoo应用程序商店不兼容），而无需在本地安装。"
+"Odoo的 SaaS_ 从一开始就很简单，由Odoo S.A.完全管理和迁移，提供私有实例，并且"
+"提供免费试用。它可用于发现和测试Odoo，并可进行非代码级配置（即与自定义模块或O"
+"doo应用程序商店不兼容），而无需在本地安装。"
 
 #: ../../content/administration/install/install.rst:66
 msgid "Can be used for both testing Odoo and long-term production use."
 msgstr "可用于测试和长期生产用途。"
 
 #: ../../content/administration/install/install.rst:68
-#, fuzzy
 msgid ""
 "Like demo_ instances, `Odoo Online`_ instances require no local "
 "installation, a web browser is sufficient."
@@ -1490,14 +1489,13 @@ msgid "Repository"
 msgstr "存储库"
 
 #: ../../content/administration/install/install.rst:148
-#, fuzzy
 msgid ""
 "Odoo S.A. provides a repository that can be used with Debian and Ubuntu "
 "distributions. It can be used to install *Odoo Community Edition* by "
 "executing the following commands:"
 msgstr ""
-"Odoo S.A.提供了一个可以与 Debian 和 Ubuntu 发行版一起使用的存储库。以 `root` 身份执行以下命令来安装 *Odoo "
-"社区版* ："
+"Odoo S.A.提供了一个可以与 Debian 和 Ubuntu 发行版一起使用的存储库。以 `root` "
+"身份执行以下命令来安装 *Odoo 社区版* ："
 
 #: ../../content/administration/install/install.rst:157
 msgid ""
@@ -8884,4 +8882,3 @@ msgstr ""
 
 #~ msgid "Odoo Online (SaaS)"
 #~ msgstr ""
-
