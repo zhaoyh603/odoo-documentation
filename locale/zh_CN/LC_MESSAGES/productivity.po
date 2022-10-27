@@ -1,8 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) Odoo S.A.
 # This file is distributed under the same license as the Odoo package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
 # Translators:
 # Datasource International <Hennessy@datasourcegroup.com>, 2022
 # F4NNIU <sparkamax@gmail.com>, 2022
@@ -15,22 +15,21 @@
 # diaojiaolou <124412206@qq.com>, 2022
 # Jeffery CHEN <jeffery9@gmail.com>, 2022
 # Martin Trigaux, 2022
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-04 12:47+0000\n"
+"POT-Creation-Date: 2022-10-27 21:52+0800\n"
 "PO-Revision-Date: 2022-10-25 17:10+0000\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
-"Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/"
-"odoo-doc/productivity/zh_Hans/>\n"
 "Language: zh_CN\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects"
+"/odoo-doc/productivity/zh_Hans/>\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: ../../content/applications/productivity.rst:5
 msgid "Productivity"
@@ -53,8 +52,8 @@ msgid ""
 "Odoo Discuss uses WebRTC API and peer-to-peer connections for voice and "
 "video calls. If one of the call attendees is behind a symmetric NAT, you "
 "need to configure an ICE server to establish a connection to the call "
-"attendee. To set up an ICE server, first, create a Twilio account for video "
-"calls, and then, connect that Twilio account to Odoo."
+"attendee. To set up an ICE server, first, create a Twilio account for "
+"video calls, and then, connect that Twilio account to Odoo."
 msgstr ""
 
 #: ../../content/applications/productivity/discuss/advanced/ice_servers.rst:11
@@ -63,24 +62,24 @@ msgstr "创建一个 Twilio 帐户"
 
 #: ../../content/applications/productivity/discuss/advanced/ice_servers.rst:13
 msgid ""
-"First, go to `Twilio <https://www.twilio.com_>`_ and click :guilabel:`Sign "
-"up` to create a new Twilio account. Next, enter your name and email address,"
-" create a password, and accept Twilio's terms of service. Then, click "
-":guilabel:`Start your free trial`. Verify your email address with Twilio, as"
-" per their instructions."
+"First, go to `Twilio <https://www.twilio.com_>`_ and click "
+":guilabel:`Sign up` to create a new Twilio account. Next, enter your name"
+" and email address, create a password, and accept Twilio's terms of "
+"service. Then, click :guilabel:`Start your free trial`. Verify your email"
+" address with Twilio, as per their instructions."
 msgstr ""
 
 #: ../../content/applications/productivity/discuss/advanced/ice_servers.rst:18
 msgid ""
-"Next, enter your phone number into Twilio. Then, Twilio will send you an SMS"
-" text message containing a verification code. Enter the verification code "
-"into Twilio to verify your phone number."
+"Next, enter your phone number into Twilio. Then, Twilio will send you an "
+"SMS text message containing a verification code. Enter the verification "
+"code into Twilio to verify your phone number."
 msgstr ""
 
 #: ../../content/applications/productivity/discuss/advanced/ice_servers.rst:22
 msgid ""
-"After that, Twilio redirects to a welcome page. Use the following list to "
-"answer Twilio's questions:"
+"After that, Twilio redirects to a welcome page. Use the following list to"
+" answer Twilio's questions:"
 msgstr ""
 
 #: ../../content/applications/productivity/discuss/advanced/ice_servers.rst:25
@@ -107,7 +106,6 @@ msgid ""
 "integrations`."
 msgstr ""
 
-#: ../../content/applications/productivity/discuss/advanced/ice_servers.rstNone
 msgid "The Twilio welcome page."
 msgstr ""
 
@@ -125,11 +123,11 @@ msgstr "找到 Twilio 帐户 SID 和身份验证令牌"
 msgid ""
 "To locate the Account SID and Auth Token, go to the Twilio account "
 "dashboard. Then, click :guilabel:`Develop` on the sidebar. In the "
-":guilabel:`Account Info` section, locate the :guilabel:`Account SID` and the"
-" :guilabel:`Auth Token`. Both of these are needed to connect Twilio to Odoo."
+":guilabel:`Account Info` section, locate the :guilabel:`Account SID` and "
+"the :guilabel:`Auth Token`. Both of these are needed to connect Twilio to"
+" Odoo."
 msgstr ""
 
-#: ../../content/applications/productivity/discuss/advanced/ice_servers.rstNone
 msgid ""
 "The Twilio Account SID and Auth Token can be found uner the Account Info "
 "section."
@@ -147,10 +145,10 @@ msgid ""
 ":guilabel:`Auth Token`. Finally, click :guilabel:`Save` to apply these "
 "changes."
 msgstr ""
-"打开 Odoo 数据库并转到:菜单选择:`设置 --> 总的设置 --> 讨论`。 选中 Use Twilio ICE servers 旁边的框并输入 "
-"Twilio 帐户的 Account SID 和 Auth Token。 最后，单击 :guilabel:`Save` 以应用这些更改。"
+"打开 Odoo 数据库并转到:菜单选择:`设置 --> 总的设置 --> 讨论`。 选中 Use Twilio ICE servers "
+"旁边的框并输入 Twilio 帐户的 Account SID 和 Auth Token。 最后，单击 :guilabel:`Save` "
+"以应用这些更改。"
 
-#: ../../content/applications/productivity/discuss/advanced/ice_servers.rstNone
 msgid "Enable the \"Use Twilio ICE servers\" option in Odoo General Settings."
 msgstr ""
 
@@ -160,10 +158,10 @@ msgstr "定义自定义 ICE 服务器列表"
 
 #: ../../content/applications/productivity/discuss/advanced/ice_servers.rst:63
 msgid ""
-"This step is not required for the Twilio configuration. However, if Twilio "
-"is not configured or is not working at any given moment, Odoo will fall back"
-" on the custom ICE servers list. The user must define the list of custom ICE"
-" servers."
+"This step is not required for the Twilio configuration. However, if "
+"Twilio is not configured or is not working at any given moment, Odoo will"
+" fall back on the custom ICE servers list. The user must define the list "
+"of custom ICE servers."
 msgstr ""
 "Twilio 配置不需要此步骤。 但是，如果 Twilio 未配置或在任何给定时刻不工作，Odoo 将退回到自定义 ICE 服务器列表。 "
 "用户必须定义自定义 ICE 服务器列表。"
@@ -174,17 +172,15 @@ msgid ""
 ":guilabel:`ICE Servers` button under :guilabel:`Custom ICE server list`."
 msgstr ""
 
-#: ../../content/applications/productivity/discuss/advanced/ice_servers.rstNone
 msgid "The \"ICE Servers\" button in Odoo General Settings."
 msgstr ""
 
 #: ../../content/applications/productivity/discuss/advanced/ice_servers.rst:74
 msgid ""
-"Odoo will redirect to the :guilabel:`ICE servers` page. Here you can define "
-"your own list of ICE servers."
+"Odoo will redirect to the :guilabel:`ICE servers` page. Here you can "
+"define your own list of ICE servers."
 msgstr ""
 
-#: ../../content/applications/productivity/discuss/advanced/ice_servers.rstNone
 msgid "The \"ICE servers\" page in Odoo."
 msgstr ""
 
@@ -200,12 +196,13 @@ msgstr "如何开始使用讨论应用"
 msgid ""
 "Discuss allows you to bring all of your company’s communication together "
 "through messages, notes, and chat. Share information, projects, files, "
-"prioritize tasks, and stay connected with colleagues and partners throughout"
-" applications. Forge better relationships, increase productivity and "
-"transparency by promoting a convenient way of communicating."
+"prioritize tasks, and stay connected with colleagues and partners "
+"throughout applications. Forge better relationships, increase "
+"productivity and transparency by promoting a convenient way of "
+"communicating."
 msgstr ""
-"讨论应用可以通过信息，注释和聊天将公司的所有沟通联系在一起。 在整个应用程序中共享信息，项目，文件，确定任务的优先级，并与同事和合作伙伴保持联系。 "
-"通过促进便捷的沟通方式，建立更好的关系，提高生产率和透明度。"
+"讨论应用可以通过信息，注释和聊天将公司的所有沟通联系在一起。 在整个应用程序中共享信息，项目，文件，确定任务的优先级，并与同事和合作伙伴保持联系。"
+" 通过促进便捷的沟通方式，建立更好的关系，提高生产率和透明度。"
 
 #: ../../content/applications/productivity/discuss/overview/get_started.rst:13
 msgid "Choose your notifications preference"
@@ -213,38 +210,36 @@ msgstr "选择您的通知首选项"
 
 #: ../../content/applications/productivity/discuss/overview/get_started.rst:15
 msgid ""
-"Access your *Preferences* and choose how you would like your notifications "
-"to be handled."
+"Access your *Preferences* and choose how you would like your "
+"notifications to be handled."
 msgstr "访问您的*首选项*，并选择您希望如何处理通知。"
 
-#: ../../content/applications/productivity/discuss/overview/get_started.rstNone
 msgid "View of the preferences page for Odoo Discuss"
 msgstr ""
 
 #: ../../content/applications/productivity/discuss/overview/get_started.rst:23
 msgid ""
-"By default, the field is set as *Handle by Emails* making messages, notes, "
-"and notifications where you were mentioned or that you follow, to be sent "
-"through email. By choosing *Handle in Odoo*, they are shown in the *Inbox*."
+"By default, the field is set as *Handle by Emails* making messages, "
+"notes, and notifications where you were mentioned or that you follow, to "
+"be sent through email. By choosing *Handle in Odoo*, they are shown in "
+"the *Inbox*."
 msgstr ""
-"默认情况下，该字段设置为 *通过电子邮件处理* ，使您被提及或关注的消息，注释和通知通过电子邮件发送。 通过选择 *在Odoo中处理* ，它们将显示在 "
-"*收件箱* 中。"
+"默认情况下，该字段设置为 *通过电子邮件处理* ，使您被提及或关注的消息，注释和通知通过电子邮件发送。 通过选择 *在Odoo中处理* "
+"，它们将显示在 *收件箱* 中。"
 
 #: ../../content/applications/productivity/discuss/overview/get_started.rst:24
 msgid "Messages can then be *Marked as Todo*, *Replied*, or *Marked as Read*."
 msgstr "然后可以将邮件 *标记为待办事项* ，*已回复* 或 *标记为已读* 。"
 
-#: ../../content/applications/productivity/discuss/overview/get_started.rstNone
 msgid "View of an inbox message and its action options in Odoo Discuss"
 msgstr ""
 
 #: ../../content/applications/productivity/discuss/overview/get_started.rst:30
 msgid ""
-"The messages tagged as *Mark as Todo* are also shown in *Starred*, while the"
-" ones *Marked as Read* are moved to *History*."
+"The messages tagged as *Mark as Todo* are also shown in *Starred*, while "
+"the ones *Marked as Read* are moved to *History*."
 msgstr "信息选择为  *标记为待办事项* 的也会显示在 *星标* 中，而标记为 *标记为已读* 的信息将移至 *历史记录* 中。"
 
-#: ../../content/applications/productivity/discuss/overview/get_started.rstNone
 msgid "View of messages marked as todo in Odoo Discuss"
 msgstr ""
 
@@ -256,39 +251,39 @@ msgstr "开始聊天"
 msgid ""
 "The first time you log in to your account, OdooBot sends you a message "
 "asking for permission to receive desktop notifications to chats. If "
-"accepted, you receive push notifications to the messages sent to you despite"
-" of where you are in Odoo."
+"accepted, you receive push notifications to the messages sent to you "
+"despite of where you are in Odoo."
 msgstr ""
 "首次登录帐户时，OdooBot 会向您发送一条消息，询问您是否有权接收聊天的桌面通知。 "
 "如果接受，则无论您在Odoo中的位置如何，您都会收到消息的推送通知。"
 
-#: ../../content/applications/productivity/discuss/overview/get_started.rstNone
 msgid ""
-"View of the messages under the messaging menu emphasizing the request for push\n"
+"View of the messages under the messaging menu emphasizing the request for"
+" push\n"
 "notifications for Odoo Discuss"
 msgstr ""
 
 #: ../../content/applications/productivity/discuss/overview/get_started.rst:50
 msgid ""
-"To stop receiving desktop notifications, reset the notifications settings of"
-" your browser."
+"To stop receiving desktop notifications, reset the notifications settings"
+" of your browser."
 msgstr "要停止接收桌面通知，请重置您的浏览器的通知设置。"
 
 #: ../../content/applications/productivity/discuss/overview/get_started.rst:52
 msgid ""
-"To start a chat, click on *New Message* on the *Messaging Menu*, or go to "
-"*Discuss* and send a *Direct Message*."
+"To start a chat, click on *New Message* on the *Messaging Menu*, or go to"
+" *Discuss* and send a *Direct Message*."
 msgstr "要开始聊天，请在 *消息菜单* 上单击 *新消息* ，或转到 *讨论* 并发送 *私聊信息*。"
 
-#: ../../content/applications/productivity/discuss/overview/get_started.rstNone
 msgid ""
-"View of discuss’s panel emphasizing the titles channels and direct messages "
-"in Odoo Discuss"
+"View of discuss’s panel emphasizing the titles channels and direct "
+"messages in Odoo Discuss"
 msgstr ""
 
 #: ../../content/applications/productivity/discuss/overview/get_started.rst:60
 msgid ""
-"You can also create :doc:`public and private channels <team_communication>`."
+"You can also create :doc:`public and private channels "
+"<team_communication>`."
 msgstr "您还可以创建:doc:`公共和私有渠道 <team_communication>`."
 
 #: ../../content/applications/productivity/discuss/overview/get_started.rst:63
@@ -297,8 +292,8 @@ msgstr "沟通栏中和聊天中的提及"
 
 #: ../../content/applications/productivity/discuss/overview/get_started.rst:66
 msgid ""
-"To mention a user within a chat or the chatter type *@user-name*; to refer "
-"to a channel, type *#channel-name*."
+"To mention a user within a chat or the chatter type *@user-name*; to "
+"refer to a channel, type *#channel-name*."
 msgstr "在聊天中提及用户或聊天类型*@user name*；要引用通道，请键入*#通道名称*。"
 
 #: ../../content/applications/productivity/discuss/overview/get_started.rst:68
@@ -307,18 +302,16 @@ msgid ""
 "through email, depending on his settings."
 msgstr "通知会根据用户的设置发送到被提及用户的 *收件箱* 或电子邮件。"
 
-#: ../../content/applications/productivity/discuss/overview/get_started.rstNone
 msgid "View of a couple of chat window messages for Odoo Discuss"
 msgstr ""
 
 #: ../../content/applications/productivity/discuss/overview/get_started.rst:75
 msgid ""
-"When a user is mentioned, the search list (list of names) suggests values "
-"first based on the task’s followers, and secondly on *Employees*. If the "
-"record being searched does not match with either a follower or employee, the"
-" scope of the search becomes all partners."
-msgstr ""
-"当提到用户时，搜索列表（姓名列表）首先根据任务的关注者，然后根据*员工*建议值。如果正在搜索的记录与关注者或员工都不匹配，则搜索范围将成为所有合作伙伴。"
+"When a user is mentioned, the search list (list of names) suggests values"
+" first based on the task’s followers, and secondly on *Employees*. If the"
+" record being searched does not match with either a follower or employee,"
+" the scope of the search becomes all partners."
+msgstr "当提到用户时，搜索列表（姓名列表）首先根据任务的关注者，然后根据*员工*建议值。如果正在搜索的记录与关注者或员工都不匹配，则搜索范围将成为所有合作伙伴。"
 
 #: ../../content/applications/productivity/discuss/overview/get_started.rst:80
 msgid "Chat status"
@@ -327,11 +320,12 @@ msgstr "聊天状态"
 #: ../../content/applications/productivity/discuss/overview/get_started.rst:82
 msgid ""
 "It is helpful to see what colleagues are up to and how quickly they can "
-"respond to messages by checking their *Status*. The status is shown on the "
-"left side of a contact’s names on Discuss’ sidebar and on the *Messaging "
-"menu*."
+"respond to messages by checking their *Status*. The status is shown on "
+"the left side of a contact’s names on Discuss’ sidebar and on the "
+"*Messaging menu*."
 msgstr ""
-"通过查看同事的 *状态* ，可以帮助了解他们在做什么，以及他们回复信息的速度有多快。 状态显示在 *讨论* 侧边栏和 *消息菜单* 上联系人姓名的左侧。"
+"通过查看同事的 *状态* ，可以帮助了解他们在做什么，以及他们回复信息的速度有多快。 状态显示在 *讨论* 侧边栏和 *消息菜单* "
+"上联系人姓名的左侧。"
 
 #: ../../content/applications/productivity/discuss/overview/get_started.rst:86
 msgid "Green = online"
@@ -349,7 +343,6 @@ msgstr "白色 = 离线"
 msgid "Airplane = out of the office"
 msgstr "飞机 = 外出"
 
-#: ../../content/applications/productivity/discuss/overview/get_started.rstNone
 msgid "View of the contacts’ status for Odoo Discuss"
 msgstr ""
 
@@ -369,11 +362,10 @@ msgstr "通过计划活动进行组织"
 #: ../../content/applications/productivity/discuss/overview/plan_activities.rst:5
 msgid ""
 "When you plan activities you minimize the risk of uncertainties, as you "
-"provide clear directions for the course of your next action. In addition to "
-"that, you do not leave space for wasteful activities and reduce the chance "
-"of having overlapping actions between team members."
-msgstr ""
-"当你计划活动时，你将不确定性的风险降到最低，因为你为自己的下一步行动提供了明确的方向。除此之外，您没有为浪费留出时间，并且减少了团队成员之间重复操作的机会。"
+"provide clear directions for the course of your next action. In addition "
+"to that, you do not leave space for wasteful activities and reduce the "
+"chance of having overlapping actions between team members."
+msgstr "当你计划活动时，你将不确定性的风险降到最低，因为你为自己的下一步行动提供了明确的方向。除此之外，您没有为浪费留出时间，并且减少了团队成员之间重复操作的机会。"
 
 #: ../../content/applications/productivity/discuss/overview/plan_activities.rst:10
 msgid "Where do I see my schedule activities?"
@@ -385,9 +377,7 @@ msgid ""
 "*Activities* menu."
 msgstr "通过 *活动* 菜单访问和管理您在Odoo中的任何活动。"
 
-#: ../../content/applications/productivity/discuss/overview/plan_activities.rstNone
-msgid ""
-"View of crm leads page emphasizing the activities menu for Odoo Discuss"
+msgid "View of crm leads page emphasizing the activities menu for Odoo Discuss"
 msgstr ""
 
 #: ../../content/applications/productivity/discuss/overview/plan_activities.rst:20
@@ -400,9 +390,7 @@ msgid ""
 "*Schedule activity*, or through Kanban views."
 msgstr "通过点击*计划活动*或通过看板视图，可以从流水记录中规划和管理活动。"
 
-#: ../../content/applications/productivity/discuss/overview/plan_activities.rstNone
-msgid ""
-"View of crm leads and the option to schedule an activity for Odoo Discuss"
+msgid "View of crm leads and the option to schedule an activity for Odoo Discuss"
 msgstr ""
 
 #: ../../content/applications/productivity/discuss/overview/plan_activities.rst:31
@@ -411,14 +399,13 @@ msgstr "设置你的活动类型"
 
 #: ../../content/applications/productivity/discuss/overview/plan_activities.rst:33
 msgid ""
-"A number of activities types are available by default in Odoo (call, email, "
-"meeting, etc.). However, you can set new ones going to "
+"A number of activities types are available by default in Odoo (call, "
+"email, meeting, etc.). However, you can set new ones going to "
 ":menuselection:`Settings --> Activity types`."
 msgstr ""
-"默认情况下，Odoo中有许多活动类型（如电话，电子邮件，会议等）。 但是，您也可以在设置新的活动类型 :menuselection:`设置 --> "
-"活动类型 。"
+"默认情况下，Odoo中有许多活动类型（如电话，电子邮件，会议等）。 但是，您也可以在设置新的活动类型 :menuselection:`设置 -->"
+" 活动类型 。"
 
-#: ../../content/applications/productivity/discuss/overview/plan_activities.rstNone
 msgid ""
 "View of the settings page emphasizing the menu activity types for Odoo "
 "Discuss"
@@ -426,8 +413,8 @@ msgstr ""
 
 #: ../../content/applications/productivity/discuss/overview/plan_activities.rst:42
 msgid ""
-"If you need to create an activity type with an available calendar, make sure"
-" to create it with an *Action to Perform* set as *Meeting*."
+"If you need to create an activity type with an available calendar, make "
+"sure to create it with an *Action to Perform* set as *Meeting*."
 msgstr "如果您需要在你的日历创建一个活动类型，请确保使用 *要执行的操作* 设置为 *会议* 来创建活动类型。"
 
 #: ../../content/applications/productivity/discuss/overview/plan_activities.rst:46
@@ -440,21 +427,21 @@ msgid ""
 "*Recommended Next Activities*."
 msgstr "Odoo允许您设置 *推荐后续行动* ，从而帮助您计划活动流程。"
 
-#: ../../content/applications/productivity/discuss/overview/plan_activities.rstNone
 msgid ""
-"View of an activity type form emphasizing the field recommended next activities for Odoo\n"
+"View of an activity type form emphasizing the field recommended next "
+"activities for Odoo\n"
 "Discuss"
 msgstr ""
 
 #: ../../content/applications/productivity/discuss/overview/plan_activities.rst:55
 msgid ""
-"Once the respective activity is completed, select *Done & Schedule Next* and"
-" next steps are suggested to you."
+"Once the respective activity is completed, select *Done & Schedule Next* "
+"and next steps are suggested to you."
 msgstr "一旦相应的活动完成，选择 *已完成及计划下一个* ，下一步将向您建议。"
 
-#: ../../content/applications/productivity/discuss/overview/plan_activities.rstNone
 msgid ""
-"View of an activity being schedule emphasizing the recommended activities field being\n"
+"View of an activity being schedule emphasizing the recommended activities"
+" field being\n"
 "shown for Odoo Discuss"
 msgstr ""
 
@@ -481,20 +468,19 @@ msgstr "公共和私有频道"
 
 #: ../../content/applications/productivity/discuss/overview/team_communication.rst:12
 msgid ""
-"A *Public* channel can be seen by everyone, while a *Private* one is only "
-"visible to users invited to it."
+"A *Public* channel can be seen by everyone, while a *Private* one is only"
+" visible to users invited to it."
 msgstr "*公共* 频道可以被所有人看到，而 *私有* 频道只能被邀请的用户能看到。"
 
-#: ../../content/applications/productivity/discuss/overview/team_communication.rstNone
 msgid "View of discuss’s sidebar and a channel being created in Odo Discuss"
 msgstr ""
 
 #: ../../content/applications/productivity/discuss/overview/team_communication.rst:21
 msgid ""
-"A public channel is best used when many employees need to access information"
-" (such as company announcements), whereas a private channel could be used "
-"whenever information should be limited to specific groups (such as a "
-"specific department)."
+"A public channel is best used when many employees need to access "
+"information (such as company announcements), whereas a private channel "
+"could be used whenever information should be limited to specific groups "
+"(such as a specific department)."
 msgstr "当许多员工需要访问信息 (如公司公告) 时，最好使用公共通道，而当信息仅限于特定的组 (如特定的部门) 时，则可以使用私有频道。"
 
 #: ../../content/applications/productivity/discuss/overview/team_communication.rst:26
@@ -503,11 +489,10 @@ msgstr "配置选项"
 
 #: ../../content/applications/productivity/discuss/overview/team_communication.rst:28
 msgid ""
-"You can configure a channel’s name, description, email alias, and privacy by"
-" clicking on the *Channel Settings* icon on the sidebar."
+"You can configure a channel’s name, description, email alias, and privacy"
+" by clicking on the *Channel Settings* icon on the sidebar."
 msgstr "你可以配置一个频道的名称，描述，电邮别名，和隐私，点击 *频道设置* 图标在侧边栏。"
 
-#: ../../content/applications/productivity/discuss/overview/team_communication.rstNone
 msgid "View of a channel’s settings form in Odoo Discuss"
 msgstr ""
 
@@ -518,9 +503,9 @@ msgstr "隐私和成员"
 #: ../../content/applications/productivity/discuss/overview/team_communication.rst:40
 msgid ""
 "Changing *Who can follow the group’s activities?* allows you to control "
-"which groups can have access to the channel. Note that allowing *Everyone* "
-"to follow a private channel lets other users view and join it, as they would"
-" a public one."
+"which groups can have access to the channel. Note that allowing "
+"*Everyone* to follow a private channel lets other users view and join it,"
+" as they would a public one."
 msgstr ""
 "更改 *谁可以关注该群组的活动？* 您可以控制哪些群组可以访问该频道。 请注意，允许 *所有人* "
 "跟随私有频道可让其他用户查看和加入该频道，就像公开频道一样。"
@@ -532,10 +517,9 @@ msgid ""
 "*Invite*."
 msgstr "如果您选择 *仅限受邀人员* ，请转到 *成员* 标签以添加您的成员，或者进入讨论的主页，选择频道并单击 *邀请* 。"
 
-#: ../../content/applications/productivity/discuss/overview/team_communication.rstNone
 msgid ""
-"View of Discuss’ sidebar emphasizing the option to invite members in Odoo "
-"Discuss"
+"View of Discuss’ sidebar emphasizing the option to invite members in Odoo"
+" Discuss"
 msgstr ""
 
 #: ../../content/applications/productivity/discuss/overview/team_communication.rst:49
@@ -543,8 +527,8 @@ msgid ""
 "For *Selected group of users*, the option *Auto Subscribe Groups* "
 "automatically add its members as followers. In other words, while "
 "*Authorized Groups* limits which users can access the channel, *Auto "
-"Subscribe Groups* automatically adds the user as a member as long as they "
-"are part of the group."
+"Subscribe Groups* automatically adds the user as a member as long as they"
+" are part of the group."
 msgstr ""
 "对于 *选定的用户组* ，选项 *自动订阅群组* 会自动将其成员添加为关注者。 换句话说，尽管 *授权组* 限制了哪些用户可以访问频道，但 "
 "*自动订阅群组* 会自动将用户添加为成员，只要他们是该组的一部分即可。"
@@ -555,8 +539,8 @@ msgstr "使用频道作为邮件列表"
 
 #: ../../content/applications/productivity/discuss/overview/team_communication.rst:57
 msgid ""
-"Choosing to *Send messages by email* configures the channel to behave as a "
-"mailing list."
+"Choosing to *Send messages by email* configures the channel to behave as "
+"a mailing list."
 msgstr "选择 *通过电子邮件发送消息* 将频道配置为邮件列表。"
 
 #: ../../content/applications/productivity/discuss/overview/team_communication.rst:59
@@ -565,23 +549,21 @@ msgid ""
 "messages will need to be approved before being sent."
 msgstr "启用此选项可让您 *审核此频道* ，这意味着在发送消息之前需要得到批准。"
 
-#: ../../content/applications/productivity/discuss/overview/team_communication.rstNone
 msgid "View of a message with a pending moderation status in Odoo Discuss"
 msgstr ""
 
 #: ../../content/applications/productivity/discuss/overview/team_communication.rst:66
 msgid ""
-"Under the *Moderation* tab choose as many moderators as you need, and if you"
-" would like them to receive an *Automatic notification*."
+"Under the *Moderation* tab choose as many moderators as you need, and if "
+"you would like them to receive an *Automatic notification*."
 msgstr "在 *审核* 标签下，可根据你的需要选择多个版主，如果你想让他们收到一个 *自动通知* 。"
 
 #: ../../content/applications/productivity/discuss/overview/team_communication.rst:67
 msgid ""
-"Mark *Send guidelines to new subscribers* to automatically send instructions"
-" to newcomers."
+"Mark *Send guidelines to new subscribers* to automatically send "
+"instructions to newcomers."
 msgstr "标记 *向新订阅者发送准则* ，以自动向新来者发送指令。"
 
-#: ../../content/applications/productivity/discuss/overview/team_communication.rstNone
 msgid ""
 "View of a channel’s settings form emphasizing the tab moderation in Odoo "
 "Discuss"
@@ -593,14 +575,13 @@ msgid ""
 "messages."
 msgstr "版主可以选择： *接受* ， *拒绝* ， *丢弃* ， *总是允许* 或 *禁止* 消息发送。"
 
-#: ../../content/applications/productivity/discuss/overview/team_communication.rstNone
 msgid "View of a message to be moderated in Odoo Discuss"
 msgstr ""
 
 #: ../../content/applications/productivity/discuss/overview/team_communication.rst:80
 msgid ""
-"Members of a mailing channel receive messages through email regardless of "
-"their :doc:`notification preference <get_started>`."
+"Members of a mailing channel receive messages through email regardless of"
+" their :doc:`notification preference <get_started>`."
 msgstr "渠道的成员通过电子邮件接收信息，而不管他们的 :doc:`通知首选项偏好 <get_started>`."
 
 #: ../../content/applications/productivity/discuss/overview/team_communication.rst:83
@@ -609,7 +590,6 @@ msgid ""
 "addresses per moderated channel to auto-ban them from sending messages."
 msgstr "一旦一个频道被调节，菜单 *禁止列表* 允许你在此节频道添加电子邮件地址来自动禁止他们发送消息。"
 
-#: ../../content/applications/productivity/discuss/overview/team_communication.rstNone
 msgid ""
 "View of a channel’s setting form emphasizing the ban Lists menu in Odoo "
 "Discuss"
@@ -621,15 +601,14 @@ msgstr "快速搜索栏"
 
 #: ../../content/applications/productivity/discuss/overview/team_communication.rst:93
 msgid ""
-"Once at least 20 channels, direct message and live chat conversations (if "
-"the module is installed on your database) are pinned in the sidebar, a "
-"*Quick search…* bar is displayed. It is a clever way to filter conversations"
-" and quickly find the one you need."
+"Once at least 20 channels, direct message and live chat conversations (if"
+" the module is installed on your database) are pinned in the sidebar, a "
+"*Quick search…* bar is displayed. It is a clever way to filter "
+"conversations and quickly find the one you need."
 msgstr ""
 "如果拥有至少20个频道、或私聊信息和实时聊天对话(如果模块安装在数据库中) 会固定在侧边栏中，显示一个 *快速搜索…* "
 "栏。这是一个聪明的方式来过滤对话并迅速找到你所需要的。"
 
-#: ../../content/applications/productivity/discuss/overview/team_communication.rstNone
 msgid ""
 "View of the Discuss’ sidebar emphasizing the quick search bar in Odoo "
 "Discuss"
@@ -652,7 +631,6 @@ msgid ""
 "single character."
 msgstr "应用过滤条件并保存以备后用。 搜索功能通过使用下划线字符*（_）*来表示一个单独的字符。"
 
-#: ../../content/applications/productivity/discuss/overview/team_communication.rstNone
 msgid "View of a channel being searched through filters in Odoo Discuss"
 msgstr ""
 
@@ -692,8 +670,8 @@ msgstr "以太网连接"
 
 #: ../../content/applications/productivity/iot/config/connect.rst:23
 msgid ""
-"Connect to the IoT Box all the devices that have to be connected with cables"
-" (ethernet, usb devices, etc.)."
+"Connect to the IoT Box all the devices that have to be connected with "
+"cables (ethernet, usb devices, etc.)."
 msgstr "将所有必须使用电缆连接的设备（如：以太网、USB 设备等）插入物联网盒子。"
 
 #: ../../content/applications/productivity/iot/config/connect.rst:26
@@ -702,8 +680,8 @@ msgstr "打开物联网盒子的电源."
 
 #: ../../content/applications/productivity/iot/config/connect.rst:28
 msgid ""
-"Read the Pairing Code from a screen or a receipt printer connected to the "
-"IoT Box."
+"Read the Pairing Code from a screen or a receipt printer connected to the"
+" IoT Box."
 msgstr "从连接到物联网盒子的屏幕或收据打印机中读取配对代码。"
 
 #: ../../content/applications/productivity/iot/config/connect.rst:32
@@ -713,8 +691,8 @@ msgstr "输入配对代码，然后单击配对按钮。"
 #: ../../content/applications/productivity/iot/config/connect.rst:35
 msgid ""
 "Recent changes in modern web browsers forced us to modify the connection "
-"wizard. If your screen is different from the screenshots, make sure that the"
-" ``iot_pairing`` module is installed."
+"wizard. If your screen is different from the screenshots, make sure that "
+"the ``iot_pairing`` module is installed."
 msgstr "近来的网络浏览器的最新变化迫使我们修改连接向导。 如果您的屏幕与屏幕截图不同，请确保已安装  ``iot_pairing``  模块。"
 
 #: ../../content/applications/productivity/iot/config/connect.rst:40
@@ -731,29 +709,29 @@ msgstr "复制令牌"
 
 #: ../../content/applications/productivity/iot/config/connect.rst:48
 msgid ""
-"Connect to the IoT Box WiFi Network (make sure there is no ethernet cable "
-"plugged in your computer)."
+"Connect to the IoT Box WiFi Network (make sure there is no ethernet cable"
+" plugged in your computer)."
 msgstr "连接到物联网盒子的WiFi网络 (确保你的电脑没有插入网线)。"
 
 #: ../../content/applications/productivity/iot/config/connect.rst:53
 msgid ""
-"You will be redirected to the IoT Box Homepage (if it doesn't work, connect "
-"to the IP address of the box). Give a name to your IoT Box (not required) "
-"and paste the token, then click on next."
-msgstr ""
-"您需要返回物联网盒子的首页 (如果不能访问，请使用盒子的IP地址进行访问)。为您的物联网盒子设置名称(非必须) 并粘贴令牌，然后点击下一步。"
+"You will be redirected to the IoT Box Homepage (if it doesn't work, "
+"connect to the IP address of the box). Give a name to your IoT Box (not "
+"required) and paste the token, then click on next."
+msgstr "您需要返回物联网盒子的首页 (如果不能访问，请使用盒子的IP地址进行访问)。为您的物联网盒子设置名称(非必须) 并粘贴令牌，然后点击下一步。"
 
 #: ../../content/applications/productivity/iot/config/connect.rst:60
 msgid ""
-"If you are on Runbot, do not forget to add the -all or -base in the token "
-"(e.g. this token "
-"**http://375228-saas-11-5-iot-f3f920.runbot16.odoo.com\\|4957098401** should"
-" become "
-"**http://375228-saas-11-5-iot-f3f920-all.runbot16.odoo.com\\|4957098401**)."
+"If you are on Runbot, do not forget to add the -all or -base in the token"
+" (e.g. this token **http://375228-saas-11-5-iot-"
+"f3f920.runbot16.odoo.com\\|4957098401** should become "
+"**http://375228-saas-11-5-iot-"
+"f3f920-all.runbot16.odoo.com\\|4957098401**)."
 msgstr ""
-"如果您使用 Runbot, 不要忘记在复制令牌添加 -all 和 -base (例如这个令牌 "
-"**http://375228-saas-11-5-iot-f3f920.runbot16.odoo.com\\|4957098401** 应该为 "
-"**http://375228-saas-11-5-iot-f3f920-all.runbot16.odoo.com\\|4957098401**)。"
+"如果您使用 Runbot, 不要忘记在复制令牌添加 -all 和 -base (例如这个令牌 **http://375228-saas-11-5"
+"-iot-f3f920.runbot16.odoo.com\\|4957098401** 应该为 "
+"**http://375228-saas-11-5-iot-"
+"f3f920-all.runbot16.odoo.com\\|4957098401**)。"
 
 #: ../../content/applications/productivity/iot/config/connect.rst:66
 msgid ""
@@ -776,8 +754,8 @@ msgstr "烧写SD卡"
 
 #: ../../content/applications/productivity/iot/config/flash_sdcard.rst:5
 msgid ""
-"In some case, you may need to reflash your IoT Box’s SD Card to benefit from"
-" our latest updates."
+"In some case, you may need to reflash your IoT Box’s SD Card to benefit "
+"from our latest updates."
 msgstr "在某些情况下，您可能需要重新刷新物联网盒子的 SD 卡，以便从我们的最新更新中获取新功能。"
 
 #: ../../content/applications/productivity/iot/config/flash_sdcard.rst:9
@@ -786,18 +764,19 @@ msgstr "从物联网盒主页升级"
 
 #: ../../content/applications/productivity/iot/config/flash_sdcard.rst:11
 msgid ""
-"Go to the IoT Box homepage, click on *Update*, next to the version number. "
-"If a new version of the IoT Box image is available, you will see a *Upgrade "
-"to ___* button a the bottom of the page, the IoT Box will then flash itself "
-"to the new version of the IoT Box. All of your configurations will be saved."
+"Go to the IoT Box homepage, click on *Update*, next to the version "
+"number. If a new version of the IoT Box image is available, you will see "
+"a *Upgrade to ___* button a the bottom of the page, the IoT Box will then"
+" flash itself to the new version of the IoT Box. All of your "
+"configurations will be saved."
 msgstr ""
 "转到IoT Box主页，单击版本号旁边的*Update*。如果有新版本的物联网盒图像可用，您将在页面底部看到一个*Upgrade to "
 "___*按钮，然后物联网盒将自身闪烁到新版本的物联网盒。将保存您的所有配置。"
 
 #: ../../content/applications/productivity/iot/config/flash_sdcard.rst:18
 msgid ""
-"This process can take more than 30 minutes. Do not turn off or unplug the "
-"IoT Box as it would leave it in an inconsistent state."
+"This process can take more than 30 minutes. Do not turn off or unplug the"
+" IoT Box as it would leave it in an inconsistent state."
 msgstr "此过程可能需要30分钟以上。不要关闭或拔下物联网盒，因为它会使其处于不一致的状态。"
 
 #: ../../content/applications/productivity/iot/config/flash_sdcard.rst:25
@@ -807,8 +786,8 @@ msgstr "使用Etcher升级"
 #: ../../content/applications/productivity/iot/config/flash_sdcard.rst:27
 msgid ""
 "Go to Balena’s website and download `Etcher <https://www.balena.io/>`__. "
-"It’s a free and open-source utility used for burning image files. Install "
-"and launch it. Download the latest image from `nightly "
+"It’s a free and open-source utility used for burning image files. Install"
+" and launch it. Download the latest image from `nightly "
 "<http://nightly.odoo.com/master/iotbox/>`__."
 msgstr ""
 "访问Balena的网站并下载`Etcher<https://www.balena.io/>`__. "
@@ -816,9 +795,9 @@ msgstr ""
 
 #: ../../content/applications/productivity/iot/config/flash_sdcard.rst:32
 msgid ""
-"Then, open *Etcher* and select *Flash from file*, find the image you just "
-"downloaded. Insert the IoT Box SD card into your computer and select it. "
-"Click on *Flash* and wait for the process to finish."
+"Then, open *Etcher* and select *Flash from file*, find the image you just"
+" downloaded. Insert the IoT Box SD card into your computer and select it."
+" Click on *Flash* and wait for the process to finish."
 msgstr ""
 "然后，打开*Etcher*并选择*Flash from "
 "file*，找到刚刚下载的镜像。将物联网盒SD卡插入计算机并选择它。单击*Flash*，等待过程完成。"
@@ -844,9 +823,10 @@ msgid "A computer or tablet with an up-to-date web browser"
 msgstr "一台带最新的Web浏览器的电脑或平板电脑"
 
 #: ../../content/applications/productivity/iot/config/pos.rst:17
+#, fuzzy
 msgid ""
-"A running SaaS or Odoo instance with the Point of Sale and IoT apps "
-"installed"
+"A running Odoo Online or Odoo instance with the Point of Sale and IoT "
+"apps installed"
 msgstr "安装有PoS和物联网应用的 SaaS 或 Odoo 实例"
 
 #: ../../content/applications/productivity/iot/config/pos.rst:20
@@ -864,8 +844,8 @@ msgid ""
 "supported hardware can be found on the `POS Hardware page "
 "<https://www.odoo.com/page/point-of-sale-hardware>`__"
 msgstr ""
-"任何支持的硬件（收据打印机、条形码扫描仪、现金抽屉、支付终端、电子秤、客户显示器等）。支持的硬件列表可在“POS硬件”页面上找到`<https://www.odoo.com/page/point-"
-"of-sale-hardware>`__"
+"任何支持的硬件（收据打印机、条形码扫描仪、现金抽屉、支付终端、电子秤、客户显示器等）。支持的硬件列表可在“POS硬件”页面上找到`<https://www.odoo.com/page"
+"/point-of-sale-hardware>`__"
 
 #: ../../content/applications/productivity/iot/config/pos.rst:30
 msgid "Set Up"
@@ -873,10 +853,9 @@ msgstr "设置"
 
 #: ../../content/applications/productivity/iot/config/pos.rst:32
 msgid ""
-"To connect hardware to the PoS, the first step is to connect an IoT Box to "
-"your database. For this, follow this :doc:`documentation <connect>`."
-msgstr ""
-"连接外设到PoS，第一步就是要把物联网盒子连接到您的数据库。 具体操作，参见 :doc:`documentation <connect>`."
+"To connect hardware to the PoS, the first step is to connect an IoT Box "
+"to your database. For this, follow this :doc:`documentation <connect>`."
+msgstr "连接外设到PoS，第一步就是要把物联网盒子连接到您的数据库。 具体操作，参见 :doc:`documentation <connect>`."
 
 #: ../../content/applications/productivity/iot/config/pos.rst:36
 msgid "Then, you have to connect the peripheral devices to your IoT Box."
@@ -890,16 +869,16 @@ msgstr "**打印机** ：将支持的收据打印机连接到USB端口或网络�
 
 #: ../../content/applications/productivity/iot/config/pos.rst:41
 msgid ""
-"**Cash drawer**: The cash drawer should be connected to the printer with an "
-"RJ25 cable."
+"**Cash drawer**: The cash drawer should be connected to the printer with "
+"an RJ25 cable."
 msgstr "**钱箱**: 钱箱应连接用RJ25电缆连接打印机。"
 
 #: ../../content/applications/productivity/iot/config/pos.rst:44
 msgid ""
-"**Barcode scanner**: Connect your barcode scanner. In order for your barcode"
-" scanner to be compatible it must end barcodes with an Enter character "
-"(keycode 28). This is most likely the default configuration of your barcode "
-"scanner."
+"**Barcode scanner**: Connect your barcode scanner. In order for your "
+"barcode scanner to be compatible it must end barcodes with an Enter "
+"character (keycode 28). This is most likely the default configuration of "
+"your barcode scanner."
 msgstr "**条形码扫描** ：连接条形码扫描仪。为了使条形码扫描仪兼容，它必须以输入字符（键码28）结束条形码。这很可能是条形码扫描仪的默认配置。"
 
 #: ../../content/applications/productivity/iot/config/pos.rst:49
@@ -908,17 +887,18 @@ msgstr "**电子磅秤**: 连接你的电子磅秤和接通电源。"
 
 #: ../../content/applications/productivity/iot/config/pos.rst:51
 msgid ""
-"**Customer Display**: Connect a monitor to the IoT Box using an HDMI cable. "
-"You can also access the Customer Display from any other computer by "
-"accessing the IoT Box homepage and clicking on the *POS Display* button."
+"**Customer Display**: Connect a monitor to the IoT Box using an HDMI "
+"cable. You can also access the Customer Display from any other computer "
+"by accessing the IoT Box homepage and clicking on the *POS Display* "
+"button."
 msgstr ""
 "**用户显示** ：使用HDMI电缆将显示器连接到物联网盒。您也可以通过访问IoT Box主页并单击*POS "
 "Display*按钮，从任何其他计算机访问客户显示屏。"
 
 #: ../../content/applications/productivity/iot/config/pos.rst:56
 msgid ""
-"**Payment terminal**: The connection process depends on the terminal, please"
-" refer to the :doc:`payment terminals documentation "
+"**Payment terminal**: The connection process depends on the terminal, "
+"please refer to the :doc:`payment terminals documentation "
 "</applications/sales/point_of_sale/payment>`."
 msgstr ""
 "**支付终端** "
@@ -927,11 +907,12 @@ msgstr ""
 #: ../../content/applications/productivity/iot/config/pos.rst:60
 msgid ""
 "Once it's done, you can connect the IoT Box to your PoS. For this, go in "
-":menuselection:`Point of Sale --> Configuration --> PoS`, tick *IoT Box* and"
-" select the devices you want to use in this Point of Sale. Save the changes."
+":menuselection:`Point of Sale --> Configuration --> PoS`, tick *IoT Box* "
+"and select the devices you want to use in this Point of Sale. Save the "
+"changes."
 msgstr ""
-"完成后，您可以将 IoT Box 连接到您的 PoS。 为此，请进入:菜单选择:`销售点 --> 设置 --> 销售点`，勾选 *IoT Box* "
-"并选择您要在此销售点中使用的设备。 保存更改。"
+"完成后，您可以将 IoT Box 连接到您的 PoS。 为此，请进入:菜单选择:`销售点 --> 设置 --> 销售点`，勾选 *IoT Box*"
+" 并选择您要在此销售点中使用的设备。 保存更改。"
 
 #: ../../content/applications/productivity/iot/config/pos.rst:68
 msgid "Set up is done, you can launch a new PoS Session."
@@ -951,8 +932,8 @@ msgstr "我找不到连接我的 IoT Box 的配对码"
 
 #: ../../content/applications/productivity/iot/config/troubleshooting.rst:11
 msgid ""
-"The pairing code should be printed on receipt printers connected to the IoT "
-"Box and should also be displayed on connected monitors."
+"The pairing code should be printed on receipt printers connected to the "
+"IoT Box and should also be displayed on connected monitors."
 msgstr "配对代码应打印在连接到物联网盒的收据打印机上，也应显示在连接的监视器上。"
 
 #: ../../content/applications/productivity/iot/config/troubleshooting.rst:14
@@ -970,23 +951,23 @@ msgstr "物联网盒未连接到互联网；"
 #: ../../content/applications/productivity/iot/config/troubleshooting.rst:20
 msgid ""
 "The code is only valid for 5 minutes after the IoT Box has started. It's "
-"automatically removed from connected displays when this delay has expired;"
+"automatically removed from connected displays when this delay has "
+"expired;"
 msgstr "该代码仅在 IoT Box 启动后 5 分钟内有效。 当此延迟到期时，它会自动从连接的显示器中删除;"
 
 #: ../../content/applications/productivity/iot/config/troubleshooting.rst:23
 msgid ""
-"The version of the IoT Box image is too old. It should use version 20.06 or "
-"more recent. If your IoT Box image is from an earlier version, then you will"
-" have to reflash the SD card of your IoT Box to update the image (see "
-":doc:`Flashing your SD Card <flash_sdcard>`)"
-msgstr ""
-"物联网盒图像的版本太旧。它应该使用20.06或更高版本。如果您的物联网盒图像来自早期版本，则您必须刷新物联网盒的SD卡以更新图像（请参阅：doc:`<flash_sdcard>`）"
+"The version of the IoT Box image is too old. It should use version 20.06 "
+"or more recent. If your IoT Box image is from an earlier version, then "
+"you will have to reflash the SD card of your IoT Box to update the image "
+"(see :doc:`Flashing your SD Card <flash_sdcard>`)"
+msgstr "物联网盒图像的版本太旧。它应该使用20.06或更高版本。如果您的物联网盒图像来自早期版本，则您必须刷新物联网盒的SD卡以更新图像（请参阅：doc:`<flash_sdcard>`）"
 
 #: ../../content/applications/productivity/iot/config/troubleshooting.rst:28
 msgid ""
-"If you are not in any of the cases listed above, make sure that the IoT Box "
-"has correctly started, by checking that a fixed green LED is showing next to"
-" the micro-USB port."
+"If you are not in any of the cases listed above, make sure that the IoT "
+"Box has correctly started, by checking that a fixed green LED is showing "
+"next to the micro-USB port."
 msgstr "如果您不在上述任何情况下，请通过检查micro USB端口旁边是否显示固定的绿色LED，确保物联网盒已正确启动。"
 
 #: ../../content/applications/productivity/iot/config/troubleshooting.rst:33
@@ -996,13 +977,13 @@ msgstr "我已经连接了我的 IoT Box，但它没有显示在我的数据库�
 #: ../../content/applications/productivity/iot/config/troubleshooting.rst:35
 msgid ""
 "When you connect an IoT Box to a database, the IoT Box might restart, if "
-"that is the case, it might take up to one minute before appearing in your "
-"database. If after some time the IoT is still not showing, make sure that "
-"your database can be reached from the IoT Box and that your server doesn't "
-"use a multi-database environment."
+"that is the case, it might take up to one minute before appearing in your"
+" database. If after some time the IoT is still not showing, make sure "
+"that your database can be reached from the IoT Box and that your server "
+"doesn't use a multi-database environment."
 msgstr ""
-"当您将 IoT Box 连接到数据库时，IoT Box 可能会重新启动，如果是这种情况，可能需要一分钟才能出现在您的数据库中。 如果一段时间后 IoT "
-"仍未显示，请确保可以从 IoT Box 访问您的数据库，并且您的服务器不使用多数据库环境。"
+"当您将 IoT Box 连接到数据库时，IoT Box 可能会重新启动，如果是这种情况，可能需要一分钟才能出现在您的数据库中。 如果一段时间后 "
+"IoT 仍未显示，请确保可以从 IoT Box 访问您的数据库，并且您的服务器不使用多数据库环境。"
 
 #: ../../content/applications/productivity/iot/config/troubleshooting.rst:42
 msgid "My IoT Box is connected to my database, but cannot be reached"
@@ -1010,9 +991,9 @@ msgstr "我的物联网盒已连接到我的数据库，但无法访问"
 
 #: ../../content/applications/productivity/iot/config/troubleshooting.rst:44
 msgid ""
-"Make sure that the IoT Box and the device running the browser are located on"
-" the same network as the IoT Box cannot be reached from outside the local "
-"network."
+"Make sure that the IoT Box and the device running the browser are located"
+" on the same network as the IoT Box cannot be reached from outside the "
+"local network."
 msgstr "确保物联网盒和运行浏览器的设备位于同一网络上，因为无法从本地网络外部访问物联网盒。"
 
 #: ../../content/applications/productivity/iot/config/troubleshooting.rst:49
@@ -1025,15 +1006,16 @@ msgstr "未检测到我的打印机"
 
 #: ../../content/applications/productivity/iot/config/troubleshooting.rst:54
 msgid ""
-"If one of your printers doesn't show up in your devices list, go to the IoT "
-"Box homepage and make sure that it is listed under *Printers*."
+"If one of your printers doesn't show up in your devices list, go to the "
+"IoT Box homepage and make sure that it is listed under *Printers*."
 msgstr "如果您的一台打印机未显示在您的设备列表中，请转到 IoT Box 主页并确保它列在 *打印机* 下。"
 
 #: ../../content/applications/productivity/iot/config/troubleshooting.rst:60
 msgid ""
 "If your printer is not present on the IoT Box homepage, hit *Printers "
-"Server*, go to the *Administration* tab and click on *Add Printer*. If you "
-"can't find your printer in the list, it's probably not connected properly."
+"Server*, go to the *Administration* tab and click on *Add Printer*. If "
+"you can't find your printer in the list, it's probably not connected "
+"properly."
 msgstr ""
 "如果 IoT Box 主页上没有您的打印机，请点击 *打印机服务器*，转到 *管理* 选项卡，然后单击 *添加打印机*。 "
 "如果您在列表中找不到您的打印机，它可能连接不正确。"
@@ -1044,22 +1026,20 @@ msgstr "我的打印机输出随机文本"
 
 #: ../../content/applications/productivity/iot/config/troubleshooting.rst:68
 msgid ""
-"For most printers, the correct driver should be automatically detected and "
-"selected. However, in some cases, the automatic detection mechanism might "
-"not be enough, and if no driver is found the printer might print random "
-"characters."
-msgstr ""
-"对于大多数打印机，应自动检测并选择正确的驱动程序。然而，在某些情况下，自动检测机制可能不够，如果没有找到驱动程序，打印机可能会打印随机字符。"
+"For most printers, the correct driver should be automatically detected "
+"and selected. However, in some cases, the automatic detection mechanism "
+"might not be enough, and if no driver is found the printer might print "
+"random characters."
+msgstr "对于大多数打印机，应自动检测并选择正确的驱动程序。然而，在某些情况下，自动检测机制可能不够，如果没有找到驱动程序，打印机可能会打印随机字符。"
 
 #: ../../content/applications/productivity/iot/config/troubleshooting.rst:73
 msgid ""
-"The solution is to manually select the corresponding driver. On the IoT Box "
-"homepage, click on *Printers Server*, go to the *Printers* tab and select "
-"the printer in the list. In the Administration dropdown, click on *Modify "
-"Printer*. Follow the steps and select the Make and Model corresponding to "
-"your printer."
-msgstr ""
-"解决方案是手动选择相应的驱动程序。在物联网盒主页上，单击*打印机服务器*，转到*打印机*选项卡并在列表中选择打印机。在“管理”下拉列表中，单击*修改打印机*。按照步骤选择与打印机对应的品牌和型号。"
+"The solution is to manually select the corresponding driver. On the IoT "
+"Box homepage, click on *Printers Server*, go to the *Printers* tab and "
+"select the printer in the list. In the Administration dropdown, click on "
+"*Modify Printer*. Follow the steps and select the Make and Model "
+"corresponding to your printer."
+msgstr "解决方案是手动选择相应的驱动程序。在物联网盒主页上，单击*打印机服务器*，转到*打印机*选项卡并在列表中选择打印机。在“管理”下拉列表中，单击*修改打印机*。按照步骤选择与打印机对应的品牌和型号。"
 
 #: ../../content/applications/productivity/iot/config/troubleshooting.rst:83
 msgid ""
@@ -1074,12 +1054,11 @@ msgstr "我的Zebra打印机不打印任何东西"
 #: ../../content/applications/productivity/iot/config/troubleshooting.rst:90
 msgid ""
 "Zebra printers are quite sensitive to the format of the ZPL code that is "
-"printed. If nothing comes out of the printer or blank labels are printed, "
-"try changing the format of the report that is sent to the printer by "
+"printed. If nothing comes out of the printer or blank labels are printed,"
+" try changing the format of the report that is sent to the printer by "
 "accessing :menuselection:`Settings ~~> Technical ~~> Views` in developer "
 "mode and look for the corresponding template."
-msgstr ""
-"Zebra打印机对打印的ZPL代码的格式非常敏感。如果打印机没有输出任何内容或打印空白标签，请尝试更改发送到打印机的报告的格式，方法是在开发人员模式下访问：菜单选择:`Settings-->Technical-->Views`，并查找相应的模板。"
+msgstr "Zebra打印机对打印的ZPL代码的格式非常敏感。如果打印机没有输出任何内容或打印空白标签，请尝试更改发送到打印机的报告的格式，方法是在开发人员模式下访问：菜单选择:`Settings-->Technical-->Views`，并查找相应的模板。"
 
 #: ../../content/applications/productivity/iot/config/troubleshooting.rst:97
 msgid "Barcode Scanner"
@@ -1091,12 +1070,11 @@ msgstr "条码扫描器读取的字符与条码不匹配"
 
 #: ../../content/applications/productivity/iot/config/troubleshooting.rst:102
 msgid ""
-"By default, we assume that your barcode scanner is configured in US QWERTY. "
-"This is the default configuration of most barcode readers. If your barcode "
-"scanner uses a different layout, please go to the form view of your device "
-"and select the correct one."
-msgstr ""
-"默认情况下，我们假设您的条形码扫描仪是在美国QWERTY中配置的。这是大多数条形码读取器的默认配置。如果您的条形码扫描仪使用不同的布局，请转到设备的窗体视图并选择正确的布局。"
+"By default, we assume that your barcode scanner is configured in US "
+"QWERTY. This is the default configuration of most barcode readers. If "
+"your barcode scanner uses a different layout, please go to the form view "
+"of your device and select the correct one."
+msgstr "默认情况下，我们假设您的条形码扫描仪是在美国QWERTY中配置的。这是大多数条形码读取器的默认配置。如果您的条形码扫描仪使用不同的布局，请转到设备的窗体视图并选择正确的布局。"
 
 #: ../../content/applications/productivity/iot/config/troubleshooting.rst:108
 msgid "Nothing happens when a barcode is scanned"
@@ -1105,8 +1083,8 @@ msgstr "扫描条形码时不会发生任何情况"
 #: ../../content/applications/productivity/iot/config/troubleshooting.rst:110
 msgid ""
 "Make sure that the correct device is selected in your Point of Sale "
-"configuration and that your barcode is configured to send an ENTER character"
-" (keycode 28) at the end of every barcode."
+"configuration and that your barcode is configured to send an ENTER "
+"character (keycode 28) at the end of every barcode."
 msgstr "确保在销售点配置中选择了正确的设备，并且将条形码配置为在每个条形码的末尾发送输入字符（键码28）。"
 
 #: ../../content/applications/productivity/iot/config/troubleshooting.rst:115
@@ -1115,9 +1093,9 @@ msgstr "条形码扫描仪被检测为键盘"
 
 #: ../../content/applications/productivity/iot/config/troubleshooting.rst:117
 msgid ""
-"Some poorly built barcode scanners do not advertise themselves as barcode "
-"scanners but as a USB keyboard instead, and will not be recognized by the "
-"IoT Box."
+"Some poorly built barcode scanners do not advertise themselves as barcode"
+" scanners but as a USB keyboard instead, and will not be recognized by "
+"the IoT Box."
 msgstr "一些构造糟糕的条形码扫描仪不宣传自己是条形码扫描仪，而是作为USB键盘，不会被物联网盒识别。"
 
 #: ../../content/applications/productivity/iot/config/troubleshooting.rst:121
@@ -1150,15 +1128,15 @@ msgstr "连接相机"
 
 #: ../../content/applications/productivity/iot/devices/camera.rst:5
 msgid ""
-"When using your *IoT Box* in Odoo, you could need to use a camera. As it can"
-" be done in a few steps, this device is really easy to configure. Then, you "
-"can use it in your manufacturing process and link it to a control point. "
-"Doing so will allow you to take pictures when you reach the chosen quality "
-"control point."
+"When using your *IoT Box* in Odoo, you could need to use a camera. As it "
+"can be done in a few steps, this device is really easy to configure. "
+"Then, you can use it in your manufacturing process and link it to a "
+"control point. Doing so will allow you to take pictures when you reach "
+"the chosen quality control point."
 msgstr ""
 "当您在 Odoo 中使用  *物联网盒子* "
-"时，可能需要使用摄像头。只需几个步骤即可完成此操作，因此配置起来非常简单。您可以在制造过程中使用它并将其连接到 *控制点* 。这样做可以在到达所选 "
-"*质量控制点* 时启用拍照功能。"
+"时，可能需要使用摄像头。只需几个步骤即可完成此操作，因此配置起来非常简单。您可以在制造过程中使用它并将其连接到 *控制点* 。这样做可以在到达所选"
+" *质量控制点* 时启用拍照功能。"
 
 #: ../../content/applications/productivity/iot/devices/camera.rst:12
 #: ../../content/applications/productivity/iot/devices/footswitch.rst:13
@@ -1168,15 +1146,14 @@ msgid "Connection"
 msgstr "连接"
 
 #: ../../content/applications/productivity/iot/devices/camera.rst:14
-msgid ""
-"To connect the camera to the *IoT Box*, simply connect the two by cable."
+msgid "To connect the camera to the *IoT Box*, simply connect the two by cable."
 msgstr "要将摄像机连接到*物联网盒*，只需通过电缆将两者连接起来。"
 
 #: ../../content/applications/productivity/iot/devices/camera.rst:17
 msgid ""
 "If your camera is a `*supported one* <https://www.odoo.com/page/iot-"
-"hardware>`__, there is no need to set up anything as it will be detected as "
-"soon as it is connected."
+"hardware>`__, there is no need to set up anything as it will be detected "
+"as soon as it is connected."
 msgstr ""
 "如果您的相机在 `*支持的设备* <https://www.odoo.com/page/iot-"
 "hardware>`__中，则无需进行任何设置，因为连接之后，会自动检测到。"
@@ -1193,23 +1170,23 @@ msgstr "使用制造应用程式"
 #: ../../content/applications/productivity/iot/devices/camera.rst:30
 msgid ""
 "In your *Quality app*, you can setup the device on a *Quality Control "
-"Point*. Go to the *Control Points* menu, under *Quality Control* and open "
-"the control point you want to link with the camera."
+"Point*. Go to the *Control Points* menu, under *Quality Control* and open"
+" the control point you want to link with the camera."
 msgstr ""
-"在  *品控应用程式* 中，您可以为  *质量控制点* 设置设备。打开   *质量控制*   下的  *控制点*  菜单，然后配置 *质量控制点* "
-"连接的相机。"
+"在  *品控应用程式* 中，您可以为  *质量控制点* 设置设备。打开   *质量控制*   下的  *控制点*  菜单，然后配置 *质量控制点*"
+" 连接的相机。"
 
 #: ../../content/applications/productivity/iot/devices/camera.rst:34
 msgid ""
-"Now, you can edit the control point and select the device from the dropdown "
-"list. Now, hit save."
+"Now, you can edit the control point and select the device from the "
+"dropdown list. Now, hit save."
 msgstr "现在，您可以编辑 *控制点* 并从下拉列表中选择设备。然后点击保存。"
 
 #: ../../content/applications/productivity/iot/devices/camera.rst:40
 msgid ""
-"Then, your camera can be used with the picked *Control Point*. During the "
-"manufacturing process, reaching the *Quality Control Point* you chose before"
-" will allow you to take a picture."
+"Then, your camera can be used with the picked *Control Point*. During the"
+" manufacturing process, reaching the *Quality Control Point* you chose "
+"before will allow you to take a picture."
 msgstr "然后，您的相机可以与选择的 *控制点* 一起使用。 在制造过程中，达到您之前选择的 *质量控制点* 即可拍照。"
 
 #: ../../content/applications/productivity/iot/devices/footswitch.rst:3
@@ -1218,21 +1195,21 @@ msgstr "连接脚踏开关"
 
 #: ../../content/applications/productivity/iot/devices/footswitch.rst:5
 msgid ""
-"When working, it is always better to have your two hands available. Using "
-"Odoo’s *IoT Box* and a footswitch will allow it."
+"When working, it is always better to have your two hands available. Using"
+" Odoo’s *IoT Box* and a footswitch will allow it."
 msgstr "工作时，最好有保证您的双手都可用。使用 Odoo 的 *物联网盒子* 和脚踏开关是可以解放双手的。"
 
 #: ../../content/applications/productivity/iot/devices/footswitch.rst:8
 msgid ""
 "In fact, you will be able to go from one screen to another and perform "
-"actions by using your foot and the footswitch. Really convenient, it can be "
-"configured in a few steps."
+"actions by using your foot and the footswitch. Really convenient, it can "
+"be configured in a few steps."
 msgstr "事实上，你可以通过脚和脚踏开关从一个屏幕切换到另一个屏幕并执行动作。非常方便，只需几步即可配置。"
 
 #: ../../content/applications/productivity/iot/devices/footswitch.rst:15
 msgid ""
-"Connecting the footswitch to the *IoT Box* is easy, you just have to connect"
-" the two by cable."
+"Connecting the footswitch to the *IoT Box* is easy, you just have to "
+"connect the two by cable."
 msgstr "将脚踏开关连接到“物联网盒”很容易，你只需通过电缆将两者连接起来。"
 
 #: ../../content/applications/productivity/iot/devices/footswitch.rst:18
@@ -1251,24 +1228,24 @@ msgstr "连接脚踏开关到工作中心"
 #: ../../content/applications/productivity/iot/devices/footswitch.rst:28
 msgid ""
 "To link the footswitch to an action, it needs to be configured on a "
-"workcenter. Go to the workcenter you want to use the footswitch in and add "
-"the device in the *IoT Triggers* tab. Then, you can link it to an action and"
-" also add a key to trigger it."
+"workcenter. Go to the workcenter you want to use the footswitch in and "
+"add the device in the *IoT Triggers* tab. Then, you can link it to an "
+"action and also add a key to trigger it."
 msgstr ""
 "要将脚踏开关连接到操作，需要在工作中心配置好。转到要使用脚踏开关的工作中心，并在 *物联网触发器* "
 "选项卡中添加设备。然后，您可以将其连接到动作，并添加一个键来触发它。"
 
 #: ../../content/applications/productivity/iot/devices/footswitch.rst:36
 msgid ""
-"Note that the one that is first in the list will be chosen. So, the order "
-"matters! In the picture above, using the footswitch will, for example, "
+"Note that the one that is first in the list will be chosen. So, the order"
+" matters! In the picture above, using the footswitch will, for example, "
 "automatically skip the current part of the process you work on."
 msgstr "请注意，将选择列表中第一个。 因此，顺序很重要！ 例如在上图中，使用脚踏开关将自动跳过您正在处理的当前过程。"
 
 #: ../../content/applications/productivity/iot/devices/footswitch.rst:41
 msgid ""
-"When you are on the work order screen, a status button indicates if you are "
-"correctly connected to the footswitch."
+"When you are on the work order screen, a status button indicates if you "
+"are correctly connected to the footswitch."
 msgstr "当您在工单界面时，状态按钮指示您是否正确连接到脚踏开关。"
 
 #: ../../content/applications/productivity/iot/devices/measurement_tool.rst:3
@@ -1277,9 +1254,9 @@ msgstr "连接测量工具"
 
 #: ../../content/applications/productivity/iot/devices/measurement_tool.rst:5
 msgid ""
-"With Odoo’s *IoT Box*, it is possible to connect measurement tools to your "
-"database. Find the list of supported devices here: `Supported devices "
-"<https://www.odoo.com/page/iot-hardware>`__,."
+"With Odoo’s *IoT Box*, it is possible to connect measurement tools to "
+"your database. Find the list of supported devices here: `Supported "
+"devices <https://www.odoo.com/page/iot-hardware>`__,."
 msgstr ""
 "借助 Odoo 的  *物联网盒子* "
 "，可以将测量工具连接到您的数据库。在此处查找支持的设备列表：\"支持的设备<https://www.odoo.com/page/iot-"
@@ -1291,8 +1268,8 @@ msgstr "通过USB 连接"
 
 #: ../../content/applications/productivity/iot/devices/measurement_tool.rst:12
 msgid ""
-"To add a device connected by USB, just plug the USB cable in the *IoT Box*, "
-"and the device should appear in your Odoo database."
+"To add a device connected by USB, just plug the USB cable in the *IoT "
+"Box*, and the device should appear in your Odoo database."
 msgstr "要添加通过USB连接的设备，只需将USB电缆插入*物联网盒*，该设备就会显示在您的Odoo数据库中。"
 
 #: ../../content/applications/productivity/iot/devices/measurement_tool.rst:19
@@ -1301,8 +1278,8 @@ msgstr "蓝牙连接"
 
 #: ../../content/applications/productivity/iot/devices/measurement_tool.rst:21
 msgid ""
-"Activate the Bluetooth on your device (see your device manual for further "
-"explanation) and the IoT Box will automatically try to connect to the "
+"Activate the Bluetooth on your device (see your device manual for further"
+" explanation) and the IoT Box will automatically try to connect to the "
 "device."
 msgstr "激活设备上的蓝牙（请参阅设备手册以进行下一步），物联网盒子将自动尝试连接到设备。"
 
@@ -1317,15 +1294,15 @@ msgstr "将测量工具链接到 *质量控制点*"
 #: ../../content/applications/productivity/iot/devices/measurement_tool.rst:36
 msgid ""
 "In your *Quality app*, you can setup a device on your *Quality Control "
-"Points*. To do so, go to the *Control Points* menu, under *Quality Control* "
-"and open the control point to which you want to assign a measurement tool."
-msgstr ""
-"在  *品控应用程式* 中，您可以为 *质量控制点*  配置设备。为此，请转到  *质量控制*  下的 *控制点* 菜单，然后为控制点分配测量工具。"
+"Points*. To do so, go to the *Control Points* menu, under *Quality "
+"Control* and open the control point to which you want to assign a "
+"measurement tool."
+msgstr "在  *品控应用程式* 中，您可以为 *质量控制点*  配置设备。为此，请转到  *质量控制*  下的 *控制点* 菜单，然后为控制点分配测量工具。"
 
 #: ../../content/applications/productivity/iot/devices/measurement_tool.rst:41
 msgid ""
-"Now, you can edit the control point and choose the device from the dropdown "
-"list. Then, hit save."
+"Now, you can edit the control point and choose the device from the "
+"dropdown list. Then, hit save."
 msgstr "现在，您可以编辑  *控制点* 并从下拉列表中选择设备。点击保存即可。"
 
 #: ../../content/applications/productivity/iot/devices/measurement_tool.rst:47
@@ -1341,19 +1318,20 @@ msgstr "连接打印机"
 
 #: ../../content/applications/productivity/iot/devices/printer.rst:5
 msgid ""
-"When using your *IoT Box* in Odoo, you could need to use a printer. Doing so"
-" is easy and convenient as it can be done in a few steps. Then, you can use "
-"it to print receipts, orders or even reports in different Odoo apps."
+"When using your *IoT Box* in Odoo, you could need to use a printer. Doing"
+" so is easy and convenient as it can be done in a few steps. Then, you "
+"can use it to print receipts, orders or even reports in different Odoo "
+"apps."
 msgstr ""
-"当您在 Odoo 中使用 *物联网盒子* 时，可能需要用到打印机。这很容易实现，只需几步即可完成。然后，您就可以使用它打印收据、订单，以及其它 Odoo"
-" 应用中的报告。"
+"当您在 Odoo 中使用 *物联网盒子* 时，可能需要用到打印机。这很容易实现，只需几步即可完成。然后，您就可以使用它打印收据、订单，以及其它 "
+"Odoo 应用中的报告。"
 
 #: ../../content/applications/productivity/iot/devices/printer.rst:13
 msgid ""
-"The IoT Box supports printers connected through USB, network or Bluetooth. "
-"`Supported printers <https://www.odoo.com/page/iot-hardware>`__ will be "
-"detected automatically and will appear in the *Devices* list of your IoT "
-"app."
+"The IoT Box supports printers connected through USB, network or "
+"Bluetooth. `Supported printers <https://www.odoo.com/page/iot-"
+"hardware>`__ will be detected automatically and will appear in the "
+"*Devices* list of your IoT app."
 msgstr ""
 "物联网盒支持通过USB、网络或蓝牙连接的打印机`支持的打印机<https://www.odoo.com/page/iot-"
 "hardware>`__将自动检测并显示在您的物联网应用程序的*设备*列表中。"
@@ -1378,16 +1356,15 @@ msgstr "您可以通过 *质量控制点* 将 *工作订单*  连接到打印机
 
 #: ../../content/applications/productivity/iot/devices/printer.rst:32
 msgid ""
-"To do so, you need to create a *Quality Control Point* from the *Quality* "
-"app. Then, you can select the correct manufacturing operation and the work "
-"order operation. In type, choose *Print Label* and hit save."
-msgstr ""
-"为此，您需要从 *品控*  应用创建 *质量控制点*  。然后，您可以选择正确的制造操作和工序。在类型选项，选择 *打印标签*  并点击保存。"
+"To do so, you need to create a *Quality Control Point* from the *Quality*"
+" app. Then, you can select the correct manufacturing operation and the "
+"work order operation. In type, choose *Print Label* and hit save."
+msgstr "为此，您需要从 *品控*  应用创建 *质量控制点*  。然后，您可以选择正确的制造操作和工序。在类型选项，选择 *打印标签*  并点击保存。"
 
 #: ../../content/applications/productivity/iot/devices/printer.rst:40
 msgid ""
-"Now, each time you reach the quality control point for the chosen product, a"
-" *Print Label* button will appear."
+"Now, each time you reach the quality control point for the chosen "
+"product, a *Print Label* button will appear."
 msgstr "现在，每次出现选择产品的  *质量控制点* 时，都会显示 *打印标签* 按钮。"
 
 #: ../../content/applications/productivity/iot/devices/printer.rst:47
@@ -1396,8 +1373,8 @@ msgstr "至报告"
 
 #: ../../content/applications/productivity/iot/devices/printer.rst:49
 msgid ""
-"You can also link a type of report to a certain printer. In the *IoT* app, "
-"go to the *Devices* menu and select the printer you want to set up."
+"You can also link a type of report to a certain printer. In the *IoT* "
+"app, go to the *Devices* menu and select the printer you want to set up."
 msgstr "您可以将某类报表连接到特定的打印机。 在 *物联网* 应用中， 打开 *设备* 菜单然后选择您要设置的打印机。"
 
 #: ../../content/applications/productivity/iot/devices/printer.rst:56
@@ -1406,16 +1383,16 @@ msgstr "现在打开 *打印机报告* 选项卡。"
 
 #: ../../content/applications/productivity/iot/devices/printer.rst:61
 msgid ""
-"Hit edit and then, click on *Add a line*. In the window that shows up, check"
-" all the types of reports that should be linked to this printer. Click on "
-"select and save."
+"Hit edit and then, click on *Add a line*. In the window that shows up, "
+"check all the types of reports that should be linked to this printer. "
+"Click on select and save."
 msgstr "点击编辑，然后点击 *添加行* 。在显示的窗口中，检查要连接到此打印机的所有类型的报告。选中并保存。"
 
 #: ../../content/applications/productivity/iot/devices/printer.rst:68
 msgid ""
 "Now, each time you click on *Print* in the control panel, instead of "
-"downloading a PDF, it will send it to the selected printer and automatically"
-" print it."
+"downloading a PDF, it will send it to the selected printer and "
+"automatically print it."
 msgstr "现在，每次点击控制面板中的 *打印* 时，都会将其发送到选定的打印机并自动打印。而不是下载 PDF。"
 
 #: ../../content/applications/productivity/iot/devices/printer.rst:73
@@ -1424,43 +1401,42 @@ msgstr "打印来自 PoS 的收据"
 
 #: ../../content/applications/productivity/iot/devices/printer.rst:75
 msgid ""
-"You can link a printer to your *Point of Sale* app so you can print receipts"
-" directly from your *PoS*."
+"You can link a printer to your *Point of Sale* app so you can print "
+"receipts directly from your *PoS*."
 msgstr "您可以将打印机连接到  *POS*  应用，然后就可以直接使用  *PoS* 来打印收据。"
 
 #: ../../content/applications/productivity/iot/devices/printer.rst:78
 msgid ""
-"Doing so is really easy. Go to your *Point of Sale* app and open your *Point"
-" of Sale* settings, under *Configuration*. There, click on *Edit* and check "
-"the *IoT Box* feature. Then, choose your *Receipt Printer* from the "
-"dropdown."
-msgstr ""
-"这样做真的很容易。转到你的*销售点*应用程序，在*配置*下打开你的*销售点*设置。在那里，单击“编辑”并选中“物联网框”功能。然后，从下拉列表中选择“收据打印机”。"
+"Doing so is really easy. Go to your *Point of Sale* app and open your "
+"*Point of Sale* settings, under *Configuration*. There, click on *Edit* "
+"and check the *IoT Box* feature. Then, choose your *Receipt Printer* from"
+" the dropdown."
+msgstr "这样做真的很容易。转到你的*销售点*应用程序，在*配置*下打开你的*销售点*设置。在那里，单击“编辑”并选中“物联网框”功能。然后，从下拉列表中选择“收据打印机”。"
 
 #: ../../content/applications/productivity/iot/devices/printer.rst:86
 msgid ""
-"Now, you will be able to print different kinds of tickets from your *POS*: "
-"**receipts**, **sale details** and **bills**."
+"Now, you will be able to print different kinds of tickets from your "
+"*POS*: **receipts**, **sale details** and **bills**."
 msgstr "现在，您可以从*POS*打印不同种类的门票： **** 、 **售明细 ** **** 。"
 
 #: ../../content/applications/productivity/iot/devices/printer.rst:89
 msgid ""
-"Receipts are printed once the order is validated. The process is automated "
-"when you enable the feature in your *PoS* configuration."
+"Receipts are printed once the order is validated. The process is "
+"automated when you enable the feature in your *PoS* configuration."
 msgstr "订单确认后，将打印收据。当您在*PoS*配置中启用该功能时，该过程将自动进行。"
 
 #: ../../content/applications/productivity/iot/devices/printer.rst:92
 msgid ""
-"Sales details can be printed by clicking on the printer icon on the navbar "
-"at the top of the *PoS*. It will print the details of the sales of the "
-"current day."
+"Sales details can be printed by clicking on the printer icon on the "
+"navbar at the top of the *PoS*. It will print the details of the sales of"
+" the current day."
 msgstr "可以通过单击 *PoS* 页顶部导航栏上的打印机图标来打印销售详细信息。打印的是当天的销售详细信息。"
 
 #: ../../content/applications/productivity/iot/devices/printer.rst:99
 msgid ""
-"As for the bill, it is only available in restaurant mode. In your restaurant"
-" settings, activate *Print Bills* and a *Bill* button will appear in the "
-"left panel of the *PoS*."
+"As for the bill, it is only available in restaurant mode. In your "
+"restaurant settings, activate *Print Bills* and a *Bill* button will "
+"appear in the left panel of the *PoS*."
 msgstr "至于账单，它只在餐厅模式下可用。在餐厅设置中，激活“打印账单”，一个“账单”按钮将出现在“PoS”的左侧面板中。"
 
 #: ../../content/applications/productivity/iot/devices/printer.rst:107
@@ -1487,8 +1463,8 @@ msgstr "现在，转到“打印机”菜单。点击创建，从下拉列表中
 #: ../../content/applications/productivity/iot/devices/printer.rst:124
 msgid ""
 "In the *PoS*, when you add or remove a product from one of the selected "
-"categories, the button *Order* will be green. If you click on it, the IoT "
-"Box will print a receipt on the corresponding printer."
+"categories, the button *Order* will be green. If you click on it, the IoT"
+" Box will print a receipt on the corresponding printer."
 msgstr "在*PoS*中，当您从所选类别之一添加或删除产品时，按钮*Order*将为绿色。如果单击它，物联网框将在相应的打印机上打印收据。"
 
 #: ../../content/applications/productivity/iot/devices/scale.rst:3
@@ -1497,10 +1473,10 @@ msgstr "连接天平"
 
 #: ../../content/applications/productivity/iot/devices/scale.rst:5
 msgid ""
-"When using your **IoT Box** in Odoo, you could need to use a scale. Doing so"
-" is easy and convenient as it can be done in a few steps. Then, you can use "
-"it in your **Point of Sale app** to weigh your products, which is helpful if"
-" their price are based on it."
+"When using your **IoT Box** in Odoo, you could need to use a scale. Doing"
+" so is easy and convenient as it can be done in a few steps. Then, you "
+"can use it in your **Point of Sale app** to weigh your products, which is"
+" helpful if their price are based on it."
 msgstr ""
 "在Odoo中使用 **联网盒 **，可能需要使用天平。这样做既简单又方便，因为只需几个步骤即可完成。然后，你可以在你的 **售点应用程序 "
 "**使用它来衡量你的产品，如果它们的价格是基于它的，这会很有帮助。"
@@ -1515,25 +1491,21 @@ msgstr "在某些情况下，可能需要USB转串口适配器。"
 
 #: ../../content/applications/productivity/iot/devices/scale.rst:17
 msgid ""
-"If your scale is `compatible with Odoo IoT Box "
-"<https://www.odoo.com/page/iot-hardware>`_, there is no need to set up "
-"anything because it will be automatically detected as soon as it is "
-"connected."
+"If your scale is `compatible with Odoo IoT Box <https://www.odoo.com/page"
+"/iot-hardware>`_, there is no need to set up anything because it will be "
+"automatically detected as soon as it is connected."
 msgstr ""
 
-#: ../../content/applications/productivity/iot/devices/scale.rstNone
 msgid "IOT box auto detection."
 msgstr ""
 
 #: ../../content/applications/productivity/iot/devices/scale.rst:24
 msgid ""
-"You may need to restart the box and download your scales’ drivers from the "
-"box in some cases. To do so, go to the *IoT Box Home Page* and click on "
-"*drivers list*. Then, click on load drivers."
-msgstr ""
-"在某些情况下，您可能需要重新启动机箱并从机箱中下载电子秤的驱动程序。为此，请转至“物联网盒主页”，然后单击“驱动程序列表”。然后，单击装载驱动。"
+"You may need to restart the box and download your scales’ drivers from "
+"the box in some cases. To do so, go to the *IoT Box Home Page* and click "
+"on *drivers list*. Then, click on load drivers."
+msgstr "在某些情况下，您可能需要重新启动机箱并从机箱中下载电子秤的驱动程序。为此，请转至“物联网盒主页”，然后单击“驱动程序列表”。然后，单击装载驱动。"
 
-#: ../../content/applications/productivity/iot/devices/scale.rstNone
 msgid "View of the IoT box settings and driver list."
 msgstr ""
 
@@ -1543,13 +1515,11 @@ msgstr "在销售点使用天平"
 
 #: ../../content/applications/productivity/iot/devices/scale.rst:34
 msgid ""
-"To use the scale in your *Point of Sale* app, go to :menuselection:`Point of"
-" Sale --> Configuration --> Point of Sale`, open the one you want to "
+"To use the scale in your *Point of Sale* app, go to :menuselection:`Point"
+" of Sale --> Configuration --> Point of Sale`, open the one you want to "
 "configure, then click on *Edit* and enable the *IoT Box* feature."
-msgstr ""
-"要在*销售点*应用程序中使用比例，请转至：菜单选择：`销售点-->配置-->销售点`，打开要配置的，然后单击*编辑*并启用*物联网盒*功能。"
+msgstr "要在*销售点*应用程序中使用比例，请转至：菜单选择：`销售点-->配置-->销售点`，打开要配置的，然后单击*编辑*并启用*物联网盒*功能。"
 
-#: ../../content/applications/productivity/iot/devices/scale.rstNone
 msgid "View of the IoT box feature inside of the PoS settings."
 msgstr ""
 
@@ -1559,20 +1529,17 @@ msgid ""
 "Scale* option. Then, you hit save."
 msgstr "现在，在下拉菜单中选择“物联网”框，并选中“电子秤”选项。然后，你点击保存。"
 
-#: ../../content/applications/productivity/iot/devices/scale.rstNone
 msgid "List of the external tools that can be used with PoS and the IoT box."
 msgstr ""
 
 #: ../../content/applications/productivity/iot/devices/scale.rst:49
 msgid ""
-"The scale is now available in all your *PoS* sessions. Then, if a product "
-"has a price per weight set, clicking on it on the *PoS* screen opens the "
-"scale screen, where the cashier can weigh the product and add the correct "
-"price to the cart."
-msgstr ""
-"现在，您的所有“PoS”会话中都可以使用该秤。然后，如果一个产品有一个每重量的价格集，在*PoS*屏幕上单击它会打开秤屏幕，出纳可以在那里称量产品并将正确的价格添加到购物车中。"
+"The scale is now available in all your *PoS* sessions. Then, if a product"
+" has a price per weight set, clicking on it on the *PoS* screen opens the"
+" scale screen, where the cashier can weigh the product and add the "
+"correct price to the cart."
+msgstr "现在，您的所有“PoS”会话中都可以使用该秤。然后，如果一个产品有一个每重量的价格集，在*PoS*屏幕上单击它会打开秤屏幕，出纳可以在那里称量产品并将正确的价格添加到购物车中。"
 
-#: ../../content/applications/productivity/iot/devices/scale.rstNone
 msgid "Electronic Scale dashboard view when no items are being weighed."
 msgstr ""
 
@@ -1583,8 +1550,8 @@ msgstr "邮件插件"
 #: ../../content/applications/productivity/mail_plugins.rst:13
 msgid ""
 "Mail Plugins are connectors that bridge your mailbox with your Odoo "
-"database. With them, you can interact with your Odoo database directly from "
-"your mailbox by:"
+"database. With them, you can interact with your Odoo database directly "
+"from your mailbox by:"
 msgstr "邮件插件是连接邮箱和Odoo数据库的连接器。使用它们，您可以通过以下方式直接从邮箱与Odoo数据库交互："
 
 #: ../../content/applications/productivity/mail_plugins.rst:16
@@ -1627,12 +1594,11 @@ msgstr "然而，他们可以提供 **在客户拓** ，这是被称为 **在客
 
 #: ../../content/applications/productivity/mail_plugins.rst:34
 msgid ""
-"Mail plugins allow you to test Lead Enrichment for free, whether you connect"
-" the plugins to a database or not. After a while, the plugins ask you to buy"
-" :doc:`../general/in_app_purchase` credits if you would like to keep using "
-"this service."
-msgstr ""
-"邮件插件允许您免费测试铅富集，无论您是否将插件连接到数据库。过了一会儿，如果你想继续使用这项服务，插件会要求你购买：:doc:`../general/in_app_purchase`信用卡。"
+"Mail plugins allow you to test Lead Enrichment for free, whether you "
+"connect the plugins to a database or not. After a while, the plugins ask "
+"you to buy :doc:`../general/in_app_purchase` credits if you would like to"
+" keep using this service."
+msgstr "邮件插件允许您免费测试铅富集，无论您是否将插件连接到数据库。过了一会儿，如果你想继续使用这项服务，插件会要求你购买：:doc:`../general/in_app_purchase`信用卡。"
 
 #: ../../content/applications/productivity/mail_plugins.rst:41
 msgid "Lead Generation IAP service"
@@ -1646,14 +1612,14 @@ msgstr "Lead Enrichment使用*Lead Generation IAP服务*。每个请求消耗一
 
 #: ../../content/applications/productivity/mail_plugins.rst:46
 msgid ""
-"To buy credits, go to :menuselection:`Settings --> CRM --> Lead Enrichment "
-"--> Buy credits` and select a package."
+"To buy credits, go to :menuselection:`Settings --> CRM --> Lead "
+"Enrichment --> Buy credits` and select a package."
 msgstr "要购买信用卡，请转至：菜单选择：`设置-->CRM-->潜在客户拓展-->购买信用卡`，然后选择一个软件包。"
 
 #: ../../content/applications/productivity/mail_plugins.rst:50
 msgid ""
-"If you are out of credits, the only information populated when clicking on "
-"the suggested company is its website link and logo."
+"If you are out of credits, the only information populated when clicking "
+"on the suggested company is its website link and logo."
 msgstr "如果您没有信用卡，单击建议的公司时填充的唯一信息是其网站链接和logo。"
 
 #: ../../content/applications/productivity/mail_plugins.rst:52
@@ -1676,8 +1642,8 @@ msgstr "Gmail插件"
 
 #: ../../content/applications/productivity/mail_plugins/gmail.rst:8
 msgid ""
-"The Gmail :doc:`Mail Plugin <../mail_plugins>` needs to be configured both "
-"on Odoo and Gmail."
+"The Gmail :doc:`Mail Plugin <../mail_plugins>` needs to be configured "
+"both on Odoo and Gmail."
 msgstr "Gmail:doc:`邮件插件 <../mail_plugins>`需要在Odoo和Gmail上都进行配置。"
 
 #: ../../content/applications/productivity/mail_plugins/gmail.rst:13
@@ -1688,9 +1654,9 @@ msgstr "启用邮件插件"
 #: ../../content/applications/productivity/mail_plugins/gmail.rst:15
 #: ../../content/applications/productivity/mail_plugins/outlook.rst:15
 msgid ""
-"First, you need to enable the *Mail Plugin* feature in your database. Go to "
-":menuselection:`Settings --> General Settings --> Integrations`, enable "
-"*Mail Plugin*, and *Save* the configuration."
+"First, you need to enable the *Mail Plugin* feature in your database. Go "
+"to :menuselection:`Settings --> General Settings --> Integrations`, "
+"enable *Mail Plugin*, and *Save* the configuration."
 msgstr "首先，您需要在数据库中启用*邮件插件*功能。转到：菜单选择：`设置-->常规设置-->集成`，启用*邮件插件*，然后*保存*配置。"
 
 #: ../../content/applications/productivity/mail_plugins/gmail.rst:21
@@ -1699,25 +1665,23 @@ msgstr "安装Gmail插件"
 
 #: ../../content/applications/productivity/mail_plugins/gmail.rst:23
 msgid ""
-"Open the `Gmail Plugin Apps Script project "
-"<https://script.google.com/d/1n7cxtaR4fGXKcP0RwinNQmL8S4FhVqpo-"
-"ZZ_cUAhYuuDpZAP_CnHE_7q/edit>`_."
+"Open the `Gmail Plugin Apps Script project <https://script.google.com/d"
+"/1n7cxtaR4fGXKcP0RwinNQmL8S4FhVqpo-ZZ_cUAhYuuDpZAP_CnHE_7q/edit>`_."
 msgstr ""
-"打开 `Gmail插件应用程序脚本项目 "
-"<https://script.google.com/d/1n7cxtaR4fGXKcP0RwinNQmL8S4FhVqpo-"
-"ZZ_cUAhYuuDpZAP_CnHE_7q/edit>`_."
+"打开 `Gmail插件应用程序脚本项目 <https://script.google.com/d"
+"/1n7cxtaR4fGXKcP0RwinNQmL8S4FhVqpo-ZZ_cUAhYuuDpZAP_CnHE_7q/edit>`_."
 
 #: ../../content/applications/productivity/mail_plugins/gmail.rst:26
 msgid ""
-"Verify you are logged in using the Google account you want to install the "
-"plugin on."
+"Verify you are logged in using the Google account you want to install the"
+" plugin on."
 msgstr "验证您是否使用要安装插件的谷歌帐户登录。"
 
 #: ../../content/applications/productivity/mail_plugins/gmail.rst:28
 msgid "Click on *Publish* then *Deploy from manifest...*"
 msgstr "单击*发布*然后*从清单部署*"
 
-#: ../../content/applications/productivity/mail_plugins/gmail.rst:0
+#: ../../content/applications/productivity/mail_plugins/gmail.rst
 msgid "Deploying from manifest the Gmail Plugin from the Apps Script project"
 msgstr ""
 
@@ -1727,17 +1691,17 @@ msgid ""
 "manifest* functionality may not be available."
 msgstr "确保您正在使用传统编辑器；否则，*从清单部署*功能可能不可用。"
 
-#: ../../content/applications/productivity/mail_plugins/gmail.rst:0
+#: ../../content/applications/productivity/mail_plugins/gmail.rst
 msgid "Using the legacy editor in the Gmail Plugin Apps Script project"
 msgstr ""
 
 #: ../../content/applications/productivity/mail_plugins/gmail.rst:42
 msgid ""
-"Click on *Install add-on*. A \"Deployment installed\" notification should "
-"appear. You can then click on *Close*."
+"Click on *Install add-on*. A \"Deployment installed\" notification should"
+" appear. You can then click on *Close*."
 msgstr "单击*安装附加组件*。应出现“部署已安装”通知。然后单击“关闭”。"
 
-#: ../../content/applications/productivity/mail_plugins/gmail.rst:0
+#: ../../content/applications/productivity/mail_plugins/gmail.rst
 msgid "Installing the Gmail Plugin from the Apps Script project"
 msgstr ""
 
@@ -1747,11 +1711,11 @@ msgstr "配置Gmail邮箱"
 
 #: ../../content/applications/productivity/mail_plugins/gmail.rst:54
 msgid ""
-"Open any email in your Gmail mailbox. On the right-side panel, click on the "
-"Odoo icon and then *Authorize Access*."
+"Open any email in your Gmail mailbox. On the right-side panel, click on "
+"the Odoo icon and then *Authorize Access*."
 msgstr "打开Gmail邮箱中的任何电子邮件。在右侧面板上，单击Odoo图标，然后单击“授权访问”。"
 
-#: ../../content/applications/productivity/mail_plugins/gmail.rst:0
+#: ../../content/applications/productivity/mail_plugins/gmail.rst
 msgid "Authorizing access to the Gmail Plugin"
 msgstr ""
 
@@ -1759,7 +1723,7 @@ msgstr ""
 msgid "Choose the right Google account."
 msgstr "选择正确的谷歌帐号。"
 
-#: ../../content/applications/productivity/mail_plugins/gmail.rst:0
+#: ../../content/applications/productivity/mail_plugins/gmail.rst
 msgid "Choosing your Google account"
 msgstr ""
 
@@ -1767,38 +1731,37 @@ msgstr ""
 msgid "Allow the Gmail Plugin to access some of your data."
 msgstr "允许Gmail插件访问您的一些数据。"
 
-#: ../../content/applications/productivity/mail_plugins/gmail.rst:0
+#: ../../content/applications/productivity/mail_plugins/gmail.rst
 msgid "Allowing the Gmail Plugin to access Google data"
 msgstr ""
 
 #: ../../content/applications/productivity/mail_plugins/gmail.rst:73
 #: ../../content/applications/productivity/mail_plugins/outlook.rst:68
 msgid ""
-"The right-side panel can now display **Company Insights**. At the bottom, "
-"click on *Login*."
+"The right-side panel can now display **Company Insights**. At the bottom,"
+" click on *Login*."
 msgstr "右侧面板现在可以显示 **司洞** 。在底部，单击“登录”。"
 
-#: ../../content/applications/productivity/mail_plugins/gmail.rst:0
-#: ../../content/applications/productivity/mail_plugins/outlook.rst:0
+#: ../../content/applications/productivity/mail_plugins/gmail.rst
+#: ../../content/applications/productivity/mail_plugins/outlook.rst
 msgid "Logging in your Odoo database"
 msgstr ""
 
 #: ../../content/applications/productivity/mail_plugins/gmail.rst:80
 #: ../../content/applications/productivity/mail_plugins/outlook.rst:75
 msgid ""
-"Only a limited amount of *Company Insights* (*Lead Enrichment*) requests are"
-" available as a trial. This feature requires :ref:`prepaid credits "
+"Only a limited amount of *Company Insights* (*Lead Enrichment*) requests "
+"are available as a trial. This feature requires :ref:`prepaid credits "
 "<mail_plugins/pricing>`."
-msgstr ""
-"只有有限数量的*公司洞察*（*潜在客户丰富*）请求可作为试用。此功能需要：ref:`预付信用费<mail_plugins/pricing>`。"
+msgstr "只有有限数量的*公司洞察*（*潜在客户丰富*）请求可作为试用。此功能需要：ref:`预付信用费<mail_plugins/pricing>`。"
 
 #: ../../content/applications/productivity/mail_plugins/gmail.rst:83
 #: ../../content/applications/productivity/mail_plugins/outlook.rst:93
 msgid "Enter your Odoo database URL and click on *Login*."
 msgstr "输入您的Odoo数据库URL，然后单击*登录*。"
 
-#: ../../content/applications/productivity/mail_plugins/gmail.rst:0
-#: ../../content/applications/productivity/mail_plugins/outlook.rst:0
+#: ../../content/applications/productivity/mail_plugins/gmail.rst
+#: ../../content/applications/productivity/mail_plugins/outlook.rst
 msgid "Entering your Odoo database URL"
 msgstr ""
 
@@ -1811,7 +1774,7 @@ msgstr "如果您没有登录到数据库，请输入您的凭据."
 msgid "Click on *Allow* to let the Gmail Plugin connect to your database."
 msgstr "点击“允许”，让Gmail插件连接到你的数据库。"
 
-#: ../../content/applications/productivity/mail_plugins/gmail.rst:0
+#: ../../content/applications/productivity/mail_plugins/gmail.rst
 msgid "Allowing the Gmail Plugin to connect to a database"
 msgstr ""
 
@@ -1821,8 +1784,8 @@ msgstr "Outlook 插件"
 
 #: ../../content/applications/productivity/mail_plugins/outlook.rst:8
 msgid ""
-"The Outlook :doc:`Mail Plugin <../mail_plugins>` needs to be configured both"
-" on Odoo and Outlook."
+"The Outlook :doc:`Mail Plugin <../mail_plugins>` needs to be configured "
+"both on Odoo and Outlook."
 msgstr "Outlook:文档:`邮件插件<../mail_plugins>`需要在Odoo和Outlook上配置。"
 
 #: ../../content/applications/productivity/mail_plugins/outlook.rst:21
@@ -1837,7 +1800,7 @@ msgstr "打开Outlook邮箱并选择任何电子邮件。"
 msgid "Click on the *More actions* button and select *Get Add-ins*."
 msgstr "单击*更多操作*按钮并选择*获取加载项*。"
 
-#: ../../content/applications/productivity/mail_plugins/outlook.rst:0
+#: ../../content/applications/productivity/mail_plugins/outlook.rst
 msgid "More actions button in Outlook"
 msgstr ""
 
@@ -1845,17 +1808,17 @@ msgstr ""
 msgid "Select the *My add-ins* tab."
 msgstr "选择“我的加载项”选项卡。"
 
-#: ../../content/applications/productivity/mail_plugins/outlook.rst:0
+#: ../../content/applications/productivity/mail_plugins/outlook.rst
 msgid "My add-ins in Outlook"
 msgstr ""
 
 #: ../../content/applications/productivity/mail_plugins/outlook.rst:37
 msgid ""
-"Under *Custom add-ins*, click on *+ Add a custom add-in*, and then on *Add "
-"from URL...*"
+"Under *Custom add-ins*, click on *+ Add a custom add-in*, and then on "
+"*Add from URL...*"
 msgstr "在*自定义加载项*下，单击*+添加自定义加载项*，然后单击*从URL添加*"
 
-#: ../../content/applications/productivity/mail_plugins/outlook.rst:0
+#: ../../content/applications/productivity/mail_plugins/outlook.rst
 msgid "Custom add-ins in Outlook"
 msgstr ""
 
@@ -1865,7 +1828,7 @@ msgid ""
 "`https://download.odoo.com/plugins/outlook/manifest.xml` and press *OK*."
 msgstr ""
 
-#: ../../content/applications/productivity/mail_plugins/outlook.rst:0
+#: ../../content/applications/productivity/mail_plugins/outlook.rst
 msgid "Entering the add-in URL in Outlook"
 msgstr ""
 
@@ -1873,7 +1836,7 @@ msgstr ""
 msgid "Read the warning and click on *Install*."
 msgstr "阅读警告并单击“安装”。"
 
-#: ../../content/applications/productivity/mail_plugins/outlook.rst:0
+#: ../../content/applications/productivity/mail_plugins/outlook.rst
 msgid "Custom add-in installation warning in Outlook"
 msgstr ""
 
@@ -1883,35 +1846,37 @@ msgstr "连接数据库"
 
 #: ../../content/applications/productivity/mail_plugins/outlook.rst:61
 msgid ""
-"Open any email in your Outlook mailbox, click on the *More actions* button, "
-"and select *Odoo for Outlook*."
+"Open any email in your Outlook mailbox, click on the *More actions* "
+"button, and select *Odoo for Outlook*."
 msgstr "打开Outlook邮箱中的任何电子邮件，单击*更多操作*按钮，然后选择*Outlook的Odoo*。"
 
-#: ../../content/applications/productivity/mail_plugins/outlook.rst:0
+#: ../../content/applications/productivity/mail_plugins/outlook.rst
 msgid "Odoo for Outlook add-in button"
 msgstr ""
 
 #: ../../content/applications/productivity/mail_plugins/outlook.rst:79
 msgid ""
-"If, after a short while, the panel is still empty, it is possible that your "
-"browser cookie settings prevented it from loading. Note that these settings "
-"also change if you are in \"Incognito\" mode on your browser."
+"If, after a short while, the panel is still empty, it is possible that "
+"your browser cookie settings prevented it from loading. Note that these "
+"settings also change if you are in \"Incognito\" mode on your browser."
 msgstr ""
-"如果过了一会儿，面板仍然是空的，则可能是您的浏览器 cookie 设置阻止了它加载。 请注意，如果您在浏览器上处于“隐身”模式，这些设置也会发生变化。"
+"如果过了一会儿，面板仍然是空的，则可能是您的浏览器 cookie 设置阻止了它加载。 "
+"请注意，如果您在浏览器上处于“隐身”模式，这些设置也会发生变化。"
 
 #: ../../content/applications/productivity/mail_plugins/outlook.rst:84
 msgid ""
-"To fix this issue, configure your browser to always allow cookies on Odoo's "
-"plugin page."
+"To fix this issue, configure your browser to always allow cookies on "
+"Odoo's plugin page."
 msgstr "要解决此问题，请将您的浏览器配置为始终允许 Odoo 插件页面上的 cookie."
 
 #: ../../content/applications/productivity/mail_plugins/outlook.rst:86
+#, python-format
 msgid ""
 "For Google Chrome, you can do so by following the guide at: "
 "`https://support.google.com/chrome/answer/95647 "
 "<https://support.google.com/chrome/answer/95647#:~:text=Allow%20or%20block%20cookies%20for%20a%20specific%20site>`_"
-" and adding `download.odoo.com` to the list of `Sites that can always use "
-"cookies`."
+" and adding `download.odoo.com` to the list of `Sites that can always use"
+" cookies`."
 msgstr ""
 
 #: ../../content/applications/productivity/mail_plugins/outlook.rst:90
@@ -1922,7 +1887,7 @@ msgstr "完成后，需要再次打开 Outlook 面板."
 msgid "Click on *Allow* to open the pop-up window."
 msgstr "单击“允许”打开弹出窗口。"
 
-#: ../../content/applications/productivity/mail_plugins/outlook.rst:0
+#: ../../content/applications/productivity/mail_plugins/outlook.rst
 msgid "New window pop-up warning"
 msgstr ""
 
@@ -1930,7 +1895,7 @@ msgstr ""
 msgid "Click on *Allow* to let the Outlook Plugin connect to your database."
 msgstr "单击“允许”，让Outlook插件连接到您的数据库。"
 
-#: ../../content/applications/productivity/mail_plugins/outlook.rst:0
+#: ../../content/applications/productivity/mail_plugins/outlook.rst
 msgid "Allowing the Outlook Plugin to connect to a database"
 msgstr ""
 
@@ -1940,9 +1905,9 @@ msgstr "为插件添加快捷方式"
 
 #: ../../content/applications/productivity/mail_plugins/outlook.rst:118
 msgid ""
-"By default, the Outlook Plugin can be opened from the *More actions* menu. "
-"However, to save time, it's possible to add it next to the other default "
-"actions."
+"By default, the Outlook Plugin can be opened from the *More actions* "
+"menu. However, to save time, it's possible to add it next to the other "
+"default actions."
 msgstr "默认情况下，可以从 *更多操作* 菜单打开 Outlook 插件。 但是，为了节省时间，可以将其添加到其他默认操作旁边。"
 
 #: ../../content/applications/productivity/mail_plugins/outlook.rst:121
@@ -1951,18 +1916,17 @@ msgid ""
 "settings*."
 msgstr "在Outlook邮箱中，单击*设置*，然后单击*查看所有Outlook设置*。"
 
-#: ../../content/applications/productivity/mail_plugins/outlook.rst:0
+#: ../../content/applications/productivity/mail_plugins/outlook.rst
 msgid "Viewing all Outlook settings"
 msgstr ""
 
 #: ../../content/applications/productivity/mail_plugins/outlook.rst:127
 msgid ""
-"Select *Customize actions* under *Mail*, click on *Odoo for Outlook*, and "
-"then *Save*."
+"Select *Customize actions* under *Mail*, click on *Odoo for Outlook*, and"
+" then *Save*."
 msgstr "在*邮件*下选择*自定义操作*，单击*Outlook的Odoo*，然后单击*保存*。"
 
-#: ../../content/applications/productivity/mail_plugins/outlook.rst:0
-#: ../../content/applications/productivity/mail_plugins/outlook.rst:0
+#: ../../content/applications/productivity/mail_plugins/outlook.rst
 msgid "Odoo for Outlook customized action"
 msgstr ""
 
@@ -2009,8 +1973,7 @@ msgid "Security rules"
 msgstr ""
 
 #: ../../content/applications/productivity/studio.rst:27
-msgid ""
-"Or you can :doc:`build an app from scratch <studio/models_modules_apps>`."
+msgid "Or you can :doc:`build an app from scratch <studio/models_modules_apps>`."
 msgstr ""
 
 #: ../../content/applications/productivity/studio.rst:30
@@ -2024,9 +1987,9 @@ msgstr ""
 #: ../../content/applications/productivity/studio/automated_actions.rst:5
 msgid ""
 "Automated actions are used to trigger automatic changes based on user "
-"actions (e.g., apply a modification when a field is set to a specific value)"
-" or on time conditions (e.g., archive a record 7 days after its last "
-"update)."
+"actions (e.g., apply a modification when a field is set to a specific "
+"value) or on time conditions (e.g., archive a record 7 days after its "
+"last update)."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/automated_actions.rst:9
@@ -2038,12 +2001,12 @@ msgstr ""
 #: ../../content/applications/productivity/studio/automated_actions.rst:12
 msgid ""
 "For every automated action you create, the following elements should be "
-"defined: the :ref:`studio/automated-actions/model`, the "
-":ref:`studio/automated-actions/trigger`, the :ref:`studio/automated-"
-"actions/apply-on`, and the :ref:`studio/automated-actions/action`."
+"defined: the :ref:`studio/automated-actions/model`, the :ref:`studio"
+"/automated-actions/trigger`, the :ref:`studio/automated-actions/apply-"
+"on`, and the :ref:`studio/automated-actions/action`."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/automated_actions.rst:0
+#: ../../content/applications/productivity/studio/automated_actions.rst
 msgid "Example of an automated action on the Subscription model"
 msgstr ""
 
@@ -2085,33 +2048,33 @@ msgstr "更新时"
 
 #: ../../content/applications/productivity/studio/automated_actions.rst:51
 msgid ""
-"The action is triggered when a previously saved record is edited and then "
-"saved."
+"The action is triggered when a previously saved record is edited and then"
+" saved."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/automated_actions.rst:53
 msgid ""
-"Use :guilabel:`Trigger Fields` to specify which fields - and only those - "
-"trigger the action on their update."
+"Use :guilabel:`Trigger Fields` to specify which fields - and only those -"
+" trigger the action on their update."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/automated_actions.rst:55
 msgid ""
 "To detect when a record changes from one state to another, define a "
-":guilabel:`Before Update Domain` filter, which checks if the condition is "
-"satisfied before the record is updated. Then set an :ref:`studio/automated-"
-"actions/apply-on` filter, which checks if the condition is met after the "
-"record is updated."
+":guilabel:`Before Update Domain` filter, which checks if the condition is"
+" satisfied before the record is updated. Then set an :ref:`studio"
+"/automated-actions/apply-on` filter, which checks if the condition is met"
+" after the record is updated."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/automated_actions.rst:61
 msgid ""
-"If you want the automated action to happen when an email address is set on a"
-" contact, define the :guilabel:`Before Update Domain` to `Email is not set`,"
-" and the :guilabel:`Apply on` domain to `Email is set`."
+"If you want the automated action to happen when an email address is set "
+"on a contact, define the :guilabel:`Before Update Domain` to `Email is "
+"not set`, and the :guilabel:`Apply on` domain to `Email is set`."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/automated_actions.rst:0
+#: ../../content/applications/productivity/studio/automated_actions.rst
 msgid "Example of an On Update trigger"
 msgstr ""
 
@@ -2135,8 +2098,8 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/automated_actions.rst:84
 msgid ""
-"This trigger is rarely used, as archiving records is usually preferred to "
-"deletion."
+"This trigger is rarely used, as archiving records is usually preferred to"
+" deletion."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/automated_actions.rst:89
@@ -2145,17 +2108,18 @@ msgstr "基于表单修改"
 
 #: ../../content/applications/productivity/studio/automated_actions.rst:91
 msgid ""
-"The action is triggered when any change is done to a trigger field's value "
-"on the :ref:`Form view <studio/views/general/form>`, even before saving the "
-"record. This trigger only works on the user interface when a modification is"
-" made by a user. If the field is changed through another action and not by "
-"the user, the action will not run."
+"The action is triggered when any change is done to a trigger field's "
+"value on the :ref:`Form view <studio/views/general/form>`, even before "
+"saving the record. This trigger only works on the user interface when a "
+"modification is made by a user. If the field is changed through another "
+"action and not by the user, the action will not run."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/automated_actions.rst:97
 msgid ""
 "This trigger can only be used with the :ref:`Execute Python Code action "
-"<studio/automated-actions/action/python-code>`, so development is required."
+"<studio/automated-actions/action/python-code>`, so development is "
+"required."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/automated_actions.rst:103
@@ -2164,26 +2128,26 @@ msgstr "基于时间条件"
 
 #: ../../content/applications/productivity/studio/automated_actions.rst:105
 msgid ""
-"The action is triggered when a trigger field's date or date & time value is "
-"reached."
+"The action is triggered when a trigger field's date or date & time value "
+"is reached."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/automated_actions.rst:107
 msgid ""
-"To trigger the action after the :guilabel:`Trigger Date`, add a number of "
-"minutes, hours, days, or months under :guilabel:`Delay after trigger date`. "
-"To trigger the action before, add a negative number instead."
+"To trigger the action after the :guilabel:`Trigger Date`, add a number of"
+" minutes, hours, days, or months under :guilabel:`Delay after trigger "
+"date`. To trigger the action before, add a negative number instead."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/automated_actions.rst:112
 msgid ""
 "If you want to send a reminder email 30 minutes before the start of a "
 "calendar event, select the :guilabel:`Start (Calendar Event)` under "
-":guilabel:`Trigger Date` and set the :guilabel:`Delay after trigger date` to"
-" **-30** :guilabel:`Minutes`."
+":guilabel:`Trigger Date` and set the :guilabel:`Delay after trigger date`"
+" to **-30** :guilabel:`Minutes`."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/automated_actions.rst:0
+#: ../../content/applications/productivity/studio/automated_actions.rst
 msgid "Example of a Based on Timed Condition trigger"
 msgstr ""
 
@@ -2197,8 +2161,8 @@ msgstr "应用于"
 
 #: ../../content/applications/productivity/studio/automated_actions.rst:128
 msgid ""
-"Define on which records of the model the automated action should be applied."
-" It works the same way as when you apply filters on a model."
+"Define on which records of the model the automated action should be "
+"applied. It works the same way as when you apply filters on a model."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/automated_actions.rst:134
@@ -2218,14 +2182,14 @@ msgstr "执行Python 代码"
 #: ../../content/applications/productivity/studio/automated_actions.rst:144
 msgid ""
 "The action is used to execute Python code. The available variables are "
-"described on the :guilabel:`Python Code` tab, which is also used to write "
-"your code, or on the :guilabel:`Help` tab."
+"described on the :guilabel:`Python Code` tab, which is also used to write"
+" your code, or on the :guilabel:`Help` tab."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/automated_actions.rst:147
 msgid ""
-"To allow the action to be run through the website, tick :guilabel:`Available"
-" on the Website` and add a :guilabel:`Website Path`."
+"To allow the action to be run through the website, tick "
+":guilabel:`Available on the Website` and add a :guilabel:`Website Path`."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/automated_actions.rst:153
@@ -2238,21 +2202,21 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/automated_actions.rst:158
 msgid ""
-"Selecting a :guilabel:`Target Model` is only required if you want to target "
-"another model than the one you are on."
+"Selecting a :guilabel:`Target Model` is only required if you want to "
+"target another model than the one you are on."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/automated_actions.rst:161
 msgid ""
-"To link the record that triggered the creation of the new record, select a "
-"field under :guilabel:`Link Field`. For example, you could create a contact "
-"automatically when a lead is turned into an opportunity."
+"To link the record that triggered the creation of the new record, select "
+"a field under :guilabel:`Link Field`. For example, you could create a "
+"contact automatically when a lead is turned into an opportunity."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/automated_actions.rst:164
 msgid ""
-":guilabel:`Data to Write` tab: the tab is used to specify the new record's "
-"values. After selecting a :guilabel:`Field`, select its "
+":guilabel:`Data to Write` tab: the tab is used to specify the new "
+"record's values. After selecting a :guilabel:`Field`, select its "
 ":guilabel:`Evaluation Type`:"
 msgstr ""
 
@@ -2271,21 +2235,21 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/automated_actions.rst:172
 msgid ""
-"If an automated action creates a new task in a project, you can assign it to"
-" a specific user by setting the :guilabel:`Field` to :guilabel:`Responsible "
-"User (Project)`, the :guilabel:`Evaluation Type` to :guilabel:`Reference`, "
-"and the :guilabel:`Record` to a specific user."
+"If an automated action creates a new task in a project, you can assign it"
+" to a specific user by setting the :guilabel:`Field` to "
+":guilabel:`Responsible User (Project)`, the :guilabel:`Evaluation Type` "
+"to :guilabel:`Reference`, and the :guilabel:`Record` to a specific user."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/automated_actions.rst:0
+#: ../../content/applications/productivity/studio/automated_actions.rst
 msgid "Example of a Create a new Record action"
 msgstr ""
 
 #: ../../content/applications/productivity/studio/automated_actions.rst:181
 msgid ""
-":guilabel:`Python expression`: used to dynamically define the newly created "
-"record’s value for a field using Python code in the :guilabel:`Value` "
-"column."
+":guilabel:`Python expression`: used to dynamically define the newly "
+"created record’s value for a field using Python code in the "
+":guilabel:`Value` column."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/automated_actions.rst:187
@@ -2294,8 +2258,8 @@ msgstr "更新记录"
 
 #: ../../content/applications/productivity/studio/automated_actions.rst:189
 msgid ""
-"The action is used to set value(s) for field(s) of any record on the current"
-" model."
+"The action is used to set value(s) for field(s) of any record on the "
+"current model."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/automated_actions.rst:192
@@ -2310,10 +2274,10 @@ msgstr "执行几个动作"
 
 #: ../../content/applications/productivity/studio/automated_actions.rst:200
 msgid ""
-"The action is used to trigger multiple actions at the same time. To do so, "
-"click on :guilabel:`Add a line` under the :guilabel:`Actions` tab. In the "
-":guilabel:`Child Actions` pop-up, click on :guilabel:`Create` and configure "
-"the action."
+"The action is used to trigger multiple actions at the same time. To do "
+"so, click on :guilabel:`Add a line` under the :guilabel:`Actions` tab. In"
+" the :guilabel:`Child Actions` pop-up, click on :guilabel:`Create` and "
+"configure the action."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/automated_actions.rst:207
@@ -2340,25 +2304,25 @@ msgstr "创建新活动"
 
 #: ../../content/applications/productivity/studio/automated_actions.rst:224
 msgid ""
-"The action is used to schedule a new activity linked to the record. Use the "
-":guilabel:`Activity` tab to set it up as usual, but instead of the "
+"The action is used to schedule a new activity linked to the record. Use "
+"the :guilabel:`Activity` tab to set it up as usual, but instead of the "
 ":guilabel:`Assigned to` field, select an :guilabel:`Activity User Type`. "
 "Select :guilabel:`Specific User` and add the user under "
 ":guilabel:`Responsible` if the activity should always be assigned to the "
 "same user. To dynamically target a user linked to the record, select "
-":guilabel:`Generic User From Record` instead and change the :guilabel:`User "
-"field name` if necessary."
+":guilabel:`Generic User From Record` instead and change the "
+":guilabel:`User field name` if necessary."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/automated_actions.rst:232
 msgid ""
-"After a lead is turned into an opportunity, you want your automated action "
-"to set up a call for the user responsible for the lead. To do so, set the "
-":guilabel:`Activity` to :guilabel:`Call` and set the :guilabel:`Activity "
-"User Type` to :guilabel:`Generic User From Record`."
+"After a lead is turned into an opportunity, you want your automated "
+"action to set up a call for the user responsible for the lead. To do so, "
+"set the :guilabel:`Activity` to :guilabel:`Call` and set the "
+":guilabel:`Activity User Type` to :guilabel:`Generic User From Record`."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/automated_actions.rst:0
+#: ../../content/applications/productivity/studio/automated_actions.rst
 msgid "Example of a Create Next Activity action"
 msgstr ""
 
@@ -2368,14 +2332,14 @@ msgstr "发送文本短信"
 
 #: ../../content/applications/productivity/studio/automated_actions.rst:245
 msgid ""
-"The action is used to send an SMS to a contact linked to the record. To do "
-"so, select or create an :guilabel:`SMS Template`."
+"The action is used to send an SMS to a contact linked to the record. To "
+"do so, select or create an :guilabel:`SMS Template`."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/automated_actions.rst:249
 msgid ""
-"If you want sent messages to be logged in the Chatter, tick :guilabel:`Log "
-"as Note`."
+"If you want sent messages to be logged in the Chatter, tick "
+":guilabel:`Log as Note`."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:3
@@ -2384,26 +2348,26 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:5
 msgid ""
-"Fields structure the models of a database. If you picture a model as a table"
-" or spreadsheet, fields are the columns where data is stored in the records "
-"(i.e., the rows). Fields also define the type of data that is stored within "
-"them. How the data is presented and formatted on the :abbr:`UI (User "
-"Interface)` is defined by their widget."
+"Fields structure the models of a database. If you picture a model as a "
+"table or spreadsheet, fields are the columns where data is stored in the "
+"records (i.e., the rows). Fields also define the type of data that is "
+"stored within them. How the data is presented and formatted on the "
+":abbr:`UI (User Interface)` is defined by their widget."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:10
 msgid ""
-"From a technical point of view, there are 15 field types in Odoo. However, "
-"you can choose from 20 fields in Studio, as some field types are available "
-"more than once with a different default widget."
+"From a technical point of view, there are 15 field types in Odoo. "
+"However, you can choose from 20 fields in Studio, as some field types are"
+" available more than once with a different default widget."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:14
 msgid ""
 ":guilabel:`New Fields` can only be added to the "
 ":ref:`studio/views/general/form` and :ref:`studio/views/multiple-"
-"records/list` views. On other views, you can only add :guilabel:`Existing "
-"Fields` :dfn:`(fields already on the model)`."
+"records/list` views. On other views, you can only add :guilabel:`Existing"
+" Fields` :dfn:`(fields already on the model)`."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:21
@@ -2416,8 +2380,7 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:26
 #: ../../content/applications/productivity/studio/fields.rst:325
-msgid ""
-"Non-default widgets, when available, are presented as bullet points below."
+msgid "Non-default widgets, when available, are presented as bullet points below."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:31
@@ -2426,15 +2389,16 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:33
 msgid ""
-"The :guilabel:`Text` field is used for short text containing any character. "
-"One text line is displayed when filling out the field."
+"The :guilabel:`Text` field is used for short text containing any "
+"character. One text line is displayed when filling out the field."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:36
 #: ../../content/applications/productivity/studio/fields.rst:220
 msgid ""
-":guilabel:`Badge`: displays the value inside a rounded shape, similar to a "
-"tag. The value cannot be edited on the UI, but a default value can be set."
+":guilabel:`Badge`: displays the value inside a rounded shape, similar to "
+"a tag. The value cannot be edited on the UI, but a default value can be "
+"set."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:38
@@ -2450,16 +2414,16 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:40
 msgid ""
-":guilabel:`Image`: displays an image using a URL. The value cannot be edited"
-" manually, but a default value can be set."
+":guilabel:`Image`: displays an image using a URL. The value cannot be "
+"edited manually, but a default value can be set."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:44
 msgid ""
 "This works differently than selecting the :ref:`Image field "
-"<studio/fields/simple-fields/image>` directly, as the image is not stored in"
-" Odoo when using a :guilabel:`Text` field with the :guilabel:`Image` widget."
-" For example, it can be useful if you want to save disk space."
+"<studio/fields/simple-fields/image>` directly, as the image is not stored"
+" in Odoo when using a :guilabel:`Text` field with the :guilabel:`Image` "
+"widget. For example, it can be useful if you want to save disk space."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:49
@@ -2468,15 +2432,15 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:52
 msgid ""
-"Tick :guilabel:`Enable SMS` to add an option to send an SMS directly from "
-"Odoo next to the field."
+"Tick :guilabel:`Enable SMS` to add an option to send an SMS directly from"
+" Odoo next to the field."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:55
 msgid ":guilabel:`URL`: the value becomes a clickable URL."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/fields.rst:0
+#: ../../content/applications/productivity/studio/fields.rst
 msgid "Examples of Text fields with different widgets"
 msgstr ""
 
@@ -2486,12 +2450,12 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:68
 msgid ""
-"The :guilabel:`Multiline Text` field is used for longer text containing any "
-"type of character. Two text lines are displayed on the UI when filling out "
-"the field."
+"The :guilabel:`Multiline Text` field is used for longer text containing "
+"any type of character. Two text lines are displayed on the UI when "
+"filling out the field."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/fields.rst:0
+#: ../../content/applications/productivity/studio/fields.rst
 msgid "Examples of Multiline Text fields with different widgets"
 msgstr ""
 
@@ -2507,9 +2471,9 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:87
 msgid ""
-":guilabel:`Percentage Pie`: displays the value inside a percentage circle, "
-"usually for a computed value. The value cannot be edited on the UI, but a "
-"default value can be set."
+":guilabel:`Percentage Pie`: displays the value inside a percentage "
+"circle, usually for a computed value. The value cannot be edited on the "
+"UI, but a default value can be set."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:89
@@ -2522,11 +2486,11 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:91
 msgid ""
-":guilabel:`Handle`: displays a drag handle icon to order records manually in"
-" :ref:`List view <studio/views/multiple-records/list>`."
+":guilabel:`Handle`: displays a drag handle icon to order records manually"
+" in :ref:`List view <studio/views/multiple-records/list>`."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/fields.rst:0
+#: ../../content/applications/productivity/studio/fields.rst
 msgid "Examples of Integer fields with different widgets"
 msgstr ""
 
@@ -2542,36 +2506,35 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:109
 msgid ""
-"Decimal numbers are displayed with two decimals after the decimal point on "
-"the UI, but they are stored in the database with more precision."
+"Decimal numbers are displayed with two decimals after the decimal point "
+"on the UI, but they are stored in the database with more precision."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:112
 msgid ""
 ":guilabel:`Monetary`: it is similar to using the :ref:`Monetary field "
-"<studio/fields/simple-fields/monetary>`. It is recommended to use the later "
-"as it offers more functionalities."
+"<studio/fields/simple-fields/monetary>`. It is recommended to use the "
+"later as it offers more functionalities."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:115
-msgid ""
-":guilabel:`Percentage`: displays a percent character `%` after the value."
+msgid ":guilabel:`Percentage`: displays a percent character `%` after the value."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:116
 msgid ""
-":guilabel:`Percentage Pie`: displays the value inside a percentage circle, "
-"usually for a computed value. The field cannot be edited manually, but a "
-"default value can be set."
+":guilabel:`Percentage Pie`: displays the value inside a percentage "
+"circle, usually for a computed value. The field cannot be edited "
+"manually, but a default value can be set."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:120
 msgid ""
-":guilabel:`Time`: the value must follow the *hh:mm* format, with a maximum "
-"of 59 minutes."
+":guilabel:`Time`: the value must follow the *hh:mm* format, with a "
+"maximum of 59 minutes."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/fields.rst:0
+#: ../../content/applications/productivity/studio/fields.rst
 msgid "Examples of Decimal fields with different widgets"
 msgstr ""
 
@@ -2585,13 +2548,13 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:136
 msgid ""
-"When you first add a :guilabel:`Monetary` field, you are prompted to add a "
-":guilabel:`Currency` field if none exists already on the model. Odoo offers "
-"to add the :guilabel:`Currency` field for you. Once it is added, add the "
-":guilabel:`Monetary` field again."
+"When you first add a :guilabel:`Monetary` field, you are prompted to add "
+"a :guilabel:`Currency` field if none exists already on the model. Odoo "
+"offers to add the :guilabel:`Currency` field for you. Once it is added, "
+"add the :guilabel:`Monetary` field again."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/fields.rst:0
+#: ../../content/applications/productivity/studio/fields.rst
 msgid "Example of a Monetary field along with its Currency field"
 msgstr ""
 
@@ -2601,17 +2564,17 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:151
 msgid ""
-"The :guilabel:`Html` field is used to add text that can be edited using the "
-"Odoo HTML editor."
+"The :guilabel:`Html` field is used to add text that can be edited using "
+"the Odoo HTML editor."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:153
 msgid ""
-":guilabel:`Multiline Text`: disables the Odoo HTML editor to allow editing "
-"raw HTML."
+":guilabel:`Multiline Text`: disables the Odoo HTML editor to allow "
+"editing raw HTML."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/fields.rst:0
+#: ../../content/applications/productivity/studio/fields.rst
 msgid "Examples of Html fields with different widgets"
 msgstr ""
 
@@ -2625,11 +2588,12 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:168
 msgid ""
-":guilabel:`Remaining Days`: the remaining number of days before the selected"
-" date is displayed (e.g., *In 5 days*), based on the current date."
+":guilabel:`Remaining Days`: the remaining number of days before the "
+"selected date is displayed (e.g., *In 5 days*), based on the current "
+"date."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/fields.rst:0
+#: ../../content/applications/productivity/studio/fields.rst
 msgid "Examples of Date fields with different widgets"
 msgstr ""
 
@@ -2639,23 +2603,23 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:182
 msgid ""
-"The :guilabel:`Date & Time` field is used to select a date on a calendar and"
-" a time on a clock. The user's current time is automatically used if no time"
-" is set."
+"The :guilabel:`Date & Time` field is used to select a date on a calendar "
+"and a time on a clock. The user's current time is automatically used if "
+"no time is set."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:185
-msgid ""
-":guilabel:`Date`: used to record the time without displaying it on the UI."
+msgid ":guilabel:`Date`: used to record the time without displaying it on the UI."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:186
 msgid ""
-":guilabel:`Remaining days`: displays the remaining number of days before the"
-" selected date (e.g., *In 5 days*), based on the current date and time."
+":guilabel:`Remaining days`: displays the remaining number of days before "
+"the selected date (e.g., *In 5 days*), based on the current date and "
+"time."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/fields.rst:0
+#: ../../content/applications/productivity/studio/fields.rst
 msgid "Examples of Date & Time fields with different widgets"
 msgstr ""
 
@@ -2665,8 +2629,8 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:200
 msgid ""
-"The :guilabel:`Checkbox` field is used when a value should only be true or "
-"false, indicated by checking or unchecking a checkbox."
+"The :guilabel:`Checkbox` field is used when a value should only be true "
+"or false, indicated by checking or unchecking a checkbox."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:203
@@ -2681,7 +2645,7 @@ msgid ""
 "switching to the edit mode."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/fields.rst:0
+#: ../../content/applications/productivity/studio/fields.rst
 msgid "Examples of Checkbox fields with different widgets"
 msgstr ""
 
@@ -2691,8 +2655,8 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:217
 msgid ""
-"The :guilabel:`Selection` field is used when users should select a single "
-"value from a group of predefined values."
+"The :guilabel:`Selection` field is used when users should select a single"
+" value from a group of predefined values."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:222
@@ -2703,27 +2667,27 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:224
 msgid ""
-":guilabel:`Priority`: displays star symbols instead of values, which can be "
-"used to indicate an importance or satisfaction level, for example. This has "
-"the same effect as selecting the :ref:`Priority field <studio/fields/simple-"
-"fields/priority>`, although, for the latter, four priority values are "
-"already predefined."
+":guilabel:`Priority`: displays star symbols instead of values, which can "
+"be used to indicate an importance or satisfaction level, for example. "
+"This has the same effect as selecting the :ref:`Priority field "
+"<studio/fields/simple-fields/priority>`, although, for the latter, four "
+"priority values are already predefined."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:228
 #: ../../content/applications/productivity/studio/fields.rst:352
 msgid ""
-":guilabel:`Radio`: displays all selectable values at the same time as radio "
-"buttons."
+":guilabel:`Radio`: displays all selectable values at the same time as "
+"radio buttons."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:231
 msgid ""
-"By default, radio buttons are organized vertically. Tick :guilabel:`display "
-"horizontally` to switch the way they are displayed."
+"By default, radio buttons are organized vertically. Tick "
+":guilabel:`display horizontally` to switch the way they are displayed."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/fields.rst:0
+#: ../../content/applications/productivity/studio/fields.rst
 msgid "Examples of Selection fields with different widgets"
 msgstr ""
 
@@ -2734,24 +2698,24 @@ msgstr ""
 #: ../../content/applications/productivity/studio/fields.rst:245
 msgid ""
 "The :guilabel:`Priority` field is used to display a three-star rating "
-"system, which can be used to indicate importance or satisfaction level. This"
-" field type is a :ref:`Selection field <studio/fields/simple-"
-"fields/selection>` with the :guilabel:`Priority` widget selected by default "
-"and four priority values predefined. Consequently, the :guilabel:`Badge`, "
-":guilabel:`Badges`, :guilabel:`Radio`, and :guilabel:`Selection` widgets "
-"have the same effects as described under :ref:`Selection "
-"<studio/fields/simple-fields/selection>`."
+"system, which can be used to indicate importance or satisfaction level. "
+"This field type is a :ref:`Selection field <studio/fields/simple-"
+"fields/selection>` with the :guilabel:`Priority` widget selected by "
+"default and four priority values predefined. Consequently, the "
+":guilabel:`Badge`, :guilabel:`Badges`, :guilabel:`Radio`, and "
+":guilabel:`Selection` widgets have the same effects as described under "
+":ref:`Selection <studio/fields/simple-fields/selection>`."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:253
 msgid ""
-"To change the number of available stars by adding or removing values, click "
-":guilabel:`Edit Values`. Note that the first value is equal to 0 stars "
-"(i.e., when no selection is made), so having four values results in a three-"
-"star rating system, for example."
+"To change the number of available stars by adding or removing values, "
+"click :guilabel:`Edit Values`. Note that the first value is equal to 0 "
+"stars (i.e., when no selection is made), so having four values results in"
+" a three-star rating system, for example."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/fields.rst:0
+#: ../../content/applications/productivity/studio/fields.rst
 msgid "Example of a Priority field"
 msgstr ""
 
@@ -2767,9 +2731,10 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:271
 msgid ""
-":guilabel:`Image`: users can upload an image file, which is then displayed "
-"in :ref:`Form view <studio/views/general/form>`. This has the same effect as"
-" using the :ref:`Image field <studio/fields/simple-fields/image>`."
+":guilabel:`Image`: users can upload an image file, which is then "
+"displayed in :ref:`Form view <studio/views/general/form>`. This has the "
+"same effect as using the :ref:`Image field <studio/fields/simple-"
+"fields/image>`."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:274
@@ -2780,12 +2745,12 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:276
 msgid ""
-":guilabel:`Sign`: users can electronically sign the form. This has the same "
-"effect as selecting the :ref:`Sign field <studio/fields/simple-"
+":guilabel:`Sign`: users can electronically sign the form. This has the "
+"same effect as selecting the :ref:`Sign field <studio/fields/simple-"
 "fields/sign>`."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/fields.rst:0
+#: ../../content/applications/productivity/studio/fields.rst
 msgid "Examples of File fields with different widgets"
 msgstr ""
 
@@ -2799,15 +2764,16 @@ msgid ""
 ":ref:`Form view <studio/views/general/form>`. This field type is a "
 ":ref:`File field <studio/fields/simple-fields/file>` with the "
 ":guilabel:`Image` widget selected by default. Consequently, the "
-":guilabel:`File`, :guilabel:`PDF Viewer`, and :guilabel:`Sign` widgets have "
-"the same effects as described under :ref:`File <studio/fields/simple-"
-"fields/file>`."
+":guilabel:`File`, :guilabel:`PDF Viewer`, and :guilabel:`Sign` widgets "
+"have the same effects as described under :ref:`File <studio/fields"
+"/simple-fields/file>`."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:297
 msgid ""
 "To change the display size of uploaded images, select :guilabel:`Small`, "
-":guilabel:`Medium`, or :guilabel:`Large` under the :guilabel:`Size` option."
+":guilabel:`Medium`, or :guilabel:`Large` under the :guilabel:`Size` "
+"option."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:303
@@ -2817,21 +2783,22 @@ msgstr ""
 #: ../../content/applications/productivity/studio/fields.rst:305
 msgid ""
 "The :guilabel:`Sign` field is used to sign the form electronically. This "
-"field type is a :ref:`File field <studio/fields/simple-fields/file>` with "
-"the :guilabel:`Sign` widget selected by default. Consequently, the "
-":guilabel:`File`, :guilabel:`Image`, and :guilabel:`PDF Viewer` widgets have"
-" the same effects as described under :ref:`File <studio/fields/simple-"
-"fields/file>`."
+"field type is a :ref:`File field <studio/fields/simple-fields/file>` with"
+" the :guilabel:`Sign` widget selected by default. Consequently, the "
+":guilabel:`File`, :guilabel:`Image`, and :guilabel:`PDF Viewer` widgets "
+"have the same effects as described under :ref:`File <studio/fields"
+"/simple-fields/file>`."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:311
 msgid ""
 "To give users the :guilabel:`Auto` option when having to draw their "
-"signature, select one of the available :guilabel:`Auto-complete with` fields"
-" (:ref:`Text <studio/fields/simple-fields/text>`, :ref:`Many2One "
+"signature, select one of the available :guilabel:`Auto-complete with` "
+"fields (:ref:`Text <studio/fields/simple-fields/text>`, :ref:`Many2One "
 "<studio/fields/relational-fields/many2one>`, and :ref:`Related Field "
 "<studio/fields/relational-fields/related-field>` on the model only). The "
-"signature is automatically generated using the data from the selected field."
+"signature is automatically generated using the data from the selected "
+"field."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:320
@@ -2850,9 +2817,9 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:332
 msgid ""
-"The :guilabel:`Many2One` field is used to link another record (from another "
-"model) to the record being edited. The record's name from the other model is"
-" then displayed on the record being edited."
+"The :guilabel:`Many2One` field is used to link another record (from "
+"another model) to the record being edited. The record's name from the "
+"other model is then displayed on the record being edited."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:336
@@ -2862,7 +2829,7 @@ msgid ""
 "**many** sales orders to be linked to **one** contact (customer)."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/fields.rst:0
+#: ../../content/applications/productivity/studio/fields.rst
 msgid "Diagram showing a many2one relationship"
 msgstr ""
 
@@ -2880,14 +2847,14 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:348
 msgid ""
-"To help users only select the right record, click on :guilabel:`Domain` to "
-"create a filter."
+"To help users only select the right record, click on :guilabel:`Domain` "
+"to create a filter."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:350
 msgid ""
-":guilabel:`Badge`: displays the value inside a rounded shape, similar to a "
-"tag. The value cannot be edited on the UI."
+":guilabel:`Badge`: displays the value inside a rounded shape, similar to "
+"a tag. The value cannot be edited on the UI."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:357
@@ -2903,20 +2870,20 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:363
 msgid ""
-"You could add a :guilabel:`One2Many` field on the *Contact* model to look at"
-" **one** customer's **many** sales orders."
+"You could add a :guilabel:`One2Many` field on the *Contact* model to look"
+" at **one** customer's **many** sales orders."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/fields.rst:0
+#: ../../content/applications/productivity/studio/fields.rst
 msgid "Diagram showing a one2many relationship"
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:371
 msgid ""
-"To use a :guilabel:`One2Many` field, the two models must have been linked "
-"already using a :ref:`Many2One field <studio/fields/relational-"
-"fields/many2one>`. One2Many relations do not exist independently: a reverse-"
-"search of existing Many2One relations is performed."
+"To use a :guilabel:`One2Many` field, the two models must have been linked"
+" already using a :ref:`Many2One field <studio/fields/relational-"
+"fields/many2one>`. One2Many relations do not exist independently: a "
+"reverse-search of existing Many2One relations is performed."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:378
@@ -2925,18 +2892,19 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:380
 msgid ""
-"The :guilabel:`Lines` field is used to create a table with rows and columns "
-"(e.g., the lines of products on a sales order)."
+"The :guilabel:`Lines` field is used to create a table with rows and "
+"columns (e.g., the lines of products on a sales order)."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:384
 msgid ""
 "To modify the columns, click on the :guilabel:`Lines` field and then "
-":guilabel:`Edit List View`. To edit the form that pops up when a user clicks"
-" on :guilabel:`Add a line`, click on :guilabel:`Edit Form View` instead."
+":guilabel:`Edit List View`. To edit the form that pops up when a user "
+"clicks on :guilabel:`Add a line`, click on :guilabel:`Edit Form View` "
+"instead."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/fields.rst:0
+#: ../../content/applications/productivity/studio/fields.rst
 msgid "Example of a Lines field"
 msgstr ""
 
@@ -2947,27 +2915,26 @@ msgstr ""
 #: ../../content/applications/productivity/studio/fields.rst:399
 msgid ""
 "The :guilabel:`Many2Many` field is used to link multiple records from "
-"another model to multiple records on the current model. Many2Many fields can"
-" use :guilabel:`Disable creation`, :guilabel:`Disable opening`, "
-":guilabel:`Domain`, just like :ref:`Many2One fields "
-"<studio/fields/relational-fields/many2one>`."
+"another model to multiple records on the current model. Many2Many fields "
+"can use :guilabel:`Disable creation`, :guilabel:`Disable opening`, "
+":guilabel:`Domain`, just like :ref:`Many2One fields <studio/fields"
+"/relational-fields/many2one>`."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:405
 msgid ""
 "On the *Task* model, the :guilabel:`Assignees` field is a "
-":guilabel:`Many2Many` field pointing at the *Contact* model. This allows a "
-"single user to be assigned to **many** tasks and **many** users to be "
+":guilabel:`Many2Many` field pointing at the *Contact* model. This allows "
+"a single user to be assigned to **many** tasks and **many** users to be "
 "assigned to a single task."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/fields.rst:0
+#: ../../content/applications/productivity/studio/fields.rst
 msgid "Diagram showing many2many relationships"
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:413
-msgid ""
-":guilabel:`Checkboxes`: users can select several values using checkboxes."
+msgid ":guilabel:`Checkboxes`: users can select several values using checkboxes."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:414
@@ -2983,10 +2950,10 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:423
 msgid ""
-"The :guilabel:`Tags` field is used to display several values from another "
-"model appearing in rounded shapes, also known as *tags*. This field type is "
-"a :ref:`Many2Many field <studio/fields/relational-fields/many2many>` with "
-"the :guilabel:`Tags` widget selected by default. Consequently, the "
+"The :guilabel:`Tags` field is used to display several values from another"
+" model appearing in rounded shapes, also known as *tags*. This field type"
+" is a :ref:`Many2Many field <studio/fields/relational-fields/many2many>` "
+"with the :guilabel:`Tags` widget selected by default. Consequently, the "
 ":guilabel:`Checkboxes` and :guilabel:`Many2Many` widgets have the same "
 "effects as described under :ref:`Many2Many <studio/fields/relational-"
 "fields/many2many>`."
@@ -2998,7 +2965,7 @@ msgid ""
 "colors`."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/fields.rst:0
+#: ../../content/applications/productivity/studio/fields.rst
 msgid "Example of a Tags field"
 msgstr ""
 
@@ -3009,14 +2976,14 @@ msgstr ""
 #: ../../content/applications/productivity/studio/fields.rst:443
 msgid ""
 "A :guilabel:`Related Field` is not a relational field per se; no "
-"relationship is created between models. It uses an existing relationship to "
-"fetch and display information from another record."
+"relationship is created between models. It uses an existing relationship "
+"to fetch and display information from another record."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:447
 msgid ""
-"To display the email address of a customer on the *Sales Order* model, use "
-"the :guilabel:`Related Field` `partner_id.email` by selecting "
+"To display the email address of a customer on the *Sales Order* model, "
+"use the :guilabel:`Related Field` `partner_id.email` by selecting "
 ":guilabel:`Customer` and then :guilabel:`Email`."
 msgstr ""
 
@@ -3026,23 +2993,23 @@ msgstr "权益"
 
 #: ../../content/applications/productivity/studio/fields.rst:455
 msgid ""
-":guilabel:`Invisible`: When it is not necessary for users to view a field on"
-" the UI, tick :guilabel:`Invisible`. It helps clear the UI by only showing "
-"the essential fields depending on a specific situation."
+":guilabel:`Invisible`: When it is not necessary for users to view a field"
+" on the UI, tick :guilabel:`Invisible`. It helps clear the UI by only "
+"showing the essential fields depending on a specific situation."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:460
 msgid ""
-"On the *Form* view of the *Contact* model, the :guilabel:`Title` field only "
-"appears when :guilabel:`Individual` is selected, as that field would not be "
-"helpful for a :guilabel:`Company` contact."
+"On the *Form* view of the *Contact* model, the :guilabel:`Title` field "
+"only appears when :guilabel:`Individual` is selected, as that field would"
+" not be helpful for a :guilabel:`Company` contact."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:465
 msgid ""
-"The :guilabel:`Invisible` attribute also applies to Studio. To view hidden "
-"fields inside Studio, click on a view's :guilabel:`View` tab and tick "
-":guilabel:`Show Invisible Elements`."
+"The :guilabel:`Invisible` attribute also applies to Studio. To view "
+"hidden fields inside Studio, click on a view's :guilabel:`View` tab and "
+"tick :guilabel:`Show Invisible Elements`."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:469
@@ -3053,52 +3020,51 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:471
 msgid ""
-":guilabel:`Read only`: If users should not be able to modify a field, tick "
-":guilabel:`Read only`."
+":guilabel:`Read only`: If users should not be able to modify a field, "
+"tick :guilabel:`Read only`."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:474
 msgid ""
-"You can choose to apply these three properties only for specific records by "
-"clicking on :guilabel:`Conditional` and creating a filter."
+"You can choose to apply these three properties only for specific records "
+"by clicking on :guilabel:`Conditional` and creating a filter."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:477
-msgid ""
-":guilabel:`Label`: The :guilabel:`Label` is the field's name on the UI."
+msgid ":guilabel:`Label`: The :guilabel:`Label` is the field's name on the UI."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:480
 msgid ""
-"This is not the same name as used in the PostgreSQL database. To view and "
-"change the latter, activate the :ref:`Developer mode <developer-mode>`, and "
-"edit the :guilabel:`Technical Name`."
+"This is not the same name as used in the PostgreSQL database. To view and"
+" change the latter, activate the :ref:`Developer mode <developer-mode>`, "
+"and edit the :guilabel:`Technical Name`."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:483
 msgid ""
 ":guilabel:`Help Tooltip`: To explain the purpose of a field, write a "
-"description under :guilabel:`Help Tooltip`. It is displayed inside a tooltip"
-" box when hovering with your mouse over the field's label."
+"description under :guilabel:`Help Tooltip`. It is displayed inside a "
+"tooltip box when hovering with your mouse over the field's label."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:486
 msgid ""
 ":guilabel:`Placeholder`: To provide an example of how a field should be "
-"completed, write it under :guilabel:`Placeholder`. It is displayed in light "
-"gray in lieu of the field's value."
+"completed, write it under :guilabel:`Placeholder`. It is displayed in "
+"light gray in lieu of the field's value."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:488
 msgid ""
-":guilabel:`Widget`: To change the default appearance or functionality of a "
-"field, select one of the available widgets."
+":guilabel:`Widget`: To change the default appearance or functionality of "
+"a field, select one of the available widgets."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:490
 msgid ""
-":guilabel:`Default value`: To add a default value to a field when a record "
-"is created, use :guilabel:`Default value`."
+":guilabel:`Default value`: To add a default value to a field when a "
+"record is created, use :guilabel:`Default value`."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/fields.rst:492
@@ -3113,10 +3079,11 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/models_modules_apps.rst:5
 msgid ""
-"Models determine the logical structure of a database and how data is stored,"
-" organized, and manipulated. In other words, a model is a table of "
-"information that can be linked with other tables. A model usually represents"
-" a business concept, such as a *sales order*, *contact*, or *product*."
+"Models determine the logical structure of a database and how data is "
+"stored, organized, and manipulated. In other words, a model is a table of"
+" information that can be linked with other tables. A model usually "
+"represents a business concept, such as a *sales order*, *contact*, or "
+"*product*."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/models_modules_apps.rst:9
@@ -3127,8 +3094,8 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/models_modules_apps.rst:13
 msgid ""
-"All apps are modules. Larger, standalone modules are typically referred to "
-"as apps, whereas other modules usually serve as add-ons to said apps."
+"All apps are modules. Larger, standalone modules are typically referred "
+"to as apps, whereas other modules usually serve as add-ons to said apps."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/models_modules_apps.rst:19
@@ -3137,26 +3104,25 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/models_modules_apps.rst:21
 msgid ""
-"When you create a new model or app with Studio, you can choose to add up to "
-"14 features to speed up the creation process. These features bundle fields, "
-"default settings, and views that are usually used together to provide some "
-"standard functionality. Most of these features can be added later on, but "
-"adding them from the start makes the model creation process much easier. "
-"Furthermore, these features interact together in some cases to increase "
-"their usefulness."
+"When you create a new model or app with Studio, you can choose to add up "
+"to 14 features to speed up the creation process. These features bundle "
+"fields, default settings, and views that are usually used together to "
+"provide some standard functionality. Most of these features can be added "
+"later on, but adding them from the start makes the model creation process"
+" much easier. Furthermore, these features interact together in some cases"
+" to increase their usefulness."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/models_modules_apps.rst:28
 msgid ""
 "Creating a model with the :ref:`studio/models-modules-apps/suggested-"
-"features/picture` and :ref:`studio/models-modules-apps/suggested-"
-"features/pipeline-stages` features enabled adds the image in the card layout"
-" of the :ref:`Kanban view <studio/views/multiple-records/kanban>`."
+"features/picture` and :ref:`studio/models-modules-apps/suggested-features"
+"/pipeline-stages` features enabled adds the image in the card layout of "
+"the :ref:`Kanban view <studio/views/multiple-records/kanban>`."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/models_modules_apps.rst:0
-msgid ""
-"Combination of the Picture and Pipeline stages features on the Kanban view"
+#: ../../content/applications/productivity/studio/models_modules_apps.rst
+msgid "Combination of the Picture and Pipeline stages features on the Kanban view"
 msgstr ""
 
 #: ../../content/applications/productivity/studio/models_modules_apps.rst:39
@@ -3166,16 +3132,16 @@ msgstr "详细联系方式"
 #: ../../content/applications/productivity/studio/models_modules_apps.rst:41
 msgid ""
 "Selecting :guilabel:`Contact details` adds to the :ref:`Form view "
-"<studio/views/general/form>` a :ref:`Many2One field "
-"<studio/fields/relational-fields/many2one>` linked to the *Contact* model "
-"and two of its :ref:`Related Fields <studio/fields/relational-"
-"fields/related-field>`: :guilabel:`Phone` and :guilabel:`Email`. The "
-":guilabel:`Contact` field is also added to the :ref:`List view "
-"<studio/views/multiple-records/list>`, and the :ref:`Map view "
-"<studio/views/multiple-records/map>` is activated."
+"<studio/views/general/form>` a :ref:`Many2One field <studio/fields"
+"/relational-fields/many2one>` linked to the *Contact* model and two of "
+"its :ref:`Related Fields <studio/fields/relational-fields/related-"
+"field>`: :guilabel:`Phone` and :guilabel:`Email`. The :guilabel:`Contact`"
+" field is also added to the :ref:`List view <studio/views/multiple-"
+"records/list>`, and the :ref:`Map view <studio/views/multiple-"
+"records/map>` is activated."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/models_modules_apps.rst:0
+#: ../../content/applications/productivity/studio/models_modules_apps.rst
 msgid "Contact details feature on the Form view"
 msgstr ""
 
@@ -3186,16 +3152,16 @@ msgstr "用户分配"
 #: ../../content/applications/productivity/studio/models_modules_apps.rst:59
 msgid ""
 "Selecting :guilabel:`User assignment` adds to the :ref:`Form view "
-"<studio/views/general/form>` a :ref:`Many2One field "
-"<studio/fields/relational-fields/many2one>` linked to the *Contact* model, "
-"with the following :guilabel:`Domain`: `Share User is not set` to only allow"
-" the selection of *Internal Users*. In addition, the "
+"<studio/views/general/form>` a :ref:`Many2One field <studio/fields"
+"/relational-fields/many2one>` linked to the *Contact* model, with the "
+"following :guilabel:`Domain`: `Share User is not set` to only allow the "
+"selection of *Internal Users*. In addition, the "
 ":guilabel:`many2one_avatar_user` widget is used to display the user's "
-"avatar. The :guilabel:`Responsible` field is also added to the :ref:`List "
-"view <studio/views/multiple-records/list>`."
+"avatar. The :guilabel:`Responsible` field is also added to the :ref:`List"
+" view <studio/views/multiple-records/list>`."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/models_modules_apps.rst:0
+#: ../../content/applications/productivity/studio/models_modules_apps.rst
 msgid "User assignment feature on the Form view"
 msgstr ""
 
@@ -3219,9 +3185,9 @@ msgstr "日期范围和甘特图"
 msgid ""
 "Selecting :guilabel:`Date range & Gantt` adds to the :ref:`Form view "
 "<studio/views/general/form>` two :ref:`Date fields <studio/fields/simple-"
-"fields/date>` next to each other: one to set a start date, the other to set "
-"an end date, using the :guilabel:`daterange` widget, and activates the "
-":ref:`Gantt view <studio/views/timeline/gantt>`."
+"fields/date>` next to each other: one to set a start date, the other to "
+"set an end date, using the :guilabel:`daterange` widget, and activates "
+"the :ref:`Gantt view <studio/views/timeline/gantt>`."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/models_modules_apps.rst:94
@@ -3232,12 +3198,12 @@ msgstr "渠道阶段"
 msgid ""
 "Selecting :guilabel:`Pipeline stages` activates the :ref:`Kanban view "
 "<studio/views/multiple-records/kanban>`, adds several fields such as "
-":ref:`Priority <studio/fields/simple-fields/priority>` and :guilabel:`Kanban"
-" State`, and three stages: :guilabel:`New`, :guilabel:`In Progress`, and "
-":guilabel:`Done`. The :guilabel:`Pipeline status bar` and the "
-":guilabel:`Kanban State` field are added to the :ref:`Form view "
-"<studio/views/general/form>`. The :guilabel:`Color` field is added to the "
-":ref:`List view <studio/views/multiple-records/list>`."
+":ref:`Priority <studio/fields/simple-fields/priority>` and "
+":guilabel:`Kanban State`, and three stages: :guilabel:`New`, "
+":guilabel:`In Progress`, and :guilabel:`Done`. The :guilabel:`Pipeline "
+"status bar` and the :guilabel:`Kanban State` field are added to the "
+":ref:`Form view <studio/views/general/form>`. The :guilabel:`Color` field"
+" is added to the :ref:`List view <studio/views/multiple-records/list>`."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/models_modules_apps.rst:105
@@ -3250,8 +3216,8 @@ msgstr "标签"
 
 #: ../../content/applications/productivity/studio/models_modules_apps.rst:112
 msgid ""
-"Selecting :guilabel:`Tags` adds to the :ref:`studio/views/general/form` and "
-":ref:`studio/views/multiple-records/list` views a :ref:`Tags field "
+"Selecting :guilabel:`Tags` adds to the :ref:`studio/views/general/form` "
+"and :ref:`studio/views/multiple-records/list` views a :ref:`Tags field "
 "<studio/fields/relational-fields/tags>`, creating a *Tag* model with "
 "preconfigured access rights in the process."
 msgstr ""
@@ -3262,9 +3228,9 @@ msgstr "图片"
 
 #: ../../content/applications/productivity/studio/models_modules_apps.rst:122
 msgid ""
-"Selecting :guilabel:`Picture` adds to the top-right of the :ref:`Form view "
-"<studio/views/general/form>` an :ref:`Image field <studio/fields/simple-"
-"fields/image>`."
+"Selecting :guilabel:`Picture` adds to the top-right of the :ref:`Form "
+"view <studio/views/general/form>` an :ref:`Image field <studio/fields"
+"/simple-fields/image>`."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/models_modules_apps.rst:126
@@ -3278,8 +3244,8 @@ msgstr "明细行"
 #: ../../content/applications/productivity/studio/models_modules_apps.rst:133
 msgid ""
 "Selecting :guilabel:`Lines`: adds to the :ref:`Form view "
-"<studio/views/general/form>` a :ref:`Lines field <studio/fields/relational-"
-"fields/lines>` inside a :guilabel:`Tab` component."
+"<studio/views/general/form>` a :ref:`Lines field <studio/fields"
+"/relational-fields/lines>` inside a :guilabel:`Tab` component."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/models_modules_apps.rst:139
@@ -3316,9 +3282,10 @@ msgstr "公司"
 
 #: ../../content/applications/productivity/studio/models_modules_apps.rst:162
 msgid ""
-"Selecting :guilabel:`Company` adds to the :ref:`studio/views/general/form` "
-"and :ref:`studio/views/multiple-records/list` views a :ref:`Many2One field "
-"<studio/fields/relational-fields/many2one>` linked to the *Company* model."
+"Selecting :guilabel:`Company` adds to the "
+":ref:`studio/views/general/form` and :ref:`studio/views/multiple-"
+"records/list` views a :ref:`Many2One field <studio/fields/relational-"
+"fields/many2one>` linked to the *Company* model."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/models_modules_apps.rst:167
@@ -3332,11 +3299,11 @@ msgstr "自定义排序"
 #: ../../content/applications/productivity/studio/models_modules_apps.rst:174
 msgid ""
 "Selecting :guilabel:`Custom Sorting` adds to the :ref:`List view "
-"<studio/views/multiple-records/list>` a drag handle icon to manually reorder"
-" records."
+"<studio/views/multiple-records/list>` a drag handle icon to manually "
+"reorder records."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/models_modules_apps.rst:0
+#: ../../content/applications/productivity/studio/models_modules_apps.rst
 msgid "Custom Sorting feature on the List view"
 msgstr ""
 
@@ -3355,7 +3322,7 @@ msgstr ""
 msgid "The :guilabel:`Chatter` feature can be added at a later stage."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/models_modules_apps.rst:0
+#: ../../content/applications/productivity/studio/models_modules_apps.rst
 msgid "Chatter feature on the Form view"
 msgstr ""
 
@@ -3365,9 +3332,10 @@ msgstr "归档"
 
 #: ../../content/applications/productivity/studio/models_modules_apps.rst:205
 msgid ""
-"Selecting :guilabel:`Archiving` adds to the :ref:`studio/views/general/form`"
-" and :ref:`studio/views/multiple-records/list` views the :guilabel:`Archive`"
-" action and hides archived records from searches and views by default."
+"Selecting :guilabel:`Archiving` adds to the "
+":ref:`studio/views/general/form` and :ref:`studio/views/multiple-"
+"records/list` views the :guilabel:`Archive` action and hides archived "
+"records from searches and views by default."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/models_modules_apps.rst:212
@@ -3383,23 +3351,23 @@ msgstr ""
 #: ../../content/applications/productivity/studio/models_modules_apps.rst:217
 msgid ""
 "To export these customizations, go to :menuselection:`Main dashboard --> "
-"Studio --> Customizations --> Export` to download a ZIP file containing all "
-"customizations."
+"Studio --> Customizations --> Export` to download a ZIP file containing "
+"all customizations."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/models_modules_apps.rst:220
 msgid ""
-"To import and install these customizations in another database, connect to "
-"the destination database and go to :menuselection:`Main dashboard --> Studio"
-" --> Customizations --> Import`, then upload the exported ZIP file before "
-"clicking on the :guilabel:`Import` button."
+"To import and install these customizations in another database, connect "
+"to the destination database and go to :menuselection:`Main dashboard --> "
+"Studio --> Customizations --> Import`, then upload the exported ZIP file "
+"before clicking on the :guilabel:`Import` button."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/models_modules_apps.rst:225
 msgid ""
-"Before importing, make sure the destination database contains the same apps "
-"and modules as the source database. Studio does not add the underlying "
-"modules as dependencies of the exported module."
+"Before importing, make sure the destination database contains the same "
+"apps and modules as the source database. Studio does not add the "
+"underlying modules as dependencies of the exported module."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:3
@@ -3409,11 +3377,11 @@ msgstr "查看"
 #: ../../content/applications/productivity/studio/views.rst:5
 msgid ""
 "Views are the interface that allows displaying the data contained in a "
-"model. One model can have several views, which are simply different ways to "
-"show the same data. In Studio, views are organized into four categories: "
-":ref:`general <studio/views/general>`, :ref:`multiple records "
-"<studio/views/multiple-records>`, :ref:`timeline <studio/views/timeline>`, "
-"and :ref:`reporting <studio/views/reporting>`."
+"model. One model can have several views, which are simply different ways "
+"to show the same data. In Studio, views are organized into four "
+"categories: :ref:`general <studio/views/general>`, :ref:`multiple records"
+" <studio/views/multiple-records>`, :ref:`timeline "
+"<studio/views/timeline>`, and :ref:`reporting <studio/views/reporting>`."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:12
@@ -3424,20 +3392,20 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:16
 msgid ""
-"You can modify views by using the built-in XML editor. To do so, activate "
-":ref:`Developer mode <developer-mode>`, go to the view you want to edit, "
-"select the :guilabel:`View` tab and then click on :guilabel:`</> XML`."
+"You can modify views by using the built-in XML editor. To do so, activate"
+" :ref:`Developer mode <developer-mode>`, go to the view you want to edit,"
+" select the :guilabel:`View` tab and then click on :guilabel:`</> XML`."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:21
 msgid ""
 "If you are editing a view using the XML editor, avoid making changes "
-"directly to standard views and inherited views, as those would be reset and "
-"would not be kept in case of an update or module upgrade. Always make sure "
-"you select the right Studio inherited views. Indeed, when you modify a view "
-"in Studio by drag-and-dropping a new field, a specific Studio inherited view"
-" and its XPath, the latter which defines which part of the view is modified,"
-" are automatically generated."
+"directly to standard views and inherited views, as those would be reset "
+"and would not be kept in case of an update or module upgrade. Always make"
+" sure you select the right Studio inherited views. Indeed, when you "
+"modify a view in Studio by drag-and-dropping a new field, a specific "
+"Studio inherited view and its XPath, the latter which defines which part "
+"of the view is modified, are automatically generated."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:31
@@ -3449,8 +3417,8 @@ msgstr ""
 #: ../../content/applications/productivity/studio/views.rst:195
 #: ../../content/applications/productivity/studio/views.rst:311
 msgid ""
-"The settings described below are found under the view's :guilabel:`View` tab"
-" unless specified otherwise."
+"The settings described below are found under the view's :guilabel:`View` "
+"tab unless specified otherwise."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:40
@@ -3459,14 +3427,14 @@ msgstr "表单"
 
 #: ../../content/applications/productivity/studio/views.rst:42
 msgid ""
-"The :guilabel:`Form` view is used when creating and editing records, such as"
-" contacts, sales orders, products, etc."
+"The :guilabel:`Form` view is used when creating and editing records, such"
+" as contacts, sales orders, products, etc."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:45
 msgid ""
-"To structure a form, drag-and-drop the :guilabel:`Tabs and Columns` element "
-"found under the :guilabel:`+ Add` tab."
+"To structure a form, drag-and-drop the :guilabel:`Tabs and Columns` "
+"element found under the :guilabel:`+ Add` tab."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:47
@@ -3476,7 +3444,7 @@ msgid ""
 ":guilabel:`Can Create`, :guilabel:`Can Edit`, or :guilabel:`Can Delete`."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/views.rst:0
+#: ../../content/applications/productivity/studio/views.rst
 msgid "Sales order model's Form view"
 msgstr ""
 
@@ -3486,15 +3454,15 @@ msgstr "活动"
 
 #: ../../content/applications/productivity/studio/views.rst:61
 msgid ""
-"The :guilabel:`Activity` view is used to schedule and have an overview of "
-"activities (emails, calls, etc.) linked to records."
+"The :guilabel:`Activity` view is used to schedule and have an overview of"
+" activities (emails, calls, etc.) linked to records."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:65
 msgid "This view can only be modified within Studio by editing the XML code."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/views.rst:0
+#: ../../content/applications/productivity/studio/views.rst
 msgid "Lead/Opportunity model's Activity view"
 msgstr ""
 
@@ -3504,25 +3472,25 @@ msgstr "搜索"
 
 #: ../../content/applications/productivity/studio/views.rst:78
 msgid ""
-"The :guilabel:`Search` view is added on top of other views to filter, group,"
-" and search records."
+"The :guilabel:`Search` view is added on top of other views to filter, "
+"group, and search records."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:80
 msgid ""
 "To add custom :guilabel:`Filters` and structure them using "
-":guilabel:`Separators`, go to the :guilabel:`+ Add` tab and drag and drop "
-"them under :guilabel:`Filters`."
+":guilabel:`Separators`, go to the :guilabel:`+ Add` tab and drag and drop"
+" them under :guilabel:`Filters`."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:82
 msgid ""
 "To add an existing field under the search dropdown menu, go to the "
-":guilabel:`+ Add` tab and drag-and-drop it under :guilabel:`Autocompletion "
-"Fields`."
+":guilabel:`+ Add` tab and drag-and-drop it under "
+":guilabel:`Autocompletion Fields`."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/views.rst:0
+#: ../../content/applications/productivity/studio/views.rst
 msgid "Project model's Search view on the Kanban view"
 msgstr ""
 
@@ -3543,29 +3511,28 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:109
 msgid ""
-"If the :guilabel:`Kanban` view exists, it is used by default to display data"
-" on mobile devices instead of the :ref:`List view <studio/views/multiple-"
-"records/list>`."
+"If the :guilabel:`Kanban` view exists, it is used by default to display "
+"data on mobile devices instead of the :ref:`List view <studio/views"
+"/multiple-records/list>`."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:112
-msgid ""
-"To prevent users from creating new records, untick :guilabel:`Can Create`."
+msgid "To prevent users from creating new records, untick :guilabel:`Can Create`."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:113
 msgid ""
-"To create records directly within the view, in a minimalistic form, enable "
-":guilabel:`Quick Create`."
+"To create records directly within the view, in a minimalistic form, "
+"enable :guilabel:`Quick Create`."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:115
 msgid ""
-"To change the way records are grouped by default, select a new group under "
-":guilabel:`Default Group by`."
+"To change the way records are grouped by default, select a new group "
+"under :guilabel:`Default Group by`."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/views.rst:0
+#: ../../content/applications/productivity/studio/views.rst
 msgid "Project model's Kanban view"
 msgstr ""
 
@@ -3575,15 +3542,15 @@ msgstr "列表"
 
 #: ../../content/applications/productivity/studio/views.rst:129
 msgid ""
-"The :guilabel:`List` view is used to overview many records at once, look for"
-" records, and edit simple records."
+"The :guilabel:`List` view is used to overview many records at once, look "
+"for records, and edit simple records."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:134
 msgid ""
 "To create and edit records directly within the view, select either "
-":guilabel:`New record on top` or :guilabel:`New record at the bottom` under "
-":guilabel:`Editable`."
+":guilabel:`New record on top` or :guilabel:`New record at the bottom` "
+"under :guilabel:`Editable`."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:138
@@ -3604,16 +3571,16 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:145
 msgid ""
-"To add a drag handle icon to reorder records manually, add an :ref:`Integer "
-"field <studio/fields/simple-fields/integer>` with the :guilabel:`Handle` "
-"widget."
+"To add a drag handle icon to reorder records manually, add an "
+":ref:`Integer field <studio/fields/simple-fields/integer>` with the "
+":guilabel:`Handle` widget."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/views.rst:0
+#: ../../content/applications/productivity/studio/views.rst
 msgid "Drag handle icon enabling to sort records manually in List view"
 msgstr ""
 
-#: ../../content/applications/productivity/studio/views.rst:0
+#: ../../content/applications/productivity/studio/views.rst
 msgid "Sales order model's List view"
 msgstr ""
 
@@ -3623,28 +3590,28 @@ msgstr "地图"
 
 #: ../../content/applications/productivity/studio/views.rst:163
 msgid ""
-"The :guilabel:`Map` view is used to display records on a map. For example, "
-"it is used in the Field Service app to plan an itinerary between different "
-"tasks."
+"The :guilabel:`Map` view is used to display records on a map. For "
+"example, it is used in the Field Service app to plan an itinerary between"
+" different tasks."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:167
 msgid ""
-"A :ref:`Many2One field <studio/fields/relational-fields/many2one>` linked to"
-" the *Contact* model is required to activate the view, as the contact "
+"A :ref:`Many2One field <studio/fields/relational-fields/many2one>` linked"
+" to the *Contact* model is required to activate the view, as the contact "
 "address is used to position records on the map."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:170
 msgid ""
-"To select which kind of contact should be used on the map, select it under "
-":guilabel:`Contact Field`."
+"To select which kind of contact should be used on the map, select it "
+"under :guilabel:`Contact Field`."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:172
 msgid ""
-"To hide the name or the address of the record, tick :guilabel:`Hide name` or"
-" :guilabel:`Hide Address`."
+"To hide the name or the address of the record, tick :guilabel:`Hide name`"
+" or :guilabel:`Hide Address`."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:174
@@ -3660,7 +3627,7 @@ msgid ""
 "records for the routing."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/views.rst:0
+#: ../../content/applications/productivity/studio/views.rst
 msgid "Task model's Map view"
 msgstr ""
 
@@ -3670,12 +3637,12 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:190
 msgid ""
-"When you first activate one of the timeline views, you need to select which "
-":ref:`Date <studio/fields/simple-fields/date>` or :ref:`Date & Time "
-"<studio/fields/simple-fields/date-time>` fields on your model should be used"
-" to define when the records start and stop in order to display them on the "
-"view. You can modify the :guilabel:`Start Date Field` and :guilabel:`Stop "
-"Date Field` after activating the view."
+"When you first activate one of the timeline views, you need to select "
+"which :ref:`Date <studio/fields/simple-fields/date>` or :ref:`Date & Time"
+" <studio/fields/simple-fields/date-time>` fields on your model should be "
+"used to define when the records start and stop in order to display them "
+"on the view. You can modify the :guilabel:`Start Date Field` and "
+":guilabel:`Stop Date Field` after activating the view."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:201
@@ -3684,48 +3651,49 @@ msgstr "日历"
 
 #: ../../content/applications/productivity/studio/views.rst:203
 msgid ""
-"The :guilabel:`Calendar` view is used to overview and manage records inside "
-"a calendar."
+"The :guilabel:`Calendar` view is used to overview and manage records "
+"inside a calendar."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:205
 msgid ""
-"To create records directly within the view instead of opening the :ref:`Form"
-" view <studio/views/general/form>`, enable :guilabel:`Quick Create`."
+"To create records directly within the view instead of opening the "
+":ref:`Form view <studio/views/general/form>`, enable :guilabel:`Quick "
+"Create`."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:209
 msgid ""
-"This only works on specific models that can be *quick-created* using only a "
-"*name*. However, most models do not support quick creation and open the "
-":guilabel:`Form` view to fill in the required fields."
+"This only works on specific models that can be *quick-created* using only"
+" a *name*. However, most models do not support quick creation and open "
+"the :guilabel:`Form` view to fill in the required fields."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:213
 msgid ""
-"To color records on the calendar, select a field under :guilabel:`Color`. "
-"All the records sharing the same value for that field are displayed using "
-"the same color."
+"To color records on the calendar, select a field under :guilabel:`Color`."
+" All the records sharing the same value for that field are displayed "
+"using the same color."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:217
 msgid ""
-"As the number of colors is limited, the same color can end up being assigned"
-" to different values."
+"As the number of colors is limited, the same color can end up being "
+"assigned to different values."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:220
 msgid ""
-"To display events lasting the whole day at the top of the calendar, select a"
-" :ref:`Checkbox field <studio/fields/simple-fields/checkbox>` that specifies"
-" if the event lasts the whole day."
+"To display events lasting the whole day at the top of the calendar, "
+"select a :ref:`Checkbox field <studio/fields/simple-fields/checkbox>` "
+"that specifies if the event lasts the whole day."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:223
 msgid ""
 "To choose the default time scale used to display events, select "
-":guilabel:`Day`, :guilabel:`Week`, :guilabel:`Month`, or :guilabel:`Year` "
-"under :guilabel:`Default Display Mode`."
+":guilabel:`Day`, :guilabel:`Week`, :guilabel:`Month`, or :guilabel:`Year`"
+" under :guilabel:`Default Display Mode`."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:227
@@ -3733,12 +3701,12 @@ msgid ""
 "You can also use :guilabel:`Delay Field` to display the duration of the "
 "event in hours by selecting a :ref:`Decimal <studio/fields/simple-"
 "fields/decimal>` or :ref:`Integer <studio/fields/simple-fields/integer>` "
-"field on the model which specifies the duration of the event. However, if "
-"you set an :guilabel:`End Date Field`, the :guilabel:`Delay Field` will not "
-"be taken into account."
+"field on the model which specifies the duration of the event. However, if"
+" you set an :guilabel:`End Date Field`, the :guilabel:`Delay Field` will "
+"not be taken into account."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/views.rst:0
+#: ../../content/applications/productivity/studio/views.rst
 msgid "Calendar Event model's Calendar view"
 msgstr ""
 
@@ -3749,8 +3717,8 @@ msgstr "群组"
 #: ../../content/applications/productivity/studio/views.rst:244
 msgid ""
 "The :guilabel:`Cohort` view is used to examine the life cycle of records "
-"over a time period. For example, it is used in the Subscriptions app to view"
-" the subscriptions' retention rate."
+"over a time period. For example, it is used in the Subscriptions app to "
+"view the subscriptions' retention rate."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:247
@@ -3761,29 +3729,29 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:249
 msgid ""
-"To choose which time interval is used by default to group results, select "
-":guilabel:`Day`, :guilabel:`Week`, :guilabel:`Month`, or :guilabel:`Year` "
-"under :guilabel:`Interval`."
+"To choose which time interval is used by default to group results, select"
+" :guilabel:`Day`, :guilabel:`Week`, :guilabel:`Month`, or "
+":guilabel:`Year` under :guilabel:`Interval`."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:251
 msgid ""
-"To change the cohort :guilabel:`Mode`, select either :guilabel:`Retention` "
-":dfn:`the percentage of records staying over a period of time, it starts at "
-"100% and decreases with time` or :guilabel:`Churn` :dfn:`the percentage of "
-"records moving out over a period of time - it starts at 0% and increases "
-"with time`."
+"To change the cohort :guilabel:`Mode`, select either "
+":guilabel:`Retention` :dfn:`the percentage of records staying over a "
+"period of time, it starts at 100% and decreases with time` or "
+":guilabel:`Churn` :dfn:`the percentage of records moving out over a "
+"period of time - it starts at 0% and increases with time`."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:255
 msgid ""
-"To change the way the :guilabel:`Timeline` (i.e., the columns) progresses, "
-"select either :guilabel:`Forward` (from 0 to +15) or :guilabel:`Backward` "
-"(from -15 to 0). For most purposes, the :guilabel:`Forward` timeline is "
-"used."
+"To change the way the :guilabel:`Timeline` (i.e., the columns) "
+"progresses, select either :guilabel:`Forward` (from 0 to +15) or "
+":guilabel:`Backward` (from -15 to 0). For most purposes, the "
+":guilabel:`Forward` timeline is used."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/views.rst:0
+#: ../../content/applications/productivity/studio/views.rst
 msgid "Subscription model's Cohort view"
 msgstr ""
 
@@ -3805,15 +3773,16 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:275
 msgid ""
-"To fill cells in gray whenever a record should not be created there (e.g., "
-"on weekends for employees), tick :guilabel:`Display Unavailability`."
+"To fill cells in gray whenever a record should not be created there "
+"(e.g., on weekends for employees), tick :guilabel:`Display "
+"Unavailability`."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:279
 msgid ""
-"The underlying model must support this feature, and support for it cannot be"
-" added using Studio. It is supported for the Project, Time Off, Planning, "
-"and Manufacturing apps."
+"The underlying model must support this feature, and support for it cannot"
+" be added using Studio. It is supported for the Project, Time Off, "
+"Planning, and Manufacturing apps."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:282
@@ -3822,8 +3791,8 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:283
 msgid ""
-"To collapse multiple records in a single row, tick :guilabel:`Collapse First"
-" Level`."
+"To collapse multiple records in a single row, tick :guilabel:`Collapse "
+"First Level`."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:284
@@ -3841,9 +3810,9 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:288
 msgid ""
-"To color records on the view, select a field under :guilabel:`Color`. All "
-"the records sharing the same value for that field are displayed using the "
-"same color."
+"To color records on the view, select a field under :guilabel:`Color`. All"
+" the records sharing the same value for that field are displayed using "
+"the same color."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:292
@@ -3854,14 +3823,14 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:294
 msgid ""
-"To specify with which degree of precision each time scale should be divided "
-"by, select :guilabel:`Quarter Hour`, :guilabel:`Half Hour`, or "
-":guilabel:`Hour` under :guilabel:`Day Precision`, :guilabel:`Half Day` or "
-":guilabel:`Day` under :guilabel:`Week Precision`, and :guilabel:`Month "
+"To specify with which degree of precision each time scale should be "
+"divided by, select :guilabel:`Quarter Hour`, :guilabel:`Half Hour`, or "
+":guilabel:`Hour` under :guilabel:`Day Precision`, :guilabel:`Half Day` or"
+" :guilabel:`Day` under :guilabel:`Week Precision`, and :guilabel:`Month "
 "Precision`."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/views.rst:0
+#: ../../content/applications/productivity/studio/views.rst
 msgid "Planning Shift model's Gantt view"
 msgstr ""
 
@@ -3875,10 +3844,10 @@ msgstr "数据透视"
 
 #: ../../content/applications/productivity/studio/views.rst:319
 msgid ""
-"The :guilabel:`Pivot` view is used to explore and analyze the data contained"
-" in records in an interactive manner. It is especially useful to aggregate "
-"numeric data, create categories, and drill down the data by expanding and "
-"collapsing different levels of data."
+"The :guilabel:`Pivot` view is used to explore and analyze the data "
+"contained in records in an interactive manner. It is especially useful to"
+" aggregate numeric data, create categories, and drill down the data by "
+"expanding and collapsing different levels of data."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:323
@@ -3896,17 +3865,17 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:327
 msgid ""
-"To add different types of data to be measured using the view, select a field"
-" under :guilabel:`Measures`."
+"To add different types of data to be measured using the view, select a "
+"field under :guilabel:`Measures`."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:329
 msgid ""
-"To display a count of records that made up the aggregated data in a cell, "
-"tick :guilabel:`Display count`."
+"To display a count of records that made up the aggregated data in a cell,"
+" tick :guilabel:`Display count`."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/views.rst:0
+#: ../../content/applications/productivity/studio/views.rst
 msgid "Purchase Report model's Pivot view"
 msgstr ""
 
@@ -3916,21 +3885,21 @@ msgstr "图形"
 
 #: ../../content/applications/productivity/studio/views.rst:343
 msgid ""
-"The :guilabel:`Graph` view is used to showcase data from records in a bar, "
-"line, or pie chart."
+"The :guilabel:`Graph` view is used to showcase data from records in a "
+"bar, line, or pie chart."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:345
 msgid ""
-"To change the default chart, select :guilabel:`Bar`, :guilabel:`Line`, or "
-":guilabel:`Pie` under :guilabel:`Type`."
+"To change the default chart, select :guilabel:`Bar`, :guilabel:`Line`, or"
+" :guilabel:`Pie` under :guilabel:`Type`."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:347
 msgid ""
 "To choose a default data dimension (category), select a field under "
-":guilabel:`First dimension` and, if needed, another under :guilabel:`Second "
-"dimension`."
+":guilabel:`First dimension` and, if needed, another under "
+":guilabel:`Second dimension`."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:349
@@ -3942,8 +3911,9 @@ msgstr ""
 #: ../../content/applications/productivity/studio/views.rst:351
 msgid ""
 "*For Bar and Line charts only*: To sort the different data categories by "
-"their value, select :guilabel:`Ascending` (from lowest to highest value) or "
-":guilabel:`Descending` (from highest to lowest) under :guilabel:`Sorting`."
+"their value, select :guilabel:`Ascending` (from lowest to highest value) "
+"or :guilabel:`Descending` (from highest to lowest) under "
+":guilabel:`Sorting`."
 msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:354
@@ -3955,12 +3925,12 @@ msgstr ""
 
 #: ../../content/applications/productivity/studio/views.rst:356
 msgid ""
-"*For Bar charts only*: When using two data dimensions (categories), display "
-"the two columns on top of each other by default by ticking "
+"*For Bar charts only*: When using two data dimensions (categories), "
+"display the two columns on top of each other by default by ticking "
 ":guilabel:`Stacked graph`."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/views.rst:0
+#: ../../content/applications/productivity/studio/views.rst
 msgid "Sales Analysis Report model's Bar chart on Graph view"
 msgstr ""
 
@@ -3970,11 +3940,12 @@ msgstr "仪表板"
 
 #: ../../content/applications/productivity/studio/views.rst:370
 msgid ""
-"The :guilabel:`Dashboard` view is used to display multiple reporting views "
-"and key performance indicators. Which elements are displayed on the view "
-"depends on the configuration of the other reporting views."
+"The :guilabel:`Dashboard` view is used to display multiple reporting "
+"views and key performance indicators. Which elements are displayed on the"
+" view depends on the configuration of the other reporting views."
 msgstr ""
 
-#: ../../content/applications/productivity/studio/views.rst:0
+#: ../../content/applications/productivity/studio/views.rst
 msgid "Sales Analysis Report model's Dashboard view"
 msgstr ""
+

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-19 21:16+0800\n"
+"POT-Creation-Date: 2022-10-27 21:52+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -604,7 +604,7 @@ msgid "A computer or tablet with an up-to-date web browser"
 msgstr ""
 
 #: ../../content/applications/productivity/iot/config/pos.rst:17
-msgid "A running SaaS or Odoo instance with the Point of Sale and IoT apps installed"
+msgid "A running Odoo Online or Odoo instance with the Point of Sale and IoT apps installed"
 msgstr ""
 
 #: ../../content/applications/productivity/iot/config/pos.rst:20

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-19 21:16+0800\n"
+"POT-Creation-Date: 2022-10-27 21:52+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -5768,7 +5768,7 @@ msgid "Be careful, you can only change the accounting package as long as you hav
 msgstr ""
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/germany.rst:16
-msgid "When you create a new SaaS database, the SKR03 is installed by default."
+msgid "When you create a new Odoo Online database, the SKR03 is installed by default."
 msgstr ""
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/germany.rst:19
@@ -6062,7 +6062,7 @@ msgid "Once bookings have been finally posted, they can no longer be changed or 
 msgstr ""
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/germany.rst:227
-msgid "If Odoo is used in the cloud, regular backups are part of the SaaS service. In addition, regular backups can be downloaded and backed up on external systems."
+msgid "If Odoo is used in the cloud, regular backups are part of the Odoo Online service. In addition, regular backups can be downloaded and backed up on external systems."
 msgstr ""
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/germany.rst:231
@@ -9424,7 +9424,7 @@ msgid "You can choose the one you want by going in :menuselection:`Accounting --
 msgstr ""
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/spain.rst:20
-msgid "When you create a new SaaS database, the PGCE PYMEs 2008 is installed by default."
+msgid "When you create a new Odoo Online database, the PGCE PYMEs 2008 is installed by default."
 msgstr ""
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/spain.rst:23
@@ -9504,7 +9504,7 @@ msgid "Starting from the 1st January 2018, new reduced VAT rates will be applied
 msgstr ""
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/switzerland.rst:71
-msgid "How to update your taxes in Odoo Enterprise (SaaS or On Premise)?"
+msgid "How to update your taxes in Odoo Enterprise (Odoo Online or On-premise)?"
 msgstr ""
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/switzerland.rst:73
@@ -13839,7 +13839,8 @@ msgid "To buy credits, go to :menuselection:`Accounting --> Configuration --> Se
 msgstr ""
 
 #: ../../content/applications/finance/accounting/payables/supplier_bills/invoice_digitization.rst:74
-msgid "If you are on Odoo Online (SaaS) and have the Enterprise version, you benefit from free trial credits to test the feature."
+#: ../../content/applications/finance/accounting/receivables/customer_invoices/snailmail.rst:45
+msgid "If you are on Odoo Online and have the Enterprise version, you benefit from free trial credits to test the feature."
 msgstr ""
 
 #: ../../content/applications/finance/accounting/payables/supplier_bills/invoice_digitization.rst:78
@@ -15245,10 +15246,6 @@ msgstr ""
 
 #: ../../content/applications/finance/accounting/receivables/customer_invoices/snailmail.rst:42
 msgid "To buy stamps, go to :menuselection:`Accounting --> Configuration --> Settings --> Snailmail` and click on *Buy credits*, or go to :menuselection:`Settings --> Odoo IAP` and click on *View my Services*."
-msgstr ""
-
-#: ../../content/applications/finance/accounting/receivables/customer_invoices/snailmail.rst:45
-msgid "If you are on Odoo Online (SAAS) and have the Enterprise version, you benefit from free trial credits to test the feature."
 msgstr ""
 
 #: ../../content/applications/finance/accounting/receivables/customer_invoices/snailmail.rst:47
@@ -17781,7 +17778,7 @@ msgid "**Odoo Documents** allows you to store, view and manage files within Odoo
 msgstr ""
 
 #: ../../content/applications/finance/documents.rst:7
-msgid "You can upload any type of file (max 64MB per file on Odoo Online/SaaS), and organize them in various workspaces."
+msgid "You can upload any type of file (max 64MB per file on Odoo Online), and organize them in various workspaces."
 msgstr ""
 
 #: ../../content/applications/finance/documents.rst:11

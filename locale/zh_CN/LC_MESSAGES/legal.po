@@ -7,17 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-19 21:16+0800\n"
+"POT-Creation-Date: 2022-10-27 21:52+0800\n"
 "PO-Revision-Date: 2022-10-27 01:16+0000\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
-"Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/"
-"odoo-doc/legal/zh_Hans/>\n"
 "Language: zh_CN\n"
+"Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects"
+"/odoo-doc/legal/zh_Hans/>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.1\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: ../../content/legal.rst:8
@@ -76,15 +75,24 @@ msgstr ""
 msgid "Download Odoo Enterprise Agreement (FR)"
 msgstr ""
 
-#: ../../content/legal.rst:47 ../../content/legal.rst:48
-#: ../../content/legal.rst:68 ../../content/legal.rst:69
-#: ../../content/legal.rst:70
+#: ../../content/legal.rst:47 ../../content/legal.rst:73
+#: ../../content/legal.rst:74 ../../content/legal.rst:75
 msgid "|missing_txt| |missing_pdf|"
 msgstr ""
 
-#: ../../content/legal.rst:90 ../../content/legal.rst:94
+#: ../../content/legal.rst:95 ../../content/legal.rst:99
 msgid "Document not yet available"
 msgstr ""
+
+#: ../../content/legal.rst
+#, fuzzy
+msgid "View Odoo Enterprise Agreement (DE)"
+msgstr "浏览 Odoo 企业版协议 [#]_"
+
+#: ../../content/legal.rst
+#, fuzzy
+msgid "Download Odoo Enterprise Agreement (DE)"
+msgstr "下载 Odoo 企业版协议"
 
 #: ../../content/legal.rst
 msgid "View Odoo Enterprise Agreement (ES)"
@@ -94,7 +102,7 @@ msgstr ""
 msgid "Download Odoo Enterprise Agreement (ES)"
 msgstr ""
 
-#: ../../content/legal.rst:55 ../../content/legal/terms/partnership.rst:5
+#: ../../content/legal.rst:60 ../../content/legal/terms/partnership.rst:5
 msgid "Odoo Partnership Agreement"
 msgstr ""
 
@@ -114,7 +122,7 @@ msgstr ""
 msgid "Download Odoo Partnership Agreement (FR)"
 msgstr ""
 
-#: ../../content/legal.rst:71
+#: ../../content/legal.rst:76
 msgid "Terms of Sale"
 msgstr ""
 
@@ -134,43 +142,43 @@ msgstr ""
 msgid "Download Odoo Terms of Sale (FR)"
 msgstr ""
 
-#: ../../content/legal.rst:88
+#: ../../content/legal.rst:93
 msgid "Applies to self-hosting, Odoo.SH and Odoo Cloud."
 msgstr ""
 
-#: ../../content/legal.rst:99
+#: ../../content/legal.rst:104
 msgid ""
 "`Archive of older agreements "
 "<https://drive.google.com/open?id=1skSTsdAPOBlaIWi_hUkL3tfaoi8Qdspu>`_"
 msgstr ""
 
-#: ../../content/legal.rst:102
+#: ../../content/legal.rst:107
 msgid "Other legal references"
 msgstr ""
 
-#: ../../content/legal.rst:104
+#: ../../content/legal.rst:109
 msgid ""
 "`Odoo Cloud Service Level Agreement (SLA) <https://www.odoo.com/cloud-"
 "sla>`_"
 msgstr ""
 
-#: ../../content/legal.rst:105
+#: ../../content/legal.rst:110
 msgid "`Odoo Cloud Acceptable Use Policy <https://www.odoo.com/acceptable-use>`_"
 msgstr ""
 
-#: ../../content/legal.rst:106
+#: ../../content/legal.rst:111
 msgid "`Odoo SA's Privacy Policy <https://www.odoo.com/privacy>`_"
 msgstr ""
 
-#: ../../content/legal.rst:107
+#: ../../content/legal.rst:112
 msgid "`Odoo SA's GDPR Compliance Guide <https://www.odoo.com/gdpr>`_"
 msgstr ""
 
-#: ../../content/legal.rst:108
+#: ../../content/legal.rst:113
 msgid ":ref:`cla`"
 msgstr ""
 
-#: ../../content/legal.rst:109
+#: ../../content/legal.rst:114
 msgid ":ref:`germany/gobd`"
 msgstr ""
 
@@ -396,7 +404,7 @@ msgid ""
 msgstr ""
 
 #: ../../content/legal/licenses/enterprise_license.txt:1
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:653
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:654
 #: ../../content/legal/terms/i18n/partnership_fr.rst:405
 msgid "Odoo Enterprise Edition License v1.0"
 msgstr ""
@@ -581,8 +589,8 @@ msgid ""
 msgstr ""
 
 #: ../../content/legal/terms/enterprise.rst:49
-#: ../../content/legal/terms/i18n/enterprise_de.rst:54
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:57
+#: ../../content/legal/terms/i18n/enterprise_de.rst:61
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:58
 #: ../../content/legal/terms/i18n/enterprise_nl.rst:60
 msgid "App"
 msgstr ""
@@ -630,7 +638,8 @@ msgid ""
 msgstr ""
 
 #: ../../content/legal/terms/enterprise.rst:73
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:83
+#: ../../content/legal/terms/i18n/enterprise_de.rst:86
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:84
 #: ../../content/legal/terms/i18n/enterprise_nl.rst:71
 msgid "Bug"
 msgstr ""
@@ -768,6 +777,7 @@ msgid "4.2 Security Updates Service"
 msgstr ""
 
 #: ../../content/legal/terms/enterprise.rst:149
+#: ../../content/legal/terms/i18n/enterprise_de.rst:159
 msgid "Self-Hosting"
 msgstr ""
 
@@ -1437,7 +1447,7 @@ msgid ""
 msgstr ""
 
 #: ../../content/legal/terms/enterprise.rst:552
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:586
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:587
 msgid "7.4 Force Majeure"
 msgstr ""
 
@@ -1538,7 +1548,7 @@ msgid "Signature:"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:6
-msgid "Odoo Enterprise Subscription Agreement (DE)"
+msgid "Odoo Enterprise Abonnementsvertrag"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:9
@@ -1546,711 +1556,999 @@ msgid ""
 "Dies ist eine deutsche Übersetzung des \"Odoo Enterprise Subscription "
 "Agreement\". Diese Übersetzung soll das Verständnis erleichtern, hat aber"
 " keinen rechtlichen Wert. Der einzige offizielle Verweis auf die "
-"Geschäftsbedingungen des „Odoo Enterprise Subscription Agreement“ ist "
-":ref:`die englische Originalversion <enterprise_agreement>`."
+"Geschäftsbedingungen des \"Odoo Enterprise Subscription Agreement\" ist "
+":ref:`die englische Original version <enterprise_agreement>`."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:15
 msgid ""
 "DIESE VERSION IST NICHT AKTUELL, FÜR DIE AKTUELLE VERSION SIEHE "
-":ref:`original english version <enterprise_agreement>`"
+":ref:`original english version <enterprise_agreement>`."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:22
-#: ../../content/legal/terms/i18n/enterprise_nl.rst:24
-msgid "Version 7.1 - 2018-03-16"
+#: ../../content/legal/terms/i18n/enterprise_de.rst:29
+#: ../../content/legal/terms/i18n/enterprise_es.rst:16
+msgid "Version 9c - 2020-06-15"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:24
+#: ../../content/legal/terms/i18n/enterprise_de.rst:31
 msgid ""
-"Durch das Abonnieren der von der Odoo SA und ihren Tochtergesellschaften "
-"(zusammen „Odoo SA“) hinsichtlich der Odoo Enterprise Edition oder der "
-"Odoo Community Edition (der „Software“) bereitgestellten Odoo Enterprise-"
-"Dienstleistungen (der „Dienste“) sind Sie (der „Kunde“) verpflichtet, die"
-" nachstehenden Allgemeinen Geschäftsbedingungen (die „Vereinbarung“) "
-"einzuhalten."
+"Indem Sie (der \"Kunde\") die Odoo Enterprise-Dienstleistungen (die "
+"\"Dienstleistungen\"), die von Odoo SA und seinen verbundenen Unternehmen"
+" (zusammen \"Odoo SA\") in Verbindung mit der Odoo Enterprise Edition "
+"oder der Odoo Community Edition (die \"Software\") bereitgestellt und auf"
+" den Cloud- Plattformen von Odoo SA (die \"Cloud-Plattform\") oder vor "
+"Ort (\"Self-Hosting\") gehostet werden, abonnieren, erklären Sie sich mit"
+" den folgenden Bedingungen einverstanden (die \"Vereinbarung\")."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:32
+#: ../../content/legal/terms/i18n/enterprise_de.rst:40
 msgid "1. Laufzeit der Vereinbarung"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:34
+#: ../../content/legal/terms/i18n/enterprise_de.rst:42
 msgid ""
-"Die Dauer dieser Vereinbarung (die „Laufzeit“) beträgt mindestens ein "
-"Jahr wie schriftlich bei Unterzeichnung dieser Vereinbarung festgelegt, "
-"beginnend zum Datum der Unterschrift. Sie wird automatisch um die gleiche"
-" Laufzeit verlängert, sofern nicht eine der Parteien mindestens 30 Tage "
-"vor Ablauf der Laufzeit gegenüber der anderen Partei per Einschreiben "
-"schriftlich kündigt."
+"Die Dauer dieser Vereinbarung (die \"Laufzeit\") wird bei Abschluss "
+"dieser Vereinbarung schriftlich festgelegt und beginnt mit dem Datum des "
+"Abschlusses. Sie verlängert sich automatisch um die gleiche Laufzeit, es "
+"sei denn, eine der beiden Parteien kündigt die Vereinbarung mindestens 30"
+" Tage vor Ablauf der Laufzeit schriftlich gegenüber der anderen Partei."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:42
+#: ../../content/legal/terms/i18n/enterprise_de.rst:50
 msgid "2. Definitionen"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:49
+#: ../../content/legal/terms/i18n/enterprise_de.rst:56
 msgid "Benutzer"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:45
+#: ../../content/legal/terms/i18n/enterprise_de.rst:53
 msgid ""
-"Alle aktiven Benutzerkonten mit Zugriff auf die Software im Erstellungs- "
-"und/oder Bearbeitungsmodus. Deaktivierte Benutzerkonten und Konten, die "
-"von externen Personen (oder Systemen) verwendet werden, die über das "
-"Portal nur eingeschränkten Zugriff auf die Software haben "
-"(„Portalbenutzer“ genannt), werden nicht als Benutzer gezählt."
+"Jedes Benutzerkonto, das in der Software als aktiv angegeben ist und "
+"Zugang zum Erstell- und/oder Bearbeitungsmodus hat. Deaktivierte "
+"Benutzerkonten und Konten, die von externen Personen (oder Systemen) "
+"verwendet werden, die nur begrenzten Zugang zur Software über die "
+"Portalfunktionen haben (\"Portalbenutzer\"), werden nicht als Benutzer "
+"gezählt."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:52
+#: ../../content/legal/terms/i18n/enterprise_de.rst:59
 msgid ""
-"Eine „App“ ist eine spezielle Gruppe von Funktionen, die in der Software "
-"installiert werden können und bei Unterzeichnung dieser Vereinbarung in "
-"der öffentlichen Preisliste der `Odoo SA-Website <https://www.odoo.com>`_"
-" aufgeführt sind."
+"Eine \"App\" ist eine spezielle Gruppe von Funktionen, die zur "
+"Installation in der Software zur Verfügung steht und in der öffentlichen "
+"Preisliste der `Odoo SA-Website <https://www.odoo.com>`_ aufgeführt ist."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:63
-msgid "Fehler (Bug)"
+#: ../../content/legal/terms/i18n/enterprise_de.rst:67
+msgid "Odoo-Partner"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:57
+#: ../../content/legal/terms/i18n/enterprise_de.rst:64
 msgid ""
-"Als Fehler (oder auch Bug) gilt jeder Fehler der Software, der zu einem "
-"vollständigen Stopp, einer Traceback-Fehlermeldung oder einer "
-"Sicherheitsverletzung führt und nicht direkt durch eine fehlerhafte "
-"Installation oder Konfiguration verursacht wird. Eine Nichteinhaltung von"
-" Spezifikationen oder Anforderungen wird im Ermessen von Odoo SA als "
-"Fehler angesehen (in der Regel dann, wenn die Software nicht die "
-"Ergebnisse oder die Leistungswerte liefert, für die sie entwickelt wurde "
-"oder wenn eine landesspezifische Funktion nicht mehr den gesetzlichen "
-"Buchhaltungsanforderungen entspricht)."
+"Ein Odoo-Partner ist ein Drittunternehmen oder eine Einzelperson, die vom"
+" Kunden ausgewählt wurde und mit dem Kunden hinsichtlich seiner "
+"Dienstleistungen im Zusammenhang mit Odoo zusammenarbeitet. Der Kunde "
+"kann jederzeit entscheiden, mit einem anderen Odoo-Partner oder direkt "
+"mit Odoo SA zusammenzuarbeiten (nach vorheriger Ankündigung)."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:73
-msgid "Abgedeckte Versionen"
+msgid "Zusatzmodul"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:66
+#: ../../content/legal/terms/i18n/enterprise_de.rst:70
 msgid ""
-"Alle im Rahmen Vereinbarung erbrachten Dienstleistungen gelten nur für "
-"die abgedeckten Versionen der Software, welche die 3 (drei) zuletzt "
-"veröffentlichten Hauptversionen umfassen."
+"Ein Zusatzmodul ist ein Verzeichnis von Quellcodedateien oder eine Reihe "
+"von Python-basierten Anpassungen, die in einer Datenbank  erstellt (z. B."
+" mit Odoo Studio) wurden,  das der Software Funktionen hinzufügt oder ihr"
+" Standardverhalten ändert. Es kann vom Kunden, von Odoo SA, von einem "
+"Odoo-Partner im Namen des Kunden oder von Dritten entwickelt worden sein."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:69
+#: ../../content/legal/terms/i18n/enterprise_de.rst:77
+msgid "Odoo unterstütztes Zusatzmodul"
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:76
 msgid ""
-"Um von der aktuellen Vereinbarung abgedeckt zu sein, müssen die "
-"Installationen des Kunden die aktuellste abgedeckte Version zum Zeitpunkt"
-" der Unterzeichnung dieser Vereinbarung aufweisen. Sollte dies nicht der "
-"Fall sein, so können zusätzliche Kosten anfallen, die unter "
-":ref:`charges_de` beschrieben werden."
-msgstr ""
-
-#: ../../content/legal/terms/i18n/enterprise_de.rst:78
-msgid "3. Zugriff auf die Odoo Enterprise Edition"
+"Ein unterstütztes Zusatzmodul ist ein Zusatzmodul, für das der Kunde eine"
+" Wartungsgebühr entrichtet, um Support-, Upgrade- und "
+"Fehlerbehebungsdienste zu erhalten."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:80
 msgid ""
-"Für die Laufzeit dieser Vereinbarung gewährt Odoo SA dem Kunden eine "
-"nicht-ausschließliche, nicht übertragbare Nutzungslizenz (Ausführung, "
-"Änderung, Ausführung nach Änderung) der Odoo Enterprise Edition-Software "
-"unter den in :ref:`appendix_a_de` festgelegten Bedingungen."
+"Als Bug gilt jeder Ausfall der Software oder eines unterstützten "
+"Zusatzmoduls, der zu einem vollständigen Stopp, einer Fehlersuche oder "
+"einer Sicherheitsverletzung führt und nicht direkt durch eine fehlerhafte"
+" Installation oder Konfiguration verursacht wird. Die Nichteinhaltung von"
+" Spezifikationen oder Anforderungen wird nach dem Ermessen von Odoo SA "
+"als Bug betrachtet (typischerweise, wenn die Software nicht die "
+"Ergebnisse oder die Leistung erbringt, für die sie entwickelt wurde, oder"
+" wenn eine länderspezifische Funktion nicht mehr den gesetzlichen "
+"Buchhaltungsanforderungen entspricht)."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:84
-msgid ""
-"Der Kunde erklärt, alle notwendigen Maßnahmen zu ergreifen, um die "
-"unveränderte Ausführung des Teils der Software zu gewährleisten, mit dem "
-"die gültige Nutzung der Odoo Enterprise Edition überprüft wird und die zu"
-" diesem Zweck Statistiken sammelt, einschließlich unter anderem die "
-"Ausführung einer Instanz, die Anzahl der Benutzer und die installierten "
-"Apps."
+#: ../../content/legal/terms/i18n/enterprise_de.rst:91
+msgid "Unterstützte Versionen"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:89
 msgid ""
-"Odoo SA ist verpflichtet, einzelne keine einzelnen oder benannten Zahlen "
-"ohne Zustimmung des Kunden an Dritte weiterzugeben und alle gesammelten "
-"Daten gemäß seiner offiziellen Datenschutzrichtlinie zu behandeln, die "
-"unter https://www.odoo.com/privacy veröffentlicht ist."
-msgstr ""
-
-#: ../../content/legal/terms/i18n/enterprise_de.rst:93
-msgid ""
-"Nach Ablauf oder Kündigung dieser Vereinbarung wird diese Lizenz sofort "
-"widerrufen und der Kunde ist verpflichtet, die Nutzung der Odoo "
-"Enterprise Edition-Software einzustellen."
+"Sofern nicht anders angegeben, gelten die im Rahmen dieser Vereinbarung "
+"erbrachten Dienstleistungen nur für die unterstützten Versionen der "
+"Software, zu denen die drei zuletzt veröffentlichten Hauptversionen "
+"gehören."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:96
-#, python-format
-msgid ""
-"Sollte der Kunde gegen die Bestimmungen dieses Abschnitts verstoßen, so "
-"ist er verpflichtet, Odoo SA eine zusätzliche Gebühr in Höhe von 300 % "
-"des geltenden Listenpreises für die tatsächliche Anzahl der Nutzer zu "
-"zahlen."
+msgid "3. Zugang zur Software"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:104
-msgid "4. Inbegriffene Dienstleistungen"
+#: ../../content/legal/terms/i18n/enterprise_de.rst:98
+msgid ""
+"Der Kunde kann die auf der Cloud-Plattform gehostete Software nutzen oder"
+" die Option Self-Hosting wählen. Die Cloud-Plattform wird von Odoo SA "
+"gehostet und vollständig verwaltet, der Kunde kann per Fernzugriff darauf"
+" zugreifen. Bei der Self-Hosting-Option hostet der Kunde die Software "
+"stattdessen auf Computersystemen seiner Wahl, über die Odoo SA keine "
+"Kontrolle hat."
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:103
+msgid ""
+"Odoo SA gewährt dem Kunden für die Dauer dieser Vereinbarung eine nicht "
+"exklusive, nicht übertragbare Lizenz zur Nutzung (Ausführung, Änderung, "
+"Ausführung nach Änderung) der Odoo Enterprise Edition Software unter den "
+"in :ref:`appendix_a_de` genannten Bedingungen."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:107
+msgid ""
+"Der Kunde verpflichtet sich, alle erforderlichen Maßnahmen zu ergreifen, "
+"um die unveränderte Ausführung des Teils der Software zu gewährleisten, "
+"der die Gültigkeit der Nutzung der Odoo Enterprise Edition überprüft und "
+"zu diesem Zweck Statistiken sammelt, unter anderem zur Ausführung einer "
+"Instanz, der Anzahl der Benutzer, den installierten Apps und der Anzahl "
+"der Codezeilen der unterstützten Zusatzmodule."
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:113
+msgid ""
+"Odoo SA verpflichtet sich, ohne Zustimmung des Kunden keine individuellen"
+" oder namentlichen Angaben an Dritte weiterzugeben und alle gesammelten "
+"Daten in Übereinstimmung mit der offiziellen Datenschutzpolitik zu "
+"behandeln, die unter https://www.odoo.com/privacy veröffentlicht ist."
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:117
+msgid ""
+"Bei Ablauf oder Kündigung dieser Vereinbarung wird diese Lizenz "
+"unverzüglich widerrufen und der Kunde verpflichtet sich, die Nutzung der "
+"Odoo Enterprise Edition Software und der Cloud-Plattform einzustellen."
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:121
+#, python-format
+msgid ""
+"Sollte der Kunde gegen die Bestimmungen dieses Abschnitts verstoßen, "
+"erklärt er sich bereit, Odoo SA eine zusätzliche Gebühr in Höhe von 300 %"
+" des geltenden Listenpreises für die tatsächliche Anzahl der Benutzer und"
+" installierten Apps zu zahlen."
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:128
+msgid "4. Dienstleistungen"
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:133
 msgid "4.1 Fehlerbehebung"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:109
+#: ../../content/legal/terms/i18n/enterprise_de.rst:135
 msgid ""
-"Während der Laufzeit dieser Vereinbarung ist Odoo SA verpflichtet, alle "
-"zumutbaren Anstrengungen zu unternehmen, um die Fehler zu beheben, die "
-"vom Kunden über den entsprechenden Kanal (üblicherweise die E-Mail-"
-"Adresse oder das Websiteformular des Odoo SA Servicedesks) eingereicht "
-"wurden, und mit der Bearbeitung dieser Einsendungen des Kunden innerhalb "
-"von 2 Werktagen zu beginnen."
-msgstr ""
-
-#: ../../content/legal/terms/i18n/enterprise_de.rst:115
-msgid ""
-"Der Kunde versteht, dass Fehler, die durch eine Änderung oder Erweiterung"
-" verursacht wurden, die kein Teil der offiziellen Software sind, von "
-"dieser Dienstleistung nicht abgedeckt sind."
-msgstr ""
-
-#: ../../content/legal/terms/i18n/enterprise_de.rst:118
-msgid ""
-"Sobald der Fehler behoben wurde, wird dem Kunden eine geeignete "
-"Gegenmaßnahme mitgeteilt. Falls der Fehler in einer neueren Version der "
-"vom Kunden verwendeten Software behoben wurde, so ist der Kunde "
-"verpflichtet, seine Systeme auf diese Version zu aktualisieren, um die "
-"Korrektur zu erhalten. Der Kunde wird nicht aufgefordert, auf eine neuere"
-" abgedeckte Version der Software zu aktualisieren, um einen Fehler zu "
-"beheben."
-msgstr ""
-
-#: ../../content/legal/terms/i18n/enterprise_de.rst:124
-msgid ""
-"Wenn ein Fehler in einer abgedeckten Version behoben wurde, ist Odoo SA "
-"verpflichtet, den Fehler auch in allen neueren abgedeckten Versionen der "
-"Software zu beheben."
-msgstr ""
-
-#: ../../content/legal/terms/i18n/enterprise_de.rst:127
-msgid ""
-"Beide Parteien erkennen an, dass Odoo SA gemäß der Softwarelizenz und dem"
-" Abschnitt :ref:`liability_de` dieser Vereinbarung für Fehler in der "
-"Software nicht haftbar gemacht werden kann."
-msgstr ""
-
-#: ../../content/legal/terms/i18n/enterprise_de.rst:132
-msgid "4.2 Sicherheitsmitteilungen"
-msgstr ""
-
-#: ../../content/legal/terms/i18n/enterprise_de.rst:134
-msgid ""
-"Für die Dauer dieser Vereinbarung ist Odoo SA verpflichtet, dem Kunden "
-"für jedes Sicherheitsproblem, das in den abgedeckten Versionen der "
-"Software entdeckt wurde, eine Sicherheitsmitteilung zuzusenden. Diese "
-"Zusendung muss mindestens 2 Wochen vor Veröffentlichung der "
-"Sicherheitsmitteilung erfolgen, außer wenn der Fehler bereits von Dritten"
-" öffentlich gemacht wurde. Diese Sicherheitsberatung umfasst eine "
-"vollständige Beschreibung des Fehlers, seine Ursache, seine möglichen "
-"Auswirkungen auf die Kundensysteme sowie die entsprechenden "
-"Gegenmaßnahmen für jede abgedeckte Version."
+"Während der Laufzeit dieser Vereinbarung verpflichtet sich Odoo SA, alle "
+"zumutbaren Anstrengungen zu unternehmen, um Fehler der Software und der "
+"unterstützten Zusatzmodule zu beheben, die vom Kunden über den "
+"entsprechenden Kanal eingereicht werden (in der Regel das Webformular "
+"oder die Telefonnummern, die auf https://odoo.com/help aufgeführt sind, "
+"oder - im Falle der Zusammenarbeit mit einem Odoo-Partner - der vom "
+"Partner bereitgestellte Kanal), und mit der Bearbeitung innerhalb von "
+"zwei Werktagen nach Eingang zu beginnen."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:142
 msgid ""
-"Der Kunde versteht, dass der Fehler und die Informationen in der "
-"Sicherheitsmitteilung während der Sperrfrist vor der öffentlichen "
-"Bekanntgabe als vertrauliche Informationen behandelt werden müssen, die "
-"im Abschnitt :ref:`confidentiality_de` beschrieben werden."
+"Sobald der Fehler behoben ist, wird dem Kunden eine entsprechende "
+"Problemlösung mitgeteilt. Wenn der Kunde eine unterstützte Version "
+"Version verwendet, wird er nicht zu einem Upgrade auf eine neuere "
+"unterstützte Version der Software aufgefordert, um einen Fehler zu "
+"beheben."
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:146
+msgid ""
+"Wenn ein Fehler in einer unterstützten Version behoben wird, verpflichtet"
+" sich Odoo SA, den Fehler ebenfalls in allen neueren unterstützten "
+"Versionen der Software zu beheben."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:149
-msgid "4.3 Upgrade-Dienstleistungen"
+msgid ""
+"Beide Parteien erkennen an, dass Odoo SA, wie in der Lizenz der Software "
+"und im Abschnitt :ref:`liability_de` dieser Vereinbarung angegeben, nicht"
+" für Fehler in der Software oder in unterstützten  Zusatzmodulen haftbar "
+"gemacht werden kann."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:154
-msgid "Upgrade-Service für die Software"
-msgstr ""
-
-#: ../../content/legal/terms/i18n/enterprise_de.rst:156
-msgid ""
-"Während der Laufzeit dieser Vereinbarung kann der Kunde Upgrade-Anfragen "
-"über den entsprechenden Kanal übermitteln (üblicherweise die Website der "
-"Odoo SA für den Upgrade-Service), um eine Datenbank der Software einer "
-"abgedeckten Softwareversion auf eine neuere abgedeckte Version (die "
-"„Zielversion“) zu konvertieren."
+msgid "4.2 Service für Sicherheitsupdates"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:161
 msgid ""
-"Upgrade-Anfragen müssen eine vollständige Sicherungskopie der "
-"Kundendatenbank und die zugehörigen Daten enthalten (die in der Regel mit"
-" dem Backup-Menü der Software abgerufen werden können). Sollte es aus "
-"Gründen der Datensicherheit oder der Regulierung erforderlich sein, so "
-"umfasst der Upgrade-Service ein optionales Tool zur Anonymisierung "
-"identifizierbarer Daten einer Datenbank, bevor die Upgrade-Anfrage "
-"eingereicht wird, und ebenso ein Tool zum Wiederherstellen der "
-"anonymisierten Daten nach dem Upgrade."
+"Für die Dauer dieser Vereinbarung verpflichtet sich Odoo SA, dem Kunden "
+"für jeden Sicherheitsfehler, der in den unterstützten Versionen der "
+"Software (dies schließt Zusatzmodule aus) entdeckt wird, einen "
+"Sicherheitsbericht zuzusenden, mindestens zwei Wochen vor dessen "
+"Veröffentlichung, es sei denn, der Fehler wurde bereits von einer dritten"
+" Partei öffentlich bekannt gegeben. Sicherheitsberichte enthalten eine "
+"vollständige Beschreibung des Fehlers, seiner Ursache, seiner möglichen "
+"Auswirkungen auf die Systeme des Kunden und der entsprechenden Lösung für"
+" jede unterstützte Version."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:168
+#: ../../content/legal/terms/i18n/enterprise_de.rst:169
 msgid ""
-"Dieser Service erfolgt über eine automatisierte Plattform, damit der "
-"Kunde unbeaufsichtigte Upgrades durchführen kann, sobald eine frühere "
-"Version der Kundendatenbank für eine abgedeckte Version erfolgreich "
-"aktualisiert worden ist. Der Kunde kann aufeinander folgende Upgrade-"
-"Anfragen für eine Datenbank einreichen. Er ist damit einverstanden, "
-"zuerst mindestens 1 (eine) Upgrade-Anfrage zu Testzwecken einzureichen, "
-"bevor er die abschließende Upgrade-Anfrage einreicht."
+"Der Kunde nimmt zur Kenntnis, dass der Bug und die Informationen im "
+"Sicherheitsbericht während der Sperrfrist vor der öffentlichen "
+"Bekanntgabe als vertrauliche Informationen gemäß "
+":ref:`confidentiality_de` zu behandeln sind."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:175
-msgid ""
-"Der Upgrade-Service ist beschränkt auf die technische Konvertierung und "
-"Anpassung der Kundendatenbank, um diese mit der Zielversion kompatibel zu"
-" machen, und auf die Korrektur von Fehlern, die unmittelbar durch den "
-"Upgrade-Vorgang verursacht werden und in der Zielversion normalerweise "
-"nicht auftreten würden."
+#: ../../content/legal/terms/i18n/enterprise_de.rst:176
+msgid "Cloud-Plattform"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:180
+#: ../../content/legal/terms/i18n/enterprise_de.rst:178
 msgid ""
-"Es liegt in der alleinigen Verantwortung des Kunden, die Datenbank nach "
-"dem Upgrade zu überprüfen und zu validieren, um Fehler zu erkennen, die "
-"Auswirkungen der in der Zielversion umgesetzten Änderungen und neuen "
-"Funktionen zu analysieren und diejenigen Erweiterungen der Software von "
-"Drittanbietern für die Zielversion zu konvertieren und anzupassen, die "
-"vor dem Upgrade in der Datenbank installiert waren (sofern nicht anders "
-"vorgesehen, siehe Abschnitt :ref:`upgrade_extra_de`). Der Kunde kann "
-"mehrere Upgrade-Anforderungen für eine Datenbank einreichen, bis ein "
-"akzeptables Ergebnis erzielt wird."
+"Odoo SA verpflichtet sich, die Sicherheitsmaßnahmen für jeden "
+"Sicherheitsfehler, der in einer auf der Cloud-Plattform gehosteten "
+"Version der Software entdeckt wird, auf alle von Odoo SA kontrollierten "
+"Systemen anzuwenden, sobald die entsprechenden Mittel verfügbar sind, "
+"ohne dass der Kunde manuell eingreifen muss."
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:186
+msgid "4.3 Upgrade-Dienste"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:191
-msgid "Upgrade-Service für Erweiterungen von Drittanbietern"
+msgid "Upgrade-Service für die Software"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:193
 msgid ""
-"Für die Laufzeit dieser Vereinbarung kann der Kunde optionale Upgrade-"
-"Services optionale für von Drittanbieter angebotene Erweiterungsmodule "
-"der Software anfordern. Für diese optionale Dienstleistung fallen "
-"zusätzlichen Gebühren an (die unter „Gebühren“ beschrieben werden). Sie "
-"umfasst die technische Anpassung der Module von Drittanbietern, die in "
-"der Datenbank des Kunden installiert sind, und deren entsprechende Daten,"
-" damit sie mit der Zielversion kompatibel sind. Der Kunde wird eine "
-"Upgrade-Version aller installierten Module von Drittanbietern zusammen "
-"mit der aktualisierten Datenbank erhalten."
+"Während der Laufzeit dieser Vereinbarung kann der Kunde über den "
+"entsprechenden Kanal (in der Regel die Upgrade-Service-Website von Odoo "
+"SA) Upgrade-Anträge stellen, um eine Datenbank der Software von einer "
+"beliebigen Version der Software auf eine neuere unterstützte Version (die"
+" \"Zielversion\") zu konvertieren."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:204
-msgid "5. Abgaben und Gebühren"
-msgstr ""
-
-#: ../../content/legal/terms/i18n/enterprise_de.rst:209
-msgid "5.1 Standardgebühren"
-msgstr ""
-
-#: ../../content/legal/terms/i18n/enterprise_de.rst:211
+#: ../../content/legal/terms/i18n/enterprise_de.rst:198
 msgid ""
-"Die Standardgebühren für das Odoo Enterprise Abonnement, die "
-"Fehlerbehebung, die Sicherheitsmitteilungen und die Upgrades basieren auf"
-" der Anzahl der Benutzer, den installierten Apps, der vom Kunden "
-"verwendeten Softwareversion und werden bei Unterzeichnung der "
-"Vereinbarung schriftlich festgehalten."
+"Bei Nutzung der Cloud-Plattform werden Upgrade-Anträge direkt über das "
+"Bedienfeld der Cloud-Plattform eingereicht und erfordern keinen Daten-"
+"Upload. Im Falle von Self-Hosting müssen Upgrade-Anträge eine Kopie der "
+"Datenbank des Kunden und der zugehörigen Daten enthalten (in der Regel "
+"über das Backup-Menü der Software)."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:216
+#: ../../content/legal/terms/i18n/enterprise_de.rst:203
 msgid ""
-"Sollte der Kunde während der Laufzeit mehr Benutzer oder mehr "
-"installierte Apps als bei Unterzeichnung der vorliegenden Vereinbarung "
-"angegeben haben, so erklärt sich der Kunde bereit, für die restliche "
-"Laufzeit eine zusätzliche Gebühr in Höhe des (zu Beginn der Laufzeit) "
-"geltenden Listenpreises für die zusätzlichen Benutzer oder Apps zu "
-"entrichten."
+"Dieser Service wird über eine automatisierte Plattform bereitgestellt, um"
+" dem Kunden die Ausführung unbeaufsichtigter Upgrades zu ermöglichen, "
+"sobald eine frühere Version der Datenbank des Kunden erfolgreich für eine"
+" unterstützte Version aktualisiert wurde."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:221
-#, python-format
+#: ../../content/legal/terms/i18n/enterprise_de.rst:207
 msgid ""
-"Sollte der Kunde bei Unterzeichnung dieser Vereinbarung eine abgedeckte "
-"Version verwenden, bei der es sich nicht um die neueste Version handelt, "
-"so können die Standardgebühren für die erste Laufzeit im Ermessen der "
-"Odoo SA um 50 % erhöht werden, um die zusätzlichen Wartungskosten "
-"abzudecken."
+"Der Upgrade-Service beschränkt sich auf die technische Konvertierung und "
+"Anpassung der Datenbank des Kunden, um sie mit der Zielversion kompatibel"
+" zu machen, auf die Korrektur von Fehlern, die direkt durch den Upgrade-"
+"Vorgang verursacht werden und in der Zielversion normalerweise nicht "
+"auftreten, sowie auf die Konvertierung des Quellcodes und der Daten der "
+"abgedeckten Zusatzmodule für die Zielversion."
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:213
+msgid ""
+"Es liegt in der Verantwortung des Kunden, die aktualisierte Datenbank zu "
+"überprüfen, um Fehler zu erkennen, die Auswirkungen von Änderungen und "
+"neuen Funktionen, die in der Zielversion implementiert sind, zu "
+"analysieren und Erweiterungen von Drittanbietern der Software, die vor "
+"dem Upgrade in der Datenbank installiert waren (z. B. nicht unterstützte "
+"Zusatzmodule), zu konvertieren und für die Zielversion anzupassen. Der "
+"Kunde kann mehrere Upgrade-Anträge für eine Datenbank stellen, bis ein "
+"akzeptables Ergebnis erzielt wird."
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:223
+msgid "4.4 Cloud-Hosting-Dienste"
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:225
+msgid ""
+"Wenn sich der Kunde für die Nutzung der Cloud-Plattform entscheidet, "
+"verpflichtet sich Odoo SA, während der Laufzeit dieser Vereinbarung "
+"mindestens folgendes anzubieten:"
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:228
+msgid "mehrere Hosting-Regionen (mindestens drei: Europa, Amerika, Asien/Pazifik)"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:229
-msgid "5.2 Verlängerungsgebühren"
+msgid ""
+"Hosting in Tier-III-Rechenzentren oder gleichwertigen Zentren mit einer "
+"Netzwerkverfügbarkeit von 99,9%"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:231
-msgid ""
-"Bei einer Verlängerung gemäß Abschnitt :ref:`term_de` erhöhen sich die "
-"Gebühren um bis zu 7 %, wenn die in der vorherigen Laufzeit erhobenen "
-"Gebühren niedriger als der dann gültige Listenpreis waren."
+msgid "erstklassige SSL (HTTPS) Verschlüsselung der Kommunikation"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:238
-msgid "5.3 Gebühren für Upgrade-Services für Module von Drittanbietern"
+#: ../../content/legal/terms/i18n/enterprise_de.rst:232
+msgid "vollautomatische, verifizierte Backups, repliziert in mehreren Regionen"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:240
+#: ../../content/legal/terms/i18n/enterprise_de.rst:233
+msgid "Notfallplan, regelmäßig getestet"
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:235
 msgid ""
-"Die zusätzliche Gebühr für das Upgrade von Drittanbietern-Modulen beträgt"
-" 1000,00 € (eintausend Euro) pro 1000 Codezeilen in diesen Modulen, "
-"jeweils aufgerundet auf die nächsten Tausend Zeilen. Die Codezeilen "
-"umfassen alle Textzeilen im Quellcode dieser Module, unabhängig von "
-"Programmiersprache (Python, Javascript usw.) oder Datenformat (XML, TSV "
-"usw.). Ausgenommen sind Leer- und Kommentarzeilen."
+"Die Einzelheiten der Cloud-Hosting-Dienste sind in der "
+"Dienstgütevereinbarung unter https://www.odoo.com/cloud-sla beschrieben."
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:241
+msgid "4.5 Support-Dienste"
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:244
+msgid "Umfang"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:246
 msgid ""
-"Odoo SA behält sich das Recht vor, eine Upgrade-Anfrage für "
-"Drittanbieter-Module unter den vorstehenden Bedingungen abzulehnen, wenn "
-"die Qualität des Quellcodes dieser Module zu schlecht sein oder diese "
-"Module eine Schnittstelle mit Drittanbieter-Software oder -Systemen "
-"darstellen sollten. Das Upgrade dieser Module erfolgt vorbehaltlich eines"
-" separaten Angebots außerhalb der vorliegenden Vereinbarung."
+"Während der Laufzeit dieser Vereinbarung kann der Kunde eine unbegrenzte "
+"Anzahl von kostenlosen Support-Tickets öffnen, die ausschließlich Fragen "
+"zu Fehlern (siehe :ref:`bugfix_de`) oder Anleitungen zur Nutzung der "
+"Standardfunktionen der Software und der unterstützten Zusatzmodule "
+"betreffen."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:255
-msgid "5.4 Steuern"
-msgstr ""
-
-#: ../../content/legal/terms/i18n/enterprise_de.rst:257
+#: ../../content/legal/terms/i18n/enterprise_de.rst:251
 msgid ""
-"Alle Gebühren und Abgaben verstehen sich ausschließlich aller geltenden "
-"Steuern, Gebühren oder Abgaben auf Bundes-, Provinz-, Bundesland- oder "
-"Kommunalebene oder anderer Behörden (zusammen als „Steuern“ bezeichnet). "
-"Der Kunde ist für die Zahlung sämtlicher Steuern im Zusammenhang mit "
-"seinen Käufen im Rahmen dieser Vereinbarung verantwortlich, außer wenn "
-"Odoo SA rechtlich verpflichtet sein sollte, Steuern zu zahlen oder "
-"einzuziehen, für welche der Kunde verantwortlich ist."
+"Andere Supportanfragen, wie z. B. Fragen zur Entwicklung oder zu "
+"Anpassungen, können durch den Erwerb einer separaten Servicevereinbarung "
+"abgedeckt werden. Falls nicht klar ist, ob eine Anfrage von diesem "
+"Vertrag abgedeckt ist, liegt die Entscheidung im Ermessen von Odoo SA."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:268
-msgid "6. Dienstleistungsbedingungen"
+#: ../../content/legal/terms/i18n/enterprise_de.rst:256
+msgid "Verfügbarkeit"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:271
-msgid "6.1 Pflichten des Kunden"
+#: ../../content/legal/terms/i18n/enterprise_de.rst:258
+msgid ""
+"Tickets können über das Webformular oder die auf https://odoo.com/help "
+"aufgeführten Telefonnummern eingereicht werden, oder, wenn Sie mit einem "
+"Odoo-Partner zusammenarbeiten, über den von diesem bereitgestellten "
+"Kanal, abhängig von den örtlichen Öffnungszeiten."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:273
-msgid "Der Kunde stimmt folgenden Klauseln zu:"
+#: ../../content/legal/terms/i18n/enterprise_de.rst:265
+msgid "4.6 Zusammenarbeit mit einem Odoo-Partner"
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:267
+msgid ""
+"Für Fehlerbehebungen, Support- und Upgrade-Leistungen kann der Kunde "
+"entweder mit einem Odoo-Partner als Hauptansprechpartner oder direkt mit "
+"Odoo SA zusammenarbeiten."
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:270
+msgid ""
+"Entscheidet sich der Kunde für die Zusammenarbeit mit einem Odoo-Partner,"
+" beauftragt Odoo SA diesen mit Dienstleistungen im Zusammenhang mit den "
+"unterstützten Zusatzmodulen. Der Odoo-Partner kann sich im Namen des "
+"Kunden an Odoo SA wenden, um in Bezug auf die Standardfunktionen der "
+"Software Second Level Support zu erhalten."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:275
 msgid ""
-"er zahlt Odoo SA sämtliche Gebühren für die Dienstleistungen im Rahmen "
-"der vorliegenden Vereinbarung gemäß den Zahlungsbedingungen, die auf der "
-"entsprechenden Rechnung angegeben sind;"
+"Entscheidet sich der Kunde dafür, direkt mit Odoo SA zusammenzuarbeiten, "
+"werden Dienstleistungen im Zusammenhang mit unterstützten Zusatzmodulen "
+"*ausschließlich* dann erbracht, wenn der Kunde auf der Odoo Cloud-"
+"Plattform gehostet wird."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:277
-msgid ""
-"er wird Odoo SA unverzüglich informieren, sobald seine tatsächliche "
-"Benutzerzahl oder die Anzahl der installierten Apps die bei "
-"Unterzeichnung der Vereinbarung angegebenen Zahlen überschreiten sollten."
-" In diesem Falle wird er die geltende zusätzliche Gebühr gemäß dem "
-"Abschnitt :ref:`charges_standard_de` entrichten;"
-msgstr ""
-
-#: ../../content/legal/terms/i18n/enterprise_de.rst:281
-msgid ""
-"er wird alle notwendigen Maßnahmen zu ergreifen, um die unveränderte "
-"Ausführung des Teils der Software zu gewährleisten, mit dem die gültige "
-"Nutzung der Odoo Enterprise Edition überprüft, wie sie in "
-":ref:`enterprise_access_de` beschrieben wird;"
-msgstr ""
-
-#: ../../content/legal/terms/i18n/enterprise_de.rst:284
-msgid ""
-"er wird Odoo SA den notwendigen Zugang einräumen, um die Gültigkeit der "
-"Nutzung der Odoo Enterprise Edition auf Anfrage zu prüfen (z. B. wenn die"
-" automatische Validierung für den Kunden nicht funktioniert);"
+#: ../../content/legal/terms/i18n/enterprise_de.rst:282
+msgid "5. Kosten und Gebühren"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:287
-msgid ""
-"er wird 1 speziellen Ansprechpartner des Kunden für die gesamte Laufzeit "
-"der Vereinbarung ernennen;"
+msgid "5.1 Standardkosten"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:289
 msgid ""
-"er wird alle angemessenen Maßnahmen ergreifen, um die Dateien und "
-"Datenbanken des Kunden zu schützen und sicherzustellen, dass die "
-"Kundendaten sicher sind, während er anerkennt, dass Odoo SA für "
-"Datenverluste nicht haftbar gemacht werden kann;"
+"Die Standardkosten für das Odoo Enterprise Abonnement und die "
+"Dienstleistungen basieren auf der Anzahl der Benutzer und der "
+"installierten Apps, die der Kunde nutzt, und werden bei Vertragsabschluss"
+" schriftlich festgehalten."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:297
-msgid "6.2 Verzicht auf Abwerbung oder Einstellung"
-msgstr ""
-
-#: ../../content/legal/terms/i18n/enterprise_de.rst:299
+#: ../../content/legal/terms/i18n/enterprise_de.rst:293
 msgid ""
-"Beide Parteien, ihre Tochtergesellschaften und Vertreter sind "
-"verpflichtet, während der Laufzeit dieser Vereinbarung und für einen "
-"Zeitraum von 12 Monaten ab dem Datum der Kündigung oder des Ablaufs "
-"dieser Vereinbarung keine Mitarbeiter der anderen Partei, die an der "
-"Erbringung oder Nutzung der Dienstleistungen im Rahmen dieser "
-"Vereinbarung beteiligt sind, abzuwerben oder eine Beschäftigung "
-"anzubieten, außer wenn diese andere Partei eine schriftliche Zustimmung "
-"dafür erteilt hat. Im Falle eines Verstoßes gegen die Bestimmungen dieses"
-" Abschnitts, der zu einer diesbezüglichen Kündigung dieses Arbeitnehmers "
-"führt, ist die dagegen verstoßende Partei verpflichtet, der anderen "
-"Partei einen Betrag in Höhe von 30.000,00 € (dreißigtausend Euro) zu "
-"zahlen."
+"Wenn der Kunde während der Laufzeit eine höhere Anzahl an Benutzern oder "
+"installierten Apps nutzt, als zum Zeitpunkt des Vertragsabschlusses "
+"angegeben, stimmt der Kunde zu, hierfür für den Rest der Laufzeit eine "
+"zusätzliche Gebühr in Höhe des zu Beginn der Laufzeit geltenden "
+"Listenpreises zu zahlen."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:313
-msgid "6.3 Werbung"
-msgstr ""
-
-#: ../../content/legal/terms/i18n/enterprise_de.rst:315
+#: ../../content/legal/terms/i18n/enterprise_de.rst:298
 msgid ""
-"Sofern keine anderslautende schriftliche Mitteilung erfolgte, gewährt "
-"jede Partei der anderen Partei eine nicht übertragbare, nicht "
-"ausschließliche, gebührenfreie, weltweite Lizenz zur Wiedergabe und "
-"Anzeige des Namens, der Logos und der Markenzeichen der jeweils anderen "
-"Partei. Diese Lizenz gilt ausschließlich für die Bezugnahme auf die "
-"andere Partei als Kunde oder Lieferant auf Websites, Pressemitteilungen "
-"und anderen Marketingmaterialien."
+"Darüber hinaus werden die Kosten der Dienstleistungen im Zusammenhang mit"
+" unterstützten Zusatzmodulen basierend auf der Anzahl der Codezeilen in "
+"diesen Modulen berechnet. Entscheidet sich der Kunde für die Wartung von "
+"unterstützten Zusatzmodulen, beträgt die Gebühr monatlich 16,00 € pro 100"
+" Codezeilen (aufgerundet auf die nächsten Hundert), sofern bei "
+"Vertragsabschluss nichts anderes schriftlich vereinbart wurde. Codezeilen"
+" werden mit dem cloc-Befehl der Software gezählt und umfassen alle "
+"Textzeilen im Quellcode dieser Module, unabhängig von der "
+"Programmiersprache (Python, Javascript, XML etc.), ausgenommen "
+"Leerzeilen, Kommentarzeilen und Dateien, die bei der Installation oder "
+"Ausführung der Software nicht geladen werden."
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:307
+msgid ""
+"Wenn der Kunde ein Upgrade beantragt, kann Odoo SA für jedes unterstützte"
+" Zusatzmodul, das in den letzten 12 Monaten nicht durch eine "
+"Wartungsgebühr abgedeckt wurde, eine einmalige Zusatzgebühr von 16,00 € "
+"pro 100 Codezeilen für jeden fehlenden Abdeckungsmonat erheben."
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:314
+msgid "5.2 Verlängerungsgebühren"
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:316
+msgid ""
+"Bei einer Verlängerung gemäß Abschnitt :ref:`term_de` erhöhen sich die "
+"Gebühren um bis zu 7 %, wenn die während der vorherigen Laufzeit "
+"erhobenen Gebühren (mit Ausnahme etwaiger \"Erstnutzerrabatte\") unter "
+"dem jeweils gültigen Listenpreis liegen."
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:323
+msgid "5.3 Steuern"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:325
-msgid "6.4 Vertraulichkeit"
+msgid ""
+"Alle Gebühren und Entgelte verstehen sich zuzüglich aller anwendbaren "
+"Bundes-, Landes-, Staats-, Kommunal- oder sonstigen staatlichen Steuern, "
+"Gebühren oder Abgaben (zusammenfassend \"Steuern\"). Der Kunde ist für "
+"die Zahlung aller Steuern verantwortlich, die mit seinen im Rahmen dieser"
+" Vereinbarung getätigten Käufen verbunden sind, es sei denn, Odoo SA ist "
+"gesetzlich zur Zahlung oder Erhebung von Steuern verpflichtet, für die "
+"der Kunde verantwortlich ist."
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:334
-msgid "Definition von „vertraulichen Informationen“:"
+msgid "6. Dienstleistungsbedingungen"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:328
-msgid ""
-"Alle von einer Partei (der „offenlegenden Partei“) gegenüber der anderen "
-"Partei (der „empfangenden Partei“) mündlich oder schriftlich "
-"mitgeteilten, offengelegten Informationen, die als vertraulich bezeichnet"
-" werden oder angesichts der Art der Informationen und den Umständen der "
-"Offenlegung vernünftigerweise als vertraulich verstanden werden sollten. "
-"Insbesondere sollten alle Informationen zu Unternehmen, Geschäften, "
-"Produkten, Entwicklungen, Geschäftsgeheimnissen, Fachwissen, Personal, "
-"Kunden und Lieferanten beider Parteien als vertraulich betrachtet werden."
+#: ../../content/legal/terms/i18n/enterprise_de.rst:337
+msgid "6.1 Verpflichtungen des Kunden"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:336
-msgid ""
-"Für alle während der Laufzeit dieser Vereinbarung empfangenen "
-"vertraulichen Informationen wird die empfangende Partei die gleiche "
-"Sorgfalt aufwenden, mit der sie die Vertraulichkeit ihrer eigenen, "
-"ähnlichen vertraulichen Informationen schützt, mindestens jedoch "
-"angemessene Sorgfalt."
+#: ../../content/legal/terms/i18n/enterprise_de.rst:339
+msgid "Der Kunde verpflichtet sich:"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:341
 msgid ""
-"Die empfangende Partei kann vertrauliche Informationen der offenlegenden "
-"Partei offenlegen, soweit dies gesetzlich vorgeschrieben ist, sofern die "
-"empfangende Partei der offenlegenden Partei diese vorgeschriebene "
-"Offenlegung im gesetzlich zulässigen Umfang mitteilt."
+"Odoo SA alle anfallenden Gebühren für die Dienstleistungen dieser "
+"Vereinbarung gemäß den bei der Unterzeichnung dieses Vertrages "
+"festgelegten Zahlungsbedingungen zu zahlen;"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:348
-msgid "6.5 Kündigung"
+#: ../../content/legal/terms/i18n/enterprise_de.rst:343
+msgid ""
+"Odoo SA unverzüglich zu benachrichtigen, wenn die tatsächliche Anzahl der"
+" Benutzer oder der installierten Apps die bei Vertragsabschluss "
+"angegebene Anzahl übersteigt, und in diesem Fall die entsprechende "
+"Zusatzgebühr zu entrichten, wie in Abschnitt :ref:`charges_standard_de` "
+"beschrieben;"
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:346
+msgid ""
+"alle erforderlichen Maßnahmen zu ergreifen, um die unveränderte "
+"Ausführung des Teils der Software zu gewährleisten, der die Gültigkeit "
+"der Nutzung der Odoo Enterprise Edition prüft, wie in "
+":ref:`enterprise_access_de` beschrieben;"
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:349
+msgid ""
+"einen festen Ansprechpartner für die gesamte Laufzeit des Vereinbarung zu"
+" benennen;"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:350
 msgid ""
-"Sollte eine der Parteien ihre Verpflichtungen aus dieser Vereinbarung "
-"nicht erfüllen und dieser Verstoß nicht innerhalb von 30 Kalendertagen "
-"nach schriftlicher Benachrichtigung über diesen Verstoß nicht behoben "
-"worden sein, so kann dieser Vertrag von der nicht säumigen Partei "
-"fristlos gekündigt werden."
+"Odoo SA den Wechsel seines Hauptansprechpartners zu einem anderen Odoo-"
+"Partner oder zu einer direkten Zusammenarbeit mit Odoo SA 30 Tage vorher "
+"schriftlich mitzuteilen."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:355
+#: ../../content/legal/terms/i18n/enterprise_de.rst:353
 msgid ""
-"Außerdem kann Odoo SA den Vertrag sofort kündigen, falls der Kunde die "
-"geltenden Gebühren für die Dienstleistungen nicht bis zum in der "
-"entsprechenden Rechnung angegebenen Fälligkeitsdatum bezahlt."
+"Wenn sich der Kunde für die Nutzung der Cloud-Plattform entscheidet, "
+"erklärt er sich außerdem damit einverstanden:"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:359
+#: ../../content/legal/terms/i18n/enterprise_de.rst:356
 msgid ""
-"Überdauernde Bestimmungen: Die Abschnitte \":ref:`confidentiality_de`”, "
-"“:ref:`disclaimers_de`”, “:ref:`liability_de`” sowie "
-"“:ref:`general_provisions_de`” werden jede Kündigung oder Ablauf dieser "
-"Vereinbarung überdauern."
+"alle angemessenen Maßnahmen zu ergreifen, um die Sicherheit seiner "
+"Benutzerkonten zu gewährleisten, einschließlich der Wahl eines sicheren "
+"Passworts und der Nichtweitergabe dieses Passworts an andere Personen;"
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:360
+msgid ""
+"die Hosting-Dienste in angemessener Weise und unter Ausschluss jeglicher "
+"illegaler oder missbräuchlicher Aktivitäten zu nutzen und sich strikt an "
+"die Regeln zu halten, die in der unter https://www.odoo.com/acceptable-"
+"use veröffentlichten Acceptable Use Policy (Nutzungsrichtlinien) "
+"aufgeführt sind."
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:365
+msgid ""
+"Sollte der Kunde die Self-Hosting-Option gewählt haben, erklärt er sich "
+"des weiteren dazu bereit:"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:367
-msgid "7. Garantien, Haftungsausschlüsse, Haftung"
-msgstr ""
-
-#: ../../content/legal/terms/i18n/enterprise_de.rst:372
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:524
-msgid "7.1 Garantie"
-msgstr ""
-
-#: ../../content/legal/terms/i18n/enterprise_de.rst:374
 msgid ""
-"Für die Laufzeit dieser Vereinbarung ist Odoo SA verpflichtet, "
-"wirtschaftlich angemessene Anstrengungen zu unternehmen, um die "
-"Dienstleistungen gemäß den allgemein branchenweit anerkannten Standards "
-"auszuführen, sofern folgende Bedingungen erfüllt sind:"
+"alle angemessenen Maßnahmen zu ergreifen, um seine Dateien und "
+"Datenbanken zu schützen, wobei Odoo SA nicht für Datenverluste haftbar "
+"gemacht werden kann;"
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:369
+msgid ""
+"Odoo SA den notwendigen Zugang zu gewähren, um die Gültigkeit der Nutzung"
+" der Odoo Enterprise Edition auf Anfrage überprüfen zu können (z.B. wenn "
+"die automatische Validierung für den Kunden nicht funktioniert)"
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:376
+msgid "6.2 Verzicht auf Abwerbung oder Einstellung"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:378
 msgid ""
-"die Computersysteme des Kunden befinden sich in einem guten "
-"Betriebszustand und die Software ist in einer geeigneten Betriebsumgebung"
-" installiert;"
+"Falls schriftlich nicht anders vereinbart, verpflichten sich die "
+"Parteien, ihre verbundenen Unternehmen und Vertreter, für die Dauer der "
+"Vereinbarung und für einen Zeitraum von 12 Monaten ab dem Datum der "
+"Beendigung oder des Ablaufs dieser Vereinbarung keinen Mitarbeiter der "
+"anderen Partei, der an der Erbringung oder Nutzung der Dienstleistungen "
+"im Rahmen dieser Vereinbarung beteiligt ist, abzuwerben oder ihm eine "
+"Beschäftigung anzubieten. Im Falle eines Verstoßes gegen die Bedingungen "
+"dieses Abschnitts, der zum Austritt des Mitarbeiters führt, verpflichtet "
+"sich die verletzende Partei, der anderen Partei einen Betrag von "
+"30.000,00 € (dreißigtausend Euro) zu zahlen."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:380
-msgid ""
-"der Kunde stellt angemessene Informationen und Zugänge für die "
-"Fehlerbehebung bereit, damit Odoo SA Probleme identifizieren, "
-"reproduzieren und beheben kann;"
-msgstr ""
-
-#: ../../content/legal/terms/i18n/enterprise_de.rst:382
-msgid "alle Odoo SA zustehenden Beträge wurden bezahlt."
-msgstr ""
-
-#: ../../content/legal/terms/i18n/enterprise_de.rst:384
-msgid ""
-"Das einzige und ausschließliche Rechtsmittel des Kunden und die einzige "
-"Verpflichtung von Odoo SA bei Verstößen gegen diese Garantie besteht "
-"darin, dass Odoo SA die Ausführung der Dienste ohne zusätzliche Kosten "
-"wiederaufnimmt."
+#: ../../content/legal/terms/i18n/enterprise_de.rst:389
+msgid "6.3 Werbung"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:391
-msgid "7.2 Haftungsausschlüsse"
-msgstr ""
-
-#: ../../content/legal/terms/i18n/enterprise_de.rst:393
 msgid ""
-"Außer wenn in diesem Dokument ausdrücklich angegeben, räumt keine der "
-"beiden Parteien weder ausdrückliche noch stillschweigende, gesetzliche "
-"oder anderweitige Gewährleistungen irgendeiner Art ein, und beide "
-"Parteien lehnen alle implizierten Garantien ausdrücklich ab, "
-"einschließlich jeglicher stillschweigenden Zusicherung der "
-"Marktgängigkeit, der Eignung für einen bestimmten Zweck oder der "
-"Nichtverletzung, soweit diese Einschränkung nach geltendem Recht zulässig"
-" ist."
+"Sofern nicht anders schriftlich mitgeteilt, gewährt jede Partei der "
+"anderen eine nicht übertragbare, nicht exklusive, gebührenfreie, "
+"weltweite Lizenz, den Namen, die Logos und die Marken der anderen Partei "
+"zu reproduzieren und darzustellen, und zwar ausschließlich zu dem Zweck, "
+"auf die andere Partei als Kunden oder Lieferanten zu verweisen, und zwar "
+"auf Websites, in Pressemitteilungen und anderen Marketingmaterialien."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:399
+#: ../../content/legal/terms/i18n/enterprise_de.rst:400
+msgid "6.4 Vertraulichkeit"
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:408
+msgid "Definition \"Vertrauliche Informationen\":"
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:403
 msgid ""
-"Odoo SA garantiert nicht, dass die Software örtlichen oder "
-"internationalen Gesetzen oder Rechtsvorschriften entspricht."
+"Alle von einer Partei (der \"offenlegenden Partei\") der anderen Partei "
+"(der \"empfangenden Partei\") mündlich oder schriftlich offengelegten "
+"Informationen, die als vertraulich bezeichnet werden oder die angesichts "
+"Ihrer Beschaffenheit und der Umstände der Offenlegung als vertraulich zu "
+"verstehen sind. Als vertraulich sind insbesondere alle Informationen zu "
+"betrachten, die sich auf die Geschäfte, Angelegenheiten, Produkte, "
+"Entwicklungen, Geschäftsgeheimnisse, das Know-how, die Mitarbeiter, "
+"Kunden und Lieferanten einer der Parteien beziehen."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:405
-msgid "7.3 Haftungsbeschränkung"
-msgstr ""
-
-#: ../../content/legal/terms/i18n/enterprise_de.rst:407
-#, python-format
+#: ../../content/legal/terms/i18n/enterprise_de.rst:410
 msgid ""
-"Im gesetzlich maximal zulässigen Umfang darf die Gesamthaftung jeder "
-"Partei zusammen mit ihren Tochtergesellschaften aus oder im Zusammenhang "
-"mit dieser Vereinbarung 50 % des vom Kunden im Rahmen dieser Vereinbarung"
-" in den 12 Monaten unmittelbar vor dem Datum des Ereignisses, das zu "
-"diesem Anspruch führt, gezahlten Gesamtbetrags nicht übersteigen. Auch "
-"bei mehreren Ansprüchen darf diese Beschränkung nicht verändert werden."
+"Für alle vertraulichen Informationen, die die empfangende Partei während "
+"der Laufzeit dieser Vereinbarung erhält, wendet sie die gleiche Sorgfalt "
+"an wie für den Schutz der Vertraulichkeit ihrer eigenen ähnlich "
+"vertraulichen Informationen, sofern es sich um ein Mindestmaß an Sorgfalt"
+" handelt."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:413
+#: ../../content/legal/terms/i18n/enterprise_de.rst:414
 msgid ""
-"Keine der beiden Parteien oder ihre Tochtergesellschaften werden unter "
-"keinen Umständen für indirekte, besondere, exemplarische, zufällige oder "
-"Folgeschäden jeglicher Art haften, einschließlich unter anderem Verluste "
-"von Erträgen, Gewinnen, Einsparungen, verlorene Geschäftsgelegenheiten "
-"oder andere finanzielle Verluste, Kosten für Stillstand oder Verspätung, "
-"verlorene oder beschädigte Daten, die aus oder im Zusammenhang mit dieser"
-" Vereinbarung entstehen. Dies gilt unabhängig von der Art der Handlung, "
-"egal ob vertraglicher Art, unerlaubte Handlung (einschließlich grober "
-"Fahrlässigkeit) oder einer anderen rechtlichen oder billigen Theorie, "
-"selbst wenn eine Partei oder ihre Tochtergesellschaften auf die "
-"Möglichkeit solcher Schäden hingewiesen wurden oder die von einer Partei "
-"oder ihren Tochtergesellschaften ergriffenen Abhilfemaßnahmen ihren "
-"wesentlichen Zweck verfehlen."
+"Die empfangende Partei darf vertrauliche Informationen der offenlegenden "
+"Partei veröffentlichen, soweit sie gesetzlich dazu gezwungen ist, "
+"vorausgesetzt, die empfangende Partei unterrichtet die offenlegende "
+"Partei vorher über die erzwungene Offenlegung, soweit dies gesetzlich "
+"zulässig ist."
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:421
+msgid "6.5 Datenschutz"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:427
-msgid "7.4 Höhere Gewalt"
+msgid "Definitionen"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:429
+#: ../../content/legal/terms/i18n/enterprise_de.rst:424
 msgid ""
-"Keine der beiden Parteien haftet gegenüber der anderen Partei für die "
-"Verzögerung oder die Nichterbringung einer Leistung im Rahmen dieser "
-"Vereinbarung, wenn diese Nichterbringung oder Verzögerung durch folgende "
-"Punkte verursacht wurden: staatliche Rechtsvorschriften, Brand, Streik, "
-"Krieg, Überschwemmung, Unfall, Epidemie, Embargo, vollständige oder "
-"teilweise Enteignung von Anlagen oder Produkten seitens einer Regierung "
-"oder einer öffentlichen Behörde oder aus allen anderen Gründen oder "
-"Ursachen gleicher oder unterschiedlicher Art, die außerhalb des "
-"angemessenen Einflussbereichs dieser Partei liegen. Dies gilt, solange "
-"diese Gründe oder Ursachen vorliegen."
+"\"Personenbezogene Daten\", \"Verantwortliche\" und "
+"\"Auftragsverarbeiter\" haben dieselbe Bedeutung wie in der Verordnung "
+"(EU) 2016/679 und der Richtlinie 2002/58/EG sowie in allen Verordnungen "
+"oder Rechtsvorschriften, die diese ändern oder ersetzen (im Folgenden als"
+" \"Datenschutzgesetzgebung\" bezeichnet)."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:441
-msgid "8. Allgemeine Bestimmungen"
+#: ../../content/legal/terms/i18n/enterprise_de.rst:430
+msgid "Verarbeitung von personenbezogenen Daten"
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:432
+msgid ""
+"Die Parteien erkennen an, dass die Datenbank des Kunden personenbezogene "
+"Daten enthalten kann, für die der Kunde verantwortlich ist. Diese Daten "
+"werden von Odoo SA verarbeitet, wenn der Kunde dies anweist, indem er "
+"eine der Dienstleistungen nutzt, für die eine Datenbank erforderlich ist "
+"(z. B. Cloud-Hosting-Dienste oder Datenbank-Upgrade-Service), oder wenn "
+"der Kunde seine Datenbank oder einen Teil seiner Datenbank aus "
+"irgendeinem Grund im Zusammenhang mit dieser Vereinbarung an Odoo SA "
+"überträgt."
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:439
+msgid ""
+"Diese Verarbeitung erfolgt in Übereinstimmung mit der "
+"Datenschutzgesetzgebung. Insbesondere verpflichtet sich Odoo SA dazu:"
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:442
+msgid ""
+"(a) die personenbezogenen Daten nur zu verarbeiten, wenn und wie sie vom "
+"Kunden angewiesen werden, und zwar zum Zweck der Erbringung einer der "
+"Dienstleistungen im Rahmen dieser Vereinbarung, es sei denn, dies ist "
+"gesetzlich vorgeschrieben; in diesem Fall wird Odoo SA den Kunden vorher "
+"informieren, es sei denn, das Gesetz verbietet dies;"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:446
-msgid "8.1 Geltendes Recht"
+msgid ""
+"(b) sicherzustellen, dass alle Personen innerhalb von Odoo SA, die zur "
+"Verarbeitung der personenbezogenen Daten befugt sind, sich zur "
+"Vertraulichkeit verpflichtet haben;"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:448
 msgid ""
-"Beide Parteien stimmen zu, dass im Falle von Streitigkeiten aus oder im "
-"Zusammenhang mit dieser Vereinbarung das belgische Recht angewendet wird,"
-" ohne Rücksicht auf Wahl- oder Kollisionsrecht. Soweit im Rahmen dieser "
-"Bestimmung eine Klage oder ein Gerichtsverfahren zulässig ist, stimmen "
-"beide Parteien bei, die Gerichte in Nivelles (Belgien) für die Beilegung "
-"aller Streitigkeiten als ausschließlich zuständig anzuerkennen."
+"(c) angemessene technische und organisatorische Maßnahmen zu ergreifen "
+"und einzuhalten, um die personenbezogenen Daten vor unbefugter oder "
+"unrechtmäßiger Verarbeitung und vor versehentlichem Verlust, Zerstörung, "
+"Beschädigung, Diebstahl, Änderung oder Offenlegung zu schützen;"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:457
-msgid "8.2 Salvatorische Klausel"
-msgstr ""
-
-#: ../../content/legal/terms/i18n/enterprise_de.rst:459
+#: ../../content/legal/terms/i18n/enterprise_de.rst:451
 msgid ""
-"Sollten eine oder mehrere Bestimmungen dieser Vereinbarung oder deren "
-"Anwendung unwirksam, rechtswidrig oder nicht durchsetzbar sein, so werden"
-" die Wirksamkeit, Rechtmäßigkeit und Durchsetzbarkeit der übrigen "
-"Bestimmungen dieser Vereinbarung und ihrer Anwendung davon nicht berührt "
-"oder beeinträchtigt. Beide Parteien verpflichten sich, alle unwirksamen, "
-"rechtswidrigen oder nicht durchsetzbaren Bestimmungen dieser Vereinbarung"
-" durch eine wirksame Bestimmung möglichst mit gleichen Wirkungen und "
-"Zielen zu ersetzen."
+"d) alle Datenschutzanfragen, die an Odoo SA in Bezug auf die Datenbank "
+"des Kunden gestellt werden, unverzüglich an den Kunden weiterzuleiten;"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:470
-msgid "9. Anhang A: Odoo Enterprise Edition-Lizenz"
+#: ../../content/legal/terms/i18n/enterprise_de.rst:453
+msgid ""
+"(e) den Kunden unverzüglich zu benachrichtigen, sobald Odoo SA von einer "
+"versehentlichen, unbefugten oder rechtswidrigen Verarbeitung, Offenlegung"
+" oder einem Zugriff auf die personenbezogenen Daten erfährt und dies "
+"bestätigt;"
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:456
+msgid ""
+"(f) den Kunden zu benachrichtigen, wenn die Verarbeitungsanweisungen nach"
+" Ansicht von Odoo SA gegen die geltende Datenschutzgesetzgebung "
+"verstoßen;"
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:458
+msgid ""
+"(g) dem Kunden alle Informationen zur Verfügung zu stellen, die "
+"erforderlich sind, um die Einhaltung der Datenschutzgesetzgebung "
+"nachzuweisen, und Prüfungen, einschließlich Inspektionen, die vom Kunden "
+"durchgeführt oder in Auftrag gegeben werden, zuzulassen und in "
+"angemessener Weise dazu beizutragen;"
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:462
+msgid ""
+"(h) je nach Wahl des Kunden, alle Kopien der Datenbank des Kunden, die "
+"sich im Besitz von Odoo SA befinden, bei Beendigung dieser Vereinbarung "
+"entweder dauerhaft zu löschen oder zurückzugeben, unter Einhaltung der in"
+" der `Datenschutzrichtlinie <https://www.odoo.com/de_DE/privacy>`_ von "
+"Odoo SA genannten Fristen"
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:467
+msgid ""
+"In Bezug auf die Punkte (d) bis (f) verpflichtet sich der Kunde, Odoo SA "
+"jederzeit genaue Kontaktinformationen zur Verfügung zu stellen, die für "
+"die Benachrichtigung des Datenschutzbeauftragten des Kunden erforderlich "
+"sind."
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:472
+msgid "Unterauftragsverarbeiter"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_de.rst:474
+msgid ""
+"Der Kunde nimmt zur Kenntnis und erklärt sich damit einverstanden, dass "
+"Odoo SA zur Erbringung der Dienstleistungen Dritte "
+"(Unterauftragsverarbeiter) mit der Verarbeitung personenbezogener Daten "
+"beauftragt. Odoo SA verpflichtet sich, Unterauftragsverarbeiter nur in "
+"Übereinstimmung mit der Datenschutzgesetzgebung einzusetzen. Diese "
+"Nutzung wird durch einen Vertrag zwischen Odoo SA und dem "
+"Unterauftragsverarbeiter abgedeckt, der entsprechende Garantien enthält. "
+"Die Datenschutzrichtlinie von Odoo SA, die unter "
+"https://www.odoo.com/privacy veröffentlicht ist, enthält aktuelle "
+"Informationen zu den Namen und Zwecken der Unterauftragsverarbeiter, die "
+"Odoo SA derzeit für die Erbringung der Dienstleistungen einsetzt."
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:486
+msgid "6.6 Beendigung"
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:488
+msgid ""
+"Für den Fall, dass eine der Parteien eine ihrer Verpflichtungen aus "
+"diesem Vertrag nicht erfüllt und diese Verletzung nicht innerhalb von 30 "
+"Kalendertagen nach der schriftlichen Benachrichtigung über diese "
+"Verletzung behoben wird, kann diese Vereinbarung umgehend von der nicht "
+"verletzenden Partei gekündigt werden."
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:493
+msgid ""
+"Ferner kann Odoo SA den Vertrag mit sofortiger Wirkung kündigen, sollte "
+"der Kunde die für die Dienstleistungen anfallenden Gebühren innerhalb von"
+" 21 Tagen nach dem auf der entsprechenden Rechnung angegebenen "
+"Fälligkeitsdatum und nach mindestens drei Mahnungen nicht bezahlt haben."
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:499
+msgid "Fortgeltende Bestimmungen:"
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:498
+msgid ""
+"Die Abschnitte :ref:`confidentiality_de`, :ref:`disclaimers_de`, "
+":ref:`liability_de` und :ref:`general_provisions_de` gelten auch nach "
+"Beendigung oder Ablauf dieser Vereinbarung."
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:504
+msgid "7. Garantien, Haftungsausschlüsse, Haftung"
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:509
+msgid "7.1 Garantien"
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:511
+#, python-format
+msgid ""
+"Odoo SA besitzt das Urheberrecht oder ein gleichwertiges Recht "
+"[#cla_de1]_ an 100 % des Codes der Software und bestätigt, dass alle "
+"Softwarebibliotheken, die für die Nutzung der Software erforderlich sind,"
+" unter einer mit der Softwarelizenz kompatiblen Lizenz verfügbar sind."
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:515
+msgid ""
+"Odoo SA verpflichtet sich für die Dauer dieser Vereinbarung, "
+"Dienstleistungen nach wirtschaftlich vertretbarem Aufwand in "
+"Übereinstimmung mit den allgemein anerkannten Branchenstandards "
+"auszuführen, vorausgesetzt, dass:"
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:520
+msgid ""
+"die Computersysteme des Kunden sich in einem guten Betriebszustand "
+"befinden und die Software bei Self-Hosting in einer geeigneten "
+"Betriebsumgebung installiert ist;"
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:522
+msgid ""
+"der Kunde angemessene Informationen zur Fehlerbehebung zur Verfügung "
+"stellt und Odoo SA im Falle von Self-Hosting jeden nötigen Zugang "
+"gewährt, um Probleme zu identifizieren, zu reproduzieren und zu beheben;"
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:525
+msgid "alle an Odoo SA geschuldeten Beträge bezahlt wurden."
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:527
+msgid ""
+"Das einzige und ausschließliche Rechtsmittel des Kunden und die einzige "
+"Verpflichtung von Odoo SA bei einem Verstoß gegen diese Garantie besteht "
+"darin, dass Odoo SA die Ausführung der Dienstleistungen ohne zusätzliche "
+"Kosten wieder aufnimmt."
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:531
+msgid ""
+"Externe Beiträge sind durch einen `Copyright-Lizenzvertrag "
+"<https://www.odoo.com/cla>`_ abgedeckt, der Odoo SA eine dauerhafte, "
+"kostenlose und unwiderrufliche Copyright- und Patentlizenz gewährt."
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:538
+msgid "7.2 Haftungsausschlüsse"
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:540
+msgid ""
+"Sofern nicht ausdrücklich in diesem Dokument vorgesehen, übernimmt keine "
+"der Parteien irgendeine Garantie, sei es ausdrücklich, stillschweigend, "
+"gesetzlich oder anderweitig, und jede Partei lehnt ausdrücklich alle "
+"stillschweigenden Garantien ab, einschließlich jeglicher "
+"stillschweigenden Garantie der Marktgängigkeit, Eignung für einen "
+"bestimmten Zweck oder Nichtverletzung von Rechten Dritter, soweit dies "
+"nach geltendem Recht zulässig ist."
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:546
+msgid ""
+"Odoo SA übernimmt keine Garantie dafür, dass die Software mit lokalen "
+"oder internationalen Gesetzen oder Vorschriften konform ist."
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:552
+msgid "7.3 Haftungsbeschränkung"
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:554
+#, python-format
+msgid ""
+"Soweit gesetzlich zulässig, übersteigt die Gesamthaftung jeder Partei "
+"zusammen mit ihren verbundenen Unternehmen, die sich aus dieser "
+"Vereinbarung ergibt oder mit ihr in Zusammenhang steht, nicht 50 % des "
+"Gesamtbetrags, den der Kunde im Rahmen dieser Vereinbarung in den 12 "
+"Monaten unmittelbar vor dem Datum des Ereignisses, das einen solchen "
+"Anspruch begründet, gezahlt hat. Mehrfachansprüche führen nicht zu einer "
+"Ausweitung dieser Begrenzung."
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:560
+msgid ""
+"In keinem Fall haften die Parteien oder ihre verbundenen Unternehmen für "
+"indirekte, besondere, exemplarische, zufällige oder Folgeschäden "
+"jeglicher Art, einschließlich, aber nicht beschränkt auf "
+"Einnahmeverluste, Gewinne, Einsparungen, Geschäftsverluste oder andere "
+"finanzielle Verluste, Kosten für Stockungen oder Verzögerung, verlorene "
+"oder beschädigte Daten, die sich aus oder in Verbindung mit dieser "
+"Vereinbarung ergeben, unabhängig von der Form der Klage, ob auf "
+"vertraglicher Basis, aufgrund unerlaubter Handlung (einschließlich "
+"strikter Fahrlässigkeit) oder einer anderen rechtlichen oder "
+"gerechtfertigten Grundlage, selbst wenn eine Partei oder ihre Partner auf"
+" die Möglichkeit solcher Schäden hingewiesen wurden oder wenn das "
+"Rechtsmittel einer Partei oder ihrer Partner auf andere Weise seinen "
+"wesentlichen Zweck verfehlt."
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:573
+msgid "7.4 Höhere Gewalt"
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:575
+msgid ""
+"Keine der Parteien haftet gegenüber der anderen Partei für die "
+"Verzögerung oder das Nichterbringen einer Leistung aus dieser "
+"Vereinbarung, wenn die Ursache für die Verzögerung oder das "
+"Nichterbringen auf höhere Gewalt zurückzuführen ist, wie z. B. "
+"behördliche Vorschriften, Feuer, Streik, Krieg, Überschwemmung, Unfall, "
+"Epidemie, Embargo, vollständige oder teilweise Aneignung von Anlagen oder"
+" Produkten durch eine Regierung oder Behörde oder andere Ursachen "
+"gleicher oder anderer Art, die außerhalb der zumutbaren Kontrolle der "
+"betreffenden Partei liegen, solange diese Ursachen bestehen."
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:585
+msgid "8. Allgemeine Bestimmungen"
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:590
+msgid "8.1 Geltendes Recht"
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:592
+msgid ""
+"Diese Vereinbarung und alle Kundenaufträge unterliegen dem belgischen "
+"Recht. Alle Streitigkeiten, die sich aus oder im Zusammenhang mit dieser "
+"Vereinbarung oder einem Kundenauftrag ergeben, unterliegen der "
+"ausschließlichen Zuständigkeit des Handelsgerichts von Nivelles."
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:599
+msgid "8.2 Salvatorische Klausel"
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:601
+msgid ""
+"Sollten eine oder mehrere Bestimmungen dieser Vereinbarung oder ihrer "
+"Anwendung ungültig, rechtswidrig oder nicht durchsetzbar sein, so wird "
+"die Gültigkeit, Rechtmäßigkeit und Durchsetzbarkeit der übrigen "
+"Bestimmungen dieser Vereinbarung und ihrer Anwendung dadurch in keiner "
+"Weise berührt oder beeinträchtigt. Beide Parteien verpflichten sich, jede"
+" ungültige, rechtswidrige oder nicht durchsetzbare Bestimmung dieser "
+"Vereinbarung durch eine gültige Bestimmung zu ersetzen, die die gleichen "
+"Auswirkungen und Ziele hat."
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:612
+msgid "9. Anhang A: Odoo Enterprise Edition-Lizenz"
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_de.rst:616
 msgid ""
 "Die Odoo Enterprise Edition ist unter nachstehend definierten der Odoo "
 "Enterprise Edition Lizenz v1.0 lizenziert:"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_de.rst:483
+#: ../../content/legal/terms/i18n/enterprise_de.rst:625
 msgid "Siehe :ref:`odoo_enterprise_license`."
 msgstr ""
 
@@ -2266,10 +2564,6 @@ msgid ""
 "oficial de los términos y condiciones del \"Odoo Enterprise Subscription "
 "Agreement\" es :ref:`la versión original en inglés "
 "<enterprise_agreement>`"
-msgstr ""
-
-#: ../../content/legal/terms/i18n/enterprise_es.rst:16
-msgid "Version 9c - 2020-06-15"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_es.rst:18
@@ -3312,7 +3606,7 @@ msgid ""
 "<enterprise_agreement>`."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:29
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:30
 msgid ""
 "En vous abonnant aux services de Odoo Enterprise (les \"Services\") "
 "fournis par Odoo SA et ses filiales (collectivement, \"Odoo SA\") en "
@@ -3323,11 +3617,11 @@ msgid ""
 "\"Contrat\")."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:38
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:39
 msgid "1 Durée du Contrat"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:40
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:41
 msgid ""
 "La durée du présent Contrat (la \"Durée\") sera spécifiée par écrit à la "
 "conclusion du Contrat, à compter de la date de la conclusion. Celui-ci "
@@ -3336,15 +3630,15 @@ msgid ""
 "moins 30 jours avant la date d'échéance du contrat."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:48
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:49
 msgid "2 Définitions"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:54
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:55
 msgid "Utilisateur"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:51
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:52
 msgid ""
 "Tout compte utilisateur indiqué comme actif dans le Logiciel et donnant "
 "accès au mode création et/ou édition. Les comptes désactivés ainsi que "
@@ -3353,17 +3647,17 @@ msgid ""
 "sont pas comptés comme Utilisateurs."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:57
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:58
 msgid ""
 "Une \"App\" est un ensemble de fonctionnalités, disponible pour "
 "installation dans le Logiciel."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:62
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:63
 msgid "Partenaire Odoo"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:60
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:61
 msgid ""
 "Un Partenaire Odoo est un individu ou société tierce, choisi par le "
 "Client et qui collabore avec celui-ci pour les services liés à Odoo. Le "
@@ -3371,11 +3665,11 @@ msgid ""
 "Odoo, ou avec Odoo SA directement (moyennant préavis)."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:69
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:70
 msgid "Module Supplémentaire"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:65
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:66
 msgid ""
 "Un Module Supplémentaire est un répertoire de fichiers de code source, ou"
 " un ensemble de personnalisations nécessitant du code Python créées dans "
@@ -3385,18 +3679,18 @@ msgid ""
 "compte du Client, ou par des tiers."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:74
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:75
 msgid "Module Supplémentaire Couvert"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:72
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:73
 msgid ""
 "Un Module Supplémentaire Couvert est un Module Supplémentaire pour lequel"
 " le Client choisit de payer un abonnement de maintenance afin d'obtenir "
 "de l'assistance, des corrections de bug et des migrations."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:77
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:78
 msgid ""
 "Désigne toute défaillance du Logiciel ou d'un Module Supplémentaire "
 "Couvert, qui se traduit par un arrêt complet, un message d'erreur avec "
@@ -3409,33 +3703,33 @@ msgid ""
 "exigences comptables légales de ce pays)."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:87
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:88
 msgid "Versions Couvertes"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:86
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:87
 msgid ""
 "Sauf exception explicite, tous les Services dans le cadre du présent "
 "contrat s'appliquent uniquement aux Versions Couvertes du Logiciel, qui "
 "comprennent les 3 plus récentes versions majeures."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:92
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:93
 msgid "Formule d'Abonnement"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:90
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:91
 msgid ""
 "Une Formule d'Abonnement définit un ensemble d'Apps, fonctionnalités et "
 "solutions d'hébergement couvertes par ce Contrat, tel que précisé par "
 "écrit à la conclusion de ce Contrat."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:97
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:98
 msgid "3 Accès au Logiciel"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:99
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:100
 msgid ""
 "Le Client peut utiliser le Logiciel hébergé sur la Plate-forme Cloud, ou "
 "choisir l'option de l'Auto-Hébergement. La Plate-forme Cloud est hébergée"
@@ -3444,7 +3738,7 @@ msgid ""
 "système informatique de son choix, hors du contrôle d'Odoo SA."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:104
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:105
 msgid ""
 "Pour toute la durée du présent Contrat, Odoo SA octroie au Client une "
 "licence non exclusive, non transférable d'utilisation (exécution, "
@@ -3453,7 +3747,7 @@ msgid ""
 ":ref:`appendix_a_fr`."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:108
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:109
 msgid ""
 "Le Client accepte de prendre toutes les mesures nécessaires pour garantir"
 " l'exécution sans aucune modification de la partie du Logiciel qui "
@@ -3463,7 +3757,7 @@ msgid ""
 " le nombre de lignes de code des Modules Supplémentaires Couverts."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:114
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:115
 msgid ""
 "Odoo SA s'engage à ne pas divulguer à une tierce partie d'informations "
 "chiffrées personnelles ou spécifiques sans le consentement du Client, et "
@@ -3472,14 +3766,14 @@ msgid ""
 "https://www.odoo.com/privacy."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:119
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:120
 msgid ""
 "À l'expiration ou la résiliation de ce Contrat, cette licence est "
 "immédiatement révoquée et le Client accepte de cesser toute utilisation "
 "du logiciel Odoo Enterprise Edition et de la Plate-forme Cloud."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:123
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:124
 #, python-format
 msgid ""
 "Si le Client devait enfreindre les dispositions de la présente section, "
@@ -3488,15 +3782,15 @@ msgid ""
 "d'Utilisateurs."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:131
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:132
 msgid "4 Services inclus"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:136
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:137
 msgid "4.1 Service de correction de Bugs"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:138
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:139
 msgid ""
 "Pour la durée de ce Contrat, Odoo SA s'engage à déployer tous les efforts"
 " raisonnables pour corriger tout Bug du Logiciel ou des Modules "
@@ -3508,7 +3802,7 @@ msgid ""
 "dans un délai de 2 jours ouvrables."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:145
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:146
 msgid ""
 "Dès que le Bug est remédié, un correctif approprié sera communiqué au "
 "Client. Si le Client utilise une Version Couverte, il ne lui sera jamais "
@@ -3516,13 +3810,13 @@ msgid ""
 "correctif."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:149
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:150
 msgid ""
 "Lorsqu'un Bug est corrigé dans une Version Couverte, Odoo SA s'engage à "
 "le corriger dans toutes les Versions Couvertes plus récentes du Logiciel."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:152
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:153
 msgid ""
 "Les deux parties reconnaissent que comme spécifié dans la licence du "
 "Logiciel et à la section :ref:`liability_fr` de ce Contrat, Odoo SA ne "
@@ -3530,15 +3824,15 @@ msgid ""
 "Supplémentaires Couverts."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:158
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:159
 msgid "4.2 Mises à jour de sécurité"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:163
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:164
 msgid "Auto-Hébergement"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:165
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:166
 msgid ""
 "Pour la durée du Contrat, Odoo SA s'engage à envoyer une \"alerte de "
 "sécurité\"\" au Client pour tout Bug présentant un risque de sécurité qui"
@@ -3550,7 +3844,7 @@ msgid ""
 " du Client, et le correctif correspondant pour chaque Version Couverte."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:172
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:173
 msgid ""
 "Le Client s'engage à traiter le Bug de sécurité et les informations "
 "figurant dans l'alerte de sécurité comme des Informations Confidentielles"
@@ -3558,11 +3852,11 @@ msgid ""
 " la période d'embargo avant la divulgation publique."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:179
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:180
 msgid "Plate-forme Cloud"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:181
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:182
 msgid ""
 "Odoo SA s'engage à appliquer les correctifs de sécurité pour tout Bug de "
 "sécurité découvert dans une version du Logiciel hébergé sur la Plate-"
@@ -3570,15 +3864,15 @@ msgid ""
 "correctif est disponible, et sans intervention manuelle du Client."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:189
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:190
 msgid "4.3 Service de migration"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:194
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:195
 msgid "Service de migration du Logiciel"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:196
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:197
 msgid ""
 "Pour la durée du présent Contrat, le Client peut soumettre des demandes "
 "de migration en suivant les procédures appropriées (généralement, via le "
@@ -3587,7 +3881,7 @@ msgid ""
 "Version Couverte plus récente (la \"Version Cible\")."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:201
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:202
 msgid ""
 "Pour la Plate-forme Cloud, les demandes de migration sont envoyées "
 "directement depuis la panneau de contrôle de la Plate-forme Cloud, et ne "
@@ -3597,7 +3891,7 @@ msgid ""
 "Backup du Logiciel)."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:208
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:209
 msgid ""
 "Ce service est fourni par le biais d'une plateforme automatisée, afin de "
 "permettre au Client d'effectuer des migration sans intervention humain, "
@@ -3605,7 +3899,7 @@ msgid ""
 "migrée avec succès pour une Version Couverte donnée."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:212
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:213
 msgid ""
 "Le service de migration est limité à la conversion et à l'adaptation "
 "techniques de la base de données du Client pour la rendre compatible avec"
@@ -3615,7 +3909,7 @@ msgid ""
 "Supplémentaires Couverts vers la Version Cible."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:218
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:219
 msgid ""
 "Il incombe au Client de vérifier et valider la base de données migrée "
 "afin de détecter tout Bug, d'analyser l'impact des changements et des "
@@ -3627,57 +3921,57 @@ msgid ""
 "qu'un résultat satisfaisant soit obtenu."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:229
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:230
 msgid "4.4 Service d'Hébergement Cloud"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:231
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:232
 msgid ""
 "Pour la durée du présent Contrat, lorsque le Client choisit d'utiliser la"
 " Plate-forme Cloud, Odoo SA s'engage à fournir au minimum le service "
 "suivant:"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:234
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:235
 msgid ""
 "Choix de plusieurs régions d'hébergement (minimum 3: Europe, America, "
 "Asia/Pacific)"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:235
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:236
 #, python-format
 msgid ""
 "Hébergement en centre de données Tiers-III ou équivalent, avec 99.9% de "
 "disponibilité"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:236
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:237
 msgid "Cryptage des communications SSL Grade A (HTTPS)"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:237
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:238
 msgid "Sauvegardes automatisées et vérifiées, répliquées dans plusieurs régions"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:238
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:239
 msgid "Plan de Reprise d'Activité, testé régulièrement"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:240
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:241
 msgid ""
 "Les détails du Service d'Hébergement Cloud sont décrits sur la page du "
 "Service Level Agreement: https://www.odoo.com/cloud-sla."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:247
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:248
 msgid "4.5 Service d'Assistance"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:250
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:251
 msgid "Portée"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:252
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:253
 msgid ""
 "Pour la durée du présent Contrat, le Client peut ouvrir un nombre non "
 "limité de demandes d'assistance sans frais, exclusivement pour des "
@@ -3686,7 +3980,7 @@ msgid ""
 " et des Modules Supplémentaires Couverts"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:257
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:258
 msgid ""
 "D'autres types de demandes, telles que celles relatives à des "
 "développements ou des personnalisations, peuvent être couvertes par "
@@ -3695,11 +3989,11 @@ msgid ""
 "discrétion d'Odoo SA."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:263
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:264
 msgid "Disponibilité"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:265
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:266
 msgid ""
 "Les demandes d'assistances peuvent être soumises à tout moment en ligne "
 "via https://www.odoo.com/help, ou par téléphone directement aux "
@@ -3708,18 +4002,18 @@ msgid ""
 "correspondantes."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:274
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:275
 msgid "Collaboration avec un Partenaire Odoo"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:276
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:277
 msgid ""
 "Pour les services de correction de Bug, d'assistance et de migration, le "
 "Client peut choisir de collaborer avec un Partenaire Odoo comme point de "
 "contact principal, ou directement avec Odoo SA."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:280
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:281
 msgid ""
 "Si le Client choisit un Partenaire Odoo, Odoo SA sous-traitera les "
 "services liés au Modules Supplémentaires Couverts à ce partenaire, qui "
@@ -3728,29 +4022,29 @@ msgid ""
 "compte du Client, concernant les fonctions standard du Logiciel."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:285
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:286
 msgid ""
 "Si le Client décide de collaborer directement avec Odoo SA, les services "
 "liés aux Modules Supplémentaires Couverts ne seront fournis que *si et "
 "seulement si* le Client est hébergé sur la Plate-forme Cloud d'Odoo."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:293
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:294
 msgid "5 Tarifs et Frais"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:298
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:299
 msgid "5.1 Tarifs standards"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:300
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:301
 msgid ""
 "Les tarifs standards pour le contrat d'abonnement à Odoo Enterprise et "
 "les Services sont basés sur le nombre d'Utilisateurs et la Formule "
 "d'Abonnement, et précisés par écrit à la conclusion du contrat."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:303
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:304
 msgid ""
 "Pendant la durée du contrat, si le Client a plus d'Utilisateurs ou "
 "utilise des fonctionnalités qui requièrent une autre Formule d'Abonnement"
@@ -3760,7 +4054,7 @@ msgid ""
 "d'Abonnement requise, pour le reste de la Durée."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:309
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:310
 msgid ""
 "Par ailleurs, les services concernant les Modules Supplémentaires "
 "Couverts sont facturés sur base du nombre de lignes de code dans ces "
@@ -3775,20 +4069,19 @@ msgid ""
 " à l'installation ou à l'exécution du Logiciel."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:318
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:319
 msgid ""
 "Lorsque le Client demande une migration, pour chaque Module "
 "Supplémentaire Couvert qui n'a pas fait l'objet de frais de maintenance "
 "pour les 12 derniers mois, Odoo SA peut facturer des frais "
-"supplémentaires unique de 16€ par 100 lignes de code, pour chaque mois de"
-" maintenance manquant."
+"supplémentaires uniques, pour chaque mois de maintenance manquant."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:326
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:327
 msgid "5.2 Tarifs de reconduction"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:328
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:329
 msgid ""
 "Lors de la reconduction telle que décrite à la section :ref:`term_fr`, si"
 " les tarifs par Utilisateur qui ont été appliqués pendant la Durée "
@@ -3798,11 +4091,11 @@ msgid ""
 " récents."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:336
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:337
 msgid "5.3 Taxes et impôts"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:338
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:339
 msgid ""
 "Tous les frais et tarifs sont indiqués hors taxes, frais et charges "
 "fédérales, provinciales, locales ou autres taxes gouvernementales "
@@ -3812,26 +4105,26 @@ msgid ""
 "payer ou de percevoir les Taxes dont le client est responsable."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:347
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:348
 msgid "6 Conditions des Services"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:350
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:351
 msgid "6.1 Obligations du Client"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:352
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:353
 msgid "Le Client accepte de / d':"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:354
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:355
 msgid ""
 "Payer à Odoo SA les frais applicables pour les Services en vertu du "
 "présent Contrat, conformément aux conditions de paiement spécifiées à la "
 "souscription du présent Contrat ;"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:356
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:357
 msgid ""
 "Aviser immédiatement Odoo SA si le nombre réel d'Utilisateurs dépasse le "
 "nombre spécifié à la conclusion du Contrat, et dans ce cas, de régler les"
@@ -3839,7 +4132,7 @@ msgid ""
 ":ref:`charges_standard_fr`;"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:359
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:360
 msgid ""
 "Prendre toutes les mesures nécessaires pour garantir l'exécution non "
 "modifiée de la partie du Logiciel qui vérifie la validité de "
@@ -3847,33 +4140,33 @@ msgid ""
 ":ref:`enterprise_access_fr`;"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:362
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:363
 msgid ""
 "Désigner 1 personne de contact représentant le Client pour toute la durée"
 " du contrat ;"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:363
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:364
 msgid ""
 "Signaler par écrit à Odoo SA avec un préavis de 30 jours en cas de "
 "changement de point de contact principal, pour collaborer avec un autre "
 "Partenaire Odoo, ou directement avec Odoo SA."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:366
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:367
 msgid ""
 "Lorsque le Client choisit d'utiliser la Plate-forme Cloud, il accepte "
 "aussi de:"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:368
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:369
 msgid ""
 "Prendre toute mesure raisonnable pour garantir la sécurité de ses comptes"
 " utilisateur, y compris en choisissant un mot de passe sûr et en ne le "
 "partageant avec personne;"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:370
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:371
 msgid ""
 "Faire une utilisation raisonnable des Services d'Hébergement, à "
 "l'exclusion de toute activité illégale ou abusive, et de respecter "
@@ -3881,18 +4174,18 @@ msgid ""
 "Acceptable: https://www.odoo.com/acceptable-use."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:374
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:375
 msgid "Lorsque le Client choisit l'Auto-Hébergement, il accepte aussi de:"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:376
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:377
 msgid ""
 "Fournir tout accès nécessaire à Odoo SA pour vérifier la validité de "
 "l'utilisation d'Odoo Enterprise Edition sur demande (par exemple, si la "
 "validation automatique ne fonctionne pas pour le Client) ;"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:379
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:380
 msgid ""
 "Prendre toutes les mesures raisonnables pour protéger les fichiers et les"
 " bases de données du Client et s'assurer que les données du Client sont "
@@ -3900,11 +4193,11 @@ msgid ""
 "responsable de toute perte de données ;"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:385
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:386
 msgid "6.2 Non solicitation ou embauche"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:387
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:388
 msgid ""
 "Sauf si l'autre partie donne son consentement par écrit, chaque partie, "
 "ses sociétés affiliées et ses représentants conviennent de ne pas "
@@ -3918,11 +4211,11 @@ msgid ""
 "forfaitaire de 30 000,00 euros (€) (trente mille euros)."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:400
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:401
 msgid "6.3 Publicité"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:402
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:403
 msgid ""
 "Sauf demande contraire par écrit, chaque partie accorde à l'autre partie "
 "une licence mondiale libre de droits, non transférable, non exclusive "
@@ -3932,15 +4225,15 @@ msgid ""
 "documents de marketing."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:410
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:411
 msgid "6.4 Confidentialité"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:421
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:422
 msgid "Définition des \"Informations Confidentielles\" :"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:413
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:414
 msgid ""
 "Désigne toutes les informations divulguées par une partie (la \"Partie "
 "Communicante\") à l'autre partie (la \"Partie Bénéficiaire\"), que ce "
@@ -3953,7 +4246,7 @@ msgid ""
 "parties doit être considérée comme confidentielle."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:423
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:424
 msgid ""
 "Pour toute Information Confidentielle reçue pendant la durée du présent "
 "contrat, la Partie Bénéficiaire utilisera le même degré de précaution "
@@ -3962,7 +4255,7 @@ msgid ""
 "devra correspondre au minimum à une précaution raisonnable."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:428
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:429
 msgid ""
 "La Partie Bénéficiaire peut divulguer les Informations Confidentielles de"
 " la Partie Communicante dans la mesure où la loi l'y oblige, à condition "
@@ -3971,15 +4264,15 @@ msgid ""
 " la loi."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:436
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:437
 msgid "6.5 Protection de données"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:441
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:442
 msgid "Définitions"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:439
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:440
 msgid ""
 "\"Données à Caractère Personnel\", \"Responsable de Traitement\", "
 "\"Traitement\" prennent le même sens que dans le Règlement (EU) 2016/679 "
@@ -3988,11 +4281,11 @@ msgid ""
 "Protection des Données\")"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:444
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:445
 msgid "Traitement de Données à Caractère Personnel"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:446
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:447
 msgid ""
 "Les parties conviennent que la base de données du Client peut contenir "
 "des Données à Caractère Personnel, pour lesquelles le Client est le "
@@ -4004,13 +4297,13 @@ msgid ""
 "l'exécution du présent Contrat."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:453
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:454
 msgid ""
 "Ce traitement sera exécuté en conformité avec la Législation sur la "
 "Protection des Données. En particulier, Odoo SA s'engage à:"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:456
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:457
 msgid ""
 "(a) Ne traiter les Données à Caractère Personnel que quand et comme "
 "demandé par le Client, et pour la finalité de l'exécution de l'un des "
@@ -4018,14 +4311,14 @@ msgid ""
 "préviendra préalablement le Client, à moins que la loi ne l'interdise;"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:459
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:460
 msgid ""
 "(b) S'assurer que tout le personnel d'Odoo SA autorisé à traiter les "
 "Données à Caractère Personnel soit soumis à un devoir de confidentialité "
 ";"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:461
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:462
 msgid ""
 "(c) Mettre en oeuvre et maintenir des mesures de sécurité appropriées au "
 "niveau technique et organisationnel, afin de protéger les Données à "
@@ -4034,28 +4327,28 @@ msgid ""
 "divulgation ;"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:465
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:466
 msgid ""
 "(d) Transmettre promptement au Client toute demande relative à des "
 "Données à Caractère Personnel qui aurait été soumise à Odoo SA au sujet "
 "de la base de données du Client ;"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:467
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:468
 msgid ""
 "(e) Signaler au Client dès la prise de connaissance et la confirmation de"
 " tout traitement, accès ou divulgation non autorisés, accidentels ou "
 "illégal des Données à Caractère Personnel ;"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:469
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:470
 msgid ""
 "(f) Signaler au Client lorsque ses instructions de traitement vont à "
 "l'encontre de la Législation sur la Protection des Données, d'après Odoo "
 "SA ;"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:471
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:472
 msgid ""
 "(g) Fournir au Client toute information nécessaire à la démonstration de "
 "la conformité avec la Législation sur la Protection des Données, "
@@ -4063,7 +4356,7 @@ msgid ""
 "inspections, conduits ou mandatés par le Client dans ce but;"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:474
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:475
 msgid ""
 "(h) Supprimer définitivement tout copie de la base de données du Client "
 "en possession d'Odoo SA, ou retourner ces données, au choix du Client, "
@@ -4072,18 +4365,18 @@ msgid ""
 " d'Odoo SA ;"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:479
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:480
 msgid ""
 "Concernant les points (d) à (f), le Client s'engage à fournir à Odoo SA "
 "des informations de contact valables, tel que nécessaire pour toute "
 "notification auprès du responsable de protection des données du Client."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:484
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:485
 msgid "Sous-traitants"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:486
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:487
 msgid ""
 "Le Client convient et accepte que pour fournir les Services, Odoo SA peut"
 " faire appel à des prestataires de service tiers (Sous-traitants) pour "
@@ -4097,11 +4390,11 @@ msgid ""
 " Odoo SA pour l'exécution des Services."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:499
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:500
 msgid "6.6 Résiliation"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:501
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:502
 msgid ""
 "Dans le cas où l'une des parties ne remplit pas ses obligations découlant"
 " du présent contrat, et si une telle violation n’est pas résolue dans les"
@@ -4110,7 +4403,7 @@ msgid ""
 "pas commis la violation."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:507
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:508
 msgid ""
 "En outre, Odoo SA peut résilier le contrat immédiatement dans le cas où "
 "le Client ne paie pas les frais applicables pour les services dans les 21"
@@ -4118,22 +4411,26 @@ msgid ""
 " après minimum 3 rappels."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:514
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:515
 msgid "Durée de l'applicabilité des dispositions:"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:512
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:513
 msgid ""
 "Les sections \":ref:`confidentiality_fr`\", “:ref:`disclaimers_fr`\",   "
 "“:ref:`liability_fr`\", et “:ref:`general_provisions_fr`\" survivront la "
 "résiliation ou l'expiration du présent contrat."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:519
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:520
 msgid "7 Limitations de garantie et de responsabilité"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:526
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:525
+msgid "7.1 Garantie"
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:527
 #, python-format
 msgid ""
 "Odoo SA détient le copyright ou un équivalent [#cla_fr1]_ sur 100% du "
@@ -4142,7 +4439,7 @@ msgid ""
 "licence compatible avec la licence du Logiciel."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:530
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:531
 msgid ""
 "Pendant la durée du présent contrat, Odoo SA s'engage à déployer les "
 "efforts raisonnables sur le plan commercial pour exécuter les Services "
@@ -4150,43 +4447,43 @@ msgid ""
 " :"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:534
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:535
 msgid ""
 "Les systèmes informatiques du Client soient en bon état de fonctionnement"
 " et, pour l'Auto-Hébergement, que le Logiciel soit installé selon les "
 "bonnes pratiques en vigueur;"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:536
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:537
 msgid ""
 "Le Client fournisse les informations adéquates nécessaires au dépannage "
 "et, pour l'Auto-Hébergement, tout accès utile, de telle sorte qu'Odoo SA "
 "puisse identifier, reproduire et gérer les problèmes ;"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:539
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:540
 msgid "Tous les montants dus à Odoo SA, qui sont échus, aient été réglés."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:541
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:542
 msgid ""
 "La reprise de l'exécution des Services par Odoo SA sans frais "
 "supplémentaires constitue la seule et unique réparation pour le Client et"
 " la seule obligation d'Odoo SA pour tout manquement à cette garantie."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:545
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:546
 msgid ""
 "Les contributions externes sont couvertes par un `Copyright License "
 "Agreement <https://www.odoo.com/cla>`_ fournissant une licence de "
 "copyright et de brevet permanente, gratuite et irrévocable à Odoo SA."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:552
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:553
 msgid "7.2 Limitation de garantie"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:554
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:555
 msgid ""
 "Mis à part les dispositions expresses du présent Contrat, aucune des "
 "parties ne donne de garantie d'aucune sorte, expresse, implicite ou "
@@ -4196,17 +4493,17 @@ msgid ""
 "par la loi en vigueur."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:560
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:561
 msgid ""
 "Odoo SA ne garantit pas que le Logiciel soit conforme à toute loi ou "
 "réglementation locale ou internationale."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:567
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:568
 msgid "7.3 Limitation de responsabilité"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:569
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:570
 #, python-format
 msgid ""
 "Dans la limite autorisée par la loi, la responsabilité globale de chaque "
@@ -4217,7 +4514,7 @@ msgid ""
 "n'augmenteront pas cette limite."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:574
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:575
 msgid ""
 "Les parties et leurs filiales ne pourront en aucun cas être tenues "
 "responsables des dommages indirects, spéciaux, accessoires ou consécutifs"
@@ -4232,7 +4529,7 @@ msgid ""
 " essentiel."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:588
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:589
 msgid ""
 "Aucune des parties ne sera tenue pour responsable envers l'autre partie "
 "de tout retard ou manquement d'exécution en vertu du présent Contrat, si "
@@ -4246,15 +4543,15 @@ msgid ""
 " et tant qu'une telle cause existe."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:600
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:601
 msgid "8 Dispositions générales"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:605
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:606
 msgid "8.1 Droit applicable"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:607
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:608
 msgid ""
 "Le présent contrat et les commandes passées par le client sont "
 "exclusivement régis par le droit belge. Tout différend relatif au présent"
@@ -4262,11 +4559,11 @@ msgid ""
 "exclusive du tribunal de l’entreprise de Nivelles."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:614
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:615
 msgid "8.2 Divisibilité"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:616
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:617
 msgid ""
 "Dans le cas où une ou plusieurs des dispositions du présent contrat ou "
 "toute autre application de celles-ci se trouvent non valables, illégales "
@@ -4278,18 +4575,18 @@ msgid ""
 "mêmes effets et objectifs."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:626
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:627
 msgid "9 Appendice A: Odoo Enterprise Edition License"
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:628
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:629
 #: ../../content/legal/terms/i18n/partnership_fr.rst:386
 msgid ""
 "Odoo Enterprise Edition est publié sous la licence Odoo Enterprise "
 "Edition License v1.0, définie ci-dessous."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:632
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:633
 #: ../../content/legal/terms/i18n/partnership_fr.rst:390
 msgid ""
 "Ceci est une traduction en français de la licence “Odoo Enterprise "
@@ -4299,7 +4596,7 @@ msgid ""
 "License” est la :ref:`version originale <odoo_enterprise_license>`."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:638
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:639
 msgid ""
 "This is a french translation of the \"Odoo Enterprise Edition License”. "
 "This translation is provided in the hope that it will facilitate "
@@ -4308,7 +4605,7 @@ msgid ""
 "english version <odoo_enterprise_license>`."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:655
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:656
 #: ../../content/legal/terms/i18n/partnership_fr.rst:407
 msgid ""
 "Ce logiciel et les fichiers associés (le \"Logiciel\") ne peuvent être "
@@ -4317,7 +4614,7 @@ msgid ""
 "de validité, et pour le nombre d'utilisateurs prévus dans ce contrat."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:660
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:661
 #: ../../content/legal/terms/i18n/partnership_fr.rst:412
 msgid ""
 "Un contrat de Partnariat avec Odoo S.A. en ordre de validité donne les "
@@ -4325,7 +4622,7 @@ msgid ""
 "à un environnement de test ou de développement."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:664
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:665
 #: ../../content/legal/terms/i18n/partnership_fr.rst:416
 msgid ""
 "Vous êtes autorisé à développer des modules Odoo basés sur le Logiciel et"
@@ -4335,7 +4632,7 @@ msgid ""
 "propriétaires similaires à celle-ci)."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:669
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:670
 #: ../../content/legal/terms/i18n/partnership_fr.rst:421
 msgid ""
 "Vous êtes autorisé à utiliser des modules Odoo publiés sous n'importe "
@@ -4344,14 +4641,14 @@ msgid ""
 "les modules publiés sur l'Odoo Apps Store sur odoo.com/apps)."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:674
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:675
 #: ../../content/legal/terms/i18n/partnership_fr.rst:426
 msgid ""
 "Il est interdit de publier, distribuer, accorder des sous-licences, ou "
 "vendre tout copie du Logiciel ou toute copie modifiée du Logiciel."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:677
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:678
 #: ../../content/legal/terms/i18n/partnership_fr.rst:429
 msgid ""
 "Toute copie du Logiciel ou d'une partie substantielle de celui-ci doit "
@@ -4359,7 +4656,7 @@ msgid ""
 "présente licence."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:680
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:681
 #: ../../content/legal/terms/i18n/partnership_fr.rst:432
 msgid ""
 "LE LOGICIEL EST FOURNI \"EN L'ETAT\", SANS AUCUNE GARANTIE DE QUELQUE "
@@ -4368,7 +4665,7 @@ msgid ""
 "UTILISATION PARTICULIERE, OU DE NON INFRACTION AUX DROITS D'UN TIERS."
 msgstr ""
 
-#: ../../content/legal/terms/i18n/enterprise_fr.rst:685
+#: ../../content/legal/terms/i18n/enterprise_fr.rst:686
 #: ../../content/legal/terms/i18n/partnership_fr.rst:437
 msgid ""
 "EN AUCUN CAS LES AUTEURS OU TITULAIRES DE DROITS D'AUTEUR NE POURRONT "
@@ -4396,6 +4693,10 @@ msgstr ""
 msgid ""
 "DEZE VERSIE IS NIET ACTUEEL. VOOR DE NIEUWSTE VERSIE ZIE DE "
 ":ref:`ORIGINELE ENGELSE VERSIE <enterprise_agreement>`"
+msgstr ""
+
+#: ../../content/legal/terms/i18n/enterprise_nl.rst:24
+msgid "Version 7.1 - 2018-03-16"
 msgstr ""
 
 #: ../../content/legal/terms/i18n/enterprise_nl.rst:26
@@ -7637,3 +7938,787 @@ msgstr ""
 #~ "par la partie ou ses filiales "
 #~ "n'atteint pas son but essentiel."
 #~ msgstr ""
+
+#~ msgid "Odoo Enterprise Subscription Agreement (DE)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Dies ist eine deutsche Übersetzung des"
+#~ " \"Odoo Enterprise Subscription Agreement\". "
+#~ "Diese Übersetzung soll das Verständnis "
+#~ "erleichtern, hat aber keinen rechtlichen "
+#~ "Wert. Der einzige offizielle Verweis auf"
+#~ " die Geschäftsbedingungen des „Odoo "
+#~ "Enterprise Subscription Agreement“ ist "
+#~ ":ref:`die englische Originalversion "
+#~ "<enterprise_agreement>`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "DIESE VERSION IST NICHT AKTUELL, FÜR "
+#~ "DIE AKTUELLE VERSION SIEHE :ref:`original "
+#~ "english version <enterprise_agreement>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Durch das Abonnieren der von der "
+#~ "Odoo SA und ihren Tochtergesellschaften "
+#~ "(zusammen „Odoo SA“) hinsichtlich der "
+#~ "Odoo Enterprise Edition oder der Odoo"
+#~ " Community Edition (der „Software“) "
+#~ "bereitgestellten Odoo Enterprise-Dienstleistungen"
+#~ " (der „Dienste“) sind Sie (der "
+#~ "„Kunde“) verpflichtet, die nachstehenden "
+#~ "Allgemeinen Geschäftsbedingungen (die "
+#~ "„Vereinbarung“) einzuhalten."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Die Dauer dieser Vereinbarung (die "
+#~ "„Laufzeit“) beträgt mindestens ein Jahr "
+#~ "wie schriftlich bei Unterzeichnung dieser "
+#~ "Vereinbarung festgelegt, beginnend zum Datum"
+#~ " der Unterschrift. Sie wird automatisch "
+#~ "um die gleiche Laufzeit verlängert, "
+#~ "sofern nicht eine der Parteien "
+#~ "mindestens 30 Tage vor Ablauf der "
+#~ "Laufzeit gegenüber der anderen Partei "
+#~ "per Einschreiben schriftlich kündigt."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Alle aktiven Benutzerkonten mit Zugriff "
+#~ "auf die Software im Erstellungs- "
+#~ "und/oder Bearbeitungsmodus. Deaktivierte "
+#~ "Benutzerkonten und Konten, die von "
+#~ "externen Personen (oder Systemen) verwendet"
+#~ " werden, die über das Portal nur "
+#~ "eingeschränkten Zugriff auf die Software "
+#~ "haben („Portalbenutzer“ genannt), werden nicht"
+#~ " als Benutzer gezählt."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Eine „App“ ist eine spezielle Gruppe "
+#~ "von Funktionen, die in der Software "
+#~ "installiert werden können und bei "
+#~ "Unterzeichnung dieser Vereinbarung in der "
+#~ "öffentlichen Preisliste der `Odoo SA-"
+#~ "Website <https://www.odoo.com>`_ aufgeführt sind."
+#~ msgstr ""
+
+#~ msgid "Fehler (Bug)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Als Fehler (oder auch Bug) gilt "
+#~ "jeder Fehler der Software, der zu "
+#~ "einem vollständigen Stopp, einer Traceback-"
+#~ "Fehlermeldung oder einer Sicherheitsverletzung "
+#~ "führt und nicht direkt durch eine "
+#~ "fehlerhafte Installation oder Konfiguration "
+#~ "verursacht wird. Eine Nichteinhaltung von "
+#~ "Spezifikationen oder Anforderungen wird im "
+#~ "Ermessen von Odoo SA als Fehler "
+#~ "angesehen (in der Regel dann, wenn "
+#~ "die Software nicht die Ergebnisse oder"
+#~ " die Leistungswerte liefert, für die "
+#~ "sie entwickelt wurde oder wenn eine "
+#~ "landesspezifische Funktion nicht mehr den "
+#~ "gesetzlichen Buchhaltungsanforderungen entspricht)."
+#~ msgstr ""
+
+#~ msgid "Abgedeckte Versionen"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Alle im Rahmen Vereinbarung erbrachten "
+#~ "Dienstleistungen gelten nur für die "
+#~ "abgedeckten Versionen der Software, welche "
+#~ "die 3 (drei) zuletzt veröffentlichten "
+#~ "Hauptversionen umfassen."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Um von der aktuellen Vereinbarung "
+#~ "abgedeckt zu sein, müssen die "
+#~ "Installationen des Kunden die aktuellste "
+#~ "abgedeckte Version zum Zeitpunkt der "
+#~ "Unterzeichnung dieser Vereinbarung aufweisen. "
+#~ "Sollte dies nicht der Fall sein, "
+#~ "so können zusätzliche Kosten anfallen, "
+#~ "die unter :ref:`charges_de` beschrieben "
+#~ "werden."
+#~ msgstr ""
+
+#~ msgid "3. Zugriff auf die Odoo Enterprise Edition"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Für die Laufzeit dieser Vereinbarung "
+#~ "gewährt Odoo SA dem Kunden eine "
+#~ "nicht-ausschließliche, nicht übertragbare "
+#~ "Nutzungslizenz (Ausführung, Änderung, Ausführung "
+#~ "nach Änderung) der Odoo Enterprise "
+#~ "Edition-Software unter den in "
+#~ ":ref:`appendix_a_de` festgelegten Bedingungen."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Der Kunde erklärt, alle notwendigen "
+#~ "Maßnahmen zu ergreifen, um die "
+#~ "unveränderte Ausführung des Teils der "
+#~ "Software zu gewährleisten, mit dem die"
+#~ " gültige Nutzung der Odoo Enterprise "
+#~ "Edition überprüft wird und die zu "
+#~ "diesem Zweck Statistiken sammelt, "
+#~ "einschließlich unter anderem die Ausführung"
+#~ " einer Instanz, die Anzahl der "
+#~ "Benutzer und die installierten Apps."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Odoo SA ist verpflichtet, einzelne keine"
+#~ " einzelnen oder benannten Zahlen ohne "
+#~ "Zustimmung des Kunden an Dritte "
+#~ "weiterzugeben und alle gesammelten Daten "
+#~ "gemäß seiner offiziellen Datenschutzrichtlinie "
+#~ "zu behandeln, die unter "
+#~ "https://www.odoo.com/privacy veröffentlicht ist."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Nach Ablauf oder Kündigung dieser "
+#~ "Vereinbarung wird diese Lizenz sofort "
+#~ "widerrufen und der Kunde ist "
+#~ "verpflichtet, die Nutzung der Odoo "
+#~ "Enterprise Edition-Software einzustellen."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sollte der Kunde gegen die Bestimmungen"
+#~ " dieses Abschnitts verstoßen, so ist "
+#~ "er verpflichtet, Odoo SA eine "
+#~ "zusätzliche Gebühr in Höhe von 300 "
+#~ "% des geltenden Listenpreises für die"
+#~ " tatsächliche Anzahl der Nutzer zu "
+#~ "zahlen."
+#~ msgstr ""
+
+#~ msgid "4. Inbegriffene Dienstleistungen"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Während der Laufzeit dieser Vereinbarung "
+#~ "ist Odoo SA verpflichtet, alle "
+#~ "zumutbaren Anstrengungen zu unternehmen, um"
+#~ " die Fehler zu beheben, die vom "
+#~ "Kunden über den entsprechenden Kanal "
+#~ "(üblicherweise die E-Mail-Adresse oder "
+#~ "das Websiteformular des Odoo SA "
+#~ "Servicedesks) eingereicht wurden, und mit "
+#~ "der Bearbeitung dieser Einsendungen des "
+#~ "Kunden innerhalb von 2 Werktagen zu "
+#~ "beginnen."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Der Kunde versteht, dass Fehler, die "
+#~ "durch eine Änderung oder Erweiterung "
+#~ "verursacht wurden, die kein Teil der "
+#~ "offiziellen Software sind, von dieser "
+#~ "Dienstleistung nicht abgedeckt sind."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sobald der Fehler behoben wurde, wird"
+#~ " dem Kunden eine geeignete Gegenmaßnahme"
+#~ " mitgeteilt. Falls der Fehler in "
+#~ "einer neueren Version der vom Kunden "
+#~ "verwendeten Software behoben wurde, so "
+#~ "ist der Kunde verpflichtet, seine "
+#~ "Systeme auf diese Version zu "
+#~ "aktualisieren, um die Korrektur zu "
+#~ "erhalten. Der Kunde wird nicht "
+#~ "aufgefordert, auf eine neuere abgedeckte "
+#~ "Version der Software zu aktualisieren, "
+#~ "um einen Fehler zu beheben."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Wenn ein Fehler in einer abgedeckten "
+#~ "Version behoben wurde, ist Odoo SA "
+#~ "verpflichtet, den Fehler auch in allen"
+#~ " neueren abgedeckten Versionen der Software"
+#~ " zu beheben."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Beide Parteien erkennen an, dass Odoo"
+#~ " SA gemäß der Softwarelizenz und dem"
+#~ " Abschnitt :ref:`liability_de` dieser "
+#~ "Vereinbarung für Fehler in der Software"
+#~ " nicht haftbar gemacht werden kann."
+#~ msgstr ""
+
+#~ msgid "4.2 Sicherheitsmitteilungen"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Für die Dauer dieser Vereinbarung ist"
+#~ " Odoo SA verpflichtet, dem Kunden für"
+#~ " jedes Sicherheitsproblem, das in den "
+#~ "abgedeckten Versionen der Software entdeckt"
+#~ " wurde, eine Sicherheitsmitteilung zuzusenden."
+#~ " Diese Zusendung muss mindestens 2 "
+#~ "Wochen vor Veröffentlichung der "
+#~ "Sicherheitsmitteilung erfolgen, außer wenn der"
+#~ " Fehler bereits von Dritten öffentlich "
+#~ "gemacht wurde. Diese Sicherheitsberatung "
+#~ "umfasst eine vollständige Beschreibung des "
+#~ "Fehlers, seine Ursache, seine möglichen "
+#~ "Auswirkungen auf die Kundensysteme sowie "
+#~ "die entsprechenden Gegenmaßnahmen für jede "
+#~ "abgedeckte Version."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Der Kunde versteht, dass der Fehler "
+#~ "und die Informationen in der "
+#~ "Sicherheitsmitteilung während der Sperrfrist "
+#~ "vor der öffentlichen Bekanntgabe als "
+#~ "vertrauliche Informationen behandelt werden "
+#~ "müssen, die im Abschnitt "
+#~ ":ref:`confidentiality_de` beschrieben werden."
+#~ msgstr ""
+
+#~ msgid "4.3 Upgrade-Dienstleistungen"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Während der Laufzeit dieser Vereinbarung "
+#~ "kann der Kunde Upgrade-Anfragen über "
+#~ "den entsprechenden Kanal übermitteln "
+#~ "(üblicherweise die Website der Odoo SA"
+#~ " für den Upgrade-Service), um eine"
+#~ " Datenbank der Software einer abgedeckten"
+#~ " Softwareversion auf eine neuere abgedeckte"
+#~ " Version (die „Zielversion“) zu "
+#~ "konvertieren."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Upgrade-Anfragen müssen eine vollständige "
+#~ "Sicherungskopie der Kundendatenbank und die"
+#~ " zugehörigen Daten enthalten (die in "
+#~ "der Regel mit dem Backup-Menü der"
+#~ " Software abgerufen werden können). Sollte"
+#~ " es aus Gründen der Datensicherheit "
+#~ "oder der Regulierung erforderlich sein, "
+#~ "so umfasst der Upgrade-Service ein "
+#~ "optionales Tool zur Anonymisierung "
+#~ "identifizierbarer Daten einer Datenbank, bevor"
+#~ " die Upgrade-Anfrage eingereicht wird, "
+#~ "und ebenso ein Tool zum Wiederherstellen"
+#~ " der anonymisierten Daten nach dem "
+#~ "Upgrade."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Dieser Service erfolgt über eine "
+#~ "automatisierte Plattform, damit der Kunde "
+#~ "unbeaufsichtigte Upgrades durchführen kann, "
+#~ "sobald eine frühere Version der "
+#~ "Kundendatenbank für eine abgedeckte Version"
+#~ " erfolgreich aktualisiert worden ist. Der"
+#~ " Kunde kann aufeinander folgende "
+#~ "Upgrade-Anfragen für eine Datenbank "
+#~ "einreichen. Er ist damit einverstanden, "
+#~ "zuerst mindestens 1 (eine) Upgrade-"
+#~ "Anfrage zu Testzwecken einzureichen, bevor "
+#~ "er die abschließende Upgrade-Anfrage "
+#~ "einreicht."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Der Upgrade-Service ist beschränkt auf"
+#~ " die technische Konvertierung und Anpassung"
+#~ " der Kundendatenbank, um diese mit "
+#~ "der Zielversion kompatibel zu machen, "
+#~ "und auf die Korrektur von Fehlern, "
+#~ "die unmittelbar durch den Upgrade-"
+#~ "Vorgang verursacht werden und in der "
+#~ "Zielversion normalerweise nicht auftreten "
+#~ "würden."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Es liegt in der alleinigen Verantwortung"
+#~ " des Kunden, die Datenbank nach dem"
+#~ " Upgrade zu überprüfen und zu "
+#~ "validieren, um Fehler zu erkennen, die"
+#~ " Auswirkungen der in der Zielversion "
+#~ "umgesetzten Änderungen und neuen Funktionen"
+#~ " zu analysieren und diejenigen "
+#~ "Erweiterungen der Software von Drittanbietern"
+#~ " für die Zielversion zu konvertieren "
+#~ "und anzupassen, die vor dem Upgrade "
+#~ "in der Datenbank installiert waren "
+#~ "(sofern nicht anders vorgesehen, siehe "
+#~ "Abschnitt :ref:`upgrade_extra_de`). Der Kunde "
+#~ "kann mehrere Upgrade-Anforderungen für "
+#~ "eine Datenbank einreichen, bis ein "
+#~ "akzeptables Ergebnis erzielt wird."
+#~ msgstr ""
+
+#~ msgid "Upgrade-Service für Erweiterungen von Drittanbietern"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Für die Laufzeit dieser Vereinbarung "
+#~ "kann der Kunde optionale Upgrade-"
+#~ "Services optionale für von Drittanbieter "
+#~ "angebotene Erweiterungsmodule der Software "
+#~ "anfordern. Für diese optionale Dienstleistung"
+#~ " fallen zusätzlichen Gebühren an (die "
+#~ "unter „Gebühren“ beschrieben werden). Sie "
+#~ "umfasst die technische Anpassung der "
+#~ "Module von Drittanbietern, die in der"
+#~ " Datenbank des Kunden installiert sind, "
+#~ "und deren entsprechende Daten, damit sie"
+#~ " mit der Zielversion kompatibel sind. "
+#~ "Der Kunde wird eine Upgrade-Version "
+#~ "aller installierten Module von Drittanbietern"
+#~ " zusammen mit der aktualisierten Datenbank"
+#~ " erhalten."
+#~ msgstr ""
+
+#~ msgid "5. Abgaben und Gebühren"
+#~ msgstr ""
+
+#~ msgid "5.1 Standardgebühren"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Die Standardgebühren für das Odoo "
+#~ "Enterprise Abonnement, die Fehlerbehebung, die"
+#~ " Sicherheitsmitteilungen und die Upgrades "
+#~ "basieren auf der Anzahl der Benutzer,"
+#~ " den installierten Apps, der vom "
+#~ "Kunden verwendeten Softwareversion und werden"
+#~ " bei Unterzeichnung der Vereinbarung "
+#~ "schriftlich festgehalten."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sollte der Kunde während der Laufzeit"
+#~ " mehr Benutzer oder mehr installierte "
+#~ "Apps als bei Unterzeichnung der "
+#~ "vorliegenden Vereinbarung angegeben haben, so"
+#~ " erklärt sich der Kunde bereit, für"
+#~ " die restliche Laufzeit eine zusätzliche"
+#~ " Gebühr in Höhe des (zu Beginn "
+#~ "der Laufzeit) geltenden Listenpreises für "
+#~ "die zusätzlichen Benutzer oder Apps zu"
+#~ " entrichten."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sollte der Kunde bei Unterzeichnung "
+#~ "dieser Vereinbarung eine abgedeckte Version"
+#~ " verwenden, bei der es sich nicht "
+#~ "um die neueste Version handelt, so "
+#~ "können die Standardgebühren für die "
+#~ "erste Laufzeit im Ermessen der Odoo "
+#~ "SA um 50 % erhöht werden, um "
+#~ "die zusätzlichen Wartungskosten abzudecken."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Bei einer Verlängerung gemäß Abschnitt "
+#~ ":ref:`term_de` erhöhen sich die Gebühren "
+#~ "um bis zu 7 %, wenn die in"
+#~ " der vorherigen Laufzeit erhobenen Gebühren"
+#~ " niedriger als der dann gültige "
+#~ "Listenpreis waren."
+#~ msgstr ""
+
+#~ msgid "5.3 Gebühren für Upgrade-Services für Module von Drittanbietern"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Die zusätzliche Gebühr für das Upgrade"
+#~ " von Drittanbietern-Modulen beträgt 1000,00"
+#~ " € (eintausend Euro) pro 1000 "
+#~ "Codezeilen in diesen Modulen, jeweils "
+#~ "aufgerundet auf die nächsten Tausend "
+#~ "Zeilen. Die Codezeilen umfassen alle "
+#~ "Textzeilen im Quellcode dieser Module, "
+#~ "unabhängig von Programmiersprache (Python, "
+#~ "Javascript usw.) oder Datenformat (XML, "
+#~ "TSV usw.). Ausgenommen sind Leer- und"
+#~ " Kommentarzeilen."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Odoo SA behält sich das Recht vor,"
+#~ " eine Upgrade-Anfrage für Drittanbieter-"
+#~ "Module unter den vorstehenden Bedingungen "
+#~ "abzulehnen, wenn die Qualität des "
+#~ "Quellcodes dieser Module zu schlecht "
+#~ "sein oder diese Module eine "
+#~ "Schnittstelle mit Drittanbieter-Software oder"
+#~ " -Systemen darstellen sollten. Das Upgrade"
+#~ " dieser Module erfolgt vorbehaltlich eines"
+#~ " separaten Angebots außerhalb der "
+#~ "vorliegenden Vereinbarung."
+#~ msgstr ""
+
+#~ msgid "5.4 Steuern"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Alle Gebühren und Abgaben verstehen sich"
+#~ " ausschließlich aller geltenden Steuern, "
+#~ "Gebühren oder Abgaben auf Bundes-, "
+#~ "Provinz-, Bundesland- oder Kommunalebene oder"
+#~ " anderer Behörden (zusammen als „Steuern“"
+#~ " bezeichnet). Der Kunde ist für die"
+#~ " Zahlung sämtlicher Steuern im Zusammenhang"
+#~ " mit seinen Käufen im Rahmen dieser"
+#~ " Vereinbarung verantwortlich, außer wenn "
+#~ "Odoo SA rechtlich verpflichtet sein "
+#~ "sollte, Steuern zu zahlen oder "
+#~ "einzuziehen, für welche der Kunde "
+#~ "verantwortlich ist."
+#~ msgstr ""
+
+#~ msgid "6.1 Pflichten des Kunden"
+#~ msgstr ""
+
+#~ msgid "Der Kunde stimmt folgenden Klauseln zu:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "er zahlt Odoo SA sämtliche Gebühren "
+#~ "für die Dienstleistungen im Rahmen der"
+#~ " vorliegenden Vereinbarung gemäß den "
+#~ "Zahlungsbedingungen, die auf der "
+#~ "entsprechenden Rechnung angegeben sind;"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "er wird Odoo SA unverzüglich "
+#~ "informieren, sobald seine tatsächliche "
+#~ "Benutzerzahl oder die Anzahl der "
+#~ "installierten Apps die bei Unterzeichnung "
+#~ "der Vereinbarung angegebenen Zahlen "
+#~ "überschreiten sollten. In diesem Falle "
+#~ "wird er die geltende zusätzliche Gebühr"
+#~ " gemäß dem Abschnitt :ref:`charges_standard_de`"
+#~ " entrichten;"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "er wird alle notwendigen Maßnahmen zu"
+#~ " ergreifen, um die unveränderte Ausführung"
+#~ " des Teils der Software zu "
+#~ "gewährleisten, mit dem die gültige "
+#~ "Nutzung der Odoo Enterprise Edition "
+#~ "überprüft, wie sie in "
+#~ ":ref:`enterprise_access_de` beschrieben wird;"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "er wird Odoo SA den notwendigen "
+#~ "Zugang einräumen, um die Gültigkeit der"
+#~ " Nutzung der Odoo Enterprise Edition "
+#~ "auf Anfrage zu prüfen (z. B. wenn"
+#~ " die automatische Validierung für den "
+#~ "Kunden nicht funktioniert);"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "er wird 1 speziellen Ansprechpartner des"
+#~ " Kunden für die gesamte Laufzeit der"
+#~ " Vereinbarung ernennen;"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "er wird alle angemessenen Maßnahmen "
+#~ "ergreifen, um die Dateien und "
+#~ "Datenbanken des Kunden zu schützen und"
+#~ " sicherzustellen, dass die Kundendaten "
+#~ "sicher sind, während er anerkennt, dass"
+#~ " Odoo SA für Datenverluste nicht "
+#~ "haftbar gemacht werden kann;"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Beide Parteien, ihre Tochtergesellschaften und"
+#~ " Vertreter sind verpflichtet, während der"
+#~ " Laufzeit dieser Vereinbarung und für "
+#~ "einen Zeitraum von 12 Monaten ab "
+#~ "dem Datum der Kündigung oder des "
+#~ "Ablaufs dieser Vereinbarung keine Mitarbeiter"
+#~ " der anderen Partei, die an der "
+#~ "Erbringung oder Nutzung der Dienstleistungen"
+#~ " im Rahmen dieser Vereinbarung beteiligt"
+#~ " sind, abzuwerben oder eine Beschäftigung"
+#~ " anzubieten, außer wenn diese andere "
+#~ "Partei eine schriftliche Zustimmung dafür "
+#~ "erteilt hat. Im Falle eines Verstoßes"
+#~ " gegen die Bestimmungen dieses Abschnitts,"
+#~ " der zu einer diesbezüglichen Kündigung "
+#~ "dieses Arbeitnehmers führt, ist die "
+#~ "dagegen verstoßende Partei verpflichtet, der"
+#~ " anderen Partei einen Betrag in Höhe"
+#~ " von 30.000,00 € (dreißigtausend Euro) "
+#~ "zu zahlen."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sofern keine anderslautende schriftliche "
+#~ "Mitteilung erfolgte, gewährt jede Partei "
+#~ "der anderen Partei eine nicht "
+#~ "übertragbare, nicht ausschließliche, gebührenfreie,"
+#~ " weltweite Lizenz zur Wiedergabe und "
+#~ "Anzeige des Namens, der Logos und "
+#~ "der Markenzeichen der jeweils anderen "
+#~ "Partei. Diese Lizenz gilt ausschließlich "
+#~ "für die Bezugnahme auf die andere "
+#~ "Partei als Kunde oder Lieferant auf "
+#~ "Websites, Pressemitteilungen und anderen "
+#~ "Marketingmaterialien."
+#~ msgstr ""
+
+#~ msgid "Definition von „vertraulichen Informationen“:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Alle von einer Partei (der "
+#~ "„offenlegenden Partei“) gegenüber der anderen"
+#~ " Partei (der „empfangenden Partei“) "
+#~ "mündlich oder schriftlich mitgeteilten, "
+#~ "offengelegten Informationen, die als "
+#~ "vertraulich bezeichnet werden oder angesichts"
+#~ " der Art der Informationen und den"
+#~ " Umständen der Offenlegung vernünftigerweise "
+#~ "als vertraulich verstanden werden sollten. "
+#~ "Insbesondere sollten alle Informationen zu "
+#~ "Unternehmen, Geschäften, Produkten, Entwicklungen,"
+#~ " Geschäftsgeheimnissen, Fachwissen, Personal, "
+#~ "Kunden und Lieferanten beider Parteien "
+#~ "als vertraulich betrachtet werden."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Für alle während der Laufzeit dieser "
+#~ "Vereinbarung empfangenen vertraulichen Informationen"
+#~ " wird die empfangende Partei die "
+#~ "gleiche Sorgfalt aufwenden, mit der sie"
+#~ " die Vertraulichkeit ihrer eigenen, "
+#~ "ähnlichen vertraulichen Informationen schützt, "
+#~ "mindestens jedoch angemessene Sorgfalt."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Die empfangende Partei kann vertrauliche "
+#~ "Informationen der offenlegenden Partei "
+#~ "offenlegen, soweit dies gesetzlich "
+#~ "vorgeschrieben ist, sofern die empfangende "
+#~ "Partei der offenlegenden Partei diese "
+#~ "vorgeschriebene Offenlegung im gesetzlich "
+#~ "zulässigen Umfang mitteilt."
+#~ msgstr ""
+
+#~ msgid "6.5 Kündigung"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sollte eine der Parteien ihre "
+#~ "Verpflichtungen aus dieser Vereinbarung nicht"
+#~ " erfüllen und dieser Verstoß nicht "
+#~ "innerhalb von 30 Kalendertagen nach "
+#~ "schriftlicher Benachrichtigung über diesen "
+#~ "Verstoß nicht behoben worden sein, so"
+#~ " kann dieser Vertrag von der nicht"
+#~ " säumigen Partei fristlos gekündigt werden."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Außerdem kann Odoo SA den Vertrag "
+#~ "sofort kündigen, falls der Kunde die "
+#~ "geltenden Gebühren für die Dienstleistungen"
+#~ " nicht bis zum in der entsprechenden"
+#~ " Rechnung angegebenen Fälligkeitsdatum bezahlt."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Überdauernde Bestimmungen: Die Abschnitte "
+#~ "\":ref:`confidentiality_de`”, “:ref:`disclaimers_de`”, "
+#~ "“:ref:`liability_de`” sowie “:ref:`general_provisions_de`”"
+#~ " werden jede Kündigung oder Ablauf "
+#~ "dieser Vereinbarung überdauern."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Für die Laufzeit dieser Vereinbarung ist"
+#~ " Odoo SA verpflichtet, wirtschaftlich "
+#~ "angemessene Anstrengungen zu unternehmen, um"
+#~ " die Dienstleistungen gemäß den allgemein"
+#~ " branchenweit anerkannten Standards auszuführen,"
+#~ " sofern folgende Bedingungen erfüllt sind:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "die Computersysteme des Kunden befinden "
+#~ "sich in einem guten Betriebszustand und"
+#~ " die Software ist in einer geeigneten"
+#~ " Betriebsumgebung installiert;"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "der Kunde stellt angemessene Informationen "
+#~ "und Zugänge für die Fehlerbehebung "
+#~ "bereit, damit Odoo SA Probleme "
+#~ "identifizieren, reproduzieren und beheben "
+#~ "kann;"
+#~ msgstr ""
+
+#~ msgid "alle Odoo SA zustehenden Beträge wurden bezahlt."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Das einzige und ausschließliche Rechtsmittel"
+#~ " des Kunden und die einzige "
+#~ "Verpflichtung von Odoo SA bei Verstößen"
+#~ " gegen diese Garantie besteht darin, "
+#~ "dass Odoo SA die Ausführung der "
+#~ "Dienste ohne zusätzliche Kosten "
+#~ "wiederaufnimmt."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Außer wenn in diesem Dokument "
+#~ "ausdrücklich angegeben, räumt keine der "
+#~ "beiden Parteien weder ausdrückliche noch "
+#~ "stillschweigende, gesetzliche oder anderweitige "
+#~ "Gewährleistungen irgendeiner Art ein, und "
+#~ "beide Parteien lehnen alle implizierten "
+#~ "Garantien ausdrücklich ab, einschließlich "
+#~ "jeglicher stillschweigenden Zusicherung der "
+#~ "Marktgängigkeit, der Eignung für einen "
+#~ "bestimmten Zweck oder der Nichtverletzung, "
+#~ "soweit diese Einschränkung nach geltendem "
+#~ "Recht zulässig ist."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Odoo SA garantiert nicht, dass die "
+#~ "Software örtlichen oder internationalen "
+#~ "Gesetzen oder Rechtsvorschriften entspricht."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Im gesetzlich maximal zulässigen Umfang "
+#~ "darf die Gesamthaftung jeder Partei "
+#~ "zusammen mit ihren Tochtergesellschaften aus"
+#~ " oder im Zusammenhang mit dieser "
+#~ "Vereinbarung 50 % des vom Kunden "
+#~ "im Rahmen dieser Vereinbarung in den "
+#~ "12 Monaten unmittelbar vor dem Datum "
+#~ "des Ereignisses, das zu diesem Anspruch"
+#~ " führt, gezahlten Gesamtbetrags nicht "
+#~ "übersteigen. Auch bei mehreren Ansprüchen "
+#~ "darf diese Beschränkung nicht verändert "
+#~ "werden."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Keine der beiden Parteien oder ihre "
+#~ "Tochtergesellschaften werden unter keinen "
+#~ "Umständen für indirekte, besondere, "
+#~ "exemplarische, zufällige oder Folgeschäden "
+#~ "jeglicher Art haften, einschließlich unter "
+#~ "anderem Verluste von Erträgen, Gewinnen, "
+#~ "Einsparungen, verlorene Geschäftsgelegenheiten oder"
+#~ " andere finanzielle Verluste, Kosten für"
+#~ " Stillstand oder Verspätung, verlorene oder"
+#~ " beschädigte Daten, die aus oder im"
+#~ " Zusammenhang mit dieser Vereinbarung "
+#~ "entstehen. Dies gilt unabhängig von der"
+#~ " Art der Handlung, egal ob "
+#~ "vertraglicher Art, unerlaubte Handlung "
+#~ "(einschließlich grober Fahrlässigkeit) oder "
+#~ "einer anderen rechtlichen oder billigen "
+#~ "Theorie, selbst wenn eine Partei oder"
+#~ " ihre Tochtergesellschaften auf die "
+#~ "Möglichkeit solcher Schäden hingewiesen wurden"
+#~ " oder die von einer Partei oder "
+#~ "ihren Tochtergesellschaften ergriffenen "
+#~ "Abhilfemaßnahmen ihren wesentlichen Zweck "
+#~ "verfehlen."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Keine der beiden Parteien haftet "
+#~ "gegenüber der anderen Partei für die "
+#~ "Verzögerung oder die Nichterbringung einer "
+#~ "Leistung im Rahmen dieser Vereinbarung, "
+#~ "wenn diese Nichterbringung oder Verzögerung"
+#~ " durch folgende Punkte verursacht wurden:"
+#~ " staatliche Rechtsvorschriften, Brand, Streik,"
+#~ " Krieg, Überschwemmung, Unfall, Epidemie, "
+#~ "Embargo, vollständige oder teilweise "
+#~ "Enteignung von Anlagen oder Produkten "
+#~ "seitens einer Regierung oder einer "
+#~ "öffentlichen Behörde oder aus allen "
+#~ "anderen Gründen oder Ursachen gleicher "
+#~ "oder unterschiedlicher Art, die außerhalb "
+#~ "des angemessenen Einflussbereichs dieser "
+#~ "Partei liegen. Dies gilt, solange diese"
+#~ " Gründe oder Ursachen vorliegen."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Beide Parteien stimmen zu, dass im "
+#~ "Falle von Streitigkeiten aus oder im "
+#~ "Zusammenhang mit dieser Vereinbarung das "
+#~ "belgische Recht angewendet wird, ohne "
+#~ "Rücksicht auf Wahl- oder Kollisionsrecht. "
+#~ "Soweit im Rahmen dieser Bestimmung eine"
+#~ " Klage oder ein Gerichtsverfahren zulässig"
+#~ " ist, stimmen beide Parteien bei, die"
+#~ " Gerichte in Nivelles (Belgien) für "
+#~ "die Beilegung aller Streitigkeiten als "
+#~ "ausschließlich zuständig anzuerkennen."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sollten eine oder mehrere Bestimmungen "
+#~ "dieser Vereinbarung oder deren Anwendung "
+#~ "unwirksam, rechtswidrig oder nicht "
+#~ "durchsetzbar sein, so werden die "
+#~ "Wirksamkeit, Rechtmäßigkeit und Durchsetzbarkeit "
+#~ "der übrigen Bestimmungen dieser Vereinbarung"
+#~ " und ihrer Anwendung davon nicht "
+#~ "berührt oder beeinträchtigt. Beide Parteien"
+#~ " verpflichten sich, alle unwirksamen, "
+#~ "rechtswidrigen oder nicht durchsetzbaren "
+#~ "Bestimmungen dieser Vereinbarung durch eine"
+#~ " wirksame Bestimmung möglichst mit gleichen"
+#~ " Wirkungen und Zielen zu ersetzen."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Lorsque le Client demande une migration,"
+#~ " pour chaque Module Supplémentaire Couvert"
+#~ " qui n'a pas fait l'objet de "
+#~ "frais de maintenance pour les 12 "
+#~ "derniers mois, Odoo SA peut facturer "
+#~ "des frais supplémentaires unique de 16€"
+#~ " par 100 lignes de code, pour "
+#~ "chaque mois de maintenance manquant."
+#~ msgstr ""
+

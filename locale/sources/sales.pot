@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-19 21:16+0800\n"
+"POT-Creation-Date: 2022-10-27 21:52+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -308,10 +308,10 @@ msgid "The blue box will automatically tell you how many credits are going to be
 msgstr ""
 
 #: ../../content/applications/sales/crm/acquire_leads/lead_mining.rst:68
-msgid "If you are on Odoo Online (SAAS) and have the Enterprise version, you benefit from free trial credits to test the feature."
+msgid "If you are on Odoo Online and have the Enterprise version, you benefit from free trial credits to test the feature."
 msgstr ""
 
-#: ../../content/applications/sales/crm/acquire_leads/lead_mining.rst:71
+#: ../../content/applications/sales/crm/acquire_leads/lead_mining.rst:72
 msgid ":doc:`In-App Purchases (IAP) </applications/general/in_app_purchase>`"
 msgstr ""
 
@@ -508,7 +508,7 @@ msgid "If you run out of credits, the only information that will be populated wh
 msgstr ""
 
 #: ../../content/applications/sales/crm/optimize/partner_autocomplete.rst:46
-msgid "If you are on Odoo Online (SAAS) and you have the Enterprise version, you benefit from free trial credits to test the feature."
+msgid "If you are on Odoo Online and you have the Enterprise version, you benefit from free trial credits to test the feature."
 msgstr ""
 
 #: ../../content/applications/sales/crm/optimize/partner_autocomplete.rst:48
@@ -1285,7 +1285,7 @@ msgid "Certification & On-premise"
 msgstr ""
 
 #: ../../content/applications/sales/point_of_sale/belgian_fdm/setup.rst:71
-msgid "The certification granted by the government is restricted to the use on odoo.com SaaS instance. The usage of the module from the source or a modified version will **not** be certified. For on-premise users, we also support the Fiscal Data Module in such installations. The main restriction is that this requires an obfuscated version of the ``pos_blackbox_be`` module we will provide on request for Enterprise customers."
+msgid "The certification granted by the government is restricted to the use on odoo.com Odoo Online instance. The usage of the module from the source or a modified version will **not** be certified. For on-premise users, we also support the Fiscal Data Module in such installations. The main restriction is that this requires an obfuscated version of the ``pos_blackbox_be`` module we will provide on request for Enterprise customers."
 msgstr ""
 
 #: ../../content/applications/sales/point_of_sale/belgian_fdm/setup.rst:79
