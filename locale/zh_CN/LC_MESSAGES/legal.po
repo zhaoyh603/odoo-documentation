@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-19 21:16+0800\n"
-"PO-Revision-Date: 2022-10-25 17:10+0000\n"
+"PO-Revision-Date: 2022-10-27 01:16+0000\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/"
 "odoo-doc/legal/zh_Hans/>\n"
@@ -22,51 +22,51 @@ msgstr ""
 
 #: ../../content/legal.rst:8
 msgid "Legal"
-msgstr ""
+msgstr "Legal"
 
 #: ../../content/legal.rst:18 ../../content/legal/licenses.rst:6
 msgid "Licenses"
-msgstr ""
+msgstr "Licenses"
 
 #: ../../content/legal.rst:20
 msgid ":ref:`licenses`"
-msgstr ""
+msgstr ":ref:`licenses`"
 
 #: ../../content/legal.rst:23 ../../content/legal/terms.rst:5
 msgid "Terms and Conditions"
-msgstr ""
+msgstr "期限和条件"
 
 #: ../../content/legal.rst:29
 msgid "English"
-msgstr ""
+msgstr "English"
 
 #: ../../content/legal.rst:30
 msgid "Français"
-msgstr ""
+msgstr "Français"
 
 #: ../../content/legal.rst:31
 msgid "Nederlands"
-msgstr ""
+msgstr "Nederlands"
 
 #: ../../content/legal.rst:32
 msgid "Deutsch"
-msgstr ""
+msgstr "Deutsch"
 
 #: ../../content/legal.rst:33
 msgid "Español"
-msgstr ""
+msgstr "Español"
 
 #: ../../content/legal.rst:34
 msgid "Odoo Enterprise Agreement [#]_"
-msgstr ""
+msgstr "Odoo 企业版协议 [#]_"
 
 #: ../../content/legal.rst
 msgid "View Odoo Enterprise Agreement"
-msgstr ""
+msgstr "浏览 Odoo 企业版协议 [#]_"
 
 #: ../../content/legal.rst
 msgid "Download Odoo Enterprise Agreement"
-msgstr ""
+msgstr "下载 Odoo 企业版协议"
 
 #: ../../content/legal.rst
 msgid "View Odoo Enterprise Agreement (FR)"
