@@ -142,7 +142,11 @@ msgstr ""
 msgid ""
 "Go to :menuselection:`Apps`, click on the *dropdown menu* of the app you "
 "want to upgrade, then on *Upgrade*."
+<<<<<<< HEAD
 msgstr "转到 :menuselection:`Apps` ，单击要升级的应用程序的 *下拉菜单* ，然后单击 *升级* 。"
+=======
+msgstr "转到 :menuselection:`Apps`，单击要升级应用的 *下拉菜单* ，然后单击 *升级* 。"
+>>>>>>> c8ab8908da32675ecb6f0f02e6df51d7da7b258b
 
 #: ../../content/applications/general/apps_modules.rst:56
 msgid "Uninstall apps and modules"
