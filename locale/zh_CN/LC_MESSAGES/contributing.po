@@ -7,17 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-27 21:52+0800\n"
+"POT-Creation-Date: 2022-10-29 03:23+0000\n"
 "PO-Revision-Date: 2022-10-26 15:07+0000\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language: zh_CN\n"
 "Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects"
 "/odoo-doc/contributing/zh_Hans/>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../../content/contributing.rst:7
 msgid "Contributing"
@@ -397,9 +397,9 @@ msgstr ""
 
 #: ../../content/contributing/development/coding_guidelines.rst:393
 #: ../../content/contributing/documentation.rst:204
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:861
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:863
 #: ../../content/contributing/documentation/rst_cheat_sheet.rst:879
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:881
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:897
 msgid "Python"
 msgstr "Python"
 
@@ -2936,125 +2936,133 @@ msgid "Code blocks"
 msgstr ""
 
 #: ../../content/contributing/documentation/rst_cheat_sheet.rst:720
-msgid "Content tabs"
-msgstr ""
-
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:723
-msgid "The `tabs` markup may not work well in some situations. In particular:"
-msgstr ""
-
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:725
-msgid "The tabs' headers cannot be translated."
-msgstr ""
-
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:726
-msgid "A tab cannot contain :ref:`headings <contributing/headings>`."
+msgid "Spoilers"
 msgstr ""
 
 #: ../../content/contributing/documentation/rst_cheat_sheet.rst:727
+msgid "**42**"
+msgstr ""
+
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:738
+msgid "Content tabs"
+msgstr ""
+
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:741
+msgid "The `tabs` markup may not work well in some situations. In particular:"
+msgstr ""
+
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:743
+msgid "The tabs' headers cannot be translated."
+msgstr ""
+
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:744
+msgid "A tab cannot contain :ref:`headings <contributing/headings>`."
+msgstr ""
+
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:745
 msgid "An :ref:`alert block <contributing/alert-blocks>` cannot contain tabs."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:728
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:746
 msgid "A tab cannot contain :ref:`custom anchors <contributing/custom-anchors>`."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:733
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:751
 msgid "Basic tabs"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:735
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:753
 msgid ""
 "Basic tabs are useful to split the content into multiple options. The "
 "`tabs` markup is used to define sequence of tabs. Each tab is then "
 "defined with the `tab` markup followed by a label."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:743
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:761
 msgid "Odoo Online"
 msgstr "Odoo Online"
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:745
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:763
 msgid "Content dedicated to Odoo Online users."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:747
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:765
 msgid "Odoo.sh"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:749
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:767
 msgid "Alternative for Odoo.sh users."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:751
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:769
 msgid "On-premise"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:753
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:771
 msgid "Third version for On-premise users."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:774
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:792
 msgid "Nested tabs"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:776
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:794
 msgid "Tabs can be nested inside one another."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:783
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:801
 msgid "Stars"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:787
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:805
 msgid "The Sun"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:789
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:807
 msgid "The closest star to us."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:791
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:809
 msgid "Proxima Centauri"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:793
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:811
 msgid "The second closest star to us."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:795
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:813
 msgid "Polaris"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:797
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:815
 msgid "The North Star."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:799
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:817
 msgid "Moons"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:803
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:821
 msgid "The Moon"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:805
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:823
 msgid "Orbits the Earth."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:807
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:825
 msgid "Titan"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:809
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:827
 msgid "Orbits Jupiter."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:846
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:864
 msgid "Group tabs"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:848
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:866
 msgid ""
 "Group tabs are special tabs that synchronize based on a group label. The "
 "last selected group is remembered and automatically selected when the "
@@ -3062,23 +3070,23 @@ msgid ""
 "`group-tab` markup is used to define group tabs."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:857
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:859
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:871
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:875
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:877
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:889
 msgid "C++"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:865
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:867
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:886
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:883
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:885
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:904
 msgid "Java"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:938
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:956
 msgid "Code tabs"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:940
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:958
 msgid ""
 "Code tabs are essentially :ref:`group tabs <contributing/tabs/group>` "
 "that treat the content as a :ref:`code block <contributing/code-blocks>`."
@@ -3087,47 +3095,47 @@ msgid ""
 "tab. If set, the label is used instead of the language for grouping tabs."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:991
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1009
 msgid "Document metadata"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:993
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1011
 msgid ""
 "Sphinx supports document-wide metadata markups that specify a behavior "
 "for the entire page."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:994
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1012
 msgid "They must be placed between colons (`:`) at the top of the source file."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:997
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1015
 msgid "**Metadata**"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:997
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1015
 msgid "**Purpose**"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:999
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1017
 msgid "`show-content`"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:999
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1017
 msgid "Make a toctree page accessible from the navigation menu."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1001
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1019
 msgid "`show-toc`"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1001
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1019
 msgid ""
 "Show the table of content on a page that has the `show-content` metadata "
 "markup."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1004
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1022
 msgid "`code-column`"
 msgstr ""
 
@@ -3143,59 +3151,59 @@ msgid ""
 ":doc:`/applications/finance/accounting/getting_started/memento`."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1009
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1027
 msgid "`hide-page-toc`"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1009
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1027
 msgid "Hide the \"On this page\" sidebar and use full page width for the content."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1011
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1029
 msgid "`custom-css`"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1011
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1029
 msgid "Link CSS files (comma-separated) to the document."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1013
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1031
 msgid "`custom-js`"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1013
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1031
 msgid "Link JS files (comma-separated) to the document."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1015
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1033
 msgid "`classes`"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1015
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1033
 msgid "Assign the specified classes to the `<main/>` element of the document."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1017
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1035
 msgid "`orphan`"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1017
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1035
 msgid "Suppress the need to include the document in a toctree."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1019
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1037
 msgid "`nosearch`"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1019
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1037
 msgid "Exclude the document from search results."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1025
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1043
 msgid "Formatting tips"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1030
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1048
 msgid "Break the line but not the paragraph"
 msgstr ""
 
@@ -3209,11 +3217,11 @@ msgstr ""
 msgid "A second line that follows a line break."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1048
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1066
 msgid "Escape markup symbols (Advanced)"
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1050
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1068
 msgid ""
 "Markup symbols escaped with backslashes (``\\``) are rendered normally. "
 "For instance, ``this \\*\\*line of text\\*\\* with \\*markup\\* symbols``"
@@ -3221,7 +3229,7 @@ msgid ""
 "symbols”."
 msgstr ""
 
-#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1054
+#: ../../content/contributing/documentation/rst_cheat_sheet.rst:1072
 msgid ""
 "When it comes to backticks (`````), which are used in many cases such as "
 ":ref:`external hyperlinks <contributing/external-hyperlinks>`, using "

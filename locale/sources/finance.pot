@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-27 21:52+0800\n"
+"POT-Creation-Date: 2022-10-29 03:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,6 +45,7 @@ msgid "Bank and cash"
 msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/feeds.rst:5
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:123
 msgid "Bank feeds"
 msgstr ""
 
@@ -218,6 +219,7 @@ msgstr ""
 #: ../../content/applications/finance/accounting/bank/misc/interbank.rst:14
 #: ../../content/applications/finance/accounting/bank/reconciliation/reconciliation_models.rst:69
 #: ../../content/applications/finance/accounting/bank/reconciliation/use_cases.rst:16
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:76
 #: ../../content/applications/finance/accounting/bank/setup/foreign_currency.rst:16
 #: ../../content/applications/finance/accounting/bank/setup/manage_cash_register.rst:9
 #: ../../content/applications/finance/accounting/bank/setup/outstanding_accounts.rst:20
@@ -252,6 +254,7 @@ msgstr ""
 #: ../../content/applications/finance/accounting/receivables/customer_payments/online_payment.rst:15
 #: ../../content/applications/finance/accounting/reporting/declarations/intrastat.rst:19
 #: ../../content/applications/finance/accounting/taxation/taxes/B2B_B2C.rst:60
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:14
 #: ../../content/applications/finance/accounting/taxation/taxes/default_taxes.rst:19
 #: ../../content/applications/finance/accounting/taxation/taxes/eu_distance_selling.rst:30
 #: ../../content/applications/finance/accounting/taxation/taxes/fiscal_positions.rst:27
@@ -1114,134 +1117,163 @@ msgid "Setup"
 msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:3
-msgid "Bank Accounts"
+msgid "Bank and cash accounts"
 msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:5
-msgid "You can manage as many **Bank Accounts** as needed on your database. Configuring them well allows you to make sure that all your banking data is up to date and ready for the reconciliation with your *Journal Entries*."
+msgid "You can manage as many bank or cash accounts as needed on your database. Configuring them well allows you to have all your banking data up-to-date and ready for :doc:`reconciliation <../../bank/reconciliation/use_cases>` with your journal entries."
 msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:9
-msgid "In Odoo Accounting, each Bank Account is configured to have a dedicated *Journal* which is configured to post all entries in a dedicated *Account*."
+msgid "In Odoo Accounting, each bank account has a dedicated journal set to post all entries in a dedicated account. Both the journal and the account are automatically created and configured whenever you add a bank account."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:12
-msgid "Whenever you add a Bank Account, a dedicated journal and a dedicated account are automatically created and configured."
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:14
+msgid "Cash journals and accounts must be configured manually."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:15
-msgid "Every **Bank Journal** is displayed by default on the **Accounting Overview** in the form of a convenient card. It includes action buttons that are displayed when appropriate."
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:16
+msgid "Bank journals are displayed by default on the :guilabel:`Accounting Dashboard` in the form of cards which include action buttons."
 msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:None
-msgid "Bank Journals Cards are displayed on the Accounting Overview in Odoo Accounting"
+msgid "Bank journals are displayed on the Accounting Dashboard and contain action buttons"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:25
-msgid "Add a new Bank Account"
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:26
+msgid "Manage your bank and cash accounts"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:27
-msgid "You can either connect your bank account to your Odoo database, or configure your bank account manually and :doc:`upload the bank statements manually <../feeds/bank_statements>`."
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:29
+msgid "Connect your bank for automatic synchronization"
 msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:31
-msgid "Bank Synchronization"
+msgid "To connect your bank account to your database, go to :menuselection:`Accounting --> Configuration --> Banks: Add a Bank Account`, select your bank in the list, click on :guilabel:`Connect`, and follow the instructions."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:33
-msgid "Connect your bank account to your database and have your bank statements synced automatically."
-msgstr ""
-
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:35
-msgid "To synchronize a new bank account, go to :menuselection:`Accounting --> Configuration`, click on *Add a Bank Account*, then find your bank in the list, click on *Connect*, and follow the instructions on-screen."
-msgstr ""
-
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:40
-msgid ":doc:`Click here <../../bank/feeds/bank_synchronization>` for more information about this bank synchronization."
-msgstr ""
-
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:None
-msgid "Select a bank institution in the list and connect it to Odoo Accounting"
-msgstr ""
-
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:48
-msgid "Manual configuration"
-msgstr ""
-
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:50
-msgid "If your Bank Institution can’t be synchronized automatically, or if you prefer not to sync it with your database, you may also configure your bank account manually."
-msgstr ""
-
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:53
-msgid "To add a new bank account manually, go to :menuselection:`Accounting --> Configuration`, click on *Add a Bank Account*, then on *Create it*, and fill out the form."
-msgstr ""
-
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:56
-#: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:65
-msgid "**Name**: the bank account's name, as displayed on Odoo."
-msgstr ""
-
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:57
-#: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:66
-msgid "**Account Number**: your bank account number (IBAN in Europe)."
-msgstr ""
-
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:58
-#: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:67
-msgid "**Bank**: click on *Create and Edit* to configure the bank's details. Add the bank institution's name and its Identifier Code (BIC or SWIFT)."
-msgstr ""
-
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:60
-#: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:69
-msgid "**Code**: this code is your Journal's *Short Code*, as displayed on Odoo. By default, Odoo creates a new Journal with this Short Code."
-msgstr ""
-
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:62
-#: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:71
-msgid "**Journal**: This field is displayed if you have an existing Bank Journal that is not linked yet to a bank account. If so, then select the *Journal* you want to use to record the financial transactions linked to this bank account or create a new one by clicking on *Create and Edit*."
-msgstr ""
-
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:67
-msgid "Odoo detects the bank account type (e.g., IBAN) and enables some features accordingly."
-msgstr ""
-
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:None
-msgid "Add manually a new bank account in Odoo Accounting"
-msgstr ""
-
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:75
-msgid "Advanced configuration"
-msgstr ""
-
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:77
-msgid "To edit an existing bank account, go to :menuselection:`Accounting --> Configuration --> Bank Accounts`, and open the bank account you want to modify."
-msgstr ""
-
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:80
-msgid "If you need to edit the bank account details, go to the *Bank Account* field and click on the *External Link* button next to the list arrow. There, you can edit the bank account's number, Account Holder, Account Holder Name, and your Bank Institution's details by clicking on the *External Link* next to the *Bank* field. These details are used to register some payments."
-msgstr ""
-
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:85
-msgid "You can configure which types of payments are enabled in the **Payment Method Types** section and how the bank statements are recorded and posted in the **Bank Statements** section."
-msgstr ""
-
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:None
-msgid "Advanced configuration of a bank account in Odoo Accounting"
-msgstr ""
-
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:93
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:36
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:135
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:192
 msgid ":doc:`../../bank/feeds/bank_synchronization`"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:94
-msgid ":doc:`../feeds/bank_statements`"
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:39
+msgid "Create a bank account"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:95
-#: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:194
-msgid "`Odoo Tutorials: Accounting Basics <https://www.odoo.com/r/lsZ>`_"
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:41
+msgid "If your banking institution is not available in Odoo, or if you don't want to connect your bank account to your database, you can configure your bank account manually."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:44
+msgid "To manually add a bank account, go to :menuselection:`Accounting --> Configuration --> Banks: Add a Bank Account`, click on :guilabel:`Create it` (at the bottom right), and fill out the form."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:48
+msgid "Odoo automatically detects the bank account type (e.g., IBAN) and enables some features accordingly."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:50
+msgid "A default bank journal is available and can be used to configure your bank account by going to :menuselection:`Accounting --> Configuration --> Accounting: Journals --> Bank`. Open it and edit the different fields to match your bank account information."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:55
+msgid "Create a cash journal"
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:57
+msgid "To create a new cash journal, go to :menuselection:`Accounting --> Configuration --> Accounting: Journals`, click on :guilabel:`Create` and select :guilabel:`Cash` in the :guilabel:`Type` field."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:60
+msgid "For more information on the accounting information fields, read the :ref:`bank_accounts/configuration` section of this page."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:64
+msgid "A default cash journal is available and can be used straight away. You can review it by going to :menuselection:`Accounting --> Configuration --> Accounting: Journals --> Cash`."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:68
+msgid "Edit an existing bank or cash journal"
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:70
+msgid "To edit an existing bank journal, go to :menuselection:`Accounting --> Configuration --> Accounting: Journals` and select the journal you want to modify."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:78
+msgid "You can edit the accounting information and bank account number according to your needs."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:None
+msgid "Manually configure your bank information"
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:85
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:108
+msgid ":doc:`../../others/multi_currency`"
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:86
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:136
+msgid ":doc:`../../bank/feeds/bank_statements`"
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:87
+msgid ":doc:`../../bank/setup/outstanding_accounts`"
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:90
+msgid "Suspense account"
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:92
+msgid "Bank statement transactions are posted on the :guilabel:`Suspense Account` until the final reconciliation allows finding the right account."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:96
+msgid "Profit and loss accounts"
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:98
+msgid "The :guilabel:`Profit Account` is used to register a profit when the ending balance of a cash register differs from what the system computes, while the :guilabel:`Loss Account` is used to register a loss when the ending balance of a cash register differs from what the system computes."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:103
+msgid "Currency"
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:105
+msgid "You can edit the currency used to enter the statements."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:111
+msgid "Account number"
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:113
+msgid "If you need to **edit your bank account details**, click on the external link arrow next to your :guilabel:`Account Number`. On the new page, click on the external link arrow next to your :guilabel:`Bank` and update your bank information accordingly. These details are used when registering payments."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:None
+msgid "Edit your bank information"
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:125
+msgid ":guilabel:`Bank Feeds` defines how the bank statements are registered. Three options are available:"
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:127
+msgid ":guilabel:`Undefined yet`, which should be selected when you don’t know yet if you will synchronize your bank account with your database or not."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:129
+msgid ":guilabel:`Import (CAMT, CODA, CSV, OFX, QIF)`, which should be selected if you want to import your bank statement using a different format."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:131
+msgid ":guilabel:`Automated Bank Synchronization`, which should be selected if your bank is synchronized with your database."
 msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/setup/foreign_currency.rst:3
@@ -10455,6 +10487,26 @@ msgstr ""
 msgid "If your Bank Institution can’t be synchronized automatically, or if you prefer not to sync it with your database, you may also configure your bank account manually by clicking on *Create it*, and filling out the form."
 msgstr ""
 
+#: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:65
+msgid "**Name**: the bank account's name, as displayed on Odoo."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:66
+msgid "**Account Number**: your bank account number (IBAN in Europe)."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:67
+msgid "**Bank**: click on *Create and Edit* to configure the bank's details. Add the bank institution's name and its Identifier Code (BIC or SWIFT)."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:69
+msgid "**Code**: this code is your Journal's *Short Code*, as displayed on Odoo. By default, Odoo creates a new Journal with this Short Code."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:71
+msgid "**Journal**: This field is displayed if you have an existing Bank Journal that is not linked yet to a bank account. If so, then select the *Journal* you want to use to record the financial transactions linked to this bank account or create a new one by clicking on *Create and Edit*."
+msgstr ""
+
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:76
 msgid "You can add as many bank accounts as needed with this tool by going to :menuselection:`Accounting --> Configuration`, and clicking on *Add a Bank Account*."
 msgstr ""
@@ -10588,6 +10640,10 @@ msgstr ""
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:191
 msgid ":doc:`chart_of_accounts`"
+msgstr ""
+
+#: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:194
+msgid "`Odoo Tutorials: Accounting Basics <https://www.odoo.com/r/lsZ>`_"
 msgstr ""
 
 #: ../../content/applications/finance/accounting/getting_started/main_concept.rst:3
@@ -11232,9 +11288,9 @@ msgstr ""
 #: ../../content/applications/finance/accounting/getting_started/process_overview/customer_invoice.rst:128
 #: ../../content/applications/finance/accounting/others/analytic/usage.rst:64
 #: ../../content/applications/finance/accounting/others/analytic/usage.rst:157
-#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:54
 #: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:68
-#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:80
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:82
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:99
 msgid "**Debit**"
 msgstr ""
 
@@ -11242,9 +11298,9 @@ msgstr ""
 #: ../../content/applications/finance/accounting/getting_started/process_overview/customer_invoice.rst:128
 #: ../../content/applications/finance/accounting/others/analytic/usage.rst:64
 #: ../../content/applications/finance/accounting/others/analytic/usage.rst:157
-#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:54
 #: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:68
-#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:80
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:82
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:99
 msgid "**Credit**"
 msgstr ""
 
@@ -16842,87 +16898,124 @@ msgid ":doc:`fiscal_positions`"
 msgstr ""
 
 #: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:3
-msgid "Manage cash basis taxes"
+msgid "Cash basis taxes"
 msgstr ""
 
 #: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:5
-msgid "The cash basis taxes are due when the payment has been done and not at the validation of the invoice (as it is the case with standard taxes). Reporting your income and expenses to the administration based on the cash basis method is legal in some countries and under some conditions."
+msgid "Cash basis taxes are due when the payment is made, as opposed to standard taxes that are due when the invoice is confirmed. Reporting your income and expenses to the government based on the cash basis method is mandatory in some countries and under some conditions."
 msgstr ""
 
 #: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:10
-msgid "Example : You sell a product in the 1st quarter of your fiscal year and receive the payment the 2nd quarter of your fiscal year. Based on the cash basis method, the tax you have to pay to the administration is due for the 2nd quarter."
+msgid "You sell a product in the 1st quarter of your fiscal year, and the payment is received in the 2nd quarter. Based on the cash basis method, the tax you must pay is for the 2nd quarter."
 msgstr ""
 
 #: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:16
-msgid "How to configure cash basis taxes ?"
+msgid "Go to :menuselection:`Accounting --> Configuration --> Settings` and under the :guilabel:`Taxes` section, enable :guilabel:`Cash Basis`."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:18
-msgid "You first have to activate the setting in :menuselection:`Accounting --> Configuration --> Settings --> Allow Tax Cash Basis`. You will be asked to define the Tax Cash Basis Journal."
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:19
+msgid "Then, define the :guilabel:`Tax Cash Basis Journal`. Click on the external link button next to the journal to update its default properties such as the :guilabel:`Journal Name`, :guilabel:`Type` or :guilabel:`Short Code`."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:27
-msgid "Once this is done, you can configure your taxes in :menuselection:`Accounting --> Configuration --> Taxes`. At first set the proper transitional accounts to post taxes until you register the payment."
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:None
+msgid "Select your Tax Cash Basis Journal and click on the external link"
+msgstr ""
+
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:28
+msgid "By default, the journal entries of the :guilabel:`Cash Basis Taxes` journal are named using the :guilabel:`CABA` short code."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:31
+msgid "Once this is done, go to :menuselection:`Accounting --> Configuration --> Accounting: Taxes` to configure your taxes. You can either :guilabel:`Create` a new tax or update an existing one by clicking on it."
 msgstr ""
 
 #: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:35
-msgid "In the *Advanced Options* tab you will turn *Tax Due* to *Based on Payment*. You will then have to define the *Tax Received* account in which to post the tax amount when the payment is received and the *Base Tax Received Account* to post the base tax amount for an accurate tax report."
+msgid "The :guilabel:`Account` column reflects the proper transitional accounts to post taxes until the payment is registered."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:45
-msgid "What is the impact of cash basis taxes in my accounting ?"
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:None
+msgid "Fill in the account column with a transitional accounts where taxes go until the payment\n"
+"is registered"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:47
-msgid "Let’s take an example. You make a sale of $100 with a 15% cash basis tax. When you validate the customer invoice, the following entry is created in your accounting:"
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:43
+msgid "In the :guilabel:`Advanced Options` tab, decide of the :guilabel:`Tax Exigilibity`. Select :guilabel:`Based on Payment`, so the tax is due when the payment of the invoice is received. You can then also define the :guilabel:`Cash Basis Transition Account` where the tax amount is recorded as long as the original invoice has not been reconciled."
 msgstr ""
 
-#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:52
-msgid "Customer Invoices Journal"
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:None
+msgid "Fill in the Cash Basis Transition Account where taxes amounts go until payment\n"
+"reconciliation."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:54
+msgid "Impact of cash basis taxes on accounting"
 msgstr ""
 
 #: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:56
-#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:72
-msgid "Receivables $115"
-msgstr ""
-
-#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:58
-#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:82
-msgid "Temporary Tax Account $15"
-msgstr ""
-
-#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:60
-#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:86
-#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:88
-msgid "Income Account $100"
+msgid "To illustrate the impact of cash basis taxes on accounting transactions, let's take an example with the sales of a product that costs 1,000$, with a cash basis tax of 15%."
 msgstr ""
 
 #: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:63
-msgid "A few days later, you receive the payment:"
+msgid "The following entries are created in your accounting, and the tax report is currently empty."
 msgstr ""
 
 #: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:66
-msgid "Bank Journal"
+msgid "**Customer journal (INV)**"
 msgstr ""
 
 #: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:70
-msgid "Bank $115"
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:86
+msgid "Receivable $1,150"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:75
-msgid "When you reconcile the invoice and the payment, this entry is generated:"
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:72
+msgid "Income $1,000"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:78
-msgid "Tax Cash Basis Journal"
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:74
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:103
+msgid "Temporary tax account $150"
+msgstr ""
+
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:77
+msgid "When the payment is then received, it is registered as below :"
+msgstr ""
+
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:80
+msgid "**Bank journal (BANK)**"
 msgstr ""
 
 #: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:84
-msgid "Tax Received Account $15"
+msgid "Bank $1,150"
 msgstr ""
 
-#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:92
-msgid "The last two journal items are neutral but they are needed to insure correct tax reports in Odoo with accurate base tax amounts. We advise to use a default revenue account. The balance of this account will then always be at zero."
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:90
+msgid "Once the payment is registered, you can use the :guilabel:`Cash Basis Entries` smart button on the invoice to access them directly."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:93
+msgid "Finally, upon reconciliation of the invoice with the payment, the below entry is automatically created:"
+msgstr ""
+
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:97
+msgid "**Tax Cash Basis Journal (Caba)**"
+msgstr ""
+
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:101
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:105
+msgid "Income account $1,000"
+msgstr ""
+
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:107
+msgid "Tax Received $150"
+msgstr ""
+
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:110
+msgid "The journal items :guilabel:`Income account` vs. :guilabel:`Income account` are neutral, but they are needed to ensure correct tax reports in Odoo with accurate base tax amounts."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:113
+msgid "Using a default :guilabel:`Base Tax Received Account` is recommended so your balance is at zero and your income account is not polluted by unnecessary accounting movements. To do so, go to :menuselection:`Configuration --> Settings --> Taxes`, and select a :guilabel:`Base Tax Received Account` under :guilabel:`Cash Basis`."
 msgstr ""
 
 #: ../../content/applications/finance/accounting/taxation/taxes/default_taxes.rst:3

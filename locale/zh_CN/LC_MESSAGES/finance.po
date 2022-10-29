@@ -41,17 +41,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-27 21:52+0800\n"
+"POT-Creation-Date: 2022-10-29 03:23+0000\n"
 "PO-Revision-Date: 2022-10-04 12:53+0000\n"
 "Last-Translator: Raymond Yu <cl_yu@hotmail.com>, 2022\n"
 "Language: zh_CN\n"
 "Language-Team: Chinese (China) "
 "(https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../../content/applications/finance.rst:5
 msgid "Finance"
@@ -88,6 +88,7 @@ msgid "Bank and cash"
 msgstr "银行和现金"
 
 #: ../../content/applications/finance/accounting/bank/feeds.rst:5
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:123
 msgid "Bank feeds"
 msgstr "银行提要"
 
@@ -292,6 +293,7 @@ msgstr "银行同步在测试数据库不可用."
 #: ../../content/applications/finance/accounting/bank/misc/interbank.rst:14
 #: ../../content/applications/finance/accounting/bank/reconciliation/reconciliation_models.rst:69
 #: ../../content/applications/finance/accounting/bank/reconciliation/use_cases.rst:16
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:76
 #: ../../content/applications/finance/accounting/bank/setup/foreign_currency.rst:16
 #: ../../content/applications/finance/accounting/bank/setup/manage_cash_register.rst:9
 #: ../../content/applications/finance/accounting/bank/setup/outstanding_accounts.rst:20
@@ -326,6 +328,7 @@ msgstr "银行同步在测试数据库不可用."
 #: ../../content/applications/finance/accounting/receivables/customer_payments/online_payment.rst:15
 #: ../../content/applications/finance/accounting/reporting/declarations/intrastat.rst:19
 #: ../../content/applications/finance/accounting/taxation/taxes/B2B_B2C.rst:60
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:14
 #: ../../content/applications/finance/accounting/taxation/taxes/default_taxes.rst:19
 #: ../../content/applications/finance/accounting/taxation/taxes/eu_distance_selling.rst:30
 #: ../../content/applications/finance/accounting/taxation/taxes/fiscal_positions.rst:27
@@ -1589,197 +1592,239 @@ msgid "Setup"
 msgstr "设置"
 
 #: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:3
-msgid "Bank Accounts"
-msgstr "银行账户"
+#, fuzzy
+msgid "Bank and cash accounts"
+msgstr "银行和现金"
 
 #: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:5
 msgid ""
-"You can manage as many **Bank Accounts** as needed on your database. "
-"Configuring them well allows you to make sure that all your banking data "
-"is up to date and ready for the reconciliation with your *Journal "
-"Entries*."
-msgstr "您可以根据需要在数据库中管理多个  **行帐**  。 正确配置它们可以使您确保所有银行数据都是最新的，并准备与您的 *日记帐分录* 对帐."
+"You can manage as many bank or cash accounts as needed on your database. "
+"Configuring them well allows you to have all your banking data up-to-date"
+" and ready for :doc:`reconciliation "
+"<../../bank/reconciliation/use_cases>` with your journal entries."
+msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:9
 msgid ""
-"In Odoo Accounting, each Bank Account is configured to have a dedicated "
-"*Journal* which is configured to post all entries in a dedicated "
-"*Account*."
-msgstr "在Odoo 会计应用中，每个银行帐户都配置有专用的 *日记帐 * ，该日记帐配置为在专用 *帐户* 中过帐所有条目."
+"In Odoo Accounting, each bank account has a dedicated journal set to post"
+" all entries in a dedicated account. Both the journal and the account are"
+" automatically created and configured whenever you add a bank account."
+msgstr ""
 
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:12
-msgid ""
-"Whenever you add a Bank Account, a dedicated journal and a dedicated "
-"account are automatically created and configured."
-msgstr "每当您添加银行帐户时，都会自动创建和配置专用日记帐和专用帐户."
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:14
+msgid "Cash journals and accounts must be configured manually."
+msgstr ""
 
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:15
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:16
+#, fuzzy
 msgid ""
-"Every **Bank Journal** is displayed by default on the **Accounting "
-"Overview** in the form of a convenient card. It includes action buttons "
-"that are displayed when appropriate."
+"Bank journals are displayed by default on the :guilabel:`Accounting "
+"Dashboard` in the form of cards which include action buttons."
 msgstr "默认情况下，每种  **行日记**  都以默认情况下显示在  **计概**  中。 它包括适当时显示的操作按钮."
 
 #, fuzzy
 msgid ""
-"Bank Journals Cards are displayed on the Accounting Overview in Odoo "
-"Accounting"
+"Bank journals are displayed on the Accounting Dashboard and contain "
+"action buttons"
 msgstr "银行日记账卡显示在Odoo会计的会计概述上"
 
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:25
-msgid "Add a new Bank Account"
-msgstr "添加一个新的银行帐户"
-
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:27
-msgid ""
-"You can either connect your bank account to your Odoo database, or "
-"configure your bank account manually and :doc:`upload the bank statements"
-" manually <../feeds/bank_statements>`."
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:26
+msgid "Manage your bank and cash accounts"
 msgstr ""
-"您可以将银行帐户连接到Odoo数据库，也可以手动配置银行帐户，然后 :doc:`手动上传银行对帐单 "
-"<../feeds/bank_statements>`。"
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:29
+msgid "Connect your bank for automatic synchronization"
+msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:31
-msgid "Bank Synchronization"
-msgstr "银行同步"
-
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:33
 msgid ""
-"Connect your bank account to your database and have your bank statements "
-"synced automatically."
-msgstr "将您的银行帐户连接到数据库，并自动同步您的银行对帐单."
-
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:35
-msgid ""
-"To synchronize a new bank account, go to :menuselection:`Accounting --> "
-"Configuration`, click on *Add a Bank Account*, then find your bank in the"
-" list, click on *Connect*, and follow the instructions on-screen."
+"To connect your bank account to your database, go to "
+":menuselection:`Accounting --> Configuration --> Banks: Add a Bank "
+"Account`, select your bank in the list, click on :guilabel:`Connect`, and"
+" follow the instructions."
 msgstr ""
-"要同步新的银行帐户，请转到 :menuselection:`会计 --> 设置`，单击 *添加银行帐户* ，在列表中找到您的银行，单击 *连接* "
-"，然后按照屏幕上的说明进行操作 。"
 
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:40
-msgid ""
-":doc:`Click here <../../bank/feeds/bank_synchronization>` for more "
-"information about this bank synchronization."
-msgstr ":doc:`点击此处 <../../bank/feeds/bank_synchronization>` 了解有关此银行同步的更多信息。"
-
-#, fuzzy
-msgid "Select a bank institution in the list and connect it to Odoo Accounting"
-msgstr "在列表中选择一个银行机构，并将其连接到Odoo Accounting"
-
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:48
-msgid "Manual configuration"
-msgstr "手动配置"
-
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:50
-msgid ""
-"If your Bank Institution can’t be synchronized automatically, or if you "
-"prefer not to sync it with your database, you may also configure your "
-"bank account manually."
-msgstr "如果您的银行机构无法自动同步，或者您不想将其与数据库同步，则也可以手动配置银行帐户."
-
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:53
-msgid ""
-"To add a new bank account manually, go to :menuselection:`Accounting --> "
-"Configuration`, click on *Add a Bank Account*, then on *Create it*, and "
-"fill out the form."
-msgstr ""
-"要手动添加一个新的银行帐户，请转到 :menuselection:`会计 --> 设置` ，单击 *添加银行帐户* ，然后单击 *创建* "
-"，並填写表格。"
-
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:56
-#: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:65
-msgid "**Name**: the bank account's name, as displayed on Odoo."
-msgstr "**名称** ：银行帐户的名称，如Odoo上所示。"
-
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:57
-#: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:66
-msgid "**Account Number**: your bank account number (IBAN in Europe)."
-msgstr "**** ：您的银行帐号（欧洲的IBAN）."
-
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:58
-#: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:67
-msgid ""
-"**Bank**: click on *Create and Edit* to configure the bank's details. Add"
-" the bank institution's name and its Identifier Code (BIC or SWIFT)."
-msgstr "**银行** ：单击 *创建和编辑* 以配置银行的详细信息。 添加银行机构的名称及其标识符代码（BIC或SWIFT）。"
-
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:60
-#: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:69
-msgid ""
-"**Code**: this code is your Journal's *Short Code*, as displayed on Odoo."
-" By default, Odoo creates a new Journal with this Short Code."
-msgstr "**代码** ：此代码是您的日记帐的 *短代码* ，如Odoo所示。 默认情况下，Odoo会使用此短代码创建一个新日记帐。"
-
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:62
-#: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:71
-msgid ""
-"**Journal**: This field is displayed if you have an existing Bank Journal"
-" that is not linked yet to a bank account. If so, then select the "
-"*Journal* you want to use to record the financial transactions linked to "
-"this bank account or create a new one by clicking on *Create and Edit*."
-msgstr ""
-"**记**: 如果您有尚未链接到银行帐户的现有银行日记帐，则会显示此字段。 如果是这样，选择要用于记录与此银行帐户关联的财务交易的 *日记帐* "
-"，或通过单击 *创建和编辑* 创建一个新的。"
-
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:67
-msgid ""
-"Odoo detects the bank account type (e.g., IBAN) and enables some features"
-" accordingly."
-msgstr "Odoo会检测银行帐户类型（例如IBAN），并相应地启用某些功能."
-
-#, fuzzy
-msgid "Add manually a new bank account in Odoo Accounting"
-msgstr "在Odoo Accounting中手动添加一个新的银行账户"
-
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:75
-msgid "Advanced configuration"
-msgstr "高级配置"
-
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:77
-msgid ""
-"To edit an existing bank account, go to :menuselection:`Accounting --> "
-"Configuration --> Bank Accounts`, and open the bank account you want to "
-"modify."
-msgstr "要编辑现有的银行帐户，请转到 :menuselection:`帐户 --> 配置 --> 银行帐户` ，然后打开要修改的银行帐户。"
-
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:80
-msgid ""
-"If you need to edit the bank account details, go to the *Bank Account* "
-"field and click on the *External Link* button next to the list arrow. "
-"There, you can edit the bank account's number, Account Holder, Account "
-"Holder Name, and your Bank Institution's details by clicking on the "
-"*External Link* next to the *Bank* field. These details are used to "
-"register some payments."
-msgstr ""
-"如果您需要编辑银行帐户详细信息，请转到 *银行帐户* 字段，然后单击列表箭头旁边的 *外部链接* 按钮。 在此处，您可以通过单击 *银行* "
-"字段旁边的 *外部链接* 来编辑银行帐号，帐户持有人，帐户持有人姓名和银行机构的详细信息。 这些可详细信息用于注册一些付款."
-
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:85
-msgid ""
-"You can configure which types of payments are enabled in the **Payment "
-"Method Types** section and how the bank statements are recorded and "
-"posted in the **Bank Statements** section."
-msgstr "您可以在 *付款方式类型* 部分中配置启用的付款类型，并在 *银行对账单* 部分中配置银行对账单的记录和过账方式."
-
-#, fuzzy
-msgid "Advanced configuration of a bank account in Odoo Accounting"
-msgstr "高级配置的银行帐户在Odoo会计"
-
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:93
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:36
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:135
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:192
 msgid ":doc:`../../bank/feeds/bank_synchronization`"
 msgstr ":doc:`../../bank/feeds/bank_synchronization`"
 
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:94
-msgid ":doc:`../feeds/bank_statements`"
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:39
+#, fuzzy
+msgid "Create a bank account"
+msgstr "创建银行账户"
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:41
+#, fuzzy
+msgid ""
+"If your banking institution is not available in Odoo, or if you don't "
+"want to connect your bank account to your database, you can configure "
+"your bank account manually."
+msgstr "如果您的银行机构无法自动同步，或者您不想将其与数据库同步，则也可以手动配置银行帐户."
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:44
+#, fuzzy
+msgid ""
+"To manually add a bank account, go to :menuselection:`Accounting --> "
+"Configuration --> Banks: Add a Bank Account`, click on :guilabel:`Create "
+"it` (at the bottom right), and fill out the form."
+msgstr "如要创建新科目，前往 :menuselection:`会计 --> 配置 --> 会计科目表`，点击*创建*并填写表单."
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:48
+#, fuzzy
+msgid ""
+"Odoo automatically detects the bank account type (e.g., IBAN) and enables"
+" some features accordingly."
+msgstr "Odoo会检测银行帐户类型（例如IBAN），并相应地启用某些功能."
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:50
+msgid ""
+"A default bank journal is available and can be used to configure your "
+"bank account by going to :menuselection:`Accounting --> Configuration -->"
+" Accounting: Journals --> Bank`. Open it and edit the different fields to"
+" match your bank account information."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:55
+#, fuzzy
+msgid "Create a cash journal"
+msgstr "创建账户"
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:57
+#, fuzzy
+msgid ""
+"To create a new cash journal, go to :menuselection:`Accounting --> "
+"Configuration --> Accounting: Journals`, click on :guilabel:`Create` and "
+"select :guilabel:`Cash` in the :guilabel:`Type` field."
+msgstr "如要创建新科目，前往 :menuselection:`会计 --> 配置 --> 会计科目表`，点击*创建*并填写表单."
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:60
+msgid ""
+"For more information on the accounting information fields, read the "
+":ref:`bank_accounts/configuration` section of this page."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:64
+msgid ""
+"A default cash journal is available and can be used straight away. You "
+"can review it by going to :menuselection:`Accounting --> Configuration "
+"--> Accounting: Journals --> Cash`."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:68
+msgid "Edit an existing bank or cash journal"
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:70
+#, fuzzy
+msgid ""
+"To edit an existing bank journal, go to :menuselection:`Accounting --> "
+"Configuration --> Accounting: Journals` and select the journal you want "
+"to modify."
+msgstr "要编辑现有的银行帐户，请转到 :menuselection:`帐户 --> 配置 --> 银行帐户` ，然后打开要修改的银行帐户。"
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:78
+msgid ""
+"You can edit the accounting information and bank account number according"
+" to your needs."
+msgstr ""
+
+#, fuzzy
+msgid "Manually configure your bank information"
+msgstr "手动配置"
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:85
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:108
+#, fuzzy
+msgid ":doc:`../../others/multi_currency`"
+msgstr "医生:“. . /银行/设置/ foreign_currency”"
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:86
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:136
+#, fuzzy
+msgid ":doc:`../../bank/feeds/bank_statements`"
 msgstr ":doc:`../feeds/bank_statements`"
 
-#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:95
-#: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:194
-msgid "`Odoo Tutorials: Accounting Basics <https://www.odoo.com/r/lsZ>`_"
-msgstr "\"Odoo教程：会计基础知识<https://www.odoo.com/r/lsZ>\"_"
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:87
+#, fuzzy
+msgid ":doc:`../../bank/setup/outstanding_accounts`"
+msgstr ":doc:`../../bank/setup/bank_accounts`"
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:90
+#, fuzzy
+msgid "Suspense account"
+msgstr "税帐户"
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:92
+msgid ""
+"Bank statement transactions are posted on the :guilabel:`Suspense "
+"Account` until the final reconciliation allows finding the right account."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:96
+#, fuzzy
+msgid "Profit and loss accounts"
+msgstr "损益表"
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:98
+msgid ""
+"The :guilabel:`Profit Account` is used to register a profit when the "
+"ending balance of a cash register differs from what the system computes, "
+"while the :guilabel:`Loss Account` is used to register a loss when the "
+"ending balance of a cash register differs from what the system computes."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:103
+#, fuzzy
+msgid "Currency"
+msgstr "多币种"
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:105
+msgid "You can edit the currency used to enter the statements."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:111
+#, fuzzy
+msgid "Account number"
+msgstr "科目编码"
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:113
+msgid ""
+"If you need to **edit your bank account details**, click on the external "
+"link arrow next to your :guilabel:`Account Number`. On the new page, "
+"click on the external link arrow next to your :guilabel:`Bank` and update"
+" your bank information accordingly. These details are used when "
+"registering payments."
+msgstr ""
+
+#, fuzzy
+msgid "Edit your bank information"
+msgstr "输入法律信息"
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:125
+msgid ""
+":guilabel:`Bank Feeds` defines how the bank statements are registered. "
+"Three options are available:"
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:127
+msgid ""
+":guilabel:`Undefined yet`, which should be selected when you don’t know "
+"yet if you will synchronize your bank account with your database or not."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:129
+msgid ""
+":guilabel:`Import (CAMT, CODA, CSV, OFX, QIF)`, which should be selected "
+"if you want to import your bank statement using a different format."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/bank/setup/bank_accounts.rst:131
+msgid ""
+":guilabel:`Automated Bank Synchronization`, which should be selected if "
+"your bank is synchronized with your database."
+msgstr ""
 
 #: ../../content/applications/finance/accounting/bank/setup/foreign_currency.rst:3
 #, fuzzy
@@ -15692,6 +15737,36 @@ msgid ""
 "form."
 msgstr "如果您的银行机构不能自动同步，或者您不想将其与数据库同步，则也可以通过单击 *创建* ，并填写表格来手动配置银行帐户."
 
+#: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:65
+msgid "**Name**: the bank account's name, as displayed on Odoo."
+msgstr "**名称** ：银行帐户的名称，如Odoo上所示。"
+
+#: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:66
+msgid "**Account Number**: your bank account number (IBAN in Europe)."
+msgstr "**** ：您的银行帐号（欧洲的IBAN）."
+
+#: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:67
+msgid ""
+"**Bank**: click on *Create and Edit* to configure the bank's details. Add"
+" the bank institution's name and its Identifier Code (BIC or SWIFT)."
+msgstr "**银行** ：单击 *创建和编辑* 以配置银行的详细信息。 添加银行机构的名称及其标识符代码（BIC或SWIFT）。"
+
+#: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:69
+msgid ""
+"**Code**: this code is your Journal's *Short Code*, as displayed on Odoo."
+" By default, Odoo creates a new Journal with this Short Code."
+msgstr "**代码** ：此代码是您的日记帐的 *短代码* ，如Odoo所示。 默认情况下，Odoo会使用此短代码创建一个新日记帐。"
+
+#: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:71
+msgid ""
+"**Journal**: This field is displayed if you have an existing Bank Journal"
+" that is not linked yet to a bank account. If so, then select the "
+"*Journal* you want to use to record the financial transactions linked to "
+"this bank account or create a new one by clicking on *Create and Edit*."
+msgstr ""
+"**记**: 如果您有尚未链接到银行帐户的现有银行日记帐，则会显示此字段。 如果是这样，选择要用于记录与此银行帐户关联的财务交易的 *日记帐* "
+"，或通过单击 *创建和编辑* 创建一个新的。"
+
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:76
 msgid ""
 "You can add as many bank accounts as needed with this tool by going to "
@@ -15883,6 +15958,10 @@ msgstr ":doc:`../../bank/setup/bank_accounts`"
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:191
 msgid ":doc:`chart_of_accounts`"
 msgstr ":doc:`chart_of_accounts`"
+
+#: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:194
+msgid "`Odoo Tutorials: Accounting Basics <https://www.odoo.com/r/lsZ>`_"
+msgstr "\"Odoo教程：会计基础知识<https://www.odoo.com/r/lsZ>\"_"
 
 #: ../../content/applications/finance/accounting/getting_started/main_concept.rst:3
 msgid "Main accounting concepts"
@@ -16705,9 +16784,9 @@ msgstr "**到期日**"
 #: ../../content/applications/finance/accounting/getting_started/process_overview/customer_invoice.rst:128
 #: ../../content/applications/finance/accounting/others/analytic/usage.rst:64
 #: ../../content/applications/finance/accounting/others/analytic/usage.rst:157
-#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:54
 #: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:68
-#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:80
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:82
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:99
 msgid "**Debit**"
 msgstr "**借项**"
 
@@ -16715,9 +16794,9 @@ msgstr "**借项**"
 #: ../../content/applications/finance/accounting/getting_started/process_overview/customer_invoice.rst:128
 #: ../../content/applications/finance/accounting/others/analytic/usage.rst:64
 #: ../../content/applications/finance/accounting/others/analytic/usage.rst:157
-#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:54
 #: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:68
-#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:80
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:82
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:99
 msgid "**Credit**"
 msgstr "**贷方**"
 
@@ -25024,120 +25103,183 @@ msgid ":doc:`fiscal_positions`"
 msgstr ":doc:`fiscal_positions`"
 
 #: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:3
-msgid "Manage cash basis taxes"
+#, fuzzy
+msgid "Cash basis taxes"
 msgstr "管理现金基础税"
 
 #: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:5
 msgid ""
-"The cash basis taxes are due when the payment has been done and not at "
-"the validation of the invoice (as it is the case with standard taxes). "
-"Reporting your income and expenses to the administration based on the "
-"cash basis method is legal in some countries and under some conditions."
-msgstr "完成付款且无发票过期（本例为标准税）之情形时，应支付现金基本税。基于现金基本税向管理部门申报收、支法在某些国家和一定条件下是合法的."
+"Cash basis taxes are due when the payment is made, as opposed to standard"
+" taxes that are due when the invoice is confirmed. Reporting your income "
+"and expenses to the government based on the cash basis method is "
+"mandatory in some countries and under some conditions."
+msgstr ""
 
 #: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:10
+#, fuzzy
 msgid ""
-"Example : You sell a product in the 1st quarter of your fiscal year and "
-"receive the payment the 2nd quarter of your fiscal year. Based on the "
-"cash basis method, the tax you have to pay to the administration is due "
-"for the 2nd quarter."
+"You sell a product in the 1st quarter of your fiscal year, and the "
+"payment is received in the 2nd quarter. Based on the cash basis method, "
+"the tax you must pay is for the 2nd quarter."
 msgstr "示例：你在财政年度的一季度销售产品，在财政年度的第二季度收到付款。在收付实现制下，你要管理部门支付的税款应在第二季度支付."
 
 #: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:16
-msgid "How to configure cash basis taxes ?"
-msgstr "怎样配置收付实现税？"
-
-#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:18
+#, fuzzy
 msgid ""
-"You first have to activate the setting in :menuselection:`Accounting --> "
-"Configuration --> Settings --> Allow Tax Cash Basis`. You will be asked "
-"to define the Tax Cash Basis Journal."
+"Go to :menuselection:`Accounting --> Configuration --> Settings` and "
+"under the :guilabel:`Taxes` section, enable :guilabel:`Cash Basis`."
 msgstr ""
-"首先要到以下路径中激活设置：menuselection:`会计 --> 配置 --> 设置 --> "
-"允许税收收付实现，接着系统会要求你定义一个税收收付实现日记账."
+"要设置电子发票服务，请转到:menuselection: ' Accounting—> Configuration—> Settings—> "
+"Indian Electronic Invoicing '，并输入:guilabel: ' Username '和:guilabel: ' "
+"Password '。"
 
-#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:27
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:19
 msgid ""
-"Once this is done, you can configure your taxes in "
-":menuselection:`Accounting --> Configuration --> Taxes`. At first set the"
-" proper transitional accounts to post taxes until you register the "
-"payment."
+"Then, define the :guilabel:`Tax Cash Basis Journal`. Click on the "
+"external link button next to the journal to update its default properties"
+" such as the :guilabel:`Journal Name`, :guilabel:`Type` or "
+":guilabel:`Short Code`."
 msgstr ""
-"完成这一步骤后，可在以下路径配置税种 :menuselection:`会计 --> 配置 --> "
-"税种`。首先，设置适当的过渡会计科目，以在你登记付款之前将税收过账."
+
+msgid "Select your Tax Cash Basis Journal and click on the external link"
+msgstr ""
+
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:28
+msgid ""
+"By default, the journal entries of the :guilabel:`Cash Basis Taxes` "
+"journal are named using the :guilabel:`CABA` short code."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:31
+msgid ""
+"Once this is done, go to :menuselection:`Accounting --> Configuration -->"
+" Accounting: Taxes` to configure your taxes. You can either "
+":guilabel:`Create` a new tax or update an existing one by clicking on it."
+msgstr ""
 
 #: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:35
 msgid ""
-"In the *Advanced Options* tab you will turn *Tax Due* to *Based on "
-"Payment*. You will then have to define the *Tax Received* account in "
-"which to post the tax amount when the payment is received and the *Base "
-"Tax Received Account* to post the base tax amount for an accurate tax "
-"report."
-msgstr "在*高级选项*选项卡中，将*应有税金*转为*基于付款*。然后，你必须定义*已收税金*科目，以便在收到付款时过账税款金额，以及*基本税应收科目*，以便过账基本税金额，确保税收报告的准确性."
+"The :guilabel:`Account` column reflects the proper transitional accounts "
+"to post taxes until the payment is registered."
+msgstr ""
 
-#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:45
-msgid "What is the impact of cash basis taxes in my accounting ?"
+msgid ""
+"Fill in the account column with a transitional accounts where taxes go "
+"until the payment\n"
+"is registered"
+msgstr ""
+
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:43
+msgid ""
+"In the :guilabel:`Advanced Options` tab, decide of the :guilabel:`Tax "
+"Exigilibity`. Select :guilabel:`Based on Payment`, so the tax is due when"
+" the payment of the invoice is received. You can then also define the "
+":guilabel:`Cash Basis Transition Account` where the tax amount is "
+"recorded as long as the original invoice has not been reconciled."
+msgstr ""
+
+msgid ""
+"Fill in the Cash Basis Transition Account where taxes amounts go until "
+"payment\n"
+"reconciliation."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:54
+#, fuzzy
+msgid "Impact of cash basis taxes on accounting"
 msgstr "收付实现税对我的会计系统将造成何种影响？"
 
-#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:47
-#, python-format
-msgid ""
-"Let’s take an example. You make a sale of $100 with a 15% cash basis tax."
-" When you validate the customer invoice, the following entry is created "
-"in your accounting:"
-msgstr "举个例子，你取得了100美元的销售收入，附带15%的收付实现税。当你验证客户发票时，以下科目会被创建到你的会计系统中："
-
-#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:52
-msgid "Customer Invoices Journal"
-msgstr "客户发票日记账"
-
 #: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:56
-#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:72
-msgid "Receivables $115"
-msgstr "应收15美元"
-
-#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:58
-#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:82
-msgid "Temporary Tax Account $15"
-msgstr "临时税务科目$15"
-
-#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:60
-#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:86
-#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:88
-msgid "Income Account $100"
-msgstr "收入帐户100美元"
+msgid ""
+"To illustrate the impact of cash basis taxes on accounting transactions, "
+"let's take an example with the sales of a product that costs 1,000$, with"
+" a cash basis tax of 15%."
+msgstr ""
 
 #: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:63
-msgid "A few days later, you receive the payment:"
-msgstr "几天后，你收到付款："
+msgid ""
+"The following entries are created in your accounting, and the tax report "
+"is currently empty."
+msgstr ""
 
 #: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:66
-msgid "Bank Journal"
-msgstr "银行日记账"
+msgid "**Customer journal (INV)**"
+msgstr ""
 
 #: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:70
-msgid "Bank $115"
-msgstr "银行115美元"
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:86
+#, fuzzy
+msgid "Receivable $1,150"
+msgstr "应收15美元"
 
-#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:75
-msgid "When you reconcile the invoice and the payment, this entry is generated:"
-msgstr "当你对比发票和付款时，生成了以下条目："
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:72
+#, fuzzy
+msgid "Income $1,000"
+msgstr "收入帐户100美元"
 
-#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:78
-msgid "Tax Cash Basis Journal"
-msgstr "收付实现制税日记账"
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:74
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:103
+#, fuzzy
+msgid "Temporary tax account $150"
+msgstr "临时税务科目$15"
+
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:77
+msgid "When the payment is then received, it is registered as below :"
+msgstr ""
+
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:80
+msgid "**Bank journal (BANK)**"
+msgstr ""
 
 #: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:84
-msgid "Tax Received Account $15"
+#, fuzzy
+msgid "Bank $1,150"
+msgstr "银行115美元"
+
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:90
+msgid ""
+"Once the payment is registered, you can use the :guilabel:`Cash Basis "
+"Entries` smart button on the invoice to access them directly."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:93
+#, fuzzy
+msgid ""
+"Finally, upon reconciliation of the invoice with the payment, the below "
+"entry is automatically created:"
+msgstr "当你对比发票和付款时，生成了以下条目："
+
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:97
+#, fuzzy
+msgid "**Tax Cash Basis Journal (Caba)**"
+msgstr "收付实现制税日记账"
+
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:101
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:105
+#, fuzzy
+msgid "Income account $1,000"
+msgstr "收入帐户100美元"
+
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:107
+#, fuzzy
+msgid "Tax Received $150"
 msgstr "税收帐户15美元"
 
-#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:92
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:110
 msgid ""
-"The last two journal items are neutral but they are needed to insure "
-"correct tax reports in Odoo with accurate base tax amounts. We advise to "
-"use a default revenue account. The balance of this account will then "
-"always be at zero."
-msgstr "最后两个日记账项目是中性的，但它们可确保基本税金额的准确性，以保证Odoo税收报告的准确性。我们建议使用默认的收入科目。该科目的余额将始终为零."
+"The journal items :guilabel:`Income account` vs. :guilabel:`Income "
+"account` are neutral, but they are needed to ensure correct tax reports "
+"in Odoo with accurate base tax amounts."
+msgstr ""
+
+#: ../../content/applications/finance/accounting/taxation/taxes/cash_basis_taxes.rst:113
+msgid ""
+"Using a default :guilabel:`Base Tax Received Account` is recommended so "
+"your balance is at zero and your income account is not polluted by "
+"unnecessary accounting movements. To do so, go to "
+":menuselection:`Configuration --> Settings --> Taxes`, and select a "
+":guilabel:`Base Tax Received Account` under :guilabel:`Cash Basis`."
+msgstr ""
 
 #: ../../content/applications/finance/accounting/taxation/taxes/default_taxes.rst:3
 #, fuzzy
@@ -30352,4 +30494,195 @@ msgstr "提示和占位符的例子在Odoo符号"
 #~ " benefit from free trial credits to"
 #~ " test the feature."
 #~ msgstr "如果你是Odoo Online (SAAS)企业版用户，你可用免费试用积点来测试这项功能."
+
+#~ msgid "Bank Accounts"
+#~ msgstr "银行账户"
+
+#~ msgid ""
+#~ "You can manage as many **Bank "
+#~ "Accounts** as needed on your database."
+#~ " Configuring them well allows you to"
+#~ " make sure that all your banking "
+#~ "data is up to date and ready "
+#~ "for the reconciliation with your "
+#~ "*Journal Entries*."
+#~ msgstr "您可以根据需要在数据库中管理多个  **行帐**  。 正确配置它们可以使您确保所有银行数据都是最新的，并准备与您的 *日记帐分录* 对帐."
+
+#~ msgid ""
+#~ "In Odoo Accounting, each Bank Account"
+#~ " is configured to have a dedicated"
+#~ " *Journal* which is configured to "
+#~ "post all entries in a dedicated "
+#~ "*Account*."
+#~ msgstr "在Odoo 会计应用中，每个银行帐户都配置有专用的 *日记帐 * ，该日记帐配置为在专用 *帐户* 中过帐所有条目."
+
+#~ msgid ""
+#~ "Whenever you add a Bank Account, a"
+#~ " dedicated journal and a dedicated "
+#~ "account are automatically created and "
+#~ "configured."
+#~ msgstr "每当您添加银行帐户时，都会自动创建和配置专用日记帐和专用帐户."
+
+#~ msgid "Add a new Bank Account"
+#~ msgstr "添加一个新的银行帐户"
+
+#~ msgid ""
+#~ "You can either connect your bank "
+#~ "account to your Odoo database, or "
+#~ "configure your bank account manually and"
+#~ " :doc:`upload the bank statements manually"
+#~ " <../feeds/bank_statements>`."
+#~ msgstr ""
+#~ "您可以将银行帐户连接到Odoo数据库，也可以手动配置银行帐户，然后 :doc:`手动上传银行对帐单 "
+#~ "<../feeds/bank_statements>`。"
+
+#~ msgid "Bank Synchronization"
+#~ msgstr "银行同步"
+
+#~ msgid ""
+#~ "Connect your bank account to your "
+#~ "database and have your bank statements"
+#~ " synced automatically."
+#~ msgstr "将您的银行帐户连接到数据库，并自动同步您的银行对帐单."
+
+#~ msgid ""
+#~ "To synchronize a new bank account, "
+#~ "go to :menuselection:`Accounting --> "
+#~ "Configuration`, click on *Add a Bank "
+#~ "Account*, then find your bank in "
+#~ "the list, click on *Connect*, and "
+#~ "follow the instructions on-screen."
+#~ msgstr ""
+#~ "要同步新的银行帐户，请转到 :menuselection:`会计 --> 设置`，单击 "
+#~ "*添加银行帐户* ，在列表中找到您的银行，单击 *连接* ，然后按照屏幕上的说明进行操作 。"
+
+#~ msgid ""
+#~ ":doc:`Click here <../../bank/feeds/bank_synchronization>`"
+#~ " for more information about this bank"
+#~ " synchronization."
+#~ msgstr ":doc:`点击此处 <../../bank/feeds/bank_synchronization>` 了解有关此银行同步的更多信息。"
+
+#~ msgid "Select a bank institution in the list and connect it to Odoo Accounting"
+#~ msgstr "在列表中选择一个银行机构，并将其连接到Odoo Accounting"
+
+#~ msgid ""
+#~ "To add a new bank account "
+#~ "manually, go to :menuselection:`Accounting -->"
+#~ " Configuration`, click on *Add a Bank"
+#~ " Account*, then on *Create it*, and"
+#~ " fill out the form."
+#~ msgstr ""
+#~ "要手动添加一个新的银行帐户，请转到 :menuselection:`会计 --> 设置` "
+#~ "，单击 *添加银行帐户* ，然后单击 *创建* ，並填写表格。"
+
+#~ msgid "Add manually a new bank account in Odoo Accounting"
+#~ msgstr "在Odoo Accounting中手动添加一个新的银行账户"
+
+#~ msgid "Advanced configuration"
+#~ msgstr "高级配置"
+
+#~ msgid ""
+#~ "If you need to edit the bank "
+#~ "account details, go to the *Bank "
+#~ "Account* field and click on the "
+#~ "*External Link* button next to the "
+#~ "list arrow. There, you can edit "
+#~ "the bank account's number, Account "
+#~ "Holder, Account Holder Name, and your"
+#~ " Bank Institution's details by clicking "
+#~ "on the *External Link* next to the"
+#~ " *Bank* field. These details are used"
+#~ " to register some payments."
+#~ msgstr ""
+#~ "如果您需要编辑银行帐户详细信息，请转到 *银行帐户* 字段，然后单击列表箭头旁边的 *外部链接* "
+#~ "按钮。 在此处，您可以通过单击 *银行* 字段旁边的 *外部链接* "
+#~ "来编辑银行帐号，帐户持有人，帐户持有人姓名和银行机构的详细信息。 这些可详细信息用于注册一些付款."
+
+#~ msgid ""
+#~ "You can configure which types of "
+#~ "payments are enabled in the **Payment"
+#~ " Method Types** section and how the"
+#~ " bank statements are recorded and "
+#~ "posted in the **Bank Statements** "
+#~ "section."
+#~ msgstr "您可以在 *付款方式类型* 部分中配置启用的付款类型，并在 *银行对账单* 部分中配置银行对账单的记录和过账方式."
+
+#~ msgid "Advanced configuration of a bank account in Odoo Accounting"
+#~ msgstr "高级配置的银行帐户在Odoo会计"
+
+#~ msgid ""
+#~ "The cash basis taxes are due when"
+#~ " the payment has been done and "
+#~ "not at the validation of the "
+#~ "invoice (as it is the case with"
+#~ " standard taxes). Reporting your income "
+#~ "and expenses to the administration based"
+#~ " on the cash basis method is "
+#~ "legal in some countries and under "
+#~ "some conditions."
+#~ msgstr "完成付款且无发票过期（本例为标准税）之情形时，应支付现金基本税。基于现金基本税向管理部门申报收、支法在某些国家和一定条件下是合法的."
+
+#~ msgid "How to configure cash basis taxes ?"
+#~ msgstr "怎样配置收付实现税？"
+
+#~ msgid ""
+#~ "You first have to activate the "
+#~ "setting in :menuselection:`Accounting --> "
+#~ "Configuration --> Settings --> Allow Tax"
+#~ " Cash Basis`. You will be asked "
+#~ "to define the Tax Cash Basis "
+#~ "Journal."
+#~ msgstr ""
+#~ "首先要到以下路径中激活设置：menuselection:`会计 --> 配置 --> 设置"
+#~ " --> 允许税收收付实现，接着系统会要求你定义一个税收收付实现日记账."
+
+#~ msgid ""
+#~ "Once this is done, you can "
+#~ "configure your taxes in "
+#~ ":menuselection:`Accounting --> Configuration --> "
+#~ "Taxes`. At first set the proper "
+#~ "transitional accounts to post taxes "
+#~ "until you register the payment."
+#~ msgstr ""
+#~ "完成这一步骤后，可在以下路径配置税种 :menuselection:`会计 --> 配置 "
+#~ "--> 税种`。首先，设置适当的过渡会计科目，以在你登记付款之前将税收过账."
+
+#~ msgid ""
+#~ "In the *Advanced Options* tab you "
+#~ "will turn *Tax Due* to *Based on"
+#~ " Payment*. You will then have to "
+#~ "define the *Tax Received* account in "
+#~ "which to post the tax amount when"
+#~ " the payment is received and the "
+#~ "*Base Tax Received Account* to post "
+#~ "the base tax amount for an "
+#~ "accurate tax report."
+#~ msgstr "在*高级选项*选项卡中，将*应有税金*转为*基于付款*。然后，你必须定义*已收税金*科目，以便在收到付款时过账税款金额，以及*基本税应收科目*，以便过账基本税金额，确保税收报告的准确性."
+
+#~ msgid ""
+#~ "Let’s take an example. You make a"
+#~ " sale of $100 with a 15% cash"
+#~ " basis tax. When you validate the "
+#~ "customer invoice, the following entry is"
+#~ " created in your accounting:"
+#~ msgstr "举个例子，你取得了100美元的销售收入，附带15%的收付实现税。当你验证客户发票时，以下科目会被创建到你的会计系统中："
+
+#~ msgid "Customer Invoices Journal"
+#~ msgstr "客户发票日记账"
+
+#~ msgid "A few days later, you receive the payment:"
+#~ msgstr "几天后，你收到付款："
+
+#~ msgid "Bank Journal"
+#~ msgstr "银行日记账"
+
+#~ msgid ""
+#~ "The last two journal items are "
+#~ "neutral but they are needed to "
+#~ "insure correct tax reports in Odoo "
+#~ "with accurate base tax amounts. We "
+#~ "advise to use a default revenue "
+#~ "account. The balance of this account "
+#~ "will then always be at zero."
+#~ msgstr "最后两个日记账项目是中性的，但它们可确保基本税金额的准确性，以保证Odoo税收报告的准确性。我们建议使用默认的收入科目。该科目的余额将始终为零."
 
