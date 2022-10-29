@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-29 03:23+0000\n"
-"PO-Revision-Date: 2022-10-29 03:50+0000\n"
+"PO-Revision-Date: 2022-10-29 04:00+0000\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/"
 "odoo-doc/developer/zh_Hans/>\n"
@@ -8781,61 +8781,60 @@ msgid ":doc:`rdtraining/N_security`"
 msgstr ":医生:“rdtraining / N_security”"
 
 #: ../../content/developer/howtos/rdtraining/01_architecture.rst:5
-#, fuzzy
 msgid "Chapter 1: Architecture Overview"
 msgstr "第1章:体系结构概述"
 
 #: ../../content/developer/howtos/rdtraining/01_architecture.rst:8
-#, fuzzy
 msgid "Multitier application"
-msgstr "多层应用程序"
+msgstr "多层应用"
 
 #: ../../content/developer/howtos/rdtraining/01_architecture.rst:10
-#, fuzzy
 msgid ""
 "Odoo follows a `multitier architecture`_, meaning that the presentation, "
 "the business logic and the data storage are separated. More specifically,"
 " it uses a three-tier architecture (image from Wikipedia):"
-msgstr "Odoo遵循“多层架构”_，这意味着表示、业务逻辑和数据存储是分离的。更具体地说，它使用了三层架构(图片来自维基百科):"
+msgstr ""
+"Odoo遵循 `multitier architecture`_ ，这意味着表示层、业务逻辑层和数据存储层是"
+"分离的。更具体地说，它使用了三层架构(图片来自维基百科Wikipedia):"
 
-#, fuzzy
 msgid "Three-tier architecture"
 msgstr "三层体系结构"
 
 #: ../../content/developer/howtos/rdtraining/01_architecture.rst:18
-#, fuzzy
 msgid ""
 "The presentation tier is a combination of HTML5, JavaScript and CSS. The "
 "logic tier is exclusively written in Python, while the data tier only "
 "supports PostgreSQL as an RDBMS."
-msgstr "表示层是HTML5、JavaScript和CSS的组合。逻辑层专门用Python编写，而数据层只支持PostgreSQL作为RDBMS。"
+msgstr "表示层是HTML5、JavaScript和CSS的组合。逻辑层用Python编写，而数据层只支持Postg"
+"reSQL作为数据库（RDBMS）。"
 
 #: ../../content/developer/howtos/rdtraining/01_architecture.rst:21
-#, fuzzy
 msgid ""
 "Depending on the scope of your module, Odoo development can be done in "
 "any of these tiers. Therefore, before going any further, it may be a good"
 " idea to refresh your memory if you don't have an intermediate level in "
 "these topics."
-msgstr "根据模块的范围，Odoo开发可以在这些层中的任何一层中完成。因此，在继续学习之前，如果您对这些主题的了解不是中级水平，那么刷新一下您的记忆可能是一个好主意。"
+msgstr ""
+"根据模块的范围，Odoo 开发可以在这些层中的任何一层中完成。因此，在继续学习之前"
+"，如果您对这些主题的了解不是中级水平，那么刷新一下记忆可能是一个好主意。"
 
 #: ../../content/developer/howtos/rdtraining/01_architecture.rst:25
-#, fuzzy
 msgid ""
 "In order to go through this tutorial, you will need a very basic "
 "knowledge of HTML and an intermediate level of Python. Advanced topics "
 "will require more knowledge in the other subjects. There are plenty of "
 "tutorials freely accessible, so we cannot recommend one over another "
 "since it depends on your background."
-msgstr "为了完成本教程，您将需要非常基础的HTML知识和中级的Python。高级的主题需要其他学科更多的知识。有很多免费的教程，所以我们不能推荐一个，因为这取决于你的背景。"
+msgstr ""
+"为了完成本教程，您将需要非常基础的HTML知识和中级的Python。高级的主题需要其他"
+"学科更多的知识。有很多免费的教程，所以我们不能给你推荐，因为这取决于你的背景"
+"。"
 
 #: ../../content/developer/howtos/rdtraining/01_architecture.rst:30
-#, fuzzy
 msgid "For reference this is the official `Python tutorial`_."
-msgstr "这是官方的“Python教程”_。"
+msgstr "这是官方的 `Python tutorial`_ 。"
 
 #: ../../content/developer/howtos/rdtraining/01_architecture.rst:33
-#, fuzzy
 msgid ""
 "Since version 15.0, Odoo is actively transitioning to using its own in-"
 "house developed `OWL framework <https://odoo.github.io/owl/>`_ as part of"
@@ -8843,39 +8842,39 @@ msgid ""
 "supported but will be deprecated over time. This will be discussed "
 "further in advanced topics."
 msgstr ""
-"从15.0版本开始，Odoo正在积极过渡到使用自己内部开发的“OWL框架<https://odoo.github”。Io /owl/> ' "
-"_作为其表示层的一部分。遗留的JavaScript框架仍然受到支持，但随着时间的推移将被弃用。这将在高级主题中进一步讨论。"
+"从15.0版本开始，Odoo正在积极过渡到使用自己内部开发的 `OWL框架 <https://odoo."
+"github.io/owl/>`_ 作为其表示层的一部分。遗留的JavaScript框架仍然受到支持，但"
+"随着时间的推移将被弃用。这将在高级主题中进一步讨论。"
 
 #: ../../content/developer/howtos/rdtraining/01_architecture.rst:39
-#, fuzzy
 msgid "Odoo modules"
-msgstr "嘟嘟模块"
+msgstr "Odoo 模块"
 
 #: ../../content/developer/howtos/rdtraining/01_architecture.rst:41
-#, fuzzy
 msgid ""
 "Both server and client extensions are packaged as *modules* which are "
 "optionally loaded in a *database*. A module is a collection of functions "
 "and data that target a single purpose."
-msgstr "服务器和客户端扩展都打包为*模块*，可选地加载到*数据库*中。模块是针对单一目的的函数和数据的集合。"
+msgstr "服务器和客户端扩展都打包为 *模块（module ）* ，可选地加载到 *数据库* "
+"中。模块是针对单一目的的函数和数据的集合。"
 
 #: ../../content/developer/howtos/rdtraining/01_architecture.rst:45
-#, fuzzy
 msgid ""
 "Odoo modules can either add brand new business logic to an Odoo system or"
 " alter and extend existing business logic. One module can be created to "
 "add your country's accounting rules to Odoo's generic accounting support,"
 " while a different module can add support for real-time visualisation of "
 "a bus fleet."
-msgstr "Odoo模块可以向Odoo系统添加全新的业务逻辑，也可以改变和扩展现有的业务逻辑。可以创建一个模块将您国家的会计规则添加到Odoo的通用会计支持中，而另一个模块可以添加对公交车队实时可视化的支持。"
+msgstr ""
+"Odoo 模块可以向 Odoo 系统添加全新的业务逻辑，也可以改变和扩展现有的业务逻辑。"
+"可以创建一个模块将你国家的会计规则添加到Odoo的通用会计支持中，而另一个模块可"
+"以添加对车队实时可视化的支持。"
 
 #: ../../content/developer/howtos/rdtraining/01_architecture.rst:50
-#, fuzzy
 msgid "Everything in Odoo starts and ends with modules."
-msgstr "Odoo中的一切都以模块开始和结束。"
+msgstr "Odoo 中的一切都以模块开始和结束。"
 
 #: ../../content/developer/howtos/rdtraining/01_architecture.rst:52
-#, fuzzy
 msgid ""
 "Terminology: developers group their business features in Odoo *modules*. "
 "The main user-facing modules are flagged and exposed as *Apps*, but a "
@@ -8883,37 +8882,34 @@ msgid ""
 " *addons* and the directories where the Odoo server finds them form the "
 "``addons_path``."
 msgstr ""
-"术语:开发人员将他们的业务特性分组到Odoo "
-"*模块中。主要面向用户的模块被标记为*Apps*，但大多数模块都不是Apps。*模块*也可以被称为*addons*， "
-"Odoo服务器找到它们的目录形成' ' addons_path ' '。"
+"术语: 开发人员将他们的业务特性分组到Odoo *模块（modules）* 中。"
+"主要面向用户的模块被标记为 *Apps* ，但大多数模块都不是 Apps。*模块* "
+"也可以被称为*a ddons*， Odoo服 务器找从`` addons_path``中 到找到他们"
 
 #: ../../content/developer/howtos/rdtraining/01_architecture.rst:60
-#, fuzzy
 msgid "An Odoo module **can** contain a number of elements:"
-msgstr "Odoo模块**可以**包含一些元素:"
+msgstr "Odoo 模块 **可以** 包含一些元素:"
 
 #: ../../content/developer/howtos/rdtraining/01_architecture.rst:65
-#, fuzzy
 msgid ":ref:`Business objects <reference/orm>`"
-msgstr "裁判:“业务对象参考/ orm > <”"
+msgstr ":ref:`Business objects <reference/orm>`"
 
 #: ../../content/developer/howtos/rdtraining/01_architecture.rst:63
-#, fuzzy
 msgid ""
 "A business object (e.g. an invoice) is declared as a Python class. The "
 "fields defined in these classes are automatically mapped to database "
 "columns thanks to the :abbr:`ORM (Object-Relational Mapping)` layer."
-msgstr "业务对象(例如发票)声明为Python类。由于:abbr: ' ORM(对象-关系映射)'层，这些类中定义的字段自动映射到数据库列。"
+msgstr ""
+"业务对象(例如发票)声明为Python类。得益于 :abbr:`ORM (Object-Relational "
+"Mapping)` 层，这些类中定义的字段自动映射到数据库列。"
 
 #: ../../content/developer/howtos/rdtraining/01_architecture.rst:68
-#, fuzzy
 msgid "Define UI display"
 msgstr "定义用户界面显示"
 
 #: ../../content/developer/howtos/rdtraining/01_architecture.rst:71
-#, fuzzy
 msgid "XML or CSV files declaring the model data:"
-msgstr "声明模型数据的XML或CSV文件:"
+msgstr "使用XML或CSV文件声明模型数据:"
 
 #: ../../content/developer/howtos/rdtraining/01_architecture.rst:82
 #, fuzzy
