@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-29 03:23+0000\n"
-"PO-Revision-Date: 2022-10-29 04:00+0000\n"
+"PO-Revision-Date: 2022-10-29 04:32+0000\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/"
 "odoo-doc/developer/zh_Hans/>\n"
@@ -5849,104 +5849,95 @@ msgstr ":ref: ' views <reference/views> '或:ref: ' reports <reference/reports> 
 
 #: ../../content/developer/howtos/backend.rst:63
 #: ../../content/developer/howtos/rdtraining/01_architecture.rst:74
-#, fuzzy
 msgid ""
 "configuration data (modules parametrization, :ref:`security rules "
 "<reference/security>`),"
-msgstr "配置数据(模块参数化，:ref: '安全规则<引用/安全> ')，"
+msgstr "配置数据(模块参数化，:ref:`security rules <reference/security>` )，"
 
 #: ../../content/developer/howtos/backend.rst:64
 #: ../../content/developer/howtos/rdtraining/01_architecture.rst:75
-#, fuzzy
 msgid "demonstration data"
 msgstr "演示数据"
 
 #: ../../content/developer/howtos/backend.rst:65
 #: ../../content/developer/howtos/rdtraining/01_architecture.rst:76
-#, fuzzy
 msgid "and more"
-msgstr "和更多的"
+msgstr "其他更多内容"
 
 #: ../../content/developer/howtos/backend.rst:68
 #: ../../content/developer/howtos/rdtraining/01_architecture.rst:79
-#, fuzzy
 msgid ":ref:`Web controllers <reference/controllers>`"
-msgstr "裁判:“Web控制器> <参考/控制器”"
+msgstr ":ref:`Web controllers <reference/controllers>`"
 
 #: ../../content/developer/howtos/backend.rst:68
 #: ../../content/developer/howtos/rdtraining/01_architecture.rst:79
-#, fuzzy
 msgid "Handle requests from web browsers"
 msgstr "处理来自浏览器的请求"
 
 #: ../../content/developer/howtos/backend.rst:71
 #: ../../content/developer/howtos/rdtraining/01_architecture.rst:82
-#, fuzzy
 msgid "Static web data"
 msgstr "静态web数据"
 
 #: ../../content/developer/howtos/backend.rst:71
-#, fuzzy
 msgid "Images, CSS or javascript files used by the web interface or website"
 msgstr "网页界面或网站使用的图像、CSS或javascript文件"
 
 #: ../../content/developer/howtos/backend.rst:74
 #: ../../content/developer/howtos/rdtraining/01_architecture.rst:91
-#, fuzzy
 msgid "Module structure"
 msgstr "模块结构"
 
 #: ../../content/developer/howtos/backend.rst:76
 #: ../../content/developer/howtos/rdtraining/01_architecture.rst:93
-#, fuzzy
 msgid ""
 "Each module is a directory within a *module directory*. Module "
 "directories are specified by using the :option:`--addons-path <odoo-bin "
 "--addons-path>` option."
 msgstr ""
-"每个模块都是*模块目录*中的一个目录。模块目录通过使用:option: '——addons-path < doo-bin——addons-"
-"path> '选项来指定。"
+"每个模块都是 *模块目录* 中的一个目录。模块目录通过使用 :option:`--addons-"
+"path <odoo-bin --addons-path>` 选项来指定。"
 
 #: ../../content/developer/howtos/backend.rst:83
-#, fuzzy
 msgid ""
 "most command-line options can also be set using :ref:`a configuration "
 "file <reference/cmdline/config>`"
-msgstr "大多数命令行选项也可以使用:ref: ' a配置文件<reference/cmdline/config> '来设置"
+msgstr ""
+"大多数命令行选项也可以使用 :ref:`a configuration file <reference/cmdline/"
+"config>` 来设置"
 
 #: ../../content/developer/howtos/backend.rst:86
 #: ../../content/developer/howtos/rdtraining/01_architecture.rst:97
-#, fuzzy
 msgid ""
 "An Odoo module is declared by its :ref:`manifest "
 "<reference/module/manifest>`."
-msgstr "Odoo模块由its:ref: ' manifest <reference/module/manifest> '声明。"
+msgstr "Odoo模块由 :ref:`manifest <reference/module/manifest>` 声明。"
 
 #: ../../content/developer/howtos/backend.rst:88
-#, fuzzy
 msgid ""
 "A module is also a `Python package "
 "<http://docs.python.org/2/tutorial/modules.html#packages>`_ with a "
 "``__init__.py`` file, containing import instructions for various Python "
 "files in the module."
-msgstr "模块也是一个带有``__init__.py``文件的`Python包<http://docs.python.org/2/tutorial/modules.html#packages>`_，包含模块中各种Python文件的导入指令。"
+msgstr ""
+"模块也是一个带有 ``__init__.py`` 文件的 `Python包<http://docs.python.org/2/"
+"tutorial/modules.html#packages>`_ ，其包含模块中各种Python文件的导入指令。"
 
 #: ../../content/developer/howtos/backend.rst:93
-#, fuzzy
 msgid ""
 "For instance, if the module has a single ``mymodule.py`` file "
 "``__init__.py`` might contain::"
-msgstr "例如，如果模块只有一个' ' mymodule.py ' '文件' ' __init__.py ' '可能包含::"
+msgstr "例如，如果模块只有一个 ``mymodule.py`` 文件，则 ``__init__.py`` 中可能包含:"
 
 #: ../../content/developer/howtos/backend.rst:98
-#, fuzzy
 msgid ""
 "Odoo provides a mechanism to help set up a new module, :ref:`odoo-bin "
 "<reference/cmdline/server>` has a subcommand :ref:`scaffold "
 "<reference/cmdline/scaffold>` to create an empty module:"
 msgstr ""
-"Odoo提供了一种机制来帮助建立一个新模块，:ref: ' doo-bin <reference/cmdline/server> "
-"'有一个子命令:ref: '脚手架<reference/cmdline/脚手架> '来创建一个空模块:"
+"Odoo提供了一种机制来帮助建立一个新模块， :ref:`odoo-bin <reference/cmdline/"
+"server>` 中包含一个子命令 :ref:`scaffold <reference/cmdline/scaffold>` "
+"，可用来创建一个空模块:"
 
 #: ../../content/developer/howtos/backend.rst:106
 #, fuzzy
@@ -8794,8 +8785,8 @@ msgid ""
 "the business logic and the data storage are separated. More specifically,"
 " it uses a three-tier architecture (image from Wikipedia):"
 msgstr ""
-"Odoo遵循 `multitier architecture`_ ，这意味着表示层、业务逻辑层和数据存储层是"
-"分离的。更具体地说，它使用了三层架构(图片来自维基百科Wikipedia):"
+"Odoo遵循多层架构 `multitier architecture`_ ，这意味着表示层、业务逻辑层和数据"
+"存储层是分离的。更具体地说，它使用了三层架构(图片来自维基百科Wikipedia):"
 
 msgid "Three-tier architecture"
 msgstr "三层体系结构"
@@ -8949,9 +8940,8 @@ msgid "Here is a simplified module directory:"
 msgstr "下面是一个简化的模块目录:"
 
 #: ../../content/developer/howtos/rdtraining/01_architecture.rst:118
-#, fuzzy
 msgid "Odoo Editions"
-msgstr "Odoo Editions"
+msgstr "Odoo 版本"
 
 #: ../../content/developer/howtos/rdtraining/01_architecture.rst:120
 #, fuzzy
