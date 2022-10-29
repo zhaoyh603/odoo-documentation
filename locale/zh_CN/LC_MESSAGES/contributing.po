@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-29 03:23+0000\n"
-"PO-Revision-Date: 2022-10-26 15:07+0000\n"
+"PO-Revision-Date: 2022-10-29 04:32+0000\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
+"Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/"
+"odoo-doc/contributing/zh_Hans/>\n"
 "Language: zh_CN\n"
-"Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects"
-"/odoo-doc/contributing/zh_Hans/>\n"
-"Plural-Forms: nplurals=1; plural=0\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.14.1\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../content/contributing.rst:7
@@ -79,7 +80,7 @@ msgstr ""
 
 #: ../../content/contributing/development/coding_guidelines.rst:30
 msgid "Module structure"
-msgstr ""
+msgstr "模块结构"
 
 #: ../../content/contributing/development/coding_guidelines.rst:33
 msgid "Directories"
@@ -3445,4 +3446,3 @@ msgstr ""
 
 #~ msgid "The 4 first tags are preferred over the *record* notation."
 #~ msgstr ""
-
