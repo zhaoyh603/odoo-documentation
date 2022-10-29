@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-29 03:23+0000\n"
-"PO-Revision-Date: 2022-10-26 23:37+0800\n"
+"PO-Revision-Date: 2022-10-29 03:50+0000\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
+"Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/"
+"odoo-doc/developer/zh_Hans/>\n"
 "Language: zh_CN\n"
-"Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects"
-"/odoo-doc/developer/zh_Hans/>\n"
-"Plural-Forms: nplurals=1; plural=0\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.14.1\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../content/developer.rst:9
@@ -126,30 +127,28 @@ msgid ""
 msgstr "设置 :guilabel:`New Password`，然后点击 :guilabel:`Change Password`。"
 
 #: ../../content/developer/api/external_api.rst:40
-#, fuzzy
 msgid ""
 "The *server url* is the instance's domain (e.g. "
 "*https://mycompany.odoo.com*), the *database name* is the name of the "
 "instance (e.g. *mycompany*). The *username* is the configured user's "
 "login as shown by the *Change Password* screen."
 msgstr ""
-"服务器url*是实例的域(例如*https://mycompany.odoo.com*)，数据库名称*是实例的名称(例如*mycompany*)。“*username*”为“*Change"
-" Password*”界面中配置的用户登录名。"
+"*server url* 是实例的域(例如 *https://mycompany.odoo.com* )， *database name*"
+" 是实例的名称(例如 *mycompany* )。 *username* 是 *Change Password* "
+"界面中配置的用户登录名。"
 
 #: ../../content/developer/api/external_api.rst:76
-#, fuzzy
 msgid "API Keys"
-msgstr "火键"
+msgstr "API Key"
 
 #: ../../content/developer/api/external_api.rst:80
-#, fuzzy
 msgid ""
 "Odoo has support for **api keys** and (depending on modules or settings) "
 "may **require** these keys to perform webservice operations."
-msgstr "Odoo支持**api键**(取决于模块或设置)可能**需要**这些键来执行web服务操作。"
+msgstr "Odoo支持 **API Key** (取决于模块或设置)可能 **需要** 这些键来执行 web "
+"服务操作。"
 
 #: ../../content/developer/api/external_api.rst:83
-#, fuzzy
 msgid ""
 "The way to use API Keys in your scripts is to simply replace your "
 "**password** by the key. The login remains in-use. You should store the "
@@ -157,15 +156,16 @@ msgid ""
 " access to your user account (although they can not be used to log-in via"
 " the interface)."
 msgstr ""
-"在脚本中使用API密钥的方法是简单地用密钥替换您的**密码**。登录仍在使用中。您应该像存储密码一样小心地存储API "
+"在脚本中使用 API 密钥的方法是简单地用密钥替换 **密码** 。登录仍在使用中。"
+"您应该像存储密码一样小心地存储 API "
 "Key，因为它们实质上提供了对用户帐户的相同访问(尽管它们不能用于通过接口登录)。"
 
 #: ../../content/developer/api/external_api.rst:88
-#, fuzzy
 msgid ""
 "In order to add a key to your account, simply go to your "
 ":guilabel:`Preferences` (or :guilabel:`My Profile`):"
-msgstr "为了添加一个密钥到您的帐户，只需到您的:guilabel: ' Preferences '(或:guilabel: ' My Profile '):"
+msgstr "在 :guilabel:`Preferences` (或 :guilabel:`My Profile`) "
+"中添加密钥到你的帐户中:"
 
 #: ../../content/developer/api/external_api.rst:94
 #, fuzzy
@@ -57396,4 +57396,3 @@ msgstr ""
 #~ msgstr ""
 #~ "为RPC响应启用DEBUG日志记录，相当于' '——log-handler= doo.http. "
 #~ "RPC .response:DEBUG ' '"
-
