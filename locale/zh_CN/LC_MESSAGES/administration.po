@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0 docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-27 21:52+0800\n"
-"PO-Revision-Date: 2022-10-30 22:30+0800\n"
+"PO-Revision-Date: 2022-10-30 22:50+0800\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/odoo-doc/administration/"
 "zh_Hans/>\n"
@@ -572,7 +572,7 @@ msgstr "将http请求重定向到https"
 
 #: ../../content/administration/install/deploy.rst:274
 msgid "Proxy requests to odoo"
-msgstr "odoo 代理请求"
+msgstr "代理请求（Proxy requests to odoo）"
 
 #: ../../content/administration/install/deploy.rst:282
 msgid "in ``/etc/nginx/sites-enabled/odoo.conf`` set:"
@@ -672,7 +672,7 @@ msgstr ""
 
 #: ../../content/administration/install/deploy.rst:404
 msgid "Serving static files and attachments"
-msgstr "提供静态文件和附件"
+msgstr "静态文件和附件服务"
 
 #: ../../content/administration/install/deploy.rst:406
 msgid ""
@@ -680,10 +680,12 @@ msgid ""
 "modules. This may not be ideal when it comes to performances, and static files should generally "
 "be served by a static HTTP server."
 msgstr ""
+"为了方便开发，Odoo直接为其模块中的所有静态文件和附件提供服务。在性能方面，这可能不理想，静态文件"
+"通常应该由静态HTTP服务器提供服务。"
 
 #: ../../content/administration/install/deploy.rst:411
 msgid "Serving static files"
-msgstr ""
+msgstr "静态文件服务"
 
 #: ../../content/administration/install/deploy.rst:413
 msgid ""
@@ -691,6 +693,8 @@ msgid ""
 "served by intercepting all requests to :samp:`/{MODULE}/static/{FILE}`, and looking up the right "
 "module (and file) in the various addons paths."
 msgstr ""
+"Odoo静态文件位于每个模块的 :file:`static/` 文件夹中，因此可以通过拦截 :samp:`/{MODULE}/static/"
+"{FILE}` 的所有请求，并在各种插件路径中查找正确的模块（和文件）来提供静态文件服务。"
 
 #: ../../content/administration/install/deploy.rst:418
 msgid ""
@@ -698,6 +702,8 @@ msgid ""
 "paths is :file:`/usr/lib/python3/dist-packages/odoo/addons`. Using the above NGINX (https) "
 "configuration, the following location block should be added to serve static files via NGINX."
 msgstr ""
+"使用 **debian软件包** 安装 Odoo 社区版和企业版时 ，插件路径是 :file:`/usr/lib/python3/dist-"
+"packages/odoo/addons`。添加以下位置块到 NGINX（https）的配置文件中，以使 NGINX 提供静态文件服务。"
 
 #: ../../content/administration/install/deploy.rst:436
 msgid ""
@@ -707,16 +713,21 @@ msgid ""
 "NGINX (https) configuragion, the following location block should be added to serve static files "
 "via NGINX."
 msgstr ""
+"使用 **源代码** 安装 Odoo 社区版和企业版时 ，两个版本的git存储库已分别在 :file:`/opt/odoo` 和 :"
+"file:`/opt/odoo-enterprise` 中。插件路径是 ``/opt/odoo/odoo,/opt/odoo/addons,/opt/odoo-"
+"enterprise`` 。添加以下位置块到 NGINX（https）的配置文件中，以使 NGINX 提供静态文件服务。"
 
 #: ../../content/administration/install/deploy.rst:470
 msgid ""
 "The actual NGINX configuration you need is highly dependent on your own installation. The two "
 "above snippets only highlight two possible configurations and may not be used as-is."
 msgstr ""
+"实际 NGINX 配置在很大程度上取决于具体安装情况。上述两个片段仅突出显示两种可能的配置，不得按原样使"
+"用。"
 
 #: ../../content/administration/install/deploy.rst:474
 msgid "Serving attachments"
-msgstr ""
+msgstr "附件服务"
 
 #: ../../content/administration/install/deploy.rst:476
 msgid ""
