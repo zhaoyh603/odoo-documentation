@@ -16,4 +16,4 @@
 # [REM] = Removal
 # [REF] = Refactoring (restructuring)
 # [MOV] = Move/rename
-#
+# [TRANS] = Translation
