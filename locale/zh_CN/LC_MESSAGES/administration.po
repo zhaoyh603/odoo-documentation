@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0 docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-27 21:52+0800\n"
-"PO-Revision-Date: 2022-11-01 21:45+0800\n"
+"PO-Revision-Date: 2022-11-01 22:00+0800\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/odoo-doc/administration/"
 "zh_Hans/>\n"
@@ -826,8 +826,8 @@ msgid ""
 "for test/staging databases."
 msgstr ""
 "为所有数据库上的所有管理员帐户选择唯一的登录名和强密码。不要使用 'admin' 作为登录名。不要将这些登"
-"录用于日常操作，只用于控制、管理安装。 *永远不要* 使用任何默认密码，如admin 、 admin ，即使是测"
-"试、演示数据库。"
+"录用于日常操作，只用于控制、管理安装。 *永远不要* 使用任何默认密码，如admin/admin ，即使是测试、"
+"演示数据库。"
 
 #: ../../content/administration/install/deploy.rst:534
 msgid ""
@@ -932,8 +932,8 @@ msgid ""
 "Whenever possible, host your public-facing demo/test/staging instances on different machines "
 "than the production ones. And apply the same security precautions as for production."
 msgstr ""
-"只要可能尽量将面向公众的演示、测试、演示实例托管在与生产实例不同的机器上。并采取与生产相同的安全"
-"措施。"
+"只要可能，尽量将面向公众的演示、测试、演示实例托管在与生产实例不同的机器上。并采取与生产相同的安"
+"全措施。"
 
 #: ../../content/administration/install/deploy.rst:588
 msgid ""
@@ -974,7 +974,7 @@ msgstr ""
 msgid ""
 "If you are hosting multiple customers, isolate customer data and files from each other using "
 "containers or appropriate \"jail\" techniques."
-msgstr "如果托管多个客户，则使用容器或适当的 “jail” 技术将客户数据和文件彼此隔离。"
+msgstr "如果托管多个客户，则使用容器或适当的 \"jail\" 技术将客户数据和文件彼此隔离。"
 
 #: ../../content/administration/install/deploy.rst:613
 msgid ""
@@ -1139,7 +1139,7 @@ msgstr "在提交错误报告之前，请确保您的浏览器是最新的，并
 
 #: ../../content/administration/install/deploy.rst:722
 msgid "Since Odoo 13.0, ES6 is supported.  Therefore, IE support is dropped."
-msgstr "从Odoo 从13.0开始支持ES6。因此，IE已被放弃支持。"
+msgstr "Odoo 从13.0开始支持ES6。因此，IE已被放弃支持。"
 
 #: ../../content/administration/install/deploy.rst:725
 msgid ""
@@ -1198,7 +1198,7 @@ msgstr "具有 Odoo 数据库管理员权限。"
 
 #: ../../content/administration/install/email_gateway.rst:15
 msgid "Your own mail server such as Postfix or Exim."
-msgstr "你自己的邮件服务器，如Postfix或Exim。"
+msgstr "邮件服务器，如Postfix或Exim。"
 
 #: ../../content/administration/install/email_gateway.rst:16
 msgid "Technical knowledge on how to configure an email server."
@@ -1223,7 +1223,7 @@ msgstr "`Postfix <http://www.postfix.org/documentation.html>`_"
 
 #: ../../content/administration/install/email_gateway.rst:30
 msgid "`Postfix aliases <http://www.postfix.org/aliases.5.html>`_"
-msgstr "后缀别名< http://www.postfix.org/aliases.5.html > _"
+msgstr "`Postfix aliases <http://www.postfix.org/aliases.5.html>`_"
 
 #: ../../content/administration/install/email_gateway.rst:31
 msgid "`Postfix virtual <http://www.postfix.org/virtual.8.html>`_"
