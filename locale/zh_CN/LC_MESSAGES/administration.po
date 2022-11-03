@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0 docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-27 21:52+0800\n"
-"PO-Revision-Date: 2022-11-02 15:10+0000\n"
+"PO-Revision-Date: 2022-11-04 00:31+0800\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
-"Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/"
-"odoo-doc/administration/zh_Hans/>\n"
+"Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/odoo-doc/administration/"
+"zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Poedit 3.1.1\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: ../../content/administration.rst:8
@@ -48,11 +48,11 @@ msgstr "KeyCDN_ 部署"
 msgid ""
 "This document will guide you through the setup of a KeyCDN_ account with your Odoo powered "
 "website."
-msgstr "本文档将指导您完成使用Odoo驱动的网站设置KeyCDN_帐户。"
+msgstr "本文档将指导您完成使用Odoo驱动的网站设置 KeyCDN_ 帐户。"
 
 #: ../../content/administration/install/cdn.rst:16
 msgid "Step 1: Create a pull zone in the KeyCDN dashboard"
-msgstr "Step 1: Create a pull zone in the KeyCDN dashboard"
+msgstr "第1步：在 KeyCDN 仪表板中创建一个 pull 区域"
 
 #: ../../content/administration/install/cdn.rst:21
 msgid ""
@@ -2138,7 +2138,7 @@ msgid ""
 "accessible as it allows users to type a meaningful web address, such as ``www.odoo.com``, rather "
 "than its server's IP address with a series of numbers."
 msgstr ""
-"**域名** 就是网站地址，它使互联网更容易访问，因为它允许用户键入一个有意义的网址，如 ``www.odoo."
+"**域名** 作为网站的地址，它使互联网更容易访问，因为它允许用户键入一个有意义的网址，如 ``www.odoo."
 "com`` ，而不是服务器IP地址。"
 
 #: ../../content/administration/maintain/domain_names.rst:9
@@ -2164,43 +2164,38 @@ msgstr ""
 "``https://example.odoo.com``）。"
 
 #: ../../content/administration/maintain/domain_names.rst:20
-#, fuzzy
 msgid ""
 "Odoo offers a :ref:`free custom domain name <domain-name/odoo-register>` to all Odoo Online "
 "databases for one year. Visitors can then access your website with an address such as ``www."
 "example.com`` rather than the default ``example.odoo.com``."
 msgstr ""
-"Odoo提供了一个:ref: '免费自定义域名<domain-name/ doo-register> '到所有Odoo Online数据库一年。访问"
-"者可以使用' ' www.example.com ' '而不是默认的' ' example.oooo.com ' '这样的地址访问您的网站。"
+"Odoo为每个 Odoo Online 数据库提供一个免费一年的自定义域名 :ref:`free custom domain name <domain-"
+"name/odoo-register>` 。访问者可以使用 ``www.example.com`` 而不是默认的 ``example.oooo.com`` 这样"
+"的地址访问您的网站。"
 
 #: ../../content/administration/maintain/domain_names.rst:25
-#, fuzzy
 msgid ""
 "`Odoo Tutorials: Register a Free Domain Name <https://www.odoo.com/slides/slide/register-a-free-"
 "domain-name-1663>`_"
 msgstr ""
-"' Odoo教程:注册一个免费域名<https://www.odoo.com/slides/slide/register-a-free-domain-name-1663> "
-"' _"
+"`Odoo教程:注册一个免费域名<https://www.odoo.com/slides/slide/register-a-free-domain-name-1663>`_"
 
 #: ../../content/administration/maintain/domain_names.rst:27
-#, fuzzy
 msgid "`Odoo Quick Tips: Get a free domain name! <https://www.youtube.com/watch?v=eAfgeNOHLP4>`_"
-msgstr "“Odoo快速提示:获得一个免费域名!”< https://www.youtube.com/watch?v=eAfgeNOHLP4 > _"
+msgstr "`Odoo 快速提示:获得一个免费域名! < https://www.youtube.com/watch?v=eAfgeNOHLP4 >`_"
 
 #: ../../content/administration/maintain/domain_names.rst:32
-#, fuzzy
 msgid "About domain names"
 msgstr "关于域名"
 
 #: ../../content/administration/maintain/domain_names.rst:34
-#, fuzzy
 msgid ""
 "Having a **good domain name** is as important to your branding as the name of your business or "
 "organization as it is the first thing your visitors will notice. We recommend you keep them "
 "*simple, short, easy to remember and spell*."
 msgstr ""
-"拥有一个**好的域名**对于你的品牌品牌来说和你的企业或组织的名称一样重要，因为它是访问者注意到的第"
-"一件事。我们建议你保持它们简单、简短、容易记忆和拼写。"
+"对企业或组织的品牌来说，拥有一个 **好的域名** 和品牌名称一样重要，因为它是访问者注意到的第一件"
+"事。建议保持简单、简短、容易记忆和拼写。"
 
 #: ../../content/administration/maintain/domain_names.rst:38
 #, fuzzy
