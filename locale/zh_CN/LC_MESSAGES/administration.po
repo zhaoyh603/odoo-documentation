@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0 docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-27 21:52+0800\n"
-"PO-Revision-Date: 2022-11-04 00:31+0800\n"
+"PO-Revision-Date: 2022-11-04 00:38+0800\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/odoo-doc/administration/"
 "zh_Hans/>\n"
@@ -2178,11 +2178,12 @@ msgid ""
 "`Odoo Tutorials: Register a Free Domain Name <https://www.odoo.com/slides/slide/register-a-free-"
 "domain-name-1663>`_"
 msgstr ""
-"`Odoo教程:注册一个免费域名<https://www.odoo.com/slides/slide/register-a-free-domain-name-1663>`_"
+"`Odoo Tutorials: Register a Free Domain Name <https://www.odoo.com/slides/slide/register-a-free-"
+"domain-name-1663>`_"
 
 #: ../../content/administration/maintain/domain_names.rst:27
 msgid "`Odoo Quick Tips: Get a free domain name! <https://www.youtube.com/watch?v=eAfgeNOHLP4>`_"
-msgstr "`Odoo 快速提示:获得一个免费域名! < https://www.youtube.com/watch?v=eAfgeNOHLP4 >`_"
+msgstr "`Odoo Quick Tips: Get a free domain name! <https://www.youtube.com/watch?v=eAfgeNOHLP4>`_"
 
 #: ../../content/administration/maintain/domain_names.rst:32
 msgid "About domain names"
@@ -2198,7 +2199,6 @@ msgstr ""
 "事。建议保持简单、简短、容易记忆和拼写。"
 
 #: ../../content/administration/maintain/domain_names.rst:38
-#, fuzzy
 msgid ""
 "A **subdomain** is a domain that is a part of another domain. It often refers to the additional "
 "part that comes before the main domain name. Traditionally, most websites use the ``www.`` "
@@ -2206,9 +2206,9 @@ msgid ""
 "visitors to other websites than your main website or to specific pages (e.g., ``experience.odoo."
 "com`` points to a specific page.)"
 msgstr ""
-"子域是另一个域的一部分。它通常是指主域名之前的附加部分。传统上，大多数网站使用' ' www. ' '子域"
-"名，但也可以使用任何字符串的字母。你可以使用子域名来引导你的访问者到你的主网站以外的其他网站或特"
-"定的页面(例如，' ' experience.odoo.com ' '指向特定的页面)。"
+"**子域** 域名的一部分。它通常是指主域名之前的部分。传统上，大多数网站使用' ' www. ' '子域名，但也"
+"可以使用任何字符串的字母。你可以使用子域名来引导你的访问者到你的主网站以外的其他网站或特定的页面"
+"(例如，' ' experience.odoo.com ' '指向特定的页面)。"
 
 #: ../../content/administration/maintain/domain_names.rst:44
 #, fuzzy
