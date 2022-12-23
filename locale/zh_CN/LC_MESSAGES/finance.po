@@ -41,7 +41,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-29 03:23+0000\n"
-"PO-Revision-Date: 2022-11-30 20:36+0800\n"
+"PO-Revision-Date: 2022-12-23 14:36+0800\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "Language: zh_CN\n"
@@ -6443,7 +6443,7 @@ msgstr "资产负债表"
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/germany.rst:24 ../../content/applications/finance/accounting/fiscal_localizations/localizations/netherlands.rst:19
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:17 ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:91
 msgid "Profit & Loss"
-msgstr "利润损失"
+msgstr "利润表"
 
 #: ../../content/applications/finance/accounting/fiscal_localizations/localizations/germany.rst:25
 msgid "Tax Report (Umsatzsteuervoranmeldung)"
@@ -11156,7 +11156,7 @@ msgstr "科目表"
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:5
 msgid "The **Chart of Accounts (COA)** is the list of all the accounts used to record financial transactions in the general ledger of an organization."
-msgstr "**会计科目表(COA)**是指一个组织的总分类账中记录财务事项的所有科目列表."
+msgstr "**会计科目表(COA)** 是指一个组织中总分类账中记录财务事项的所有科目列表."
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:8
 msgid "The accounts are usually listed in the order of appearance in the financial reports. Most of the time, they are listed as follows :"
@@ -11176,7 +11176,7 @@ msgstr "负债"
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:15 ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:87
 msgid "Equity"
-msgstr "权益"
+msgstr "所有者权益"
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:19 ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:91
 msgid "Income"
@@ -11190,7 +11190,6 @@ msgstr "费用"
 msgid "When browsing your Chart of Accounts, you can filter the accounts by number, in the left column, and also group them by Account Type."
 msgstr "在浏览会计科目表时，你可在左边的列中按数字筛选科目，并按科目类型分组."
 
-#, fuzzy
 msgid "Group the accounts by type in Odoo Accounting"
 msgstr "在Odoo Accounting中按类型将账户分组"
 
@@ -11218,11 +11217,11 @@ msgstr "代码和名称"
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:47
 msgid "Each account is identified by its **Code** and **Name**, which also indicates the account's purpose."
-msgstr "每个科目通过其**代码**和**名称**来进行识别，它们也体现了科目的目的."
+msgstr "每个科目通过其 **代码** 和 **名称** 来进行识别，它们也体现了科目的目的."
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:54
 msgid "Configuring correctly the **Account Type** is critical as it serves multiple purposes:"
-msgstr "正确配置**科目类型**至关重要，因为它将应用到多种目的："
+msgstr "正确配置 **科目类型** 至关重要，因为它将应用到多种目的："
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:56
 msgid "Information on the account's purpose and behavior"
@@ -11234,7 +11233,7 @@ msgstr "生成特定国家的法律和财务报告"
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:58
 msgid "Set the rules to close a fiscal year"
-msgstr "设置结束一个财政年度的规则"
+msgstr "设置结束一个会计年度的规则"
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:59
 msgid "Generate opening entries"
@@ -11242,7 +11241,7 @@ msgstr "生成期初分录"
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:61
 msgid "To configure an account type, open the **Type** field's drop-down selector and select the right type among the following list:"
-msgstr "如要配置科目类型，打开**类型**字段的下拉选择器并在列表中选择合适类型："
+msgstr "如要配置科目类型，打开 **类型** 字段的下拉选择器并在列表中选择合适类型："
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:65
 msgid "Report"
@@ -11269,7 +11268,6 @@ msgid "Current Assets"
 msgstr "流动资产"
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:73
-#, fuzzy
 msgid "Non-current Assets"
 msgstr "非流动资产"
 
@@ -11278,12 +11276,10 @@ msgid "Prepayments"
 msgstr "预付账"
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:77
-#, fuzzy
 msgid "Fixed Assets"
 msgstr "固定资产"
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:79
-#, fuzzy
 msgid "Payable"
 msgstr "应付"
 
@@ -11331,24 +11327,24 @@ msgstr "资产、递延费用和递延收入自动化"
 msgid ""
 "Some Account Types display a new field **to automate** the creation of :ref:`Assets <assets-automation>` entries, :ref:`Deferred Expenses <deferred-expenses-automation>` entries, and :ref:`Deferred Revenues <deferred-revenues-"
 "automation>` entries."
-msgstr "某些科目类型会显示新字段**自动化**创建:ref:`资产<assets-automation>`分录、:ref:`递延费用<deferred-expenses-automation>`分录和:ref:`递延收入<deferred-revenues-automation>`分录."
+msgstr "某些科目类型会显示新字段 **自动化** 创建 :ref:`资产<assets-automation>` 分录、:ref:`递延费用<deferred-expenses-automation>` 分录和 :ref:`递延收入<deferred-revenues-automation>` 分录."
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:111
 msgid "You have three choices for the **Automation** field:"
-msgstr "**自动化**字段可有三种选择："
+msgstr "**自动化** 字段可有三种选择："
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:113 ../../content/applications/finance/accounting/payables/supplier_bills/assets.rst:240
 #: ../../content/applications/finance/accounting/payables/supplier_bills/deferred_expenses.rst:177 ../../content/applications/finance/accounting/receivables/customer_invoices/deferred_revenues.rst:177
 msgid "**No:** this is the default value. Nothing happens."
-msgstr "**否：**这是默认值。系统不会进行任何自动化."
+msgstr "**否：** 这是默认值。系统不会进行任何自动化."
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:114
 msgid "**Create in draft:** whenever a transaction is posted on the account, a draft entry is created, but not validated. You must first fill out the corresponding form."
-msgstr "**创建为草稿：**交易在科目中过账时，系统将创建分录草稿，但未确认。你必须首先填写对应的表单."
+msgstr "**创建为草稿：** 交易在科目中过账时，系统将创建分录草稿，但未确认。你必须首先填写对应的表单."
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:116
 msgid "**Create and validate:** you must also select a Model. Whenever a transaction is posted on the account, an entry is created and immediately validated."
-msgstr "**创建并确认：**你还必须选择一种模式。交易在科目中过账时，系统自动创建并立即确认分录."
+msgstr "**创建并确认：** 你还必须选择一种模式。交易在科目中过账时，系统自动创建并立即确认分录."
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:120
 msgid "Please refer to the related documentation for more information."
@@ -11360,7 +11356,7 @@ msgstr "默认税"
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:125
 msgid "Select a **default tax** that will be applied when this account is chosen for a product sale or purchase."
-msgstr "选择一个**默认税**，当此科目被选择用于产品销售或采购时将适用."
+msgstr "选择一个**默认税** ，当此科目被选择用于产品销售或采购时将适用."
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:129
 msgid "Tags"
@@ -11368,7 +11364,7 @@ msgstr "标签"
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:131
 msgid "Some accounting reports require **tags** to be set on the relevant accounts. By default, you can choose among the tags that are used by the *Cash Flow Statement*."
-msgstr "某些会计报告要求在相关科目上设置*标签*。默认情况下，你可以在*现金流量表*使用的标签中进行选择."
+msgstr "某些会计报告要求在相关科目上设置*标签* 。默认情况下，你可以在*现金流量表* 使用的标签中进行选择."
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:135
 msgid "Account Groups"
@@ -11376,19 +11372,18 @@ msgstr "科目组"
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:137
 msgid "**Account Groups** are useful to list multiple accounts as *sub-accounts* of a bigger account and thus consolidate reports such as the **Trial Balance**."
-msgstr "**科目组**用于在一个大科目下面列出多个*子科目*，以合并**试算表**等报告."
+msgstr "**科目组** 用于在一个大科目下面列出多个*子科目* ，以合并**试算平衡表** 等报告."
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:140
 msgid ""
 "To create a new Account Group, open the account you want to configure as sub-account, click on the *Group* drop-down selector, select *Create and Edit...*, fill out the form, and save. Next, set all the sub-accounts with the "
 "right Account Group."
-msgstr "如要创建新科目组，打开想要配置为子科目的科目，点击*群组*下拉选择器，选择*创建并编辑...*，填写表单并保存。然后，设置该科目组下面的所有子科目."
+msgstr "如要创建新科目组，打开想要配置为子科目的科目，点击 *组* 下拉选择器，选择*创建并编辑...* ，填写表单并保存。然后，设置该科目组下面的所有子科目."
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:144
 msgid "To display your **Trial Balance** report with your Account Groups, go to :menuselection:`Accounting --> Reporting --> Trial Balance`, then open the *Options* menu and select **Hierarchy and Subtotals**."
-msgstr "如要显示科目组的**试算表**报告，前往 :menuselection:`会计 --> 报告 --> 试算表`，然后打开*选项*菜单并选择**层级及小计**."
+msgstr "如要显示科目组的 **试算平衡表**报 告，前往 :menuselection:`会计 --> 报告 --> 试算表` ，然后打开 *选项* 菜单并选择 **层级及小计** ."
 
-#, fuzzy
 msgid "Account Groups in the Trial Balance in Odoo Accounting"
 msgstr "Odoo会计试算表中的帐户组"
 
@@ -11402,11 +11397,11 @@ msgstr "某些科目，如用于记录某支付方式交易的科目，可用于
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:158
 msgid "For example, an invoice paid with a credit card can be *marked as paid* if reconciled with the payment. Therefore, the account used to record credit card payments needs to be configured as *allowing reconciliation*."
-msgstr "例如，用信用卡支付的发票在与付款对账后可以*标记为已支付*。因此，用于记录信用卡付款的科目需要配置为*允许对账*."
+msgstr "例如，用信用卡支付的发票在与付款对账后可以*标记为已支付* 。因此，用于记录信用卡付款的科目需要配置为*允许对账* ."
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:162
 msgid "To do so, check the **Allow Reconciliation** box and save."
-msgstr "为此，勾选**允许对账**框并保存."
+msgstr "为此，勾选**允许对账** 框并保存."
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:165
 msgid "Deprecated"
@@ -11414,11 +11409,11 @@ msgstr "废弃"
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:167
 msgid "It is not possible to delete an account once a transaction has been recorded on it. You can make them unusable by using the **Deprecated** feature."
-msgstr "如科目内已记录了交易，则无法删除该科目。你可通过**废弃**功能使其不可用."
+msgstr "如科目内已记录了交易，则无法删除该科目。你可通过**废弃** 功能使其不可用."
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:170
 msgid "To do so, check the **Deprecated** box and save."
-msgstr "为此，勾选**废弃**框并保存."
+msgstr "为此，勾选 **废弃** 框并保存."
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/chart_of_accounts.rst:173
 msgid ":doc:`../../payables/supplier_bills/assets`"
@@ -11446,18 +11441,18 @@ msgstr "Odoo会计和Odoo发票的初始设置"
 msgid ""
 "When you first open your Odoo Accounting app, the *Accounting Overview* page welcomes you with a step-by-step onboarding banner, a wizard that helps you get started. This onboarding banner is displayed until you choose to "
 "close it."
-msgstr "首次打开Odoo 会计应用程序时，*会计概观* 页面会出现逐步入门指南，该向导可帮助您使用会计应用。 该入门横幅将一直显示，直到您选择关闭它为止."
+msgstr "当首次打开Odoo 会计应用程序时，*会计概览* 页面会出现，它是一个step-by-step onboarding banner，该向导可帮助您使用会计应用。 该入门横幅将一直显示，直到您选择关闭它为止."
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:9
 msgid "The settings visible in the onboarding banner can still be modified later by going to :menuselection:`Accounting --> Configuration --> Settings`."
-msgstr "以后仍然可以通过:menuselection:`会计 --> 设置 --> 设定` 来修改入门横幅中可见的设置."
+msgstr "以后仍然可以通过 :menuselection:`会计 --> 设置 --> 设置` 来修改入门横幅中可见的设置."
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:13
 msgid ""
 "Odoo Accounting automatically installs the appropriate **Fiscal Localization Package** for your company, according to the country selected at the creation of the database. This way, the right accounts, reports, and taxes are "
 "ready-to-go. :doc:`Click here <../../fiscal_localizations/overview/fiscal_localization_packages>` for more information about Fiscal Localization Packages."
 msgstr ""
-"Odoo会计 会根据在创建数据库时选择的国家/地区为您的公司自动安装适当的 *财务本地化软件包* 。 这样，正确的帐户，报告和税款就可以使用了。 :doc:`:点击此处<../../fiscal_localizations/overview/fiscal_localization_packages>`，以获取有"
+"Odoo会计 会根据在创建数据库时选择的国家/地区为您的公司自动安装适当的 *财务本地化软件包* 。 这样，正确的帐户、报告和税款就可以使用了。 :doc:`点击此处<../../fiscal_localizations/overview/fiscal_localization_packages>` ，以获取有"
 "关财政本地化软件包的更多信息."
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:20
@@ -11466,11 +11461,10 @@ msgstr "会计入门横幅"
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:22
 msgid "The step-by-step Accounting onboarding banner is composed of four steps:"
-msgstr "分步记帐入门横幅由四个步骤组成："
+msgstr "step-by-step onboarding banner 横幅由四个步骤组成："
 
-#, fuzzy
 msgid "Step-by-step onboarding banner in Odoo Accounting"
-msgstr "在Odoo会计逐步上岗横幅"
+msgstr "Step-by-step onboarding banner in Odoo Accounting"
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:28
 msgid ":ref:`accounting-setup-company`"
@@ -11490,19 +11484,18 @@ msgstr ":ref:`accounting-setup-chart`"
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:36 ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:140
 msgid "Company Data"
-msgstr "公司数据"
+msgstr "公司数据（Company Data）"
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:38
 msgid "This menu allows you to add your company’s details such as the name, address, logo, website, phone number, email address, and Tax ID, or VAT number. These details are then displayed on your documents, such as on invoices."
-msgstr "通过此菜单，您可以添加公司的详细信息，例如名称，地址，商标，网站，电话号码，电子邮件地址以及税号或增值税号。 然后，这些详细信息将显示在您的文档（例如发票）上."
+msgstr "通过此菜单，您可以添加公司的详细信息，例如名称，地址，商标，网站，电话号码，电子邮件地址以及税号或增值税号。 然后，这些详细信息将显示在您的文档上（例如发票）."
 
-#, fuzzy
 msgid "Add your company's details in Odoo Accounting and Odoo Invoicing"
 msgstr "在Odoo Accounting和Odoo Invoicing中添加您公司的详细信息"
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:47
 msgid "You can also change these settings by going to :menuselection:`Settings --> General Settings --> Settings --> Companies` and clicking on **Update Info**."
-msgstr "您还可以通过以下方式更改这些设置 :menuselection:`设定 --> 常规设置 --> 设定 --> 然后` 点击 **更新信息** ."
+msgstr "您还可以通过以下方式更改这些设置 :menuselection:`设置 --> 常规设置 --> 设置 --> 公司` 点击 **更新信息** ."
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:53
 msgid "Bank Account"
@@ -11514,7 +11507,7 @@ msgstr "将您的银行帐户连接到数据库，并自动同步银行对帐单
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:59
 msgid ":doc:`Click here <../../bank/feeds/bank_synchronization>` for more information about this feature."
-msgstr ":doc:`点击此处<../../ bank / feeds / bank_synchronization>`了解有关此功能的更多信息."
+msgstr ":doc:`Click here <../../bank/feeds/bank_synchronization>` 了解有关此功能的更多信息."
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:61
 msgid "If your Bank Institution can’t be synchronized automatically, or if you prefer not to sync it with your database, you may also configure your bank account manually by clicking on *Create it*, and filling out the form."
@@ -11526,7 +11519,7 @@ msgstr "**名称** ：银行帐户的名称，如Odoo上所示。"
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:66
 msgid "**Account Number**: your bank account number (IBAN in Europe)."
-msgstr "**** ：您的银行帐号（欧洲的IBAN）."
+msgstr "**银行帐号** ：您的银行帐号（欧洲的IBAN）."
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:67
 msgid "**Bank**: click on *Create and Edit* to configure the bank's details. Add the bank institution's name and its Identifier Code (BIC or SWIFT)."
@@ -11540,7 +11533,7 @@ msgstr "**代码** ：此代码是您的日记帐的 *短代码* ，如Odoo所�
 msgid ""
 "**Journal**: This field is displayed if you have an existing Bank Journal that is not linked yet to a bank account. If so, then select the *Journal* you want to use to record the financial transactions linked to this bank "
 "account or create a new one by clicking on *Create and Edit*."
-msgstr "**记**: 如果您有尚未链接到银行帐户的现有银行日记帐，则会显示此字段。 如果是这样，选择要用于记录与此银行帐户关联的财务交易的 *日记帐* ，或通过单击 *创建和编辑* 创建一个新的。"
+msgstr "**日记账** : 如果您有尚未链接到银行帐户的现有银行日记帐，则会显示此字段。 如果是这样，选择要用于记录与此银行帐户关联的财务交易的 *日记帐* ，或通过单击 *创建和编辑* 创建一个新的。"
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:76
 msgid "You can add as many bank accounts as needed with this tool by going to :menuselection:`Accounting --> Configuration`, and clicking on *Add a Bank Account*."
@@ -11548,7 +11541,7 @@ msgstr "您可以使用此工具根据需要添加任意数量的银行帐户，
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:78
 msgid ":doc:`Click here <../../bank/setup/bank_accounts>` for more information about Bank Accounts."
-msgstr ":doc:`点击此处 <../../bank/setup/bank_accounts>` 了解有关银行帐户的更多信息."
+msgstr ":doc:`Click here <../../bank/setup/bank_accounts>` 了解有关银行帐户的更多信息."
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:84
 msgid "Accounting Periods"
@@ -11556,7 +11549,7 @@ msgstr "会计期间"
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:86
 msgid "Define here your **Fiscal Years**’ opening and closing dates, which are used to generate reports automatically, and your **Tax Return Periodicity**, along with a reminder to never miss a tax return deadline."
-msgstr "在此定义您的 **会计年度** 的开始和结束日期（用于自动生成报告）以及 **纳税申报周期**  ，并提醒您不要错过纳税申报截止日期."
+msgstr "在此定义您的 **会计年度** 的开始和结束日期（用于自动生成报告）以及 **纳税申报周期** ，并提醒您不要错过纳税申报截止日期."
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:90
 msgid "By default, the opening date is set on the 1st of January and the closing date on the 31st of December, as this is the most common use."
@@ -11564,7 +11557,7 @@ msgstr "默认情况下，开始日期设置为1月1日，结束日期设置为1
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:94
 msgid "You can also change these settings by going to :menuselection:`Accounting --> Configuration --> Settings --> Fiscal Periods` and updating the values."
-msgstr "您也可以通过:menuselection:`会计 --> 设置 --> 设定 --> 财政时期` 更新值来更改这些设置."
+msgstr "您也可以通过:menuselection:`会计 --> 配置 --> 设置 --> 期间` 更新值来更改这些设置."
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:102
 msgid "With this menu, you can add accounts to your **Chart of Accounts** and indicate their initial opening balances."
@@ -11574,7 +11567,6 @@ msgstr "使用此菜单，您可以将帐户添加到 **会计科目表** 中，
 msgid "Basic settings are displayed on this page to help you review your Chart of Accounts. To access all the settings of an account, click on the *double arrow button* at the end of the line."
 msgstr "基本设置显示在此页面上，以帮助您查看会计科目表。 要访问帐户的所有设置，请单击行末的 *双箭头按钮* ."
 
-#, fuzzy
 msgid "Setup of the Chart of Accounts and their opening balances in Odoo Accounting"
 msgstr "建立Odoo会计的账户图表和期初余额"
 
@@ -11600,7 +11592,6 @@ msgstr "如果您的数据库上安装了Odoo会计则可以通过：:menuselect
 msgid "The Invoicing onboarding banner is composed of four main steps:"
 msgstr "发票入门横幅由四个主要步骤组成："
 
-#, fuzzy
 msgid "Step-by-step onboarding banner in Odoo Invoicing"
 msgstr "在Odoo发票逐步登陆横幅"
 
@@ -11626,7 +11617,7 @@ msgstr "此表单与 :ref:`会计入门横幅中显示的表单相同 <accountin
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:148
 msgid "Invoice Layout"
-msgstr "结算单格式"
+msgstr "Invoice格式"
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:150
 msgid "With this tool, you can design the appearance of your documents by selecting which layout template, paper format, colors, font, and logo you want to use."
@@ -11636,9 +11627,8 @@ msgstr "使用此工具，您可以通过选择要使用的布局模板、纸张
 msgid ""
 "You can also add your *Company Tagline* and the content of the documents’ *footer*. Note that Odoo automatically adds the company's phone number, email, website URL, and Tax ID (or VAT number) to the footer, according to the "
 "values you previously configured in the :ref:`Company Data <accounting-setup-company>`."
-msgstr "您也可以添加 *公司标语* 和文档的 *页脚* 。 请注意，Odoo会根据您先前在公司数据中配置的信息，自动将公司的电话号码，电子邮件，网站URL和税号（或增值税号）添加到页脚中。 <accounting-setup-company>`."
+msgstr "您也可以添加 *公司标语* 和文档的 *页脚* 。 请注意，Odoo会根据您先前在公司数据中配置的信息，自动将公司的电话号码，电子邮件，网站URL和税号（或增值税号）添加到页脚中。 :ref:`Company Data <accounting-setup-company>` ."
 
-#, fuzzy
 msgid "Document layout configuration in Odoo Invoicing"
 msgstr "Odoo Invoicing中的文档布局配置"
 
@@ -11649,7 +11639,7 @@ msgstr "在页脚中添加您的 *银行帐号* 和 *通用期限和条件* 的�
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:168
 msgid "These settings can also be modified by going to :menuselection:`Settings --> General Settings`, under the *Business Documents* section."
-msgstr "这些设置也可以通过在 *业务文档* 部分下转到:menuselection:`“设置 --> 常规设置` 来修改."
+msgstr "这些设置也可以通过在 *业务文档* 部分下转到 :menuselection:`设置 --> 常规设置` 来修改."
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:174
 msgid "Payment Method"
@@ -11660,9 +11650,8 @@ msgid "This menu helps you configure the payment methods with which your custome
 msgstr "此菜单可帮助您配置客户的付款方式."
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:179
-#, fuzzy
 msgid "Configuring a *Payment Provider* with this tool also activates the *Invoice Online Payment* option automatically. With this, users can directly pay online, from their Customer Portal."
-msgstr "使用此工具配置*支付提供程序*也会自动激活*发票在线支付*选项。这样，用户就可以从他们的客户门户直接在线支付。"
+msgstr "使用此工具配置 *支付提供商* 也会自动激活 *发票在线支付* 选项。这样，用户就可以从他们的客户门户直接在线支付。"
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:185
 msgid "Sample Invoice"
@@ -11683,7 +11672,7 @@ msgstr ":doc:`chart_of_accounts`"
 
 #: ../../content/applications/finance/accounting/getting_started/initial_configuration/setup.rst:194
 msgid "`Odoo Tutorials: Accounting Basics <https://www.odoo.com/r/lsZ>`_"
-msgstr "\"Odoo教程：会计基础知识<https://www.odoo.com/r/lsZ>\"_"
+msgstr "`Odoo教程：会计基础知识<https://www.odoo.com/r/lsZ>`_"
 
 #: ../../content/applications/finance/accounting/getting_started/main_concept.rst:3
 msgid "Main accounting concepts"
@@ -11703,11 +11692,11 @@ msgstr "Odoo采用复式记账规则 : 所有日记账分录自动平衡（借�
 
 #: ../../content/applications/finance/accounting/getting_started/main_concept.rst:16
 msgid ":doc:`Understand Odoo's accounting transactions per document <memento>`"
-msgstr ":d oc：'了解Odoo的每份文件的会计交易 <memento>'</memento>"
+msgstr ":doc:`Understand Odoo's accounting transactions per document <memento>`"
 
 #: ../../content/applications/finance/accounting/getting_started/main_concept.rst:20
 msgid "Accrual and Cash Basis Methods"
-msgstr "权责发生制和现金收付制方法"
+msgstr "权责发生制和收付实现制方法"
 
 #: ../../content/applications/finance/accounting/getting_started/main_concept.rst:22
 msgid "Odoo supports both accrual and cash basis reporting. This allows you to report income / expense at the time transactions occur (i.e., accrual basis), or when payment is made or received (i.e., cash basis)."
@@ -11733,7 +11722,7 @@ msgstr "多币种"
 msgid ""
 "Every transaction is recorded in the default currency of the company. For transactions occurring in another currency, Odoo stores both the value in the currency of the company and the value in the currency of the transaction. "
 "Odoo can generate currencies gains and losses after the reconciliation of the journal items."
-msgstr "每一笔交易以公司的默认币种记录。对于以其他币种发生的交易, Odoo同时以公司的币种的价值，以及以交易币种的价值存储。 Odoo可以在分类账项目的调节后生成币种增益和损失."
+msgstr "每一笔交易以公司的默认币种记录。对于以其他币种发生的交易, Odoo同时以公司默认币种的值以及以当前交易币种的值存储。 Odoo可根据日记账分录自动生成对应币种的增益和损失（汇兑损益）."
 
 #: ../../content/applications/finance/accounting/getting_started/main_concept.rst:45
 msgid "Currency rates are updated once a day using a yahoo.com online web-service."
@@ -11755,7 +11744,7 @@ msgstr "特别是, Odoo 核心会计引擎支持 :"
 
 #: ../../content/applications/finance/accounting/getting_started/main_concept.rst:59
 msgid "Anglo-Saxon Accounting (U.S., U.K.,, and other English-speaking countries including Ireland, Canada, Australia, and New Zealand) where costs of good sold are reported when products are sold/delivered."
-msgstr "盎格鲁 - 撒克逊会计准则（美国、英国、以及爱尔兰、加拿大、澳大利亚和新西兰等其他英语国家）在产品售出/交付完成时报告销货成本."
+msgstr "盎格鲁 - 撒克逊会计（美国、英国、以及爱尔兰、加拿大、澳大利亚和新西兰等其他英语国家）在产品售出/交付完成时报告销货成本."
 
 #: ../../content/applications/finance/accounting/getting_started/main_concept.rst:63
 msgid "European accounting where expenses are accounted at the supplier bill."
@@ -11771,7 +11760,7 @@ msgstr "应收账款和应付账款"
 
 #: ../../content/applications/finance/accounting/getting_started/main_concept.rst:71
 msgid "By default, Odoo uses a single account for all account receivable entries and one for all accounts payable entries. You can create separate accounts per customers/suppliers, but you don't need to."
-msgstr "默认, odoo使用单一科目用于所有的应收账款分录，以及另外一个用于所有的应付账款分录。你可以每个客户/供应商创建独立的科目, 但是没有必要这样做."
+msgstr "默认情况下, odoo使用单一科目用于所有的应收账款分录，以及另外一个单一科目用于所有的应付账款分录。你可以每个客户/供应商创建独立的科目, 但是没有必要这样做."
 
 #: ../../content/applications/finance/accounting/getting_started/main_concept.rst:76
 msgid "As transactions are associated to customers or suppliers, you get reports to perform analysis per customer/supplier such as the customer statement, revenues per customers, aged receivable/payables, ..."
@@ -11828,7 +11817,7 @@ msgstr "Odoo通过匹配大部分导入的银行对帐单明细到你的会计�
 
 #: ../../content/applications/finance/accounting/getting_started/main_concept.rst:114
 msgid "Calculate the tax you owe your tax authority"
-msgstr "计算你欠税务机关的税金"
+msgstr "计算欠税务机关的税金"
 
 #: ../../content/applications/finance/accounting/getting_started/main_concept.rst:116
 msgid "Odoo totals all your accounting transactions for your tax period and uses these totals to calculate your tax obligation. You can then check your sales tax by running Odoo's Tax Report."
@@ -11844,11 +11833,11 @@ msgstr "Odoo支持定期(手动)以及永续(自动)库存估价。可用的成�
 
 #: ../../content/applications/finance/accounting/getting_started/main_concept.rst:128
 msgid ":doc:`View impact of the valuation method on your transactions </applications/inventory_and_mrp/inventory/management/reporting/inventory_valuation_config>`"
-msgstr ":d oc：'查看评估方法对交易</应用程序/inventory_and_mrp/库存/管理/报告/inventory_valuation_config>的影响”"
+msgstr ":doc:`查看评估方法对交易 </applications/inventory_and_mrp/inventory/management/reporting/inventory_valuation_config>`"
 
 #: ../../content/applications/finance/accounting/getting_started/main_concept.rst:132
 msgid "Easy retained earnings"
-msgstr "容易的留存收益"
+msgstr "轻松留存收益"
 
 #: ../../content/applications/finance/accounting/getting_started/main_concept.rst:134
 msgid ""
@@ -11858,7 +11847,7 @@ msgstr "留存收益是指企业留存的部分收入。Odoo实时自动计算�
 
 #: ../../content/applications/finance/accounting/getting_started/memento.rst:7
 msgid "Accounting cheat sheet"
-msgstr "会计备忘单"
+msgstr "Accounting cheat sheet"
 
 #: ../../content/applications/finance/accounting/getting_started/memento.rst:13
 msgid "The **Profit and Loss** (P&L) report shows the performance of the company over a specific period (usually the current year)."
@@ -12185,41 +12174,41 @@ msgstr "过程概述"
 
 #: ../../content/applications/finance/accounting/getting_started/process_overview/customer_invoice.rst:3
 msgid "From Customer Invoice to Payments Collection"
-msgstr "从客户发票到付款收集"
+msgstr "从客户发票到收付款"
 
 #: ../../content/applications/finance/accounting/getting_started/process_overview/customer_invoice.rst:5
 msgid ""
 "Odoo supports multiple invoicing and payment workflows, so you can choose and use the ones that match your business needs. Whether you want to accept a single payment for a single invoice, or process a payment spanning "
 "multiple invoices and taking discounts for early payments, you can do so efficiently and accurately."
-msgstr "Odoo支持多个发票和付款流程, 你可以选择和使用的匹配您的业务需求的流程。您是否想要接受一个付款对应一个发票,或一个付款涵盖, 或是现金折扣, 这样可以更高效、准确."
+msgstr "无论你是想接受一张发票的一次性付款，还是处理跨越多张发票的付款，并享受提前付款的折扣，您都可以高效准确地这样做。"
 
 #: ../../content/applications/finance/accounting/getting_started/process_overview/customer_invoice.rst:12
 msgid "From Draft Invoice to Profit and Loss"
-msgstr "从草稿发票到损益"
+msgstr "从草稿发票到利润表"
 
 #: ../../content/applications/finance/accounting/getting_started/process_overview/customer_invoice.rst:14
 msgid ""
 "If we pick up at the end of a typical 'order to cash' scenario, after the goods have been shipped, you will: issue an invoice; receive payment; deposit that payment at the bank; make sure the Customer Invoice is closed; follow "
 "up if Customers are late; and finally present your Income on the Profit and Loss report and show the decrease in Assets on the Balance Sheet report."
-msgstr "如果设置'以现金订购', 货物装船后,您将:开发票,收到付款, 存入银行; 确保销售发票已关闭;如果客户迟付, 跟踪处理; 最后将收入体现在损益表上, 将资产减少显示在资产负债表上."
+msgstr "如果设置“以现金订购”, 货物装船后,您将:开具发票、收到付款,、存入银行、确保销售发票已关闭、跟踪处理客户延迟付款, 最后将收入体现在损益表上, 将资产减少显示在资产负债表上."
 
 #: ../../content/applications/finance/accounting/getting_started/process_overview/customer_invoice.rst:21
 msgid ""
 "Invoicing in most countries occurs when a contractual obligation is met. If you ship a box to a customer, you have met the terms of the contract and can bill them. If your supplier sends you a shipment, they have met the terms "
 "of that contract and can bill you. Therefore, the terms of the contract is fulfilled when the box moves to or from the truck. At this point, Odoo supports the creation of what is called a Draft Invoice by Warehouse staff."
 msgstr ""
-"在大多数国家, 合同义务发生时开具发票。如果你将一个盒子发给客户, 你需要查看合同的条款, 然后开票。如果你的供应商给你发货, 需要查看合同的条款, 然后开票。因此, 在发货前, 应将合同条款填写完整。在这一点上, Odoo支持由仓库人员开具草稿"
-"发票."
+"在大多数国家，发票是在履行合同义务时发生的。如果将箱子寄给客户，则表示你已同意合同条款，并可以向他们收取费用。如果您的供应商向你发送货物，他们已同意该合同的条款，并可以向你收费。因此，当箱子进入或移动出卡车时，合同条款就会得到"
+"履行。在这一点上，Odoo支持仓库工作人员创建所谓的发票草案。"
 
 #: ../../content/applications/finance/accounting/getting_started/process_overview/customer_invoice.rst:32
 msgid "Draft invoices can be manually generated from other documents such as Sales Orders, Purchase Orders,etc. Although you can create a draft invoice directly if you would like."
-msgstr "可从其他文件手动创建草稿发票, 例如从销售订单,采购订单等。也可直接创建一个草稿发票."
+msgstr "发票草稿可以从销售订单、采购订单等其他文件中手动生成。如果你愿意，你可以直接创建发票草稿。"
 
 #: ../../content/applications/finance/accounting/getting_started/process_overview/customer_invoice.rst:36
 msgid ""
 "An invoice must be provided to the customer with the necessary information in order for them to pay for the goods and services ordered and delivered. It must also include other information needed to pay the invoice in a timely "
 "and precise manner."
-msgstr "发票上必须包含必要的信息,以便客户支付收到的商品和服务。它还必须包括其他信息, 如及时付款和精确付款的方式."
+msgstr "必须向客户提供发票，并附上必要的信息，以便他们支付订购和交付的商品和服务的费用。它还必须包括及时准确地支付发票所需的其他信息。"
 
 #: ../../content/applications/finance/accounting/getting_started/process_overview/customer_invoice.rst:42
 msgid "Draft invoices"
@@ -12231,7 +12220,7 @@ msgstr "最初生成的发票会进入草稿状态。然而这些发票"
 
 #: ../../content/applications/finance/accounting/getting_started/process_overview/customer_invoice.rst:47
 msgid "remain unvalidated, they have no accounting impact within the system. There is nothing to stop users from creating their own draft invoices."
-msgstr "如发票未审核, 不会影响会计。用户可以创建他们自己的草案发票, 这个没有限制."
+msgstr "发票未审核, 不会影响会计。用户可以创建他们自己的草案发票, 这个没有限制."
 
 #: ../../content/applications/finance/accounting/getting_started/process_overview/customer_invoice.rst:50
 msgid "Let's create a customer invoice with following information:"
@@ -12275,11 +12264,11 @@ msgstr "页面的底部有税的详细信息以及总计."
 
 #: ../../content/applications/finance/accounting/getting_started/process_overview/customer_invoice.rst:71
 msgid "Open or Pro-forma invoices"
-msgstr "打开或者形式发票"
+msgstr "未结发票或形式发票"
 
 #: ../../content/applications/finance/accounting/getting_started/process_overview/customer_invoice.rst:73
 msgid "An invoice will usually include the quantity and the price of goods and/or services, the date, any parties involved, the unique invoice number, and any tax information."
-msgstr "发票通常包括商品和/或服务的数量和价格、日期、客户、唯一的发票号码和税务信息."
+msgstr "发票通常包括商品和(或)服务的数量和价格、日期、客户、唯一的发票号码和税务信息."
 
 #: ../../content/applications/finance/accounting/getting_started/process_overview/customer_invoice.rst:77
 msgid "\"Validate\" the invoice when you are ready to approve it. The invoice then moves from the Draft state to the Open state."
@@ -12287,7 +12276,7 @@ msgstr "点击“验证”, 当发票已何时。发票将从草案状态转移�
 
 #: ../../content/applications/finance/accounting/getting_started/process_overview/customer_invoice.rst:80
 msgid "When you have validated an invoice, Odoo gives it a unique number from a defined, and modifiable, sequence."
-msgstr "当发票确认后, Odoo给它定义一个惟一的编号,可修改的序列号."
+msgstr "当验证发票时，Odoo会从定义和可修改的序列中给它一个唯一的数字。"
 
 #: ../../content/applications/finance/accounting/getting_started/process_overview/customer_invoice.rst:86
 msgid "Accounting entries corresponding to this invoice are automatically generated when you validate the invoice. You can see the details by clicking on the entry in the Journal Entry field in the \"Other Info\" tab."
