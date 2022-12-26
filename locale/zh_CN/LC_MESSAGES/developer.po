@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-29 03:23+0000\n"
-"PO-Revision-Date: 2022-12-26 18:10+0800\n"
+"PO-Revision-Date: 2022-12-26 18:14+0800\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/odoo-doc/developer/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -6681,7 +6681,7 @@ msgstr "第二章:开发环境设置"
 msgid ""
 "Depending on the intended use case, there are multiple ways to install Odoo. This tutorial will stick to the :ref:`source install <setup/install/source>` (:dfn:`running Odoo from the source code`), which is best "
 "suited for Odoo developers."
-msgstr "根据预期的用例，有多种安装Odoo的方法。本教程将使用 :ref:`source install <setup/install/source>` (dfn:`从源代码运行Odoo` )，这是最适合Odoo开发人员的方式。"
+msgstr "根据预期的用例，有多种安装Odoo的方法。本教程将使用 :ref:`source install <setup/install/source>` ( :dfn:`从源代码运行Odoo` )，这是最适合Odoo开发人员的方式。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:9
 msgid ""
@@ -6701,7 +6701,7 @@ msgstr "安装和配置Git"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:20
 msgid "The very first step of the installation process is to install the `Git version control system <https://git-scm.com/>`_ because the Odoo source code is managed on `GitHub <https://github.com/>`_."
-msgstr "安装过程的第一步是安装 `Git版本控制系统<https://git-scm.com/>`_ ，因为Odoo源代码是在 `GitHub <https://github.com/>`_ 上管理的。"
+msgstr "安装过程的第一步是安装 `Git版本控制系统 <https://git-scm.com/>`_ ，因为Odoo源代码是在 `GitHub <https://github.com/>`_ 上管理的。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:28
 msgid "Check if Git is installed by trying to print Git's version with the following command:"
@@ -6727,7 +6727,7 @@ msgstr "使用GitHub进行身份验证最简单的方法是使用SSH连接。使
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:53
 msgid "The following step-by-step procedure is based based on the `official GitHub documentation <https://docs.github.com/en/authentication/connecting-to-github-with-ssh>`_."
-msgstr "下面的步骤是基于 `官方GitHub文档<https://docs.github.com/en/authentication/connecting-to-github-with-ssh>`_ 。"
+msgstr "下面的步骤是基于 `官方GitHub文档 <https://docs.github.com/en/authentication/connecting-to-github-with-ssh>`_ 。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:56
 msgid "Generate a new SSH key, add it to the ssh-agent, and copy the SSH key to your clipboard."
@@ -6739,7 +6739,7 @@ msgstr "进入 `GitHub.com <https://github.com/>`_ ，然后点击页面右上�
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:70
 msgid "On the user settings sidebar, click on :guilabel:`SSH and GPG keys`."
-msgstr "在用户设置侧边栏，点击 :guilabel:` SSH和GPG密钥` 。"
+msgstr "在用户设置侧边栏，点击 :guilabel:`SSH和GPG密钥` 。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:74
 #, fuzzy
