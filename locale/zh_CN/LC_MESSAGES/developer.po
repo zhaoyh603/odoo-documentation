@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-29 03:23+0000\n"
-"PO-Revision-Date: 2022-12-22 13:51+0800\n"
+"PO-Revision-Date: 2022-12-26 18:10+0800\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/odoo-doc/developer/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -6418,164 +6418,133 @@ msgid ""
 msgstr "欢迎来到入门Odoo教程!如果您访问了此页面，则意味着您对开发自己的Odoo模块感兴趣。这也可能意味着你最近加入了Odoo公司，谋求一个相当技术性的职位。无论如何，您的Odoo技术之旅从这里开始。"
 
 #: ../../content/developer/howtos/rdtraining.rst:14
-#, fuzzy
 msgid "This training is split in two parts:"
 msgstr "本培训分为两部分:"
 
 #: ../../content/developer/howtos/rdtraining.rst:16
-#, fuzzy
 msgid ""
 "The first part is the :ref:`core training <howtos/rdtraining/core_training>`. Its objective is to give you an insight of the most important parts of the Odoo development framework. The chapters should be followed in "
 "their given order since they cover the development of a new Odoo application from scratch in an incremental way. In other words, each chapter depends on the previous one."
 msgstr ""
-"第一部分是:ref: ' core training <howtos/rdtraining/core_training> '。它的目的是让您了解Odoo开发框架最重要的部分。这些章节应该按照给定的顺序进行，因为它们以增量的方式覆盖了新的Odoo应用程序的从头开发。换句话说，每一章都"
-"依赖于前一章。"
+"第一部分是 :ref:`核心训练 <howtos/rdtraining/core_training>` 。它是让你了解Odoo开发框架最重要的部分。这些章节应该按照给定的顺序进行，因为它们以增量的方式覆盖了新的Odoo应用程序的从头开发。换句话说，每一章都依赖于前一"
+"章。"
 
 #: ../../content/developer/howtos/rdtraining.rst:20
-#, fuzzy
 msgid "The second part covers a set of :ref:`advanced topics <howtos/rdtraining/advanced_topics>`. Each topic can be followed independently, but requires the :ref:`core training <howtos/rdtraining/core_training>`."
-msgstr "第二部分涵盖一组:ref: ' advanced topics <howtos/rdtraining/advanced_topics> '。每个主题都可以独立跟随，但需要:ref: ' core training <howtos/rdtraining/core_training> '。"
+msgstr "第二部分涵盖一组 :ref:`advanced topics <howtos/rdtraining/advanced_topics>` 。每个主题都可以独立跟随，但需要:ref:`核心训练 <howtos/rdtraining/core_training>` 。"
 
 #: ../../content/developer/howtos/rdtraining.rst:25
-#, fuzzy
 msgid ""
 "Are you following this training as part of your technical onboarding as an Odoo employee? Then, we ask you to complete the first part of the training before joining your new team and the second part the month after."
-msgstr "您是否将此培训作为您作为Odoo员工的技术入职培训的一部分?然后，我们要求您在加入新团队之前完成第一部分的培训，并在加入后一个月完成第二部分的培训。"
+msgstr "您是否将此培训作为您作为Odoo员工的技术入职培训的一部分?然后，我们要求你在加入新团队之前完成第一部分的培训，并在加入后一个月完成第二部分的培训。"
 
 #: ../../content/developer/howtos/rdtraining.rst:29
-#, fuzzy
 msgid "All topics are built around a business case we will enhance along the way. The reader is expected to actively take part in the training by writing the solution for each exercise."
 msgstr "所有的主题都围绕着一个我们将不断增强的业务案例构建。期望读者通过为每个练习写解决方案来积极参与训练。"
 
 #: ../../content/developer/howtos/rdtraining.rst:32
-#, fuzzy
 msgid "Ready? Let's get started!"
 msgstr "准备好了吗?让我们开始吧!"
 
 #: ../../content/developer/howtos/rdtraining.rst:37
-#, fuzzy
 msgid "Core training"
 msgstr "核心训练"
 
 #: ../../content/developer/howtos/rdtraining.rst:47
-#, fuzzy
 msgid ":doc:`rdtraining/01_architecture`"
-msgstr ":医生:“rdtraining / 01 _architecture”"
+msgstr ":doc:`rdtraining/01_architecture`"
 
 #: ../../content/developer/howtos/rdtraining.rst:48
-#, fuzzy
 msgid ":doc:`rdtraining/02_setup`"
-msgstr ":医生:“rdtraining / 02 _setup”"
+msgstr ":doc:`rdtraining/02_setup`"
 
 #: ../../content/developer/howtos/rdtraining.rst:49
-#, fuzzy
 msgid ":doc:`rdtraining/03_newapp`"
-msgstr "博士:“rdtraining / 03_newapp”"
+msgstr ":doc:`rdtraining/03_newapp`"
 
 #: ../../content/developer/howtos/rdtraining.rst:50
-#, fuzzy
 msgid ":doc:`rdtraining/04_basicmodel`"
-msgstr ":医生:“rdtraining / 04 _basicmodel”"
+msgstr ":doc:`rdtraining/04_basicmodel`"
 
 #: ../../content/developer/howtos/rdtraining.rst:51
-#, fuzzy
 msgid ":doc:`rdtraining/05_securityintro`"
-msgstr ":医生:“rdtraining / 05 _securityintro”"
+msgstr ":doc:`rdtraining/05_securityintro`"
 
 #: ../../content/developer/howtos/rdtraining.rst:52
-#, fuzzy
 msgid ":doc:`rdtraining/06_firstui`"
-msgstr "博士:“rdtraining / 06_firstui”"
+msgstr ":doc:`rdtraining/06_firstui`"
 
 #: ../../content/developer/howtos/rdtraining.rst:53
-#, fuzzy
 msgid ":doc:`rdtraining/07_basicviews`"
-msgstr "博士:“rdtraining / 07_basicviews”"
+msgstr ":doc:`rdtraining/07_basicviews`"
 
 #: ../../content/developer/howtos/rdtraining.rst:54
-#, fuzzy
 msgid ":doc:`rdtraining/08_relations`"
-msgstr ":医生:“rdtraining / 08 _relations”"
+msgstr ":doc:`rdtraining/08_relations`"
 
 #: ../../content/developer/howtos/rdtraining.rst:55
-#, fuzzy
 msgid ":doc:`rdtraining/09_compute_onchange`"
-msgstr ":医生:“rdtraining / 09 _compute_onchange”"
+msgstr ":doc:`rdtraining/09_compute_onchange`"
 
 #: ../../content/developer/howtos/rdtraining.rst:56
-#, fuzzy
 msgid ":doc:`rdtraining/10_actions`"
-msgstr ":医生:“rdtraining / 10 _actions”"
+msgstr ":doc:`rdtraining/10_actions`"
 
 #: ../../content/developer/howtos/rdtraining.rst:57
-#, fuzzy
 msgid ":doc:`rdtraining/11_constraints`"
-msgstr ":医生:“rdtraining / 11 _constraints”"
+msgstr ":doc:`rdtraining/11_constraints`"
 
 #: ../../content/developer/howtos/rdtraining.rst:58
-#, fuzzy
 msgid ":doc:`rdtraining/12_sprinkles`"
-msgstr ":医生:“rdtraining / 12 _sprinkles”"
+msgstr ":doc:`rdtraining/12_sprinkles`"
 
 #: ../../content/developer/howtos/rdtraining.rst:59
-#, fuzzy
 msgid ":doc:`rdtraining/13_inheritance`"
-msgstr ":医生:“rdtraining / 13 _inheritance”"
+msgstr ":doc:`rdtraining/13_inheritance`"
 
 #: ../../content/developer/howtos/rdtraining.rst:60
-#, fuzzy
 msgid ":doc:`rdtraining/14_other_module`"
-msgstr ":医生:“rdtraining / 14 _other_module”"
+msgstr ":doc:`rdtraining/14_other_module`"
 
 #: ../../content/developer/howtos/rdtraining.rst:61
-#, fuzzy
 msgid ":doc:`rdtraining/15_qwebintro`"
-msgstr ":医生:“rdtraining / 15 _qwebintro”"
+msgstr ":doc:`rdtraining/15_qwebintro`"
 
 #: ../../content/developer/howtos/rdtraining.rst:62
-#, fuzzy
 msgid ":doc:`rdtraining/16_guidelines_pr`"
-msgstr ":医生:“rdtraining / 16 _guidelines_pr”"
+msgstr ":doc:`rdtraining/16_guidelines_pr`"
 
 #: ../../content/developer/howtos/rdtraining.rst:67
-#, fuzzy
 msgid "Advanced topics"
-msgstr "高级的主题"
+msgstr "高级主题"
 
 #: ../../content/developer/howtos/rdtraining.rst:81
-#, fuzzy
 msgid ":doc:`rdtraining/B_acl_irrules`"
-msgstr ":医生:“rdtraining / B_acl_irrules”"
+msgstr ":doc:`rdtraining/B_acl_irrules`"
 
 #: ../../content/developer/howtos/rdtraining.rst:82
-#, fuzzy
 msgid ":doc:`rdtraining/C_data`"
-msgstr ":医生:“rdtraining / C_data”"
+msgstr ":doc:`rdtraining/C_data`"
 
 #: ../../content/developer/howtos/rdtraining.rst:83
-#, fuzzy
 msgid ":doc:`rdtraining/D_mixins`"
-msgstr ":医生:“rdtraining / D_mixins”"
+msgstr ":doc:`rdtraining/D_mixins`"
 
 #: ../../content/developer/howtos/rdtraining.rst:84
-#, fuzzy
 msgid ":doc:`rdtraining/E_unittest`"
-msgstr "博士:“rdtraining / E_unittest”"
+msgstr ":doc:`rdtraining/E_unittest`"
 
 #: ../../content/developer/howtos/rdtraining.rst:85
-#, fuzzy
 msgid ":doc:`rdtraining/J_reports`"
-msgstr ":医生:“rdtraining / J_reports”"
+msgstr ":doc:`rdtraining/J_reports`"
 
 #: ../../content/developer/howtos/rdtraining.rst:86
-#, fuzzy
 msgid ":doc:`rdtraining/K_dashboard`"
-msgstr ":医生:“rdtraining / K_dashboard”"
+msgstr ":doc:`rdtraining/K_dashboard`"
 
 #: ../../content/developer/howtos/rdtraining.rst:87
-#, fuzzy
 msgid ":doc:`rdtraining/N_security`"
-msgstr ":医生:“rdtraining / N_security”"
+msgstr ":doc:`rdtraining/N_security`"
 
 #: ../../content/developer/howtos/rdtraining/01_architecture.rst:5
 msgid "Chapter 1: Architecture Overview"
@@ -6663,18 +6632,16 @@ msgid "XML or CSV files declaring the model data:"
 msgstr "使用XML或CSV文件声明模型数据:"
 
 #: ../../content/developer/howtos/rdtraining/01_architecture.rst:82
-#, fuzzy
 msgid "Images, CSS or JavaScript files used by the web interface or website"
 msgstr "网页界面或网站使用的图像、CSS或JavaScript文件"
 
 #: ../../content/developer/howtos/rdtraining/01_architecture.rst:84
-#, fuzzy
 msgid ""
 "None of these elements are mandatory. Some modules may only add data files (e.g. country-specific accounting configuration), while others may only add business objects. During this training, we will create business "
 "objects, object views and data files. :ref:`Web controllers <howto/rdtraining/G_website>` and :ref:`static web data <howto/rdtraining/I_jswidget>` are advanced topics."
 msgstr ""
-"这些元素都不是强制性的。有些模块可能只添加数据文件(例如，特定国家的会计配置)，而其他模块可能只添加业务对象。在培训期间，我们将创建业务对象、对象视图和数据文件。:ref: ' Web controllers <howto/rdtraining/G_website> '和:"
-"ref: ' static Web data <howto/rdtraining/I_jswidget> '是高级主题。"
+"这些元素都不是强制性的。有些模块可能只添加数据文件(例如特定国家的会计配置)，而其他模块可能只添加业务对象。在培训期间，我们将创建业务对象、对象视图和数据文件。:ref: `Web controllers <howto/rdtraining/G_website>` 和 :"
+"ref: `static Web data <howto/rdtraining/I_jswidget>` 是高级主题。"
 
 #: ../../content/developer/howtos/rdtraining/01_architecture.rst:99
 #, fuzzy
@@ -6707,87 +6674,72 @@ msgid ""
 msgstr "准备好开始了吗?在编写实际代码之前，让我们转到:doc: ' next chapter <02_setup> '来回顾Odoo的安装过程。即使Odoo已经在您的系统上运行，我们强烈建议您阅读本章，以确保我们在开发新应用程序的过程中从相同的页面开始。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:3
-#, fuzzy
 msgid "Chapter 2: Development environment setup"
 msgstr "第二章:开发环境设置"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:5
-#, fuzzy
 msgid ""
 "Depending on the intended use case, there are multiple ways to install Odoo. This tutorial will stick to the :ref:`source install <setup/install/source>` (:dfn:`running Odoo from the source code`), which is best "
 "suited for Odoo developers."
-msgstr "根据预期的用例，有多种安装Odoo的方法。本教程将坚持使用:ref: ' source install <setup/install/source> ' (:dfn: '从源代码运行Odoo ')，这是最适合Odoo开发人员的。"
+msgstr "根据预期的用例，有多种安装Odoo的方法。本教程将使用 :ref:`source install <setup/install/source>` (dfn:`从源代码运行Odoo` )，这是最适合Odoo开发人员的方式。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:9
-#, fuzzy
 msgid ""
 "Throughout this document, we assume that you are installing your development environment on a laptop provided by Odoo with Linux Mint installed and up-to-date. If that is not the case, switch to the :guilabel:"
 "`Windows` or :guilabel:`Mac OS` tab if any section of the installation guide, depending on which OS you are on. The steps remain essentially the same."
 msgstr ""
-"在本文中，我们假设您正在Odoo提供的笔记本电脑上安装开发环境，并安装了最新的Linux Mint。如果不是这样，根据安装指南的任何部分，切换到:guilabel: ' Windows '或:guilabel: ' Mac OS '选项卡，这取决于你使用的是哪种操作系统。步"
-"骤基本上是一样的。"
+"在本文中，我们假设您正在Odoo提供的笔记本电脑上安装开发环境，并安装了最新的Linux Mint。如果不是这样，根据安装指南的任何部分，切换到 :guilabel:`Windows` or :guilabel:`Mac OS` 选项卡，这取决于你使用的是哪种操作系统。步骤"
+"基本上是一样的。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:15
-#, fuzzy
 msgid "Set up Git"
 msgstr "设置Git"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:18
-#, fuzzy
 msgid "Install and configure Git"
 msgstr "安装和配置Git"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:20
-#, fuzzy
 msgid "The very first step of the installation process is to install the `Git version control system <https://git-scm.com/>`_ because the Odoo source code is managed on `GitHub <https://github.com/>`_."
-msgstr "安装过程的第一步是安装' Git版本控制系统<https://git-scm.com/> ' _，因为Odoo源代码是在' GitHub <https://github.com/> ' _上管理的。"
+msgstr "安装过程的第一步是安装 `Git版本控制系统<https://git-scm.com/>`_ ，因为Odoo源代码是在 `GitHub <https://github.com/>`_ 上管理的。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:28
-#, fuzzy
 msgid "Check if Git is installed by trying to print Git's version with the following command:"
 msgstr "用下面的命令打印Git的版本，检查Git是否已经安装:"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:34
-#, fuzzy
 msgid "Once installed, register your name and email:"
 msgstr "安装完成后，请注册您的姓名和邮箱:"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:42
-#, fuzzy
 msgid "Configure GitHub"
 msgstr "配置GitHub"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:44
-#, fuzzy
 msgid ""
 "You need a GitHub account to fetch the sources and contribute to Odoo's development. If you don't have one yet, create it. For the username, we recommend using your trigram \"xyz\" (or quadrigam) followed by '-odoo': "
 "'xyz-odoo'."
-msgstr "您需要一个GitHub帐户来获取源代码并为Odoo的开发做出贡献。如果你还没有，创建一个。对于用户名，我们建议使用“xyz”(或四边形)后接“-odoo”:“xyz-odoo”。"
+msgstr "您需要一个GitHub帐户来获取源代码并为Odoo的开发做出贡献。如果你还没有，创建一个。对于用户名，我们建议使用“xyz”(或quadrigam)后接 “-odoo”: “xyz-odoo”。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:48
-#, fuzzy
 msgid "The easiest way to authenticate with GitHub is to use an SSH connection. Using SSH authentication allows you to connect to GitHub without supplying your username and password every time you type a command."
 msgstr "使用GitHub进行身份验证最简单的方法是使用SSH连接。使用SSH身份验证允许您连接到GitHub，而不必在每次键入命令时提供用户名和密码。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:53
-#, fuzzy
 msgid "The following step-by-step procedure is based based on the `official GitHub documentation <https://docs.github.com/en/authentication/connecting-to-github-with-ssh>`_."
-msgstr "下面的步骤是基于“官方GitHub文档<https://docs.github.com/en/authentication/connecting-to-github-with-ssh> ' _”。"
+msgstr "下面的步骤是基于 `官方GitHub文档<https://docs.github.com/en/authentication/connecting-to-github-with-ssh>`_ 。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:56
-#, fuzzy
 msgid "Generate a new SSH key, add it to the ssh-agent, and copy the SSH key to your clipboard."
 msgstr "生成一个新的SSH密钥，将其添加到SSH -agent，并将SSH密钥复制到剪贴板。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:65
-#, fuzzy
 msgid "Go to `GitHub.com <https://github.com/>`_, then click on your profile picture in the upper-right corner of the page and then on :guilabel:`Settings`."
-msgstr "进入' GitHub.com <https://github.com/> ' _，然后点击页面右上角的个人资料图片，然后点击:guilabel: ' Settings '。"
+msgstr "进入 `GitHub.com <https://github.com/>`_ ，然后点击页面右上角的个人资料图片，然后点击 :guilabel:`Settings`。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:70
-#, fuzzy
 msgid "On the user settings sidebar, click on :guilabel:`SSH and GPG keys`."
-msgstr "在用户设置侧边栏，点击:guilabel: ' SSH和GPG密钥'。"
+msgstr "在用户设置侧边栏，点击 :guilabel:` SSH和GPG密钥` 。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:74
 #, fuzzy
