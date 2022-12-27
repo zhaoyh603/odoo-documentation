@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Odoo 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-29 03:23+0000\n"
-"PO-Revision-Date: 2022-12-26 18:14+0800\n"
+"PO-Revision-Date: 2022-12-27 11:07+0800\n"
 "Last-Translator: zhao yonghui <zhaoyh603@163.com>\n"
 "Language-Team: Chinese (Simplified) <http://h.oeerp.com:8089/projects/odoo-doc/developer/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -6742,131 +6742,108 @@ msgid "On the user settings sidebar, click on :guilabel:`SSH and GPG keys`."
 msgstr "在用户设置侧边栏，点击 :guilabel:`SSH和GPG密钥` 。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:74
-#, fuzzy
 msgid "Click on :guilabel:`New SSH key` or on :guilabel:`Add SSH key`."
-msgstr "点击:guilabel:“新的SSH密钥”或点击:guilabel:“添加SSH密钥”。"
+msgstr "点击 :guilabel:`New SSH key` 或点击 :guilabel:`Add SSH key` 。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:78
-#, fuzzy
 msgid "In the :guilabel:`Title` field, add a descriptive label for the new key."
-msgstr "在:guilabel: ' Title '字段中，为新键添加一个描述性标签。"
+msgstr "在 :guilabel:`Title` 字段中，为新键添加一个描述性标签。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:79
-#, fuzzy
 msgid "Paste your key into the :guilabel:`Key` field."
-msgstr "将你的键粘贴到:guilabel: ' key '字段中。"
+msgstr "将你的键粘贴到 :guilabel:`Key` 字段中。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:83
-#, fuzzy
 msgid "Click on :guilabel:`Add SSH key`."
-msgstr "点击:guilabel:“添加SSH密钥”。"
+msgstr "点击 :guilabel:`Add SSH key`。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:86
 msgid "Fetch the sources"
 msgstr "获取源代码"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:88
-#, fuzzy
 msgid "It is time to fetch the source code of Odoo. First, let's create a home for the Git repositories in :file:`$HOME/src/`."
-msgstr "是时候获取Odoo的源代码了。首先，让我们在:file: ' $ home /src/ '中为Git存储库创建一个home。"
+msgstr "是时候获取Odoo的源代码了。首先，让我们在 :file:`$HOME/src/` 中为Git存储库创建一个home。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:96
-#, fuzzy
 msgid "Then, clone the two repositories with SSH as explained in the :ref:`Installing Odoo guide <setup/install/source/git>`."
-msgstr "然后，用SSH克隆两个存储库，如:ref: ' Installing Odoo guide <setup/install/source/git> '中解释的那样。"
+msgstr "然后，用SSH克隆两个存储库，如 :ref:`Installing Odoo guide <setup/install/source/git>` 中解释的那样。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:100
-#, fuzzy
 msgid "Cloning the repositories will take a while, enjoy a cup of coffee while you wait."
 msgstr "克隆存储库将需要一段时间，在等待的时候享受一杯咖啡。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:105
-#, fuzzy
 msgid "Configure the Git repositories"
 msgstr "配置Git存储库"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:107
-#, fuzzy
 msgid ""
 "To contribute to an Odoo repository, you first need to `fork it <https://docs.github.com/en/get-started/quickstart/contributing-to-projects>`_, then create a branch containing your changes on the fork, and finally "
 "submit a `Pull Request <https://docs.github.com/en/get-started/quickstart/github-glossary#pull-request>`_ to the repository."
 msgstr ""
-"要向Odoo存储库贡献内容，您首先需要“fork it <https://docs.github.com/en/get-started/quickstart/contributing-to-projects>”_，然后创建一个包含您在fork上的更改的分支，最后向存储库提交一个“Pull Request <https://docs.github."
-"com/en/get-started/quickstart/github-glossary#pull-request>”_。"
+"要向Odoo存储库贡献内容，您首先需要 `fork it <https://docs.github.com/en/get-started/quickstart/contributing-to-projects>`_ ，然后创建一个包含您在fork上的更改的分支，最后向存储库提交一个 `Pull Request <https://docs."
+"github.com/en/get-started/quickstart/github-glossary#pull-request>`_ 。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:114
-#, fuzzy
 msgid "If you are lucky enough to work at Odoo, the forks already exist. They are hosted on https://github.com/odoo-dev/odoo and https://github.com/odoo-dev/enterprise."
-msgstr "如果你有幸在Odoo工作，你会发现叉子已经存在了。它们托管在https://github.com/odoo-dev/odoo和https://github.com/odoo-dev/enterprise上。"
+msgstr "如果你有幸在Odoo工作，你会发现forks已经存在了。它们托管在https://github.com/odoo-dev/odoo和https://github.com/odoo-dev/enterprise上。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:117
-#, fuzzy
 msgid "After your two forks are created, their remote address can be added in your local repositories. In the commands below, replace `odoo-dev/odoo` and `odoo-dev/enterprise` with the name of your forks if needed."
-msgstr "创建两个分叉后，可以将它们的远程地址添加到本地存储库中。在下面的命令中，如果需要，将' doo-dev/odoo '和' doo-dev/enterprise '替换为您的fork的名称。"
+msgstr "创建两个分叉后，可以将它们的远程地址添加到本地存储库中。在下面的命令中，如果需要，将 `doo-dev/odoo` 和 `doo-dev/enterprise` 替换为您的fork的名称。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:134
-#, fuzzy
 msgid "Install the dependencies"
 msgstr "安装的依赖关系"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:136
-#, fuzzy
 msgid ""
 "As seen in :ref:`howto/rdtraining/01_architecture`, Odoo's server runs on Python and uses PostgreSQL as an RDBMS. In the context of a development machine, the easiest approach is to install everything locally. To do "
 "so, follow once again the :ref:`Installing Odoo guide <setup/install/source/prepare>`."
 msgstr ""
-"如:ref: ' howto/rdtraining/01_architecture '所示，Odoo的服务器运行在Python上，使用PostgreSQL作为RDBMS。在开发机器的上下文中，最简单的方法是在本地安装所有内容。为此，再次遵循:ref: ' Installing Odoo guide <setup/install/"
-"source/prepare> '。"
+"如 :ref:`howto/rdtraining/01_architecture` 所示，Odoo的服务器运行在Python上，使用PostgreSQL作为RDBMS。在开发机器的上下文中，最简单的方法是在本地安装所有内容。为此，再次遵循 :ref:`Installing Odoo guide <setup/install/"
+"source/prepare>` 。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:142
-#, fuzzy
 msgid "Some useful SQL commands:"
 msgstr "一些有用的SQL命令:"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:156
-#, fuzzy
 msgid "Run the server"
 msgstr "运行服务器"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:159
-#, fuzzy
 msgid "Launch with `odoo-bin`"
-msgstr "发射与“odoo-bin”"
+msgstr "Launch with `odoo-bin`"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:161
-#, fuzzy
 msgid "Once all dependencies are set up, Odoo can be launched by running `odoo-bin`, the command-line interface of the server."
-msgstr "一旦所有的依赖都设置好了，Odoo可以通过运行“doo-bin”启动，这是服务器的命令行界面。"
+msgstr "一旦所有的依赖都设置好了，Odoo可以通过运行 `odoo-bin` 启动，这是服务器的命令行界面。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:169
-#, fuzzy
 msgid "There are multiple :ref:`command-line arguments <reference/cmdline/server>` that you can use to run the server. In this training you will only need some of them."
-msgstr "有多个:ref: '命令行参数<reference/cmdline/server> '可以用来运行服务器。在本次培训中，您只需要其中一些。"
+msgstr "有多个 :ref:`command-line arguments <reference/cmdline/server>` 可以用来运行服务器。在本次培训中，您只需要其中一些。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:174
-#, fuzzy
 msgid "The database that is going to be used."
 msgstr "将要使用的数据库。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:178
-#, fuzzy
 msgid "A comma-separated list of directories in which modules are stored. These directories are scanned for modules."
 msgstr "用逗号分隔的存储模块的目录列表。扫描这些目录以查找模块。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:183
-#, fuzzy
 msgid "Prevent the worker from using more than <limit> CPU seconds for each request."
-msgstr "防止worker为每个请求使用超过<限制> CPU秒。"
+msgstr "防止worker为每个请求使用超过<限制> 的CPU时间。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:187
-#, fuzzy
 msgid "Prevent the worker from taking longer than <limit> seconds to process a request."
-msgstr "防止worker处理请求的时间超过<limit>秒。"
+msgstr "防止worker处理请求的时间超过 <limit> 时间。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst:190
-#, fuzzy
 msgid "The :option:`--limit-time-cpu` and :option:`--limit-time-real` arguments can be used to prevent the worker from being killed when debugging the source code."
-msgstr "参数:option: '——limit-time-cpu '和:option: '——limit-time-real '可用于在调试源代码时防止worker被杀死。"
+msgstr "参数 :option:`--limit-time-cpu` 和 :option:`--limit-time-real` 可用于在调试源代码时防止worker被杀死。"
 
 #: ../../content/developer/howtos/rdtraining/02_setup.rst
 #, fuzzy
